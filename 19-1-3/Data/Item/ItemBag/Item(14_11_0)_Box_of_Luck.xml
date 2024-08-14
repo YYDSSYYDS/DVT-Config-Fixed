@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf - 8"?>
+<!--
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==   File Name: Item(14_11_0)_Box_of_Luck.xml           ==
+// ============================================================
+-->
+
+<ItemBag>
+	<Item Sort="2" ItemCat="54" ItemIndex="0" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="2500" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="1" AncientOptionMin="0" AncientOptionMax="2" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="500" FireWork="0" Group="1" Duration="0" />
+</ItemBag>

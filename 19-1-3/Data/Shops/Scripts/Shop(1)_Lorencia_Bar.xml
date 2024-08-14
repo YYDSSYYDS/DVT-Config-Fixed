@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==   File Name: Shop(1)_Lorencia_Bar           ==
+// ============================================================
+-->
+
+<ShopItem>
+	<Tab Id="1">
+		<Item ItemCat="13" ItemIndex="128" ItemLevel="0" ItemDur="1" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="100" ID="元素符文" />
+		<Item ItemCat="12" ItemIndex="288" ItemLevel="0" ItemDur="20" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="100" ID="元素符文" />
+		<Item ItemCat="12" ItemIndex="401" ItemLevel="0" ItemDur="20" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="100" ID="光之石强化符文" />
+		<Item ItemCat="14" ItemIndex="3" ItemLevel="0" ItemDur="255" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="大瓶治疗药水" />
+		<Item ItemCat="14" ItemIndex="6" ItemLevel="0" ItemDur="255" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="大瓶魔力药水" />
+		<Item ItemCat="14" ItemIndex="37" ItemLevel="0" ItemDur="255" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="大防护药水" />
+		<Item ItemCat="14" ItemIndex="40" ItemLevel="0" ItemDur="255" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="大生命圣水" />
+		<Item ItemCat="14" ItemIndex="7" ItemLevel="0" ItemDur="255" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="攻城药水" />
+		<Item ItemCat="14" ItemIndex="8" ItemLevel="0" ItemDur="255" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="解毒剂" />
+		<Item ItemCat="12" ItemIndex="145" ItemLevel="0" ItemDur="1" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="元素粉末" />
+		<Item ItemCat="13" ItemIndex="31" ItemLevel="0" ItemDur="1" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="10000" ID="天鹰之魂" />
+
+		<Item ItemCat="13" ItemIndex="54" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="力量洗点果实" />
+		<Item ItemCat="13" ItemIndex="55" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="敏捷洗点果实" />
+		<Item ItemCat="13" ItemIndex="56" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="体力洗点果实" />
+		<Item ItemCat="13" ItemIndex="57" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="智力洗点果实" />
+		<Item ItemCat="13" ItemIndex="58" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="统率洗点果实" />
+		<Item ItemCat="13" ItemIndex="177" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="提高符咒 I" />
+
+		<Item ItemCat="14" ItemIndex="9" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="酒" />
+		<Item ItemCat="14" ItemIndex="45" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="幸运南瓜" />
+		<Item ItemCat="14" ItemIndex="112" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="银钥匙" />
+		<!-- <Item ItemCat="14" ItemIndex="100" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="幸运铜币" /> -->
+		<Item ItemCat="13" ItemIndex="1" ItemLevel="0" ItemDur="255" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="小恶魔" />
+		<Item ItemCat="13" ItemIndex="32" ItemLevel="0" ItemDur="20" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="破烂的铠甲片" />
+		<Item ItemCat="13" ItemIndex="33" ItemLevel="0" ItemDur="20" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="女神的灵智" />
+		<Item ItemCat="13" ItemIndex="34" ItemLevel="0" ItemDur="10" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="猛兽的脚甲" />
+		<Item ItemCat="14" ItemIndex="84" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="樱花游戏箱" />
+		<Item ItemCat="14" ItemIndex="113" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="金钥匙" />
+		<Item ItemCat="14" ItemIndex="413" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="奇迹的铜币" />
+		<Item ItemCat="13" ItemIndex="3" ItemLevel="0" ItemDur="255" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="彩云兽" />
+		<Item ItemCat="13" ItemIndex="41" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="圣诞变身指环" />
+		<Item ItemCat="13" ItemIndex="39" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="骷髅战士变身指环" />
+		<Item ItemCat="13" ItemIndex="170" ItemLevel="0" ItemDur="255" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="祝福新年戒指" />
+		<Item ItemCat="13" ItemIndex="82" ItemLevel="0" ItemDur="255" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="装备保护符咒" />
+
+		<Item ItemCat="4" ItemIndex="7" ItemLevel="0" ItemDur="255" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="弩箭" />
+		<Item ItemCat="4" ItemIndex="15" ItemLevel="0" ItemDur="255" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="弓箭" />
+	</Tab>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+	<Tab Id="2">
+		<Item ItemCat="13" ItemIndex="152" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="绿色忘却卷轴" />
+		<Item ItemCat="13" ItemIndex="153" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="蓝色忘却卷轴" />
+		<Item ItemCat="13" ItemIndex="154" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="红色忘却卷轴" />
+		<Item ItemCat="13" ItemIndex="509" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="遗忘卷轴" />
+
+		<Item ItemCat="13" ItemIndex="51" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血的卷纸" />
+		<Item ItemCat="13" ItemIndex="18" ItemLevel="1" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="透明披风1" />
+		<Item ItemCat="13" ItemIndex="18" ItemLevel="2" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="透明披风2" />
+		<Item ItemCat="13" ItemIndex="18" ItemLevel="3" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="透明披风3" />
+		<Item ItemCat="13" ItemIndex="18" ItemLevel="4" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="透明披风4" />
+		<Item ItemCat="13" ItemIndex="18" ItemLevel="5" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="透明披风5" />
+		<Item ItemCat="13" ItemIndex="18" ItemLevel="6" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="透明披风6" />
+		<Item ItemCat="13" ItemIndex="18" ItemLevel="7" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="透明披风7" />
+
+		<Item ItemCat="14" ItemIndex="19" ItemLevel="1" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="恶魔广场通行证1" />
+		<Item ItemCat="14" ItemIndex="19" ItemLevel="2" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="恶魔广场通行证2" />
+		<Item ItemCat="14" ItemIndex="19" ItemLevel="3" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="恶魔广场通行证3" />
+		<Item ItemCat="14" ItemIndex="19" ItemLevel="4" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="恶魔广场通行证4" />
+		<Item ItemCat="14" ItemIndex="19" ItemLevel="5" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="恶魔广场通行证5" />
+		<Item ItemCat="14" ItemIndex="19" ItemLevel="6" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="恶魔广场通行证6" />
+		<Item ItemCat="14" ItemIndex="19" ItemLevel="7" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="恶魔广场通行证7" />
+		<Item ItemCat="13" ItemIndex="38" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="悬石" />
+
+		<Item ItemCat="14" ItemIndex="28" ItemLevel="1" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="失落的地图1" />
+		<Item ItemCat="14" ItemIndex="28" ItemLevel="2" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="失落的地图2" />
+		<Item ItemCat="14" ItemIndex="28" ItemLevel="3" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="失落的地图3" />
+		<Item ItemCat="14" ItemIndex="28" ItemLevel="4" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="失落的地图4" />
+		<Item ItemCat="14" ItemIndex="28" ItemLevel="5" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="失落的地图5" />
+		<Item ItemCat="14" ItemIndex="28" ItemLevel="6" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="失落的地图6" />
+		<Item ItemCat="14" ItemIndex="28" ItemLevel="7" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="失落的地图7" />
+		<Item ItemCat="14" ItemIndex="430" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="艾琳娜的书信" />
+
+		<Item ItemCat="14" ItemIndex="453" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="switch卷轴" />
+		<Item ItemCat="13" ItemIndex="29" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="卫兵铠甲" />
+		<Item ItemCat="13" ItemIndex="146" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="精灵地图" />
+		<Item ItemCat="13" ItemIndex="66" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="圣诞之地入场券" />
+		<Item ItemCat="14" ItemIndex="102" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="凯文的指令" />
+		<Item ItemCat="14" ItemIndex="109" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="完整的希克拉" />
+
+
+
+		<Item ItemCat="14" ItemIndex="431" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="时空之钥匙" />
+		<Item ItemCat="14" ItemIndex="111" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="次元魔镜" />
+		<Item ItemCat="14" ItemIndex="21" ItemLevel="0" ItemDur="255" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="奇迹通宝" />
+	</Tab>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+	<Tab Id="3">
+	<!-- 魔法师 -->
+		<Item ItemCat="15" ItemIndex="003" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="火球术" />
+		<Item ItemCat="15" ItemIndex="010" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="真空波术" />
+		<Item ItemCat="15" ItemIndex="002" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="掌心雷术" />
+		<Item ItemCat="15" ItemIndex="005" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="瞬间移动术" />
+		<Item ItemCat="15" ItemIndex="001" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="陨石术" />
+		<Item ItemCat="15" ItemIndex="006" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="冰封术" />
+		<Item ItemCat="15" ItemIndex="000" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="毒咒术" />
+		<Item ItemCat="15" ItemIndex="004" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="火龙术" />
+		<Item ItemCat="15" ItemIndex="007" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="龙卷风术" />
+		<Item ItemCat="15" ItemIndex="008" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="黑龙波术" />
+		<Item ItemCat="15" ItemIndex="009" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="地狱火术" />
+		<Item ItemCat="15" ItemIndex="011" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="极光术" />
+		<Item ItemCat="15" ItemIndex="015" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="守护之魂术" />
+		<Item ItemCat="15" ItemIndex="012" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="爆炎术" />
+		<Item ItemCat="15" ItemIndex="014" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="小挪移术" />
+		<Item ItemCat="15" ItemIndex="013" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="毁灭烈焰术" />
+		<Item ItemCat="15" ItemIndex="017" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="暴风雪术" />
+		<Item ItemCat="15" ItemIndex="016" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="单毒炎术" />
+		<Item ItemCat="15" ItemIndex="018" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="星辰一怒术" />
+		<Item ItemCat="15" ItemIndex="028" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="法神附体术" />
+		<Item ItemCat="12" ItemIndex="290" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="陨石雨术" />
+		<Item ItemCat="12" ItemIndex="292" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="幽魂术" />
+		<Item ItemCat="12" ItemIndex="291" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="流星石术" />
+		<!-- 剑士 -->
+		<Item ItemCat="12" ItemIndex="289" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="强袭之石" />
+		<Item ItemCat="12" ItemIndex="486" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="怒袭之石" />
+		<Item ItemCat="12" ItemIndex="007" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="霹雳回旋斩之石" />
+		<Item ItemCat="12" ItemIndex="014" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="生命之光之石" />
+		<Item ItemCat="12" ItemIndex="019" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="袭风刺之石" />
+		<Item ItemCat="12" ItemIndex="012" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="雷霆裂闪之石" />
+		<Item ItemCat="12" ItemIndex="044" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="破坏一击之石" />
+		<Item ItemCat="12" ItemIndex="485" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="愤怒之剑" />
+		<Item ItemCat="12" ItemIndex="487" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="坚强信念" />
+		<Item ItemCat="12" ItemIndex="488" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="固若金汤" />
+		<!-- 圣导师 -->
+		<Item ItemCat="12" ItemIndex="021" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="星云火链卷轴" />
+		<Item ItemCat="12" ItemIndex="023" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="致命圣印卷轴" />
+		<Item ItemCat="12" ItemIndex="024" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="圣极光卷轴" />
+		<Item ItemCat="12" ItemIndex="035" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="火舞旋风卷轴" />
+		<Item ItemCat="12" ItemIndex="022" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="星云召唤卷轴" />
+		<Item ItemCat="12" ItemIndex="048" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="黑暗之力卷轴" />
+		<Item ItemCat="12" ItemIndex="303" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="风魂卷轴" />
+		<!-- 角斗士 -->
+		<Item ItemCat="15" ItemIndex="036" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="斗神-御 羊皮纸" />
+		<Item ItemCat="15" ItemIndex="035" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="斗神-命 羊皮纸" />
+		<Item ItemCat="15" ItemIndex="034" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="斗神-破 羊皮纸" />
+		<Item ItemCat="15" ItemIndex="030" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="回旋踢 羊皮纸" />
+		<Item ItemCat="15" ItemIndex="032" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="炎龙拳 羊皮纸" />
+		<Item ItemCat="15" ItemIndex="031" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="幽冥光速拳 羊皮纸" />
+		<Item ItemCat="15" ItemIndex="033" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="噬血之龙 羊皮纸" />
+		<Item ItemCat="12" ItemIndex="305" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="火凤凰气旋 羊皮纸" />
+		<Item ItemCat="12" ItemIndex="413" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="灵魂勾拳羊皮纸" />
+		<!-- 牧师 -->
+		<Item ItemCat="15" ItemIndex="054" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="初级治疗之石" />
+		<Item ItemCat="15" ItemIndex="055" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="初级防御之石" />
+		<Item ItemCat="15" ItemIndex="056" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="初级攻击之石" />
+		<Item ItemCat="15" ItemIndex="058" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="初级祝福" />
+		<Item ItemCat="15" ItemIndex="057" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="初级恢复之石" />
+		<Item ItemCat="15" ItemIndex="051" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="爆裂之球" />
+		<Item ItemCat="15" ItemIndex="052" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="爆裂魔方" />
+		<Item ItemCat="15" ItemIndex="053" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="终极力量" />
+		<!-- 魔剑士 -->
+		<Item ItemCat="12" ItemIndex="047" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="火剑袭之石" />
+		<Item ItemCat="12" ItemIndex="164" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="螺旋冲锋之石" />
+		<Item ItemCat="12" ItemIndex="165" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="破碎冲锋之石" />
+		<Item ItemCat="12" ItemIndex="297" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="冰封血之石" />
+		<Item ItemCat="12" ItemIndex="298" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="火血之石" />
+		<Item ItemCat="12" ItemIndex="299" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="暗爆炎术" />
+		<Item ItemCat="12" ItemIndex="300" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="陨石雨术" />
+		<Item ItemCat="12" ItemIndex="166" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="属性冲锋之石" />
+		<Item ItemCat="15" ItemIndex="029" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="闪电轰顶术" />
+		<Item ItemCat="12" ItemIndex="163" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="哈沃克突刺" />
+		<Item ItemCat="12" ItemIndex="166" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="元素充能珠" />
+		<Item ItemCat="12" ItemIndex="016" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="玄月斩之石	" />
+		<Item ItemCat="12" ItemIndex="162" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="混沌之刃" />
+		<Item ItemCat="12" ItemIndex="164" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="螺旋充能珠" />
+		<Item ItemCat="12" ItemIndex="165" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="破碎机珠" />
+	</Tab>
+	<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+	<Tab Id="4">
+		<!-- 召唤术师 -->
+		<Item ItemCat="15" ItemIndex="020" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="摄魂咒 羊皮纸" />
+		<Item ItemCat="15" ItemIndex="024" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="昏睡 羊皮纸" />
+		<Item ItemCat="15" ItemIndex="019" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="链雷咒 羊皮纸" />
+		<Item ItemCat="15" ItemIndex="023" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="狂暴术 羊皮纸" />
+		<Item ItemCat="15" ItemIndex="046" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="暗夜羊皮纸" />
+		<Item ItemCat="15" ItemIndex="042" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="爆裂击 羊皮纸" />
+		<Item ItemCat="15" ItemIndex="022" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="伤害反射 羊皮纸" />
+		<Item ItemCat="15" ItemIndex="043" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="安魂曲 羊皮纸" />
+		<Item ItemCat="15" ItemIndex="044" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="污染 羊皮纸" />
+		<Item ItemCat="15" ItemIndex="026" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="虚弱阵 羊皮纸" />
+		<Item ItemCat="15" ItemIndex="021" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="烈光闪 羊皮纸" />
+		<Item ItemCat="15" ItemIndex="027" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="破御阵 羊皮纸" />
+		<Item ItemCat="15" ItemIndex="045" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="死神镰刀 羊皮纸" />
+		<Item ItemCat="12" ItemIndex="295" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="地狱野兽 羊皮纸" />
+		<Item ItemCat="12" ItemIndex="296" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="水幻兽 羊皮纸" />
+		<Item ItemCat="15" ItemIndex="42" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="烈袭羊皮纸" />
+		<Item ItemCat="15" ItemIndex="43" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="影煞羊皮纸" />
+		<Item ItemCat="15" ItemIndex="44" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="聚灵羊皮纸" />
+		<Item ItemCat="15" ItemIndex="45" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="恶灵召唤羊皮纸" />
+		<Item ItemCat="15" ItemIndex="46" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="黑暗镇魂曲羊皮纸" />
+		<!-- 巫师 -->
+		<Item ItemCat="15" ItemIndex="047" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="闪耀之鸟" />
+		<Item ItemCat="15" ItemIndex="050" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="反射屏障" />
+		<Item ItemCat="15" ItemIndex="048" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="龙魂之力" />
+		<Item ItemCat="15" ItemIndex="049" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="矛之风暴" />
+		<!-- 梦幻骑士 -->
+		<Item ItemCat="12" ItemIndex="274" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="回旋穿刺卷轴" />
+		<Item ItemCat="12" ItemIndex="271" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="旋龙刺卷轴" />
+		<Item ItemCat="12" ItemIndex="272" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="黑曜石卷轴" />
+		<Item ItemCat="12" ItemIndex="276" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="狂怒卷轴" />
+		<Item ItemCat="12" ItemIndex="273" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="幻龙破卷轴" />
+		<Item ItemCat="12" ItemIndex="275" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="飓风刺卷轴" />
+		<Item ItemCat="12" ItemIndex="277" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="炎舞卷轴" />
+		<Item ItemCat="12" ItemIndex="095" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="奥弗斯廷卷轴" />
+		<Item ItemCat="12" ItemIndex="098" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="狂野气息卷轴" />
+		<!-- 符文法师 -->
+		<Item ItemCat="15" ItemIndex="037" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="魔法箭术" />
+		<Item ItemCat="15" ItemIndex="038" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="等离子球术" />
+		<Item ItemCat="15" ItemIndex="040" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="暴怒术" />
+		<Item ItemCat="15" ItemIndex="041" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="疾速术" />
+		<Item ItemCat="15" ItemIndex="039" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="闪电风暴术" />
+		<!-- 弓箭手 -->
+		<Item ItemCat="12" ItemIndex="008" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="治疗之石" />
+		<Item ItemCat="12" ItemIndex="009" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="防御之石" />
+		<Item ItemCat="12" ItemIndex="010" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="攻击之石" />
+		<Item ItemCat="12" ItemIndex="017" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="穿透箭之石" />
+		<Item ItemCat="12" ItemIndex="018" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="冰封箭之石" />
+		<Item ItemCat="12" ItemIndex="045" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="五重箭之石" />
+		<Item ItemCat="12" ItemIndex="046" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="防护值恢复之石" />
+		<Item ItemCat="12" ItemIndex="293" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="聚击之石" />
+		<Item ItemCat="12" ItemIndex="167" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="箭雨之石" />
+		<Item ItemCat="12" ItemIndex="168" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="疾风之石" />
+		<Item ItemCat="12" ItemIndex="169" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="神圣箭之石" />
+		<Item ItemCat="12" ItemIndex="170" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="元素伤害增强之石" />
+		<Item ItemCat="12" ItemIndex="171" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="元素防御强化之石" />
+		<Item ItemCat="12" ItemIndex="011" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="召唤哥布林 魔石" />
+		<Item ItemCat="12" ItemIndex="011" ItemLevel="1" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="召唤石巨人 魔石" />
+		<Item ItemCat="12" ItemIndex="011" ItemLevel="2" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="召唤暗杀者 魔石" />
+		<Item ItemCat="12" ItemIndex="011" ItemLevel="3" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="召唤雪人王 魔石" />
+		<Item ItemCat="12" ItemIndex="011" ItemLevel="4" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="召唤暗黑骑士 魔石" />
+		<Item ItemCat="12" ItemIndex="011" ItemLevel="5" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="召唤守护兽巴里 魔石" />
+		<Item ItemCat="12" ItemIndex="011" ItemLevel="6" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="召唤黄金斗士 魔石" />
+		<!-- 火枪手 -->
+		<Item ItemCat="12" ItemIndex="494" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="死亡之火之石" />
+		<Item ItemCat="12" ItemIndex="498" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="死亡冰球" />
+		<Item ItemCat="12" ItemIndex="492" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="破冰石" />
+		<Item ItemCat="15" ItemIndex="059" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="凝聚火力之石" />
+		<Item ItemCat="12" ItemIndex="491" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="暗黑等离子术之石" />
+		<Item ItemCat="12" ItemIndex="495" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="爆裂耀斑之石" />
+		<Item ItemCat="12" ItemIndex="493" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="冰爆石" />
+		<Item ItemCat="14" ItemIndex="0" ItemLevel="15" ItemDur="255" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="苹果" />
+		<!-- 刺客 -->
+		<Item ItemCat="12" ItemIndex="476" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="回旋镖" />
+		<Item ItemCat="12" ItemIndex="477" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血饮蝙蝠" />
+		<Item ItemCat="12" ItemIndex="478" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="探测" />
+		<Item ItemCat="12" ItemIndex="482" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="摧毁" />
+		<Item ItemCat="12" ItemIndex="479" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="无尽审判" />
+		<Item ItemCat="14" ItemIndex="0" ItemLevel="15" ItemDur="255" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="苹果" />
+		<!-- 幻影骑士 -->
+		<Item ItemCat="12" ItemIndex="087" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="幻影之刃之石" />
+		<Item ItemCat="12" ItemIndex="088" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="幻影分身之石" />
+		<Item ItemCat="12" ItemIndex="089" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="剑刺之石" />
+		<Item ItemCat="12" ItemIndex="090" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="风钻之石" />
+		<Item ItemCat="12" ItemIndex="091" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="幻刃风暴之石" />
+	</Tab>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+	<Tab Id="5">
+<!--
+	<Item ItemCat="14" ItemIndex="390" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="精灵尼克斯的碎片" />
+	<Item ItemCat="20" ItemIndex="108" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="帝国要塞入场券" />
+	<Item ItemCat="20" ItemIndex="109" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="boss战入场券" />
+-->
+	</Tab>
+</ShopItem>

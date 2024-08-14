@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==             File Name: ItemEarringOption               ==
+// ============================================================
+-->
+
+<ItemEarringOption>
+    <EarningOption>
+		<Option ID="0" Name="Increases strength" Type="1" />
+		<Option ID="1" Name="Increases agility" Type="1" />
+		<Option ID="2" Name="Increases energy" Type="1" />
+		<Option ID="3" Name="Increases vitality" Type="1" />
+		<Option ID="4" Name="Increases leadership" Type="1" />
+		<Option ID="5" Name="Increases minimum damage" Type="1" />
+		<Option ID="6" Name="Increases maximum damage" Type="1" />
+		<Option ID="7" Name="Increases wizardry" Type="2" />
+		<Option ID="8" Name="Increases damage" Type="2" />
+		<Option ID="9" Name="Increases attack speed" Type="1" />
+		<Option ID="10" Name="Increases defense" Type="1" />
+		<Option ID="11" Name="Increases maximum HP" Type="1" />
+		<Option ID="12" Name="Increases maximum Mana" Type="1" />
+		<Option ID="13" Name="Increases maximum AG" Type="1" />
+		<Option ID="14" Name="Increases AG automatic recovery" Type="1" />
+		<Option ID="15" Name="Increases critical damage rate" Type="2" />
+		<Option ID="16" Name="Increases critical damage" Type="1" />
+		<Option ID="17" Name="Increases excellent damage rate" Type="2" />
+		<Option ID="18" Name="Increases excellent damage" Type="1" />
+		<Option ID="19" Name="Increases skill damage" Type="1" />
+		<Option ID="20" Name="Increases double damage rate" Type="2" />
+		<Option ID="21" Name="Increases ignore enemy defense rate" Type="2" />
+		<Option ID="22" Name="Increases shield defense" Type="2" />
+		<Option ID="23" Name="Increases damage/wizardry" Type="1" />
+		<Option ID="24" Name="Increases all stats" Type="1" />
+		<Option ID="26" Name="Increases damage" Type="1" />
+		<Option ID="27" Name="Increases wizardry" Type="1" />
+		<Option ID="28" Name="Mastery attack/wizardry" Type="1" />
+		<Option ID="29" Name="Increases mastery excellent damage" Type="1" />
+		<Option ID="30" Name="Increases mastery critical damage" Type="1" />
+		<Option ID="31" Name="Increases mastery Damage" Type="1" />
+    </EarningOption>
+
+    <EarningOptionValue>
+        <OptionValue Type="0">
+			<Data Group="1" Value="200" />
+			<Data Group="2" Value="400" />
+			<Data Group="3" Value="600" />
+			<Data Group="4" Value="800" />
+			<Data Group="5" Value="1000" />
+			<Data Group="6" Value="1000" />
+        </OptionValue>
+
+        <OptionValue Type="1">
+			<Data Group="1" Value="17" />
+			<Data Group="2" Value="19" />
+			<Data Group="3" Value="21" />
+			<Data Group="4" Value="23" />
+			<Data Group="5" Value="25" />
+			<Data Group="6" Value="27" />
+        </OptionValue>
+
+        <OptionValue Type="2">
+			<Data Group="1" Value="4" />
+			<Data Group="2" Value="5" />
+			<Data Group="3" Value="6" />
+			<Data Group="4" Value="7" />
+			<Data Group="5" Value="8" />
+			<Data Group="6" Value="9" />
+        </OptionValue>
+
+        <OptionValue Type="3">
+			<Data Group="1" Value="10" />
+			<Data Group="2" Value="10" />
+			<Data Group="3" Value="10" />
+			<Data Group="4" Value="10" />
+			<Data Group="5" Value="10" />
+			<Data Group="6" Value="10" />
+        </OptionValue>
+
+        <OptionValue Type="4">
+			<Data Group="1" Value="20" />
+			<Data Group="2" Value="0" />
+			<Data Group="3" Value="2" />
+			<Data Group="4" Value="4" />
+			<Data Group="5" Value="7" />
+			<Data Group="6" Value="10" />
+        </OptionValue>
+
+        <OptionValue Type="5">
+			<Data Group="1" Value="7" />
+			<Data Group="2" Value="7" />
+			<Data Group="3" Value="7" />
+			<Data Group="4" Value="7" />
+			<Data Group="5" Value="7" />
+			<Data Group="6" Value="7" />
+        </OptionValue>
+
+        <OptionValue Type="6">
+			<Data Group="1" Value="35" />
+			<Data Group="2" Value="1" />
+			<Data Group="3" Value="3" />
+			<Data Group="4" Value="5" />
+			<Data Group="5" Value="8" />
+			<Data Group="6" Value="11" />
+        </OptionValue>
+
+        <OptionValue Type="7">
+			<Data Group="1" Value="1" />
+			<Data Group="2" Value="2" />
+			<Data Group="3" Value="3" />
+			<Data Group="4" Value="4" />
+			<Data Group="5" Value="5" />
+			<Data Group="6" Value="6" />
+        </OptionValue>
+
+        <OptionValue Type="8">
+            <Data Group="4" Value="6" />
+			<Data Group="5" Value="9" />
+			<Data Group="6" Value="12" />			
+        </OptionValue>
+    </EarningOptionValue>
+</ItemEarringOption>

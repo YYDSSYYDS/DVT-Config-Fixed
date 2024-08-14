@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf - 8"?>
+<!--
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==   File Name: ItemBag_Labyrinth_Box(3).xml           ==
+// ============================================================
+-->
+
+<ItemBag>
+	<Item Sort="0" ItemCat="13" ItemIndex="407" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="250" FireWork="0" Group="0" Duration="0" />
+	<Item Sort="0" ItemCat="14" ItemIndex="373" ItemLevelMin="0" ItemLevelMax="0" Dur="3" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="2000" FireWork="0" Group="0" Duration="0" />
+	<Item Sort="0" ItemCat="14" ItemIndex="372" ItemLevelMin="0" ItemLevelMax="0" Dur="3" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="2000" FireWork="0" Group="0" Duration="0" />
+	<Item Sort="0" ItemCat="14" ItemIndex="13" ItemLevelMin="0" ItemLevelMax="0" Dur="1" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+	<Item Sort="0" ItemCat="14" ItemIndex="14" ItemLevelMin="0" ItemLevelMax="0" Dur="1" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+</ItemBag>

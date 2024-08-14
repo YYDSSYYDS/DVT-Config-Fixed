@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==              File Name: ItemMasteryBonus               ==
+// ============================================================
+-->
+
+<ItemMasteryBonus>
+    <Mastery Type="1">
+		<Data ID="1" Name="Damage decrease +%d" Value="25" Rate="10000" />
+		<Data ID="2" Name="Damage decrease +%d" Value="50" Rate="9000" />
+		<Data ID="3" Name="Damage decrease +%d" Value="75" Rate="8000" />
+    </Mastery>
+
+    <Mastery Type="2">
+		<Data ID="1" Name="Increases all stats +%d" Value="10" Rate="10000" />
+		<Data ID="2" Name="Increases all stats +%d" Value="25" Rate="9000" />
+		<Data ID="3" Name="Increases all stats +%d" Value="40" Rate="8000" />
+    </Mastery>
+</ItemMasteryBonus>

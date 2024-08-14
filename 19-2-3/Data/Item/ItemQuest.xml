@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==                 File Name: ItemQuest                   ==
+// ============================================================
+-->
+
+<ItemQuest>
+	<Item ItemCat="13" ItemIndex="148" QuestType="-1" QuestIndex="-1" />
+	<Item ItemCat="13" ItemIndex="149" QuestType="-1" QuestIndex="-1" />
+	<Item ItemCat="13" ItemIndex="150" QuestType="-1" QuestIndex="-1" />
+	<Item ItemCat="13" ItemIndex="151" QuestType="-1" QuestIndex="-1" />
+	<Item ItemCat="14" ItemIndex="23" QuestType="-1" QuestIndex="-1" />
+	<Item ItemCat="14" ItemIndex="24" QuestType="-1" QuestIndex="-1" />
+	<Item ItemCat="14" ItemIndex="25" QuestType="-1" QuestIndex="-1" />
+	<Item ItemCat="14" ItemIndex="26" QuestType="-1" QuestIndex="-1" />
+	<Item ItemCat="14" ItemIndex="65" QuestType="-1" QuestIndex="-1" />
+	<Item ItemCat="14" ItemIndex="66" QuestType="-1" QuestIndex="-1" />
+	<Item ItemCat="14" ItemIndex="67" QuestType="-1" QuestIndex="-1" />
+	<Item ItemCat="14" ItemIndex="68" QuestType="-1" QuestIndex="-1" />
+	<Item ItemCat="14" ItemIndex="151" QuestType="20" QuestIndex="8" />
+	<Item ItemCat="14" ItemIndex="152" QuestType="-1" QuestIndex="-1" />
+	<Item ItemCat="14" ItemIndex="153" QuestType="-1" QuestIndex="-1" />
+	<Item ItemCat="14" ItemIndex="154" QuestType="-1" QuestIndex="-1" />
+	<Item ItemCat="14" ItemIndex="155" QuestType="-1" QuestIndex="-1" />
+	<Item ItemCat="14" ItemIndex="156" QuestType="-1" QuestIndex="-1" />
+	<Item ItemCat="14" ItemIndex="164" QuestType="-1" QuestIndex="-1" />
+	<Item ItemCat="14" ItemIndex="165" QuestType="-1" QuestIndex="-1" />
+	<Item ItemCat="14" ItemIndex="166" QuestType="-1" QuestIndex="-1" />
+	<Item ItemCat="14" ItemIndex="167" QuestType="-1" QuestIndex="-1" />
+	<Item ItemCat="14" ItemIndex="168" QuestType="-1" QuestIndex="-1" />
+	<Item ItemCat="14" ItemIndex="170" QuestType="20" QuestIndex="73" />
+	<Item ItemCat="14" ItemIndex="171" QuestType="-1" QuestIndex="-1" />
+</ItemQuest>

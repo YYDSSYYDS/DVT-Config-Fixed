@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DevEMU				 	 ==
+// ==              File Name: PentagramOption                ==
+// ============================================================
+-->
+
+<PentagramOption>
+	<Option ID="1" Name="Pentagram Damage/Defense +5%%" Value="5" Type1="0" Rank1="1" Level1="0" Type2="1" Rank2="1" Level2="0" Type3="2" Rank3="1" Level3="0" Type4="3" Rank4="1" Level4="0" Type5="-1" Rank5="-1" Level5="0" />
+	<Option ID="2" Name="Pentagram Damage +10%%" Value="10" Type1="0" Rank1="1" Level1="0" Type2="-1" Rank2="-1" Level2="-1" Type3="-1" Rank3="-1" Level3="-1" Type4="-1" Rank4="-1" Level4="-1" Type5="-1" Rank5="-1" Level5="-1" />
+	<Option ID="3" Name="Pentagram Defense +10%%" Value="10" Type1="0" Rank1="1" Level1="0" Type2="-1" Rank2="-1" Level2="-1" Type3="-1" Rank3="-1" Level3="-1" Type4="-1" Rank4="-1" Level4="-1" Type5="-1" Rank5="-1" Level5="-1" />
+	<Option ID="4" Name="Elemental Critical Damage Rate +10%%" Value="10" Type1="0" Rank1="1" Level1="0" Type2="-1" Rank2="-1" Level2="-1" Type3="-1" Rank3="-1" Level3="-1" Type4="-1" Rank4="-1" Level4="-1" Type5="-1" Rank5="-1" Level5="-1" />
+	<Option ID="5" Name="Increase Errtel of Blessing Rank 1 Option +35" Value="35" Type1="0" Rank1="1" Level1="0" Type2="1" Rank2="1" Level2="0" Type3="-1" Rank3="-1" Level3="-1" Type4="-1" Rank4="-1" Level4="-1" Type5="-1" Rank5="-1" Level5="-1" />
+	<Option ID="21" Name="Pentagram Damage +10%%" Value="10" Type1="0" Rank1="2" Level1="0" Type2="2" Rank2="2" Level2="0" Type3="-1" Rank3="-1" Level3="-1" Type4="-1" Rank4="-1" Level4="-1" Type5="-1" Rank5="-1" Level5="-1" />
+	<Option ID="22" Name="Pentagram Defense +10%%" Value="10" Type1="1" Rank1="2" Level1="0" Type2="3" Rank2="2" Level2="0" Type3="-1" Rank3="-1" Level3="-1" Type4="-1" Rank4="-1" Level4="-1" Type5="-1" Rank5="-1" Level5="-1" />
+	<Option ID="23" Name="Elemental Critical Damage Rate +5%%" Value="5" Type1="1" Rank1="1" Level1="7" Type2="-1" Rank2="-1" Level2="-1" Type3="-1" Rank3="-1" Level3="-1" Type4="-1" Rank4="-1" Level4="-1" Type5="-1" Rank5="-1" Level5="-1" />
+	<Option ID="24" Name="Elemental Critical Damage Rate +10%%" Value="10" Type1="0" Rank1="2" Level1="3" Type2="-1" Rank2="-1" Level2="-1" Type3="-1" Rank3="-1" Level3="-1" Type4="-1" Rank4="-1" Level4="-1" Type5="-1" Rank5="-1" Level5="-1" />
+	<Option ID="25" Name="Elemental Critical Damage Rate +25%%" Value="25" Type1="0" Rank1="3" Level1="0" Type2="1" Rank2="3" Level2="0" Type3="-1" Rank3="-1" Level3="-1" Type4="-1" Rank4="-1" Level4="-1" Type5="-1" Rank5="-1" Level5="-1" />
+	<Option ID="26" Name="DEF Added to Elemental DEF +5%%" Value="5" Type1="0" Rank1="3" Level1="0" Type2="1" Rank2="3" Level2="0" Type3="-1" Rank3="-1" Level3="-1" Type4="-1" Rank4="-1" Level4="-1" Type5="-1" Rank5="-1" Level5="-1" />
+	<Option ID="27" Name="DMG Added to Elemental DMG +1%%" Value="1" Type1="0" Rank1="3" Level1="0" Type2="1" Rank2="3" Level2="0" Type3="-1" Rank3="-1" Level3="-1" Type4="-1" Rank4="-1" Level4="-1" Type5="-1" Rank5="-1" Level5="-1" />
+	<Option ID="28" Name="%s, %s Elemental DMG Perfect Dodge Rate +5%%" Value="5" Type1="1" Rank1="2" Level1="0" Type2="2" Rank2="1" Level2="7" Type3="-1" Rank3="-1" Level3="-1" Type4="-1" Rank4="-1" Level4="-1" Type5="-1" Rank5="-1" Level5="-1" />
+	<Option ID="29" Name="Increase Elemental DMG +30" Value="30" Type1="0" Rank1="3" Level1="0" Type2="2" Rank2="3" Level2="0" Type3="-1" Rank3="-1" Level3="-1" Type4="-1" Rank4="-1" Level4="-1" Type5="-1" Rank5="-1" Level5="-1" />
+	<Option ID="30" Name="Increase Elemental DEF +30" Value="30" Type1="1" Rank1="3" Level1="0" Type2="3" Rank2="3" Level2="0" Type3="-1" Rank3="-1" Level3="-1" Type4="-1" Rank4="-1" Level4="-1" Type5="-1" Rank5="-1" Level5="-1" />
+	<Option ID="31" Name="Increase Errtel of Integrity Rank 1 Option +20 (unused option)" Value="20" Type1="2" Rank1="1" Level1="0" Type2="-1" Rank2="-1" Level2="-1" Type3="-1" Rank3="-1" Level3="-1" Type4="-1" Rank4="-1" Level4="-1" Type5="-1" Rank5="-1" Level5="-1" />
+	<Option ID="32" Name="Increase Errtel of Divinity Rank 1 Option +20 (unused option)" Value="20" Type1="3" Rank1="1" Level1="0" Type2="-1" Rank2="-1" Level2="-1" Type3="-1" Rank3="-1" Level3="-1" Type4="-1" Rank4="-1" Level4="-1" Type5="-1" Rank5="-1" Level5="-1" />
+	<Option ID="33" Name="Increase Errtel of Radiance Rank 1 Option +20 (unused option)" Value="20" Type1="4" Rank1="1" Level1="0" Type2="-1" Rank2="-1" Level2="-1" Type3="-1" Rank3="-1" Level3="-1" Type4="-1" Rank4="-1" Level4="-1" Type5="-1" Rank5="-1" Level5="-1" />
+	<Option ID="34" Name="Pentagram DMG and DEF+5%%" Value="5" Type1="0" Rank1="1" Level1="7" Type2="1" Rank2="1" Level2="7" Type3="4" Rank3="1" Level3="7" Type4="-1" Rank4="-1" Level4="-1" Type5="-1" Rank5="-1" Level5="-1" />
+	<Option ID="41" Name="Elemental DMG Perfect Dodge Rate +5%%" Value="5" Type1="1" Rank1="3" Level1="6" Type2="2" Rank2="3" Level2="6" Type3="3" Rank3="3" Level3="6" Type4="-1" Rank4="-1" Level4="-1" Type5="-1" Rank5="-1" Level5="-1" />
+	<Option ID="42" Name="DEF Added to Elemental DEF +5%%" Value="5" Type1="0" Rank1="3" Level1="5" Type2="1" Rank2="3" Level2="5" Type3="-1" Rank3="-1" Level3="-1" Type4="-1" Rank4="-1" Level4="-1" Type5="-1" Rank5="-1" Level5="-1" />
+	<Option ID="43" Name="DMG Added to Elemental DMG +1%%" Value="1" Type1="0" Rank1="3" Level1="5" Type2="1" Rank2="3" Level2="5" Type3="-1" Rank3="-1" Level3="-1" Type4="-1" Rank4="-1" Level4="-1" Type5="-1" Rank5="-1" Level5="-1" />	
+	<Option ID="61" Name="Increase Pentagram DMG/DEF +5%%" Value="5" Type1="0" Rank1="1" Level1="7" Type2="4" Rank2="1" Level2="7" Type3="-1" Rank3="-1" Level3="-1" Type4="-1" Rank4="-1" Level4="-1" Type5="-1" Rank5="-1" Level5="-1" />
+	<Option ID="62" Name="Increase Pentagram DMG +10%%" Value="10" Type1="0" Rank1="2" Level1="0" Type2="2" Rank2="2" Level2="0" Type3="-1" Rank3="-1" Level3="-1" Type4="-1" Rank4="-1" Level4="-1" Type5="-1" Rank5="-1" Level5="-1" />
+	<Option ID="63" Name="Increase Pentagram DEF +10%%" Value="10" Type1="1" Rank1="2" Level1="0" Type2="3" Rank2="2" Level2="0" Type3="-1" Rank3="-1" Level3="-1" Type4="-1" Rank4="-1" Level4="-1" Type5="-1" Rank5="-1" Level5="-1" />
+	<Option ID="64" Name="Elemental Critical DMG Rate +5%%" Value="5" Type1="1" Rank1="1" Level1="7" Type2="-1" Rank2="-1" Level2="-1" Type3="-1" Rank3="-1" Level3="-1" Type4="-1" Rank4="-1" Level4="-1" Type5="-1" Rank5="-1" Level5="-1" />
+	<Option ID="65" Name="Elemental Critical DMG Rate +10%%" Value="10" Type1="0" Rank1="2" Level1="3" Type2="-1" Rank2="-1" Level2="-1" Type3="-1" Rank3="-1" Level3="-1" Type4="-1" Rank4="-1" Level4="-1" Type5="-1" Rank5="-1" Level5="-1" />
+	<Option ID="66" Name="Elemental Critical DMG Rate +25%%" Value="25" Type1="0" Rank1="3" Level1="0" Type2="1" Rank2="3" Level2="0" Type3="-1" Rank3="-1" Level3="-1" Type4="-1" Rank4="-1" Level4="-1" Type5="-1" Rank5="-1" Level5="-1" />
+	<Option ID="67" Name="Elemental DMG Perfect Dodge Rate +5%%" Value="5" Type1="1" Rank1="3" Level1="6" Type2="2" Rank2="3" Level2="6" Type3="3" Rank3="3" Level3="6" Type4="-1" Rank4="-1" Level4="-1" Type5="-1" Rank5="-1" Level5="-1" />
+	<Option ID="68" Name="DEF Added to Elemental DEF +5%%" Value="5" Type1="0" Rank1="3" Level1="5" Type2="1" Rank2="3" Level2="5" Type3="-1" Rank3="-1" Level3="-1" Type4="-1" Rank4="-1" Level4="-1" Type5="-1" Rank5="-1" Level5="-1" />
+	<Option ID="69" Name="DMG Added to Elemental DMG +1%%" Value="1" Type1="0" Rank1="3" Level1="5" Type2="1" Rank2="3" Level2="5" Type3="-1" Rank3="-1" Level3="-1" Type4="-1" Rank4="-1" Level4="-1" Type5="-1" Rank5="-1" Level5="-1" />
+</PentagramOption>

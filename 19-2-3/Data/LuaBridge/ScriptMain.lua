@@ -1,0 +1,7 @@
+require("System\\ScriptCore")
+require("ScriptRanking\\ScriptRankingCommand")
+require("Warehouse\\Warehouse")
+require("ShopPointRate\\ShopPointRate")
+require("WelcomeMessage\\WelcomeMessage")
+require("SetWindowText\\SetWindowText")
+require("ServerLimit\\ServerLimit")

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==   File Name: Tempest_Muun_Box_(Amplified).xml          ==
+// ============================================================
+-->
+
+<ItemBag>
+	<Item Sort="0" ItemCat="16" ItemIndex="504" ItemLevelMin="1" ItemLevelMax="1" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="2592000" />
+	<Item Sort="0" ItemCat="16" ItemIndex="505" ItemLevelMin="1" ItemLevelMax="1" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="2592000" />
+	<Item Sort="0" ItemCat="16" ItemIndex="506" ItemLevelMin="1" ItemLevelMax="1" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="2592000" />
+	<Item Sort="0" ItemCat="16" ItemIndex="507" ItemLevelMin="1" ItemLevelMax="1" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="2592000" />
+	<Item Sort="0" ItemCat="16" ItemIndex="508" ItemLevelMin="1" ItemLevelMax="1" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="2592000" />
+	<Item Sort="0" ItemCat="16" ItemIndex="509" ItemLevelMin="1" ItemLevelMax="1" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="2592000" />
+</ItemBag>

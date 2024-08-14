@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==            File Name: ItemMysteriousStone              ==
+// ============================================================
+-->
+
+<ItemMysteriousStone>
+	<Data Type="0" LuckRate="50" ExlOptionMin="1" ExlOptionMax="3" Ancient2Rate="1000" UpAncientRate="1000" />
+	<Data Type="1" LuckRate="50" ExlOptionMin="1" ExlOptionMax="3" Ancient2Rate="1000" UpAncientRate="1000" />
+	<Data Type="2" LuckRate="50" ExlOptionMin="1" ExlOptionMax="3" Ancient2Rate="1000" UpAncientRate="1000" />
+</ItemMysteriousStone>

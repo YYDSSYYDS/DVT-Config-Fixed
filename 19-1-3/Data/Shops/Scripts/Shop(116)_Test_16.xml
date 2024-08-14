@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==             File Name: Shop(116)_Test_116              ==
+// ============================================================
+-->
+
+<ShopItem>
+	<Item ItemCat="8" ItemIndex="47" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="1" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65534" Socket2="65534" Socket3="65534" Socket4="65534" Socket5="65534" Price="1" ID="2" />
+	<Item ItemCat="9" ItemIndex="47" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="1" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65534" Socket2="65534" Socket3="65534" Socket4="65534" Socket5="65534" Price="1" ID="3" />
+	<Item ItemCat="10" ItemIndex="47" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="1" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65534" Socket2="65534" Socket3="65534" Socket4="65534" Socket5="65534" Price="1" ID="4" />
+	<Item ItemCat="11" ItemIndex="47" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="1" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65534" Socket2="65534" Socket3="65534" Socket4="65534" Socket5="65534" Price="1" ID="5" />
+	<Item ItemCat="8" ItemIndex="48" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="1" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65534" Socket2="65534" Socket3="65534" Socket4="65534" Socket5="65534" Price="1" ID="7" />
+	<Item ItemCat="9" ItemIndex="48" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="1" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65534" Socket2="65534" Socket3="65534" Socket4="65534" Socket5="65534" Price="1" ID="8" />
+	<Item ItemCat="10" ItemIndex="48" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="1" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65534" Socket2="65534" Socket3="65534" Socket4="65534" Socket5="65534" Price="1" ID="9" />
+	<Item ItemCat="11" ItemIndex="48" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="1" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65534" Socket2="65534" Socket3="65534" Socket4="65534" Socket5="65534" Price="1" ID="10" />
+	<Item ItemCat="0" ItemIndex="28" ItemLevel="0" ItemDur="0" ItemSkill="1" ItemLuck="1" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65534" Socket2="65534" Socket3="65534" Socket4="65534" Socket5="65534" Price="1" ID="11" />
+	<Item ItemCat="0" ItemIndex="30" ItemLevel="0" ItemDur="0" ItemSkill="1" ItemLuck="1" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65534" Socket2="65534" Socket3="65534" Socket4="65534" Socket5="65534" Price="1" ID="12" />
+	<Item ItemCat="0" ItemIndex="37" ItemLevel="0" ItemDur="0" ItemSkill="1" ItemLuck="1" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65534" Socket2="65534" Socket3="65534" Socket4="65534" Socket5="65534" Price="1" ID="13" />
+	<Item ItemCat="5" ItemIndex="30" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="1" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65534" Socket2="65534" Socket3="65534" Socket4="65534" Socket5="65534" Price="1" ID="14" />
+	<Item ItemCat="5" ItemIndex="35" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="1" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65534" Socket2="65534" Socket3="65534" Socket4="65534" Socket5="65534" Price="1" ID="15" />
+	<Item ItemCat="5" ItemIndex="37" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="1" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65534" Socket2="65534" Socket3="65534" Socket4="65534" Socket5="65534" Price="1" ID="16" />
+	<Item ItemCat="6" ItemIndex="18" ItemLevel="0" ItemDur="0" ItemSkill="1" ItemLuck="1" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65534" Socket2="65534" Socket3="65534" Socket4="65534" Socket5="65534" Price="1" ID="17" />
+	<Item ItemCat="6" ItemIndex="25" ItemLevel="0" ItemDur="0" ItemSkill="1" ItemLuck="1" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65534" Socket2="65534" Socket3="65534" Socket4="65534" Socket5="65534" Price="1" ID="18" />
+</ShopItem>

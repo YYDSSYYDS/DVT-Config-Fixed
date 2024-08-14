@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==                 File Name: ItemLevel                   ==
+// ============================================================
+-->
+
+<ItemLevel>
+	<Item ItemCat="4" ItemIndex="15" ItemLevel="0" Name="弓箭" Price="70" PriceFlag="8" Flags="8431516" />
+	<Item ItemCat="4" ItemIndex="15" ItemLevel="1" Name="弓箭 + 1" Price="1200" PriceFlag="8" Flags="8431516" />
+	<Item ItemCat="4" ItemIndex="15" ItemLevel="2" Name="弓箭 + 2" Price="2000" PriceFlag="8" Flags="8431516" />
+	<Item ItemCat="4" ItemIndex="15" ItemLevel="3" Name="弓箭 + 3" Price="2800" PriceFlag="8" Flags="8431516" />
+	<Item ItemCat="4" ItemIndex="7" ItemLevel="0" Name="弩箭" Price="100" PriceFlag="8" Flags="8431516" />
+	<Item ItemCat="4" ItemIndex="7" ItemLevel="1" Name="弩箭 + 1" Price="1400" PriceFlag="8" Flags="8431516" />
+	<Item ItemCat="4" ItemIndex="7" ItemLevel="2" Name="弩箭 + 2" Price="2200" PriceFlag="8" Flags="8431516" />
+	<Item ItemCat="4" ItemIndex="7" ItemLevel="3" Name="弩箭 + 3" Price="3000" PriceFlag="8" Flags="8431516" />
+	<Item ItemCat="12" ItemIndex="11" ItemLevel="0" Name="召唤哥布林 魔石" Price="0" Flags="26496" />
+	<Item ItemCat="12" ItemIndex="11" ItemLevel="1" Name="召唤石巨人 魔石" Price="0" Flags="26496" />
+	<Item ItemCat="12" ItemIndex="11" ItemLevel="2" Name="召唤暗杀者 魔石" Price="0" Flags="26496" />
+	<Item ItemCat="12" ItemIndex="11" ItemLevel="3" Name="召唤雪人王 魔石" Price="0" Flags="26496" />
+	<Item ItemCat="12" ItemIndex="11" ItemLevel="4" Name="召唤暗黑骑士 魔石" Price="0" Flags="26496" />
+	<Item ItemCat="12" ItemIndex="11" ItemLevel="5" Name="召唤守护兽巴里 魔石" Price="0" Flags="26496" />
+	<Item ItemCat="12" ItemIndex="11" ItemLevel="6" Name="召唤黄金斗士 魔石" Price="0" Flags="26496" />
+	<Item ItemCat="12" ItemIndex="26" ItemLevel="0" Name="神秘水晶" Price="60000" Flags="10112" />
+	<Item ItemCat="12" ItemIndex="26" ItemLevel="1" Name="红色水晶" Price="60000" Flags="10112" />
+	<Item ItemCat="12" ItemIndex="26" ItemLevel="2" Name="蓝色水晶" Price="60000" Flags="10112" />
+	<Item ItemCat="12" ItemIndex="26" ItemLevel="3" Name="黑色水晶" Price="60000" Flags="10112" />
+	<Item ItemCat="12" ItemIndex="26" ItemLevel="4" Name="宝箱" Price="60000" Flags="10112" />
+	<Item ItemCat="12" ItemIndex="26" ItemLevel="5" Name="惊喜礼物" Price="60000" Flags="10112" />
+	<Item ItemCat="13" ItemIndex="7" ItemLevel="3" Name="弓箭佣兵" Price="1500000" Flags="10112" />
+	<Item ItemCat="13" ItemIndex="7" ItemLevel="3" Name="标枪佣兵" Price="1200000" Flags="10112" />
+	<Item ItemCat="13" ItemIndex="10" ItemLevel="0" Name="幼龙变身戒指" Price="0" Flags="0" />
+	<Item ItemCat="13" ItemIndex="10" ItemLevel="1" Name="巨人变身戒指" Price="0" Flags="0" />
+	<Item ItemCat="13" ItemIndex="10" ItemLevel="2" Name="骷髅战士变身戒指" Price="0" Flags="0" />
+	<Item ItemCat="13" ItemIndex="10" ItemLevel="3" Name="毒牛怪变身戒指" Price="0" Flags="0" />
+	<Item ItemCat="13" ItemIndex="10" ItemLevel="4" Name="死灵巫师变身戒指" Price="0" Flags="0" />
+	<Item ItemCat="13" ItemIndex="10" ItemLevel="5" Name="牛魔王变身戒指" Price="0" Flags="0" />
+	<Item ItemCat="13" ItemIndex="11" ItemLevel="0" Name="护卫卷轴" Price="100000" Flags="10112" />
+	<Item ItemCat="13" ItemIndex="11" ItemLevel="1" Name="设置复活石" Price="2400000" Flags="10112" />
+	<Item ItemCat="13" ItemIndex="14" ItemLevel="0" Name="洛克之羽" Price="180000" Flags="9856" />
+	<Item ItemCat="13" ItemIndex="14" ItemLevel="1" Name="国王卷轴" Price="2400000" Flags="9856" />
+	<Item ItemCat="13" ItemIndex="15" ItemLevel="0" Name="智力果实" Price="9000000" Flags="9856" />
+	<Item ItemCat="13" ItemIndex="15" ItemLevel="1" Name="体力果实" Price="9000000" Flags="9856" />
+	<Item ItemCat="13" ItemIndex="15" ItemLevel="2" Name="敏捷果实" Price="9000000" Flags="9856" />
+	<Item ItemCat="13" ItemIndex="15" ItemLevel="3" Name="力量果实" Price="9000000" Flags="9856" />
+	<Item ItemCat="13" ItemIndex="15" ItemLevel="4" Name="统率果实" Price="9000000" Flags="9856" />
+	<Item ItemCat="13" ItemIndex="16" ItemLevel="1" Name="血灵之书 +1" Price="10000" Flags="10112" />
+	<Item ItemCat="13" ItemIndex="16" ItemLevel="2" Name="血灵之书 +2" Price="50000" Flags="10112" />
+	<Item ItemCat="13" ItemIndex="16" ItemLevel="3" Name="血灵之书 +3" Price="100000" Flags="10112" />
+	<Item ItemCat="13" ItemIndex="16" ItemLevel="4" Name="血灵之书 +4" Price="300000" Flags="10112" />
+	<Item ItemCat="13" ItemIndex="16" ItemLevel="5" Name="血灵之书 +5" Price="500000" Flags="10112" />
+	<Item ItemCat="13" ItemIndex="16" ItemLevel="6" Name="血灵之书 +6" Price="800000" Flags="10112" />
+	<Item ItemCat="13" ItemIndex="16" ItemLevel="7" Name="血灵之书 +7" Price="1000000" Flags="10112" />
+	<Item ItemCat="13" ItemIndex="16" ItemLevel="8" Name="血灵之书 +8" Price="1200000" Flags="10112" />
+	<Item ItemCat="13" ItemIndex="17" ItemLevel="1" Name="血灵之骷 +1" Price="10000" Flags="10112" />
+	<Item ItemCat="13" ItemIndex="17" ItemLevel="2" Name="血灵之骷 +2" Price="50000" Flags="10112" />
+	<Item ItemCat="13" ItemIndex="17" ItemLevel="3" Name="血灵之骷 +3" Price="100000" Flags="10112" />
+	<Item ItemCat="13" ItemIndex="17" ItemLevel="4" Name="血灵之骷 +4" Price="300000" Flags="10112" />
+	<Item ItemCat="13" ItemIndex="17" ItemLevel="5" Name="血灵之骷 +5" Price="500000" Flags="10112" />
+	<Item ItemCat="13" ItemIndex="17" ItemLevel="6" Name="血灵之骷 +6" Price="800000" Flags="10112" />
+	<Item ItemCat="13" ItemIndex="17" ItemLevel="7" Name="血灵之骷 +7" Price="1000000" Flags="10112" />
+	<Item ItemCat="13" ItemIndex="17" ItemLevel="8" Name="血灵之骷 +8" Price="1200000" Flags="10112" />
+	<Item ItemCat="13" ItemIndex="18" ItemLevel="1" Name="透明披风 +1" Price="150000" Flags="10112" />
+	<Item ItemCat="13" ItemIndex="18" ItemLevel="2" Name="透明披风 +2" Price="660000" Flags="10112" />
+	<Item ItemCat="13" ItemIndex="18" ItemLevel="3" Name="透明披风 +3" Price="720000" Flags="10112" />
+	<Item ItemCat="13" ItemIndex="18" ItemLevel="4" Name="透明披风 +4" Price="780000" Flags="10112" />
+	<Item ItemCat="13" ItemIndex="18" ItemLevel="5" Name="透明披风 +5" Price="840000" Flags="10112" />
+	<Item ItemCat="13" ItemIndex="18" ItemLevel="6" Name="透明披风 +6" Price="900000" Flags="10112" />
+	<Item ItemCat="13" ItemIndex="18" ItemLevel="7" Name="透明披风 +7" Price="960000" Flags="10112" />
+	<Item ItemCat="13" ItemIndex="18" ItemLevel="8" Name="透明披风 +8" Price="1020000" Flags="10112" />
+	<Item ItemCat="13" ItemIndex="19" ItemLevel="0" Name="大天使之杖" Price="0" Flags="9728" />
+	<Item ItemCat="13" ItemIndex="19" ItemLevel="1" Name="大天使之剑" Price="0" Flags="9728" />
+	<Item ItemCat="13" ItemIndex="19" ItemLevel="2" Name="大天使之弩" Price="0" Flags="9728" />
+	<Item ItemCat="13" ItemIndex="20" ItemLevel="1" Name="勇士指环" Price="0" Flags="1920" />
+	<Item ItemCat="13" ItemIndex="20" ItemLevel="2" Name="战士指环" Price="0" Flags="1920" />
+	<Item ItemCat="13" ItemIndex="31" ItemLevel="0" Name="黑王马之魂" Price="30000000" Flags="9856" />
+	<Item ItemCat="13" ItemIndex="31" ItemLevel="1" Name="天鹰之魂" Price="15000000" Flags="9856" />
+	<Item ItemCat="13" ItemIndex="37" ItemLevel="0" Name="炎狼兽之角" Price="1020000" Flags="10112" />
+	<Item ItemCat="13" ItemIndex="37" ItemLevel="1" Name="炎狼兽之角 +破坏" Price="1020000" Flags="10112" />
+	<Item ItemCat="13" ItemIndex="37" ItemLevel="2" Name="炎狼兽之角 +守护" Price="1020000" Flags="10112" />
+	<Item ItemCat="13" ItemIndex="37" ItemLevel="3" Name="炎狼兽之角 +幻影" Price="1020000" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="7" ItemLevel="0" Name="祝福药水" Price="900000" PriceFlag="1" Flags="42880" />
+	<Item ItemCat="14" ItemIndex="7" ItemLevel="1" Name="灵魂药水" Price="450000" PriceFlag="1" Flags="42880" />
+	<Item ItemCat="14" ItemIndex="9" ItemLevel="0" Name="酒" Price="1000" Flags="26496" />
+	<Item ItemCat="14" ItemIndex="9" ItemLevel="1" Name="爱情橄榄" Price="1000" Flags="26496" />
+	<Item ItemCat="14" ItemIndex="11" ItemLevel="0" Name="幸运宝箱" Price="0" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="11" ItemLevel="1" Name="圣诞之星" Price="0" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="11" ItemLevel="2" Name="爆竹" Price="0" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="11" ItemLevel="3" Name="爱情之心" Price="0" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="11" ItemLevel="4" Name="爱情橄榄" Price="0" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="11" ItemLevel="5" Name="银质勋章" Price="0" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="11" ItemLevel="6" Name="金质勋章" Price="0" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="11" ItemLevel="7" Name="城主宝箱" Price="0" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="11" ItemLevel="8" Name="黄金宝箱 +1" Price="0" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="11" ItemLevel="9" Name="黄金宝箱 +2" Price="0" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="11" ItemLevel="10" Name="黄金宝箱 +3" Price="0" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="11" ItemLevel="11" Name="黄金宝箱 +4" Price="0" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="11" ItemLevel="12" Name="黄金宝箱 +5" Price="0" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="11" ItemLevel="13" Name="圣导师之心" Price="0" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="11" ItemLevel="14" Name="月饼" Price="0" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="11" ItemLevel="15" Name="红色福袋" Price="0" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="12" ItemLevel="0" Name="金" Price="0" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="12" ItemLevel="1" Name="心之记忆" Price="0" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="17" ItemLevel="1" Name="恶魔之眼 +1" Price="10000" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="17" ItemLevel="2" Name="恶魔之眼 +2" Price="50000" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="17" ItemLevel="3" Name="恶魔之眼 +3" Price="100000" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="17" ItemLevel="4" Name="恶魔之眼 +4" Price="300000" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="17" ItemLevel="5" Name="恶魔之眼 +5" Price="500000" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="17" ItemLevel="6" Name="恶魔之眼 +6" Price="800000" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="17" ItemLevel="7" Name="恶魔之眼 +7" Price="1000000" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="18" ItemLevel="1" Name="恶魔之钥 +1" Price="15000" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="18" ItemLevel="2" Name="恶魔之钥 +2" Price="75000" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="18" ItemLevel="3" Name="恶魔之钥 +3" Price="150000" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="18" ItemLevel="4" Name="恶魔之钥 +4" Price="450000" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="18" ItemLevel="5" Name="恶魔之钥 +5" Price="750000" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="18" ItemLevel="6" Name="恶魔之钥 +6" Price="1200000" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="18" ItemLevel="7" Name="恶魔之钥 +7" Price="1500000" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="19" ItemLevel="1" Name="恶魔广场通行证 +1" Price="60000" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="19" ItemLevel="2" Name="恶魔广场通行证 +2" Price="84000" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="19" ItemLevel="3" Name="恶魔广场通行证 +3" Price="120000" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="19" ItemLevel="4" Name="恶魔广场通行证 +4" Price="180000" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="19" ItemLevel="5" Name="恶魔广场通行证 +5" Price="240000" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="19" ItemLevel="6" Name="恶魔广场通行证 +6" Price="300000" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="19" ItemLevel="7" Name="恶魔广场通行证 +7" Price="180000" Flags="10112" />
+
+	<Item ItemCat="14" ItemIndex="21" ItemLevel="0" Name="蕾娜" Price="9000" Flags="108416" />
+	<Item ItemCat="14" ItemIndex="21" ItemLevel="1" Name="石头" Price="9000" Flags="108416" />
+	<Item ItemCat="14" ItemIndex="21" ItemLevel="2" Name="友情之石" Price="9000" Flags="108416" />
+	<Item ItemCat="14" ItemIndex="21" ItemLevel="3" Name="城主标识" Price="3900" PriceFlag="1" Flags="108416" />
+
+	<Item ItemCat="14" ItemIndex="23" ItemLevel="0" Name="帝王之书" Price="0" Flags="9728" />
+	<Item ItemCat="14" ItemIndex="23" ItemLevel="1" Name="荣誉戒指" Price="0" Flags="9728" />
+	<Item ItemCat="14" ItemIndex="32" ItemLevel="0" Name="粉红色宝箱" Price="0" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="32" ItemLevel="1" Name="紫色宝箱" Price="0" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="33" ItemLevel="0" Name="红色宝箱" Price="0" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="33" ItemLevel="1" Name="朱红宝箱" Price="0" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="34" ItemLevel="0" Name="蓝色宝箱" Price="0" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="34" ItemLevel="1" Name="军绿宝箱" Price="0" Flags="10112" />
+	<Item ItemCat="14" ItemIndex="120" ItemLevel="0"  Name="Legend Credit Coin (1)" Price="0" Flags="9344" />
+	<Item ItemCat="14" ItemIndex="120" ItemLevel="1"  Name="Legend Credit Coin (5)" Price="0" Flags="9344" />
+	<Item ItemCat="14" ItemIndex="120" ItemLevel="2"  Name="Legend Credit Coin (10)" Price="0" Flags="9344" />
+	<Item ItemCat="14" ItemIndex="120" ItemLevel="3"  Name="Legend Credit Coin (50)" Price="0" Flags="9344" />
+	<Item ItemCat="14" ItemIndex="120" ItemLevel="4"  Name="Legend Credit Coin (100)" Price="0" Flags="9344" />
+	<Item ItemCat="14" ItemIndex="120" ItemLevel="5"  Name="Legend Credit Coin (500)" Price="0" Flags="9344" />
+	<Item ItemCat="14" ItemIndex="120" ItemLevel="6"  Name="Legend Credit Coin (1000)" Price="0" Flags="9344" />
+	<Item ItemCat="14" ItemIndex="120" ItemLevel="7"  Name="Legend Credit Coin (5000)" Price="0" Flags="9344" />
+	<Item ItemCat="14" ItemIndex="120" ItemLevel="8"  Name="Legend Credit Coin (10000)" Price="0" Flags="9344" />
+	<Item ItemCat="14" ItemIndex="120" ItemLevel="9"  Name="Legend Credit Coin (50000)" Price="0" Flags="9344" />
+	<Item ItemCat="14" ItemIndex="120" ItemLevel="10" Name="Legend Credit Coin (100000)" Price="0" Flags="9344" />
+</ItemLevel>

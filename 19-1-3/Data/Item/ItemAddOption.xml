@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==                File Name: ItemAddOption                ==
+// ============================================================
+-->
+
+<ItemAddOption>
+	<Item ItemCat="0" ItemIndex="22" Opt1="2" Value1="200" Opt2="1" Value2="10" />
+	<Item ItemCat="0" ItemIndex="23" Opt1="2" Value1="200" Opt2="1" Value2="10" />
+	<Item ItemCat="0" ItemIndex="35" Opt1="2" Value1="200" Opt2="1" Value2="10" />
+	<Item ItemCat="2" ItemIndex="14" Opt1="2" Value1="200" Opt2="1" Value2="10" />
+	<Item ItemCat="4" ItemIndex="21" Opt1="2" Value1="200" Opt2="1" Value2="10" />
+	<Item ItemCat="5" ItemIndex="12" Opt1="2" Value1="200" Opt2="1" Value2="10" />
+	<Item ItemCat="5" ItemIndex="19" Opt1="2" Value1="200" Opt2="1" Value2="10" />
+	<Item ItemCat="7" ItemIndex="29" Opt1="8" Value1="20" Opt2="3" Value2="10" />
+	<Item ItemCat="7" ItemIndex="30" Opt1="8" Value1="20" Opt2="3" Value2="10" />
+	<Item ItemCat="7" ItemIndex="31" Opt1="8" Value1="20" Opt2="3" Value2="10" />
+	<Item ItemCat="7" ItemIndex="33" Opt1="8" Value1="20" Opt2="3" Value2="10" />
+	<Item ItemCat="7" ItemIndex="43" Opt1="8" Value1="20" Opt2="3" Value2="10" />
+	<Item ItemCat="7" ItemIndex="73" Opt1="8" Value1="20" Opt2="3" Value2="10" />
+	<Item ItemCat="8" ItemIndex="29" Opt1="7" Value1="1" Opt2="3" Value2="10" />
+	<Item ItemCat="8" ItemIndex="30" Opt1="7" Value1="1" Opt2="3" Value2="10" />
+	<Item ItemCat="8" ItemIndex="31" Opt1="7" Value1="1" Opt2="3" Value2="10" />
+	<Item ItemCat="8" ItemIndex="32" Opt1="7" Value1="1" Opt2="3" Value2="10" />
+	<Item ItemCat="8" ItemIndex="33" Opt1="7" Value1="1" Opt2="3" Value2="10" />
+	<Item ItemCat="8" ItemIndex="43" Opt1="7" Value1="1" Opt2="3" Value2="10" />
+	<Item ItemCat="8" ItemIndex="73" Opt1="7" Value1="1" Opt2="3" Value2="10" />
+	<Item ItemCat="9" ItemIndex="29" Opt1="4" Value1="200" Opt2="3" Value2="10" />
+	<Item ItemCat="9" ItemIndex="30" Opt1="4" Value1="200" Opt2="3" Value2="10" />
+	<Item ItemCat="9" ItemIndex="31" Opt1="4" Value1="200" Opt2="3" Value2="10" />
+	<Item ItemCat="9" ItemIndex="32" Opt1="4" Value1="200" Opt2="3" Value2="10" />
+	<Item ItemCat="9" ItemIndex="33" Opt1="4" Value1="200" Opt2="3" Value2="10" />
+	<Item ItemCat="9" ItemIndex="43" Opt1="4" Value1="200" Opt2="3" Value2="10" />
+	<Item ItemCat="9" ItemIndex="73" Opt1="4" Value1="200" Opt2="3" Value2="10" />
+	<Item ItemCat="10" ItemIndex="29" Opt1="5" Value1="200" Opt2="3" Value2="10" />
+	<Item ItemCat="10" ItemIndex="30" Opt1="5" Value1="200" Opt2="3" Value2="10" />
+	<Item ItemCat="10" ItemIndex="31" Opt1="5" Value1="200" Opt2="3" Value2="10" />
+	<Item ItemCat="10" ItemIndex="32" Opt1="5" Value1="200" Opt2="3" Value2="10" />
+	<Item ItemCat="10" ItemIndex="33" Opt1="5" Value1="200" Opt2="3" Value2="10" />
+	<Item ItemCat="10" ItemIndex="43" Opt1="5" Value1="200" Opt2="3" Value2="10" />
+	<Item ItemCat="11" ItemIndex="29" Opt1="6" Value1="700" Opt2="3" Value2="10" />
+	<Item ItemCat="11" ItemIndex="30" Opt1="6" Value1="700" Opt2="3" Value2="10" />
+	<Item ItemCat="11" ItemIndex="31" Opt1="6" Value1="700" Opt2="3" Value2="10" />
+	<Item ItemCat="11" ItemIndex="32" Opt1="6" Value1="700" Opt2="3" Value2="10" />
+	<Item ItemCat="11" ItemIndex="33" Opt1="6" Value1="700" Opt2="3" Value2="10" />
+	<Item ItemCat="11" ItemIndex="43" Opt1="6" Value1="700" Opt2="3" Value2="10" />
+	<Item ItemCat="11" ItemIndex="73" Opt1="6" Value1="700" Opt2="3" Value2="10" />
+</ItemAddOption>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==            File Name: MonsterSoulConverter             ==
+// ============================================================
+-->
+
+<MonsterSoulConverter>
+	<Data ID="1" Type="14" Index="460" Amount="1" />
+	<Data ID="2" Type="14" Index="461" Amount="1" />
+	<Data ID="3" Type="14" Index="462" Amount="1" />
+	<Data ID="4" Type="14" Index="463" Amount="1" />
+	<Data ID="5" Type="14" Index="464" Amount="1" />
+</MonsterSoulConverter>

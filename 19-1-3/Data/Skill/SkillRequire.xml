@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==               File Name: SkillRequire                  ==
+// ============================================================
+-->
+
+<SkillRequire>
+	<Skill ID="243" ReqSkill="242" ReqMasterSkill="847" ReqMasterLevel="10" />
+	<Skill ID="247" ReqSkill="246" ReqMasterSkill="856" ReqMasterLevel="10" />
+	<Skill ID="282" ReqSkill="262" ReqMasterSkill="558" ReqMasterLevel="10" />
+	<Skill ID="285" ReqSkill="284" ReqMasterSkill="751" ReqMasterLevel="10" />
+	<Skill ID="288" ReqSkill="225" ReqMasterSkill="778" ReqMasterLevel="10" />
+	<Skill ID="294" ReqSkill="293" ReqMasterSkill="782" ReqMasterLevel="10" />
+	<Skill ID="723" ReqSkill="43" ReqMasterSkill="339" ReqMasterLevel="10" />
+	<Skill ID="724" ReqSkill="2" ReqMasterSkill="390" ReqMasterLevel="10" />
+	<Skill ID="725" ReqSkill="2" ReqMasterSkill="390" ReqMasterLevel="10" />
+	<Skill ID="726" ReqSkill="9" ReqMasterSkill="385" ReqMasterLevel="10" />
+	<Skill ID="727" ReqSkill="24" ReqMasterSkill="418" ReqMasterLevel="10" />
+	<Skill ID="729" ReqSkill="215" ReqMasterSkill="455" ReqMasterLevel="10" />
+	<Skill ID="730" ReqSkill="215" ReqMasterSkill="455" ReqMasterLevel="10" />
+	<Skill ID="731" ReqSkill="55" ReqMasterSkill="490" ReqMasterLevel="10" />
+	<Skill ID="732" ReqSkill="55" ReqMasterSkill="490" ReqMasterLevel="10" />
+	<Skill ID="733" ReqSkill="13" ReqMasterSkill="484" ReqMasterLevel="10" />
+	<Skill ID="734" ReqSkill="2" ReqMasterSkill="484" ReqMasterLevel="10" />
+	<Skill ID="736" ReqSkill="61" ReqMasterSkill="508" ReqMasterLevel="10" />
+	<Skill ID="737" ReqSkill="238" ReqMasterSkill="523" ReqMasterLevel="10" />
+	<Skill ID="739" ReqSkill="263" ReqMasterSkill="559" ReqMasterLevel="10" />
+	<Skill ID="1501" ReqSkill="43" ReqMasterSkill="339" ReqMasterLevel="10" />
+	<Skill ID="2003" ReqSkill="2002" ReqMasterSkill="824" ReqMasterLevel="10" />
+	<Skill ID="2005" ReqSkill="2004" ReqMasterSkill="826" ReqMasterLevel="10" />
+	<Skill ID="2012" ReqSkill="55" ReqMasterSkill="490" ReqMasterLevel="10" />
+	<Skill ID="2013" ReqSkill="13" ReqMasterSkill="484" ReqMasterLevel="10" />
+	<Skill ID="2023" ReqSkill="24" ReqMasterSkill="411" ReqMasterLevel="10" />
+	<Skill ID="2025" ReqSkill="28" ReqMasterSkill="422" ReqMasterLevel="10" />
+	<Skill ID="2030" ReqSkill="2029" ReqMasterSkill="880" ReqMasterLevel="10" />
+	<Skill ID="2036" ReqSkill="274" ReqMasterSkill="695" ReqMasterLevel="10" />
+	<Skill ID="2085" ReqSkill="279" ReqMasterSkill="698" ReqMasterLevel="10" />
+</SkillRequire>

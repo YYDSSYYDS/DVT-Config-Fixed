@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==                 File Name: ItemSocket                  ==
+// ============================================================
+-->
+
+<ItemSocket>
+    <Category Index="0" Name="Swords">
+		<Item Index="26" MaxSocket="3" />
+		<Item Index="27" MaxSocket="3" />
+		<Item Index="28" MaxSocket="3" />
+		<Item Index="29" MaxSocket="3" />
+		<Item Index="30" MaxSocket="3" />
+		<Item Index="36" MaxSocket="3" />
+		<Item Index="37" MaxSocket="3" />
+		<Item Index="52" MaxSocket="3" />
+		<Item Index="53" MaxSocket="3" />
+		<Item Index="69" MaxSocket="3" />
+		<Item Index="70" MaxSocket="3" />
+		<Item Index="103" MaxSocket="3" />
+		<Item Index="104" MaxSocket="3" />
+    </Category>
+
+    <Category Index="2" Name="Maces and Scepters">
+		<Item Index="16" MaxSocket="3" />
+		<Item Index="17" MaxSocket="3" />
+		<Item Index="19" MaxSocket="3" />
+		<Item Index="20" MaxSocket="3" />
+		<Item Index="30" MaxSocket="3" />
+		<Item Index="31" MaxSocket="3" />
+    </Category>
+    
+    <Category Index="3" Name="Spears">
+		<Item Index="12" MaxSocket="3" />
+		<Item Index="22" MaxSocket="3" />
+		<Item Index="23" MaxSocket="3" />
+    </Category>
+    
+    <Category Index="4" Name="Bows and Crossbows">
+		<Item Index="23" MaxSocket="3" />
+		<Item Index="25" MaxSocket="3" />
+		<Item Index="26" MaxSocket="3" />
+		<Item Index="33" MaxSocket="3" />
+		<Item Index="44" MaxSocket="3" />
+		<Item Index="45" MaxSocket="3" />
+    </Category>
+    
+    <Category Index="5" Name="Staffs">
+		<Item Index="20" MaxSocket="3" />
+		<Item Index="30" MaxSocket="3" />
+		<Item Index="31" MaxSocket="3" />
+		<Item Index="32" MaxSocket="3" />
+		<Item Index="35" MaxSocket="3" />
+		<Item Index="37" MaxSocket="3" />
+    </Category>
+    
+    <Category Index="6" Name="Shields">
+		<Item Index="17" MaxSocket="3" />
+		<Item Index="18" MaxSocket="3" />
+		<Item Index="19" MaxSocket="3" />
+		<Item Index="20" MaxSocket="3" />
+		<Item Index="22" MaxSocket="3" />
+		<Item Index="23" MaxSocket="3" />
+		<Item Index="24" MaxSocket="3" />
+		<Item Index="25" MaxSocket="3" />
+		<Item Index="26" MaxSocket="3" />
+		<Item Index="40" MaxSocket="3" />
+		<Item Index="41" MaxSocket="3" />
+    </Category>
+    
+    <Category Index="7" Name="Helmets">
+		<Item Index="44" MaxSocket="3" />
+		<Item Index="45" MaxSocket="3" />
+		<Item Index="46" MaxSocket="3" />
+		<Item Index="49" MaxSocket="3" />
+		<Item Index="50" MaxSocket="3" />
+		<Item Index="51" MaxSocket="3" />
+		<Item Index="52" MaxSocket="3" />
+		<Item Index="53" MaxSocket="3" />
+		<Item Index="54" MaxSocket="3" />
+		<Item Index="55" MaxSocket="3" />
+		<Item Index="56" MaxSocket="3" />
+		<Item Index="58" MaxSocket="3" />
+		<Item Index="74" MaxSocket="3" />
+		<Item Index="75" MaxSocket="3" />
+		<Item Index="120" MaxSocket="3" />
+		<Item Index="121" MaxSocket="3" />
+		<Item Index="146" MaxSocket="3" />
+		<Item Index="147" MaxSocket="3" />
+		<Item Index="148" MaxSocket="3" />
+		<Item Index="149" MaxSocket="3" />
+		<Item Index="178" MaxSocket="3" />
+		<Item Index="179" MaxSocket="3" />
+		<Item Index="210" MaxSocket="3" />
+		<Item Index="211" MaxSocket="3" />
+
+		<Item Index="239" MaxSocket="3" />
+		<Item Index="240" MaxSocket="3" />
+		<Item Index="257" MaxSocket="3" />
+		<Item Index="258" MaxSocket="3" />
+		<Item Index="304" MaxSocket="3" />
+		<Item Index="305" MaxSocket="3" />
+    </Category>
+    
+    <Category Index="8" Name="Armors">
+		<Item Index="44" MaxSocket="3" />
+		<Item Index="45" MaxSocket="3" />
+		<Item Index="46" MaxSocket="3" />
+		<Item Index="47" MaxSocket="3" />
+		<Item Index="48" MaxSocket="3" />
+		<Item Index="49" MaxSocket="3" />
+		<Item Index="50" MaxSocket="3" />
+		<Item Index="51" MaxSocket="3" />
+		<Item Index="52" MaxSocket="3" />
+		<Item Index="53" MaxSocket="3" />
+		<Item Index="54" MaxSocket="3" />
+		<Item Index="55" MaxSocket="3" />
+		<Item Index="56" MaxSocket="3" />
+		<Item Index="57" MaxSocket="3" />
+		<Item Index="58" MaxSocket="3" />
+		<Item Index="74" MaxSocket="3" />
+		<Item Index="75" MaxSocket="3" />
+		<Item Index="76" MaxSocket="3" />
+		<Item Index="120" MaxSocket="3" />
+		<Item Index="121" MaxSocket="3" />
+		<Item Index="146" MaxSocket="3" />
+		<Item Index="147" MaxSocket="3" />
+		<Item Index="148" MaxSocket="3" />
+		<Item Index="149" MaxSocket="3" />
+		<Item Index="178" MaxSocket="3" />
+		<Item Index="179" MaxSocket="3" />
+		<Item Index="210" MaxSocket="3" />
+		<Item Index="211" MaxSocket="3" />
+
+		<Item Index="239" MaxSocket="3" />
+		<Item Index="240" MaxSocket="3" />
+		<Item Index="257" MaxSocket="3" />
+		<Item Index="258" MaxSocket="3" />
+		<Item Index="304" MaxSocket="3" />
+		<Item Index="305" MaxSocket="3" />
+    </Category>
+    
+    <Category Index="9" Name="Pants">
+		<Item Index="44" MaxSocket="3" />
+		<Item Index="45" MaxSocket="3" />
+		<Item Index="46" MaxSocket="3" />
+		<Item Index="47" MaxSocket="3" />
+		<Item Index="48" MaxSocket="3" />
+		<Item Index="49" MaxSocket="3" />
+		<Item Index="50" MaxSocket="3" />
+		<Item Index="51" MaxSocket="3" />
+		<Item Index="52" MaxSocket="3" />
+		<Item Index="53" MaxSocket="3" />
+		<Item Index="54" MaxSocket="3" />
+		<Item Index="55" MaxSocket="3" />
+		<Item Index="56" MaxSocket="3" />
+		<Item Index="57" MaxSocket="3" />
+		<Item Index="58" MaxSocket="3" />
+		<Item Index="74" MaxSocket="3" />
+		<Item Index="75" MaxSocket="3" />
+		<Item Index="76" MaxSocket="3" />
+		<Item Index="120" MaxSocket="3" />
+		<Item Index="121" MaxSocket="3" />
+		<Item Index="146" MaxSocket="3" />
+		<Item Index="147" MaxSocket="3" />
+		<Item Index="148" MaxSocket="3" />
+		<Item Index="149" MaxSocket="3" />
+		<Item Index="178" MaxSocket="3" />
+		<Item Index="179" MaxSocket="3" />
+		<Item Index="210" MaxSocket="3" />
+		<Item Index="211" MaxSocket="3" />
+
+		<Item Index="239" MaxSocket="3" />
+		<Item Index="240" MaxSocket="3" />
+		<Item Index="257" MaxSocket="3" />
+		<Item Index="258" MaxSocket="3" />
+		<Item Index="304" MaxSocket="3" />
+		<Item Index="305" MaxSocket="3" />
+    </Category>
+    
+    <Category Index="10" Name="Gloves">
+		<Item Index="44" MaxSocket="3" />
+		<Item Index="45" MaxSocket="3" />
+		<Item Index="46" MaxSocket="3" />
+		<Item Index="47" MaxSocket="3" />
+		<Item Index="48" MaxSocket="3" />
+		<Item Index="49" MaxSocket="3" />
+		<Item Index="50" MaxSocket="3" />
+		<Item Index="51" MaxSocket="3" />
+		<Item Index="52" MaxSocket="3" />
+		<Item Index="53" MaxSocket="3" />
+		<Item Index="54" MaxSocket="3" />
+		<Item Index="55" MaxSocket="3" />
+		<Item Index="56" MaxSocket="3" />
+		<Item Index="57" MaxSocket="3" />
+		<Item Index="58" MaxSocket="3" />
+		<Item Index="74" MaxSocket="3" />
+		<Item Index="75" MaxSocket="3" />
+		<Item Index="76" MaxSocket="3" />
+		<Item Index="120" MaxSocket="3" />
+		<Item Index="121" MaxSocket="3" />
+		<Item Index="148" MaxSocket="3" />
+		<Item Index="149" MaxSocket="3" />
+		<Item Index="178" MaxSocket="3" />
+		<Item Index="179" MaxSocket="3" />
+		<Item Index="210" MaxSocket="3" />
+		<Item Index="211" MaxSocket="3" />
+
+		<Item Index="239" MaxSocket="3" />
+		<Item Index="240" MaxSocket="3" />
+		<Item Index="257" MaxSocket="3" />
+		<Item Index="258" MaxSocket="3" />
+		<Item Index="304" MaxSocket="3" />
+		<Item Index="305" MaxSocket="3" />
+    </Category>
+    
+    <Category Index="11" Name="Boots">
+		<Item Index="44" MaxSocket="3" />
+		<Item Index="45" MaxSocket="3" />
+		<Item Index="46" MaxSocket="3" />
+		<Item Index="47" MaxSocket="3" />
+		<Item Index="48" MaxSocket="3" />
+		<Item Index="49" MaxSocket="3" />
+		<Item Index="50" MaxSocket="3" />
+		<Item Index="51" MaxSocket="3" />
+		<Item Index="52" MaxSocket="3" />
+		<Item Index="53" MaxSocket="3" />
+		<Item Index="54" MaxSocket="3" />
+		<Item Index="55" MaxSocket="3" />
+		<Item Index="56" MaxSocket="3" />
+		<Item Index="57" MaxSocket="3" />
+		<Item Index="58" MaxSocket="3" />
+		<Item Index="74" MaxSocket="3" />
+		<Item Index="75" MaxSocket="3" />
+		<Item Index="76" MaxSocket="3" />
+		<Item Index="120" MaxSocket="3" />
+		<Item Index="121" MaxSocket="3" />
+		<Item Index="146" MaxSocket="3" />
+		<Item Index="147" MaxSocket="3" />
+		<Item Index="148" MaxSocket="3" />
+		<Item Index="149" MaxSocket="3" />
+		<Item Index="178" MaxSocket="3" />
+		<Item Index="179" MaxSocket="3" />
+		<Item Index="210" MaxSocket="3" />
+		<Item Index="211" MaxSocket="3" />
+
+		<Item Index="239" MaxSocket="3" />
+		<Item Index="240" MaxSocket="3" />
+		<Item Index="257" MaxSocket="3" />
+		<Item Index="258" MaxSocket="3" />
+		<Item Index="304" MaxSocket="3" />
+		<Item Index="305" MaxSocket="3" />
+    </Category>
+    
+    <Category Index="20" Name="(20) Uncategorized">
+		<Item Index="39" MaxSocket="3" />
+		<Item Index="40" MaxSocket="3" />
+		<Item Index="41" MaxSocket="3" />
+		<Item Index="42" MaxSocket="3" />
+    </Category>   
+</ItemSocket>

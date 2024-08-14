@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==              File Name: ItemSocketBonus                ==
+// ============================================================
+-->
+
+<ItemSocketBonus>
+	<Data ID="0" StartItemCat="0" EndItemCat="4" Name="Attack power increase" ValueType="1" Value="11" SuccesRate="100" ReqSocket1="1" ReqSocket2="5" ReqSocket3="3" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="1" SeedLevelMax="3"/>
+	<Data ID="1" StartItemCat="0" EndItemCat="4" Name="Skill attack increase" ValueType="1" Value="11" SuccesRate="100" ReqSocket1="5" ReqSocket2="3" ReqSocket3="1" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="1" SeedLevelMax="3"/>
+	<Data ID="2" StartItemCat="5" EndItemCat="5" Name="Attack/Wizardry increase" ValueType="1" Value="5" SuccesRate="100" ReqSocket1="1" ReqSocket2="5" ReqSocket3="3" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="1" SeedLevelMax="3"/>
+	<Data ID="3" StartItemCat="5" EndItemCat="5" Name="Skill attack increase" ValueType="1" Value="11" SuccesRate="100" ReqSocket1="5" ReqSocket2="3" ReqSocket3="1" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="1" SeedLevelMax="3"/>
+	<Data ID="4" StartItemCat="6" EndItemCat="11" Name="Defense increase" ValueType="1" Value="24" SuccesRate="100" ReqSocket1="2" ReqSocket2="6" ReqSocket3="4" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="1" SeedLevelMax="3"/>
+	<Data ID="5" StartItemCat="6" EndItemCat="11" Name="Maximum HP increase" ValueType="1" Value="29" SuccesRate="100" ReqSocket1="6" ReqSocket2="4" ReqSocket3="2" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="1" SeedLevelMax="3"/>
+	<Data ID="6" StartItemCat="0" EndItemCat="4" Name="Attack power increase" ValueType="1" Value="22" SuccesRate="100" ReqSocket1="1" ReqSocket2="5" ReqSocket3="3" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="4" SeedLevelMax="7"/>
+	<Data ID="7" StartItemCat="0" EndItemCat="4" Name="Skill attack increase" ValueType="1" Value="22" SuccesRate="100" ReqSocket1="5" ReqSocket2="3" ReqSocket3="1" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="4" SeedLevelMax="7"/>
+	<Data ID="8" StartItemCat="5" EndItemCat="5" Name="Attack/Wizardry increase" ValueType="1" Value="10" SuccesRate="100" ReqSocket1="1" ReqSocket2="5" ReqSocket3="3" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="4" SeedLevelMax="7"/>
+	<Data ID="9" StartItemCat="5" EndItemCat="5" Name="Skill attack increase" ValueType="1" Value="22" SuccesRate="100" ReqSocket1="5" ReqSocket2="3" ReqSocket3="1" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="4" SeedLevelMax="7"/>
+	<Data ID="10" StartItemCat="6" EndItemCat="11" Name="Defense increase" ValueType="1" Value="27" SuccesRate="100" ReqSocket1="2" ReqSocket2="6" ReqSocket3="4" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="4" SeedLevelMax="7"/>
+	<Data ID="11" StartItemCat="6" EndItemCat="11" Name="Maximum HP increase" ValueType="1" Value="31" SuccesRate="100" ReqSocket1="6" ReqSocket2="4" ReqSocket3="2" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="4" SeedLevelMax="7"/>
+	<Data ID="12" StartItemCat="0" EndItemCat="4" Name="Attack power increase" ValueType="1" Value="33" SuccesRate="100" ReqSocket1="1" ReqSocket2="5" ReqSocket3="3" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="8" SeedLevelMax="10"/>
+	<Data ID="13" StartItemCat="0" EndItemCat="4" Name="Skill attack increase" ValueType="1" Value="33" SuccesRate="100" ReqSocket1="5" ReqSocket2="3" ReqSocket3="1" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="8" SeedLevelMax="10"/>
+	<Data ID="14" StartItemCat="5" EndItemCat="5" Name="Attack/Wizardry increase" ValueType="1" Value="15" SuccesRate="100" ReqSocket1="1" ReqSocket2="5" ReqSocket3="3" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="8" SeedLevelMax="10"/>
+	<Data ID="15" StartItemCat="5" EndItemCat="5" Name="Skill attack increase" ValueType="1" Value="33" SuccesRate="100" ReqSocket1="5" ReqSocket2="3" ReqSocket3="1" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="8" SeedLevelMax="10"/>
+	<Data ID="16" StartItemCat="6" EndItemCat="11" Name="Defense increase" ValueType="1" Value="30" SuccesRate="100" ReqSocket1="2" ReqSocket2="6" ReqSocket3="4" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="8" SeedLevelMax="10"/>
+	<Data ID="17" StartItemCat="6" EndItemCat="11" Name="Maximum HP increase" ValueType="1" Value="33" SuccesRate="100" ReqSocket1="6" ReqSocket2="4" ReqSocket3="2" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="8" SeedLevelMax="10"/>
+	<Data ID="18" StartItemCat="0" EndItemCat="4" Name="Attack power increase" ValueType="1" Value="44" SuccesRate="100" ReqSocket1="1" ReqSocket2="5" ReqSocket3="3" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="11" SeedLevelMax="20"/>
+	<Data ID="19" StartItemCat="0" EndItemCat="4" Name="Skill attack increase" ValueType="1" Value="44" SuccesRate="100" ReqSocket1="5" ReqSocket2="3" ReqSocket3="1" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="11" SeedLevelMax="20"/>
+	<Data ID="20" StartItemCat="5" EndItemCat="5" Name="Attack/Wizardry increase" ValueType="1" Value="20" SuccesRate="100" ReqSocket1="1" ReqSocket2="5" ReqSocket3="3" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="11" SeedLevelMax="20"/>
+	<Data ID="21" StartItemCat="5" EndItemCat="5" Name="Skill attack increase" ValueType="1" Value="44" SuccesRate="100" ReqSocket1="5" ReqSocket2="3" ReqSocket3="1" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="11" SeedLevelMax="20"/>
+	<Data ID="22" StartItemCat="6" EndItemCat="11" Name="Defense increase" ValueType="1" Value="33" SuccesRate="100" ReqSocket1="2" ReqSocket2="6" ReqSocket3="4" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="11" SeedLevelMax="20"/>
+	<Data ID="23" StartItemCat="6" EndItemCat="11" Name="Maximum HP increase" ValueType="1" Value="35" SuccesRate="100" ReqSocket1="6" ReqSocket2="4" ReqSocket3="2" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="11" SeedLevelMax="20"/>
+	<Data ID="24" StartItemCat="0" EndItemCat="4" Name="Attack power increase" ValueType="1" Value="55" SuccesRate="100" ReqSocket1="1" ReqSocket2="5" ReqSocket3="3" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="11" SeedLevelMax="20"/>
+	<Data ID="25" StartItemCat="0" EndItemCat="4" Name="Skill attack increase" ValueType="1" Value="55" SuccesRate="100" ReqSocket1="5" ReqSocket2="3" ReqSocket3="1" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="11" SeedLevelMax="20"/>
+	<Data ID="26" StartItemCat="5" EndItemCat="5" Name="Attack/Wizardry increase" ValueType="1" Value="25" SuccesRate="100" ReqSocket1="1" ReqSocket2="5" ReqSocket3="3" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="11" SeedLevelMax="20"/>
+	<Data ID="27" StartItemCat="5" EndItemCat="5" Name="Skill attack increase" ValueType="1" Value="55" SuccesRate="100" ReqSocket1="5" ReqSocket2="3" ReqSocket3="1" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="11" SeedLevelMax="20"/>
+	<Data ID="28" StartItemCat="6" EndItemCat="11" Name="Defense increase" ValueType="1" Value="36" SuccesRate="100" ReqSocket1="2" ReqSocket2="6" ReqSocket3="4" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="11" SeedLevelMax="20"/>
+	<Data ID="29" StartItemCat="6" EndItemCat="11" Name="Maximum HP increase" ValueType="1" Value="37" SuccesRate="100" ReqSocket1="6" ReqSocket2="4" ReqSocket3="2" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="11" SeedLevelMax="20"/>
+	<Data ID="30" StartItemCat="20" EndItemCat="20" Name="Defense increase" ValueType="1" Value="24" SuccesRate="100" ReqSocket1="2" ReqSocket2="6" ReqSocket3="4" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="1" SeedLevelMax="3"/>
+	<Data ID="31" StartItemCat="20" EndItemCat="20" Name="Maximum HP increase" ValueType="1" Value="29" SuccesRate="100" ReqSocket1="6" ReqSocket2="4" ReqSocket3="2" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="1" SeedLevelMax="3"/>
+	<Data ID="32" StartItemCat="20" EndItemCat="20" Name="Defense increase" ValueType="1" Value="27" SuccesRate="100" ReqSocket1="2" ReqSocket2="6" ReqSocket3="4" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="4" SeedLevelMax="7"/>
+	<Data ID="33" StartItemCat="20" EndItemCat="20" Name="Maximum HP increase" ValueType="1" Value="31" SuccesRate="100" ReqSocket1="6" ReqSocket2="4" ReqSocket3="2" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="4" SeedLevelMax="7"/>
+	<Data ID="34" StartItemCat="20" EndItemCat="20" Name="Defense increase" ValueType="1" Value="30" SuccesRate="100" ReqSocket1="2" ReqSocket2="6" ReqSocket3="4" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="8" SeedLevelMax="10"/>
+	<Data ID="35" StartItemCat="20" EndItemCat="20" Name="Maximum HP increase" ValueType="1" Value="33" SuccesRate="100" ReqSocket1="6" ReqSocket2="4" ReqSocket3="2" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="8" SeedLevelMax="10"/>
+	<Data ID="36" StartItemCat="20" EndItemCat="20" Name="Defense increase" ValueType="1" Value="33" SuccesRate="100" ReqSocket1="2" ReqSocket2="6" ReqSocket3="4" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="11" SeedLevelMax="20"/>
+	<Data ID="37" StartItemCat="20" EndItemCat="20" Name="Maximum HP increase" ValueType="1" Value="35" SuccesRate="100" ReqSocket1="6" ReqSocket2="4" ReqSocket3="2" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="11" SeedLevelMax="20"/>
+	<Data ID="38" StartItemCat="20" EndItemCat="20" Name="Defense increase" ValueType="1" Value="36" SuccesRate="100" ReqSocket1="2" ReqSocket2="6" ReqSocket3="4" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="11" SeedLevelMax="20"/>
+	<Data ID="39" StartItemCat="20" EndItemCat="20" Name="Maximum HP increase" ValueType="1" Value="37" SuccesRate="100" ReqSocket1="6" ReqSocket2="4" ReqSocket3="2" ReqSocket4="0" ReqSocket5="0" SeedLevelMin="11" SeedLevelMax="20"/>
+</ItemSocketBonus>

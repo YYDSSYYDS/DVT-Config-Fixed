@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==         File Name: Shop(19)_Elbeland_Marseille         ==
+// ============================================================
+-->
+
+<ShopItem>
+	<Item ItemCat="15" ItemIndex="20" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="4" />
+	<Item ItemCat="15" ItemIndex="6" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="3" />
+	<Item ItemCat="15" ItemIndex="1" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="2" />
+	<Item ItemCat="15" ItemIndex="10" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="1" />
+	<Item ItemCat="15" ItemIndex="3" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="0" />
+</ShopItem>

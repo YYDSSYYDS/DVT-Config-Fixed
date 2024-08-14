@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DevEMU				 	 ==
+// ==                 File Name: RuudPrice                   ==
+// ============================================================
+-->
+
+<RuudPrice>
+	<Item ItemCat="0" ItemIndex="42" Price="100000" />
+	<Item ItemCat="0" ItemIndex="44" Price="100000" />
+	<Item ItemCat="0" ItemIndex="46" Price="100000" />
+	<Item ItemCat="0" ItemIndex="71" Price="100000" />
+	<Item ItemCat="0" ItemIndex="89" Price="100000" />
+	<Item ItemCat="2" ItemIndex="22" Price="100000" />
+	<Item ItemCat="2" ItemIndex="32" Price="100000" />
+	<Item ItemCat="3" ItemIndex="19" Price="100000" />
+	<Item ItemCat="4" ItemIndex="28" Price="100000" />
+	<Item ItemCat="4" ItemIndex="34" Price="100000" />
+	<Item ItemCat="4" ItemIndex="48" Price="100000" />
+	<Item ItemCat="5" ItemIndex="41" Price="100000" />
+	<Item ItemCat="5" ItemIndex="43" Price="100000" />
+	<Item ItemCat="5" ItemIndex="57" Price="100000" />
+	<Item ItemCat="6" ItemIndex="44" Price="100000" />
+	<Item ItemCat="12" ItemIndex="289" Price="1000" />
+	<Item ItemCat="12" ItemIndex="290" Price="1000" />
+	<Item ItemCat="12" ItemIndex="291" Price="1000" />
+	<Item ItemCat="12" ItemIndex="292" Price="1000" />
+	<Item ItemCat="12" ItemIndex="293" Price="1000" />
+	<Item ItemCat="12" ItemIndex="295" Price="1000" />
+	<Item ItemCat="12" ItemIndex="296" Price="1000" />
+	<Item ItemCat="12" ItemIndex="297" Price="1000" />
+	<Item ItemCat="12" ItemIndex="298" Price="1000" />
+	<Item ItemCat="12" ItemIndex="299" Price="1000" />
+	<Item ItemCat="12" ItemIndex="300" Price="1000" />
+	<Item ItemCat="12" ItemIndex="303" Price="1000" />
+	<Item ItemCat="12" ItemIndex="305" Price="1000" />
+	<Item ItemCat="12" ItemIndex="407" Price="1000" />
+	<Item ItemCat="12" ItemIndex="409" Price="75000" />
+	<Item ItemCat="12" ItemIndex="413" Price="1000" />
+	<Item ItemCat="12" ItemIndex="479" Price="1000" />
+	<Item ItemCat="12" ItemIndex="482" Price="1000" />
+	<Item ItemCat="12" ItemIndex="486" Price="1000" />
+	<Item ItemCat="12" ItemIndex="493" Price="1000" />
+	<Item ItemCat="12" ItemIndex="495" Price="1000" />
+	<Item ItemCat="13" ItemIndex="351" Price="50000" />
+	<Item ItemCat="13" ItemIndex="352" Price="50000" />
+	<Item ItemCat="13" ItemIndex="353" Price="50000" />
+	<Item ItemCat="13" ItemIndex="354" Price="50000" />
+	<Item ItemCat="13" ItemIndex="355" Price="50000" />
+	<Item ItemCat="13" ItemIndex="356" Price="50000" />
+	<Item ItemCat="13" ItemIndex="357" Price="50000" />
+	<Item ItemCat="13" ItemIndex="358" Price="50000" />
+	<Item ItemCat="13" ItemIndex="359" Price="50000" />
+	<Item ItemCat="13" ItemIndex="360" Price="50000" />
+	<Item ItemCat="13" ItemIndex="361" Price="50000" />
+	<Item ItemCat="13" ItemIndex="362" Price="50000" />
+	<Item ItemCat="13" ItemIndex="363" Price="50000" />
+	<Item ItemCat="13" ItemIndex="364" Price="50000" />
+	<Item ItemCat="13" ItemIndex="365" Price="50000" />
+	<Item ItemCat="13" ItemIndex="366" Price="50000" />
+	<Item ItemCat="13" ItemIndex="367" Price="30000" />
+	<Item ItemCat="13" ItemIndex="368" Price="30000" />
+	<Item ItemCat="13" ItemIndex="369" Price="30000" />
+	<Item ItemCat="13" ItemIndex="370" Price="30000" />
+	<Item ItemCat="13" ItemIndex="371" Price="50000" />
+	<Item ItemCat="13" ItemIndex="372" Price="50000" />
+	<Item ItemCat="13" ItemIndex="373" Price="50000" />
+	<Item ItemCat="13" ItemIndex="374" Price="50000" />
+	<Item ItemCat="13" ItemIndex="375" Price="30000" />
+	<Item ItemCat="13" ItemIndex="376" Price="30000" />
+	<Item ItemCat="13" ItemIndex="377" Price="30000" />
+	<Item ItemCat="13" ItemIndex="378" Price="30000" />
+	<Item ItemCat="13" ItemIndex="379" Price="50000" />
+	<Item ItemCat="13" ItemIndex="380" Price="50000" />
+	<Item ItemCat="13" ItemIndex="381" Price="50000" />
+	<Item ItemCat="13" ItemIndex="382" Price="50000" />
+	<Item ItemCat="13" ItemIndex="383" Price="50000" />
+	<Item ItemCat="13" ItemIndex="384" Price="50000" />
+	<Item ItemCat="13" ItemIndex="385" Price="50000" />
+	<Item ItemCat="13" ItemIndex="386" Price="50000" />
+	<Item ItemCat="13" ItemIndex="387" Price="50000" />
+	<Item ItemCat="13" ItemIndex="388" Price="50000" />
+	<Item ItemCat="13" ItemIndex="389" Price="50000" />
+	<Item ItemCat="13" ItemIndex="390" Price="50000" />
+	<Item ItemCat="13" ItemIndex="391" Price="50000" />
+	<Item ItemCat="13" ItemIndex="392" Price="50000" />
+	<Item ItemCat="13" ItemIndex="393" Price="50000" />
+	<Item ItemCat="13" ItemIndex="394" Price="50000" />
+	<Item ItemCat="13" ItemIndex="395" Price="50000" />
+	<Item ItemCat="13" ItemIndex="396" Price="50000" />
+	<Item ItemCat="13" ItemIndex="397" Price="50000" />
+	<Item ItemCat="13" ItemIndex="398" Price="50000" />
+	<Item ItemCat="13" ItemIndex="399" Price="50000" />
+	<Item ItemCat="13" ItemIndex="400" Price="50000" />
+	<Item ItemCat="13" ItemIndex="401" Price="50000" />
+	<Item ItemCat="13" ItemIndex="402" Price="50000" />
+	<Item ItemCat="13" ItemIndex="403" Price="50000" />
+	<Item ItemCat="13" ItemIndex="404" Price="50000" />
+	<Item ItemCat="13" ItemIndex="405" Price="50000" />
+	<Item ItemCat="13" ItemIndex="406" Price="50000" />
+	<Item ItemCat="14" ItemIndex="341" Price="50000" />
+	<Item ItemCat="14" ItemIndex="364" Price="5000" />
+	<Item ItemCat="14" ItemIndex="384" Price="1000" />
+	<Item ItemCat="14" ItemIndex="386" Price="100000" />
+	<Item ItemCat="14" ItemIndex="389" Price="50000" />
+	<Item ItemCat="14" ItemIndex="390" Price="2500" />
+	<Item ItemCat="14" ItemIndex="394" Price="30000" />
+	<Item ItemCat="14" ItemIndex="395" Price="10000" />
+	<Item ItemCat="14" ItemIndex="396" Price="30000" />
+	<Item ItemCat="14" ItemIndex="397" Price="10000" />
+	<Item ItemCat="14" ItemIndex="415" Price="50000" />
+	<Item ItemCat="14" ItemIndex="416" Price="100000" />
+	<Item ItemCat="14" ItemIndex="449" Price="50000" />
+	<Item ItemCat="14" ItemIndex="450" Price="100000" />
+	<Item ItemCat="14" ItemIndex="458" Price="25000" />
+	<Item ItemCat="14" ItemIndex="460" Price="400" />
+	<Item ItemCat="14" ItemIndex="461" Price="500" />
+	<Item ItemCat="14" ItemIndex="462" Price="600" />
+	<Item ItemCat="14" ItemIndex="463" Price="700" />
+	<Item ItemCat="14" ItemIndex="464" Price="800" />
+	<Item ItemCat="14" ItemIndex="494" Price="50000" />
+	<Item ItemCat="14" ItemIndex="495" Price="100000" />
+	<Item ItemCat="14" ItemIndex="497" Price="25000" />
+	<Item ItemCat="14" ItemIndex="498" Price="50000" />
+	<Item ItemCat="14" ItemIndex="499" Price="30000" />
+	<Item ItemCat="14" ItemIndex="500" Price="10000" />
+	<Item ItemCat="14" ItemIndex="501" Price="50000" />
+	<Item ItemCat="14" ItemIndex="502" Price="100000" />
+	<Item ItemCat="15" ItemIndex="39" Price="1000" />
+	<Item ItemCat="15" ItemIndex="45" Price="1000" />
+	<Item ItemCat="20" ItemIndex="77" Price="25000" />
+	<Item ItemCat="14" ItemIndex="510" Price="50000" />
+	<Item  ItemCat="16" ItemIndex="42"  Price="0"  />
+		<Item  ItemCat="14" ItemIndex="341" Price="0" />
+		<Item  ItemCat="14" ItemIndex="364" Price="0" />
+		<Item  ItemCat="14" ItemIndex="384" Price="0" />		
+		<Item  ItemCat="14" ItemIndex="386" Price="0" />
+		<Item  ItemCat="14" ItemIndex="389" Price="0" />
+		<Item  ItemCat="14" ItemIndex="415" Price="0" />
+		<Item  ItemCat="14" ItemIndex="416" Price="0" />
+		<Item  ItemCat="12" ItemIndex="407" Price="0" />
+		<Item  ItemCat="12" ItemIndex="409" Price="0" />		
+		<Item  ItemCat="14" ItemIndex="390" Price="0" />
+		<Item  ItemCat="14" ItemIndex="450" Price="0" />		
+		<Item  ItemCat="14" ItemIndex="449" Price="0" />
+		<Item  ItemCat="14" ItemIndex="495" Price="0" />
+		<Item  ItemCat="14" ItemIndex="502" Price="0" />
+		<Item  ItemCat="14" ItemIndex="501" Price="0" />
+		<Item  ItemCat="14" ItemIndex="458" Price="0" />
+		<Item  ItemCat="14" ItemIndex="494" Price="0" />
+		<Item  ItemCat="14" ItemIndex="460" Price="0" />
+		<Item  ItemCat="14" ItemIndex="461" Price="0" />
+		<Item  ItemCat="14" ItemIndex="462" Price="0" />
+		<Item  ItemCat="14" ItemIndex="463" Price="0" />		
+		<Item  ItemCat="14" ItemIndex="464" Price="0" />
+		<Item  ItemCat="14" ItemIndex="497" Price="0" />
+		<Item  ItemCat="20" ItemIndex="77" Price="0" />
+	  
+	   <Item  ItemCat="14" ItemIndex="498" Price="0" />
+	   <Item  ItemCat="14" ItemIndex="510" Price="0" />
+	   <Item  ItemCat="12" ItemIndex="509" Price="0" />
+	   <Item  ItemCat="12" ItemIndex="510" Price="0" />
+	   <Item  ItemCat="12" ItemIndex="82"  Price="0" />
+	   <Item  ItemCat="12" ItemIndex="81"  Price="0" />
+	   <Item  ItemCat="20" ItemIndex="83"  Price="0" />
+	   <Item  ItemCat="20" ItemIndex="84"  Price="0" />
+	   <Item  ItemCat="12" ItemIndex="85"  Price="0" />
+	   <Item  ItemCat="12" ItemIndex="86"  Price="0" />
+	   <Item  ItemCat="20" ItemIndex="112" Price="0" />
+	   <Item  ItemCat="20" ItemIndex="119" Price="0" />
+	   <Item  ItemCat="12" ItemIndex="96"  Price="0" />
+	   <Item  ItemCat="12" ItemIndex="92"  Price="0" />
+	   <Item  ItemCat="20" ItemIndex="159" Price="0" />
+	   <Item  ItemCat="20" ItemIndex="161" Price="0" />
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</RuudPrice>

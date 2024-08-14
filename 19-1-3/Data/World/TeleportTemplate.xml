@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==             File Name: TeleportTemplate                ==
+// ============================================================
+-->
+
+<TeleportTemplate>
+	<Teleport WorldID="1" Name="Arena" Zen="2000" MinLevel="1" Gate="50" Monster="65535" />
+	<Teleport WorldID="2" Name="Lorencia" Zen="2000" MinLevel="10" Gate="17" Monster="7" />
+	<Teleport WorldID="3" Name="Noria" Zen="2000" MinLevel="10" Gate="27" Monster="32" />
+	<Teleport WorldID="4" Name="Devias" Zen="2000" MinLevel="10" Gate="22" Monster="24" />
+	<Teleport WorldID="5" Name="Devias2" Zen="2500" MinLevel="10" Gate="72" Monster="19" />
+	<Teleport WorldID="6" Name="Devias3" Zen="3000" MinLevel="10" Gate="73" Monster="20" />
+	<Teleport WorldID="7" Name="Devias4" Zen="3500" MinLevel="10" Gate="74" Monster="20" />
+	<Teleport WorldID="8" Name="Dungeon" Zen="3000" MinLevel="30" Gate="2" Monster="11" />
+	<Teleport WorldID="9" Name="Dungeon2" Zen="3500" MinLevel="40" Gate="6" Monster="13" />
+	<Teleport WorldID="10" Name="Dungeon3" Zen="4000" MinLevel="40" Gate="10" Monster="8" />
+	<Teleport WorldID="11" Name="Atlans" Zen="4000" MinLevel="50" Gate="49" Monster="45" />
+	<Teleport WorldID="12" Name="Atlans2" Zen="4500" MinLevel="80" Gate="75" Monster="52" />
+	<Teleport WorldID="13" Name="Atlans3" Zen="5000" MinLevel="90" Gate="76" Monster="48" />
+	<Teleport WorldID="14" Name="LostTower" Zen="5000" MinLevel="50" Gate="42" Monster="39" />
+	<Teleport WorldID="15" Name="LostTower2" Zen="5500" MinLevel="50" Gate="31" Monster="34" />
+	<Teleport WorldID="16" Name="LostTower3" Zen="6000" MinLevel="50" Gate="33" Monster="41" />
+	<Teleport WorldID="17" Name="LostTower4" Zen="6500" MinLevel="50" Gate="35" Monster="37" />
+	<Teleport WorldID="18" Name="LostTower5" Zen="7000" MinLevel="50" Gate="37" Monster="40" />
+	<Teleport WorldID="19" Name="LostTower6" Zen="7500" MinLevel="70" Gate="39" Monster="35" />
+	<Teleport WorldID="20" Name="LostTower7" Zen="8000" MinLevel="70" Gate="41" Monster="35" />
+	<Teleport WorldID="21" Name="Tarkan" Zen="8000" MinLevel="140" Gate="57" Monster="57" />
+	<Teleport WorldID="22" Name="Tarkan2" Zen="8500" MinLevel="160" Gate="77" Monster="61" />
+	<Teleport WorldID="23" Name="Icarus" Zen="10000" MinLevel="160" Gate="63" Monster="70" />
+	<Teleport WorldID="24" Name="ValleyOfLoren" Zen="10000" MinLevel="10" Gate="103" Monster="65535" />
+	<Teleport WorldID="25" Name="Aida1" Zen="8500" MinLevel="150" Gate="119" Monster="306" />
+	<Teleport WorldID="26" Name="Crywolf" Zen="15000" MinLevel="10" Gate="118" Monster="65535" />
+	<Teleport WorldID="27" Name="Aida2" Zen="8500" MinLevel="380" Gate="140" Monster="550" />
+	<Teleport WorldID="28" Name="KanturuRuins1" Zen="9000" MinLevel="160" Gate="138" Monster="353" />
+	<Teleport WorldID="29" Name="KanturuRuins2" Zen="9000" MinLevel="160" Gate="141" Monster="350" />
+	<Teleport WorldID="30" Name="KanturuRelics" Zen="12000" MinLevel="300" Gate="139" Monster="360" />
+	<Teleport WorldID="31" Name="Elbeland" Zen="2000" MinLevel="10" Gate="267" Monster="418" />
+	<Teleport WorldID="32" Name="Elbeland2" Zen="2500" MinLevel="10" Gate="268" Monster="422" />
+	<Teleport WorldID="33" Name="PeaceSwamp" Zen="15000" MinLevel="380" Gate="273" Monster="449" />
+	<Teleport WorldID="34" Name="Raklion" Zen="15000" MinLevel="380" Gate="287" Monster="458" />
+	<Teleport WorldID="42" Name="Vulcanus" Zen="15000" MinLevel="300" Gate="294" Monster="490" />
+	<Teleport WorldID="43" Name="Elbeland3" Zen="3000" MinLevel="10" Gate="269" Monster="425" />
+	<Teleport WorldID="44" Name="LorenMarket" Zen="10000" MinLevel="1" Gate="333" Monster="65535" />
+	<Teleport WorldID="45" Name="KanturuRuins3" Zen="15000" MinLevel="380" Gate="334" Monster="556" />
+	<Teleport WorldID="46" Name="Karutan1" Zen="13000" MinLevel="280" Gate="335" Monster="574" />
+	<Teleport WorldID="47" Name="Karutan2" Zen="14000" MinLevel="380" Gate="344" Monster="576" />
+	<Teleport WorldID="48" Name="Event square" Zen="20000" MinLevel="1" Gate="503" Monster="1" />
+	<Teleport WorldID="49" Name="Acheron" Zen="50000" MinLevel="300" Gate="417" Monster="591" />
+	<Teleport WorldID="50" Name="Ferea" Zen="50000" MinLevel="400" Gate="509" Monster="730" />
+	<Teleport WorldID="51" Name="NixiesLake" Zen="50000" MinLevel="700" Gate="522" Monster="744" />
+	<Teleport WorldID="52" Name="Deep Dungeon 1" Zen="50000" MinLevel="770" Gate="561" Monster="767" />
+	<Teleport WorldID="53" Name="Deep Dungeon 2" Zen="50000" MinLevel="770" Gate="562" Monster="772" />
+	<Teleport WorldID="54" Name="Deep Dungeon 3" Zen="50000" MinLevel="770" Gate="563" Monster="773" />
+	<Teleport WorldID="55" Name="Deep Dungeon 4" Zen="50000" MinLevel="770" Gate="564" Monster="769" />
+	<Teleport WorldID="56" Name="Deep Dungeon 5" Zen="50000" MinLevel="770" Gate="565" Monster="777" />
+	<Teleport WorldID="57" Name="Swamp Of Darkness" Zen="50000" MinLevel="800" Gate="567" Monster="788" />
+	<Teleport WorldID="58" Name="Kubera Mine" Zen="50000" MinLevel="850" Gate="591" Monster="810" />
+	<Teleport WorldID="59" Name="Atlans(Abyss) 1" Zen="50000" MinLevel="1000" Gate="617" Monster="832" />
+	<Teleport WorldID="60" Name="Atlans(Abyss) 2" Zen="50000" MinLevel="1020" Gate="618" Monster="834" />
+	<Teleport WorldID="61" Name="Atlans(Abyss) 3" Zen="50000" MinLevel="1030" Gate="619" Monster="836" />
+	<Teleport WorldID="62" Name="Scorched Canyon" Zen="50000" MinLevel="1050" Gate="620" Monster="846" />
+	<Teleport WorldID="63" Name="Scarlet Icarus" Zen="50000" MinLevel="1070" Gate="631" Monster="861" />
+	<Teleport WorldID="64" Name="Arenil Temple" Zen="50000" MinLevel="1100" Gate="634" Monster="867" />
+	<Teleport WorldID="65" Name="Ashen Aida" Zen="50000" MinLevel="1100" Gate="643" Monster="867" />
+	<Teleport WorldID="67" Name="Blaze Kethotum" Zen="50000" MinLevel="1100" Gate="659" Monster="867" />
+	<Teleport WorldID="68" Name="Kanturu Undergrounds" Zen="50000" MinLevel="1100" Gate="670" Monster="867" />
+	<Teleport WorldID="69" Name="Ignis Volcano" Zen="50000" MinLevel="1100" Gate="675" Monster="867" />
+	<Teleport WorldID="70" Name="Bloody Tarkan" Zen="50000" MinLevel="1100" Gate="682" Monster="867" />
+	<Teleport WorldID="71" Name="Tormenta Island" Zen="50000" MinLevel="1100" Gate="694" Monster="0" />
+	
+</TeleportTemplate>

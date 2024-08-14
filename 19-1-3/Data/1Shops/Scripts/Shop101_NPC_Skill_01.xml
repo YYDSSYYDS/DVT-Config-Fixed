@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==             File Name: Shop(101)_Test_01               ==
+// ============================================================
+-->
+
+<ShopItem>
+	<!-- Orb of Twisting Slash-->
+	<Item ItemCat="12" ItemIndex="7" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="1" />
+	<!-- Orb of Greater Fortitude-->
+	<Item ItemCat="12" ItemIndex="14" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="2" />
+	<!-- Orb of Death Stab-->
+	<Item ItemCat="12" ItemIndex="19" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="3" />
+	<!-- Orb of Rageful Blow-->
+	<Item ItemCat="12" ItemIndex="12" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="4" />
+	<!-- Crystal of Destruction-->
+	<Item ItemCat="12" ItemIndex="44" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="5" />
+	<!-- Orb of Penetration-->
+	<Item ItemCat="12" ItemIndex="17" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="6" />
+	<!-- Orb of Ice Arrow-->
+	<Item ItemCat="12" ItemIndex="18" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="7" />
+	<!-- Crystal of Multi-Shot-->
+	<Item ItemCat="12" ItemIndex="45" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="8" />
+	<!-- Crystal of Flame Strike-->
+	<Item ItemCat="12" ItemIndex="47" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="9" />
+	<!-- Orb of Fire Slash-->
+	<Item ItemCat="12" ItemIndex="16" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="10" />
+	<!-- Scroll of Poison-->
+	<Item ItemCat="15" ItemIndex="0" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="11" />
+	<!-- Scroll of Lighting-->
+	<Item ItemCat="15" ItemIndex="2" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="12" />
+	<!-- Scroll of Fire Ball-->
+	<Item ItemCat="15" ItemIndex="3" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="13" />
+	<!-- Scroll of Meteorite-->
+	<Item ItemCat="15" ItemIndex="1" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="14" />
+	<!-- Scroll of Flame-->
+	<Item ItemCat="15" ItemIndex="4" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="15" />
+	<!-- Scroll of Teleport-->
+	<Item ItemCat="15" ItemIndex="5" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="16" />
+	<!-- Scroll of Ice-->
+	<Item ItemCat="15" ItemIndex="6" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="17" />
+	<!-- Scroll of Twister-->
+	<Item ItemCat="15" ItemIndex="7" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="18" />
+	<!-- Scroll of Evil Spirit-->
+	<Item ItemCat="15" ItemIndex="8" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="19" />
+	<!-- Scroll of Hellfire-->
+	<Item ItemCat="15" ItemIndex="9" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="20" />
+	<!-- Scroll of Power Wave-->
+	<Item ItemCat="15" ItemIndex="10" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="21" />
+	<!-- Scroll of Aqua Beam-->
+	<Item ItemCat="15" ItemIndex="11" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="22" />
+	<!-- Scroll of Inferno-->
+	<Item ItemCat="15" ItemIndex="13" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="23" />
+	<!-- Scroll of Cometfall-->
+	<Item ItemCat="15" ItemIndex="12" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="24" />
+	<!-- Scroll of Teleport Ally-->
+	<Item ItemCat="15" ItemIndex="14" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="25" />
+	<!-- Scroll of Soul Barrier-->
+	<Item ItemCat="15" ItemIndex="15" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="26" />
+	<!-- Scroll of Decay-->
+	<Item ItemCat="15" ItemIndex="16" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="27" />
+	<!-- Scroll of Ice Storm-->
+	<Item ItemCat="15" ItemIndex="17" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="28" />
+	<!-- Scroll of Nova-->
+	<Item ItemCat="15" ItemIndex="18" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="29" />
+	<!-- Scroll of Wizardry Enhance-->
+	<Item ItemCat="15" ItemIndex="28" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="30" />
+	<!-- Scroll of Gigantic Storm-->
+	<Item ItemCat="15" ItemIndex="29" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="31" />
+	<!-- Drain Life Parchment-->
+	<Item ItemCat="15" ItemIndex="20" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="32" />
+	<!-- Chain Lightning Parchment-->
+	<Item ItemCat="15" ItemIndex="19" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="33" />
+	<!-- Lightning Shock Parchment-->
+	<Item ItemCat="15" ItemIndex="21" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="34" />
+	<!-- Damage Reflection Parchment-->
+	<Item ItemCat="15" ItemIndex="22" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="35" />
+	<!-- Berserker Parchment-->
+	<Item ItemCat="15" ItemIndex="23" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="36" />
+	<!-- Sleep Parchment-->
+	<Item ItemCat="15" ItemIndex="24" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="37" />
+	<!-- Weakness Parchment-->
+	<Item ItemCat="15" ItemIndex="26" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="38" />
+	<!-- Innovation Parchment-->
+	<Item ItemCat="15" ItemIndex="27" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="39" />
+	<!-- Explosion Parchment-->
+	<Item ItemCat="15" ItemIndex="42" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="40" />
+	<!-- Requiem Parchment-->
+	<Item ItemCat="15" ItemIndex="43" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="41" />
+	<!-- Perlution Parchment-->
+	<Item ItemCat="15" ItemIndex="44" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="42" />
+	<!-- Darkness Parchment-->
+	<Item ItemCat="15" ItemIndex="46" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="43" />	
+	<!-- Scroll of Summon-->
+	<Item ItemCat="12" ItemIndex="22" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="44" />
+	<!-- Scroll of FireBurst-->
+	<Item ItemCat="12" ItemIndex="21" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="45" />
+	<!-- Scroll of Fire Scream-->
+	<Item ItemCat="12" ItemIndex="35" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="46" />
+	<!-- Scroll of Critical Damage-->
+	<Item ItemCat="12" ItemIndex="23" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="47" />
+	<!-- Scroll of Electric Spark-->
+	<Item ItemCat="12" ItemIndex="24" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="48" />
+	<!-- Scroll of Chaotic Diseier-->
+	<Item ItemCat="12" ItemIndex="48" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="49" />
+	<!-- Magic Pin Scroll-->
+	<Item ItemCat="12" ItemIndex="273" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="50" />
+	<!-- Harsh Strike Scroll-->
+	<Item ItemCat="12" ItemIndex="274" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="51" />
+	<!-- Shining Peak Scroll-->
+	<Item ItemCat="12" ItemIndex="275" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="52" />
+	<!-- Wrath Scroll-->
+	<Item ItemCat="12" ItemIndex="276" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="53" />
+	<!-- Breche Scroll-->
+	<Item ItemCat="12" ItemIndex="277" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="54" />
+	<!-- Spin Step Scroll-->
+	<Item ItemCat="12" ItemIndex="271" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="55" />
+	<!-- Obsidian Scroll-->
+	<Item ItemCat="12" ItemIndex="272" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="56" />
+	<!-- Chain Drive Parchment-->
+	<Item ItemCat="15" ItemIndex="30" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="57" />
+	<!-- Dark Side Parchment-->
+	<Item ItemCat="15" ItemIndex="31" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="58" />
+	<!-- Dragon Roar Parchment-->
+	<Item ItemCat="15" ItemIndex="32" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="59" />
+	<!-- Dragon Slasher Parchment-->
+	<Item ItemCat="15" ItemIndex="33" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="60" />
+	<!-- Ignore Defense Parchment-->
+	<Item ItemCat="15" ItemIndex="34" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="61" />
+	<!-- Increase Health Parchment-->
+	<Item ItemCat="15" ItemIndex="35" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="62" />
+	<!-- Increase Block Parchment-->
+	<Item ItemCat="15" ItemIndex="36" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="63" />
+</ShopItem>

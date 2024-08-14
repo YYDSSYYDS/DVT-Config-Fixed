@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==             File Name: Shop(102)_Test_02               ==
+// ============================================================
+-->
+
+<ShopItem>
+	<!-- Haste Act-->
+	<Item ItemCat="15" ItemIndex="41" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="1" />
+	<!-- Burst Act-->
+	<Item ItemCat="15" ItemIndex="40" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="2" />
+	<!-- Plasma Ball Act-->
+	<Item ItemCat="15" ItemIndex="38" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="3" />
+	<!-- Magic Arrow Act-->
+	<Item ItemCat="15" ItemIndex="37" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="4" />
+	<!-- Orb of Twisting Slash-->
+	<Item ItemCat="12" ItemIndex="7" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="5" />
+	<!-- Orb of Anger Blow-->
+	<Item ItemCat="12" ItemIndex="12" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="6" />
+	<!-- Sword Inertia Bead-->
+	<Item ItemCat="12" ItemIndex="476" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="7" />
+	<!-- Bat Flock Bead-->
+	<Item ItemCat="12" ItemIndex="477" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="8" />
+	<!-- Detection Bead-->
+	<Item ItemCat="12" ItemIndex="478" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="9" />
+	<!-- Demolish Bead-->
+	<Item ItemCat="12" ItemIndex="482" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="10" />
+	<!-- Dark Plasma Bead-->
+	<Item ItemCat="12" ItemIndex="491" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="11" />
+	<!-- Ice Break Bead-->
+	<Item ItemCat="12" ItemIndex="492" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="12" />
+	<!-- Deathfire Orb-->
+	<Item ItemCat="12" ItemIndex="494" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="13" />
+	<!-- Swordsman's Wrath-->
+	<Item ItemCat="12" ItemIndex="485" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="14" />
+	<!-- Strong Belief Bead-->
+	<Item ItemCat="12" ItemIndex="487" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="15" />
+	<!-- Solid Protection Bead-->
+	<Item ItemCat="12" ItemIndex="488" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="16" />
+</ShopItem>

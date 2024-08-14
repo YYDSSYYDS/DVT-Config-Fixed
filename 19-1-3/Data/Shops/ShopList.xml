@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DevEMU				 	 ==
+// ==                  File Name: ShopList                   ==
+// ============================================================
+-->
+
+<ShopList>
+<Shop ID="0" Name="lorencia_weapon" MaxPkLevel="4" Message="这里已经没有物品或红名不可购买" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(0)_Lorencia_Weapon.xml" />
+<Shop ID="1" Name="lorencia_bar" MaxPkLevel="4" Message="这里已经没有物品或红名不可购买" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(1)_Lorencia_Bar.xml" />
+<Shop ID="2" Name="lorencia_mage" MaxPkLevel="4" Message="这里已经没有物品或红名不可购买" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(2)_Lorencia_Mage.xml" />
+<Shop ID="3" Name="lorencia_peddler" MaxPkLevel="4" Message="这里已经没有物品或红名不可购买" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(3)_Lorencia_Peddler.xml" />
+<Shop ID="4" Name="lorencia_merchant_near_river" MaxPkLevel="10" Message="这里已经没有物品或红名不可购买" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(4)_Lorencia_Luoer.xml" />
+<Shop ID="5" Name="lorencia_potion_girl" MaxPkLevel="4" Message="这里已经没有物品或红名不可购买" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(5)_Lorencia_Poition_Girl.xml" />
+<Shop ID="6" Name="devias_bar" MaxPkLevel="4" Message="这里已经没有物品或红名不可购买" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(6)_Devias_Bar.xml" />
+<Shop ID="7" Name="devias_wizard" MaxPkLevel="4" Message="这里已经没有物品或红名不可购买" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(7)_Devias_Wizard.xml" />
+<Shop ID="8" Name="devias_weapon" MaxPkLevel="4" Message="这里已经没有物品或红名不可购买" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(8)_Devias_Weapon.xml" />
+<Shop ID="9" Name="noria_weapon" MaxPkLevel="4" Message="这里已经没有物品或红名不可购买" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(9)_Noria_Weapon.xml" />
+<Shop ID="10" Name="noria_potion_fairy" MaxPkLevel="4" Message="这里已经没有物品或红名不可购买" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(10)_Noria_Potion_Fairy.xml" />
+<Shop ID="11" Name="alex" MaxPkLevel="4" Message="这里已经没有物品或红名不可购买" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(11)_Alex.xml" />
+<Shop ID="12" Name="thomson_channel" MaxPkLevel="4" Message="这里已经没有物品或红名不可购买" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(12)_Thomson_Channel.xml" />
+<Shop ID="13" Name="shop_firework_girl" MaxPkLevel="4" Message="这里已经没有物品或红名不可购买" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(13)_FireWork_Girl.xml" />
+<Shop ID="14" Name="kalima_potion" MaxPkLevel="4" Message="这里已经没有物品或红名不可购买" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(14)_Kalima_Potion.xml" />
+<Shop ID="15" Name="siege_supplier" MaxPkLevel="4" Message="这里已经没有物品或红名不可购买" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(15)_Siege_Supplier.xml" />
+<Shop ID="16" Name="stadium_guard" MaxPkLevel="4" Message="这里已经没有物品或红名不可购买" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(16)_Stadium_Guard.xml" />
+<Shop ID="17" Name="elbeland_silvia" MaxPkLevel="4" Message="这里已经没有物品或红名不可购买" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(17)_Elbeland_Silvia.xml" />
+<Shop ID="18" Name="elbeland_leah" MaxPkLevel="4" Message="这里已经没有物品或红名不可购买" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(18)_Elbeland_Leah.xml" />
+<Shop ID="19" Name="elbeland_marseille" MaxPkLevel="4" Message="这里已经没有物品或红名不可购买" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(19)_Elbeland_Marseille.xml" />
+<Shop ID="20" Name="loren_market_christine" MaxPkLevel="4" Message="这里已经没有物品或红名不可购买" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(20)_Loren_Market_Christine.xml" />
+<Shop ID="21" Name="kalrutan_merchant_1" MaxPkLevel="4" Message="这里已经没有物品或红名不可购买" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(21)_Kalrutan_Merchant_1.xml" />
+<Shop ID="22" Name="kalrutan_merchant_2" MaxPkLevel="4" Message="这里已经没有物品或红名不可购买" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(22)_Kalrutan_Merchant_2.xml" />
+<Shop ID="23" Name="shop_personal_merchant" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(23)_Personal_Merchant.xml" />
+<Shop ID="24" Name="shop_moss_merchant" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(24)_Moss_Merchant.xml" />
+<Shop ID="25" Name="shop_champion_chest" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(25)_Champion_Chest.xml" />
+<Shop ID="26" Name="Shop(26)_Acheron_Jin" MaxPkLevel="4" Message="这里已经没有物品或红名不可购买" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(26)_Acheron_Jin.xml" />
+<Shop ID="27" Name="shop_battle_core_hp" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(27)_Battle_Core_Hp.xml" />
+<Shop ID="28" Name="shop_battle_core_sd" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(28)_Battle_Core_Sd.xml" />
+<Shop ID="50" Name="ruud_shop" MaxPkLevel="10" Message="" Flags="0" Type="1" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(50)_Ruud_Shop.xml" />
+
+
+
+<Shop ID="102" Name="shop_test_02" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(102)_Test_02.xml" />
+<Shop ID="103" Name="shop_test_03" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(103)_Test_03.xml" />
+<Shop ID="104" Name="shop_test_04" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(104)_Test_04.xml" />
+<Shop ID="105" Name="shop_test_05" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(105)_Test_05.xml" />
+<Shop ID="106" Name="shop_test_06" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(106)_Test_06.xml" />
+<Shop ID="107" Name="shop_test_07" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(107)_Test_07.xml" />
+<Shop ID="108" Name="shop_test_08" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(108)_Test_08.xml" />
+<Shop ID="109" Name="shop_test_09" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(109)_Test_09.xml" />
+<Shop ID="110" Name="shop_test_10" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(110)_Test_10.xml" />
+<Shop ID="111" Name="shop_test_11" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(111)_Test_11.xml" />
+<Shop ID="112" Name="shop_test_12" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(112)_Test_12.xml" />
+<Shop ID="113" Name="shop_test_socket_dw" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(113)_Test_13.xml" />
+<Shop ID="114" Name="shop_test_socket_dk" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(114)_Test_14.xml" />
+<Shop ID="115" Name="shop_test_socket_elf" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(115)_Test_15.xml" />
+<Shop ID="116" Name="shop_test_socket_mg" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(116)_Test_16.xml" />
+<Shop ID="117" Name="shop_test_socket_dl" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(117)_Test_17.xml" />
+<Shop ID="118" Name="shop_test_socket_sum" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(118)_Test_18.xml" />
+<Shop ID="119" Name="shop_test_socket_rf" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(119)_Test_19.xml" />
+<Shop ID="120" Name="shop_test_socket_gl" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(120)_Test_20.xml" />
+<Shop ID="121" Name="shop_test_socket_rw" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(121)_Test_21.xml" />
+<Shop ID="122" Name="shop_test_socket_sl" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(122)_Test_22.xml" />
+<Shop ID="123" Name="shop_test_archangel" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(123)_Test_23.xml" />
+<Shop ID="124" Name="shop_test_quest" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(124)_Test_24.xml" />
+<Shop ID="125" Name="shop_test_gun" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(125)_Test_25.xml" />
+<Shop ID="126" Name="shop_test_126" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(126)_Test_26.xml" />
+<Shop ID="200" Name="shop_anniversary_secret_1" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop_AnniVerSary_1.xml" />
+<Shop ID="201" Name="shop_anniversary_secret_2" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop_AnniVerSary_2.xml" />
+<Shop ID="202" Name="shop_anniversary_secret_3" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop_AnniVerSary_3.xml" />
+<Shop ID="203" Name="shop_anniversary_secret_4" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop_AnniVerSary_4.xml" />
+<Shop ID="204" Name="shop_anniversary_secret_5" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop_AnniVerSary_5.xml" /> 
+<Shop ID="205" Name="Shop101_NPC_Skill_01" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop101_NPC_Skill_01.xml" /> 
+<Shop ID="206" Name="Shop102_NPC_Skill_02" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop102_NPC_Skill_02.xml" /> 
+<Shop ID="207" Name="testtest" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="testtest.xml" /> 
+</ShopList>

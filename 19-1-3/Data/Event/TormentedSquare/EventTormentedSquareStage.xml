@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==         File Name: EventTormentedSquareStage           ==
+// ============================================================
+-->
+
+<EventTormentedSquareStage>
+    <EventTor Ground="0">
+		<Data Stage="0" Standby="60" Duration="120" />
+		<Data Stage="1" Standby="10" Duration="120" />
+		<Data Stage="2" Standby="10" Duration="120" />
+		<Data Stage="3" Standby="10" Duration="120" />
+		<Data Stage="4" Standby="10" Duration="120" />
+		<Data Stage="5" Standby="20" Duration="120" />
+    </EventTor>
+
+    <EventTor Ground="1">
+		<Data Stage="0" Standby="60" Duration="120" />
+		<Data Stage="1" Standby="10" Duration="120" />
+		<Data Stage="2" Standby="10" Duration="120" />
+		<Data Stage="3" Standby="10" Duration="120" />
+		<Data Stage="4" Standby="10" Duration="120" />
+		<Data Stage="5" Standby="20" Duration="120" />
+    </EventTor>
+
+    <EventTor Ground="2">
+		<Data Stage="0" Standby="60" Duration="120" />
+		<Data Stage="1" Standby="10" Duration="120" />
+		<Data Stage="2" Standby="10" Duration="120" />
+		<Data Stage="3" Standby="10" Duration="120" />
+		<Data Stage="4" Standby="10" Duration="120" />
+		<Data Stage="5" Standby="20" Duration="120" />
+    </EventTor>
+
+    <EventTor Ground="3">
+		<Data Stage="0" Standby="60" Duration="120" />
+		<Data Stage="1" Standby="10" Duration="120" />
+		<Data Stage="2" Standby="10" Duration="120" />
+		<Data Stage="3" Standby="10" Duration="120" />
+		<Data Stage="4" Standby="10" Duration="120" />
+		<Data Stage="5" Standby="20" Duration="120" />
+    </EventTor>
+
+</EventTormentedSquareStage>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DevEMU				 	 ==
+// ==               File Name: ItemSocketMix                 ==
+// ============================================================
+-->
+
+<ItemSocketMix>
+	<Data Rank="0" Price="10000000" SuccesRate="90" ReqRune="2"/>
+	<Data Rank="1" Price="13000000" SuccesRate="91" ReqRune="3"/>
+	<Data Rank="2" Price="16000000" SuccesRate="92" ReqRune="4"/>
+	<Data Rank="3" Price="19000000" SuccesRate="93" ReqRune="5"/>
+	<Data Rank="4" Price="22000000" SuccesRate="94" ReqRune="6"/>
+	<Data Rank="5" Price="25000000" SuccesRate="95" ReqRune="7"/>
+	<Data Rank="6" Price="28000000" SuccesRate="96" ReqRune="8"/>
+	<Data Rank="7" Price="31000000" SuccesRate="87" ReqRune="9"/>
+	<Data Rank="8" Price="34000000" SuccesRate="98" ReqRune="10"/>
+	<Data Rank="9" Price="35000000" SuccesRate="100" ReqRune="11"/>
+	<Data Rank="10" Price="50000000" SuccesRate="100" ReqRune="12"/>
+	<Data Rank="11" Price="60000000" SuccesRate="100" ReqRune="13"/>
+	<Data Rank="12" Price="70000000" SuccesRate="100" ReqRune="14"/>
+	<Data Rank="13" Price="80000000" SuccesRate="100" ReqRune="15"/>
+	<Data Rank="14" Price="90000000" SuccesRate="100" ReqRune="16"/>
+	<Data Rank="15" Price="100000000" SuccesRate="100" ReqRune="17"/>
+	<Data Rank="16" Price="150000000" SuccesRate="100" ReqRune="18"/>
+	<Data Rank="17" Price="180000000" SuccesRate="100" ReqRune="19"/>
+	<Data Rank="18" Price="200000000" SuccesRate="100" ReqRune="20"/>
+</ItemSocketMix>

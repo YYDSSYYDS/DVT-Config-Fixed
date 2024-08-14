@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DevEMU				 	 ==
+// ==               File Name: WorldTemplate                 ==
+// ============================================================
+-->
+
+<WorldServer>
+	<Option ServerCode="18" WorldID="9" />
+	<Option ServerCode="18" WorldID="11" />
+	<Option ServerCode="18" WorldID="12" />
+	<Option ServerCode="18" WorldID="13" />
+	<Option ServerCode="18" WorldID="14" />
+	<Option ServerCode="18" WorldID="15" />
+	<Option ServerCode="18" WorldID="16" />
+	<Option ServerCode="18" WorldID="17" />
+	<Option ServerCode="18" WorldID="18" />
+	<Option ServerCode="18" WorldID="19" />
+	<Option ServerCode="18" WorldID="20" />
+	<Option ServerCode="18" WorldID="21" />
+	<Option ServerCode="18" WorldID="22" />
+	<Option ServerCode="18" WorldID="23" />
+	<Option ServerCode="19" WorldID="30" />
+	<Option ServerCode="19" WorldID="31" />
+	<Option ServerCode="18" WorldID="32" />
+	<Option ServerCode="19" WorldID="34" />
+	<Option ServerCode="18" WorldID="40" />
+	<Option ServerCode="19" WorldID="41" />
+	<Option ServerCode="19" WorldID="42" />
+	<Option ServerCode="18" WorldID="45" />
+	<Option ServerCode="18" WorldID="46" />
+	<Option ServerCode="18" WorldID="47" />
+	<Option ServerCode="18" WorldID="48" />
+	<Option ServerCode="18" WorldID="49" />
+	<Option ServerCode="18" WorldID="50" />
+	<Option ServerCode="18" WorldID="52" />
+	<Option ServerCode="18" WorldID="53" />
+	<Option ServerCode="18" WorldID="69" />
+	<Option ServerCode="18" WorldID="70" />
+	<Option ServerCode="18" WorldID="71" />
+	<Option ServerCode="18" WorldID="72" />
+	<Option ServerCode="18" WorldID="79" />
+	<Option ServerCode="18" WorldID="82" />
+	<Option ServerCode="18" WorldID="83" />
+	<Option ServerCode="18" WorldID="84" />
+	<Option ServerCode="18" WorldID="85" />
+	<Option ServerCode="18" WorldID="86" />
+	<Option ServerCode="18" WorldID="87" />
+	<Option ServerCode="18" WorldID="88" />
+	<Option ServerCode="18" WorldID="89" />
+	<Option ServerCode="18" WorldID="90" />
+	<Option ServerCode="17" WorldID="92" />
+	<Option ServerCode="17" WorldID="96" />
+	<Option ServerCode="18" WorldID="97" />
+	<Option ServerCode="18" WorldID="98" />
+	<Option ServerCode="18" WorldID="99" />
+	<Option ServerCode="17" WorldID="101" />
+	<Option ServerCode="18" WorldID="102" />
+	<Option ServerCode="18" WorldID="103" />
+	<Option ServerCode="18" WorldID="104" />
+	<Option ServerCode="18" WorldID="105" />
+	<Option ServerCode="18" WorldID="106" />
+	<Option ServerCode="18" WorldID="114" />
+	<Option ServerCode="18" WorldID="115" />
+	<Option ServerCode="18" WorldID="121" />
+
+	<Option ServerCode="18" WorldID="207" />
+	<Option ServerCode="18" WorldID="300" />
+	<Option ServerCode="18" WorldID="301" />
+	<Option ServerCode="18" WorldID="302" />
+	<Option ServerCode="18" WorldID="303" />
+	<Option ServerCode="18" WorldID="304" />
+	
+</WorldServer>

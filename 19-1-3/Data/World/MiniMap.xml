@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==                  File Name: MiniMap                    ==
+// ============================================================
+-->
+
+<MiniMap>
+	<Option WorldID="0" Index="3" Group="0" Type="1" X="242" Y="15" Text="Entrance to Valley of Loren" />
+	<Option WorldID="0" Index="2" Group="0" Type="1" X="216" Y="248" Text="Entrance to Noria" />
+	<Option WorldID="0" Index="1" Group="0" Type="1" X="1" Y="38" Text="Entrance to Devias" />
+	<Option WorldID="0" Index="0" Group="0" Type="1" X="121" Y="232" Text="Entrance to Dungeon" />
+	<Option WorldID="0" Index="1" Group="1" Type="2" X="122" Y="110" Text="Trainer" />
+	<Option WorldID="0" Index="2" Group="1" Type="4" X="62" Y="130" Text="Wandering Merchant Alex" />
+	<Option WorldID="0" Index="3" Group="1" Type="4" X="183" Y="137" Text="Wandering Merchant Harold" />
+	<Option WorldID="0" Index="4" Group="1" Type="4" X="127" Y="86" Text="Potion Girl Amy" />
+	<Option WorldID="0" Index="5" Group="1" Type="3" X="116" Y="141" Text="Hanzo the Blacksmith" />
+	<Option WorldID="0" Index="6" Group="1" Type="4" X="123" Y="135" Text="Lumen the Barmaid" />
+	<Option WorldID="0" Index="7" Group="1" Type="4" X="118" Y="113" Text="Pasi the Mage" />
+	<Option WorldID="0" Index="8" Group="1" Type="2" X="139" Y="138" Text="Market Union Member Julia" />
+	<Option WorldID="0" Index="9" Group="1" Type="5" X="146" Y="110" Text="Storage" />
+	<Option WorldID="0" Index="10" Group="1" Type="1" X="96" Y="129" Text="幻影导师" />
+	<Option WorldID="0" Index="11" Group="1" Type="1" X="132" Y="165" Text="幻影导师" />
+	<Option WorldID="0" Index="12" Group="1" Type="1" X="132" Y="90" Text="幻影导师" />
+	<Option WorldID="0" Index="13" Group="1" Type="1" X="170" Y="129" Text="幻影导师" />
+	<Option WorldID="0" Index="14" Group="1" Type="2" X="144" Y="127" Text="Gens Duprian Steward" />
+	<Option WorldID="0" Index="15" Group="1" Type="5" X="147" Y="145" Text="Storage" />
+	<Option WorldID="0" Index="16" Group="1" Type="2" X="114" Y="132" Text="Lesnar" />
+	<Option WorldID="1" Index="0" Group="0" Type="1" X="108" Y="249" Text="Entrance to Lorencia" />
+	<Option WorldID="1" Index="1" Group="0" Type="1" X="238" Y="150" Text="Entrance to Dungeon2" />
+	<Option WorldID="1" Index="2" Group="0" Type="1" X="232" Y="128" Text="Entrance to Dungeon1" />
+	<Option WorldID="1" Index="3" Group="0" Type="1" X="1" Y="18" Text="Lv.3 Dungeon West Gate" />
+	<Option WorldID="1" Index="4" Group="0" Type="1" X="5" Y="35" Text="Lv.3 Dungeon East Gate" />
+	<Option WorldID="1" Index="5" Group="0" Type="1" X="1" Y="85" Text="Lv.2 Dungeon West Gate" />
+	<Option WorldID="1" Index="6" Group="0" Type="1" X="29" Y="127" Text="Lv.2 Dungeon East Gate" />
+	<Option WorldID="2" Index="0" Group="0" Type="1" X="244" Y="34" Text="Entrance to Lorencia" />
+	<Option WorldID="2" Index="1" Group="0" Type="1" X="162" Y="248" Text="Entrance to Elbeland" />
+	<Option WorldID="2" Index="2" Group="0" Type="1" X="0" Y="250" Text="Entrance to LostTower" />
+	<Option WorldID="2" Index="3" Group="0" Type="1" X="51" Y="92" Text="Entrance to Raklion" />
+	<Option WorldID="2" Index="0" Group="1" Type="2" X="209" Y="30" Text="Messenger of Archangel" />
+	<Option WorldID="2" Index="1" Group="1" Type="2" X="219" Y="9" Text="Messenger of Archangel" />
+	<Option WorldID="2" Index="2" Group="1" Type="4" X="226" Y="25" Text="Caren the Barmaid" />
+	<Option WorldID="2" Index="3" Group="1" Type="2" X="225" Y="41" Text="Wizard Izabel" />
+	<Option WorldID="2" Index="4" Group="1" Type="3" X="186" Y="47" Text="Weapons Merchant Sofia" />
+	<Option WorldID="2" Index="5" Group="1" Type="2" X="215" Y="45" Text="Royal Guard Captain Lorence" />
+	<Option WorldID="2" Index="6" Group="1" Type="5" X="218" Y="63" Text="Storage" />
+	<Option WorldID="2" Index="7" Group="1" Type="1" X="219" Y="73" Text="幻影导师" />
+	<Option WorldID="2" Index="8" Group="1" Type="1" X="172" Y="44" Text="幻影导师" />
+	<Option WorldID="2" Index="9" Group="1" Type="2" X="229" Y="221" Text="Jerint the Assistant" />
+	<Option WorldID="2" Index="10" Group="1" Type="4" X="32" Y="31" Text="Natasha Firecracker Merchant" />
+	<Option WorldID="2" Index="11" Group="1" Type="2" X="204" Y="61" Text="Mercenary Guild Manager" />
+	<Option WorldID="2" Index="12" Group="1" Type="2" X="240" Y="53" Text="Lesnar" />
+	<Option WorldID="2" Index="13" Group="1" Type="2" X="183" Y="32" Text="Sebina the Priest" />
+	<Option WorldID="2" Index="14" Group="1" Type="1" X="224" Y="84" Text="Spot" />
+	<Option WorldID="2" Index="15" Group="1" Type="1" X="225" Y="215" Text="Spot" />
+	<Option WorldID="3" Index="0" Group="0" Type="1" X="151" Y="2" Text="Entrance to Lorencia" />
+	<Option WorldID="3" Index="1" Group="0" Type="1" X="222" Y="29" Text="Entrance to Aida" />
+	<Option WorldID="3" Index="2" Group="0" Type="1" X="242" Y="241" Text="Entrance to Atlans" />
+	<Option WorldID="3" Index="0" Group="1" Type="2" X="171" Y="105" Text="Charon" />
+	<Option WorldID="3" Index="1" Group="1" Type="4" X="173" Y="125" Text="Elf Lala" />
+	<Option WorldID="3" Index="2" Group="1" Type="3" X="195" Y="124" Text="Eo the Craftsman" />
+	<Option WorldID="3" Index="3" Group="1" Type="5" X="172" Y="96" Text="Storage" />
+	<Option WorldID="3" Index="4" Group="1" Type="2" X="180" Y="103" Text="Chaos Goblin" />
+	<Option WorldID="3" Index="5" Group="1" Type="1" X="167" Y="118" Text="幻影导师" />
+	<Option WorldID="3" Index="6" Group="1" Type="1" X="166" Y="85" Text="幻影导师" />
+	<Option WorldID="3" Index="7" Group="1" Type="1" X="201" Y="129" Text="幻影导师" />
+	<Option WorldID="3" Index="8" Group="1" Type="2" X="167" Y="100" Text="Gens Vanert Steward" />
+	<Option WorldID="3" Index="9" Group="1" Type="2" X="196" Y="113" Text="Slove Captain" />
+	<Option WorldID="3" Index="10" Group="1" Type="2" X="183" Y="126" Text="Lesnar" />
+	<Option WorldID="4" Index="0" Group="0" Type="1" X="164" Y="0" Text="Entrance to Devias" />
+	<Option WorldID="4" Index="1" Group="0" Type="1" X="190" Y="5" Text="Entrance to LostTower2" />
+	<Option WorldID="4" Index="2" Group="0" Type="1" X="165" Y="165" Text="Entrance to LostTower3" />
+	<Option WorldID="4" Index="3" Group="0" Type="1" X="133" Y="246" Text="Entrance to LostTower4" />
+	<Option WorldID="4" Index="4" Group="0" Type="1" X="133" Y="136" Text="Entrance to LostTower5" />
+	<Option WorldID="4" Index="5" Group="0" Type="1" X="129" Y="14" Text="Entrance to LostTower6" />
+	<Option WorldID="4" Index="6" Group="0" Type="1" X="4" Y="7" Text="Entrance to LostTower7" />
+	<Option WorldID="4" Index="7" Group="0" Type="1" X="16" Y="250" Text="Entrance to Icarus" />
+	<Option WorldID="4" Index="8" Group="1" Type="1" X="52" Y="91" Text="Spot" />
+	<Option WorldID="4" Index="9" Group="1" Type="1" X="27" Y="102" Text="Spot" />
+	<Option WorldID="7" Index="0" Group="0" Type="1" X="8" Y="8" Text="Entrance to Noria" />
+	<Option WorldID="7" Index="1" Group="0" Type="1" X="9" Y="18" Text="Entrance to Elbeland" />
+	<Option WorldID="7" Index="2" Group="0" Type="1" X="10" Y="228" Text="Entrance to Tarkan" />
+	<Option WorldID="7" Index="3" Group="1" Type="1" X="23" Y="47" Text="Spot" />
+	<Option WorldID="7" Index="4" Group="1" Type="1" X="21" Y="103" Text="Spot" />
+	<Option WorldID="7" Index="5" Group="1" Type="1" X="226" Y="53" Text="Spot" />
+	<Option WorldID="7" Index="6" Group="1" Type="1" X="66" Y="166" Text="Spot" />
+	<Option WorldID="8" Index="1" Group="0" Type="1" X="3" Y="199" Text="Entrance to Kanturu" />
+	<Option WorldID="8" Index="0" Group="0" Type="1" X="250" Y="40" Text="Entrance to Atlans" />
+	<Option WorldID="8" Index="2" Group="1" Type="1" X="147" Y="48" Text="Spot" />
+	<Option WorldID="10" Index="0" Group="0" Type="1" X="13" Y="8" Text="Entrance to LostTower" />
+	<Option WorldID="10" Index="1" Group="1" Type="1" X="21" Y="26" Text="Spot" />
+	<Option WorldID="10" Index="2" Group="1" Type="1" X="59" Y="32" Text="Spot" />
+	<Option WorldID="10" Index="3" Group="1" Type="1" X="91" Y="45" Text="Spot" />
+	<Option WorldID="10" Index="4" Group="1" Type="1" X="76" Y="77" Text="Spot" />
+	<Option WorldID="10" Index="4" Group="1" Type="1" X="31" Y="77" Text="Spot" />
+	<Option WorldID="10" Index="4" Group="1" Type="1" X="49" Y="146" Text="Spot" />
+	<Option WorldID="31" Index="0" Group="0" Type="1" X="60" Y="8" Text="Entrance to Valley of Loren" />
+	<Option WorldID="33" Index="0" Group="0" Type="1" X="72" Y="10" Text="Entrance to Noria" />
+	<Option WorldID="33" Index="1" Group="0" Type="1" X="238" Y="165" Text="Entrance to Karutan" />
+	<Option WorldID="33" Index="0" Group="1" Type="2" X="78" Y="13" Text="Osbourne" />
+	<Option WorldID="33" Index="1" Group="1" Type="2" X="86" Y="13" Text="Jerridon" />
+	<Option WorldID="33" Index="2" Group="1" Type="1" X="135" Y="19" Text="Spot" />
+	<Option WorldID="33" Index="3" Group="1" Type="1" X="161" Y="15" Text="Spot" />
+	<Option WorldID="33" Index="4" Group="1" Type="1" X="181" Y="16" Text="Spot" />
+	<Option WorldID="33" Index="5" Group="1" Type="1" X="191" Y="20" Text="Spot" />
+	<Option WorldID="33" Index="6" Group="1" Type="1" X="225" Y="10" Text="Spot" />
+	<Option WorldID="33" Index="7" Group="1" Type="1" X="189" Y="37" Text="Spot" />
+	<Option WorldID="33" Index="8" Group="1" Type="1" X="231" Y="45" Text="Spot" />
+	<Option WorldID="33" Index="9" Group="1" Type="1" X="205" Y="75" Text="Spot" />
+	<Option WorldID="33" Index="10" Group="1" Type="1" X="228" Y="113" Text="Spot" />
+	<Option WorldID="33" Index="11" Group="1" Type="1" X="195" Y="198" Text="Spot" />
+	<Option WorldID="33" Index="12" Group="1" Type="1" X="147" Y="193" Text="Spot" />
+	<Option WorldID="33" Index="13" Group="1" Type="1" X="123" Y="192" Text="Spot" />
+	<Option WorldID="33" Index="14" Group="1" Type="1" X="82" Y="211" Text="Spot" />
+	<Option WorldID="33" Index="15" Group="1" Type="1" X="42" Y="206" Text="Spot" />
+	<Option WorldID="33" Index="16" Group="1" Type="1" X="53" Y="153" Text="Spot" />
+	<Option WorldID="33" Index="17" Group="1" Type="1" X="32" Y="119" Text="Spot" />
+	<Option WorldID="33" Index="18" Group="1" Type="1" X="53" Y="122" Text="Spot" />
+	<Option WorldID="33" Index="19" Group="1" Type="1" X="32" Y="47" Text="Spot" />
+	<Option WorldID="33" Index="20" Group="1" Type="1" X="83" Y="149" Text="Spot" />
+	<Option WorldID="33" Index="21" Group="1" Type="1" X="109" Y="151" Text="Spot" />
+	<Option WorldID="33" Index="22" Group="1" Type="1" X="104" Y="42" Text="Spot" />
+	<Option WorldID="33" Index="23" Group="1" Type="1" X="122" Y="88" Text="Spot" />
+	<Option WorldID="33" Index="24" Group="1" Type="1" X="133" Y="73" Text="Spot" />
+	<Option WorldID="33" Index="25" Group="1" Type="1" X="155" Y="115" Text="Spot" />
+	<Option WorldID="34" Index="0" Group="0" Type="1" X="238" Y="42" Text="Entrance to Valley of Loren" />
+	<Option WorldID="34" Index="0" Group="1" Type="2" X="228" Y="48" Text="Apostle Devin" />
+	<Option WorldID="34" Index="1" Group="1" Type="2" X="62" Y="239" Text="Werewolf Quarel" />
+	<Option WorldID="34" Index="2" Group="1" Type="2" X="135" Y="47" Text="Trainer" />
+	<Option WorldID="34" Index="3" Group="1" Type="3" X="99" Y="40" Text="Wandering Merchant Martin" />
+	<Option WorldID="34" Index="4" Group="1" Type="2" X="96" Y="25" Text="Lahap" />
+	<Option WorldID="34" Index="5" Group="1" Type="3" X="145" Y="14" Text="Hanzo the Blacksmith" />
+	<Option WorldID="34" Index="6" Group="1" Type="5" X="113" Y="56" Text="Storage" />
+	<Option WorldID="37" Index="0" Group="0" Type="1" X="16" Y="222" Text="Entrance to Tarkan" />
+	<Option WorldID="37" Index="1" Group="0" Type="1" X="89" Y="91" Text="Entrance to Kanturu_Remain" />
+	<Option WorldID="37" Index="0" Group="1" Type="1" X="140" Y="222" Text="Spot" />
+	<Option WorldID="37" Index="1" Group="1" Type="1" X="200" Y="184" Text="Spot" />
+	<Option WorldID="37" Index="2" Group="1" Type="1" X="196" Y="149" Text="Spot" />
+	<Option WorldID="37" Index="3" Group="1" Type="1" X="213" Y="140" Text="Spot" />
+	<Option WorldID="37" Index="4" Group="1" Type="1" X="223" Y="71" Text="Spot" />
+	<Option WorldID="37" Index="5" Group="1" Type="1" X="211" Y="39" Text="Spot" />
+	<Option WorldID="37" Index="6" Group="1" Type="1" X="179" Y="24" Text="Spot" />
+	<Option WorldID="37" Index="7" Group="1" Type="1" X="148" Y="19" Text="Spot" />
+	<Option WorldID="37" Index="8" Group="1" Type="1" X="150" Y="51" Text="Spot" />
+	<Option WorldID="37" Index="9" Group="1" Type="1" X="121" Y="27" Text="Spot" />
+	<Option WorldID="37" Index="10" Group="1" Type="1" X="84" Y="28" Text="Spot" />
+	<Option WorldID="37" Index="11" Group="1" Type="1" X="65" Y="27" Text="Spot" />
+	<Option WorldID="37" Index="12" Group="1" Type="1" X="93" Y="127" Text="Spot" />
+	<Option WorldID="37" Index="13" Group="1" Type="1" X="107" Y="108" Text="Spot" />
+	<Option WorldID="37" Index="14" Group="1" Type="1" X="145" Y="90" Text="Spot" />
+	<Option WorldID="37" Index="15" Group="1" Type="1" X="185" Y="88" Text="Spot" />
+	<Option WorldID="38" Index="0" Group="0" Type="1" X="66" Y="105" Text="Entrance to Kanturu_ruin" />
+	<Option WorldID="38" Index="1" Group="0" Type="1" X="141" Y="186" Text="Entrance Equipment" />
+	<Option WorldID="41" Index="0" Group="1" Type="2" X="119" Y="168" Text="Gatekeeper" />
+	<Option WorldID="51" Index="0" Group="0" Type="1" X="248" Y="149" Text="Entrance to Atlans" />
+	<Option WorldID="51" Index="1" Group="0" Type="1" X="19" Y="27" Text="Entrance to Devias" />
+	<Option WorldID="51" Index="0" Group="1" Type="2" X="37" Y="241" Text="Lahap" />
+	<Option WorldID="51" Index="1" Group="1" Type="4" X="44" Y="229" Text="Potion Merchant Silvia" />
+	<Option WorldID="51" Index="2" Group="1" Type="3" X="29" Y="236" Text="Weapons Merchant Rhea" />
+	<Option WorldID="51" Index="3" Group="1" Type="4" X="36" Y="219" Text="Magic Shop Marce" />
+	<Option WorldID="51" Index="4" Group="1" Type="1" X="43" Y="191" Text="幻影导师" />
+	<Option WorldID="51" Index="5" Group="1" Type="1" X="57" Y="232" Text="幻影导师" />
+	<Option WorldID="51" Index="6" Group="1" Type="1" X="73" Y="220" Text="幻影导师" />
+	<Option WorldID="51" Index="7" Group="1" Type="5" X="50" Y="229" Text="Storage" />
+	<Option WorldID="51" Index="8" Group="1" Type="2" X="55" Y="243" Text="Mirage" />
+	<Option WorldID="51" Index="9" Group="1" Type="2" X="46" Y="243" Text="Seed Master" />
+	<Option WorldID="51" Index="10" Group="1" Type="2" X="50" Y="243" Text="Seed Researcher" />
+	<Option WorldID="51" Index="11" Group="1" Type="2" X="22" Y="225" Text="Molt" />
+	<Option WorldID="51" Index="12" Group="1" Type="2" X="20" Y="214" Text="David" />
+	<Option WorldID="56" Index="0" Group="0" Type="1" X="139" Y="125" Text="Entrance to Hunting Ground(1)" />
+	<Option WorldID="56" Index="1" Group="0" Type="1" X="124" Y="109" Text="Entrance to Hunting Ground(2)" />
+	<Option WorldID="56" Index="2" Group="0" Type="1" X="140" Y="95" Text="Entrance to Hunting Ground(3)" />
+	<Option WorldID="56" Index="3" Group="0" Type="1" X="150" Y="109" Text="Entrance to Hunting Ground(4)" />
+	<Option WorldID="56" Index="4" Group="0" Type="1" X="185" Y="188" Text="Entrance to Save Zone" />
+	<Option WorldID="56" Index="5" Group="0" Type="1" X="56" Y="177" Text="Entrance to Save Zone" />
+	<Option WorldID="56" Index="6" Group="0" Type="1" X="68" Y="52" Text="Entrance to Save Zone" />
+	<Option WorldID="56" Index="7" Group="0" Type="1" X="197" Y="13" Text="Entrance to Save Zone" />
+	<Option WorldID="57" Index="1" Group="0" Type="1" X="169" Y="22" Text="Entrance to Hatchery" />
+	<Option WorldID="57" Index="0" Group="0" Type="1" X="224" Y="214" Text="Entrance to Devias" />
+	<Option WorldID="63" Index="0" Group="1" Type="2" X="122" Y="135" Text="Doorkeeper Titus" />
+	<Option WorldID="110" Index="0" Group="0" Type="1" X="210" Y="190" Text="Acheron Village Entrance" />
+	<Option WorldID="100" Index="4" Group="0" Type="1" X="109" Y="230" Text="Red Gate" />
+	<Option WorldID="100" Index="3" Group="0" Type="1" X="41" Y="98" Text="Red Gate" />
+	<Option WorldID="100" Index="0" Group="0" Type="1" X="24" Y="90" Text="Acheron Village Entrance" />
+	<Option WorldID="100" Index="1" Group="0" Type="1" X="40" Y="82" Text="Blue Gate" />
+	<Option WorldID="80" Index="0" Group="0" Type="1" X="115" Y="45" Text="Entrance to Aida" />
+	<Option WorldID="80" Index="1" Group="0" Type="1" X="187" Y="212" Text="Entrance to North Karutan" />
+	<Option WorldID="80" Index="0" Group="1" Type="4" X="121" Y="102" Text="Leina General Goods Merchant" />
+	<Option WorldID="80" Index="1" Group="1" Type="3" X="117" Y="126" Text="Weapons Merchant Bolo" />
+	<Option WorldID="80" Index="2" Group="1" Type="5" X="123" Y="132" Text="Storage" />
+	<Option WorldID="80" Index="3" Group="1" Type="5" X="122" Y="96" Text="Storage" />
+	<Option WorldID="80" Index="4" Group="1" Type="5" X="157" Y="127" Text="Storage" />
+	<Option WorldID="81" Index="0" Group="0" Type="1" X="162" Y="9" Text="Entrance to South Karutan" />
+	<Option WorldID="100" Index="2" Group="0" Type="1" X="212" Y="32" Text="Blue Gate" />
+	<Option WorldID="95" Index="0" Group="0" Type="1" X="17" Y="107" Text="Acheron Village Entrance" />
+	<Option WorldID="91" Index="3" Group="1" Type="5" X="50" Y="184" Text="Warehouse" />
+	<Option WorldID="91" Index="2" Group="1" Type="4" X="56" Y="202" Text="Potion Merchant Jin" />
+	<Option WorldID="91" Index="1" Group="1" Type="2" X="38" Y="216" Text="Errtel Combiner Adniel" />
+	<Option WorldID="91" Index="0" Group="1" Type="2" X="29" Y="210" Text="Archeron Quest Deruvish" />
+	<Option WorldID="91" Index="6" Group="0" Type="1" X="146" Y="206" Text="Acheron Village Entrance" />
+	<Option WorldID="91" Index="5" Group="0" Type="1" X="116" Y="170" Text="Acheron Village Entrance" />
+	<Option WorldID="91" Index="4" Group="0" Type="1" X="90" Y="182" Text="Nars Entrance" />
+	<Option WorldID="91" Index="3" Group="0" Type="1" X="64" Y="220" Text="Mt. Uruk Entrance" />
+	<Option WorldID="91" Index="2" Group="0" Type="1" X="52" Y="162" Text="Debenter Entrance" />
+	<Option WorldID="91" Index="1" Group="0" Type="1" X="84" Y="205" Text="Ubaid Entrance" />
+	<Option WorldID="91" Index="0" Group="0" Type="1" X="26" Y="170" Text="Alkmar Entrance" />
+	<Option WorldID="79" Index="30" Group="1" Type="2" X="197" Y="13" Text="Chaos Goblin" />
+	<Option WorldID="79" Index="29" Group="1" Type="4" X="194" Y="13" Text="Liaman, Barmaid" />
+	<Option WorldID="79" Index="28" Group="1" Type="5" X="188" Y="16" Text="Warehouse" />
+	<Option WorldID="79" Index="27" Group="1" Type="4" X="169" Y="53" Text="Liaman, Barmaid" />
+	<Option WorldID="79" Index="26" Group="1" Type="5" X="169" Y="51" Text="Warehouse" />
+	<Option WorldID="79" Index="25" Group="1" Type="2" X="193" Y="95" Text="Chaos Goblin" />
+	<Option WorldID="79" Index="24" Group="1" Type="4" X="190" Y="95" Text="Liaman, Barmaid" />
+	<Option WorldID="79" Index="23" Group="1" Type="5" X="185" Y="89" Text="Warehouse" />
+	<Option WorldID="79" Index="22" Group="1" Type="2" X="226" Y="96" Text="Chaos Goblin" />
+	<Option WorldID="79" Index="21" Group="1" Type="4" X="226" Y="94" Text="Liaman, Barmaid" />
+	<Option WorldID="79" Index="19" Group="1" Type="2" X="230" Y="31" Text="Chaos Goblin" />
+	<Option WorldID="79" Index="20" Group="1" Type="5" X="231" Y="97" Text="Warehouse" />
+	<Option WorldID="79" Index="18" Group="1" Type="4" X="231" Y="23" Text="Liaman, Barmaid" />
+	<Option WorldID="79" Index="17" Group="1" Type="5" X="234" Y="23" Text="Warehouse" />
+	<Option WorldID="79" Index="16" Group="1" Type="2" X="217" Y="62" Text="Chaos Goblin" />
+	<Option WorldID="79" Index="14" Group="1" Type="5" X="197" Y="66" Text="Warehouse" />
+	<Option WorldID="79" Index="15" Group="1" Type="4" X="208" Y="62" Text="Liaman, Barmaid" />
+	<Option WorldID="79" Index="13" Group="1" Type="2" X="169" Y="58" Text="Rugard (Doppelganger)" />
+	<Option WorldID="79" Index="12" Group="1" Type="2" X="199" Y="49" Text="Julia" />
+	<Option WorldID="79" Index="11" Group="1" Type="2" X="234" Y="29" Text="Jerint (Imperial Fortress)" />
+	<Option WorldID="79" Index="10" Group="1" Type="2" X="223" Y="92" Text="Charon (Devil Square)" />
+	<Option WorldID="79" Index="9" Group="1" Type="2" X="188" Y="92" Text="Archangel's Spirit (Blood Castle)" />
+	<Option WorldID="79" Index="8" Group="1" Type="2" X="213" Y="67" Text="Levine (Tormented Square)" />
+	<Option WorldID="79" Index="7" Group="1" Type="2" X="216" Y="57" Text="Priest James" />
+	<Option WorldID="79" Index="6" Group="1" Type="2" X="68" Y="73" Text="Private Store Bulletin Board" />
+	<Option WorldID="79" Index="5" Group="1" Type="2" X="38" Y="64" Text="Private Store Bulletin Board" />
+	<Option WorldID="79" Index="4" Group="1" Type="2" X="53" Y="70" Text="Julia" />
+	<Option WorldID="79" Index="3" Group="1" Type="4" X="43" Y="46" Text="Christine the Merchant" />
+	<Option WorldID="79" Index="2" Group="1" Type="4" X="61" Y="39" Text="Jeweler Raul" />
+	<Option WorldID="79" Index="1" Group="1" Type="5" X="77" Y="45" Text="Warehouse" />
+	<Option WorldID="79" Index="0" Group="1" Type="5" X="45" Y="74" Text="Warehouse" />
+	<Option WorldID="110" Index="1" Group="0" Type="1" X="178" Y="148" Text="Core Magriffy Nest Entrance" />
+	<Option WorldID="110" Index="2" Group="0" Type="1" X="131" Y="172" Text="Core Magriffy Nest Entrance" />
+	<Option WorldID="110" Index="3" Group="0" Type="1" X="179" Y="185" Text="Red Gate" />
+	<Option WorldID="110" Index="4" Group="0" Type="1" X="127" Y="34" Text="Red Gate" />
+	<Option WorldID="110" Index="5" Group="0" Type="1" X="179" Y="211" Text="Blue Gate" />
+	<Option WorldID="110" Index="6" Group="0" Type="1" X="37" Y="195" Text="Blue Gate" />
+	<Option WorldID="110" Index="7" Group="1" Type="1" X="111" Y="17" Text="Spot" />
+	<Option WorldID="110" Index="8" Group="1" Type="1" X="117" Y="48" Text="Spot" />
+	<Option WorldID="110" Index="8" Group="1" Type="1" X="37" Y="73" Text="Spot" />
+	<Option WorldID="110" Index="9" Group="1" Type="1" X="89" Y="38" Text="Spot" />
+	<Option WorldID="110" Index="10" Group="1" Type="1" X="197" Y="81" Text="Spot" />
+	<Option WorldID="110" Index="11" Group="1" Type="1" X="221" Y="68" Text="Spot" />
+	<Option WorldID="110" Index="12" Group="1" Type="1" X="230" Y="32" Text="Spot" />
+	<Option WorldID="110" Index="13" Group="1" Type="1" X="242" Y="206" Text="Spot" />
+	<Option WorldID="110" Index="11" Group="1" Type="1" X="132" Y="198" Text="Spot" />
+	<Option WorldID="110" Index="11" Group="1" Type="1" X="102" Y="195" Text="Spot" />
+	<Option WorldID="79" Index="0" Group="1" Type="2" X="58" Y="68" Text="Levine" />
+	<Option WorldID="79" Index="1" Group="1" Type="3" X="58" Y="63" Text="Sophia(repair)" />
+	<Option WorldID="79" Index="2" Group="1" Type="4" X="64" Y="57" Text="Silvia" />
+	<Option WorldID="79" Index="3" Group="1" Type="2" X="67" Y="57" Text="Levine" />
+	<Option WorldID="79" Index="4" Group="1" Type="4" X="68" Y="66" Text="Izabel" />
+	<Option WorldID="79" Index="5" Group="1" Type="2" X="66" Y="46" Text="Levine" />
+	<Option WorldID="79" Index="6" Group="1" Type="3" X="62" Y="42" Text="Bolo(repair)" />
+	<Option WorldID="79" Index="7" Group="1" Type="4" X="58" Y="51" Text="Marce" />
+	<Option WorldID="79" Index="8" Group="1" Type="4" X="43" Y="46" Text="Christine" />
+	<Option WorldID="79" Index="9" Group="1" Type="2" X="46" Y="52" Text="Mait" />
+	<Option WorldID="79" Index="10" Group="1" Type="2" X="46" Y="58" Text="Mait" />
+	<Option WorldID="79" Index="11" Group="1" Type="2" X="46" Y="63" Text="Mait" />
+	<Option WorldID="79" Index="31" Group="1" Type="2" X="45" Y="60" Text="Ellin" />
+	<Option WorldID="113" Index="0" Group="0" Type="1" X="16" Y="124" Text="Entrance to LaCleon" />
+	<Option WorldID="113" Index="1" Group="0" Type="1" X="66" Y="114" Text="Portal" />
+	<Option WorldID="113" Index="2" Group="0" Type="1" X="145" Y="95" Text="Portal" />
+	<Option WorldID="113" Index="3" Group="0" Type="1" X="113" Y="109" Text="Nixie's Spirit" />
+	<Option WorldID="116" Index="0" Group="0" Type="1" X="116" Y="126" Text="Entrance to Lorencia" />
+	<Option WorldID="116" Index="1" Group="0" Type="1" X="131" Y="133" Text="Entrance to Deep Dungeon 2" />
+	<Option WorldID="117" Index="0" Group="0" Type="1" X="131" Y="132" Text="Entrance to Deep Dungeon 1" />
+	<Option WorldID="117" Index="1" Group="0" Type="1" X="115" Y="125" Text="Entrance to Deep Dungeon 3" />
+	<Option WorldID="118" Index="0" Group="0" Type="1" X="120" Y="119" Text="Entrance to Deep Dungeon 2" />
+	<Option WorldID="118" Index="1" Group="0" Type="1" X="137" Y="132" Text="Entrance to Deep Dungeon 4" />
+	<Option WorldID="119" Index="0" Group="0" Type="1" X="120" Y="118" Text="Entrance to Deep Dungeon 3" />
+	<Option WorldID="119" Index="1" Group="0" Type="1" X="136" Y="132" Text="Entrance to Deep Dungeon 5" />
+	<Option WorldID="120" Index="0" Group="0" Type="1" X="119" Y="119" Text="Entrance to Deep Dungeon 4" />
+	<Option WorldID="0" Index="4" Group="0" Type="1" X="177" Y="30" Text="Entrance to Deep Dungeon" />
+	<Option WorldID="0" Index="17" Group="1" Type="2" X="131" Y="138" Text="Wandering Merchant Zyro" />
+	<Option WorldID="0" Index="20" Group="1" Type="2" X="131" Y="147" Text="Cent(Quest)" />
+	<Option WorldID="57" Index="2" Group="0" Type="1" X="210" Y="226" Text="Entrance to Nixies Lake" />
+	<Option WorldID="8" Index="2" Group="0" Type="1" X="177" Y="39" Text="Entrance to Ferea" />
+	<Option WorldID="112" Index="0" Group="0" Type="1" X="232" Y="175" Text="Entrance to Tarkan" />
+	<Option WorldID="112" Index="1" Group="0" Type="1" X="196" Y="179" Text="Red Gate" />
+	<Option WorldID="112" Index="2" Group="0" Type="1" X="99" Y="71" Text="Red Gate" />
+	<Option WorldID="112" Index="3" Group="0" Type="1" X="196" Y="142" Text="Blue Gate" />
+	<Option WorldID="112" Index="4" Group="0" Type="1" X="80" Y="236" Text="Blue Gate" />
+	<Option WorldID="112" Index="5" Group="0" Type="1" X="60" Y="122" Text="Lord Ferea Throne" />
+	<Option WorldID="112" Index="6" Group="1" Type="1" X="206" Y="186" Text="Spot" />
+	<Option WorldID="112" Index="7" Group="1" Type="1" X="220" Y="199" Text="Spot" />
+	<Option WorldID="112" Index="8" Group="1" Type="1" X="166" Y="153" Text="Spot" />
+	<Option WorldID="112" Index="9" Group="1" Type="1" X="127" Y="195" Text="Spot" />
+	<Option WorldID="112" Index="10" Group="1" Type="1" X="66" Y="213" Text="Spot" />
+	<Option WorldID="112" Index="11" Group="1" Type="1" X="34" Y="232" Text="Spot" />
+	<Option WorldID="112" Index="12" Group="1" Type="1" X="59" Y="202" Text="Spot" />
+	<Option WorldID="112" Index="13" Group="1" Type="1" X="32" Y="190" Text="Spot" />
+	<Option WorldID="112" Index="14" Group="1" Type="1" X="40" Y="166" Text="Spot" />
+	<Option WorldID="112" Index="15" Group="1" Type="1" X="79" Y="191" Text="Spot" />
+	<Option WorldID="112" Index="16" Group="1" Type="1" X="185" Y="139" Text="Spot" />
+	<Option WorldID="112" Index="17" Group="1" Type="1" X="195" Y="102" Text="Spot" />
+	<Option WorldID="112" Index="18" Group="1" Type="1" X="225" Y="78" Text="Spot" />
+	<Option WorldID="112" Index="19" Group="1" Type="1" X="229" Y="38" Text="Spot" />
+	<Option WorldID="112" Index="20" Group="1" Type="1" X="222" Y="22" Text="Spot" />
+	<Option WorldID="112" Index="21" Group="1" Type="1" X="209" Y="17" Text="Spot" />
+	<Option WorldID="112" Index="22" Group="1" Type="1" X="170" Y="20" Text="Spot" />
+	<Option WorldID="112" Index="23" Group="1" Type="1" X="156" Y="15" Text="Spot" />
+	<Option WorldID="112" Index="24" Group="1" Type="1" X="119" Y="19" Text="Spot" />
+	<Option WorldID="112" Index="25" Group="1" Type="1" X="24" Y="42" Text="Spot" />
+	<Option WorldID="112" Index="26" Group="1" Type="1" X="71" Y="39" Text="Spot" />
+	<Option WorldID="112" Index="27" Group="1" Type="1" X="79" Y="51" Text="Spot" />
+	<Option WorldID="112" Index="28" Group="1" Type="1" X="160" Y="59" Text="Spot" />
+	<Option WorldID="112" Index="29" Group="1" Type="1" X="185" Y="73" Text="Spot" />
+	<Option WorldID="112" Index="30" Group="1" Type="1" X="98" Y="142" Text="Spot" />
+	<Option WorldID="112" Index="31" Group="1" Type="1" X="121" Y="160" Text="Spot" />
+	<Option WorldID="112" Index="32" Group="1" Type="1" X="134" Y="113" Text="Spot" />
+	<Option WorldID="112" Index="33" Group="1" Type="1" X="133" Y="86" Text="Spot" />
+	<Option WorldID="122" Index="0" Group="0" Type="1" X="125" Y="130" Text="Fire Gate" />
+	<Option WorldID="122" Index="1" Group="0" Type="1" X="150" Y="111" Text="Water Gate" />
+	<Option WorldID="122" Index="2" Group="0" Type="1" X="133" Y="101" Text="Darkness Gate" />
+	<Option WorldID="122" Index="3" Group="0" Type="1" X="118" Y="113" Text="Earth Gate" />
+	<Option WorldID="122" Index="4" Group="0" Type="1" X="143" Y="130" Text="Wind Gate" />
+	<Option WorldID="122" Index="5" Group="0" Type="1" X="242" Y="94" Text="Boss Zone" />
+	<Option WorldID="122" Index="6" Group="0" Type="1" X="11" Y="158" Text="Boss Zone" />
+	<Option WorldID="122" Index="7" Group="0" Type="1" X="108" Y="154" Text="Fire Gate" />
+	<Option WorldID="122" Index="8" Group="0" Type="1" X="176" Y="104" Text="Water Gate" />
+	<Option WorldID="122" Index="9" Group="0" Type="1" X="133" Y="74" Text="Darkness Gate" />
+	<Option WorldID="122" Index="10" Group="0" Type="1" X="93" Y="106" Text="Earth Gate" />
+	<Option WorldID="122" Index="11" Group="0" Type="1" X="156" Y="149" Text="Wind Gate" />
+	<Option WorldID="122" Index="0" Group="1" Type="1" X="189" Y="85" Text="Spot" />
+	<Option WorldID="122" Index="1" Group="1" Type="1" X="220" Y="27" Text="Spot" />
+	<Option WorldID="122" Index="2" Group="1" Type="1" X="226" Y="79" Text="Spot" />
+	<Option WorldID="122" Index="3" Group="1" Type="1" X="207" Y="92" Text="Spot" />
+	<Option WorldID="122" Index="4" Group="1" Type="1" X="239" Y="116" Text="Spot" />
+	<Option WorldID="122" Index="5" Group="1" Type="1" X="234" Y="149" Text="Spot" />
+	<Option WorldID="122" Index="6" Group="1" Type="1" X="216" Y="182" Text="Spot" />
+	<Option WorldID="122" Index="7" Group="1" Type="1" X="218" Y="222" Text="Spot" />
+	<Option WorldID="122" Index="8" Group="1" Type="1" X="192" Y="227" Text="Spot" />
+	<Option WorldID="122" Index="9" Group="1" Type="1" X="123" Y="221" Text="Spot" />
+	<Option WorldID="122" Index="10" Group="1" Type="1" X="98" Y="191" Text="Spot" />
+	<Option WorldID="122" Index="11" Group="1" Type="1" X="92" Y="224" Text="Spot" />
+	<Option WorldID="122" Index="12" Group="1" Type="1" X="71" Y="222" Text="Spot" />
+	<Option WorldID="122" Index="13" Group="1" Type="1" X="50" Y="215" Text="Spot" />
+	<Option WorldID="122" Index="14" Group="1" Type="1" X="77" Y="182" Text="Spot" />
+	<Option WorldID="122" Index="15" Group="1" Type="1" X="110" Y="175" Text="Spot" />
+	<Option WorldID="122" Index="16" Group="1" Type="1" X="152" Y="180" Text="Spot" />
+	<Option WorldID="122" Index="17" Group="1" Type="1" X="20" Y="203" Text="Spot" />
+	<Option WorldID="122" Index="18" Group="1" Type="1" X="60" Y="174" Text="Spot" />
+	<Option WorldID="122" Index="19" Group="1" Type="1" X="51" Y="160" Text="Spot" />
+	<Option WorldID="122" Index="20" Group="1" Type="1" X="47" Y="111" Text="Spot" />
+	<Option WorldID="122" Index="21" Group="1" Type="1" X="83" Y="122" Text="Spot" />
+	<Option WorldID="122" Index="22" Group="1" Type="1" X="45" Y="94" Text="Spot" />
+	<Option WorldID="122" Index="23" Group="1" Type="1" X="24" Y="95" Text="Spot" />
+	<Option WorldID="122" Index="24" Group="1" Type="1" X="39" Y="69" Text="Spot" />
+	<Option WorldID="122" Index="25" Group="1" Type="1" X="19" Y="46" Text="Spot" />
+	<Option WorldID="122" Index="26" Group="1" Type="1" X="31" Y="16" Text="Spot" />
+	<Option WorldID="122" Index="27" Group="1" Type="1" X="53" Y="24" Text="Spot" />
+	<Option WorldID="122" Index="28" Group="1" Type="1" X="80" Y="14" Text="Spot" />
+	<Option WorldID="122" Index="29" Group="1" Type="1" X="62" Y="47" Text="Spot" />
+	<Option WorldID="122" Index="30" Group="1" Type="1" X="51" Y="51" Text="Spot" />
+	<Option WorldID="122" Index="31" Group="1" Type="1" X="66" Y="56" Text="Spot" />
+	<Option WorldID="122" Index="32" Group="1" Type="1" X="86" Y="74" Text="Spot" />
+	<Option WorldID="122" Index="33" Group="1" Type="1" X="71" Y="67" Text="Spot" />
+	<Option WorldID="122" Index="34" Group="1" Type="1" X="108" Y="81" Text="Spot" />
+	<Option WorldID="122" Index="35" Group="1" Type="1" X="128" Y="44" Text="Spot" />
+	<Option WorldID="122" Index="36" Group="1" Type="1" X="151" Y="19" Text="Spot" />
+	<Option WorldID="123" Index="0" Group="0" Type="1" X="233" Y="87" Text="Devias Entrance" />
+	<Option WorldID="123" Index="1" Group="0" Type="1" X="209" Y="69" Text="Elemental Gate (B)" />
+	<Option WorldID="123" Index="2" Group="0" Type="1" X="214" Y="110" Text="Fire Gate (A)" />
+	<Option WorldID="123" Index="3" Group="0" Type="1" X="217" Y="129" Text="Water Gate (A)" />
+	<Option WorldID="123" Index="4" Group="0" Type="1" X="236" Y="132" Text="Earth Gate (A)" />
+	<Option WorldID="123" Index="5" Group="0" Type="1" X="216" Y="119" Text="Wind Gate (A)" />
+	<Option WorldID="123" Index="6" Group="0" Type="1" X="227" Y="130" Text="Darkness Gate (A)" />
+	<Option WorldID="124" Index="0" Group="0" Type="1" X="233" Y="87" Text="Devias Entrance" />
+	<Option WorldID="124" Index="1" Group="0" Type="1" X="214" Y="110" Text="Fire Gate (A)" />
+	<Option WorldID="124" Index="2" Group="0" Type="1" X="209" Y="69" Text="Elemental Gate (B)" />
+	<Option WorldID="124" Index="3" Group="0" Type="1" X="217" Y="129" Text="Water Gate (A)" />
+	<Option WorldID="124" Index="4" Group="0" Type="1" X="236" Y="132" Text="Earth Gate (A)" />
+	<Option WorldID="124" Index="5" Group="0" Type="1" X="216" Y="119" Text="Wind Gate (A)" />
+	<Option WorldID="124" Index="6" Group="0" Type="1" X="227" Y="130" Text="Darkness Gate (A)" />
+	<Option WorldID="125" Index="0" Group="0" Type="1" X="233" Y="87" Text="Devias Entrance" />
+	<Option WorldID="125" Index="1" Group="0" Type="1" X="214" Y="110" Text="Fire Gate (A)" />
+	<Option WorldID="125" Index="2" Group="0" Type="1" X="217" Y="129" Text="Water Gate (A)" />
+	<Option WorldID="125" Index="3" Group="0" Type="1" X="209" Y="69" Text="Elemental Gate (B)" />
+	<Option WorldID="125" Index="4" Group="0" Type="1" X="236" Y="132" Text="Earth Gate (A)" />
+	<Option WorldID="125" Index="5" Group="0" Type="1" X="216" Y="119" Text="Wind Gate (A)" />
+	<Option WorldID="125" Index="6" Group="0" Type="1" X="227" Y="130" Text="Darkness Gate (A)" />
+	<Option WorldID="126" Index="0" Group="0" Type="1" X="233" Y="87" Text="Devias Entrance" />
+	<Option WorldID="126" Index="1" Group="0" Type="1" X="214" Y="110" Text="Fire Gate (A)" />
+	<Option WorldID="126" Index="2" Group="0" Type="1" X="217" Y="129" Text="Water Gate (A)" />
+	<Option WorldID="126" Index="3" Group="0" Type="1" X="236" Y="132" Text="Earth Gate (A)" />
+	<Option WorldID="126" Index="4" Group="0" Type="1" X="209" Y="69" Text="Elemental Gate (B)" />
+	<Option WorldID="126" Index="5" Group="0" Type="1" X="216" Y="119" Text="Wind Gate (A)" />
+	<Option WorldID="126" Index="6" Group="0" Type="1" X="227" Y="130" Text="Darkness Gate (A)" />
+	<Option WorldID="127" Index="0" Group="0" Type="1" X="233" Y="87" Text="Devias Entrance" />
+	<Option WorldID="127" Index="1" Group="0" Type="1" X="214" Y="110" Text="Fire Gate (A)" />
+	<Option WorldID="127" Index="2" Group="0" Type="1" X="217" Y="129" Text="Water Gate (A)" />
+	<Option WorldID="127" Index="3" Group="0" Type="1" X="236" Y="132" Text="Earth Gate (A)" />
+	<Option WorldID="127" Index="4" Group="0" Type="1" X="216" Y="119" Text="Wind Gate (A)" />
+	<Option WorldID="127" Index="5" Group="0" Type="1" X="209" Y="69" Text="Elemental Gate (B)" />
+	<Option WorldID="127" Index="6" Group="0" Type="1" X="227" Y="130" Text="Darkness Gate (A)" />
+	<Option WorldID="2" Index="4" Group="0" Type="1" X="158" Y="57" Text="Kubera Mine Entrance" />
+	<Option WorldID="8" Index="3" Group="0" Type="1" X="190" Y="74" Text="Entrance to Scorched Canyon" />
+	<Option WorldID="131" Index="0" Group="0" Type="1" X="208" Y="45" Text="Red Gate" />
+	<Option WorldID="131" Index="1" Group="0" Type="1" X="141" Y="210" Text="Red Gate" />
+	<Option WorldID="131" Index="2" Group="0" Type="1" X="199" Y="26" Text="Blue Gate" />
+	<Option WorldID="131" Index="3" Group="0" Type="1" X="75" Y="80" Text="Blue Gate" />
+	<Option WorldID="131" Index="0" Group="1" Type="1" X="202" Y="34" Text="Spot" />
+	<Option WorldID="131" Index="1" Group="1" Type="1" X="156" Y="60" Text="Spot" />
+	<Option WorldID="131" Index="2" Group="1" Type="1" X="108" Y="45" Text="Spot" />
+	<Option WorldID="131" Index="3" Group="1" Type="1" X="209" Y="79" Text="Spot" />
+	<Option WorldID="131" Index="4" Group="1" Type="1" X="216" Y="91" Text="Spot" />
+	<Option WorldID="131" Index="5" Group="1" Type="1" X="236" Y="104" Text="Spot" />
+	<Option WorldID="131" Index="6" Group="1" Type="1" X="191" Y="95" Text="Spot" />
+	<Option WorldID="131" Index="7" Group="1" Type="1" X="202" Y="113" Text="Spot" />
+	<Option WorldID="131" Index="8" Group="1" Type="1" X="161" Y="99" Text="Spot" />
+	<Option WorldID="131" Index="9" Group="1" Type="1" X="183" Y="140" Text="Spot" />
+	<Option WorldID="131" Index="10" Group="1" Type="1" X="224" Y="137" Text="Spot" />
+	<Option WorldID="131" Index="11" Group="1" Type="1" X="214" Y="224" Text="Spot" />
+	<Option WorldID="131" Index="12" Group="1" Type="1" X="175" Y="212" Text="Spot" />
+	<Option WorldID="131" Index="13" Group="1" Type="1" X="185" Y="193" Text="Spot" />
+	<Option WorldID="131" Index="14" Group="1" Type="1" X="173" Y="232" Text="Spot" />
+	<Option WorldID="131" Index="15" Group="1" Type="1" X="150" Y="225" Text="Spot" />
+	<Option WorldID="131" Index="16" Group="1" Type="1" X="129" Y="223" Text="Spot" />
+	<Option WorldID="131" Index="17" Group="1" Type="1" X="77" Y="209" Text="Spot" />
+	<Option WorldID="131" Index="18" Group="1" Type="1" X="79" Y="175" Text="Spot" />
+	<Option WorldID="131" Index="19" Group="1" Type="1" X="57" Y="199" Text="Spot" />
+	<Option WorldID="131" Index="20" Group="1" Type="1" X="58" Y="236" Text="Spot" />
+	<Option WorldID="131" Index="21" Group="1" Type="1" X="36" Y="216" Text="Spot" />
+	<Option WorldID="131" Index="22" Group="1" Type="1" X="28" Y="176" Text="Spot" />
+	<Option WorldID="131" Index="23" Group="1" Type="1" X="126" Y="132" Text="Spot" />
+	<Option WorldID="131" Index="24" Group="1" Type="1" X="53" Y="152" Text="Spot" />
+	<Option WorldID="131" Index="25" Group="1" Type="1" X="38" Y="133" Text="Spot" />
+	<Option WorldID="131" Index="26" Group="1" Type="1" X="22" Y="95" Text="Spot" />
+	<Option WorldID="131" Index="27" Group="1" Type="1" X="47" Y="78" Text="Spot" />
+	<Option WorldID="131" Index="28" Group="1" Type="1" X="76" Y="63" Text="Spot" />
+	<Option WorldID="131" Index="29" Group="1" Type="1" X="67" Y="14" Text="Spot" />
+	<Option WorldID="131" Index="30" Group="1" Type="1" X="43" Y="19" Text="Spot" />
+	<Option WorldID="131" Index="31" Group="1" Type="1" X="51" Y="48" Text="Spot" />
+	<Option WorldID="132" Index="0" Group="1" Type="1" X="83" Y="136" Text="Spot" />
+	<Option WorldID="132" Index="1" Group="1" Type="1" X="54" Y="153" Text="Spot" />
+	<Option WorldID="132" Index="2" Group="1" Type="1" X="79" Y="153" Text="Spot" />
+	<Option WorldID="132" Index="3" Group="1" Type="1" X="103" Y="153" Text="Spot" />
+	<Option WorldID="132" Index="4" Group="1" Type="1" X="85" Y="176" Text="Spot" />
+	<Option WorldID="132" Index="5" Group="1" Type="1" X="86" Y="204" Text="Spot" />
+	<Option WorldID="132" Index="6" Group="1" Type="1" X="56" Y="207" Text="Spot" />
+	<Option WorldID="132" Index="7" Group="1" Type="1" X="60" Y="187" Text="Spot" />
+	<Option WorldID="132" Index="8" Group="1" Type="1" X="57" Y="228" Text="Spot" />
+	<Option WorldID="132" Index="9" Group="1" Type="1" X="84" Y="237" Text="Spot" />
+	<Option WorldID="132" Index="10" Group="1" Type="1" X="106" Y="193" Text="Spot" />
+	<Option WorldID="132" Index="11" Group="1" Type="1" X="133" Y="167" Text="Spot" />
+	<Option WorldID="132" Index="12" Group="1" Type="1" X="125" Y="190" Text="Spot" />
+	<Option WorldID="132" Index="13" Group="1" Type="1" X="152" Y="165" Text="Spot" />
+	<Option WorldID="132" Index="14" Group="1" Type="1" X="145" Y="184" Text="Spot" />
+	<Option WorldID="132" Index="15" Group="1" Type="1" X="162" Y="184" Text="Spot" />
+	<Option WorldID="132" Index="16" Group="1" Type="1" X="152" Y="209" Text="Spot" />
+	<Option WorldID="132" Index="17" Group="1" Type="1" X="186" Y="210" Text="Spot" />
+	<Option WorldID="132" Index="18" Group="1" Type="1" X="174" Y="231" Text="Spot" />
+	<Option WorldID="132" Index="19" Group="1" Type="1" X="226" Y="202" Text="Spot" />
+	<Option WorldID="132" Index="20" Group="1" Type="1" X="180" Y="187" Text="Spot" />
+	<Option WorldID="132" Index="21" Group="1" Type="1" X="80" Y="112" Text="Spot" />
+	<Option WorldID="132" Index="22" Group="1" Type="1" X="55" Y="114" Text="Spot" />
+	<Option WorldID="132" Index="23" Group="1" Type="1" X="94" Y="76" Text="Spot" />
+	<Option WorldID="132" Index="24" Group="1" Type="1" X="76" Y="95" Text="Spot" />
+	<Option WorldID="132" Index="25" Group="1" Type="1" X="49" Y="88" Text="Spot" />
+	<Option WorldID="132" Index="25" Group="1" Type="1" X="45" Y="23" Text="Spot" />
+	<Option WorldID="132" Index="26" Group="1" Type="1" X="40" Y="54" Text="Spot" />
+	<Option WorldID="132" Index="27" Group="1" Type="1" X="87" Y="55" Text="Spot" />
+	<Option WorldID="132" Index="28" Group="1" Type="1" X="62" Y="46" Text="Spot" />
+	<Option WorldID="132" Index="29" Group="1" Type="1" X="94" Y="39" Text="Spot" />
+	<Option WorldID="132" Index="30" Group="1" Type="1" X="124" Y="21" Text="Spot" />
+	<Option WorldID="132" Index="31" Group="1" Type="1" X="134" Y="68" Text="Spot" />
+	<Option WorldID="132" Index="32" Group="1" Type="1" X="124" Y="38" Text="Spot" />
+	<Option WorldID="132" Index="33" Group="1" Type="1" X="148" Y="38" Text="Spot" />
+	<Option WorldID="132" Index="34" Group="1" Type="1" X="167" Y="65" Text="Spot" />
+	<Option WorldID="132" Index="35" Group="1" Type="1" X="151" Y="97" Text="Spot" />
+	<Option WorldID="132" Index="36" Group="1" Type="1" X="183" Y="54" Text="Spot" />
+	<Option WorldID="132" Index="37" Group="1" Type="1" X="161" Y="22" Text="Spot" />
+	<Option WorldID="132" Index="38" Group="1" Type="1" X="198" Y="36" Text="Spot" />
+	<Option WorldID="132" Index="39" Group="1" Type="1" X="193" Y="79" Text="Spot" />
+	<Option WorldID="132" Index="40" Group="1" Type="1" X="173" Y="127" Text="Spot" />
+	<Option WorldID="132" Index="41" Group="1" Type="1" X="169" Y="148" Text="Spot" />
+	<Option WorldID="132" Index="42" Group="1" Type="1" X="198" Y="123" Text="Spot" />
+	<Option WorldID="132" Index="43" Group="1" Type="1" X="186" Y="145" Text="Spot" />
+	<Option WorldID="132" Index="44" Group="1" Type="1" X="189" Y="170" Text="Spot" />
+	<Option WorldID="132" Index="45" Group="1" Type="1" X="193" Y="100" Text="Spot" />
+	<Option WorldID="132" Index="46" Group="1" Type="1" X="211" Y="140" Text="Spot" />
+	<Option WorldID="132" Index="47" Group="1" Type="1" X="228" Y="114" Text="Spot" />
+	<Option WorldID="132" Index="48" Group="1" Type="1" X="207" Y="156" Text="Spot" />
+	<Option WorldID="132" Index="49" Group="1" Type="1" X="241" Y="143" Text="Spot" />
+	<Option WorldID="132" Index="50" Group="1" Type="1" X="225" Y="160" Text="Spot" />
+</MiniMap>

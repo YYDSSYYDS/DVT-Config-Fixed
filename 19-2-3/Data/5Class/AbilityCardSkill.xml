@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Type: Card type, unique per character class, used to manage cards conversion, 0 can converts to 1 and vice-versa -->
+
+<ParticleSkillList>
+<ParticleSkill ID = "0"  Type="0" class = "0" ItemCat="20" ItemIndex="165" SkillIndex="2037" ReqSkill="1076" option="1" optvalue="15" FormulaID="3"  />
+<ParticleSkill ID = "3"  Type="0" class = "1" ItemCat="20" ItemIndex="168" SkillIndex="2040" ReqSkill="1203" option="2" optvalue="1"  FormulaID="6"  />
+<ParticleSkill ID = "6"  Type="1" class = "1" ItemCat="20" ItemIndex="171" SkillIndex="2043" ReqSkill="1202" option="1" optvalue="15" FormulaID="9"  />								
+<ParticleSkill ID = "7"  Type="0" class = "2" ItemCat="20" ItemIndex="172" SkillIndex="2044" ReqSkill="1222" option="2" optvalue="1"  FormulaID="10" />
+<ParticleSkill ID = "10" Type="1" class = "2" ItemCat="20" ItemIndex="175" SkillIndex="2047" ReqSkill="1223" option="1" optvalue="15" FormulaID="13" />
+<ParticleSkill ID = "12" Type="0" class = "3" ItemCat="20" ItemIndex="177" SkillIndex="2049" ReqSkill="1214" option="2" optvalue="1"  FormulaID="15" />
+<ParticleSkill ID = "14" Type="1" class = "3" ItemCat="20" ItemIndex="179" SkillIndex="2051" ReqSkill="1215" option="3" optvalue="1"  FormulaID="17" />								
+<ParticleSkill ID = "17" Type="0" class = "4" ItemCat="20" ItemIndex="182" SkillIndex="2054" ReqSkill="1099" option="2" optvalue="1"  FormulaID="20" />								
+<!-- 19-2-3 ↓-->
+<ParticleSkill ID = "18" Type="1" class = "4" ItemCat="20" ItemIndex="246" SkillIndex="2096" ReqSkill="1240" option="3" optvalue="1"  FormulaID="283" />
+<!-- 19-2-3 ↑-->
+<ParticleSkill ID = "21" Type="0" class = "5" ItemCat="20" ItemIndex="186" SkillIndex="2058" ReqSkill="1102" option="2" optvalue="1"  FormulaID="24" />
+<ParticleSkill ID = "23" Type="1" class = "5" ItemCat="20" ItemIndex="188" SkillIndex="2060" ReqSkill="1155" option="3" optvalue="1"  FormulaID="26" />
+<ParticleSkill ID = "24" Type="0" class = "6" ItemCat="20" ItemIndex="189" SkillIndex="2061" ReqSkill="1113" option="2" optvalue="1"  FormulaID="27" />
+<ParticleSkill ID = "26" Type="1" class = "6" ItemCat="20" ItemIndex="191" SkillIndex="2063" ReqSkill="1147" option="2" optvalue="1"  FormulaID="29" />
+<ParticleSkill ID = "28" Type="0" class = "7" ItemCat="20" ItemIndex="193" SkillIndex="2065" ReqSkill="1235" option="2" optvalue="1"  FormulaID="31" />
+<ParticleSkill ID = "30" Type="1" class = "7" ItemCat="20" ItemIndex="234" SkillIndex="2089" ReqSkill="1236" option="1" optvalue="15" FormulaID="33" />
+<ParticleSkill ID = "32" Type="0" class = "8" ItemCat="20" ItemIndex="196" SkillIndex="2068" ReqSkill="1150" option="1" optvalue="15" FormulaID="35" />
+<ParticleSkill ID = "35" Type="0" class = "9" ItemCat="20" ItemIndex="199" SkillIndex="2071" ReqSkill="1160" option="2" optvalue="1"  FormulaID="38" />								
+<ParticleSkill ID = "37" Type="0" class = "10" ItemCat="20" ItemIndex="201" SkillIndex="2073" ReqSkill="1213" option="1" optvalue="15" FormulaID="40" />
+<ParticleSkill ID = "41" Type="0" class = "11" ItemCat="20" ItemIndex="208" SkillIndex="2080" ReqSkill="1216" option="2" optvalue="1"  FormulaID="47" />
+<ParticleSkill ID = "43" Type="0" class = "12" ItemCat="20" ItemIndex="204" SkillIndex="2076" ReqSkill="1219" option="2" optvalue="1"  FormulaID="43" />							
+<ParticleSkill ID = "46" Type="0" class = "13" ItemCat="20" ItemIndex="210" SkillIndex="2082" ReqSkill="1233" option="2" optvalue="1"  FormulaID="49" />
+</ParticleSkillList>

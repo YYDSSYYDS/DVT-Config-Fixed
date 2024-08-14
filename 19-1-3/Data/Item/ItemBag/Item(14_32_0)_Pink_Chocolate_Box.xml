@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf - 8"?>
+<!--
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==   File Name: Item(14_32_0)_Pink_Chocolate_Box.xml           ==
+// ============================================================
+-->
+
+<ItemBag>
+			<!--Entropy Gun-->
+			<Item Sort="0" ItemCat="4" ItemIndex="42" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Frere Magic Gun-->
+			<Item Sort="0" ItemCat="4" ItemIndex="43" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Leather Gunner Helmet-->
+			<Item Sort="0" ItemCat="7" ItemIndex="206" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Leather Gunner Armor-->
+			<Item Sort="0" ItemCat="8" ItemIndex="206" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Leather Gunner Pants-->
+			<Item Sort="0" ItemCat="9" ItemIndex="206" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Leather Gunner Gloves-->
+			<Item Sort="0" ItemCat="10" ItemIndex="206" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Leather Gunner Boots-->
+			<Item Sort="0" ItemCat="11" ItemIndex="206" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Scale Gunner Helmet-->
+			<Item Sort="0" ItemCat="7" ItemIndex="207" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Scale Gunner Armor-->
+			<Item Sort="0" ItemCat="8" ItemIndex="207" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Scale Gunner Pants-->
+			<Item Sort="0" ItemCat="9" ItemIndex="207" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Scale Gunner Glove-->
+			<Item Sort="0" ItemCat="10" ItemIndex="207" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Scale Gunner Boots-->
+			<Item Sort="0" ItemCat="11" ItemIndex="207" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Round Gunner helmet-->
+			<Item Sort="0" ItemCat="7" ItemIndex="208" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Round Gunner Armor-->
+			<Item Sort="0" ItemCat="8" ItemIndex="208" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Round Gunner Pants-->
+			<Item Sort="0" ItemCat="9" ItemIndex="208" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Round Gunner Gloves-->
+			<Item Sort="0" ItemCat="10" ItemIndex="208" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Round Gunner Boots-->
+			<Item Sort="0" ItemCat="11" ItemIndex="208" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Frere Helmet-->
+			<Item Sort="0" ItemCat="7" ItemIndex="209" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Frere Armor-->
+			<Item Sort="0" ItemCat="8" ItemIndex="209" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Frere Pants-->
+			<Item Sort="0" ItemCat="9" ItemIndex="209" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Frere Gloves-->
+			<Item Sort="0" ItemCat="10" ItemIndex="209" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Frere Boots-->
+			<Item Sort="0" ItemCat="11" ItemIndex="209" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+
+			<!--Slayer Helm (A)-->
+			<Item Sort="0" ItemCat="7" ItemIndex="175" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Slayer Armor (A)-->
+			<Item Sort="0" ItemCat="8" ItemIndex="175" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Slayer Pants (A)-->
+			<Item Sort="0" ItemCat="9" ItemIndex="175" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Slayer Gloves (A)-->
+			<Item Sort="0" ItemCat="10" ItemIndex="175" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Slayer Boots (A)-->
+			<Item Sort="0" ItemCat="11" ItemIndex="175" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Dacia Short Sword-->
+			<Item Sort="0" ItemCat="0" ItemIndex="67" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Slayer Red Wing Helm-->
+			<Item Sort="0" ItemCat="7" ItemIndex="174" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Slayer Red Wing Armor-->
+			<Item Sort="0" ItemCat="8" ItemIndex="174" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Slayer Red Wing Pants-->
+			<Item Sort="0" ItemCat="9" ItemIndex="174" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Slayer Red Wing Gloves-->
+			<Item Sort="0" ItemCat="10" ItemIndex="174" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Slayer Red Wing Boots-->
+			<Item Sort="0" ItemCat="11" ItemIndex="174" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Flat Short Sword-->
+			<Item Sort="0" ItemCat="0" ItemIndex="66" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="10000" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			
+			<!--Elemental Rune Mace-->
+			<Item Sort="0" ItemCat="2" ItemIndex="28" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="10000" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--El Hazard Mace-->
+			<Item Sort="0" ItemCat="2" ItemIndex="29" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="10000" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Rune Pad Helm-->
+			<Item Sort="0" ItemCat="7" ItemIndex="116" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Rune Pad Armor-->
+			<Item Sort="0" ItemCat="8" ItemIndex="116" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Rune Pad Pants-->
+			<Item Sort="0" ItemCat="9" ItemIndex="116" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Rune Pads Gloves-->
+			<Item Sort="0" ItemCat="10" ItemIndex="116" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Rune Pad Boots-->
+			<Item Sort="0" ItemCat="11" ItemIndex="116" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Rune Spink Mask-->
+			<Item Sort="0" ItemCat="7" ItemIndex="117" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Rune Spink Armor-->
+			<Item Sort="0" ItemCat="8" ItemIndex="117" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Rune Spink Pants-->
+			<Item Sort="0" ItemCat="9" ItemIndex="117" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Rune Spink Gloves-->
+			<Item Sort="0" ItemCat="10" ItemIndex="117" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Rune Spink Boots-->
+			<Item Sort="0" ItemCat="11" ItemIndex="117" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Rune Legendary Helmet-->
+			<Item Sort="0" ItemCat="7" ItemIndex="118" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Rune Legendary Armor-->
+			<Item Sort="0" ItemCat="8" ItemIndex="118" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Rune Legendary Pants-->
+			<Item Sort="0" ItemCat="9" ItemIndex="118" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Rune Legendary Gloves-->
+			<Item Sort="0" ItemCat="10" ItemIndex="118" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Rune Legendary Boots-->
+			<Item Sort="0" ItemCat="11" ItemIndex="118" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+
+			<!--Katana-->
+			<Item Sort="0" ItemCat="0" ItemIndex="3" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="10000" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Falchion-->
+			<Item Sort="0" ItemCat="0" ItemIndex="7" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="10000" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Serpent Sword-->
+			<Item Sort="0" ItemCat="0" ItemIndex="8" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="10000" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Blade-->
+			<Item Sort="0" ItemCat="0" ItemIndex="5" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="10000" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Light Saber-->
+			<Item Sort="0" ItemCat="0" ItemIndex="10" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="10000" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Legendary Sword-->
+			<Item Sort="0" ItemCat="0" ItemIndex="11" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="10000" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Tomahawk-->
+			<Item Sort="0" ItemCat="1" ItemIndex="3" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="10000" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Battle Axe-->
+			<Item Sort="0" ItemCat="1" ItemIndex="5" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="10000" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Nikea Axe-->
+			<Item Sort="0" ItemCat="1" ItemIndex="6" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="10000" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Morning Star-->
+			<Item Sort="0" ItemCat="2" ItemIndex="1" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="10000" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Great Hammer-->
+			<Item Sort="0" ItemCat="2" ItemIndex="3" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="10000" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Dragon Lance-->
+			<Item Sort="0" ItemCat="3" ItemIndex="2" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="10000" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Light Spear-->
+			<Item Sort="0" ItemCat="3" ItemIndex="0" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="10000" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Elven Bow-->
+			<Item Sort="0" ItemCat="4" ItemIndex="2" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="10000" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Tiger Bow-->
+			<Item Sort="0" ItemCat="4" ItemIndex="4" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="10000" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Golden Crossbow-->
+			<Item Sort="0" ItemCat="4" ItemIndex="9" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="10000" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Arquebus-->
+			<Item Sort="0" ItemCat="4" ItemIndex="10" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="10000" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Serpent Crossbow-->
+			<Item Sort="0" ItemCat="4" ItemIndex="12" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="10000" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Skull Staff-->
+			<Item Sort="0" ItemCat="5" ItemIndex="0" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="10000" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Serpent Staff-->
+			<Item Sort="0" ItemCat="5" ItemIndex="2" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="10000" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Thunder Staff-->
+			<Item Sort="0" ItemCat="5" ItemIndex="3" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="10000" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Battle Scepter-->
+			<Item Sort="0" ItemCat="2" ItemIndex="8" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="10000" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Leather Helm-->
+			<Item Sort="0" ItemCat="7" ItemIndex="5" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Leather Armor-->
+			<Item Sort="0" ItemCat="8" ItemIndex="5" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Leather Pants-->
+			<Item Sort="0" ItemCat="9" ItemIndex="5" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Leather Gloves-->
+			<Item Sort="0" ItemCat="10" ItemIndex="5" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Leather Boots-->
+			<Item Sort="0" ItemCat="11" ItemIndex="5" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Pad Helm-->
+			<Item Sort="0" ItemCat="7" ItemIndex="2" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Pad Armor-->
+			<Item Sort="0" ItemCat="8" ItemIndex="2" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Pad Pants-->
+			<Item Sort="0" ItemCat="9" ItemIndex="2" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Pad Gloves-->
+			<Item Sort="0" ItemCat="10" ItemIndex="2" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Pad Boots-->
+			<Item Sort="0" ItemCat="11" ItemIndex="2" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Vine Helm-->
+			<Item Sort="0" ItemCat="7" ItemIndex="10" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Vine Armor-->
+			<Item Sort="0" ItemCat="8" ItemIndex="10" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Vine Pants-->
+			<Item Sort="0" ItemCat="9" ItemIndex="10" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Vine Gloves-->
+			<Item Sort="0" ItemCat="10" ItemIndex="10" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Vine Boots-->
+			<Item Sort="0" ItemCat="11" ItemIndex="10" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Scale Helm-->
+			<Item Sort="0" ItemCat="7" ItemIndex="6" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Scale Armor-->
+			<Item Sort="0" ItemCat="8" ItemIndex="6" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Scale Pants-->
+			<Item Sort="0" ItemCat="9" ItemIndex="6" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Scale Gloves-->
+			<Item Sort="0" ItemCat="10" ItemIndex="6" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Scale Boots-->
+			<Item Sort="0" ItemCat="11" ItemIndex="6" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Brass Helm-->
+			<Item Sort="0" ItemCat="7" ItemIndex="8" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Brass Armor-->
+			<Item Sort="0" ItemCat="8" ItemIndex="8" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Brass Pants-->
+			<Item Sort="0" ItemCat="9" ItemIndex="8" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Brass Gloves-->
+			<Item Sort="0" ItemCat="10" ItemIndex="8" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Brass Boots-->
+			<Item Sort="0" ItemCat="11" ItemIndex="8" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Bone Helm-->
+			<Item Sort="0" ItemCat="7" ItemIndex="4" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Bone Armor-->
+			<Item Sort="0" ItemCat="8" ItemIndex="4" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Bone Pants-->
+			<Item Sort="0" ItemCat="9" ItemIndex="4" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Bone Gloves-->
+			<Item Sort="0" ItemCat="10" ItemIndex="4" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Bone Boots-->
+			<Item Sort="0" ItemCat="11" ItemIndex="4" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Sphinx Mask-->
+			<Item Sort="0" ItemCat="7" ItemIndex="7" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Sphinx Armor-->
+			<Item Sort="0" ItemCat="8" ItemIndex="7" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Sphinx Pants-->
+			<Item Sort="0" ItemCat="9" ItemIndex="7" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Sphinx Gloves-->
+			<Item Sort="0" ItemCat="10" ItemIndex="7" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Sphinx Boots-->
+			<Item Sort="0" ItemCat="11" ItemIndex="7" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Silk Helm-->
+			<Item Sort="0" ItemCat="7" ItemIndex="11" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Silk Armor-->
+			<Item Sort="0" ItemCat="8" ItemIndex="11" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Silk Pants-->
+			<Item Sort="0" ItemCat="9" ItemIndex="11" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Silk Gloves-->
+			<Item Sort="0" ItemCat="10" ItemIndex="11" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Silk Boots-->
+			<Item Sort="0" ItemCat="11" ItemIndex="11" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Spirit Helm-->
+			<Item Sort="0" ItemCat="7" ItemIndex="13" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Spirit Armor-->
+			<Item Sort="0" ItemCat="8" ItemIndex="13" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Spirit Pants-->
+			<Item Sort="0" ItemCat="9" ItemIndex="13" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Spirit Gloves-->
+			<Item Sort="0" ItemCat="10" ItemIndex="13" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Spirit Boots-->
+			<Item Sort="0" ItemCat="11" ItemIndex="13" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Plate Helm-->
+			<Item Sort="0" ItemCat="7" ItemIndex="9" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Plate Armor-->
+			<Item Sort="0" ItemCat="8" ItemIndex="9" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Plate Pants-->
+			<Item Sort="0" ItemCat="9" ItemIndex="9" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Plate Gloves-->
+			<Item Sort="0" ItemCat="10" ItemIndex="9" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Plate Boots-->
+			<Item Sort="0" ItemCat="11" ItemIndex="9" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Plate Shield-->
+			<Item Sort="0" ItemCat="6" ItemIndex="9" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="10000" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Elven Shield-->
+			<Item Sort="0" ItemCat="6" ItemIndex="3" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="10000" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Skull Shield-->
+			<Item Sort="0" ItemCat="6" ItemIndex="6" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="10000" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Dragon Slayer Shield-->
+			<Item Sort="0" ItemCat="6" ItemIndex="5" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="10000" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Tower Shield-->
+			<Item Sort="0" ItemCat="6" ItemIndex="8" ItemLevelMin="6" ItemLevelMax="8" Dur="0" SkillRate="10000" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />			
+
+			<!--Jewel of Soul-->
+			<Item Sort="0" ItemCat="14" ItemIndex="14" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="1000" FireWork="0" Group="0" Duration="0" />
+			<!--Jewel of Chaos-->
+			<Item Sort="0" ItemCat="12" ItemIndex="15" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="1000" FireWork="0" Group="0" Duration="0" />
+			<!--Jewel of Life-->
+			<Item Sort="0" ItemCat="14" ItemIndex="16" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="1000" FireWork="0" Group="0" Duration="0" />	
+			<!--Jewel of Bless-->
+			<Item Sort="0" ItemCat="14" ItemIndex="13" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="1000" FireWork="0" Group="0" Duration="0" />										
+</ItemBag>

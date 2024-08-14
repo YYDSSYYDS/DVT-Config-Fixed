@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==            File Name: ItemWingSocketOption             ==
+// ============================================================
+-->
+
+<ItemWingSocketOption>
+	<Data Type="0" Index="0" Rate="1000000" Value1="25" Value2="35" Value3="45" Value4="55" Value5="65" Value6="75" Value7="85" Value8="96" Value9="107" Value10="118" Value11="130" Value12="142" Value13="154" Value14="167" Value15="180" Value16="193" />
+	<Data Type="1" Index="0" Rate="130000" Value1="20" Value2="23" Value3="27" Value4="32" Value5="38" Value6="45" Value7="53" Value8="62" Value9="72" Value10="83" Value11="95" Value12="108" Value13="122" Value14="137" Value15="153" Value16="170" />
+	<Data Type="1" Index="1" Rate="130000" Value1="5" Value2="10" Value3="15" Value4="20" Value5="26" Value6="32" Value7="38" Value8="45" Value9="52" Value10="59" Value11="67" Value12="75" Value13="84" Value14="93" Value15="104" Value16="125" />
+	<Data Type="1" Index="2" Rate="130000" Value1="5" Value2="10" Value3="15" Value4="20" Value5="26" Value6="32" Value7="38" Value8="45" Value9="52" Value10="59" Value11="67" Value12="75" Value13="84" Value14="93" Value15="104" Value16="125" />
+	<Data Type="1" Index="3" Rate="80000" Value1="30" Value2="34" Value3="39" Value4="45" Value5="52" Value6="60" Value7="69" Value8="79" Value9="90" Value10="102" Value11="115" Value12="129" Value13="144" Value14="160" Value15="177" Value16="195" />
+	<Data Type="1" Index="4" Rate="130000" Value1="4" Value2="6" Value3="8" Value4="10" Value5="13" Value6="16" Value7="19" Value8="23" Value9="27" Value10="31" Value11="36" Value12="41" Value13="46" Value14="52" Value15="58" Value16="64" />
+	<Data Type="1" Index="5" Rate="80000" Value1="10" Value2="15" Value3="25" Value4="35" Value5="46" Value6="57" Value7="68" Value8="80" Value9="92" Value10="104" Value11="117" Value12="130" Value13="144" Value14="158" Value15="174" Value16="200" />
+	<Data Type="1" Index="6" Rate="80000" Value1="10" Value2="15" Value3="25" Value4="35" Value5="46" Value6="57" Value7="68" Value8="80" Value9="92" Value10="104" Value11="117" Value12="130" Value13="144" Value14="158" Value15="174" Value16="200" />
+</ItemWingSocketOption>

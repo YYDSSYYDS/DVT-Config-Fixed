@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf - 8"?>
+<!--
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==        File Name: ItemBag_Monster_Evomon.xml           ==
+// ============================================================
+-->
+
+<ItemBag>
+		<!--Standard Evomon Box-->
+		<Item Sort="2" ItemCat="38" ItemIndex="0" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="2" AncientOptionMax="2" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+</ItemBag>

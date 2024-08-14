@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==            File Name: MossMerchantSection              ==
+// ============================================================
+-->
+
+<MossMerchantSection>
+	<Data ID="0" Name="武器和盾" ReqItem1="7181" ReqCount1="20" ReqItem2="-1" ReqCount2="0" ReqItem3="-1" ReqCount3="0" ReqZen="0" ItemBag="MossMerchant01" Enable="1" />
+	<Data ID="1" Name="初级精英配件" ReqItem1="7182" ReqCount1="20" ReqItem2="-1" ReqCount2="0" ReqItem3="-1" ReqCount3="0" ReqZen="0" ItemBag="MossMerchant02" Enable="1" />
+	<Data ID="3" Name="翅膀+材料" ReqItem1="7181" ReqCount1="20" ReqItem2="7182" ReqCount2="20" ReqItem3="-1" ReqCount3="0" ReqZen="0" ItemBag="MossMerchant04" Enable="1" />
+	<Data ID="4" Name="宠物坐骑材料" ReqItem1="6159" ReqCount1="20" ReqItem2="7190" ReqCount2="20" ReqItem3="-1" ReqCount3="0" ReqZen="0" ItemBag="MossMerchant05" Enable="1" />
+	<Data ID="2" Name="高级精英配件" ReqItem1="7181" ReqCount1="20" ReqItem2="7182" ReqCount2="20" ReqItem3="-1" ReqCount3="0" ReqZen="0" ItemBag="MossMerchant03" Enable="1" />
+	<Data ID="5" Name="首饰" ReqItem1="7181" ReqCount1="20" ReqItem2="7182" ReqCount2="20" ReqItem3="-1" ReqCount3="0" ReqZen="0" ItemBag="MossMerchant06" Enable="1" />
+	<Data ID="6" Name="BUFF-符咒" ReqItem1="7181" ReqCount1="20" ReqItem2="7182" ReqCount2="20" ReqItem3="-1" ReqCount3="0" ReqZen="0" ItemBag="MossMerchant07" Enable="1" />
+	<Data ID="7" Name="其他材料" ReqItem1="7181" ReqCount1="20" ReqItem2="7182" ReqCount2="20" ReqItem3="-1" ReqCount3="0" ReqZen="0" ItemBag="MossMerchant08" Enable="1" />
+	<Data ID="8" Name="4D材料" ReqItem1="10357" ReqCount1="1" ReqItem2="7181" ReqCount2="30" ReqItem3="7182" ReqCount3="30" ReqZen="0" ItemBag="MossMerchant09" Enable="1" />
+	<Data ID="9" Name="5D材料" ReqItem1="10358" ReqCount1="1" ReqItem2="7181" ReqCount2="50" ReqCount3="7182" ReqZen="50" ItemBag="MossMerchant10" Enable="1" />
+	<Data ID="10" Name="Horn Of Fenrir" ReqItem1="7581" ReqCount1="3" ReqItem2="7181" ReqCount2="1" ReqItem3="-1" ReqCount3="0" ReqZen="0" ItemBag="MossMerchant11" Enable="1" />
+</MossMerchantSection>

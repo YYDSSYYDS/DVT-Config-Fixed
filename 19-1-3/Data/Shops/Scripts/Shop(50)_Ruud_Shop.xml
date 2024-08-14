@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DevEMU				 	 ==
+// ==             File Name: Shop(50)_Ruud_Shop              ==
+// ============================================================
+-->
+
+<ShopItem>
+	<Tab Id="1">
+	<!-- 魔法师 -->
+		<Item class = "0" ItemCat="13" ItemIndex="360" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的超越血色天使之盔" />
+		<Item class = "0" ItemCat="13" ItemIndex="359" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的超越血色天使之铠" />
+		<Item class = "0" ItemCat="13" ItemIndex="361" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的超越血色天使护腿" />
+		<Item class = "0" ItemCat="13" ItemIndex="362" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的超越血色天使护手" />
+		<Item class = "0" ItemCat="11" ItemIndex="99" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使魔幻之靴" />
+		<Item class = "0" ItemCat="6" ItemIndex="34" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使守护之盾" />
+		<Item class = "0" ItemCat="5"  ItemIndex="41" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使之杖" />
+		<Item class = "0" ItemCat="5" ItemIndex="73" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使魔法书" />
+	<!-- 剑士 -->
+		<Item class = "1" ItemCat="13" ItemIndex="352" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的愤怒血色天使之盔" />
+		<Item class = "1" ItemCat="13" ItemIndex="351" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的愤怒血色天使之铠" />
+		<Item class = "1" ItemCat="13" ItemIndex="353" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的愤怒血色天使护腿" />
+		<Item class = "1" ItemCat="13" ItemIndex="354" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的愤怒血色天使靴子" />
+		<Item class = "1" ItemCat="13" ItemIndex="395" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的防御之血色天使之盔(信念)" />
+		<Item class = "1" ItemCat="13" ItemIndex="396" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的防御之血色天使之铠(信念)" />
+		<Item class = "1" ItemCat="13" ItemIndex="397" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的防御之血色天使护腿(信念)" />
+		<Item class = "1" ItemCat="13" ItemIndex="398" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的防御之血色天使之靴(信念)" />
+		<Item class = "1" ItemCat="10" ItemIndex="98" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使骑士护手" />
+		<Item class = "1" ItemCat="10" ItemIndex="200" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使骑士护手(信念)" />
+		<Item class = "1" ItemCat="0" ItemIndex="42" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使之剑" />
+		<Item class = "1" ItemCat="6" ItemIndex="44" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使之盾" />
+		<Item class = "1" ItemCat="14" ItemIndex="499" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="攻击型剑士转换卷轴" />
+		<Item class = "1" ItemCat="14" ItemIndex="500" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="防御型剑士转换卷轴" />
+	<!-- 弓箭手 -->
+		<Item class = "2" ItemCat="13" ItemIndex="364" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的疾风血色天使之盔" />
+		<Item class = "2" ItemCat="13" ItemIndex="363" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的疾风血色天使之铠" />
+		<Item class = "2" ItemCat="13" ItemIndex="365" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的疾风血色天使护腿" />
+		<Item class = "2" ItemCat="13" ItemIndex="366" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的疾风血色天使护手" />
+		<Item class = "2" ItemCat="13" ItemIndex="368" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的救援血色天使之盔" />
+		<Item class = "2" ItemCat="13" ItemIndex="367" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的救援血色天使之铠" />
+		<Item class = "2" ItemCat="13" ItemIndex="369" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的救援血色天使护腿" />
+		<Item class = "2" ItemCat="13" ItemIndex="370" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的救援血色天使护手" />
+		<Item class = "2" ItemCat="11" ItemIndex="100" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使精灵之靴" />
+		<Item class = "2" ItemCat="11" ItemIndex="158" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使精灵救援之靴" />
+		<Item class = "2" ItemCat="4" ItemIndex="28" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使之弓" />
+		<Item class = "2" ItemCat="4" ItemIndex="34" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使箭筒" />
+		<Item class = "2" ItemCat="6" ItemIndex="34" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使守护之盾" />
+		<Item class = "2" ItemCat="14" ItemIndex="394" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="攻击型精灵变换卷轴" />
+		<Item class = "2" ItemCat="14" ItemIndex="395" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="救援型精灵变换卷轴" />
+	<!-- 魔剑士 -->
+		<Item class = "3" ItemCat="13" ItemIndex="371" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的终结血色天使之铠" />
+		<Item class = "3" ItemCat="13" ItemIndex="373" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的终结血色天使护腿" />
+		<Item class = "3" ItemCat="13" ItemIndex="374" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的终结血色天使护手" />
+		<Item class = "3" ItemCat="13" ItemIndex="372" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的终结血色天使靴子" />
+		<Item class = "3" ItemCat="13" ItemIndex="375" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的斗志血色天使之铠" />
+		<Item class = "3" ItemCat="13" ItemIndex="377" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的斗志血色天使护腿" />
+		<Item class = "3" ItemCat="13" ItemIndex="378" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的斗志血色天使护手" />
+		<Item class = "3" ItemCat="13" ItemIndex="376" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的斗志血色天使靴子" />
+		<Item class = "3" ItemCat="6" ItemIndex="44" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使之盾" />
+		<Item class = "3" ItemCat="5"  ItemIndex="41" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使之杖" />
+		<Item class = "3" ItemCat="0" ItemIndex="44" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使魔法之剑" />
+		<Item class = "3" ItemCat="0" ItemIndex="89" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血天使魔法双手之剑" />
+		<Item class = "3" ItemCat="14" ItemIndex="396" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="骑士型魔剑士变换卷轴" />
+		<Item class = "3" ItemCat="14" ItemIndex="397" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="法师型魔剑士变换卷轴" />
+	<!-- 圣导师 -->
+		<Item class = "4" ItemCat="13" ItemIndex="380" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的征服血色天使之盔" />
+		<Item class = "4" ItemCat="13" ItemIndex="379" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的征服血色天使之铠" />
+		<Item class = "4" ItemCat="13" ItemIndex="381" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的征服血色天使护腿" />
+		<Item class = "4" ItemCat="13" ItemIndex="382" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的征服血色天使护手" />
+		<Item class = "4" ItemCat="11" ItemIndex="155" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="圣天使仑德靴子" />
+		<Item class = "4" ItemCat="2" ItemIndex="22" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使权杖" />
+		<Item class = "4" ItemCat="6" ItemIndex="60" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使骑兵盾" />
+	<!-- 召唤术士 -->
+		<Item class = "5" ItemCat="13" ItemIndex="388" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的荣誉血色天使之盔" />
+		<Item class = "5" ItemCat="13" ItemIndex="387" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的荣誉血色天使之铠" />
+		<Item class = "5" ItemCat="13" ItemIndex="389" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的荣誉血色天使护腿" />
+		<Item class = "5" ItemCat="13" ItemIndex="390" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的荣誉血色天使护手" />
+		<Item class = "5" ItemCat="11" ItemIndex="101" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使召唤靴子" />
+		<Item class = "5" ItemCat="5" ItemIndex="43" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使之杖" />
+		<Item class = "5" ItemCat="5" ItemIndex="57" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使之书" />
+		<Item class = "5" ItemCat="5" ItemIndex="73" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使魔法书" />
+	<!-- 格斗家 -->
+		<Item class = "6" ItemCat="13" ItemIndex="392" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的破坏血色天使之盔" />
+		<Item class = "6" ItemCat="13" ItemIndex="391" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的破坏血色天使之铠" />
+		<Item class = "6" ItemCat="13" ItemIndex="393" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的破坏血色天使护腿" />
+		<Item class = "6" ItemCat="13" ItemIndex="394" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的破坏血色天使靴子" />
+		<Item class = "6" ItemCat="0" ItemIndex="46" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使拳刃" />
+	<!-- 梦幻骑士 -->
+		<Item class = "7" ItemCat="13" ItemIndex="400" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的信念血色天使之盔" />
+		<Item class = "7" ItemCat="13" ItemIndex="399" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的信念血色天使之铠" />
+		<Item class = "7" ItemCat="13" ItemIndex="401" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的信念血色天使护腿" />
+		<Item class = "7" ItemCat="13" ItemIndex="402" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的信念血色天使护手" />
+		<Item class = "7" ItemCat="11" ItemIndex="105" ItemLevel="0" ItemDur="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使魅影靴子" />
+		<Item class = "7" ItemCat="6" ItemIndex="60" ItemLevel="0" ItemDur="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使骑兵盾" />
+		<Item class = "7" ItemCat="3" ItemIndex="19" ItemLevel="0" ItemDur="0" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使长矛" />
+	<!-- 符文法师 -->
+		<Item class = "8" ItemCat="13" ItemIndex="356" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的无情之血色天使之铠" />
+		<Item class = "8" ItemCat="13" ItemIndex="355" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的无情之血色天使之盔" />
+		<Item class = "8" ItemCat="13" ItemIndex="357" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的无情之血色天使护腿" />
+		<Item class = "8" ItemCat="13" ItemIndex="358" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的无情之血色天使护手" />
+		<Item class = "8" ItemCat="11" ItemIndex="122" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使符文魔幻之靴" />
+		<Item class = "8" ItemCat="2" ItemIndex="32" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使符文魔棒" />
+		<Item class = "8" ItemCat="6" ItemIndex="34" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使守护之盾" />
+		<Item class = "8" ItemCat="5" ItemIndex="73" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使魔法书" />
+	<!-- 刺客 -->
+		<Item class = "9" ItemCat="13" ItemIndex="384" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的无情之血色天使之盔" />
+		<Item class = "9" ItemCat="13" ItemIndex="383" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的无情之血色天使之铠" />
+		<Item class = "9" ItemCat="13" ItemIndex="385" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的无情之血色天使护腿" />
+		<Item class = "9" ItemCat="13" ItemIndex="386" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的无情之血色天使护手" />
+		<Item class = "9" ItemCat="11" ItemIndex="180" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使逐影之靴" />
+		<Item class = "9" ItemCat="0" ItemIndex="71" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使之刃" />
+	<!-- 火枪手 -->
+		<Item class = "10" ItemCat="13" ItemIndex="403" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的觉悟之血色天使之盔" />
+		<Item class = "10" ItemCat="13" ItemIndex="404" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的觉悟之血色天使之铠" />
+		<Item class = "10" ItemCat="13" ItemIndex="405" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的觉悟之血色天使护腿" />
+		<Item class = "10" ItemCat="13" ItemIndex="406" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的觉悟之血色天使之靴" />
+		<Item class = "10" ItemCat="10" ItemIndex="212" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使火枪手之护手" />
+		<Item class = "10" ItemCat="4" ItemIndex="48" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使魔法枪" />
+	<!-- 光明法师 -->
+		<Item class = "11" ItemCat="20" ItemIndex="59" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的黄昏血色天使之盔" />
+		<Item class = "11" ItemCat="20" ItemIndex="58" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的黄昏血色天使之铠" />
+		<Item class = "11" ItemCat="20" ItemIndex="60" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的黄昏血色天使之护腿" />
+		<Item class = "11" ItemCat="20" ItemIndex="61" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的黄昏血色天使之护手" />
+		<Item class = "11" ItemCat="11" ItemIndex="241" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使光明法师之靴" />
+		<Item class = "11" ItemCat="5" ItemIndex="41" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使魔杖" />
+		<Item class = "11" ItemCat="5" ItemIndex="73" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使魔法书" />
+	<!-- 圣光学者 -->
+		<Item class = "12" ItemCat="20" ItemIndex="63" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的自由血色天使之盔" />
+		<Item class = "12" ItemCat="20" ItemIndex="62" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的自由血色天使之铠" />
+		<Item class = "12" ItemCat="20" ItemIndex="64" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的自由血色天使之护腿" />
+		<Item class = "12" ItemCat="20" ItemIndex="65" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的自由血色天使之护手" />
+		<Item class = "12" ItemCat="11" ItemIndex="259" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使牧师之靴" />
+		<Item class = "12" ItemCat="5" ItemIndex="86" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使宝珠" />
+		<Item class = "12" ItemCat="6" ItemIndex="34" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使守护之盾" />
+		<Item class = "12" ItemCat="5" ItemIndex="73" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使魔法书" />
+	<!-- 幻影骑士 -->
+		<Item class = "13" ItemCat="20" ItemIndex="90" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的渴望血天使头盔" />
+		<Item class = "13" ItemCat="20" ItemIndex="89" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的渴望血天使铠甲" />
+		<Item class = "13" ItemCat="20" ItemIndex="91" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的渴望血天使护腿" />
+		<Item class = "13" ItemCat="20" ItemIndex="92" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="封印的渴望血天使护手" />
+		<Item class = "13" ItemCat="11" ItemIndex="306" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使幻觉之靴" />
+		<Item class = "13" ItemCat="0" ItemIndex="105" ItemLevel="0" ItemDur="0"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色天使之影刃" />
+
+	<!-- 全职业 -->
+		<Item class = "-1" ItemCat="14" ItemIndex="386" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="暗黑天使之铁砧" />
+		<Item class = "-1" ItemCat="14" ItemIndex="416" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="圣天使之铁砧" />
+		<Item class = "-1" ItemCat="14" ItemIndex="450" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="灵魂铁砧" />
+		<Item class = "-1" ItemCat="14" ItemIndex="495" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="雪狼之铁砧" />
+		<Item class = "-1" ItemCat="14" ItemIndex="502" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="银心之铁砧" />
+		<Item class = "-1" ItemCat="12" ItemIndex="82" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="噬魂之铁砧" />
+		<Item class = "-1" ItemCat="12" ItemIndex="86" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="辉煌之铁砧" />
+		<Item class = "-1" ItemCat="12" ItemIndex="92" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="末世之铁砧" />
+		<Item class = "-1" ItemCat="14" ItemIndex="341" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="暗黑天使之魂" />
+		<Item class = "-1" ItemCat="14" ItemIndex="389" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="圣天使之魂" />
+		<Item class = "-1" ItemCat="14" ItemIndex="415" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="觉醒之魂" />
+		<Item class = "-1" ItemCat="14" ItemIndex="449" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="奥丁之魂" />
+		<Item class = "-1" ItemCat="14" ItemIndex="494" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="先祖之魂" />
+		<Item class = "-1" ItemCat="14" ItemIndex="501" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="噬魂之魂" />
+		<Item class = "-1" ItemCat="12" ItemIndex="81" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="辉煌之魂" />
+		<Item class = "-1" ItemCat="12" ItemIndex="85" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="末世之魂" />
+		<Item class = "-1" ItemCat="12" ItemIndex="96" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="太古之魂" />
+		<Item class = "-1" ItemCat="14" ItemIndex="498" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="龙魂之印" />
+		<Item class = "-1" ItemCat="14" ItemIndex="510" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="勇猛的狮子印章" />
+		<Item class = "-1" ItemCat="20" ItemIndex="84" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="赤火徽章" />
+		<Item class = "-1" ItemCat="20" ItemIndex="119" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="乌尔印章" />
+		<Item class = "-1" ItemCat="14" ItemIndex="458" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="斯提克斯之精工模具" />
+		<Item class = "-1" ItemCat="14" ItemIndex="497" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="赫鲁斯之精工模具" />
+		<Item class = "-1" ItemCat="20" ItemIndex="77" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="暗影符文模具" />
+		<Item class = "-1" ItemCat="20" ItemIndex="83" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="秩序之印" />
+		<Item class = "-1" ItemCat="20" ItemIndex="112" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="完美铸造模具" />
+		<Item class = "-1" ItemCat="12" ItemIndex="509" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="元素属性徽章" />
+		<Item class = "-1" ItemCat="12" ItemIndex="510" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="元素之魂徽章" />
+		<Item class = "-1" ItemCat="12" ItemIndex="407" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="[绑定]洛克之魔法溶液" />
+		<Item class = "-1" ItemCat="12" ItemIndex="409" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="[绑定]神鹰之魔法溶液" />
+		<Item class = "-1" ItemCat="14" ItemIndex="460" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="[1级]怪物灵魂转换器" />
+		<Item class = "-1" ItemCat="14" ItemIndex="461" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="[2级]怪物灵魂转换器" />
+		<Item class = "-1" ItemCat="14" ItemIndex="462" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="[3级]怪物灵魂转换器" />
+		<Item class = "-1" ItemCat="14" ItemIndex="463" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="[4级]怪物灵魂转换器" />
+		<Item class = "-1" ItemCat="14" ItemIndex="464" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="[5级]怪物灵魂转换器" />
+		<Item class = "-1" ItemCat="14" ItemIndex="390" ItemLevel="0" ItemDur="5"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="精灵尼克斯的碎片" />
+		<Item class = "-1" ItemCat="20" ItemIndex="108" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="帝国要塞入场券" />
+		<Item class = "-1" ItemCat="20" ItemIndex="109" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="boss战入场券" />
+		<Item class = "-1" ItemCat="20" ItemIndex="158" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="乌列尔之羽" />
+		<Item class = "-1" ItemCat="20" ItemIndex="159" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="纯翼核心设计图" />
+		<Item class = "-1" ItemCat="20" ItemIndex="161" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="翼芯强化石" />
+		<Item class = "-1" ItemCat="20" ItemIndex="164" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="能力水晶" />
+		<Item class = "-1" ItemCat="20" ItemIndex="239" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="能力提升石" />
+		<Item class = "-1" ItemCat="12" ItemIndex="91" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="血色禁区之石" />
+		<Item class = "-1" ItemCat="14" ItemIndex="364" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="镶宝装备升级纸条" />
+		<Item class = "-1" ItemCat="14" ItemIndex="384" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="光之石强化符文胶囊" />
+		<Item class = "-1" ItemCat="13" ItemIndex="276" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="征服者的信物" />
+		<Item class = "-1" ItemCat="14" ItemIndex="343" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="大天使的铁锤" />
+		<Item class = "-1" ItemCat="19" ItemIndex="3" ItemLevel="0" ItemDur="1"  ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="收费宠物箱子" />
+	</Tab>
+</ShopItem>

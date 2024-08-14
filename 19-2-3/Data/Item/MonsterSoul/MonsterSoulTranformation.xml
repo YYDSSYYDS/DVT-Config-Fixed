@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==          File Name: MonsterSoulTranformation           ==
+// ============================================================
+-->
+
+<MonsterSoulTranformation>
+    <MonsterSoul Type="1">
+		<Data ID="0" World="63" Monster="480" ReqSoul="500" DropRate="450000" Location="Vulcanus" />
+		<Data ID="1" World="63" Monster="482" ReqSoul="500" DropRate="450000" Location="Vulcanus" />
+		<Data ID="2" World="63" Monster="484" ReqSoul="500" DropRate="450000" Location="Vulcanus" />
+		<Data ID="3" World="63" Monster="486" ReqSoul="500" DropRate="450000" Location="Vulcanus" />
+		<Data ID="4" World="63" Monster="487" ReqSoul="500" DropRate="450000" Location="Vulcanus" />
+		<Data ID="5" World="63" Monster="489" ReqSoul="500" DropRate="450000" Location="Vulcanus" />
+		<Data ID="6" World="63" Monster="490" ReqSoul="500" DropRate="450000" Location="Vulcanus" />
+		<Data ID="7" World="29" Monster="272" ReqSoul="500" DropRate="450000" Location="Kalima 6" />
+		<Data ID="8" World="29" Monster="270" ReqSoul="500" DropRate="450000" Location="Kalima 6" />
+		<Data ID="9" World="29" Monster="268" ReqSoul="500" DropRate="450000" Location="Kalima 6" />
+		<Data ID="10" World="29" Monster="270" ReqSoul="500" DropRate="450000" Location="Kalima 6" />
+		<Data ID="11" World="29" Monster="268" ReqSoul="500" DropRate="450000" Location="Kalima 6" />
+		<Data ID="12" World="29" Monster="273" ReqSoul="500" DropRate="450000" Location="Kalima 6" />
+		<Data ID="13" World="29" Monster="269" ReqSoul="500" DropRate="450000" Location="Kalima 6" />
+		<Data ID="14" World="29" Monster="274" ReqSoul="500" DropRate="450000" Location="Kalima 6" />
+		<Data ID="15" World="36" Monster="331" ReqSoul="500" DropRate="450000" Location="Kalima 7" />
+		<Data ID="16" World="36" Monster="332" ReqSoul="500" DropRate="450000" Location="Kalima 7" />
+		<Data ID="17" World="36" Monster="333" ReqSoul="500" DropRate="450000" Location="Kalima 7" />
+		<Data ID="18" World="36" Monster="334" ReqSoul="500" DropRate="450000" Location="Kalima 7" />
+		<Data ID="19" World="36" Monster="335" ReqSoul="500" DropRate="450000" Location="Kalima 7" />
+		<Data ID="20" World="36" Monster="336" ReqSoul="500" DropRate="450000" Location="Kalima 7" />
+		<Data ID="21" World="36" Monster="337" ReqSoul="500" DropRate="450000" Location="Kalima 7" />
+		<Data ID="22" World="33" Monster="308" ReqSoul="500" DropRate="450000" Location="Aida" />
+		<Data ID="23" World="33" Monster="307" ReqSoul="500" DropRate="450000" Location="Aida" />
+		<Data ID="24" World="33" Monster="306" ReqSoul="500" DropRate="450000" Location="Aida" />
+		<Data ID="25" World="33" Monster="305" ReqSoul="500" DropRate="450000" Location="Aida" />
+    </MonsterSoul>
+
+    <MonsterSoul Type="2">
+		<Data ID="0" World="37" Monster="553" ReqSoul="500" DropRate="450000" Location="Kanturu Ruins" />
+		<Data ID="1" World="37" Monster="554" ReqSoul="500" DropRate="450000" Location="Kanturu Ruins" />
+		<Data ID="2" World="37" Monster="555" ReqSoul="500" DropRate="450000" Location="Kanturu Ruins" />
+		<Data ID="3" World="37" Monster="556" ReqSoul="500" DropRate="450000" Location="Kanturu Ruins" />
+		<Data ID="4" World="81" Monster="571" ReqSoul="500" DropRate="450000" Location="Karutan 2" />
+		<Data ID="5" World="81" Monster="572" ReqSoul="500" DropRate="450000" Location="Karutan 2" />
+		<Data ID="6" World="81" Monster="575" ReqSoul="500" DropRate="450000" Location="Karutan 2" />
+		<Data ID="7" World="81" Monster="576" ReqSoul="500" DropRate="450000" Location="Karutan 2" />
+		<Data ID="8" World="57" Monster="562" ReqSoul="500" DropRate="450000" Location="LaCleon" />
+		<Data ID="9" World="57" Monster="563" ReqSoul="500" DropRate="450000" Location="LaCleon" />
+		<Data ID="10" World="57" Monster="564" ReqSoul="500" DropRate="450000" Location="LaCleon" />
+		<Data ID="11" World="57" Monster="565" ReqSoul="500" DropRate="450000" Location="LaCleon" />
+		<Data ID="12" World="56" Monster="557" ReqSoul="500" DropRate="450000" Location="Swamp of Peace" />
+		<Data ID="13" World="56" Monster="558" ReqSoul="500" DropRate="450000" Location="Swamp of Peace" />
+		<Data ID="14" World="56" Monster="559" ReqSoul="500" DropRate="450000" Location="Swamp of Peace" />
+		<Data ID="15" World="112" Monster="730" ReqSoul="500" DropRate="450000" Location="Ferea" />
+		<Data ID="16" World="112" Monster="731" ReqSoul="500" DropRate="450000" Location="Ferea" />
+		<Data ID="17" World="112" Monster="732" ReqSoul="500" DropRate="450000" Location="Ferea" />
+    </MonsterSoul>
+
+    <MonsterSoul Type="3">
+		<Data ID="0" World="113" Monster="743" ReqSoul="500" DropRate="450000" Location="Nixies Lake" />
+		<Data ID="1" World="113" Monster="744" ReqSoul="500" DropRate="450000" Location="Nixies Lake" />
+		<Data ID="2" World="113" Monster="745" ReqSoul="500" DropRate="450000" Location="Nixies Lake" />
+		<Data ID="3" World="116" Monster="767" ReqSoul="500" DropRate="450000" Location="Deep Dungeon 1" />
+		<Data ID="4" World="116" Monster="770" ReqSoul="500" DropRate="450000" Location="Deep Dungeon 1" />
+		<Data ID="5" World="117" Monster="771" ReqSoul="500" DropRate="450000" Location="Deep Dungeon 2" />
+		<Data ID="6" World="117" Monster="772" ReqSoul="500" DropRate="450000" Location="Deep Dungeon 2" />
+		<Data ID="7" World="118" Monster="768" ReqSoul="500" DropRate="450000" Location="Deep Dungeon 3" />
+		<Data ID="8" World="118" Monster="773" ReqSoul="500" DropRate="450000" Location="Deep Dungeon 3" />
+    </MonsterSoul>
+
+    <MonsterSoul Type="4">
+		<Data ID="0" World="119" Monster="769" ReqSoul="500" DropRate="450000" Location="Deep Dungeon 4" />
+		<Data ID="1" World="119" Monster="774" ReqSoul="500" DropRate="450000" Location="Deep Dungeon 4" />
+		<Data ID="2" World="120" Monster="775" ReqSoul="500" DropRate="450000" Location="Deep Dungeon 5" />
+		<Data ID="3" World="120" Monster="776" ReqSoul="500" DropRate="450000" Location="Deep Dungeon 5" />
+		<Data ID="4" World="120" Monster="777" ReqSoul="500" DropRate="450000" Location="Deep Dungeon 5" />
+		<Data ID="5" World="122" Monster="786" ReqSoul="500" DropRate="450000" Location="Swamp of Darkness" />
+		<Data ID="6" World="122" Monster="787" ReqSoul="500" DropRate="450000" Location="Swamp of Darkness" />
+		<Data ID="7" World="122" Monster="788" ReqSoul="500" DropRate="450000" Location="Swamp of Darkness" />
+		<Data ID="8" World="122" Monster="789" ReqSoul="500" DropRate="450000" Location="Swamp of Darkness" />
+    </MonsterSoul>
+
+    <MonsterSoul Type="5">
+		<Data ID="0" World="123" Monster="810" ReqSoul="500" DropRate="450000" Location="Kubera Mine" />
+		<Data ID="1" World="123" Monster="811" ReqSoul="500" DropRate="450000" Location="Kubera Mine" />
+		<Data ID="2" World="123" Monster="812" ReqSoul="500" DropRate="450000" Location="Kubera Mine" />
+		<Data ID="3" World="123" Monster="813" ReqSoul="500" DropRate="450000" Location="Kubera Mine" />
+		<Data ID="4" World="123" Monster="814" ReqSoul="500" DropRate="450000" Location="Kubera Mine" />
+		<Data ID="5" World="123" Monster="815" ReqSoul="500" DropRate="450000" Location="Kubera Mine" />
+		<Data ID="6" World="123" Monster="816" ReqSoul="500" DropRate="450000" Location="Kubera Mine" />
+    </MonsterSoul>
+   
+</MonsterSoulTranformation>

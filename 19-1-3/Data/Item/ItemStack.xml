@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==                 File Name: ItemStack                   ==
+// ============================================================
+-->
+
+<ItemStack>
+	<Item ItemCat="4" ItemIndex="7" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="4" ItemIndex="15" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="12" ItemIndex="15" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="12" ItemIndex="144" MaxStack="5" StackOnLoot="1" StackConvertType="12" StackConvertIndex="145" />
+	<Item ItemCat="12" ItemIndex="146" MaxStack="5" StackOnLoot="1" StackConvertType="12" StackConvertIndex="147" />
+	<Item ItemCat="12" ItemIndex="288" MaxStack="30" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="12" ItemIndex="401" MaxStack="30" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="12" ItemIndex="404" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="12" ItemIndex="405" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="12" ItemIndex="406" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="12" ItemIndex="446" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="12" ItemIndex="447" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="12" ItemIndex="448" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="13" ItemIndex="32" MaxStack="20" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="13" ItemIndex="33" MaxStack="20" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="13" ItemIndex="34" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="13" ItemIndex="145" MaxStack="5" StackOnLoot="1" StackConvertType="13" StackConvertIndex="146" />
+	<Item ItemCat="13" ItemIndex="147" MaxStack="100" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="13" ItemIndex="239" MaxStack="120" StackOnLoot="0" StackConvertType="13" StackConvertIndex="240" />
+	<Item ItemCat="13" ItemIndex="468" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="13" ItemIndex="510" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="0" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="1" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="2" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="3" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="4" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="5" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="6" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="7" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="8" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="13" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="14" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="16" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="21" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="22" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="29" MaxStack="5" StackOnLoot="1" StackConvertType="14" StackConvertIndex="28" />
+	<Item ItemCat="14" ItemIndex="31" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="35" MaxStack="100" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="36" MaxStack="100" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="37" MaxStack="100" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="38" MaxStack="100" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="39" MaxStack="100" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="40" MaxStack="100" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="41" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="42" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="43" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="44" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="46" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="47" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="48" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="49" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="50" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="63" MaxStack="100" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="64" MaxStack="100" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="70" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="71" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="78" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="79" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="80" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="81" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="82" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="85" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="86" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="87" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="88" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="89" MaxStack="30" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="90" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="100" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="101" MaxStack="5" StackOnLoot="1" StackConvertType="14" StackConvertIndex="102" />
+	<Item ItemCat="14" ItemIndex="110" MaxStack="5" StackOnLoot="1" StackConvertType="14" StackConvertIndex="111" />
+	<Item ItemCat="14" ItemIndex="133" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="153" MaxStack="20" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="154" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="155" MaxStack="20" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="156" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="215" MaxStack="24" StackOnLoot="1" StackConvertType="14" StackConvertIndex="216" />
+	<Item ItemCat="14" ItemIndex="224" MaxStack="10" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="263" MaxStack="10" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="264" MaxStack="10" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="277" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="278" MaxStack="25" StackOnLoot="1" StackConvertType="14" StackConvertIndex="244" />
+	<Item ItemCat="14" ItemIndex="290" MaxStack="50" StackOnLoot="1" StackConvertType="14" StackConvertIndex="293" />
+	<Item ItemCat="14" ItemIndex="320" MaxStack="30" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="342" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="346" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="347" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="348" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="349" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="350" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="371" MaxStack="10" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="372" MaxStack="10" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="373" MaxStack="10" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="430" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="432" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="433" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="434" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="435" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="436" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="437" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="438" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="439" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="441" MaxStack="30" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="442" MaxStack="30" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="443" MaxStack="30" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="444" MaxStack="100" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="466" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="467" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="468" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="469" MaxStack="50" StackOnLoot="1" StackConvertType="14" StackConvertIndex="470" />
+	<Item ItemCat="14" ItemIndex="470" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="471" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="477" MaxStack="30" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="498" MaxStack="30" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="16" ItemIndex="239" MaxStack="120" StackOnLoot="0" StackConvertType="16" StackConvertIndex="240" />
+	<Item ItemCat="20" ItemIndex="164" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="20" ItemIndex="238" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="20" ItemIndex="158" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+    <Item ItemCat="20" ItemIndex="239" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="20" ItemIndex="500" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="20" ItemIndex="501" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="20" ItemIndex="502" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="20" ItemIndex="503" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="20" ItemIndex="504" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="20" ItemIndex="505" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="20" ItemIndex="506" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="20" ItemIndex="507" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="20" ItemIndex="508" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+
+	<Item ItemCat="14" ItemIndex="413" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="14" ItemIndex="390" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />
+	<Item ItemCat="20" ItemIndex="114" MaxStack="100" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />    <!-- 1代翅膀圣物 -->
+	<Item ItemCat="20" ItemIndex="115" MaxStack="100" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />    <!-- 2代翅膀圣物 -->
+	<Item ItemCat="20" ItemIndex="116" MaxStack="100" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />    <!-- 3代翅膀圣物 -->
+	<Item ItemCat="20" ItemIndex="117" MaxStack="100" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />    <!-- 4代翅膀圣物 -->
+	<Item ItemCat="20" ItemIndex="118" MaxStack="100" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />    <!-- 5代翅膀圣物 -->
+
+	<Item ItemCat="20" ItemIndex="94" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />    <!-- 神奇强化石 -->
+	<Item ItemCat="20" ItemIndex="161" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1" />    <!-- 翅膀核心强化石 -->
+
+	<Item ItemCat="13" ItemIndex="4" MaxStack="1" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1" />    <!-- 黑马王 -->
+	<Item ItemCat="13" ItemIndex="5" MaxStack="1" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1" />    <!-- 天鹰 -->
+
+	<Item ItemCat="13" ItemIndex="467" MaxStack="1" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1" />    <!-- 加鲁达之羽 -->
+</ItemStack>

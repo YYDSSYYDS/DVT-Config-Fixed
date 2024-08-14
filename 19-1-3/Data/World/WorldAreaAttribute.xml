@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==             File Name: WorldAreaAttribute              ==
+// ============================================================
+-->
+
+<WorldAreaAttribute>
+	<Area WorldID="202" X1="132" Y1="149" X2="135" Y2="166" Attribute="1" Apply="0" Send="1" />
+	<Area WorldID="202" X1="154" Y1="126" X2="170" Y2="129" Attribute="1" Apply="0" Send="1" />
+	<Area WorldID="202" X1="132" Y1="92" X2="135" Y2="107" Attribute="1" Apply="0" Send="1" />
+	<Area WorldID="202" X1="96" Y1="126" X2="112" Y2="129" Attribute="1" Apply="0" Send="1" />
+	<Area WorldID="202" X1="113" Y1="107" X2="153" Y2="149" Attribute="1" Apply="0" Send="1" />
+	<Area WorldID="202" X1="120" Y1="167" X2="153" Y2="180" Attribute="4" Apply="1" Send="1" />
+	<Area WorldID="202" X1="171" Y1="110" X2="187" Y2="146" Attribute="4" Apply="1" Send="1" />
+	<Area WorldID="202" X1="80" Y1="111" X2="95" Y2="142" Attribute="4" Apply="1" Send="1" />
+	<Area WorldID="202" X1="110" Y1="73" X2="147" Y2="91" Attribute="4" Apply="1" Send="1" />
+	<Area WorldID="203" X1="1" Y1="1" X2="255" Y2="255" Attribute="1" Apply="0" Send="1" />
+	<Area WorldID="203" X1="164" Y1="26" X2="178" Y2="57" Attribute="4" Apply="1" Send="1" />
+	<Area WorldID="203" X1="209" Y1="78" X2="240" Y2="90" Attribute="4" Apply="1" Send="1" />
+	<Area WorldID="204" X1="19" Y1="187" X2="77" Y2="245" Attribute="1" Apply="0" Send="1" />
+	<Area WorldID="204" X1="78" Y1="213" X2="99" Y2="219" Attribute="12" Apply="1" Send="1" />
+	<Area WorldID="204" X1="43" Y1="166" X2="49" Y2="186" Attribute="12" Apply="1" Send="1" />
+	<Area WorldID="206" X1="1" Y1="1" X2="255" Y2="255" Attribute="1" Apply="0" Send="1" />
+	<Area WorldID="30" X1="173" Y1="212" X2="173" Y2="212" Attribute="20" Apply="1" Send="1" />
+	<Area WorldID="30" X1="174" Y1="212" X2="174" Y2="212" Attribute="20" Apply="1" Send="1" />
+	<Area WorldID="30" X1="175" Y1="212" X2="175" Y2="212" Attribute="20" Apply="1" Send="1" />
+	<Area WorldID="30" X1="176" Y1="212" X2="176" Y2="212" Attribute="20" Apply="1" Send="1" />
+	<Area WorldID="30" X1="177" Y1="212" X2="177" Y2="212" Attribute="20" Apply="1" Send="1" />
+	<Area WorldID="30" X1="178" Y1="212" X2="178" Y2="212" Attribute="20" Apply="1" Send="1" />
+	<Area WorldID="30" X1="179" Y1="212" X2="179" Y2="212" Attribute="20" Apply="1" Send="1" />
+	<Area WorldID="30" X1="174" Y1="211" X2="174" Y2="211" Attribute="20" Apply="1" Send="1" />
+	<Area WorldID="30" X1="175" Y1="211" X2="175" Y2="211" Attribute="20" Apply="1" Send="1" />
+	<Area WorldID="30" X1="176" Y1="211" X2="176" Y2="211" Attribute="20" Apply="1" Send="1" />
+	<Area WorldID="30" X1="177" Y1="211" X2="177" Y2="211" Attribute="20" Apply="1" Send="1" />
+	<Area WorldID="30" X1="178" Y1="211" X2="178" Y2="211" Attribute="20" Apply="1" Send="1" />
+	<Area WorldID="30" X1="174" Y1="213" X2="174" Y2="213" Attribute="20" Apply="1" Send="1" />
+	<Area WorldID="30" X1="175" Y1="213" X2="175" Y2="213" Attribute="20" Apply="1" Send="1" />
+	<Area WorldID="30" X1="176" Y1="213" X2="176" Y2="213" Attribute="20" Apply="1" Send="1" />
+	<Area WorldID="30" X1="177" Y1="213" X2="177" Y2="213" Attribute="20" Apply="1" Send="1" />
+	<Area WorldID="30" X1="178" Y1="213" X2="178" Y2="213" Attribute="20" Apply="1" Send="1" />
+	<Area WorldID="30" X1="167" Y1="194" X2="167" Y2="194" Attribute="20" Apply="1" Send="1" />
+	<Area WorldID="30" X1="185" Y1="194" X2="185" Y2="194" Attribute="20" Apply="1" Send="1" />
+	<Area WorldID="30" X1="176" Y1="217" X2="176" Y2="217" Attribute="20" Apply="1" Send="1" />
+	<Area WorldID="30" X1="94" Y1="227" X2="94" Y2="227" Attribute="16" Apply="1" Send="0" />
+	<Area WorldID="30" X1="94" Y1="182" X2="94" Y2="182" Attribute="16" Apply="1" Send="0" />
+	<Area WorldID="30" X1="82" Y1="130" X2="82" Y2="130" Attribute="16" Apply="1" Send="0" />
+	<Area WorldID="30" X1="107" Y1="130" X2="107" Y2="130" Attribute="16" Apply="1" Send="0" />
+	<Area WorldID="30" X1="178" Y1="215" X2="178" Y2="215" Attribute="20" Apply="1" Send="1" />
+	<Area WorldID="30" X1="175" Y1="216" X2="175" Y2="216" Attribute="20" Apply="1" Send="1" />
+	<Area WorldID="30" X1="175" Y1="217" X2="175" Y2="217" Attribute="20" Apply="1" Send="1" />
+	<Area WorldID="30" X1="177" Y1="217" X2="177" Y2="217" Attribute="20" Apply="1" Send="1" />
+	<Area WorldID="30" X1="175" Y1="218" X2="175" Y2="218" Attribute="20" Apply="1" Send="1" />
+	<Area WorldID="30" X1="176" Y1="218" X2="176" Y2="218" Attribute="20" Apply="1" Send="1" />
+	<Area WorldID="30" X1="177" Y1="218" X2="177" Y2="218" Attribute="20" Apply="1" Send="1" />
+</WorldAreaAttribute>

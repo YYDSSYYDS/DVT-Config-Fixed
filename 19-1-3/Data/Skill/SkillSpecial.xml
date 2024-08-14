@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==               File Name: SkillSpecial                  ==
+// ============================================================
+-->
+
+<SkillSpecial>
+	<Skill ID="1" Name="Thunder Break" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="6" Element1="1" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="2" Name="Bloody Wind" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="6" Element1="14" Element2="7" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="3" Name="Fire Ray" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="6" Element1="11" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="4" Name="Very" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="17" Element2="23" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="5" Name="Vampires Rick Touch" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="3" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="6" Name="Dark Elf - Group Address" Target="2" ScopeType="-1" ScopeAngle="-1" ScopeValue="6" Element1="16" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="7" Name="Dark Elf - Group Therapy" Target="2" ScopeType="-1" ScopeAngle="-1" ScopeValue="6" Element1="13" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="8" Name="Dark Elf - Geom" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="6" Element1="1" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="9" Name="Balram - The Direction" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="17" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="10" Name="Death Spirit - Reduce Mana/AG" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="3" Element2="4" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="11" Name="Soram - Push" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="6" Element1="7" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="12" Name="Balgass - Direct Land Hit" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="6" Element1="7" Element2="1" Element3="17" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="13" Name="Balgass" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="6" Element1="7" Element2="1" Element3="1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="14" Name="Kentauros - Multi Shot" Target="1" ScopeType="1" ScopeAngle="-1" ScopeValue="6" Element1="24" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="15" Name="Persona - Demon" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="6" Element1="25" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="16" Name="Twin Tail - Hair Attack" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="26" Element2="27" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="17" Name="Dread - 2 times a peer" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="28" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="18" Name="Nightmare - Dog Attack" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="29" Element2="30" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="19" Name="Nightmare - Pot like" Target="1" ScopeType="1" ScopeAngle="-1" ScopeValue="6" Element1="31" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="20" Name="Nightmare - Summon" Target="2" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="-1" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="21" Name="Nightmare - Fire Jeans" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="6" Element1="32" Element2="33" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="22" Name="Nightmare - Warp" Target="2" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="34" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="23" Name="Maya hand - Pressure" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="6" Element1="35" Element2="36" Element3="37" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="24" Name="Maya hand - Power Wave" Target="1" ScopeType="1" ScopeAngle="-1" ScopeValue="6" Element1="38" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="25" Name="Maya - Ice Storm" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="6" Element1="39" Element2="40" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="26" Name="Maya - Broken Shower" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="6" Element1="41" Element2="42" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="27" Name="Ghosts - Stern" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="1" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="28" Name="Ghost - dog" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="8" Element2="1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="29" Name="Roar" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="43" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="30" Name="Break period" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="44" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="31" Name="Anger Strike" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="2" Element1="45" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="32" Name="Cooler Tin - Dog Ball" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="46" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="33" Name="Blow" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="47" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="34" Name="Selupan - Poison Ball" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="6" Element1="48" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="35" Name="Selupan - Frost Storm" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="8" Element1="49" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="36" Name="Selupan - Frost Shock" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="6" Element1="50" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="37" Name="Selupan - Fall" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="4" Element1="51" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="38" Name="Selupan - Recall" Target="2" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="52" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="39" Name="Selupan - Healing" Target="2" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="53" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="40" Name="Selupan - Icing" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="54" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="41" Name="Selupan - Teleportation" Target="2" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="55" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="42" Name="Selupan - Invincible" Target="2" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="56" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="30000" />
+	<Skill ID="43" Name="Selupan - Berserk" Target="2" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="57" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="44" Name="Shield bottle - Defense" Target="5" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="58" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="45" Name="Shield bottle - Shield" Target="3" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="59" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="46" Name="Healing Disease - Healing" Target="4" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="60" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="47" Name="Quartermaster - Skill 01" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="6" Element1="61" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="48" Name="Quartermaster - Skill 02" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="3" Element1="61" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="49" Name="Combat Instructor - Skill 03" Target="1" ScopeType="1" ScopeAngle="-1" ScopeValue="10" Element1="61" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="50" Name="Knight Commander - Skill 04" Target="3" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="61" Element2="62" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="51" Name="Archmage - Pillar of Fire" Target="3" ScopeType="0" ScopeAngle="-1" ScopeValue="10" Element1="61" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="52" Name="Archmage - Wide Meteorite" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="10" Element1="61" Element2="59" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="53" Name="Assassinated leader - Skill 06" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="10" Element1="61" Element2="65" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="54" Name="Riders GM - Earth Shakes" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="3" Element1="61" Element2="64" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="55" Name="Riders GM - Bite" Target="3" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="61" Element2="62" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="56" Name="Riders Director - Head of CEE" Target="3" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="61" Element2="66" Element3="59" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="57" Name="Dessler - Blade Door" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="10" Element1="61" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="58" Name="Dessler - Skill 07" Target="1" ScopeType="1" ScopeAngle="-1" ScopeValue="5" Element1="61" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="59" Name="Berserk" Target="2" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="67" Element2="68" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="60" Name="Vermont - Skill 08" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="10" Element1="61" Element2="59" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="61" Name="Vermont - Skill 09" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="10" Element1="61" Element2="69" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="62" Name="El kaneu - Skill 14" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="6" Element1="61" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="63" Name="El kaneu - Skill 15" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="3" Element1="61" Element2="64" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="64" Name="Ion -Blood Attack" Target="1" ScopeType="1" ScopeAngle="-1" ScopeValue="3" Element1="61" Element2="70" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="65" Name="Ion - Gigantik Storm" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="5" Element1="61" Element2="72" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="66" Name="Ion - Flame" Target="1" ScopeType="1" ScopeAngle="-1" ScopeValue="5" Element1="61" Element2="73" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="67" Name="Ion - General" Target="3" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="71" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="68" Name="Bloody Golem - Stern" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="47" Element2="74" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="69" Name="Location Queen - Ice" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="47" Element2="9" Element3="5" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="70" Name="Berserker - Stern Ball" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="47" Element2="74" Element3="6" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="71" Name="Zeno Outsider - Stern" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="47" Element2="74" Element3="7" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="72" Name="Safi Queen - Stern Room" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="47" Element2="74" Element3="5" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="73" Name="Ice Nail Pin - Ice" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="47" Element2="9" Element3="7" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="74" Name="Shadow Master - Stern" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="47" Element2="74" Element3="6" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="75" Name="The Dark memeodeu - Solitary" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="47" Element2="27" Element3="6" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="76" Name="The Dark Giant - Dokgong" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="47" Element2="27" Element3="5" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="77" Name="Dark Iron Knight - Poison" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="47" Element2="74" Element3="27" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="78" Name="Medusa - Curse Poison" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="10" Element1="75" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="79" Name="Medusa - Chaotic" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="10" Element1="76" Element2="77" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="80" Name="Medusa - Gigantik" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="10" Element1="72" Element2="77" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="81" Name="Medusa - Evil" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="10" Element1="25" Element2="8" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="82" Name="Salamander - 1 Hit Skill" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="78" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="83" Name="Salamander - 2 Hits Kill" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="79" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="84" Name="Salamander - German" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="80" Element2="81" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="85" Name="Undine - 1 Hit Skill" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="82" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="86" Name="Undine - Skill Strikes 2" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="83" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="87" Name="Undine - Ice" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="84" Element2="85" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="88" Name="Gnome - skill Hit 1" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="86" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="89" Name="Gnome - Strike 2 Skill" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="87" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="90" Name="Gnome - Stun" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="88" Element2="89" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="91" Name="Silpideu - 1 Hit Skill" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="90" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="92" Name="Silpideu - Skill Strikes 2" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="91" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="93" Name="Silpideu - Push" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="92" Element2="93" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="94" Name="Hill Lhasa - Hitting one Skill" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="94" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="95" Name="Hill Lhasa - Hitting Skills 2" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="95" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="96" Name="Hill Lhasa - HP loss" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="96" Element2="97" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="97" Name="Lord Silvester - General Strike" Target="3" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="98" Element2="102" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="98" Name="Lord Silvester - Wind whirlwind" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="99" Element2="104" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="99" Name="Lord Silvester - Curse of the wind" Target="3" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="100" Element2="104" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="100" Name="Lord Silvester - Wind called (summoned)" Target="2" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="101" Element2="103" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="101" Name="EvoMon - MultiShot" Target="1" ScopeType="4" ScopeAngle="120" ScopeValue="7" Element1="105" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="102" Name="EvoMon - Lightning" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="7" Element1="106" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="103" Name="EvoMon - Flood" Target="1" ScopeType="4" ScopeAngle="60" ScopeValue="8" Element1="107" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="104" Name="EvoMon - Ice Dot Damage" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="6" Element1="108" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="105" Name="EvoMon - Disappear" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="0" Element1="109" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="106" Name="Core Magriffy - General Attack" Target="3" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="110" Element2="115" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="107" Name="Core Magriffy - Twister" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="8" Element1="111" Element2="117" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="108" Name="Core Magriffy - Shout" Target="3" ScopeType="0" ScopeAngle="-1" ScopeValue="5" Element1="112" Element2="116" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="109" Name="Core Magriffy - ???" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="8" Element1="113" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="110" Name="Core Magriffy - Variation" Target="2" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="114" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="111" Name="Core Magriffy - Disappear" Target="2" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="-1" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="112" Name="Ferea Lord - General Attack" Target="3" ScopeType="0" ScopeAngle="-1" ScopeValue="0" Element1="117" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="113" Name="Ferea Lord - LandMine Explosion" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="9" Element1="118" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="6000" />
+	<Skill ID="114" Name="Ferea Lord - WhirlWind" Target="3" ScopeType="0" ScopeAngle="-1" ScopeValue="9" Element1="119" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="3000" />
+	<Skill ID="115" Name="Ferea Lord - Roar of Lord" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="120" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="3000" />
+	<Skill ID="117" Name="Nix - Normal Attack" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="7" Element1="122" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="118" Name="Nix - Energy Sphere" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="7" Element1="123" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="119" Name="Nix - Ice Lane" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="5" Element1="124" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="120" Name="Nix - Ice Breath" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="125" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="121" Name="Nix - Ice Boom" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="126" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="122" Name="Nix - Devil Ice" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="127" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="123" Name="Nix - Knowledge Absorb" Target="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="-1" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="125" Name="Cent Fire Slash" Target="1" ScopeType="4" ScopeAngle="-1" ScopeValue="3" Element1="128" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="126" Name="Cent Twister" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="6" Element1="129" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="128" Name="Cent Nova Start" Target="5" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Element1="130" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="129" Name="Cent Nova" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="6" Element1="131" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="130" Name="Cent Fire Blood" Target="1" ScopeType="4" ScopeAngle="-1" ScopeValue="3" Element1="132" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="131" Name="Cent Ice Blood" Target="1" ScopeType="4" ScopeAngle="-1" ScopeValue="3" Element1="133" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="134" Name="Swamp Monster Poison" Target="1" ScopeType="2" ScopeAngle="-1" ScopeValue="0" Element1="134" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="135" Name="Pet Monster Attack" Target="1" ScopeType="2" ScopeAngle="-1" ScopeValue="0" Element1="135" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="136" Name="Water Monster Line Attack" Target="1" ScopeType="1" ScopeAngle="-1" ScopeValue="6" Element1="136" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="137" Name="Water Monster Range Attack" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="3" Element1="136" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+	<Skill ID="138" Name="God of Darkness Attack" Target="1" ScopeType="0" ScopeAngle="-1" ScopeValue="6" Element1="137" Element2="-1" Element3="-1" Element4="-1" Element5="-1" Delay="300" />
+</SkillSpecial>

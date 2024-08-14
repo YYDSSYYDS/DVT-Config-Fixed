@@ -1,0 +1,14 @@
+<CashShopPackage>
+  <Category ID="3">
+    <Package ID="1" Position="0" Name="卓越宝石" Description="为装备增加卓越属性" DisPlayItem="10743" Flags="0" PriceType="0" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="2" Position="1" Name="祝福宝石" Description="宝石10个" DisPlayItem="7181" Flags="0" PriceType="0" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="3" Position="2" Name="灵魂宝石" Description="宝石10个" DisPlayItem="7182" Flags="0" PriceType="0" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="4" Position="3" Name="生命宝石" Description="宝石10个" DisPlayItem="7184" Flags="0" PriceType="0" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="5" Position="4" Name="创造宝石" Description="宝石10个" DisPlayItem="7190" Flags="0" PriceType="0" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="6" Position="5" Name="玛雅之石" Description="宝石10个" DisPlayItem="6159" Flags="0" PriceType="0" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="7" Position="6" Name="幸运宝石" Description="为装备增加幸运属性" DisPlayItem="10744" Flags="0" PriceType="0" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="8" Position="7" Name="合成保护符咒" Description="合成时保护装备不消失" DisPlayItem="7264" Flags="0" PriceType="0" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="9" Position="8" Name="最大AG提升光环" Description="最大 AG增加 +等级##最大可适用 1000AG" DisPlayItem="6760" Flags="0" PriceType="0" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="10" Position="9" Name="3代翅膀圣物" Description="3代翅膀合成材料 1000AG" DisPlayItem="10356" Flags="0" PriceType="0" StartDate="20100526194000" EndDate="20190531124000" />
+  </Category>
+</CashShopPackage>
