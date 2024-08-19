@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf - 8"?>
+<!--
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==   File Name: ItemBag_PVP_World_Boss.xml           ==
+// ============================================================
+-->
+
+<ItemBag>
+<AddCoin Enable="0" CoinType="0" CoinValue="0" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+<Ruud GainRate="0" MinValue="1" MaxValue="10" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+
+<DropAllow DW="1" DK="1" ELF="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="0" SLA="1" GC="1" LW="1" LM="0" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" MapNumber="-1">
+	<!-- Bless of Light (Low Grade) -->
+	<Item Sort="0" ItemCat="14" ItemIndex="263" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+	<!-- Bless of Light (Middle Grade) -->
+	<Item Sort="0" ItemCat="14" ItemIndex="264" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+	<!-- Jewel of Harmony -->
+	<Item Sort="0" ItemCat="14" ItemIndex="42" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+	<!-- Lower Refining Stone -->
+	<Item Sort="0" ItemCat="14" ItemIndex="43" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+	<!-- Higher Refining Stone -->
+	<Item Sort="0" ItemCat="14" ItemIndex="44" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+	<!-- Blessing of Spirit -->
+	<Item Sort="0" ItemCat="14" ItemIndex="320" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="8000" FireWork="0" Group="0" Duration="0" />
+	<!-- Socket Upgrade Note -->
+	<Item Sort="0" ItemCat="14" ItemIndex="364" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="5000" FireWork="0" Group="0" Duration="0" />
+	<!-- Mysterious Stone -->
+	<Item Sort="0" ItemCat="14" ItemIndex="345" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="3000" FireWork="0" Group="0" Duration="0" />
+	<!-- Ancient Hero's Soul -->
+	<Item Sort="0" ItemCat="13" ItemIndex="407" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="3000" FireWork="0" Group="0" Duration="0" />
+	<!-- Talisman Element Change -->
+	<Item Sort="0" ItemCat="14" ItemIndex="317" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="1000" FireWork="0" Group="0" Duration="0" />
+	<!-- Element Talisman of Luck -->
+	<Item Sort="0" ItemCat="14" ItemIndex="189" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="1000" FireWork="0" Group="0" Duration="0" />
+	<!-- Talisman of Luck -->
+	<Item Sort="0" ItemCat="14" ItemIndex="53" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="1000" FireWork="0" Group="0" Duration="0" />
+	<!-- Elemental Talisman of Chaos -->
+	<Item Sort="0" ItemCat="14" ItemIndex="190" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="500" FireWork="0" Group="0" Duration="0" />
+	<!-- Talisman of Chaos Assembly -->
+	<Item Sort="0" ItemCat="14" ItemIndex="96" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="500" FireWork="0" Group="0" Duration="0" />
+	<!-- Strength Reset Fruit -->
+	<Item Sort="0" ItemCat="13" ItemIndex="54" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="1000" FireWork="0" Group="0" Duration="0" />
+	<!-- Agility Reset Fruit -->
+	<Item Sort="0" ItemCat="13" ItemIndex="55" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="1000" FireWork="0" Group="0" Duration="0" />
+	<!-- Vitality Reset Fruit -->
+	<Item Sort="0" ItemCat="13" ItemIndex="56" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="1000" FireWork="0" Group="0" Duration="0" />
+	<!-- Energy Reset Fruit -->
+	<Item Sort="0" ItemCat="13" ItemIndex="57" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="1000" FireWork="0" Group="0" Duration="0" />
+	<!-- Command Reset Fruit -->
+	<Item Sort="0" ItemCat="13" ItemIndex="58" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="1000" FireWork="0" Group="0" Duration="0" />
+	<!-- Scroll of Green Oblivion -->
+	<Item Sort="0" ItemCat="13" ItemIndex="152" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="500" FireWork="0" Group="0" Duration="0" />
+	<!-- Scroll of Blue Oblivion -->
+	<Item Sort="0" ItemCat="13" ItemIndex="153" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="500" FireWork="0" Group="0" Duration="0" />
+	<!-- Scroll of Blue Oblivion -->
+	<Item Sort="0" ItemCat="13" ItemIndex="154" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="500" FireWork="0" Group="0" Duration="0" />
+	<!-- Scroll of Gray Oblivion -->
+	<Item Sort="0" ItemCat="13" ItemIndex="154" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="50" FireWork="0" Group="0" Duration="0" />
+	<!-- Scroll of Golden Oblivion -->
+	<Item Sort="0" ItemCat="13" ItemIndex="509" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="50" FireWork="0" Group="0" Duration="0" />
+	<!--Steel of Heaven-->
+	<Item Sort="0" ItemCat="14" ItemIndex="342" ItemLevelMin="0" ItemLevelMax="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="1" ExlMax="2" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="3000" FireWork="0" Group="0" Duration="0" />	
+	<!--Sealed Stone Shard-->
+	<Item Sort="0" ItemCat="14" ItemIndex="341" ItemLevelMin="0" ItemLevelMax="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="1" ExlMax="2" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="500" FireWork="0" Group="0" Duration="0" />	
+	<!--Darkangel Anvil-->
+	<Item Sort="0" ItemCat="14" ItemIndex="386" ItemLevelMin="0" ItemLevelMax="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="1" ExlMax="2" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="100" FireWork="0" Group="0" Duration="0" />	
+	<!--Holyangel Spirit-->
+	<Item Sort="0" ItemCat="14" ItemIndex="389" ItemLevelMin="0" ItemLevelMax="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="1" ExlMax="2" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="450" FireWork="0" Group="0" Duration="0" />	
+	<!--Awakening Spirit-->
+	<Item Sort="0" ItemCat="14" ItemIndex="415" ItemLevelMin="0" ItemLevelMax="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="1" ExlMax="2" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="350" FireWork="0" Group="0" Duration="0" />	
+	<!--Holyangel Anvil-->
+	<Item Sort="0" ItemCat="14" ItemIndex="416" ItemLevelMin="0" ItemLevelMax="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="1" ExlMax="2" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="100" FireWork="0" Group="0" Duration="0" />	
+	<!--Cold Spirit-->
+	<Item Sort="0" ItemCat="14" ItemIndex="449" ItemLevelMin="0" ItemLevelMax="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="1" ExlMax="2" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="250" FireWork="0" Group="0" Duration="0" />	
+	<!--Soul Anvil-->
+	<Item Sort="0" ItemCat="14" ItemIndex="416" ItemLevelMin="0" ItemLevelMax="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="1" ExlMax="2" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="100" FireWork="0" Group="0" Duration="0" />	
+	<!--Ancestral Spirit-->
+	<Item Sort="0" ItemCat="14" ItemIndex="494" ItemLevelMin="0" ItemLevelMax="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="1" ExlMax="2" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="200" FireWork="0" Group="0" Duration="0" />	
+	<!--Blue Eye Anvil-->
+	<Item Sort="0" ItemCat="14" ItemIndex="495" ItemLevelMin="0" ItemLevelMax="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="1" ExlMax="2" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="100" FireWork="0" Group="0" Duration="0" />	
+</DropAllow>
+</ItemBag>

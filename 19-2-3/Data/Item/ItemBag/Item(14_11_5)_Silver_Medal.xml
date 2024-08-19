@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf - 8"?>
+<!--
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==   File Name: Item(14_11_5)_Silver_Medal.xml           ==
+// ============================================================
+-->
+
+<ItemBag>
+<AddCoin Enable="0" CoinType="0" CoinValue="0" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+<Ruud GainRate="0" MinValue="1" MaxValue="10" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+<DropAllow DW="0" DK="0" ELF="0" MG="0" DL="0" SU="0" RF="0" GL="0" RW="0" SLA="0" GC="0" LW="0" LM="0" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" MapNumber="-1">
+			<!--Entropy Gun-->
+			<Item Sort="0" ItemCat="4" ItemIndex="42" ItemLevelMin="5" ItemLevelMax="7" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Frere Magic Gun-->
+			<Item Sort="0" ItemCat="4" ItemIndex="43" ItemLevelMin="5" ItemLevelMax="7" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Leather Gunner Helmet-->
+			<Item Sort="0" ItemCat="7" ItemIndex="206" ItemLevelMin="5" ItemLevelMax="7" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Leather Gunner Armor-->
+			<Item Sort="0" ItemCat="8" ItemIndex="206" ItemLevelMin="5" ItemLevelMax="7" Dur="0" SkillRate="0" LuckRate="5000" OptionMin="0" OptionMax="2" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+			<!--Leather Gunner Pants-->
+			</DropAllow>
+</ItemBag>
