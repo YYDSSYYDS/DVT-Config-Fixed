@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==                  File Text: MiniMap                    ==
+// ============================================================
+-->
+
+<MiniMap>
+	<!-- 勇者大陆 传送 -->
+	<Option WorldID="0" Index="0" Group="0" Type="1" X="121" Y="232" Text="地下城入口"/>
+	<Option WorldID="0" Index="1" Group="0" Type="1" X="177" Y="31" Text="深渊地下城入口"/>
+	<Option WorldID="0" Index="2" Group="0" Type="1" X="1" Y="38" Text="冰风谷入口"/>
+	<Option WorldID="0" Index="3" Group="0" Type="1" X="216" Y="248" Text="仙踪林入口"/>
+	<Option WorldID="0" Index="4" Group="0" Type="1" X="242" Y="15" Text="罗兰峡谷入口"/>
+	
+	<!-- 勇者大陆 NPC -->
+	<Option WorldID="0" Index="5" Group="1" Type="2" X="122" Y="110" Text="驯兽师" /> <!-- NPCIndex:226 -->
+	<Option WorldID="0" Index="6" Group="1" Type="4" X="114" Y="120" Text="流浪商人阿莱斯" /> <!-- NPCIndex:230 -->
+	<Option WorldID="0" Index="7" Group="1" Type="4" X="183" Y="137" Text="流浪商人海罗德" /> <!-- NPCIndex:250 -->
+	<Option WorldID="0" Index="8" Group="1" Type="4" X="127" Y="86" Text="少女安娜" /> <!-- NPCIndex:253 -->
+	<Option WorldID="0" Index="9" Group="1" Type="3" X="116" Y="141" Text="铁匠汉斯" /> <!-- NPCIndex:251 -->
+	<Option WorldID="0" Index="10" Group="1" Type="4" X="123" Y="135" Text="老板娘 莉雅" /> <!-- NPCIndex:255 -->
+	<Option WorldID="0" Index="11" Group="1" Type="4" X="118" Y="113" Text="魔导士 帕希" /> <!-- NPCIndex:254 -->
+	<Option WorldID="0" Index="12" Group="1" Type="2" X="139" Y="138" Text="市场传送师 朱丽亚" /> <!-- NPCIndex:547 -->
+	<Option WorldID="0" Index="13" Group="1" Type="5" X="146" Y="110" Text="仓库使者塞弗特" /> <!-- NPCIndex:240 -->
+	<Option WorldID="0" Index="14" Group="1" Type="1" X="96" Y="129" Text="幻影导师" /> <!-- NPCIndex:257 -->
+	<Option WorldID="0" Index="15" Group="1" Type="1" X="132" Y="165" Text="幻影导师" /> <!-- NPCIndex:257 -->
+	<Option WorldID="0" Index="16" Group="1" Type="1" X="132" Y="90" Text="幻影导师" /> <!-- NPCIndex:257 -->
+	<Option WorldID="0" Index="17" Group="1" Type="1" X="170" Y="129" Text="幻影导师" /> <!-- NPCIndex:257 -->
+	<Option WorldID="0" Index="18" Group="1" Type="2" X="144" Y="127" Text="多普瑞恩家族管家" /> <!-- NPCIndex:543 -->
+	<Option WorldID="0" Index="19" Group="1" Type="2" X="130" Y="161" Text="玛雅使者" /> <!-- NPCIndex:375 -->
+	<Option WorldID="0" Index="20" Group="1" Type="5" X="147" Y="145" Text="仓库使者塞弗特" /> <!-- NPCIndex:240 -->
+	<Option WorldID="0" Index="21" Group="1" Type="2" X="114" Y="132" Text="莱斯纳" /> <!-- NPCIndex:584 -->
+	<Option WorldID="0" Index="22" Group="1" Type="2" X="0" Y="0" Text="杰罗" /> <!-- NPCIndex:568 -->
+	<Option WorldID="0" Index="23" Group="1" Type="2" X="137" Y="87" Text="警卫队长摩伦" /> <!-- NPCIndex:229 -->
+	<Option WorldID="0" Index="24" Group="1" Type="2" X="175" Y="120" Text="弓箭手洛斯" /> <!-- NPCIndex:236 -->
+	<Option WorldID="0" Index="25" Group="1" Type="2" X="131" Y="147" Text="赛安特(村庄)" /> <!-- NPCIndex:764 -->
+	
+	<!-- 地下城 1 传送 -->
+	<Option WorldID="1" Index="0" Group="0" Type="1" X="108" Y="249" Text="勇者大陆入口"/>
+	<Option WorldID="1" Index="1" Group="0" Type="1" X="238" Y="150" Text="地下城2 入口"/>
+	<Option WorldID="1" Index="2" Group="0" Type="1" X="118" Y="232" Text="传送门 A"/>
+	<Option WorldID="1" Index="3" Group="0" Type="1" X="46" Y="148" Text="传送门 B"/>
+	
+	<!-- 地下城 2 传送 -->
+	<Option WorldID="1" Index="4" Group="0" Type="1" X="232" Y="128" Text="地下城1入口"/>
+	<Option WorldID="1" Index="5" Group="0" Type="1" X="1" Y="18" Text="地下城3 入口"/>
+	<Option WorldID="1" Index="6" Group="0" Type="1" X="5" Y="35" Text="地下城3 入口"/>
+	<Option WorldID="1" Index="7" Group="0" Type="1" X="236" Y="106" Text="传送门 A"/>
+	<Option WorldID="1" Index="8" Group="0" Type="1" X="242" Y="88" Text="传送门 B"/>
+	
+	<!-- 地下城 3 传送 -->
+	<Option WorldID="1" Index="9" Group="0" Type="1" X="1" Y="85" Text="地下城2 入口"/>
+	<Option WorldID="1" Index="10" Group="0" Type="1" X="29" Y="127" Text="地下城2 入口"/>
+	
+	<!-- 冰风谷 传送 -->
+	<Option WorldID="2" Index="0" Group="0" Type="1" X="244" Y="34" Text="勇者大陆入口"/>
+	<Option WorldID="2" Index="1" Group="0" Type="1" X="162" Y="248" Text="幻术园入口"/>
+	<Option WorldID="2" Index="2" Group="0" Type="1" X="0" Y="250" Text="失落之塔入口"/>
+	<Option WorldID="2" Index="3" Group="0" Type="1" X="51" Y="92" Text="冰霜之城入口"/>
+	<Option WorldID="2" Index="4" Group="0" Type="1" X="158" Y="57" Text="库贝拉矿山入口"/>
+	
+	<!-- 冰风谷 NPC -->
+	<Option WorldID="2" Index="5" Group="1" Type="2" X="209" Y="30" Text="大天使的使者" /> <!-- NPCIndex:233 -->
+	<Option WorldID="2" Index="6" Group="1" Type="2" X="219" Y="9" Text="圣导士塞维娜" /> <!-- NPCIndex:235 -->
+	<Option WorldID="2" Index="7" Group="1" Type="4" X="226" Y="25" Text="老板娘莉娜" /> <!-- NPCIndex:244 -->
+	<Option WorldID="2" Index="8" Group="1" Type="2" X="225" Y="41" Text="魔导士露茜" /> <!-- NPCIndex:245 -->
+	<Option WorldID="2" Index="9" Group="1" Type="3" X="186" Y="47" Text="武器商人苏菲" /> <!-- NPCIndex:246 -->
+	<Option WorldID="2" Index="10" Group="1" Type="2" X="215" Y="45" Text="战盟使者罗兰斯" /> <!-- NPCIndex:241 -->
+	<Option WorldID="2" Index="11" Group="1" Type="5" X="218" Y="63" Text="仓库使者塞弗特" /> <!-- NPCIndex:240 -->
+	<Option WorldID="2" Index="12" Group="1" Type="1" X="219" Y="73" Text="幻影导师" /> <!-- NPCIndex:257 -->
+	<Option WorldID="2" Index="13" Group="1" Type="1" X="172" Y="44" Text="幻影导师" /> <!-- NPCIndex:257 -->
+	<Option WorldID="2" Index="14" Group="1" Type="4" X="32" Y="31" Text="爆竹商人 罗嗒莎" /> <!-- NPCIndex:379 -->
+	<Option WorldID="2" Index="15" Group="1" Type="2" X="204" Y="61" Text="特蕾西亚" /> <!-- NPCIndex:566 -->
+	<Option WorldID="2" Index="16" Group="1" Type="2" X="240" Y="53" Text="莱斯纳" /> <!-- NPCIndex:584 -->
+	<Option WorldID="2" Index="17" Group="1" Type="2" X="0" Y="0" Text="杰罗" /> <!-- NPCIndex:568 -->
+	<Option WorldID="2" Index="18" Group="1" Type="2" X="183" Y="30" Text="警卫队长摩伦" /> <!-- NPCIndex:229 -->
+	<Option WorldID="2" Index="19" Group="1" Type="2" X="183" Y="32" Text="圣导士塞维娜" /> <!-- NPCIndex:235 -->
+	<Option WorldID="2" Index="20" Group="1" Type="2" X="226" Y="66" Text="弓箭手洛斯" /> <!-- NPCIndex:236 -->
+	<Option WorldID="2" Index="21" Group="1" Type="2" X="82" Y="16" Text="雷奥导师" /> <!-- NPCIndex:371 -->
+	<Option WorldID="2" Index="22" Group="1" Type="2" X="219" Y="230" Text="玛雅使者" /> <!-- NPCIndex:375 -->
+	<Option WorldID="2" Index="23" Group="1" Type="2" X="193" Y="12" Text="尤妮丝(村庄)" /> <!-- NPCIndex:941 -->
+	
+	<!-- 仙踪林 传送 -->
+	<Option WorldID="3" Index="0" Group="0" Type="1" X="151" Y="2" Text="勇者大陆入口"/>
+	<Option WorldID="3" Index="1" Group="0" Type="1" X="222" Y="29" Text="幽暗森林入口"/>
+	<Option WorldID="3" Index="2" Group="0" Type="1" X="242" Y="241" Text="亚特兰蒂斯入口"/>
+	
+	<!-- 仙踪林 NPC -->
+	<Option WorldID="3" Index="3" Group="1" Type="2" X="171" Y="105" Text="卡隆" /> <!-- NPCIndex:237 -->
+	<Option WorldID="3" Index="4" Group="1" Type="4" X="173" Y="125" Text="精灵安吉拉" /> <!-- NPCIndex:242 -->
+	<Option WorldID="3" Index="5" Group="1" Type="3" X="195" Y="124" Text="工匠尤达" /> <!-- NPCIndex:243 -->
+	<Option WorldID="3" Index="6" Group="1" Type="5" X="172" Y="96" Text="仓库使者塞弗特" /> <!-- NPCIndex:240 -->
+	<Option WorldID="3" Index="7" Group="1" Type="2" X="180" Y="103" Text="玛雅哥布林" /> <!-- NPCIndex:238 -->
+	<Option WorldID="3" Index="8" Group="1" Type="1" X="167" Y="118" Text="幻影导师" /> <!-- NPCIndex:257 -->
+	<Option WorldID="3" Index="9" Group="1" Type="1" X="166" Y="85" Text="幻影导师" /> <!-- NPCIndex:257 -->
+	<Option WorldID="3" Index="10" Group="1" Type="1" X="201" Y="129" Text="幻影导师" /> <!-- NPCIndex:257 -->
+	<Option WorldID="3" Index="11" Group="1" Type="2" X="167" Y="100" Text="巴内尔特家族管家" /> <!-- NPCIndex:544 -->
+	<Option WorldID="3" Index="12" Group="1" Type="2" X="196" Y="113" Text="斯洛普船长" /> <!-- NPCIndex:580 -->
+	<Option WorldID="3" Index="13" Group="1" Type="2" X="183" Y="126" Text="莱斯纳" /> <!-- NPCIndex:584 -->
+	<Option WorldID="3" Index="14" Group="1" Type="2" X="0" Y="0" Text="杰罗" /> <!-- NPCIndex:568 -->
+	<Option WorldID="3" Index="15" Group="1" Type="2" X="169" Y="89" Text="警卫队长摩伦" /> <!-- NPCIndex:229 -->
+	<Option WorldID="3" Index="16" Group="1" Type="2" X="179" Y="126" Text="樱花精灵" /> <!-- NPCIndex:450 -->
+	
+	<!-- 失落之塔 (1 ~ 7) 传送 -->
+	<Option WorldID="4" Index="0" Group="0" Type="1" X="164" Y="0" Text="冰风谷入口"/>
+	<Option WorldID="4" Index="1" Group="0" Type="1" X="190" Y="5" Text="失落之塔2 入口"/>
+	<Option WorldID="4" Index="2" Group="0" Type="1" X="165" Y="165" Text="失落之塔3 入口"/>
+	<Option WorldID="4" Index="3" Group="0" Type="1" X="133" Y="246" Text="失落之塔4 入口"/>
+	<Option WorldID="4" Index="4" Group="0" Type="1" X="133" Y="136" Text="失落之塔5 入口"/>
+	<Option WorldID="4" Index="5" Group="0" Type="1" X="129" Y="14" Text="失落之塔6 入口"/>
+	<Option WorldID="4" Index="6" Group="0" Type="1" X="4" Y="7" Text="失落之塔7 入口"/>
+	<Option WorldID="4" Index="7" Group="0" Type="1" X="16" Y="250" Text="天空之城入口"/>
+	<Option WorldID="4" Index="8" Group="0" Type="1" X="1" Y="238" Text="红烟之天空之城入口"/>
+	
+	<!-- 亚特兰蒂斯 传送 -->
+	<Option WorldID="7" Index="0" Group="0" Type="1" X="8" Y="8" Text="仙踪林入口"/>
+	<Option WorldID="7" Index="1" Group="0" Type="1" X="9" Y="18" Text="幻术园入口"/>
+	<Option WorldID="7" Index="2" Group="0" Type="1" X="10" Y="228" Text="死亡沙漠入口"/>
+	
+	<!-- 亚特兰蒂斯 NPC -->
+	<Option WorldID="7" Index="3" Group="1" Type="2" X="17" Y="25" Text="警卫队长摩伦" /> <!-- NPCIndex:229 -->
+	
+	<!-- 死亡沙漠 传送 -->
+	<Option WorldID="8" Index="0" Group="0" Type="1" X="250" Y="40" Text="亚特兰蒂斯入口"/>
+	<Option WorldID="8" Index="1" Group="0" Type="1" X="3" Y="199" Text="坎特鲁废墟入口"/>
+	<Option WorldID="8" Index="2" Group="0" Type="1" X="177" Y="39" Text="菲利亚入口"/>
+	<Option WorldID="8" Index="3" Group="0" Type="1" X="109" Y="237" Text="猩红沙漠入口"/>
+	
+	<!-- 天空之城 传送 -->
+	<Option WorldID="10" Index="0" Group="0" Type="1" X="13" Y="8" Text="失落之塔入口"/>
+	
+	<!-- 卡利玛 1 NPC -->
+	<Option WorldID="24" Index="0" Group="1" Type="4" X="7" Y="19" Text="雷拉" /> <!-- NPCIndex:259 -->
+	
+	<!-- 卡利玛 2 NPC -->
+	<Option WorldID="25" Index="0" Group="1" Type="4" X="7" Y="19" Text="雷拉" /> <!-- NPCIndex:259 -->
+	
+	<!-- 卡利玛 3 NPC -->
+	<Option WorldID="26" Index="0" Group="1" Type="4" X="7" Y="19" Text="雷拉" /> <!-- NPCIndex:259 -->
+	
+	<!-- 卡利玛 4 NPC -->
+	<Option WorldID="27" Index="0" Group="1" Type="4" X="7" Y="19" Text="雷拉" /> <!-- NPCIndex:259 -->
+	
+	<!-- 卡利玛 5 NPC -->
+	<Option WorldID="28" Index="0" Group="1" Type="4" X="7" Y="19" Text="雷拉" /> <!-- NPCIndex:259 -->
+	
+	<!-- 卡利玛 6 NPC -->
+	<Option WorldID="29" Index="0" Group="1" Type="4" X="7" Y="19" Text="雷拉" /> <!-- NPCIndex:259 -->
+	<Option WorldID="29" Index="1" Group="1" Type="2" X="10" Y="28" Text="贝娜" /> <!-- NPCIndex:567 -->
+		
+	<!-- 魔炼之地 传送 -->
+	<Option WorldID="31" Index="0" Group="0" Type="1" X="60" Y="8" Text="罗兰峡谷入口"/>
+	
+	<!-- 幽暗森林 传送 -->
+	<Option WorldID="33" Index="0" Group="0" Type="1" X="72" Y="10" Text="仙踪林入口"/>
+	<Option WorldID="33" Index="1" Group="0" Type="1" X="238" Y="165" Text="卡伦特入口"/>
+	<Option WorldID="33" Index="2" Group="0" Type="1" X="218" Y="237" Text="暗魂之森入口"/>
+	
+	<!-- 幽暗森林 NPC -->
+	<Option WorldID="33" Index="3" Group="1" Type="2" X="78" Y="13" Text="奥斯本" /> <!-- NPCIndex:369 -->
+	<Option WorldID="33" Index="4" Group="1" Type="2" X="86" Y="13" Text="杰瑞敦" /> <!-- NPCIndex:370 -->
+	<Option WorldID="33" Index="5" Group="1" Type="2" X="82" Y="16" Text="雷奥导师" /> <!-- NPCIndex:371 -->
+	
+	<!-- 狼魂要塞 传送-->
+	<Option WorldID="34" Index="0" Group="0" Type="1" X="238" Y="42" Text="罗兰峡谷入口"/>
+	
+	<!-- 狼魂要塞 NPC -->
+	<Option WorldID="34" Index="1" Group="1" Type="2" X="228" Y="48" Text="弟子黛彬" /> <!-- NPCIndex:406 -->
+	<Option WorldID="34" Index="2" Group="1" Type="2" X="62" Y="239" Text="暗黑血狼人扩雷" /> <!-- NPCIndex:407 -->
+	<Option WorldID="34" Index="3" Group="1" Type="2" X="135" Y="47" Text="驯兽师" /> <!-- NPCIndex:226 -->
+	<Option WorldID="34" Index="4" Group="1" Type="3" X="99" Y="40" Text="流浪商人马丁" /> <!-- NPCIndex:248 -->
+	<Option WorldID="34" Index="5" Group="1" Type="2" X="96" Y="25" Text="塞尔维斯" /> <!-- NPCIndex:256 -->
+	<Option WorldID="34" Index="6" Group="1" Type="3" X="145" Y="14" Text="铁匠汉斯" /> <!-- NPCIndex:251 -->
+	<Option WorldID="34" Index="7" Group="1" Type="5" X="113" Y="56" Text="仓库使者塞弗特" /> <!-- NPCIndex:240 -->
+	
+	<!-- 卡利玛 7 NPC -->
+	<Option WorldID="36" Index="0" Group="1" Type="4" X="7" Y="19" Text="雷拉" /> <!-- NPCIndex:259 -->
+
+	<!-- 坎特鲁废墟 传送 -->
+	<Option WorldID="37" Index="0" Group="0" Type="1" X="16" Y="222" Text="死亡沙漠入口"/>
+	<Option WorldID="37" Index="1" Group="0" Type="1" X="89" Y="91" Text="坎特鲁遗址入口"/>
+	<Option WorldID="37" Index="2" Group="0" Type="1" X="6" Y="159" Text="坎特鲁地下基地入口"/>
+	
+	<!-- 坎特鲁遗址 传送 -->
+	<Option WorldID="38" Index="0" Group="0" Type="1" X="66" Y="105" Text="坎特鲁废墟入口"/>
+	<Option WorldID="38" Index="1" Group="0" Type="1" X="141" Y="186" Text="传送台"/>
+	
+	<!-- 巴卡斯兵营 NPC -->
+	<Option WorldID="41" Index="0" Group="1" Type="2" X="119" Y="168" Text="休息处守卫" /> <!-- NPCIndex:408 -->
+	
+	<!-- 幻影寺院 1 NPC -->
+	<Option WorldID="45" Index="0" Group="1" Type="6" X="169" Y="84" Text="咒诅石像" /> <!-- NPCIndex:658 -->
+	<Option WorldID="45" Index="1" Group="1" Type="6" X="136" Y="100" Text="占领石像" /> <!-- NPCIndex:659 -->
+	<Option WorldID="45" Index="2" Group="1" Type="6" X="150" Y="117" Text="占领石像" /> <!-- NPCIndex:660 -->
+	<Option WorldID="45" Index="3" Group="1" Type="6" X="149" Y="88" Text="占领石像" /> <!-- NPCIndex:661 -->
+	<Option WorldID="45" Index="4" Group="1" Type="6" X="165" Y="101" Text="占领石像" /> <!-- NPCIndex:662 -->
+	<Option WorldID="45" Index="5" Group="1" Type="6" X="173" Y="65" Text="占领石像" /> <!-- NPCIndex:663 -->
+	<Option WorldID="45" Index="6" Group="1" Type="6" X="186" Y="79" Text="占领石像" /> <!-- NPCIndex:664 -->
+	<Option WorldID="45" Index="7" Group="1" Type="6" X="186" Y="51" Text="占领石像" /> <!-- NPCIndex:665 -->
+	<Option WorldID="45" Index="8" Group="1" Type="6" X="202" Y="66" Text="占领石像" /> <!-- NPCIndex:666 -->
+	<Option WorldID="45" Index="9" Group="1" Type="6" X="134" Y="121" Text="占领石像" /> <!-- NPCIndex:667 -->
+	<Option WorldID="45" Index="10" Group="1" Type="6" X="207" Y="47" Text="占领石像" /> <!-- NPCIndex:668 -->
+	
+	<!-- 幻影寺院 2 NPC -->
+	<Option WorldID="46" Index="0" Group="1" Type="6" X="169" Y="84" Text="咒诅石像" /> <!-- NPCIndex:658 -->
+	<Option WorldID="46" Index="1" Group="1" Type="6" X="136" Y="100" Text="占领石像" /> <!-- NPCIndex:659 -->
+	<Option WorldID="46" Index="2" Group="1" Type="6" X="150" Y="117" Text="占领石像" /> <!-- NPCIndex:660 -->
+	<Option WorldID="46" Index="3" Group="1" Type="6" X="149" Y="88" Text="占领石像" /> <!-- NPCIndex:661 -->
+	<Option WorldID="46" Index="4" Group="1" Type="6" X="165" Y="101" Text="占领石像" /> <!-- NPCIndex:662 -->
+	<Option WorldID="46" Index="5" Group="1" Type="6" X="173" Y="65" Text="占领石像" /> <!-- NPCIndex:663 -->
+	<Option WorldID="46" Index="6" Group="1" Type="6" X="186" Y="79" Text="占领石像" /> <!-- NPCIndex:664 -->
+	<Option WorldID="46" Index="7" Group="1" Type="6" X="186" Y="51" Text="占领石像" /> <!-- NPCIndex:665 -->
+	<Option WorldID="46" Index="8" Group="1" Type="6" X="202" Y="66" Text="占领石像" /> <!-- NPCIndex:666 -->
+	<Option WorldID="46" Index="9" Group="1" Type="6" X="134" Y="121" Text="占领石像" /> <!-- NPCIndex:667 -->
+	<Option WorldID="46" Index="10" Group="1" Type="6" X="207" Y="47" Text="占领石像" /> <!-- NPCIndex:668 -->
+	
+	<!-- 幻影寺院 3 NPC -->
+	<Option WorldID="47" Index="0" Group="1" Type="6" X="169" Y="84" Text="咒诅石像" /> <!-- NPCIndex:658 -->
+	<Option WorldID="47" Index="1" Group="1" Type="6" X="136" Y="100" Text="占领石像" /> <!-- NPCIndex:659 -->
+	<Option WorldID="47" Index="2" Group="1" Type="6" X="150" Y="117" Text="占领石像" /> <!-- NPCIndex:660 -->
+	<Option WorldID="47" Index="3" Group="1" Type="6" X="149" Y="88" Text="占领石像" /> <!-- NPCIndex:661 -->
+	<Option WorldID="47" Index="4" Group="1" Type="6" X="165" Y="101" Text="占领石像" /> <!-- NPCIndex:662 -->
+	<Option WorldID="47" Index="5" Group="1" Type="6" X="173" Y="65" Text="占领石像" /> <!-- NPCIndex:663 -->
+	<Option WorldID="47" Index="6" Group="1" Type="6" X="186" Y="79" Text="占领石像" /> <!-- NPCIndex:664 -->
+	<Option WorldID="47" Index="7" Group="1" Type="6" X="186" Y="51" Text="占领石像" /> <!-- NPCIndex:665 -->
+	<Option WorldID="47" Index="8" Group="1" Type="6" X="202" Y="66" Text="占领石像" /> <!-- NPCIndex:666 -->
+	<Option WorldID="47" Index="9" Group="1" Type="6" X="134" Y="121" Text="占领石像" /> <!-- NPCIndex:667 -->
+	<Option WorldID="47" Index="10" Group="1" Type="6" X="207" Y="47" Text="占领石像" /> <!-- NPCIndex:668 -->
+	
+	<!-- 幻影寺院 4 NPC -->
+	<Option WorldID="48" Index="0" Group="1" Type="6" X="169" Y="84" Text="咒诅石像" /> <!-- NPCIndex:658 -->
+	<Option WorldID="48" Index="1" Group="1" Type="6" X="136" Y="100" Text="占领石像" /> <!-- NPCIndex:659 -->
+	<Option WorldID="48" Index="2" Group="1" Type="6" X="150" Y="117" Text="占领石像" /> <!-- NPCIndex:660 -->
+	<Option WorldID="48" Index="3" Group="1" Type="6" X="149" Y="88" Text="占领石像" /> <!-- NPCIndex:661 -->
+	<Option WorldID="48" Index="4" Group="1" Type="6" X="165" Y="101" Text="占领石像" /> <!-- NPCIndex:662 -->
+	<Option WorldID="48" Index="5" Group="1" Type="6" X="173" Y="65" Text="占领石像" /> <!-- NPCIndex:663 -->
+	<Option WorldID="48" Index="6" Group="1" Type="6" X="186" Y="79" Text="占领石像" /> <!-- NPCIndex:664 -->
+	<Option WorldID="48" Index="7" Group="1" Type="6" X="186" Y="51" Text="占领石像" /> <!-- NPCIndex:665 -->
+	<Option WorldID="48" Index="8" Group="1" Type="6" X="202" Y="66" Text="占领石像" /> <!-- NPCIndex:666 -->
+	<Option WorldID="48" Index="9" Group="1" Type="6" X="134" Y="121" Text="占领石像" /> <!-- NPCIndex:667 -->
+	<Option WorldID="48" Index="10" Group="1" Type="6" X="207" Y="47" Text="占领石像" /> <!-- NPCIndex:668 -->
+	
+	<!-- 幻影寺院 5 NPC -->
+	<Option WorldID="49" Index="0" Group="1" Type="6" X="169" Y="84" Text="咒诅石像" /> <!-- NPCIndex:658 -->
+	<Option WorldID="49" Index="1" Group="1" Type="6" X="136" Y="100" Text="占领石像" /> <!-- NPCIndex:659 -->
+	<Option WorldID="49" Index="2" Group="1" Type="6" X="150" Y="117" Text="占领石像" /> <!-- NPCIndex:660 -->
+	<Option WorldID="49" Index="3" Group="1" Type="6" X="149" Y="88" Text="占领石像" /> <!-- NPCIndex:661 -->
+	<Option WorldID="49" Index="4" Group="1" Type="6" X="165" Y="101" Text="占领石像" /> <!-- NPCIndex:662 -->
+	<Option WorldID="49" Index="5" Group="1" Type="6" X="173" Y="65" Text="占领石像" /> <!-- NPCIndex:663 -->
+	<Option WorldID="49" Index="6" Group="1" Type="6" X="186" Y="79" Text="占领石像" /> <!-- NPCIndex:664 -->
+	<Option WorldID="49" Index="7" Group="1" Type="6" X="186" Y="51" Text="占领石像" /> <!-- NPCIndex:665 -->
+	<Option WorldID="49" Index="8" Group="1" Type="6" X="202" Y="66" Text="占领石像" /> <!-- NPCIndex:666 -->
+	<Option WorldID="49" Index="9" Group="1" Type="6" X="134" Y="121" Text="占领石像" /> <!-- NPCIndex:667 -->
+	<Option WorldID="49" Index="10" Group="1" Type="6" X="207" Y="47" Text="占领石像" /> <!-- NPCIndex:668 -->
+	
+	<!-- 幻影寺院 6 NPC -->
+	<Option WorldID="50" Index="0" Group="1" Type="6" X="169" Y="84" Text="咒诅石像" /> <!-- NPCIndex:658 -->
+	<Option WorldID="50" Index="1" Group="1" Type="6" X="136" Y="100" Text="占领石像" /> <!-- NPCIndex:659 -->
+	<Option WorldID="50" Index="2" Group="1" Type="6" X="150" Y="117" Text="占领石像" /> <!-- NPCIndex:660 -->
+	<Option WorldID="50" Index="3" Group="1" Type="6" X="149" Y="88" Text="占领石像" /> <!-- NPCIndex:661 -->
+	<Option WorldID="50" Index="4" Group="1" Type="6" X="165" Y="101" Text="占领石像" /> <!-- NPCIndex:662 -->
+	<Option WorldID="50" Index="5" Group="1" Type="6" X="173" Y="65" Text="占领石像" /> <!-- NPCIndex:663 -->
+	<Option WorldID="50" Index="6" Group="1" Type="6" X="186" Y="79" Text="占领石像" /> <!-- NPCIndex:664 -->
+	<Option WorldID="50" Index="7" Group="1" Type="6" X="186" Y="51" Text="占领石像" /> <!-- NPCIndex:665 -->
+	<Option WorldID="50" Index="8" Group="1" Type="6" X="202" Y="66" Text="占领石像" /> <!-- NPCIndex:666 -->
+	<Option WorldID="50" Index="9" Group="1" Type="6" X="134" Y="121" Text="占领石像" /> <!-- NPCIndex:667 -->
+	<Option WorldID="50" Index="10" Group="1" Type="6" X="207" Y="47" Text="占领石像" /> <!-- NPCIndex:668 -->
+
+	<!-- 幻术园 传送 -->
+	<Option WorldID="51" Index="0" Group="0" Type="1" X="248" Y="149" Text="亚特兰蒂斯入口"/>
+	<Option WorldID="51" Index="1" Group="0" Type="1" X="19" Y="27" Text="冰风谷入口"/>
+	<Option WorldID="51" Index="2" Group="0" Type="1" X="219" Y="120" Text="阿尼尔神殿入口"/>
+	<Option WorldID="51" Index="3" Group="0" Type="1" X="182" Y="195" Text="风暴之岛入口"/>
+
+	<!-- 幻术园  NPC -->
+	<Option WorldID="51" Index="4" Group="1" Type="2" X="37" Y="241" Text="塞尔维斯" /> <!-- NPCIndex:256 -->
+	<Option WorldID="51" Index="5" Group="1" Type="4" X="44" Y="229" Text="塞尔维亚" /> <!-- NPCIndex:415 -->
+	<Option WorldID="51" Index="6" Group="1" Type="3" X="29" Y="236" Text="雷亚" /> <!-- NPCIndex:416 -->
+	<Option WorldID="51" Index="7" Group="1" Type="4" X="36" Y="219" Text="摩尔塞" /> <!-- NPCIndex:417 -->
+	<Option WorldID="51" Index="8" Group="1" Type="1" X="43" Y="191" Text="幻影导师" /> <!-- NPCIndex:257 -->
+	<Option WorldID="51" Index="9" Group="1" Type="1" X="57" Y="232" Text="幻影导师" /> <!-- NPCIndex:257 -->
+	<Option WorldID="51" Index="10" Group="1" Type="1" X="73" Y="220" Text="幻影导师" /> <!-- NPCIndex:257 -->
+	<Option WorldID="51" Index="11" Group="1" Type="5" X="50" Y="229" Text="仓库使者塞弗特" /> <!-- NPCIndex:240 -->
+	<Option WorldID="51" Index="12" Group="1" Type="2" X="46" Y="243" Text="荧之石管理员" /> <!-- NPCIndex:452 -->
+	<Option WorldID="51" Index="13" Group="1" Type="2" X="22" Y="225" Text="摩斯" /> <!-- NPCIndex:492 -->
+	<Option WorldID="51" Index="14" Group="1" Type="2" X="55" Y="199" Text="杰罗" /> <!-- NPCIndex:568 -->
+	<Option WorldID="51" Index="15" Group="1" Type="2" X="24" Y="229" Text="莫妮卡" /> <!-- NPCIndex:682 -->
+	<Option WorldID="51" Index="16" Group="1" Type="2" X="31" Y="240" Text="祭司 詹姆斯" /> <!-- NPCIndex:725 -->
+	<Option WorldID="51" Index="17" Group="1" Type="2" X="37" Y="215" Text="艾德尼" /> <!-- NPCIndex:582 -->
+	
+	<!-- 安宁池 传送 -->
+	<Option WorldID="56" Index="0" Group="0" Type="1" X="139" Y="125" Text="狩猎场入口1"/>
+	<Option WorldID="56" Index="1" Group="0" Type="1" X="124" Y="109" Text="狩猎场入口2"/>
+	<Option WorldID="56" Index="2" Group="0" Type="1" X="140" Y="95" Text="狩猎场入口3"/>
+	<Option WorldID="56" Index="3" Group="0" Type="1" X="150" Y="109" Text="狩猎场入口4"/>
+	<Option WorldID="56" Index="4" Group="0" Type="1" X="185" Y="188" Text="安全区入口"/>
+	<Option WorldID="56" Index="5" Group="0" Type="1" X="56" Y="177" Text="安全区入口"/>
+	<Option WorldID="56" Index="6" Group="0" Type="1" X="68" Y="52" Text="安全区入口"/>
+	<Option WorldID="56" Index="7" Group="0" Type="1" X="197" Y="13" Text="安全区入口"/>
+	
+	<!-- 冰霜之城 传送 -->
+	<Option WorldID="57" Index="0" Group="0" Type="1" X="224" Y="214" Text="冰风谷入口"/>
+	<Option WorldID="57" Index="1" Group="0" Type="1" X="169" Y="22" Text="孵化魔地入口"/>
+	<Option WorldID="57" Index="2" Group="0" Type="1" X="210" Y="226" Text="尼克西斯之湖入口"/>
+	
+	<!-- 圣诞村 NPC -->
+	<Option WorldID="62" Index="0" Group="1" Type="2" X="202" Y="41" Text="雪人" /> <!-- NPCIndex:467 -->
+	<Option WorldID="62" Index="1" Group="1" Type="4" X="234" Y="38" Text="圣诞老人" /> <!-- NPCIndex:465 -->
+	<Option WorldID="62" Index="2" Group="1" Type="4" X="222" Y="24" Text="假扮的圣诞老人1" /> <!-- NPCIndex:468 -->
+	<Option WorldID="62" Index="3" Group="1" Type="4" X="202" Y="33" Text="假扮的圣诞老人2" /> <!-- NPCIndex:469 -->
+	<Option WorldID="62" Index="4" Group="1" Type="4" X="192" Y="24" Text="假扮的圣诞老人3" /> <!-- NPCIndex:470 -->
+	<Option WorldID="62" Index="5" Group="1" Type="4" X="207" Y="9" Text="假扮的圣诞老人4" /> <!-- NPCIndex:471 -->
+	<Option WorldID="62" Index="6" Group="1" Type="4" X="225" Y="11" Text="假扮的圣诞老人5" /> <!-- NPCIndex:472 -->
+	<Option WorldID="62" Index="7" Group="1" Type="4" X="232" Y="13" Text="假扮的圣诞老人6" /> <!-- NPCIndex:473 -->
+	<Option WorldID="62" Index="8" Group="1" Type="4" X="216" Y="19" Text="假扮的圣诞老人7" /> <!-- NPCIndex:474 -->
+	<Option WorldID="62" Index="9" Group="1" Type="4" X="193" Y="27" Text="假扮的圣诞老人8" /> <!-- NPCIndex:475 -->
+	
+	<!-- 囚禁之岛 传送 -->
+	<Option WorldID="63" Index="0" Group="0" Type="1" X="33" Y="15" Text="伊格尼斯火山入口"/>
+	
+	<!-- 囚禁之岛 NPC -->
+	<Option WorldID="63" Index="1" Group="1" Type="2" X="122" Y="135" Text="门卫泰徒斯" /> <!-- NPCIndex:479 -->
+		
+	<!-- 罗兰市场 NPC -->
+	<Option WorldID="79" Index="0" Group="1" Type="5" X="45" Y="75" Text="仓库使者塞弗特" /> <!-- NPCIndex:240 -->
+	<Option WorldID="79" Index="1" Group="1" Type="5" X="77" Y="45" Text="仓库使者塞弗特" /> <!-- NPCIndex:240 -->
+	<Option WorldID="79" Index="2" Group="1" Type="4" X="60" Y="39" Text="宝石商人 罗尔" /> <!-- NPCIndex:546 -->
+	<Option WorldID="79" Index="3" Group="1" Type="4" X="43" Y="46" Text="杂货商人 克里斯丁" /> <!-- NPCIndex:545 -->
+	<Option WorldID="79" Index="4" Group="1" Type="2" X="53" Y="72" Text="市场传送师 朱丽亚" /> <!-- NPCIndex:547 -->
+	<Option WorldID="79" Index="5" Group="1" Type="2" X="38" Y="64" Text="个人商店公告栏" /> <!-- NPCIndex:651 -->
+	<Option WorldID="79" Index="6" Group="1" Type="2" X="68" Y="73" Text="个人商店公告栏" /> <!-- NPCIndex:651 -->
+	<Option WorldID="79" Index="8" Group="1" Type="2" X="14" Y="59" Text="陆迦德" /> <!-- NPCIndex:540 -->
+	<Option WorldID="79" Index="9" Group="1" Type="2" X="14" Y="67" Text="弥拉丘" /> <!-- NPCIndex:385 -->
+	<Option WorldID="79" Index="10" Group="1" Type="2" X="44" Y="62" Text="艾琳" /> <!-- NPCIndex:669 -->
+	
+	<!-- 活动地图广场 NPC -->
+	<Option WorldID="79" Index="11" Group="1" Type="2" X="186" Y="93" Text="大天使的使者" /> <!-- NPCIndex:719 -->
+	<Option WorldID="79" Index="12" Group="1" Type="2" X="221" Y="95" Text="卡隆" /> <!-- NPCIndex:720 -->
+	<Option WorldID="79" Index="13" Group="1" Type="2" X="168" Y="57" Text="陆迦德" /> <!-- NPCIndex:723 -->
+	<Option WorldID="79" Index="14" Group="1" Type="5" X="197" Y="66" Text="仓库使者塞弗特" /> <!-- NPCIndex:240 -->
+	<Option WorldID="79" Index="15" Group="1" Type="5" X="169" Y="51" Text="仓库使者塞弗特" /> <!-- NPCIndex:240 -->
+	<Option WorldID="79" Index="16" Group="1" Type="5" X="230" Y="97" Text="仓库使者塞弗特" /> <!-- NPCIndex:240 -->
+	<Option WorldID="79" Index="17" Group="1" Type="5" X="185" Y="89" Text="仓库使者塞弗特" /> <!-- NPCIndex:240 -->
+	<Option WorldID="79" Index="18" Group="1" Type="5" X="188" Y="16" Text="仓库使者塞弗特" /> <!-- NPCIndex:240 -->
+	<Option WorldID="79" Index="19" Group="1" Type="5" X="234" Y="23" Text="仓库使者塞弗特" /> <!-- NPCIndex:240 -->
+	<Option WorldID="79" Index="20" Group="1" Type="4" X="215" Y="56" Text="祭司 詹姆斯" /> <!-- NPCIndex:725 -->
+	<Option WorldID="79" Index="21" Group="1" Type="2" X="217" Y="62" Text="玛雅哥布林" /> <!-- NPCIndex:238 -->
+	<Option WorldID="79" Index="22" Group="1" Type="4" X="208" Y="62" Text="老板娘 莉雅" /> <!-- NPCIndex:255 -->
+	<Option WorldID="79" Index="23" Group="1" Type="2" X="194" Y="95" Text="玛雅哥布林" /> <!-- NPCIndex:238 -->
+	<Option WorldID="79" Index="24" Group="1" Type="4" X="190" Y="95" Text="老板娘 莉雅" /> <!-- NPCIndex:255 -->
+	<Option WorldID="79" Index="25" Group="1" Type="2" X="226" Y="96" Text="玛雅哥布林" /> <!-- NPCIndex:238 -->
+	<Option WorldID="79" Index="26" Group="1" Type="4" X="228" Y="93" Text="老板娘 莉雅" /> <!-- NPCIndex:255 -->
+	<Option WorldID="79" Index="27" Group="1" Type="2" X="230" Y="30" Text="玛雅哥布林" /> <!-- NPCIndex:238 -->
+	<Option WorldID="79" Index="28" Group="1" Type="4" X="231" Y="23" Text="老板娘 莉雅" /> <!-- NPCIndex:255 -->
+	<Option WorldID="79" Index="29" Group="1" Type="4" X="194" Y="13" Text="老板娘 莉雅" /> <!-- NPCIndex:255 -->
+	<Option WorldID="79" Index="30" Group="1" Type="4" X="169" Y="53" Text="老板娘 莉雅" /> <!-- NPCIndex:255 -->
+	<Option WorldID="79" Index="31" Group="1" Type="4" X="208" Y="62" Text="老板娘 莉雅" /> <!-- NPCIndex:255 -->
+	<Option WorldID="79" Index="32" Group="1" Type="4" X="208" Y="62" Text="老板娘 莉雅" /> <!-- NPCIndex:255 -->
+	<Option WorldID="79" Index="33" Group="1" Type="4" X="190" Y="95" Text="老板娘 莉雅" /> <!-- NPCIndex:255 -->
+	<Option WorldID="79" Index="34" Group="1" Type="4" X="226" Y="94" Text="老板娘 莉雅" /> <!-- NPCIndex:255 -->
+	<Option WorldID="79" Index="35" Group="1" Type="2" X="188" Y="21" Text="弥拉丘" /> <!-- NPCIndex:722 -->
+	<Option WorldID="79" Index="36" Group="1" Type="2" X="198" Y="49" Text="市场传送师 朱丽亚" /> <!-- NPCIndex:547 -->
+	<Option WorldID="79" Index="37" Group="1" Type="2" X="236" Y="59" Text="时空之门" /> <!-- NPCIndex:758 -->
+	<Option WorldID="79" Index="38" Group="1" Type="2" X="46" Y="52" Text="迈特" /> <!-- NPCIndex:643 -->
+	
+	<!-- 卡伦特 1 传送 -->
+	<Option WorldID="80" Index="0" Group="0" Type="1" X="115" Y="45" Text="幽暗森林入口"/>
+	<Option WorldID="80" Index="1" Group="0" Type="1" X="187" Y="212" Text="卡伦特北部入口"/>
+	
+	<!-- 卡伦特 NPC -->
+	<Option WorldID="80" Index="0" Group="1" Type="4" X="121" Y="102" Text="蕾娜" /> <!-- NPCIndex:577 -->
+	<Option WorldID="80" Index="1" Group="1" Type="3" X="117" Y="126" Text="贝莱" /> <!-- NPCIndex:578 -->
+	<Option WorldID="80" Index="2" Group="1" Type="5" X="123" Y="132" Text="仓库使者塞弗特" /> <!-- NPCIndex:240 -->
+	<Option WorldID="80" Index="3" Group="1" Type="5" X="122" Y="96" Text="仓库使者塞弗特" /> <!-- NPCIndex:240 -->
+	<Option WorldID="80" Index="4" Group="1" Type="5" X="157" Y="127" Text="仓库使者塞弗特" /> <!-- NPCIndex:240 -->
+	
+	<!-- 卡伦特 2 传送 -->
+	<Option WorldID="81" Index="0" Group="0" Type="1" X="162" Y="9" Text="卡伦特南部入口"/>
+	<Option WorldID="81" Index="1" Group="0" Type="1" X="76" Y="65" Text="深渊卡伦特入口"/>
+	
+	<!-- 阿卡伦 传送 -->
+	<Option WorldID="91" Index="0" Group="0" Type="1" X="28" Y="169" Text="阿卡伦入口"/>
+	<Option WorldID="91" Index="1" Group="0" Type="1" X="80" Y="205" Text="远古地区入口"/>
+	<Option WorldID="91" Index="2" Group="0" Type="1" X="52" Y="162" Text="德班泰尔入口"/>
+	<Option WorldID="91" Index="3" Group="0" Type="1" X="64" Y="220" Text="乌克尔山入口"/>
+	<Option WorldID="91" Index="4" Group="0" Type="1" X="115" Y="168" Text="阿卡伦入口"/>
+	<Option WorldID="91" Index="5" Group="0" Type="1" X="146" Y="206" Text="阿卡伦入口"/>
+	<Option WorldID="91" Index="6" Group="0" Type="1" X="90" Y="182" Text="纳尔斯入口"/>
+	
+	<!-- 阿卡伦 NPC -->
+	<Option WorldID="91" Index="7" Group="1" Type="2" X="29" Y="210" Text="戴鲁西" /> <!-- NPCIndex:581 -->
+	<Option WorldID="91" Index="8" Group="1" Type="2" X="38" Y="216" Text="艾德尼" /> <!-- NPCIndex:582 -->
+	<Option WorldID="91" Index="9" Group="1" Type="4" X="56" Y="202" Text="真" /> <!-- NPCIndex:583 -->
+	<Option WorldID="91" Index="10" Group="1" Type="5" X="50" Y="184" Text="仓库使者塞弗特" /> <!-- NPCIndex:240 -->
+	
+	<!-- 阿卡伦[阿卡伦战役] NPC -->
+	<Option WorldID="92" Index="0" Group="1" Type="2" X="56" Y="202" Text="真" /> <!-- NPCIndex:604 -->
+	
+	<!-- 德班泰尔 传送 -->
+	<Option WorldID="95" Index="0" Group="0" Type="1" X="17" Y="107" Text="阿卡伦入口"/>
+
+	<!-- 幻影寺院生存之战 1 NPC -->
+	<Option WorldID="98" Index="0" Group="1" Type="6" X="169" Y="84" Text="咒诅石像" /> <!-- NPCIndex:658 -->
+	<Option WorldID="98" Index="1" Group="1" Type="6" X="136" Y="100" Text="占领石像" /> <!-- NPCIndex:659 -->
+	<Option WorldID="98" Index="2" Group="1" Type="6" X="150" Y="117" Text="占领石像" /> <!-- NPCIndex:660 -->
+	<Option WorldID="98" Index="3" Group="1" Type="6" X="149" Y="88" Text="占领石像" /> <!-- NPCIndex:661 -->
+	<Option WorldID="98" Index="4" Group="1" Type="6" X="165" Y="101" Text="占领石像" /> <!-- NPCIndex:662 -->
+	<Option WorldID="98" Index="5" Group="1" Type="6" X="173" Y="65" Text="占领石像" /> <!-- NPCIndex:663 -->
+	<Option WorldID="98" Index="6" Group="1" Type="6" X="186" Y="79" Text="占领石像" /> <!-- NPCIndex:664 -->
+	<Option WorldID="98" Index="7" Group="1" Type="6" X="186" Y="51" Text="占领石像" /> <!-- NPCIndex:665 -->
+	<Option WorldID="98" Index="8" Group="1" Type="6" X="202" Y="66" Text="占领石像" /> <!-- NPCIndex:666 -->
+	<Option WorldID="98" Index="9" Group="1" Type="6" X="134" Y="121" Text="占领石像" /> <!-- NPCIndex:667 -->
+	<Option WorldID="98" Index="10" Group="1" Type="6" X="207" Y="47" Text="占领石像" /> <!-- NPCIndex:668 -->
+	
+	<!-- 幻影寺院生存之战 2 NPC -->
+	<Option WorldID="99" Index="0" Group="1" Type="6" X="169" Y="84" Text="咒诅石像" /> <!-- NPCIndex:658 -->
+	<Option WorldID="99" Index="1" Group="1" Type="6" X="136" Y="100" Text="占领石像" /> <!-- NPCIndex:659 -->
+	<Option WorldID="99" Index="2" Group="1" Type="6" X="150" Y="117" Text="占领石像" /> <!-- NPCIndex:660 -->
+	<Option WorldID="99" Index="3" Group="1" Type="6" X="149" Y="88" Text="占领石像" /> <!-- NPCIndex:661 -->
+	<Option WorldID="99" Index="4" Group="1" Type="6" X="165" Y="101" Text="占领石像" /> <!-- NPCIndex:662 -->
+	<Option WorldID="99" Index="5" Group="1" Type="6" X="173" Y="65" Text="占领石像" /> <!-- NPCIndex:663 -->
+	<Option WorldID="99" Index="6" Group="1" Type="6" X="186" Y="79" Text="占领石像" /> <!-- NPCIndex:664 -->
+	<Option WorldID="99" Index="7" Group="1" Type="6" X="186" Y="51" Text="占领石像" /> <!-- NPCIndex:665 -->
+	<Option WorldID="99" Index="8" Group="1" Type="6" X="202" Y="66" Text="占领石像" /> <!-- NPCIndex:666 -->
+	<Option WorldID="99" Index="9" Group="1" Type="6" X="134" Y="121" Text="占领石像" /> <!-- NPCIndex:667 -->
+	<Option WorldID="99" Index="10" Group="1" Type="6" X="207" Y="47" Text="占领石像" /> <!-- NPCIndex:668 -->
+		
+	<!-- 乌克尔山 传送 -->
+	<Option WorldID="100" Index="0" Group="0" Type="1" X="24" Y="90" Text="阿卡伦入口"/>
+	<Option WorldID="100" Index="1" Group="0" Type="1" X="40" Y="82" Text="蓝色传送门"/>
+	<Option WorldID="100" Index="2" Group="0" Type="1" X="212" Y="32" Text="蓝色传送门"/>
+	<Option WorldID="100" Index="3" Group="0" Type="1" X="41" Y="98" Text="红色传送门"/>
+	<Option WorldID="100" Index="4" Group="0" Type="1" X="109" Y="230" Text="红色传送门"/>
+	
+	<!-- 纳尔斯 传送 -->
+	<Option WorldID="110" Index="0" Group="0" Type="1" X="210" Y="190" Text="阿卡伦入口"/>
+	<Option WorldID="110" Index="1" Group="0" Type="1" X="178" Y="148" Text="马格里姆巢穴入口"/>
+	<Option WorldID="110" Index="2" Group="0" Type="1" X="131" Y="172" Text="马格里姆巢穴入口"/>
+	<Option WorldID="110" Index="3" Group="0" Type="1" X="179" Y="185" Text="红色传送门"/>
+	<Option WorldID="110" Index="4" Group="0" Type="1" X="127" Y="34" Text="红色传送门"/>
+	<Option WorldID="110" Index="5" Group="0" Type="1" X="179" Y="211" Text="蓝色传送门"/>
+	<Option WorldID="110" Index="6" Group="0" Type="1" X="37" Y="195" Text="蓝色传送门"/>
+	
+	<!-- 菲利亚 传送 -->
+	<Option WorldID="112" Index="0" Group="0" Type="1" X="60" Y="112" Text="Boss区入口"/>
+	<Option WorldID="112" Index="1" Group="0" Type="1" X="232" Y="175" Text="死亡沙漠入口"/>
+	<Option WorldID="112" Index="2" Group="0" Type="1" X="196" Y="179" Text="红色传送门"/>
+	<Option WorldID="112" Index="3" Group="0" Type="1" X="99" Y="71" Text="红色传送门"/>
+	<Option WorldID="112" Index="4" Group="0" Type="1" X="80" Y="236" Text="蓝色传送门"/>
+	<Option WorldID="112" Index="5" Group="0" Type="1" X="196" Y="142" Text="蓝色传送门"/>
+	
+	<!-- 尼克西斯之湖 传送 -->
+	<Option WorldID="113" Index="0" Group="0" Type="1" X="16" Y="124" Text="冰霜之城入口"/>
+	<Option WorldID="113" Index="1" Group="0" Type="1" X="66" Y="114" Text="传送门 1"/>
+	<Option WorldID="113" Index="2" Group="0" Type="1" X="145" Y="95" Text="传送门 2"/>
+	<Option WorldID="113" Index="3" Group="0" Type="1" X="113" Y="109" Text="Boss区入口"/>
+	
+	<!-- 活动广场 NPC -->
+	<Option WorldID="114" Index="0" Group="1" Type="2" X="186" Y="93" Text="大天使的使者" /> <!-- NPCIndex:719 -->
+	<Option WorldID="114" Index="1" Group="1" Type="2" X="221" Y="95" Text="卡隆" /> <!-- NPCIndex:720 -->
+	<Option WorldID="114" Index="2" Group="1" Type="2" X="171" Y="239" Text="辅佐官 杰林特" /> <!-- NPCIndex:522 -->
+	<Option WorldID="114" Index="3" Group="1" Type="2" X="168" Y="57" Text="陆迦德" /> <!-- NPCIndex:723 -->
+	<Option WorldID="114" Index="4" Group="1" Type="5" X="197" Y="66" Text="仓库使者塞弗特" /> <!-- NPCIndex:240 -->
+	<Option WorldID="114" Index="5" Group="1" Type="5" X="169" Y="51" Text="仓库使者塞弗特" /> <!-- NPCIndex:240 -->
+	<Option WorldID="114" Index="6" Group="1" Type="5" X="230" Y="97" Text="仓库使者塞弗特" /> <!-- NPCIndex:240 -->
+	<Option WorldID="114" Index="7" Group="1" Type="5" X="185" Y="89" Text="仓库使者塞弗特" /> <!-- NPCIndex:240 -->
+	<Option WorldID="114" Index="8" Group="1" Type="5" X="188" Y="16" Text="仓库使者塞弗特" /> <!-- NPCIndex:240 -->
+	<Option WorldID="114" Index="9" Group="1" Type="5" X="234" Y="23" Text="仓库使者塞弗特" /> <!-- NPCIndex:240 -->
+	<Option WorldID="114" Index="10" Group="1" Type="4" X="215" Y="56" Text="祭司 詹姆斯" /> <!-- NPCIndex:725 -->
+	<Option WorldID="114" Index="11" Group="1" Type="2" X="217" Y="62" Text="玛雅哥布林" /> <!-- NPCIndex:238 -->
+	<Option WorldID="114" Index="12" Group="1" Type="4" X="208" Y="62" Text="老板娘 莉雅" /> <!-- NPCIndex:255 -->
+	<Option WorldID="114" Index="13" Group="1" Type="2" X="194" Y="95" Text="玛雅哥布林" /> <!-- NPCIndex:238 -->
+	<Option WorldID="114" Index="14" Group="1" Type="4" X="190" Y="95" Text="老板娘 莉雅" /> <!-- NPCIndex:255 -->
+	<Option WorldID="114" Index="15" Group="1" Type="2" X="226" Y="96" Text="玛雅哥布林" /> <!-- NPCIndex:238 -->
+	<Option WorldID="114" Index="16" Group="1" Type="4" X="228" Y="93" Text="老板娘 莉雅" /> <!-- NPCIndex:255 -->
+	<Option WorldID="114" Index="17" Group="1" Type="2" X="230" Y="30" Text="玛雅哥布林" /> <!-- NPCIndex:238 -->
+	<Option WorldID="114" Index="18" Group="1" Type="4" X="231" Y="23" Text="老板娘 莉雅" /> <!-- NPCIndex:255 -->
+	<Option WorldID="114" Index="19" Group="1" Type="4" X="194" Y="13" Text="老板娘 莉雅" /> <!-- NPCIndex:255 -->
+	<Option WorldID="114" Index="20" Group="1" Type="4" X="169" Y="53" Text="老板娘 莉雅" /> <!-- NPCIndex:255 -->
+	<Option WorldID="114" Index="21" Group="1" Type="4" X="208" Y="62" Text="老板娘 莉雅" /> <!-- NPCIndex:255 -->
+	<Option WorldID="114" Index="22" Group="1" Type="4" X="208" Y="62" Text="老板娘 莉雅" /> <!-- NPCIndex:255 -->
+	<Option WorldID="114" Index="23" Group="1" Type="4" X="190" Y="95" Text="老板娘 莉雅" /> <!-- NPCIndex:255 -->
+	<Option WorldID="114" Index="24" Group="1" Type="4" X="226" Y="94" Text="老板娘 莉雅" /> <!-- NPCIndex:255 -->
+	<Option WorldID="114" Index="25" Group="1" Type="2" X="240" Y="239" Text="赛安特(进入地下城)" /> <!-- NPCIndex:765 -->
+	
+	<!-- 暗黑之沼泽 传送 -->
+	<Option WorldID="122" Index="0" Group="0" Type="1" X="133" Y="104" Text="暗之门(安全区)"/>
+	<Option WorldID="122" Index="1" Group="0" Type="1" X="134" Y="73" Text="暗之门"/>
+	<Option WorldID="122" Index="2" Group="0" Type="1" X="118" Y="114" Text="土之门(安全区)"/>
+	<Option WorldID="122" Index="3" Group="0" Type="1" X="93" Y="106" Text="土之门"/>
+	<Option WorldID="122" Index="4" Group="0" Type="1" X="127" Y="127" Text="火之门(安全区)"/>
+	<Option WorldID="122" Index="5" Group="0" Type="1" X="108" Y="156" Text="火之门"/>
+	<Option WorldID="122" Index="6" Group="0" Type="1" X="143" Y="129" Text="风之门(安全区)"/>
+	<Option WorldID="122" Index="7" Group="0" Type="1" X="158" Y="150" Text="风之门"/>
+	<Option WorldID="122" Index="8" Group="0" Type="1" X="148" Y="113" Text="水之门(安全区)"/>
+	<Option WorldID="122" Index="9" Group="0" Type="1" X="178" Y="102" Text="水之门"/>
+	<Option WorldID="122" Index="10" Group="0" Type="1" X="242" Y="89" Text="Boss区入口"/>
+	
+	<!-- 库贝拉矿山[火] 传送 -->
+	<Option WorldID="123" Index="0" Group="0" Type="1" X="233" Y="87" Text="冰风谷入口"/>
+	<Option WorldID="123" Index="1" Group="0" Type="1" X="209" Y="69" Text="元素之门 (B)"/>
+	<Option WorldID="123" Index="2" Group="0" Type="1" X="214" Y="110" Text="火之门 (A)"/>
+	<Option WorldID="123" Index="3" Group="0" Type="1" X="217" Y="129" Text="水之门 (A)"/>
+	<Option WorldID="123" Index="4" Group="0" Type="1" X="236" Y="132" Text="土之门 (A)"/>
+	<Option WorldID="123" Index="5" Group="0" Type="1" X="216" Y="119" Text="风之门 (A)"/>
+	<Option WorldID="123" Index="6" Group="0" Type="1" X="227" Y="130" Text="暗之门 (A)"/>
+	
+	<!-- 库贝拉矿山[水] 传送 -->
+	<Option WorldID="124" Index="0" Group="0" Type="1" X="233" Y="87" Text="冰风谷入口"/>
+	<Option WorldID="124" Index="1" Group="0" Type="1" X="209" Y="69" Text="元素之门 (B)"/>
+	<Option WorldID="124" Index="2" Group="0" Type="1" X="214" Y="110" Text="火之门 (A)"/>
+	<Option WorldID="124" Index="3" Group="0" Type="1" X="217" Y="129" Text="水之门 (A)"/>
+	<Option WorldID="124" Index="4" Group="0" Type="1" X="236" Y="132" Text="土之门 (A)"/>
+	<Option WorldID="124" Index="5" Group="0" Type="1" X="216" Y="119" Text="风之门 (A)"/>
+	<Option WorldID="124" Index="6" Group="0" Type="1" X="227" Y="130" Text="暗之门 (A)"/>
+	
+	<!-- 库贝拉矿山[土] 传送 -->
+	<Option WorldID="125" Index="0" Group="0" Type="1" X="233" Y="87" Text="冰风谷入口"/>
+	<Option WorldID="125" Index="1" Group="0" Type="1" X="209" Y="69" Text="元素之门 (B)"/>
+	<Option WorldID="125" Index="1" Group="0" Type="1" X="214" Y="110" Text="火之门 (A)"/>
+	<Option WorldID="125" Index="3" Group="0" Type="1" X="217" Y="129" Text="水之门 (A)"/>
+	<Option WorldID="125" Index="4" Group="0" Type="1" X="236" Y="132" Text="土之门 (A)"/>
+	<Option WorldID="125" Index="5" Group="0" Type="1" X="216" Y="119" Text="风之门 (A)"/>
+	<Option WorldID="125" Index="6" Group="0" Type="1" X="227" Y="130" Text="暗之门 (A)"/>
+	
+	<!-- 库贝拉矿山[风] 传送 -->
+	<Option WorldID="126" Index="0" Group="0" Type="1" X="233" Y="87" Text="冰风谷入口"/>
+	<Option WorldID="126" Index="1" Group="0" Type="1" X="209" Y="69" Text="元素之门 (B)"/>
+	<Option WorldID="126" Index="2" Group="0" Type="1" X="214" Y="110" Text="火之门 (A)"/>
+	<Option WorldID="126" Index="3" Group="0" Type="1" X="217" Y="129" Text="水之门 (A)"/>
+	<Option WorldID="126" Index="4" Group="0" Type="1" X="236" Y="132" Text="土之门 (A)"/>
+	<Option WorldID="126" Index="5" Group="0" Type="1" X="216" Y="119" Text="风之门 (A)"/>
+	<Option WorldID="126" Index="6" Group="0" Type="1" X="227" Y="130" Text="暗之门 (A)"/>
+	
+	<!-- 库贝拉矿山[暗] 传送 -->
+	<Option WorldID="127" Index="0" Group="0" Type="1" X="233" Y="87" Text="冰风谷入口"/>
+	<Option WorldID="127" Index="1" Group="0" Type="1" X="209" Y="69" Text="元素之门 (B)"/>
+	<Option WorldID="127" Index="2" Group="0" Type="1" X="214" Y="110" Text="火之门 (A)"/>
+	<Option WorldID="127" Index="3" Group="0" Type="1" X="217" Y="129" Text="水之门 (A)"/>
+	<Option WorldID="127" Index="4" Group="0" Type="1" X="236" Y="132" Text="土之门 (A)"/>
+	<Option WorldID="127" Index="5" Group="0" Type="1" X="216" Y="119" Text="风之门 (A)"/>
+	<Option WorldID="127" Index="6" Group="0" Type="1" X="227" Y="130" Text="暗之门 (A)"/>
+	
+	<!-- 深渊之亚特兰蒂斯 3 传送 -->
+	<Option WorldID="130" Index="0" Group="0" Type="1" X="36" Y="95" Text="暗元素精英区域"/>
+	<Option WorldID="130" Index="1" Group="0" Type="1" X="78" Y="218" Text="土元素精英区域"/>
+	<Option WorldID="130" Index="2" Group="0" Type="1" X="184" Y="212" Text="火元素精英区域"/>
+	<Option WorldID="130" Index="3" Group="0" Type="1" X="217" Y="100" Text="风元素精英区域"/>
+	<Option WorldID="130" Index="4" Group="0" Type="1" X="132" Y="24" Text="水元素精英区域"/>
+	
+	<!-- 焦蛇峡谷 传送 -->
+	<Option WorldID="131" Index="0" Group="0" Type="1" X="209" Y="43" Text="红色传送门 (A)"/>
+	<Option WorldID="131" Index="1" Group="0" Type="1" X="143" Y="208" Text="红色传送门 (B)"/>
+	<Option WorldID="131" Index="2" Group="0" Type="1" X="196" Y="27" Text="蓝色传送门 (A)"/>
+	<Option WorldID="131" Index="3" Group="0" Type="1" X="76" Y="75" Text="蓝色传送门 (B)"/>
+	<Option WorldID="131" Index="4" Group="0" Type="1" X="205" Y="141" Text="土元素精英区域"/>
+	<Option WorldID="131" Index="5" Group="0" Type="1" X="205" Y="219" Text="火元素精英区域"/>
+	<Option WorldID="131" Index="6" Group="0" Type="1" X="38" Y="198" Text="暗元素精英区域"/>
+	<Option WorldID="131" Index="7" Group="0" Type="1" X="42" Y="117" Text="风元素精英区域"/>
+	<Option WorldID="131" Index="8" Group="0" Type="1" X="62" Y="30" Text="水元素精英区域"/>
+	
+	<!-- 红烟之天空之城 传送 -->
+	<Option WorldID="132" Index="0" Group="0" Type="1" X="120" Y="117" Text="火元素区域"/>
+	<Option WorldID="132" Index="1" Group="0" Type="1" X="120" Y="132" Text="水元素区域"/>
+	<Option WorldID="132" Index="2" Group="0" Type="1" X="127" Y="110" Text="土元素区域"/>
+	<Option WorldID="132" Index="3" Group="0" Type="1" X="129" Y="135" Text="风元素区域"/>
+	<Option WorldID="132" Index="4" Group="0" Type="1" X="134" Y="127" Text="暗元素区域"/>
+	
+	<!-- 阿尼尔神殿 传送 -->
+	<Option WorldID="133" Index="0" Group="0" Type="1" X="128" Y="20" Text="传送门 (A)"/>
+	<Option WorldID="133" Index="1" Group="0" Type="1" X="125" Y="195" Text="传送门 (B)"/>
+	<Option WorldID="133" Index="2" Group="0" Type="1" X="130" Y="55" Text="安全区"/>
+	<Option WorldID="133" Index="3" Group="0" Type="1" X="98" Y="193" Text="火元素区域"/>
+	<Option WorldID="133" Index="4" Group="0" Type="1" X="125" Y="143" Text="水元素区域"/>
+	<Option WorldID="133" Index="5" Group="0" Type="1" X="140" Y="33" Text="土元素区域"/>
+	<Option WorldID="133" Index="6" Group="0" Type="1" X="155" Y="193" Text="风元素区域"/>
+	<Option WorldID="133" Index="7" Group="0" Type="1" X="115" Y="33" Text="暗元素区域"/>
+	<Option WorldID="133" Index="8" Group="0" Type="1" X="47" Y="202" Text="火元素精英区域"/>
+	<Option WorldID="133" Index="9" Group="0" Type="1" X="152" Y="130" Text="水元素精英区域"/>
+	<Option WorldID="133" Index="10" Group="0" Type="1" X="211" Y="26" Text="土元素精英区域"/>
+	<Option WorldID="133" Index="11" Group="0" Type="1" X="170" Y="216" Text="风元素精英区域"/>
+	<Option WorldID="133" Index="12" Group="0" Type="1" X="60" Y="35" Text="暗元素精英区域"/>
+	
+	<!-- 暗魂之森 传送 -->
+	<Option WorldID="134" Index="0" Group="0" Type="1" X="20" Y="59" Text="火元素精英区域"/>
+	<Option WorldID="134" Index="1" Group="0" Type="1" X="47" Y="108" Text="水元素精英区域"/>
+	<Option WorldID="134" Index="2" Group="0" Type="1" X="168" Y="169" Text="土元素精英区域"/>
+	<Option WorldID="134" Index="3" Group="0" Type="1" X="97" Y="161" Text="风元素精英区域"/>
+	<Option WorldID="134" Index="4" Group="0" Type="1" X="226" Y="130" Text="暗元素精英区域"/>
+	
+	<!-- 坎特鲁地下基地 传送 -->
+	<Option WorldID="137" Index="0" Group="0" Type="1" X="40" Y="38" Text="火元素精英区域"/>
+	<Option WorldID="137" Index="1" Group="0" Type="1" X="18" Y="215" Text="水元素精英区域"/>
+	<Option WorldID="137" Index="2" Group="0" Type="1" X="124" Y="10" Text="土元素精英区域"/>
+	<Option WorldID="137" Index="3" Group="0" Type="1" X="225" Y="212" Text="风元素精英区域"/>
+	<Option WorldID="137" Index="4" Group="0" Type="1" X="235" Y="11" Text="暗元素精英区域"/>
+	
+	<!-- 伊格尼斯火山 传送 -->
+	<Option WorldID="138" Index="0" Group="0" Type="1" X="171" Y="40" Text="火元素精英区域"/>
+	<Option WorldID="138" Index="1" Group="0" Type="1" X="30" Y="135" Text="水元素精英区域"/>
+	<Option WorldID="138" Index="2" Group="0" Type="1" X="105" Y="37" Text="土元素精英区域"/>
+	<Option WorldID="138" Index="3" Group="0" Type="1" X="47" Y="223" Text="风元素精英区域"/>
+	<Option WorldID="138" Index="4" Group="0" Type="1" X="214" Y="196" Text="暗元素精英区域"/>
+	<Option WorldID="138" Index="5" Group="0" Type="1" X="119" Y="116" Text="囚禁之岛入口"/>
+	
+	<!-- 猩红沙漠 传送 -->
+	<Option WorldID="140" Index="0" Group="0" Type="1" X="29" Y="48" Text="火元素精英区域"/>
+	<Option WorldID="140" Index="1" Group="0" Type="1" X="234" Y="221" Text="水元素精英区域"/>
+	<Option WorldID="140" Index="2" Group="0" Type="1" X="86" Y="109" Text="土元素精英区域"/>
+	<Option WorldID="140" Index="3" Group="0" Type="1" X="30" Y="217" Text="风元素精英区域"/>
+	<Option WorldID="140" Index="4" Group="0" Type="1" X="228" Y="27" Text="暗元素精英区域"/>
+	<Option WorldID="140" Index="5" Group="0" Type="1" X="139" Y="59" Text="传送门 (A)"/>
+	<Option WorldID="140" Index="6" Group="0" Type="1" X="163" Y="165" Text="传送门 (B)"/>
+	<Option WorldID="140" Index="7" Group="0" Type="1" X="134" Y="21" Text="死亡沙漠入口"/>
+	
+	<!-- 风暴之岛 传送 -->
+	<Option WorldID="141" Index="0" Group="0" Type="1" X="151" Y="97" Text="火元素区域"/>
+	<Option WorldID="141" Index="1" Group="0" Type="1" X="161" Y="134" Text="水元素区域"/>
+	<Option WorldID="141" Index="2" Group="0" Type="1" X="98" Y="128" Text="土元素区域"/>
+	<Option WorldID="141" Index="3" Group="0" Type="1" X="114" Y="92" Text="风元素区域"/>
+	<Option WorldID="141" Index="4" Group="0" Type="1" X="129" Y="153" Text="暗元素区域"/>
+	<Option WorldID="141" Index="5" Group="0" Type="1" X="148" Y="233" Text="火元素精英区域"/>
+	<Option WorldID="141" Index="6" Group="0" Type="1" X="25" Y="198" Text="水元素精英区域"/>
+	<Option WorldID="141" Index="7" Group="0" Type="1" X="188" Y="11" Text="土元素精英区域"/>
+	<Option WorldID="141" Index="8" Group="0" Type="1" X="242" Y="158" Text="风元素精英区域"/>
+	<Option WorldID="141" Index="9" Group="0" Type="1" X="55" Y="15" Text="暗元素精英区域"/>
+	
+	<!-- 深渊卡伦特 传送 -->
+	<Option WorldID="142" Index="0" Group="0" Type="1" X="144" Y="131" Text="火元素区域"/>
+	<Option WorldID="142" Index="1" Group="0" Type="1" X="124" Y="145" Text="水元素区域"/>
+	<Option WorldID="142" Index="2" Group="0" Type="1" X="137" Y="113" Text="土元素区域"/>
+	<Option WorldID="142" Index="3" Group="0" Type="1" X="120" Y="107" Text="风元素区域"/>
+	<Option WorldID="142" Index="4" Group="0" Type="1" X="108" Y="127" Text="暗元素区域"/>
+	<Option WorldID="142" Index="5" Group="0" Type="1" X="226" Y="54" Text="火元素精英区域"/>
+	<Option WorldID="142" Index="6" Group="0" Type="1" X="224" Y="197" Text="水元素精英区域"/>
+	<Option WorldID="142" Index="7" Group="0" Type="1" X="122" Y="23" Text="土元素精英区域"/>
+	<Option WorldID="142" Index="8" Group="0" Type="1" X="25" Y="116" Text="风元素精英区域"/>
+	<Option WorldID="142" Index="9" Group="0" Type="1" X="88" Y="231" Text="暗元素精英区域"/>
+	<Option WorldID="142" Index="10" Group="0" Type="1" X="110" Y="115" Text="卡伦特入口"/>
+</MiniMap>

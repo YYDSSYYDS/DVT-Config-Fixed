@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==            File Name: WorldAreaRestriction             ==
+// ============================================================
+-->
+
+<WorldAreaRestriction>
+	<Area World="2" X="209" Y="30" Range="1" Flags="1" />
+	<Area World="2" X="219" Y="9" Range="1" Flags="1" />
+	<Area World="3" X="171" Y="104" Range="1" Flags="1" />
+	<Area World="11" X="10" Y="9" Range="1" Flags="1" />
+	<Area World="12" X="10" Y="9" Range="1" Flags="1" />
+	<Area World="13" X="10" Y="9" Range="1" Flags="1" />
+	<Area World="14" X="10" Y="9" Range="1" Flags="1" />
+	<Area World="15" X="10" Y="9" Range="1" Flags="1" />
+	<Area World="16" X="10" Y="9" Range="1" Flags="1" />
+	<Area World="17" X="10" Y="9" Range="1" Flags="1" />
+	<Area World="52" X="10" Y="9" Range="1" Flags="1" />
+	<Area World="79" X="202" Y="54" Range="41" Flags="8" />
+</WorldAreaRestriction>
