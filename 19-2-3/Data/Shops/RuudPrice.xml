@@ -180,4 +180,6 @@
 	<Item ItemCat="20" ItemIndex="161" Price="1200"/>
 	<Item ItemCat="20" ItemIndex="253" Price="50000"/>
 	<Item ItemCat="20" ItemIndex="257" Price="25000"/>
+	<Item ItemCat="20" ItemIndex="257" Price="25000"/>
+	<Item ItemCat="12" ItemIndex="97" Price="100000"/>
 </RuudPrice>

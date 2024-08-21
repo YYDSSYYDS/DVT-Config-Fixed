@@ -5,12 +5,22 @@
 // == 				   POWERED BY DV-Team				 	 ==
 // ==                  File Name: ShopList                   ==
 // ============================================================
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//	Type determines currency type to buy items from Shop 
+//	0: is zen
+//	1: and 4 is Ruud
+//	2: is WCoin
+//	3: is Goblin Points
+//	5: is Rare Ticket
+//	6: is Jewel of Bless
+//	7: is Jewel of Soul
+//	8: is Jewel of Chaos
 -->
 
 <ShopList>
-   	<Shop ID="0" Name="hanzo_the_blacksmith" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(0)_Hanzo_the_Blacksmith.xml" />
+   	<Shop ID="0" Name="hanzo_the_blacksmith" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(0)_Hanzo_the_Blacksmith.xml" />	
 	<Shop ID="1" Name="lumen_the_barmaid" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(1)_Lumen_the_Barmaid.xml" />
-	<Shop ID="2" Name="pasi_the_mage" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="5" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(2)_Pasi_the_Mage.xml" />
+	<Shop ID="2" Name="pasi_the_mage" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(2)_Pasi_the_Mage.xml" />
 	<Shop ID="3" Name="wandering_merchant" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(3)_Wandering_Merchant.xml" />
 	<Shop ID="4" Name="wandering_merchant_alex" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(4)_Wandering_Merchant_Alex.xml" />
 	<Shop ID="5" Name="lotion_girl_amy" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(5)_Lotion_Girl_Amy.xml" />
@@ -19,24 +29,19 @@
 	<Shop ID="8" Name="weapons_merchant_zienna" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(8)_Weapons_Merchant_Zienna.xml" />
 	<Shop ID="9" Name="eo_the_craftsman" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(9)_Eo_the_Craftsman.xml" />
 	<Shop ID="10" Name="elf_lala" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(10)_Elf_Lala.xml" />
-	<Shop ID="11" Name="elf_lala" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(10)_Elf_Lala.xml" />
-	<Shop ID="12" Name="thomson_channel" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(12)_Thomson_Channel.xml" />
-	<Shop ID="13" Name="shop_firework_girl" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(13)_FireWork_Girl.xml" />
-	<Shop ID="14" Name="kalima_potion" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(14)_Kalima_Potion.xml" />
+	<Shop ID="11" Name="wandering_merchant_herald" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(11)_Wandering_Merchant_Martin.xml" />
+	<Shop ID="12" Name="thompson_kenel" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(12)_Thompson_Kenel.xml" />
+	<Shop ID="13" Name="natasha_firecracker_merchant" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(13)_Natasha_Firecracker_Merchant.xml" />
+	<Shop ID="14" Name="oracle_layla" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(14)_Oracle_Layla.xml" />
 	<Shop ID="15" Name="siege_supplier" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(15)_Siege_Supplier.xml" />
-	<Shop ID="16" Name="stadium_guard" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(16)_Stadium_Guard.xml" />
-	<Shop ID="17" Name="elbeland_silvia" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(17)_Elbeland_Silvia.xml" />
-	<Shop ID="18" Name="elbeland_leah" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(18)_Elbeland_Leah.xml" />
-	<Shop ID="19" Name="elbeland_marseille" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(19)_Elbeland_Marseille.xml" />
-	<Shop ID="20" Name="loren_market_christine" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(20)_Loren_Market_Christine.xml" />
-	<Shop ID="21" Name="kalrutan_merchant_1" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(21)_Kalrutan_Merchant_1.xml" />
-	<Shop ID="22" Name="kalrutan_merchant_2" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(22)_Kalrutan_Merchant_2.xml" />
-	<Shop ID="23" Name="shop_personal_merchant" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(23)_Personal_Merchant.xml" />
-	<Shop ID="24" Name="shop_moss_merchant" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(24)_Moss_Merchant.xml" />
-	<Shop ID="25" Name="shop_champion_chest" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(25)_Champion_Chest.xml" />
-	<Shop ID="26" Name="shop_acheron_jin" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(26)_Acheron_Jin.xml" />
-	<Shop ID="27" Name="shop_battle_core_hp" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(27)_Battle_Core_Hp.xml" />
-	<Shop ID="28" Name="shop_battle_core_sd" MaxPkLevel="10" Message="" Flags="0" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(28)_Battle_Core_Sd.xml" />
-	<Shop ID="29" Name="wizard_gillard" MaxPkLevel="4" Message="这里已经没有物品或红名不可购买" Flags="5" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(29)_Wizard_Gillard.xml" /> 
+	<Shop ID="16" Name="arena_guard" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(16)_Arena_Guard.xml" />
+	<Shop ID="17" Name="silvia" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(17)_Silvia.xml" />
+	<Shop ID="18" Name="leah" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(18)_Leah.xml" />
+	<Shop ID="19" Name="marseille" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(19)_Marseille.xml" />
+	<Shop ID="20" Name="christine_the_merchant" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(20)_christine_the_merchant.xml" />
+	<Shop ID="21" Name="leina_the_merchant" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(21)_Leina_the_Merchant.xml" />
+	<Shop ID="22" Name="weapons_merchant_bolo" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(22)_Weapons_Merchant_Bolo.xml" />
+	<Shop ID="23" Name="jin" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(23)_Jin.xml" />
+	<Shop ID="24" Name="wizard_gillard" MaxPkLevel="4" Message="I don't sell anything to people like you." Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(24)_Wizard_Gillard.xml" /> 
 	<Shop ID="50" Name="ruud_shop" MaxPkLevel="10" Message="" Flags="0" Type="1" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(50)_Ruud_Shop.xml" />
 </ShopList>

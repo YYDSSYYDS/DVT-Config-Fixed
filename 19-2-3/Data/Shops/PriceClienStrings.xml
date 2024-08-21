@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==              File Name: PriceClienStrings              ==
+// ============================================================
+this records are constant count and always will be as is change only text text will be max 100 simbol in length
+-->
+
+<PriceSystem>
+	<Price ID="1" Text="Purchasing Ruud price: %s(%s)"  />
+	<Price ID="2" Text="Purchasing WCoin price: %s(%s)" />
+	<Price ID="3" Text="Purchasing GP price: %s(%s)" />
+	<Price ID="5" Text="Purchasing Rare Ticket price: %s(%s)" />
+	<Price ID="4" Text="Purchasing Ruud price: %s(%s)" />
+	<Price ID="6" Text="Purchasing Jewel of Bless price: %s(%s)" />
+	<Price ID="7" Text="Purchasing Jewel of Soul price: %s(%s)" />
+	<Price ID="8" Text="Purchasing Jewel of Chaos price: %s(%s)" />
+</PriceSystem>

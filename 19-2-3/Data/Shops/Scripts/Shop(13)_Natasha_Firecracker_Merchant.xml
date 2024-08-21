@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==   File Name: Shop(13)_Natasha_Firecracker_Merchant     ==
+// ============================================================
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//	ItemExel:
+//	ItemExel="-1":No excellence
+//	ItemExel="x;x;x;x;x;x;x;x;x":
+//	Fill in the excellent option number, Up to 9 excellent options, please refer to the ID in the ItemExcellentOptions.xml file.
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//	Price:If it is 0, then the price is automatically calculated by main, otherwise please fill in the specific price value.
+-->
+
+<ShopItem>
+	<Tab Id="1">
+		<Item ItemCat="14" ItemIndex="63" ItemLevel="0" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="0" />
+	</Tab>
+	<Tab Id="2">
+		<!-- Insert shop data here -->
+	</Tab>
+	<Tab Id="3">
+		<!-- Insert shop data here -->
+	</Tab>
+	<Tab Id="4">
+		<!-- Insert shop data here -->
+	</Tab>
+	<Tab Id="5">
+		<!-- Insert shop data here -->
+	</Tab>
+</ShopItem>
