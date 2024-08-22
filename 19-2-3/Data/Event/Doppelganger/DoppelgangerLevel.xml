@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==             File Name: DoppelgangerLevel               ==
+// ============================================================
+-->
+
+<DoppelgangerLevel>
+	<Data ID="0" LevelMin="50" LevelMax="399" Exp="900000" LarvaRate="4000" LarvaCount="5" SilverChest="Doppelganger - Silver Chest" GoldenChest="Double Goer - Golden Chest 101 - 200" />
+	<Data ID="1" LevelMin="400" LevelMax="599" Exp="1350000" LarvaRate="4000" LarvaCount="5" SilverChest="Doppelganger - Silver Chest" GoldenChest="Double Goer - Golden Chest 201 - 300" />
+	<Data ID="2" LevelMin="600" LevelMax="699" Exp="1750000" LarvaRate="4000" LarvaCount="5" SilverChest="Doppelganger - Silver Chest" GoldenChest="Double Goer - Golden Chest 301 - 400" />
+	<Data ID="3" LevelMin="700" LevelMax="799" Exp="2000000" LarvaRate="4000" LarvaCount="5" SilverChest="Doppelganger - Silver Chest" GoldenChest="Double Goer - Golden Chest 301 - 400" />
+	<Data ID="4" LevelMin="800" LevelMax="899" Exp="2500000" LarvaRate="4000" LarvaCount="5" SilverChest="Doppelganger - Silver Chest" GoldenChest="Double Goer - Golden Chest 401 - 600" />
+	<Data ID="5" LevelMin="900" LevelMax="999" Exp="2800000" LarvaRate="4000" LarvaCount="5" SilverChest="Doppelganger - Silver Chest" GoldenChest="Double Goer - Golden Chest 401 - 600" />
+	<Data ID="6" LevelMin="1000" LevelMax="2000" Exp="3000000" LarvaRate="4000" LarvaCount="5" SilverChest="Doppelganger - Silver Chest" GoldenChest="Double Goer - Golden Chest 401 - 600" />
+</DoppelgangerLevel>

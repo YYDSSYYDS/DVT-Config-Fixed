@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==            File Name: EventLabyrinthLevel              ==
+// ============================================================
+-->
+
+<EventLabyrinthLevel>
+	<Data ID="1" Level="400" ScoreFirst="50" Score="25" />
+	<Data ID="2" Level="420" ScoreFirst="100" Score="50" />
+	<Data ID="3" Level="440" ScoreFirst="150" Score="75" />
+	<Data ID="4" Level="460" ScoreFirst="200" Score="100" />
+	<Data ID="5" Level="480" ScoreFirst="250" Score="125" />
+	<Data ID="6" Level="500" ScoreFirst="300" Score="150" />
+	<Data ID="7" Level="520" ScoreFirst="350" Score="175" />
+	<Data ID="8" Level="540" ScoreFirst="400" Score="200" />
+	<Data ID="9" Level="560" ScoreFirst="450" Score="225" />
+	<Data ID="10" Level="580" ScoreFirst="500" Score="250" />
+	<Data ID="11" Level="600" ScoreFirst="550" Score="275" />
+	<Data ID="12" Level="620" ScoreFirst="600" Score="300" />
+	<Data ID="13" Level="640" ScoreFirst="650" Score="325" />
+	<Data ID="14" Level="660" ScoreFirst="700" Score="350" />
+	<Data ID="15" Level="680" ScoreFirst="750" Score="375" />
+	<Data ID="16" Level="700" ScoreFirst="800" Score="400" />
+	<Data ID="17" Level="720" ScoreFirst="850" Score="425" />
+	<Data ID="18" Level="740" ScoreFirst="900" Score="450" />
+	<Data ID="19" Level="760" ScoreFirst="950" Score="475" />
+	<Data ID="20" Level="780" ScoreFirst="1000" Score="500" />
+	<Data ID="21" Level="800" ScoreFirst="1050" Score="525" />
+	<Data ID="22" Level="820" ScoreFirst="1100" Score="550" />
+	<Data ID="23" Level="840" ScoreFirst="1150" Score="575" />
+	<Data ID="24" Level="860" ScoreFirst="1200" Score="600" />
+	<Data ID="25" Level="880" ScoreFirst="1250" Score="625" />
+	<Data ID="26" Level="900" ScoreFirst="1300" Score="650" />
+	<Data ID="27" Level="920" ScoreFirst="1350" Score="675" />
+	<Data ID="28" Level="940" ScoreFirst="1400" Score="700" />
+	<Data ID="29" Level="960" ScoreFirst="1450" Score="725" />
+	<Data ID="30" Level="980" ScoreFirst="1500" Score="750" />
+	<Data ID="31" Level="1000" ScoreFirst="1550" Score="775" />
+	<Data ID="32" Level="1020" ScoreFirst="1600" Score="800" />
+	<Data ID="33" Level="1040" ScoreFirst="1650" Score="825" />
+	<Data ID="34" Level="1060" ScoreFirst="1700" Score="850" />
+	<Data ID="35" Level="1080" ScoreFirst="1750" Score="875" />
+	<Data ID="36" Level="1100" ScoreFirst="1800" Score="900" />
+	<Data ID="37" Level="1120" ScoreFirst="1850" Score="925" />
+	<Data ID="38" Level="1140" ScoreFirst="1900" Score="950" />
+	<Data ID="39" Level="1160" ScoreFirst="1950" Score="975" />
+	<Data ID="40" Level="1180" ScoreFirst="2000" Score="1000" />
+	<Data ID="41" Level="1250" ScoreFirst="2050" Score="1025" />
+</EventLabyrinthLevel>

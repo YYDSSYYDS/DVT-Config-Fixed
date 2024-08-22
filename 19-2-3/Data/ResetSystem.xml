@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==                File Name: ResetSystem                	 ==
+// ============================================================
+-->
+
+<ResetSystem Enable="1">
+	<Setting ResetAutoCmd="0" ResetReward="1" ResetLvMasterAndMajestic="0" MaxReset="400" KeepPoints="1" MoveChar="1" Relog="0" />
+	
+	<Reset Index="0" MinLevelReq="350" MinRsTime="0" MaxRsTime="1" PointsPerRs="400" ZenRq="1000000" ChaosRq="0" CreRq="0" FeatherRq="0" RewardItemType="0" RewardItemIndex="1" />
+	
+</ResetSystem>

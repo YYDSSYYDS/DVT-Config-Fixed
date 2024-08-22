@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==                 File Name: EventLevel                  ==
+// ============================================================
+-->
+
+<EventLevel>
+    <!--Blood Castle-->
+    <Event ID="0" Ground="0" LevelMin="50" LevelMax="399" />
+    <Event ID="0" Ground="1" LevelMin="400" LevelMax="599" />
+    <Event ID="0" Ground="2" LevelMin="600" LevelMax="699" />
+    <Event ID="0" Ground="3" LevelMin="700" LevelMax="799" />
+    <Event ID="0" Ground="4" LevelMin="800" LevelMax="899" />
+    <Event ID="0" Ground="5" LevelMin="900" LevelMax="999" />
+    <Event ID="0" Ground="6" LevelMin="1000" LevelMax="2000" />
+
+    <!--Devil Square-->
+    <Event ID="1" Ground="0" LevelMin="50" LevelMax="399" />
+    <Event ID="1" Ground="1" LevelMin="400" LevelMax="599" />
+    <Event ID="1" Ground="2" LevelMin="600" LevelMax="699" />
+    <Event ID="1" Ground="3" LevelMin="700" LevelMax="799" />
+    <Event ID="1" Ground="4" LevelMin="800" LevelMax="899" />
+    <Event ID="1" Ground="5" LevelMin="900" LevelMax="999" />
+    <Event ID="1" Ground="6" LevelMin="1000" LevelMax="2000" />
+
+    <!--Chaos Castle-->
+    <Event ID="2" Ground="0" LevelMin="50" LevelMax="399" />
+    <Event ID="2" Ground="1" LevelMin="400" LevelMax="599" />
+    <Event ID="2" Ground="2" LevelMin="600" LevelMax="699" />
+    <Event ID="2" Ground="3" LevelMin="700" LevelMax="799" />
+    <Event ID="2" Ground="4" LevelMin="800" LevelMax="899" />
+    <Event ID="2" Ground="5" LevelMin="900" LevelMax="999" />
+    <Event ID="2" Ground="6" LevelMin="1000" LevelMax="2000" />
+   
+    <!--Chaos Castle Survival-->
+    <Event ID="16" Ground="0" LevelMin="280" LevelMax="2000" />
+</EventLevel>

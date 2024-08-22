@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==            File Name: CharacterExpAdjust               ==
+// ============================================================
+-->
+
+<CharacterExpAdjust>
+    <!-- Example: <Data MinLevel="" MaxLevel="" ExpRate="" /> -->
+</CharacterExpAdjust>

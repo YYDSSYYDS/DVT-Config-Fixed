@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==             File Name: MixJewelTemplate                ==
+// ============================================================
+-->
+
+<MixJewelTemplate>
+    <Mix ID="0">
+		<Data ItemCat="14" ItemIndex="13" Level="0" Count="10" MixCost="500000" PackCat="12" PackIndex="30" />
+		<Data ItemCat="14" ItemIndex="13" Level="1" Count="20" MixCost="1000000" PackCat="12" PackIndex="30" />
+		<Data ItemCat="14" ItemIndex="13" Level="2" Count="30" MixCost="1500000" PackCat="12" PackIndex="30" />
+    </Mix>
+
+    <Mix ID="1">
+		<Data ItemCat="14" ItemIndex="14" Level="0" Count="10" MixCost="500000" PackCat="12" PackIndex="31" />
+		<Data ItemCat="14" ItemIndex="14" Level="1" Count="20" MixCost="1000000" PackCat="12" PackIndex="31" />
+		<Data ItemCat="14" ItemIndex="14" Level="2" Count="30" MixCost="1500000" PackCat="12" PackIndex="31" />
+    </Mix>
+
+    <Mix ID="2">
+		<Data ItemCat="14" ItemIndex="16" Level="0" Count="10" MixCost="500000" PackCat="12" PackIndex="136" />
+		<Data ItemCat="14" ItemIndex="16" Level="1" Count="20" MixCost="1000000" PackCat="12" PackIndex="136" />
+		<Data ItemCat="14" ItemIndex="16" Level="2" Count="30" MixCost="1500000" PackCat="12" PackIndex="136" />
+    </Mix>
+
+    <Mix ID="3">
+		<Data ItemCat="14" ItemIndex="22" Level="0" Count="10" MixCost="500000" PackCat="12" PackIndex="137" />
+		<Data ItemCat="14" ItemIndex="22" Level="1" Count="20" MixCost="1000000" PackCat="12" PackIndex="137" />
+		<Data ItemCat="14" ItemIndex="22" Level="2" Count="30" MixCost="1500000" PackCat="12" PackIndex="137" />
+    </Mix>
+
+    <Mix ID="4">
+		<Data ItemCat="14" ItemIndex="31" Level="0" Count="10" MixCost="500000" PackCat="12" PackIndex="138" />
+		<Data ItemCat="14" ItemIndex="31" Level="1" Count="20" MixCost="1000000" PackCat="12" PackIndex="138" />
+		<Data ItemCat="14" ItemIndex="31" Level="2" Count="30" MixCost="1500000" PackCat="12" PackIndex="138" />
+    </Mix>
+
+    <Mix ID="5">
+		<Data ItemCat="14" ItemIndex="41" Level="0" Count="10" MixCost="500000" PackCat="12" PackIndex="139" />
+		<Data ItemCat="14" ItemIndex="41" Level="1" Count="20" MixCost="1000000" PackCat="12" PackIndex="139" />
+		<Data ItemCat="14" ItemIndex="41" Level="2" Count="30" MixCost="1500000" PackCat="12" PackIndex="139" />
+    </Mix>
+
+    <Mix ID="6">
+		<Data ItemCat="14" ItemIndex="42" Level="0" Count="10" MixCost="500000" PackCat="12" PackIndex="140" />
+		<Data ItemCat="14" ItemIndex="42" Level="1" Count="20" MixCost="1000000" PackCat="12" PackIndex="140" />
+		<Data ItemCat="14" ItemIndex="42" Level="2" Count="30" MixCost="1500000" PackCat="12" PackIndex="140" />
+    </Mix>
+
+    <Mix ID="7">
+		<Data ItemCat="12" ItemIndex="15" Level="0" Count="10" MixCost="500000" PackCat="12" PackIndex="141" />
+		<Data ItemCat="12" ItemIndex="15" Level="1" Count="20" MixCost="1000000" PackCat="12" PackIndex="141" />
+		<Data ItemCat="12" ItemIndex="15" Level="2" Count="30" MixCost="1500000" PackCat="12" PackIndex="141" />
+    </Mix>
+
+    <Mix ID="8">
+		<Data ItemCat="14" ItemIndex="43" Level="0" Count="10" MixCost="500000" PackCat="12" PackIndex="142" />
+		<Data ItemCat="14" ItemIndex="43" Level="1" Count="20" MixCost="1000000" PackCat="12" PackIndex="142" />
+		<Data ItemCat="14" ItemIndex="43" Level="2" Count="30" MixCost="1500000" PackCat="12" PackIndex="142" />
+    </Mix>
+
+    <Mix ID="9">
+		<Data ItemCat="14" ItemIndex="44" Level="0" Count="10" MixCost="500000" PackCat="12" PackIndex="143" />
+		<Data ItemCat="14" ItemIndex="44" Level="1" Count="20" MixCost="1000000" PackCat="12" PackIndex="143" />
+		<Data ItemCat="14" ItemIndex="44" Level="2" Count="30" MixCost="1500000" PackCat="12" PackIndex="143" />
+    </Mix>
+</MixJewelTemplate>

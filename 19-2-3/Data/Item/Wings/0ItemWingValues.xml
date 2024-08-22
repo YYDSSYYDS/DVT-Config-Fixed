@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==               File Name: ItemWingValues                ==
+// ============================================================
+-->
+
+<ItemWingValues>
+	<Item ItemCat="12" ItemIndex="0" DamageAdd="12" DamageAddLevel="2" AbsorbAdd="12" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="1" DamageAdd="12" DamageAddLevel="2" AbsorbAdd="12" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="2" DamageAdd="12" DamageAddLevel="2" AbsorbAdd="12" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="3" DamageAdd="32" DamageAddLevel="1" AbsorbAdd="25" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="4" DamageAdd="32" DamageAddLevel="1" AbsorbAdd="25" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="5" DamageAdd="32" DamageAddLevel="1" AbsorbAdd="25" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="6" DamageAdd="32" DamageAddLevel="1" AbsorbAdd="25" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="36" DamageAdd="39" DamageAddLevel="2" AbsorbAdd="39" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="37" DamageAdd="39" DamageAddLevel="2" AbsorbAdd="39" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="38" DamageAdd="39" DamageAddLevel="2" AbsorbAdd="39" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="39" DamageAdd="39" DamageAddLevel="2" AbsorbAdd="39" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="40" DamageAdd="39" DamageAddLevel="2" AbsorbAdd="24" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="41" DamageAdd="12" DamageAddLevel="2" AbsorbAdd="12" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="42" DamageAdd="32" DamageAddLevel="1" AbsorbAdd="25" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="43" DamageAdd="39" DamageAddLevel="2" AbsorbAdd="39" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="49" DamageAdd="20" DamageAddLevel="2" AbsorbAdd="10" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="50" DamageAdd="39" DamageAddLevel="2" AbsorbAdd="39" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="130" DamageAdd="20" DamageAddLevel="2" AbsorbAdd="20" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="131" DamageAdd="12" DamageAddLevel="2" AbsorbAdd="12" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="132" DamageAdd="12" DamageAddLevel="2" AbsorbAdd="12" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="133" DamageAdd="12" DamageAddLevel="2" AbsorbAdd="12" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="134" DamageAdd="12" DamageAddLevel="2" AbsorbAdd="12" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="135" DamageAdd="20" DamageAddLevel="2" AbsorbAdd="20" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="262" DamageAdd="21" DamageAddLevel="1" AbsorbAdd="13" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="263" DamageAdd="33" DamageAddLevel="1" AbsorbAdd="30" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="264" DamageAdd="35" DamageAddLevel="1" AbsorbAdd="29" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="265" DamageAdd="35" DamageAddLevel="1" AbsorbAdd="29" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="266" DamageAdd="71" DamageAddLevel="1" AbsorbAdd="71" AbsorbAddLevel="1" />
+	<Item ItemCat="12" ItemIndex="267" DamageAdd="60" DamageAddLevel="1" AbsorbAdd="60" AbsorbAddLevel="1" />
+	<Item ItemCat="12" ItemIndex="268" DamageAdd="39" DamageAddLevel="2" AbsorbAdd="39" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="269" DamageAdd="20" DamageAddLevel="2" AbsorbAdd="10" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="270" DamageAdd="39" DamageAddLevel="2" AbsorbAdd="39" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="278" DamageAdd="20" DamageAddLevel="2" AbsorbAdd="20" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="414" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="415" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="416" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="417" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="418" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="37" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="419" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="420" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="421" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="422" DamageAdd="32" DamageAddLevel="1" AbsorbAdd="25" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="423" DamageAdd="32" DamageAddLevel="1" AbsorbAdd="25" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="424" DamageAdd="32" DamageAddLevel="1" AbsorbAdd="25" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="425" DamageAdd="32" DamageAddLevel="1" AbsorbAdd="25" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="426" DamageAdd="32" DamageAddLevel="1" AbsorbAdd="25" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="427" DamageAdd="32" DamageAddLevel="1" AbsorbAdd="25" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="428" DamageAdd="32" DamageAddLevel="1" AbsorbAdd="25" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="429" DamageAdd="32" DamageAddLevel="1" AbsorbAdd="25" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="430" DamageAdd="39" DamageAddLevel="2" AbsorbAdd="39" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="431" DamageAdd="39" DamageAddLevel="2" AbsorbAdd="39" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="432" DamageAdd="39" DamageAddLevel="2" AbsorbAdd="39" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="433" DamageAdd="39" DamageAddLevel="2" AbsorbAdd="39" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="434" DamageAdd="39" DamageAddLevel="2" AbsorbAdd="39" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="435" DamageAdd="39" DamageAddLevel="2" AbsorbAdd="39" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="436" DamageAdd="39" DamageAddLevel="2" AbsorbAdd="39" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="437" DamageAdd="39" DamageAddLevel="2" AbsorbAdd="39" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="438" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="439" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="440" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="441" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="442" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="37" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="443" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="444" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="445" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="467" DamageAdd="39" DamageAddLevel="2" AbsorbAdd="39" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="468" DamageAdd="39" DamageAddLevel="2" AbsorbAdd="39" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="469" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="472" DamageAdd="39" DamageAddLevel="2" AbsorbAdd="39" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="473" DamageAdd="39" DamageAddLevel="2" AbsorbAdd="39" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="474" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="480" DamageAdd="65" DamageAddLevel="0" AbsorbAdd="65" AbsorbAddLevel="0" />
+	<Item ItemCat="12" ItemIndex="489" DamageAdd="39" DamageAddLevel="2" AbsorbAdd="39" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="490" DamageAdd="65" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="496" DamageAdd="39" DamageAddLevel="2" AbsorbAdd="39" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="497" DamageAdd="65" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" />
+	<Item ItemCat="13" ItemIndex="30" DamageAdd="20" DamageAddLevel="2" AbsorbAdd="10" AbsorbAddLevel="1" />
+	<Item ItemCat="12" ItemIndex="152" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="160" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" />
+	<Item ItemCat="12" ItemIndex="178" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" />
+	
+	<Item ItemCat="12" ItemIndex="180" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" /> <!-- 高贵之翼 -->
+	<Item ItemCat="12" ItemIndex="181" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" /> <!-- 湮灭之翼 -->
+	<Item ItemCat="12" ItemIndex="182" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" /> <!-- 幻觉之翼 -->
+	<Item ItemCat="12" ItemIndex="183" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" /> <!-- 惩戒之翼 -->
+	<Item ItemCat="12" ItemIndex="184" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" /> <!-- 领袖披风 -->
+	<Item ItemCat="12" ItemIndex="185" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" /> <!-- 结界之翼 -->
+	<Item ItemCat="12" ItemIndex="186" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" /> <!-- 誓言披风 -->
+	<Item ItemCat="12" ItemIndex="187" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" /> <!-- 锻造披风 -->
+	<Item ItemCat="12" ItemIndex="188" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" /> <!-- 命运之翼 -->
+	<Item ItemCat="12" ItemIndex="189" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" /> <!-- 赞美之翼 -->
+	<Item ItemCat="12" ItemIndex="190" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" /> <!-- 绯红之翼 -->
+	<Item ItemCat="12" ItemIndex="191" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" /> <!-- 幻影披风 -->
+	<Item ItemCat="12" ItemIndex="192" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" /> <!-- 永恒之翼 -->
+	<Item ItemCat="12" ItemIndex="193" DamageAdd="55" DamageAddLevel="1" AbsorbAdd="43" AbsorbAddLevel="2" /> <!-- 无瑕披风 -->
+</ItemWingValues>

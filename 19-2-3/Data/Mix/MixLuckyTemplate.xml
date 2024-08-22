@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DevEMU				 	 ==
+// ==             File Name: MixLuckyTemplate                ==
+// ============================================================
+-->
+
+<MixLuckyTemplate>
+	<!-- 1st Lucky Helm Ticket -->
+	<Mix TicketCat="13" TicketIndex="137" TicketLevel="0" ItemCat="7" ItemIndex="62"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="137" TicketLevel="0" ItemCat="7" ItemIndex="63"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="137" TicketLevel="0" ItemCat="7" ItemIndex="64"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="137" TicketLevel="0" ItemCat="7" ItemIndex="65"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="137" TicketLevel="0" ItemCat="7" ItemIndex="96"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="137" TicketLevel="0" ItemCat="7" ItemIndex="124" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="137" TicketLevel="0" ItemCat="7" ItemIndex="186" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="137" TicketLevel="0" ItemCat="7" ItemIndex="218" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="137" TicketLevel="0" ItemCat="7" ItemIndex="249" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="137" TicketLevel="0" ItemCat="7" ItemIndex="267" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="137" TicketLevel="0" ItemCat="7" ItemIndex="315" Duration="3600" />
+	<!-- 2nd Lucky Helm Ticket -->
+	<Mix TicketCat="13" TicketIndex="142" TicketLevel="0" ItemCat="7" ItemIndex="66"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="142" TicketLevel="0" ItemCat="7" ItemIndex="67"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="142" TicketLevel="0" ItemCat="7" ItemIndex="68"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="142" TicketLevel="0" ItemCat="7" ItemIndex="69"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="142" TicketLevel="0" ItemCat="7" ItemIndex="70"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="142" TicketLevel="0" ItemCat="7" ItemIndex="72"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="142" TicketLevel="0" ItemCat="7" ItemIndex="97"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="142" TicketLevel="0" ItemCat="7" ItemIndex="125" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="142" TicketLevel="0" ItemCat="7" ItemIndex="187" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="142" TicketLevel="0" ItemCat="7" ItemIndex="219" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="142" TicketLevel="0" ItemCat="7" ItemIndex="250" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="142" TicketLevel="0" ItemCat="7" ItemIndex="268" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="142" TicketLevel="0" ItemCat="7" ItemIndex="316" Duration="3600" />
+	<!-- 1st Lucky Armor Ticket -->
+	<Mix TicketCat="13" TicketIndex="135" TicketLevel="0" ItemCat="8" ItemIndex="62"  Duration="3600"/>
+	<Mix TicketCat="13" TicketIndex="135" TicketLevel="0" ItemCat="8" ItemIndex="63"  Duration="3600"/>
+	<Mix TicketCat="13" TicketIndex="135" TicketLevel="0" ItemCat="8" ItemIndex="64"  Duration="3600"/>
+	<Mix TicketCat="13" TicketIndex="135" TicketLevel="0" ItemCat="8" ItemIndex="65"  Duration="3600"/>
+	<Mix TicketCat="13" TicketIndex="135" TicketLevel="0" ItemCat="8" ItemIndex="96"  Duration="3600"/>	
+	<Mix TicketCat="13" TicketIndex="135" TicketLevel="0" ItemCat="8" ItemIndex="124" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="135" TicketLevel="0" ItemCat="8" ItemIndex="186" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="135" TicketLevel="0" ItemCat="8" ItemIndex="218" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="135" TicketLevel="0" ItemCat="8" ItemIndex="249" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="135" TicketLevel="0" ItemCat="8" ItemIndex="267" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="135" TicketLevel="0" ItemCat="8" ItemIndex="315" Duration="3600" />
+	<!-- 2nd Lucky Armor Ticket -->
+	<Mix TicketCat="13" TicketIndex="140" TicketLevel="0" ItemCat="8" ItemIndex="66"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="140" TicketLevel="0" ItemCat="8" ItemIndex="67"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="140" TicketLevel="0" ItemCat="8" ItemIndex="68"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="140" TicketLevel="0" ItemCat="8" ItemIndex="69"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="140" TicketLevel="0" ItemCat="8" ItemIndex="70"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="140" TicketLevel="0" ItemCat="8" ItemIndex="71"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="140" TicketLevel="0" ItemCat="8" ItemIndex="72"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="140" TicketLevel="0" ItemCat="8" ItemIndex="97"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="140" TicketLevel="0" ItemCat="8" ItemIndex="125" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="140" TicketLevel="0" ItemCat="8" ItemIndex="187" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="140" TicketLevel="0" ItemCat="8" ItemIndex="219" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="140" TicketLevel="0" ItemCat="8" ItemIndex="250" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="140" TicketLevel="0" ItemCat="8" ItemIndex="268" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="140" TicketLevel="0" ItemCat="8" ItemIndex="316" Duration="3600" />
+	<!-- 1st Lucky Pants Ticket -->
+	<Mix TicketCat="13" TicketIndex="136" TicketLevel="0" ItemCat="9" ItemIndex="62"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="136" TicketLevel="0" ItemCat="9" ItemIndex="63"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="136" TicketLevel="0" ItemCat="9" ItemIndex="64"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="136" TicketLevel="0" ItemCat="9" ItemIndex="65"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="136" TicketLevel="0" ItemCat="9" ItemIndex="96"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="136" TicketLevel="0" ItemCat="9" ItemIndex="124" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="136" TicketLevel="0" ItemCat="9" ItemIndex="186" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="136" TicketLevel="0" ItemCat="9" ItemIndex="218" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="136" TicketLevel="0" ItemCat="9" ItemIndex="249" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="136" TicketLevel="0" ItemCat="9" ItemIndex="267" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="136" TicketLevel="0" ItemCat="9" ItemIndex="315" Duration="3600" />
+	<!-- 2nd Lucky Pants Ticket -->
+	<Mix TicketCat="13" TicketIndex="141" TicketLevel="0" ItemCat="9" ItemIndex="66"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="141" TicketLevel="0" ItemCat="9" ItemIndex="67"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="141" TicketLevel="0" ItemCat="9" ItemIndex="68"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="141" TicketLevel="0" ItemCat="9" ItemIndex="69"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="141" TicketLevel="0" ItemCat="9" ItemIndex="70"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="141" TicketLevel="0" ItemCat="9" ItemIndex="71"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="141" TicketLevel="0" ItemCat="9" ItemIndex="72"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="141" TicketLevel="0" ItemCat="9" ItemIndex="97"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="141" TicketLevel="0" ItemCat="9" ItemIndex="125" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="141" TicketLevel="0" ItemCat="9" ItemIndex="187" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="141" TicketLevel="0" ItemCat="9" ItemIndex="219" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="141" TicketLevel="0" ItemCat="9" ItemIndex="250" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="141" TicketLevel="0" ItemCat="9" ItemIndex="268" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="141" TicketLevel="0" ItemCat="9" ItemIndex="316" Duration="3600" />
+	<!-- 1st Lucky Gloves List -->
+	<Mix TicketCat="13" TicketIndex="138" TicketLevel="0" ItemCat="10" ItemIndex="62"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="138" TicketLevel="0" ItemCat="10" ItemIndex="63"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="138" TicketLevel="0" ItemCat="10" ItemIndex="64"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="138" TicketLevel="0" ItemCat="10" ItemIndex="65"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="138" TicketLevel="0" ItemCat="10" ItemIndex="96"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="138" TicketLevel="0" ItemCat="10" ItemIndex="124" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="138" TicketLevel="0" ItemCat="10" ItemIndex="186" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="138" TicketLevel="0" ItemCat="10" ItemIndex="218" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="138" TicketLevel="0" ItemCat="10" ItemIndex="249" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="138" TicketLevel="0" ItemCat="10" ItemIndex="267" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="138" TicketLevel="0" ItemCat="10" ItemIndex="315" Duration="3600" />
+	<!-- 2nd Lucky Gloves List -->
+	<Mix TicketCat="13" TicketIndex="143" TicketLevel="0" ItemCat="10" ItemIndex="66"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="143" TicketLevel="0" ItemCat="10" ItemIndex="67"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="143" TicketLevel="0" ItemCat="10" ItemIndex="68"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="143" TicketLevel="0" ItemCat="10" ItemIndex="69"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="143" TicketLevel="0" ItemCat="10" ItemIndex="70"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="143" TicketLevel="0" ItemCat="10" ItemIndex="71"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="143" TicketLevel="0" ItemCat="10" ItemIndex="97"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="143" TicketLevel="0" ItemCat="10" ItemIndex="125" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="143" TicketLevel="0" ItemCat="10" ItemIndex="187" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="143" TicketLevel="0" ItemCat="10" ItemIndex="219" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="143" TicketLevel="0" ItemCat="10" ItemIndex="250" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="143" TicketLevel="0" ItemCat="10" ItemIndex="268" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="143" TicketLevel="0" ItemCat="10" ItemIndex="316" Duration="3600" />
+	<!-- 1st Lucky Boots List -->
+	<Mix TicketCat="13" TicketIndex="139" TicketLevel="0" ItemCat="11" ItemIndex="62"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="139" TicketLevel="0" ItemCat="11" ItemIndex="63"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="139" TicketLevel="0" ItemCat="11" ItemIndex="64"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="139" TicketLevel="0" ItemCat="11" ItemIndex="65"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="139" TicketLevel="0" ItemCat="11" ItemIndex="96"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="139" TicketLevel="0" ItemCat="11" ItemIndex="124" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="139" TicketLevel="0" ItemCat="11" ItemIndex="186" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="139" TicketLevel="0" ItemCat="11" ItemIndex="218" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="139" TicketLevel="0" ItemCat="11" ItemIndex="249" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="139" TicketLevel="0" ItemCat="11" ItemIndex="267" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="139" TicketLevel="0" ItemCat="11" ItemIndex="315" Duration="3600" />
+	<!-- 2nd Lucky Boots List -->
+	<Mix TicketCat="13" TicketIndex="144" TicketLevel="0" ItemCat="11" ItemIndex="66"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="144" TicketLevel="0" ItemCat="11" ItemIndex="67"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="144" TicketLevel="0" ItemCat="11" ItemIndex="68"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="144" TicketLevel="0" ItemCat="11" ItemIndex="69"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="144" TicketLevel="0" ItemCat="11" ItemIndex="70"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="144" TicketLevel="0" ItemCat="11" ItemIndex="71"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="144" TicketLevel="0" ItemCat="11" ItemIndex="72"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="144" TicketLevel="0" ItemCat="11" ItemIndex="97"  Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="144" TicketLevel="0" ItemCat="11" ItemIndex="125" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="144" TicketLevel="0" ItemCat="11" ItemIndex="187" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="144" TicketLevel="0" ItemCat="11" ItemIndex="219" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="144" TicketLevel="0" ItemCat="11" ItemIndex="250" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="144" TicketLevel="0" ItemCat="11" ItemIndex="268" Duration="3600" />
+	<Mix TicketCat="13" TicketIndex="144" TicketLevel="0" ItemCat="11" ItemIndex="316" Duration="3600" />
+	
+</MixLuckyTemplate>
