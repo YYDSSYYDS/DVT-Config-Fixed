@@ -5,6 +5,111 @@
 // == 				   POWERED BY DV-Team				 	 ==
 // ==                File Name: GuardianMix                  ==
 // ============================================================
+//
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ Changes to the file require modification of GuardianMix.txt on client side (Lang.mpr)
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+// ### GuardianItemMix::PetItemCreation::Mix ###
+//	ID: Unique mix ID
+//	MainItemCat: Category of main material item
+//	MainItemIndex: Index of main material item
+//	MainItemLevel: Level of main material item, 0-15
+//	MainItemDur: Durability of main material item
+//	SubItemCatX: Category of sub-material item
+//	SubItemIndexX: Index of sub-material item
+//	SubItemDurX: Durability of sub-material item
+//	ReqMoney: Money required for the mix, Zen
+//	SuccessRate: Mix success rate, n/1000000
+//	ResultItemCat: Result item category
+//	ResultItemIndex: Result item index
+//	ResultItemLevel: Result item level, 0-15
+//
+// ### GuardianItemMix::GuardianItemCreation::Mix ###
+//	ID: Unique mix ID
+//	MainItemCat: Category of main material item
+//	MainItemIndex: Index of main material item
+//	MainItemLevel: Level of main material item, 0-15
+//	MainItemDur: Durability of main material item
+//	SubItemCatX: Category of sub-material item
+//	SubItemIndexX: Index of sub-material item
+//	SubItemDurX: Durability of sub-material item
+//	ReqMoney: Money required for the mix, Zen
+//	SuccessRate: Mix success rate, n/1000000
+//	ResultItemCat: Result item category
+//	ResultItemIndex: Result item index
+//	ResultItemLevel: Result item level, 0-15
+//
+// ### GuardianItemMix::GuardianItemLevelUp::Mix ###
+//	ReqLevel: Input item level, 0-15
+//	ItemCatX: Input item category
+//	ItemLevelX: Input item level, 0-15
+//	ItemCountX: Number of input items
+///	ReqMoney: Money required for the mix, Zen
+//	SuccessRate: Mix success rate, n/1000000
+//	FailType: Action to take after mix failure 
+//		~ 0: No change in input item level
+//		~ 1: Item level drop by 1
+//		~ 2: Item level drop to 0
+//
+// ### GuardianItemMix::GuardianItemOptChange::Mix ###
+//	ReqGuardianNum: Guardian item number:
+//		1: 12,471
+//		2: 12,483-484
+//		3: 12,75-76
+//		4: 12, 83-84
+//		5: 12, 93-94
+//
+//	ItemCat: Item category
+//	ItemIndex: Item index
+//	MaxOptCount: 
+//
+// ### GuardianItemMix::GuardianItemUpgrade::Mix ###
+//	ID: Unique mix ID
+//	MainItemCat: Category of main material item
+//	MainItemLevel: Level of main material item, 0-15
+//	MainItemDur: Durability of main material item
+//	SubItemCatX: Category of sub-material item
+//	SubItemIndexX: Index of sub-material item
+//	SubItemDurX: Durability of sub-material item
+//	ReqMoney: Money required for the mix, Zen
+//	SuccessRate: Mix success rate, n/1000000
+//	ResultItemCat: Result item category
+//	ResultItemIndex: Result item index
+//	ResultItemLevel: Result item level, 0-15
+//
+// ### GuardianItemMix::GuardianItemUpgradeSpecial::Result ###
+//	ReqGuardianNum: Minimum level of upgrade mix, refers to ID attribute of GuardianItemUpgrade section
+//	ItemCat: Category of special item reward
+//	ItemIndex: Index of special item reward
+//	Probability: Chance to obtain special reward, n/1000000
+//
+// ### GuardianItemMix::PetItemUpgrade::Mix ###
+//	ID: Unique mix ID
+//	MainItemCat: Category of main material item
+//	MainItemLevel: Level of main material item, 0-15
+//	MainItemDur: Durability of main material item
+//	SubItemCatX: Category of sub-material item
+//	SubItemIndexX: Index of sub-material item
+//	SubItemDurX: Durability of sub-material item
+//	ReqMoney: Money required for the mix, Zen
+//	SuccessRate: Mix success rate, n/1000000
+//	ResultItemCat: Result item category
+//	ResultItemIndex: Result item index
+//	ResultItemLevel: Result item level, 0-15
+//
+//
+// ### GuardianItemMix::PetItemUpgradeSpecial::Result ###
+//	MixID: ID of mix from GuardianItemMix::PetItemUpgradethe section the special upgrade refers to
+//	ItemCat: Category of special item reward
+//	ItemIndex: Index of special item reward
+//	Probability: Chance to obtain special reward, n/1000000
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ If referred Pet upgrade mix has more than one entry of special upgrade then
+//~~ Probability of all MixID configured with same value should sum up to 1000000
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+// STRICTLY NO COMMENTS INSIDE TAGS
 -->
 
 <GuardianItemMix>
@@ -34,6 +139,15 @@
 		<Mix ID="13" Name="Guardian Enhancement 14" ReqLevel="13" ItemCat1="14" ItemIndex1="468" ItemCount1="4" ItemCat2="14" ItemIndex2="16" ItemCount2="1" ItemCat3="-1" ItemIndex3="-1" ItemCount3="-1" ItemCat4="-1" ItemIndex4="-1" ItemCount4="-1" ItemCat5="-1" ItemIndex5="-1" ItemCount5="-1" ReqMoney="2500000" SuccessRate="700000"/>
 		<Mix ID="14" Name="Guardian Enhancement 15" ReqLevel="14" ItemCat1="14" ItemIndex1="468" ItemCount1="5" ItemCat2="14" ItemIndex2="16" ItemCount2="1" ItemCat3="-1" ItemIndex3="-1" ItemCount3="-1" ItemCat4="-1" ItemIndex4="-1" ItemCount4="-1" ItemCat5="-1" ItemIndex5="-1" ItemCount5="-1" ReqMoney="3000000" SuccessRate="700000"/>
 	</GuardianItemLevelUp>
+	
+	<GuardianItemOptChange>
+		<Mix ReqGuardianNum="1" Name="Guardian Elite Opt Change Seal" SubItemCat="14" SubItemIndex="470" MaxOptCount="5" />
+		<Mix ReqGuardianNum="2" Name="Guardian Elite Opt Change Seal" SubItemCat="14" SubItemIndex="470" MaxOptCount="5" />
+		<Mix ReqGuardianNum="3" Name="Guardian Elite Opt Change Seal" SubItemCat="14" SubItemIndex="470" MaxOptCount="5" />
+		<Mix ReqGuardianNum="4" Name="Guardian Elite Opt Change Seal" SubItemCat="14" SubItemIndex="470" MaxOptCount="5" />
+		<Mix ReqGuardianNum="5" Name="Guardian Elite Opt Change Seal" SubItemCat="14" SubItemIndex="470" MaxOptCount="5" />
+		<Mix ReqGuardianNum="6" Name="Guardian Elite Opt Change Seal" SubItemCat="14" SubItemIndex="470" MaxOptCount="5" />
+	</GuardianItemOptChange>
 	
 	<GuardianItemUpgrade GuardianRareRate="5">
 		<Mix ID="0" Name="Ghost Horse Upgrade Ice Dragon" MainItemCat="12" MainItemIndex="471" MainItemLevel="11" MainItemDur="1" SubItemCat1="14" SubItemIndex1="498" SubItemDur1="1" SubItemCat2="14" SubItemIndex2="13" SubItemDur2="20" SubItemCat3="14" SubItemIndex3="14" SubItemDur3="20" SubItemCat4="12" SubItemIndex4="15" SubItemDur4="1" SubItemCat5="14" SubItemIndex5="22" SubItemDur5="1" ReqMoney="0" SuccessRate="600000" ResultItemCat="12" ResultItemIndex="483" ResultItemLevel="0"/>
@@ -83,4 +197,24 @@
 		<Mix ID="43" Name="Ur (Rare) Upgrade Leviathan" MainItemCat="12" MainItemIndex="94" MainItemLevel="14" MainItemDur="1" SubItemCat1="20" SubItemIndex1="253" SubItemDur1="1" SubItemCat2="14" SubItemIndex2="13" SubItemDur2="20" SubItemCat3="14" SubItemIndex3="14" SubItemDur3="20" SubItemCat4="12" SubItemIndex4="15" SubItemDur4="1" SubItemCat5="14" SubItemIndex5="22" SubItemDur5="1" ReqMoney="0" SuccessRate="900000" ResultItemCat="12" ResultItemIndex="51" ResultItemLevel="0"/>
 		<Mix ID="44" Name="Ur (Rare) Upgrade Leviathan" MainItemCat="12" MainItemIndex="94" MainItemLevel="15" MainItemDur="1" SubItemCat1="20" SubItemIndex1="253" SubItemDur1="1" SubItemCat2="14" SubItemIndex2="13" SubItemDur2="20" SubItemCat3="14" SubItemIndex3="14" SubItemDur3="20" SubItemCat4="12" SubItemIndex4="15" SubItemDur4="1" SubItemCat5="14" SubItemIndex5="22" SubItemDur5="1" ReqMoney="0" SuccessRate="1000000" ResultItemCat="12" ResultItemIndex="51" ResultItemLevel="0"/>
 	</GuardianItemUpgrade>
+	
+	<GuardianItemUpgradeSpecial>
+		<Result ReqGuardianNum="2" Name="Ice Dragon (Rare)" ItemCat="12" ItemIndex="484" Probability="100" />
+		<Result ReqGuardianNum="3" Name="Pierce Lion (Rare)" ItemCat="12" ItemIndex="76" Probability="100" />
+		<Result ReqGuardianNum="4" Name="Shining Tail (Rare)" ItemCat="12" ItemIndex="84" Probability="100" />
+		<Result ReqGuardianNum="5" Name="Ur (Rare)" ItemCat="12" ItemIndex="94" Probability="100" />
+		<Result ReqGuardianNum="6" Name="Leviathan (Rare)" ItemCat="12" ItemIndex="52" Probability="100" />
+	</GuardianItemUpgradeSpecial>
+	
+	<!-- S19.2: Divine Horse And Divine Spirit Mix-->
+	<PetItemUpgrade>
+		<Mix ID="0" Name="Divine Horse" MainItemCat="13" MainItemIndex="4" MainItemLevel="70" MainItemDur="1" SubItemCat1="14" SubItemIndex1="13" SubItemDur1="30" SubItemCat2="14" SubItemIndex2="14" SubItemDur2="30" SubItemCat3="14" SubItemIndex3="22" SubItemDur3="10" SubItemCat4="12" SubItemIndex4="15" SubItemDur4="1" SubItemCat5="-1" SubItemIndex5="-1" SubItemDur5="-1" ReqMoney="100000000" SuccessRate="500000" ResultItemCat="20" ResultItemIndex="247" ResultItemLevel="0" />
+		<Mix ID="1" Name="Divine Spirit" MainItemCat="13" MainItemIndex="5" MainItemLevel="70" MainItemDur="1" SubItemCat1="14" SubItemIndex1="13" SubItemDur1="30" SubItemCat2="14" SubItemIndex2="14" SubItemDur2="30" SubItemCat3="14" SubItemIndex3="22" SubItemDur3="10" SubItemCat4="12" SubItemIndex4="15" SubItemDur4="1" SubItemCat5="-1" SubItemIndex5="-1" SubItemDur5="-1" ReqMoney="100000000" SuccessRate="500000" ResultItemCat="-1" ResultItemIndex="-1" ResultItemLevel="-1" />
+	</PetItemUpgrade>
+	
+	<PetItemUpgradeSpecial>
+		<Result MixID="1" Name="Fire Divine Spirit" ItemCat="20" ItemIndex="248" Probability="900000" />
+		<Result MixID="1" Name="Ice Divine Spirit" ItemCat="20" ItemIndex="249" Probability="100000" />
+	</PetItemUpgradeSpecial>
+
 </GuardianItemMix>
