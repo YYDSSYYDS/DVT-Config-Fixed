@@ -1,203 +1,208 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CommandList>
 	<CommandSystem Type="0" Description="Player Commands">
-		<Command ID="0" name= "jl"	Description="/addstr #points"/>
-		<Command ID="1" name= "jm"	Description="/addagi #points"/>
-		<Command ID="2" name= "jt"	Description="/addvit #points"/>
-		<Command ID="3" name= "jz"	Description="/addene #points"/>
-		<Command ID="4" name= "jc"	Description="/addcmd #points"/>
-		<Command ID="5" name= "hostilcancel" Description=""/>
-		<Command ID="6" name= "request" Description="/request status"/>
-		<Command ID="7" name= "postview" Description="/postview #status"/>
-		<Command ID="8" name= "refresh" Description=""/>					
-		<Command ID="9" name= "guildwar" Description=	"/guildwar guild"			/>
-		<Command ID="10" name= "war"	Description=	"/war guild"					/>
-		<Command ID="11" name= "battlesoccer" Description=	"/battlesoccer guild"		/>
-		<Command ID="12" name= "soccer" Description="/soccer guild"	/>
-		<Command ID="13" name= "gg" Description=	"/post message"/>
-		<Command ID="14" name= "offstore" Description=	""/>
-		<Command ID="15" name= "auth" Description=	""/>
-		<Command ID="16" name= "offattack" Description=""/>
-		<Command ID="17" name= "pkpoints" Description=	""/>
-		<Command ID="18" name= "zsjhg" Description=""/>
-		<Command ID="19" name= "resetauto" Description=	"/resetauto #type"/>
-		<Command ID="22" name= "thuonglode" Description=		""/>
-		<Command ID="23" name= "qbb" Description=""/>
-		<Command ID="24" name= "qhdb" Description=	""/>
-		<Command ID="25" name= "cleargremorycase" Description= ""/>
-		<Command ID="26" name= "addexpanded" Description=	""/>
-		<Command ID="27" name= "errtel" Description= "/errtel #type #element #r1 #lv1 #r2 #lv2 #r3 #lv3"/>	
+		<Command ID="0" name="addstrr" Description="/addstr #points" Authority="0"/>
+		<Command ID="1" name="addagi" Description="/addagi #points" Authority="0"/>
+		<Command ID="2" name="addvit" Description="/addvit #points" Authority="0"/>
+		<Command ID="3" name="addene" Description="/addene #points" Authority="0"/>
+		<Command ID="4" name="addcmd" Description="/addcmd #points" Authority="0"/>
+		<Command ID="5" name="hostilcancel" Description="" Authority="0"/>
+		<Command ID="6" name="request" Description="/request status" Authority="0"/>
+		<Command ID="7" name="postview" Description="/postview #status" Authority="0"/>
+		<Command ID="8" name="refresh" Description="" Authority="0"/>
+		<Command ID="9" name="guildwar" Description="/guildwar guild" Authority="0"/>
+		<Command ID="10" name="war" Description="/war guild" Authority="0"/>
+		<Command ID="11" name="battlesoccer" Description="/battlesoccer guild" Authority="0"/>
+		<Command ID="12" name="soccer" Description="/soccer guild" Authority="0"/>
+		<Command ID="13" name="post" Description="/post message" Authority="0"/>
+		<Command ID="14" name="offstore" Description="" Authority="0"/>
+		<Command ID="15" name="auth" Description="" Authority="0"/>
+		<Command ID="16" name="offattack" Description="" Authority="0"/>
+		<Command ID="17" name="pkpoints" Description="" Authority="0"/>
+		<Command ID="18" name="reset" Description="" Authority="0"/>
+		<Command ID="19" name="resetauto" Description="/resetauto #type" Authority="0"/>
+		<Command ID="20" name="danhlo" Description="/danhlo #number <bettype> #betvalue" Authority="0"/>
+		<Command ID="21" name="danhde" Description="/danhde #number <bettype> #betvalue" Authority="0"/>
+		<Command ID="22" name="thuonglode" Description="" Authority="0"/>
+		<Command ID="23" name="clearinventory" Description="" Authority="0"/>
+		<Command ID="24" name="cleareventinventory" Description="" Authority="0"/>
+		<Command ID="25" name="cleargremorycase" Description="" Authority="0"/>
+		<Command ID="26" name="addexpanded" Description="" Authority="0"/>
+		<Command ID="27" name="errtel" Description="/errtel #type #element #r1 #lv1 #r2 #lv2 #r3 #lv3" Authority="0"/>
+		<Command ID="28" name="clearextinventory" Description="" Authority="0"/>
+		<Command ID="29" name="clearemuuninventory" Description="" Authority="0"/>
+		<Command ID="30" name="clearzen" Description="" Authority="0"/>
 	</CommandSystem>
-
+	
 	<CommandSystem Type="1" Description="Reload Commands">
-		<Command ID="0"  name="shop"	Description= "" />		
-		<Command ID="1"  name="quest"	Description= "" />		
-		<Command ID="2"  name="event"	Description= "" />		
-		<Command ID="3"  name="monster"	Description= "" />		
-		<Command ID="4"  name="config"	Description= "" />		
-		<Command ID="5"  name="item"	  Description= "" />		
-		<Command ID="6"  name="character" Description= "" />			
-		<Command ID="7"  name="skill"	  Description= "" />			
-		<Command ID="8"  name="teleport"  Description= "" />			
-		<Command ID="9"  name="cashshop"  Description= "#type" />	
-		<Command ID="10" name="mix"		  Description= "#eventid" />	
-		<Command ID="11" name="world"	  Description= "" />		
-		<Command ID="12" name="pentagram" Description= "" />		
+		<Command ID="0" name="shop" Description="" Authority="2"/>
+		<Command ID="1" name="quest" Description="" Authority="2"/>
+		<Command ID="2" name="event" Description="" Authority="2"/>
+		<Command ID="3" name="monster" Description="" Authority="2"/>
+		<Command ID="4" name="config" Description="" Authority="2"/>
+		<Command ID="5" name="item" Description="" Authority="2"/>
+		<Command ID="6" name="character" Description="" Authority="2"/>
+		<Command ID="7" name="skill" Description="" Authority="2"/>
+		<Command ID="8" name="teleport" Description="" Authority="2"/>
+		<Command ID="9" name="cashshop" Description="#type" Authority="2"/>
+		<Command ID="10" name="mix" Description="#eventid" Authority="2"/>
+		<Command ID="11" name="world" Description="" Authority="2"/>
+		<Command ID="12" name="pentagram" Description="" Authority="2"/>
 	</CommandSystem>
-
+	
 	<CommandSystem Type="2" Description="Item Commands">
-		<Command ID="0"  name= "normal"	      Description= ".item normal #count #type #index #lvl #dur #skill #luck #opt #exe #anc" />		
-		<Command ID="1"  name= "card"		  Description= ".item card #count #type #index #level #durability #socket1 #socket2 #socket3 #socket4 #socket5" />		
-		<Command ID="2"  name= "add"		  Description= ".item add #count #type #index #lvl #dur #skill #luck #opt #exe #anc"  />		
-		<Command ID="3"  name= "show"		  Description= ""										 />													
-		<Command ID="4"  name= "hide"		  Description= ".item hide #count #type #index #lvl #dur #skill #luck #opt #duration #looting" />		
-		<Command ID="5"  name= "remove"	      Description= ".item remove #owner" />		
-		<Command ID="6"  name= "pentagram"    Description= ".item pentagram #type #index #pentagramtype #level #sock1 #sock2 #sock3 #sock4 #sock5 "	 />			
-		<Command ID="7"  name= "gremory"	  Description= ".item gremory #count #type #index #lvl #dur #skill #luck #opt #exe #anc #duration"	 />				
-		<Command ID="8"  name= "wing"		  Description= ".item wing #index #lvl #skc1 #skc2 #skc3 #skc4 #skc5 #skcb" />		
-		<Command ID="9"  name= "wing5"        Description= ".item wing5 #index #lvl #opt1 #opt2" />		
-		<Command ID="10" name= "wingcore"	  Description= ".item wingcore #index #lvl #opt1 #opt2" />		
-		<Command ID="11" name= "player"	      Description= ".item player #PID #count #type #index #lvl #dur #skill #luck #opt #exe #anc #socketbonus" />			
+		<Command ID="0" name="normal" Description=".item normal #count #type #index #lvl #dur #skill #luck #opt #exe #anc" Authority="2"/>
+		<Command ID="1" name="card" Description=".item card #count #type #index #level #durability #socket1 #socket2 #socket3 #socket4 #socket5" Authority="2"/>
+		<Command ID="2" name="add" Description=".item add #count #type #index #lvl #dur #skill #luck #opt #exe #anc" Authority="2"/>
+		<Command ID="3" name="show" Description=""/>
+		<Command ID="4" name="hide" Description=".item hide #count #type #index #lvl #dur #skill #luck #opt #duration #looting" Authority="2"/>
+		<Command ID="5" name="remove" Description=".item remove #owner"/>
+		<Command ID="6" name="pentagram" Description=".item pentagram #type #index #pentagramtype #level #sock1 #sock2 #sock3 #sock4 #sock5 " Authority="2"/>
+		<Command ID="7" name="gremory" Description=".item gremory #count #type #index #lvl #dur #skill #luck #opt #exe #anc #duration" Authority="2"/>
+		<Command ID="8" name="wing" Description=".item wing #index #lvl #skc1 #skc2 #skc3 #skc4 #skc5 #skcb" Authority="2"/>
+		<Command ID="9" name="wing5" Description=".item wing5 #index #lvl #opt1 #opt2" Authority="2"/>
+		<Command ID="10" name="wingcore" Description=".item wingcore #index #lvl #opt1 #opt2" Authority="2"/>
+		<Command ID="11" name="player" Description=".item player #PID #count #type #index #lvl #dur #skill #luck #opt #exe #anc #socketbonus" Authority="2"/>
 	</CommandSystem>
 	
 	<CommandSystem Type="3" Description="Buff Commands">
-		<Command ID="0"  name= "up"	    Description= ".buff up #id #duration(min) #value" />
-		<Command ID="1"  name= "all"	Description= ".buff all #id #duration(min) #value" />
-		<Command ID="2"  name= "to"     Description= ".buff to #id #duration(min) #value" /> 
+		<Command ID="0" name="up" Description=".buff up #id #duration(min) #value" Authority="2"/>
+		<Command ID="1" name="all" Description=".buff all #id #duration(min) #value" Authority="2"/>
+		<Command ID="2" name="to" Description=".buff to #id #duration(min) #value" Authority="2"/>
 	</CommandSystem>
-
+	
 	<CommandSystem Type="4" Description="Monster Command">
-		<Command ID="0"  name= "temp"  Description= ".monster temp #monster #move_distance #despawn_time #despawn_die"/>
-		<Command ID="1"  name= "alter" Description= ".monster alter #type #data" />
+		<Command ID="0" name="temp" Description=".monster temp #monster #move_distance #despawn_time #despawn_die" Authority="2"/>
+		<Command ID="1" name="alter" Description=".monster alter #type #data" Authority="2"/>
 	</CommandSystem>
-
+	
 	<CommandSystem Type="5" Description="Ban Commands">
-		<Command ID="0"  name= "char" Description= ".ban acc account" />
-		<Command ID="1"  name= "acc"  Description= ".ban char name" />	
-	</CommandSystem>
-
+		<Command ID="0" name="char" Description=".ban acc account" Authority="2"/>
+		<Command ID="1" name="acc" Description=".ban char name" Authority="2"/>
+	</ComandSystem>
+	
 	<CommandSystem Type="6" Description="Talk Commands">
-		<Command ID="0"	 name= "guild"    Description= ".talk guild guild"	  />	
-		<Command ID="1"  name= "alliance" Description= ".talk alliance guild" />
+		<Command ID="0" name="guild" Description=".talk guild guild" Authority="2"/>
+		<Command ID="1" name="alliance" Description=".talk alliance guild" Authority="2"/>
 	</CommandSystem>
-
+	
 	<CommandSystem Type="7" Description="Zen Commands">
-		<Command ID="0"	 name= "add" Description= ".zen add #ammount #type" />
-		<Command ID="1"  name= "set" Description= ".zen set #ammount #type" />
+		<Command ID="0" name="add" Description=".zen add #ammount #type" Authority="2"/>
+		<Command ID="1" name="set" Description=".zen set #ammount #type" Authority="2"/>
 	</CommandSystem>
-
-	<CommandSystem Type="8" Description="Misc Commands">	
-		<Command ID="0"	 name= "kill" Description= ".misc kill <name>" />
+	
+	<CommandSystem Type="8" Description="Misc Commands">
+		<Command ID="0" name="kill" Description=".misc kill <name>" Authority="2"/>
 	</CommandSystem>
-
+	
 	<CommandSystem Type="9" Description="Change Commands">
-		<Command ID="0"  name= "guild" 	   Description= ".change guild <name> #guild" />
-		<Command ID="1"  name= "alliance"  Description= ".change alliance #guild #alliance" />
-		<Command ID="2"  name= "hostil"	   Description= ".change hostil #guild #hostil" />
-		<Command ID="3"  name= "csowner"   Description= ".change csowner #owner" />
-		<Command ID="4"  name= "crywolf"   Description= ".change crywolf #state" />
+		<Command ID="0" name="guild" Description=".change guild <name> #guild" Authority="2"/>
+		<Command ID="1" name="alliance" Description=".change alliance #guild #alliance" Authority="2"/>
+		<Command ID="2" name="hostil" Description=".change hostil #guild #hostil" Authority="2"/>
+		<Command ID="3" name="csowner" Description=".change csowner #owner" Authority="2"/>
+		<Command ID="4" name="crywolf" Description=".change crywolf #state" Authority="2"/>
 	</CommandSystem>
-
+	
 	<CommandSystem Type="10" Description="Skill Commands">
-		<Command ID="0"  name= "add"    Description= ".skill add #skill_id"	/>	
-		<Command ID="1"  name= "remove" Description= ".skill remove #skill_id"/>
+		<Command ID="0" name="add" Description=".skill add #skill_id" Authority="2"/>
+		<Command ID="1" name="remove" Description=".skill remove #skill_id" Authority="2"/>
 	</CommandSystem>
-
+	
 	<CommandSystem Type="11" Description="Castle Siege Commands">
-		 <Command ID="0"  name= "reg"		Description= ".siege reg <guild>" />	
-		 <Command ID="1"  name= "unreg"	    Description= ".siege unreg <guild>" />	
-		 <Command ID="2"  name= "incmark"   Description= ".siege incmark <guild> #count" />	
-		 <Command ID="3"  name= "decmark"   Description= ".siege decmark <guild> #count" />	
-		 <Command ID="4"  name= "kill"		Description= ".siege kill <name> #ammount" />		
-		 <Command ID="5"  name= "npcload"   Description= "" />	
-		 <Command ID="6"  name= "fix"		Description= "" />	
-		 <Command ID="7"  name= "fixgate"   Description= ".siege fixgate #id" />	
+		<Command ID="0" name="reg" Description=".siege reg <guild>" Authority="2"/>
+		<Command ID="1" name="unreg" Description=".siege unreg <guild>" Authority="2"/>
+		<Command ID="2" name="incmark" Description=".siege incmark <guild> #count" Authority="2"/>
+		<Command ID="3" name="decmark" Description=".siege decmark <guild> #count" Authority="2"/>
+		<Command ID="4" name="kill" Description=".siege kill <name> #ammount" Authority="2"/>
+		<Command ID="5" name="npcload" Description="" Authority="2"/>
+		<Command ID="6" name="fix" Description="" Authority="2"/>
+		<Command ID="7" name="fixgate" Description=".siege fixgate #id" Authority="2"/>
 	</CommandSystem>
-
+	
 	<CommandSystem Type="12" Description="Stat Commands">
-		<Command ID="0"  name= "add"	 Description= ".stat add <name> #stat_id #value" />
-		<Command ID="1"  name= "set"	 Description= ".stat set <name> #stat_id #value" />
-		<Command ID="2"  name= "remove"  Description= ".stat remove <name> #stat_id #value" />
+		<Command ID="0" name="add" Description=".stat add <name> #stat_id #value" Authority="2"/>
+		<Command ID="1" name="set" Description=".stat set <name> #stat_id #value" Authority="2"/>
+		<Command ID="2" name="remove" Description=".stat remove <name> #stat_id #value" Authority="2"/>
 	</CommandSystem>
-
+	
 	<CommandSystem Type="13" Description="Arca War Commands">
-		 <Command ID="0"  name= "regmaster" Description= ".arcawar regmaster <guild>"  />
-		 <Command ID="1"  name= "regmember" Description= ".arcawar regmember <member>"  />
-		 <Command ID="2"  name= "regsign"	Description= ".arcawar regsign <guild> #count"  />	
-		 <Command ID="3"  name= "reload" 	Description= ""  />
+		<Command ID="0" name="regmaster" Description=".arcawar regmaster <guild>" Authority="2"/>
+		<Command ID="1" name="regmember" Description=".arcawar regmember <member>" Authority="2"/>
+		<Command ID="2" name="regsign" Description=".arcawar regsign <guild> #count" Authority="2"/>
+		<Command ID="3" name="reload" Description="" Authority="2"/>
 	</CommandSystem>
-
+	
 	<CommandSystem Type="14" Description="Quest Commands">
-		<Command ID="0"  name= "state"		Description= ".quest state <name> #id #state" />
-		<Command ID="1"  name= "killcount"	Description= ".quest killcount <name> #id #slot #count" />
+		<Command ID="0" name="state" Description=".quest state <name> #id #state" Authority="2"/>
+		<Command ID="1" name="killcount" Description=".quest killcount <name> #id #slot #count" Authority="2"/>
 	</CommandSystem>
-
+	
 	<CommandSystem Type="15" Description="Chat Commands Admin ">
-		<Command ID="0"  name= "kick"			Description= ".kick <name> #time(min)" />
-		<Command ID="1"  name= "event"	        Description= ".event #id #invasion #time #notify_time" />
-		<Command ID="2"  name= "stopevent"      Description= ".stopevent #id #invasion" />
-		<Command ID="3"  name= "item"			Description= "" />
-		<Command ID="4"  name= "ban"			Description= "" />
-		<Command ID="5"  name= "reload"		    Description= "" />
-		<Command ID="6"  name= "monster"		Description= "" />
-		<Command ID="7"  name= "zen"			Description= "" />
-		<Command ID="8"  name= "stat"			Description= "" />
-		<Command ID="9"  name= "talk"			Description= "" />
-		<Command ID="10" name= "buff"			Description= "" />
-		<Command ID="11" name= "misc"			Description= "" />
-		<Command ID="12" name= "skill"		    Description= "" />
-		<Command ID="13" name= "siege"		    Description= "" />
-		<Command ID="14" name= "arcawar"		Description= "" />
-		<Command ID="15" name= "quest"		    Description= "" />
-		<Command ID="16" name= "mute"			Description= ".mute <name> #time" />
-		<Command ID="17" name= "restrict"		Description= ".restrict <player> #restriction #time" />
-		<Command ID="18" name= "online"		    Description= "" />
-		<Command ID="19" name= "shutdown"		Description= ".shutdown #time(sec)" />
-		<Command ID="20" name= "action"		    Description= ".action #id" />
-		<Command ID="21" name= "firework"		Description= "" />
-		<Command ID="22" name= "challenge"	    Description= ".challenge #size" />
-		<Command ID="23" name= "change"		    Description= ""/>
-		<Command ID="24" name= "setpk"		    Description= ".setpk <name> #pk_level"/>
-		<Command ID="25" name= "clear"		    Description= "" />
-		<Command ID="26" name= "summon"		    Description= ".summon #id #move #time #type" />
-		<Command ID="27" name= "season"		    Description= ".season #id"/>
-		<Command ID="28" name= "duelreset"	    Description= ".duelreset #room"/>
-		<Command ID="29" name= "transfer"		Description= ".transfer #server_id"/>
-		<Command ID="30" name= "closeps"		Description= ".closeps <name> #operation" />
-		<Command ID="31" name= "postreset"      Description= "" />
-		<Command ID="32" name= "globalmute"	    Description= "" />
-		<Command ID="33" name= "macmute"	    Description= ".macmute <name> #operation" />
-		<Command ID="34" name= "macrestrict"	Description= ".macrestrict <name> #operation #restriction #time"/>
-		<Command ID="35" name= "iteminfo"		Description= ".iteminfo #type #slot/#id>" />
-		<Command ID="36" name= "trace"		    Description= ".trace <name>" />
-		<Command ID="37" name= "trans"		    Description= ".trans <name>" />
-		<Command ID="38" name= "gate"			Description= ".gate <name> #gate" />
-		<Command ID="39" name= "move"			Description= ".move <name> #world #x #y" />
-		<Command ID="40" name= "follow"		    Description= ".follow #id" />
-		<Command ID="41" name= "updatestat"	    Description= ".updatestat <name>" />
-		<Command ID="42" name= "active"         Description= ".active 1/0"  />
-		<Command ID="43" name= "admincmd"		Description= "" />
-		<Command ID="44" name= "rshop"		    Description= "" />
-		<Command ID="45" name= "rquest"		    Description= "" />
-		<Command ID="46" name= "ritem"		    Description= "" />
-		<Command ID="47" name= "rchara"		    Description= "" />
-		<Command ID="48" name= "rskill"		    Description= "" />
-		<Command ID="49" name= "rtele"		    Description= "" />
-		<Command ID="50" name= "rcashshop"	    Description= "" />
-		<Command ID="51" name= "rmix"			Description= "" />
-		<Command ID="52" name= "rpentagram"	    Description= "" />
-		<Command ID="53" name= "revent"		    Description= ".revent #id #sub_id" />
-		<Command ID="54" name= "rconfig"		Description= "" />
-		<Command ID="55" name= "rworld"		    Description= "" />
-		<Command ID="56" name= "rmonster"		Description= ".rmonster #guid"/>
-		<Command ID="57" name= "testfunc"		Description= "" />
-		<Command ID="58" name= "notify"		    Description= ".notify <text>" />
-		<Command ID="59" name= "delitem"		Description= ".delitem #id" />
-		<Command ID="60" name= "delitemsr"      Description= ".delitemsr #serial" />
-		<Command ID="61" name= "delitemerrorp"  Description= "" />
-		<Command ID="62" name= "kickacc"		Description= ".kickacc #accid" />
-		<Command ID="63" name= "track"          Description= "" />
-		<Command ID="64" name= "spot"           Description= ".spot #count" />
-		<Command ID="65" name= "attrchange"     Description= ".attrchange #x #y #attr #apply" />
-	</CommandSystem>                            
+		<Command ID="0" name="kick" Description=".kick <name> #time(min)" Authority="2"/>
+		<Command ID="1" name="event" Description=".event #id #invasion #time #notify_time" Authority="2"/>
+		<Command ID="2" name="stopevent" Description=".stopevent #id #invasion" Authority="2"/>
+		<Command ID="3" name="item" Description="" Authority="2"/>
+		<Command ID="4" name="ban" Description="" Authority="2"/>
+		<Command ID="5" name="reload" Description="" Authority="2"/>
+		<Command ID="6" name="monster" Description="" Authority="2"/>
+		<Command ID="7" name="zen" Description="" Authority="2"/>
+		<Command ID="8" name="stat" Description="" Authority="2"/>
+		<Command ID="9" name="talk" Description="" Authority="2"/>
+		<Command ID="10" name="buff" Description="" Authority="2"/>
+		<Command ID="11" name="misc" Description="" Authority="2"/>
+		<Command ID="12" name="skill" Description="" Authority="2"/>
+		<Command ID="13" name="siege" Description="" Authority="2"/>
+		<Command ID="14" name="arcawar" Description="" Authority="2"/>
+		<Command ID="15" name="quest" Description="" Authority="2"/>
+		<Command ID="16" name="mute" Description=".mute <name> #time" Authority="2"/>
+		<Command ID="17" name="restrict" Description=".restrict <player> #restriction #time" Authority="2"/>
+		<Command ID="18" name="online" Description="" Authority="2"/>
+		<Command ID="19" name="shutdown" Description=".shutdown #time(sec)" Authority="2"/>
+		<Command ID="20" name="action" Description=".action #id" Authority="2"/>
+		<Command ID="21" name="firework" Description="" Authority="2"/>
+		<Command ID="22" name="challenge" Description=".challenge #size" Authority="2"/>
+		<Command ID="23" name="change" Description="" Authority="2"/>
+		<Command ID="24" name="setpk" Description=".setpk <name> #pk_level" Authority="2"/>
+		<Command ID="25" name="clear" Description="" Authority="2"/>
+		<Command ID="26" name="summon" Description=".summon #id #move #time #type" Authority="2"/>
+		<Command ID="27" name="season" Description=".season #id" Authority="2"/>
+		<Command ID="28" name="duelreset" Description=".duelreset #room" Authority="2"/>
+		<Command ID="29" name="transfer" Description=".transfer #server_id" Authority="2"/>
+		<Command ID="30" name="closeps" Description=".closeps <name> #operation" Authority="2"/>
+		<Command ID="31" name="postreset" Description="" Authority="2"/>
+		<Command ID="32" name="globalmute" Description="" Authority="2"/>
+		<Command ID="33" name="macmute" Description=".macmute <name> #operation" Authority="2"/>
+		<Command ID="34" name="macrestrict" Description=".macrestrict <name> #operation #restriction #time" Authority="2"/>
+		<Command ID="35" name="iteminfo" Description=".iteminfo #type #slot/#id>" Authority="2"/>
+		<Command ID="36" name="trace" Description=".trace <name>" Authority="2"/>
+		<Command ID="37" name="trans" Description=".trans <name>" Authority="2"/>
+		<Command ID="38" name="gate" Description=".gate <name> #gate" Authority="2"/>
+		<Command ID="39" name="move" Description=".move <name> #world #x #y" Authority="2"/>
+		<Command ID="40" name="follow" Description=".follow #id" Authority="2"/>
+		<Command ID="41" name="updatestat" Description=".updatestat <name>" Authority="2"/>
+		<Command ID="42" name="active" Description=".active 1/0" Authority="2"/>
+		<Command ID="43" name="admincmd" Description="" Authority="2"/>
+		<Command ID="44" name="rshop" Description="" Authority="2"/>
+		<Command ID="45" name="rquest" Description="" Authority="2"/>
+		<Command ID="46" name="ritem" Description="" Authority="2"/>
+		<Command ID="47" name="rchara" Description="" Authority="2"/>
+		<Command ID="48" name="rskill" Description="" Authority="2"/>
+		<Command ID="49" name="rtele" Description="" Authority="2"/>
+		<Command ID="50" name="rcashshop" Description="" Authority="2"/>
+		<Command ID="51" name="rmix" Description="" Authority="2"/>
+		<Command ID="52" name="rpentagram" Description="" Authority="2"/>
+		<Command ID="53" name="revent" Description=".revent #id #sub_id" Authority="2"/>
+		<Command ID="54" name="rconfig" Description="" Authority="2"/>
+		<Command ID="55" name="rworld" Description="" Authority="2"/>
+		<Command ID="56" name="rmonster" Description=".rmonster #guid" Authority="2"/>
+		<Command ID="57" name="testfunc" Description="" Authority="2"/>
+		<Command ID="58" name="notify" Description=".notify <text>" Authority="2"/>
+		<Command ID="59" name="delitem" Description=".delitem #id" Authority="2"/>
+		<Command ID="60" name="delitemsr" Description=".delitemsr #serial" Authority="2"/>
+		<Command ID="61" name="delitemerrorp" Description="" Authority="2"/>
+		<Command ID="62" name="kickacc" Description=".kickacc #accid" Authority="2"/>
+		<Command ID="63" name="track" Description="" Authority="2"/>
+		<Command ID="64" name="spot" Description=".spot #count" Authority="2"/>
+		<Command ID="65" name="attrchange" Description=".attrchange #x #y #attr #apply" Authority="2"/>
+	</CommandSystem>
 </CommandList>
