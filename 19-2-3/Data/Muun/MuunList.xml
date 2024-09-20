@@ -302,8 +302,8 @@
     <Muun Item="8539" Rank="2" Option="52" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" /> 
     <Muun Item="8540" Rank="2" Option="28" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8541" /> 
     <Muun Item="8541" Rank="2" Option="28" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" /> 
-    <Muun Item="8601" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8602" /> 
-    <Muun Item="8602" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" /> 
+	<Muun Item="8601" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8602" /> 
+	<Muun Item="8602" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" /> 
     <Muun Item="8603" Rank="2" Option="53" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8604" /> 
     <Muun Item="8604" Rank="2" Option="53" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" /> 
     <Muun Item="8605" Rank="2" Option="54" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8606" /> 
@@ -390,6 +390,4 @@
 	<Muun Item="8699" Rank="4" Option="105" SpecialOptionType="7" SpecialOptionValue="2" EvolutionItem="-1" />
 	<Muun Item="8700" Rank="4" Option="102" SpecialOptionType="7" SpecialOptionValue="2" EvolutionItem="8701" />
 	<Muun Item="8701" Rank="4" Option="103" SpecialOptionType="7" SpecialOptionValue="2" EvolutionItem="-1" />
-	<Muun Item="8360" Rank="4" Option="72" SpecialOptionType="2" SpecialOptionValue="2" EvolutionItem="-1" />
-	<Muun Item="8361" Rank="4" Option="69" SpecialOptionType="2" SpecialOptionValue="2" EvolutionItem="-1" />
 </MuunList>
