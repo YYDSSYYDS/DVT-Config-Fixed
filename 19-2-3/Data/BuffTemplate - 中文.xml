@@ -419,7 +419,7 @@
 	<Buff ID="426" Group="116" ItemCat="14" ItemIndex="69" Name="[网吧]光之祝福（高级）" Description="额外获得基础经验值的200%。" Send="1" Debuff="0" Effect1="0" Value1="6" Effect2="200" Value2="0" Duration="1800"/>
 	<!-- S19.2 -->
 	<Buff ID="427" Group="87" ItemCat="-1" ItemIndex="-1" Name="皇冠之力" Description="提高所有属性。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
-	<Buff ID="428" Group="337" ItemCat="-1" ItemIndex="-1" Name="神力" Description="增加角色自身以及队友的攻击力/魔法力/诅咒力，持续3秒。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="428" Group="337" ItemCat="-1" ItemIndex="-1" Name="神圣之力" Description="增加角色自身以及队友的攻击力/魔法力/诅咒力，持续3秒。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
 	<Buff ID="429" Group="337" ItemCat="-1" ItemIndex="-1" Name="神圣光环" Description="增加角色自身以及队友的防御力，持续3秒。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
 	<Buff ID="430" Group="117" ItemCat="20" ItemIndex="247" Name="神马" Description="召唤神马。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
 	<Buff ID="431" Group="230" ItemCat="20" ItemIndex="248" Name="火神灵" Description="召唤火神灵。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
