@@ -79,7 +79,7 @@
 	<CommandSystem Type="5" Description="Ban Commands">
 		<Command ID="0" name="char" Description=".ban acc account" Authority="2"/>
 		<Command ID="1" name="acc" Description=".ban char name" Authority="2"/>
-	</ComandSystem>
+	</CommandSystem>
 	
 	<CommandSystem Type="6" Description="Talk Commands">
 		<Command ID="0" name="guild" Description=".talk guild guild" Authority="2"/>
