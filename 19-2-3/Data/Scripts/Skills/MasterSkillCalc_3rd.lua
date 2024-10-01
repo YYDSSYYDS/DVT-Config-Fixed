@@ -1,20 +1,7 @@
--- // ============================================================
--- // == INTERNATIONAL GAMING CENTER NETWORK
--- // == www.igcn.mu
--- // == (C) 2022 IGC-Network (R)
--- // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
--- // == File is a part of IGCN Group MuOnline Server files.
--- // ============================================================
-
--- MasterSkillCalc Control Script, Lua v5.3
--- Skill Tree Skill Configuration (Result, Time) - Can be modified to adjust for own needs
-
--- SkillID refers to Index of skill in \Data\Skills\SkillList.xml
-
 -- Character Classes
-CLASS_WIZARD                                          = 0	-- Fairy Elf, Muse Elf, High Elf
-CLASS_KNIGHT                                          = 1	-- Dark Wizard, Soul Master, Grand Master
-CLASS_ELF                                             = 2	-- Dark Knight, Blade Knight, Blade Master
+CLASS_WIZARD                                          = 0	-- Dark Wizard, Soul Master, Grand Master
+CLASS_KNIGHT                                          = 1	-- Dark Knight, Blade Knight, Blade Master
+CLASS_ELF                                             = 2	-- Fairy Elf, Muse Elf, High Elf
 CLASS_GLADIATOR                                       = 3	-- Magic Gladiator, Duel Master
 CLASS_DARKLORD                                        = 4	-- Dark Lord, Lord Emperor
 CLASS_SUMMONER                                        = 5	-- Summoner, Bloody Summoner, Dimension Master

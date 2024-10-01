@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-
-//
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==             File Name: ImperialGuardian                ==
+// ============================================================
 // ### ImperialGuardian ###
 //	Enable: Deactivates or activates the event, 0/1
 //	LootTime: Maximum time to pick up item from ground after it dropped, seconds

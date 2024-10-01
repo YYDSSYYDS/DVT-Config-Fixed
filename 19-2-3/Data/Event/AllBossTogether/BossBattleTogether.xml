@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- 
 // ============================================================
-
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==             File Name: BossBattleTogether              ==
+// ============================================================
 -->
 
 <BossBattleTogether Enable="1" MaxUser="100" DamageToSuccess="1000000" >

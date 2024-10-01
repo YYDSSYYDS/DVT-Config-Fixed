@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-
-//
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==          File Name: ImperialGuardian_Monster_Info      ==
+// ============================================================
 // ### ImperialGuardian::Monster ###
 //	EventLevel: Level of the event the settings apply to
 //	Level: Monster Level multiplier

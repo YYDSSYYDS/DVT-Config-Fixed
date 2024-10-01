@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- 
-
-//
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==        File Name: ImperialGuardian_Monster_Spawn       ==
+// ============================================================
 // ### ImperialGuardian::Map ###
 //	Day: Day of the event cycle the monsters applies to:
 //		~ 0: Sunday
