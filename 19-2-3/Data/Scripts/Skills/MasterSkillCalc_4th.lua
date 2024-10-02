@@ -289,13 +289,13 @@ function DeadScythe_4thEnchant_Summoner(InDamage, TargetClass, Strength, Dexteri
 end
 
 -- SkillID: 1159, Bat Flock Enhancement - (Damage over time)
---function BatFlock_DotDamage_4thEnchant_Slayer(InDamage, Strength, Energy)
---	local Damage = InDamage
---	local DotDamage = (InDamage / 10)
---	local Time = 13
---	
---	return Damage, DotDamage, Time
---end
+function BatFlock_DotDamage_4thEnchant_Slayer(InDamage, Strength, Energy)
+	local Damage = InDamage
+	local DotDamage = (InDamage / 10)
+	local Time = 13
+	
+	return Damage, DotDamage, Time
+end
 
 function SwordInertia_4thEnchant_Slayer(InDamage, Strength, Dexterity)
 	local OutDamage = InDamage * ((Strength / 8) + (Dexterity / 28) + 120) / 100

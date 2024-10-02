@@ -1241,23 +1241,23 @@ function SlayerBatFlock_MasterLevel2_Calc(InDamage, Strength, Dexterity)
 	return OutDamage
 end
 
----- SkillID: 781, Bat Flock Strenghtener - (Damage over time) - (Slayer, Royal Slayer, Master Slayer, Slaughterer)
---function BatFlock_MasterLevel1_DotDamage(InDamage, Strength, Energy)
---	local Damage = InDamage
---	local DotDamage = InDamage / 10
---	local Time = 3
---	
---	return DotDamage, Time
---end
---
+-- SkillID: 781, Bat Flock Strenghtener - (Damage over time) - (Slayer, Royal Slayer, Master Slayer, Slaughterer)
+function BatFlock_MasterLevel1_DotDamage(InDamage, Strength, Energy)
+	local Damage = InDamage
+	local DotDamage = InDamage / 10
+	local Time = 3
+	
+	return DotDamage, Time
+end
+
 -- SkillID: 782, Bat Flock Mastery - (Damage over time) - (Slayer, Royal Slayer, Master Slayer, Slaughterer)
---function BatFlock_MasterLevel2_DotDamage(InDamage, Strength, Energy)
---	local Damage = InDamage
---	local DotDamage = (InDamage / 10)
---	local Time = 13
---	
---	return DotDamage, Time
---end
+function BatFlock_MasterLevel2_DotDamage(InDamage, Strength, Energy)
+	local Damage = InDamage
+	local DotDamage = (InDamage / 10)
+	local Time = 13
+	
+	return DotDamage, Time
+end
 
 -- SkillID: 779, Sword Inertia Strengthener - (Slayer, Royal Slayer, Master Slayer, Slaughterer)
 function SlayerSwordInertia_MasterLevel1_Calc(InDamage, Strength, Dexterity)
