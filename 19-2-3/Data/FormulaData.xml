@@ -570,8 +570,8 @@
 	<Data Type="7" ID="52" Formula="((%d*0)+(%d*0)+(%d/50))"/> <!-- Dark Lord Mastery Shield Defense Increase Percent, applies when riding Divine Horse：ItemLevel, ItemLevel, ItemDropLevel -->
 	<Data Type="7" ID="53" Formula="((%d*0)+(%d*0)+(%d/70))"/> <!-- Dark Lord Mastery Shield Elemental Defense Increase Percent, applies when riding Divine Horse：ItemLevel, ItemLevel, ItemDropLevel -->
 	<Data Type="7" ID="54" Formula="250+(%d/20)+(%d/20)"/> <!-- Skill Attack Power Increase of Dark Lord class：Energy, Command -->
-	<Data Type="7" ID="55" Formula="(%d+%d)*0+10"/> <!-- Battle Glory Combat Power Increase：Command, Agility -->
-	<Data Type="7" ID="56" Formula="(%d+%d)/3"/> <!-- Battle Glory Attack Power Increase：Command, Agility -->
+	<Data Type="7" ID="55" Formula="(%d+%d)*0+10"/> <!-- Battle Glory Combat Power Increase：Strength, Command -->
+	<Data Type="7" ID="56" Formula="(%d+%d)/3"/> <!-- Battle Glory Attack Power Increase：Strength, Command -->
 	
 	<!-- GuardianItem -->
 	<Data Type="8" ID="0" Formula="20+((9+%d)/2)^2"/> <!-- ItemLevel -->
@@ -686,7 +686,7 @@
 	<Data Type="12" ID="12" Formula="10+(%d/100)"/> <!-- Base Combat Power formula for Slayer class：Agility -->
 	<Data Type="12" ID="13" Formula="10+(%d/120)+(%d/130)"/> <!-- Base Combat Power formula for Grow Lancer class：Strength, Agility -->
 	<!-- S19.2 -->
-	<Data Type="12" ID="14" Formula="15+(%d/100)+(%d/90)"/> <!-- Base Combat Power formula for Dark Lord class：Command, Agility -->
+	<Data Type="12" ID="14" Formula="15+(%d/100)+(%d/90)"/> <!-- Base Combat Power formula for Dark Lord class：Strength, Command -->
 	
 	<!-- Wing5thDamage -->
 	<Data Type="13" ID="0" Formula="300+(%d^1.6*23)"/> <!-- WingsLevel -->
@@ -980,9 +980,9 @@
 	<Data Type="15" ID="281" Formula="(25+%d*25)+((%d+%d)*0)"/> <!-- CardLevel, CardLevel -->
 	<Data Type="15" ID="282" Formula="(15+%d*15)+((%d+%d)*0)"/> <!-- CardLevel, CardLevel -->
 	<!-- S19.2 -->	
-	<Data Type="15" ID="283" Formula="(((15+(%d*15))+((%d+1)*%d*2))*1.59+100)"/> <!-- CardLevel, CardLevel -->
-	<Data Type="15" ID="284" Formula="%d*1"/> 
-	<Data Type="15" ID="285" Formula="%d*1000000"/> 
+	<Data Type="15" ID="283" Formula="(((15+(%d*15))+((%d+1)*%d*2))*1.59+100)"/> <!-- CardLevel, CardLevel, CardLevel -->
+	<Data Type="15" ID="284" Formula="%d*1"/> <!-- ReqCardCount -->
+	<Data Type="15" ID="285" Formula="%d*1000000"/> <!-- ReqCardCount -->
 		
 	<!-- PetItem-->
 	<Data Type="16" ID="0" Formula="50"/> <!-- Max Pet Level for Divine Horse -->
