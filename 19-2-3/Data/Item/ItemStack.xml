@@ -8,20 +8,20 @@
 -->
 
 <ItemStack>
-	<Item ItemCat="4" ItemIndex="7" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Bolt -->
-	<Item ItemCat="4" ItemIndex="15" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Arrow -->
-	<Item ItemCat="12" ItemIndex="15" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jewel of Chaos -->
+	<Item ItemCat="4" ItemIndex="7" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Bolt -->
+	<Item ItemCat="4" ItemIndex="15" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Arrow -->
+	<Item ItemCat="12" ItemIndex="15" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jewel of Chaos -->
 	<Item ItemCat="12" ItemIndex="77" MaxStack="30" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Rumi Reward Box (Lesser) -->
 	<Item ItemCat="12" ItemIndex="78" MaxStack="30" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Rumi Reward Box (Intermediate) -->
 	<Item ItemCat="12" ItemIndex="79" MaxStack="30" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Rumi Reward Box (Advanced) -->
 	<Item ItemCat="12" ItemIndex="80" MaxStack="30" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Rumi Reward Box (Special) -->
 	<Item ItemCat="12" ItemIndex="99" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Top Grade Spirit Stone -->
 	<Item ItemCat="12" ItemIndex="144" MaxStack="5" StackOnLoot="1" StackConvertType="12" StackConvertIndex="145"/> <!-- Mithril Fragment -->
-	<Item ItemCat="12" ItemIndex="146" MaxStack="5" StackOnLoot="0" StackConvertType="12" StackConvertIndex="147"/> <!-- Elixir Fragment -->
+	<Item ItemCat="12" ItemIndex="146" MaxStack="5" StackOnLoot="1" StackConvertType="12" StackConvertIndex="147"/> <!-- Elixir Fragment -->
 	<Item ItemCat="12" ItemIndex="150" MaxStack="30" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jewel Combination Frame -->
 	<Item ItemCat="12" ItemIndex="151" MaxStack="30" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Spirit Powder -->
 	<Item ItemCat="12" ItemIndex="288" MaxStack="30" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Elemental Rune -->
-	<Item ItemCat="12" ItemIndex="401" MaxStack="30" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Sphere Upgrade Rune -->
+	<Item ItemCat="12" ItemIndex="401" MaxStack="30" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Sphere Upgrade Rune -->
 	<Item ItemCat="12" ItemIndex="404" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Lesser Spirit Stone -->
 	<Item ItemCat="12" ItemIndex="405" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Intermediate Spirit Stone -->
 	<Item ItemCat="12" ItemIndex="406" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Greater Spirit Stone -->
@@ -31,76 +31,73 @@
 	<Item ItemCat="13" ItemIndex="32" MaxStack="20" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Splinter of Armor -->
 	<Item ItemCat="13" ItemIndex="33" MaxStack="20" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Bless of Guardian -->
 	<Item ItemCat="13" ItemIndex="34" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Claw of Beast -->
-	<Item ItemCat="13" ItemIndex="145" MaxStack="5" StackOnLoot="0" StackConvertType="13" StackConvertIndex="146"/> <!-- Spirit Map Fragment -->
-	<Item ItemCat="13" ItemIndex="147" MaxStack="10" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Trophies of Battle -->
+	<Item ItemCat="13" ItemIndex="145" MaxStack="5" StackOnLoot="1" StackConvertType="13" StackConvertIndex="146"/> <!-- Spirit Map Fragment -->
+	<Item ItemCat="13" ItemIndex="147" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Trophies of Battle -->
 	<Item ItemCat="13" ItemIndex="148" MaxStack="20" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Green Ink -->
 	<Item ItemCat="13" ItemIndex="149" MaxStack="20" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Blue Ink -->
 	<Item ItemCat="13" ItemIndex="150" MaxStack="20" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Red Ink -->
 	<Item ItemCat="13" ItemIndex="151" MaxStack="20" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Parchment of Soul -->
 	<Item ItemCat="13" ItemIndex="239" MaxStack="120" StackOnLoot="0" StackConvertType="13" StackConvertIndex="240"/> <!-- Muun Energy Converter -->
-	<Item ItemCat="13" ItemIndex="468" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Golden Sentence -->
+	<Item ItemCat="13" ItemIndex="468" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Golden Sentence -->
 	<Item ItemCat="13" ItemIndex="510" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Lapidary Stone -->
-	<Item ItemCat="14" ItemIndex="0" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Apple -->
-	<Item ItemCat="14" ItemIndex="1" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Small Healing Potion -->
-	<Item ItemCat="14" ItemIndex="2" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Healing Potion -->
-	<Item ItemCat="14" ItemIndex="3" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Large Healing Potion -->
-	<Item ItemCat="14" ItemIndex="4" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Small Mana Potion -->
-	<Item ItemCat="14" ItemIndex="5" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Mana Potion -->
-	<Item ItemCat="14" ItemIndex="6" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Large Mana Potion -->
-	<Item ItemCat="14" ItemIndex="7" MaxStack="250" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Siege Potion -->
-	<Item ItemCat="14" ItemIndex="8" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Antidote -->
-	<Item ItemCat="14" ItemIndex="13" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jewel of Bless -->
-	<Item ItemCat="14" ItemIndex="14" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jewel of Soul -->
-	<Item ItemCat="14" ItemIndex="16" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jewel of Life -->
-	<Item ItemCat="14" ItemIndex="21" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Rena -->
-	<Item ItemCat="14" ItemIndex="22" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jewel of Creation -->
+	<Item ItemCat="14" ItemIndex="0" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Apple -->
+	<Item ItemCat="14" ItemIndex="1" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Small Healing Potion -->
+	<Item ItemCat="14" ItemIndex="2" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Healing Potion -->
+	<Item ItemCat="14" ItemIndex="3" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Large Healing Potion -->
+	<Item ItemCat="14" ItemIndex="4" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Small Mana Potion -->
+	<Item ItemCat="14" ItemIndex="5" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Mana Potion -->
+	<Item ItemCat="14" ItemIndex="6" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Large Mana Potion -->
+	<Item ItemCat="14" ItemIndex="7" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Siege Potion -->
+	<Item ItemCat="14" ItemIndex="8" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Antidote -->
+	<Item ItemCat="14" ItemIndex="13" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jewel of Bless -->
+	<Item ItemCat="14" ItemIndex="14" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jewel of Soul -->
+	<Item ItemCat="14" ItemIndex="16" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jewel of Life -->
+	<Item ItemCat="14" ItemIndex="22" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jewel of Creation -->
 	<Item ItemCat="14" ItemIndex="29" MaxStack="5" StackOnLoot="1" StackConvertType="14" StackConvertIndex="28"/> <!-- Symbol of Kundun -->
-	<Item ItemCat="14" ItemIndex="31" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jewel of Guardian -->
-	<Item ItemCat="14" ItemIndex="38" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Small Complex Potion -->
-	<Item ItemCat="14" ItemIndex="39" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Complex Potion -->
-	<Item ItemCat="14" ItemIndex="40" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Large Complex Potion -->
-	<Item ItemCat="14" ItemIndex="41" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Gemstone -->
-	<Item ItemCat="14" ItemIndex="42" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jewel of Harmony -->
-	<Item ItemCat="14" ItemIndex="43" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Lower refining stone -->
-	<Item ItemCat="14" ItemIndex="44" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Higher refining stone -->
-	<Item ItemCat="14" ItemIndex="46" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jack O'Lantern Blessings -->
-	<Item ItemCat="14" ItemIndex="47" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jack O'Lantern Wrath -->
-	<Item ItemCat="14" ItemIndex="48" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jack O'Lantern Cry -->
-	<Item ItemCat="14" ItemIndex="49" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jack O'Lantern Food -->
-	<Item ItemCat="14" ItemIndex="50" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jack O'Lantern Drink -->
-	<Item ItemCat="14" ItemIndex="53" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Talisman of Luck -->
+	<Item ItemCat="14" ItemIndex="31" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jewel of Guardian -->
+	<Item ItemCat="14" ItemIndex="38" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Small Complex Potion -->
+	<Item ItemCat="14" ItemIndex="39" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Complex Potion -->
+	<Item ItemCat="14" ItemIndex="40" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Large Complex Potion -->
+	<Item ItemCat="14" ItemIndex="41" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Gemstone -->
+	<Item ItemCat="14" ItemIndex="42" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jewel of Harmony -->
+	<Item ItemCat="14" ItemIndex="43" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Lower refining stone -->
+	<Item ItemCat="14" ItemIndex="44" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Higher refining stone -->
+	<Item ItemCat="14" ItemIndex="46" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jack O'Lantern Blessings -->
+	<Item ItemCat="14" ItemIndex="47" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jack O'Lantern Wrath -->
+	<Item ItemCat="14" ItemIndex="48" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jack O'Lantern Cry -->
+	<Item ItemCat="14" ItemIndex="49" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jack O'Lantern Food -->
+	<Item ItemCat="14" ItemIndex="50" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jack O'Lantern Drink -->
 	<Item ItemCat="14" ItemIndex="70" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Elite Healing Potion -->
 	<Item ItemCat="14" ItemIndex="71" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Elite Mana Potion -->
-	<Item ItemCat="14" ItemIndex="78" MaxStack="3" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Elixir of Strength -->
-	<Item ItemCat="14" ItemIndex="79" MaxStack="3" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Elixir of Agility -->
-	<Item ItemCat="14" ItemIndex="80" MaxStack="3" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Elixir of Health -->
-	<Item ItemCat="14" ItemIndex="81" MaxStack="3" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Elixir of Energy -->
-	<Item ItemCat="14" ItemIndex="82" MaxStack="3" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Elixir of Control -->
-	<Item ItemCat="14" ItemIndex="85" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Cherry Blossom Wine -->
-	<Item ItemCat="14" ItemIndex="86" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Cherry Blossom Rice Cake -->
-	<Item ItemCat="14" ItemIndex="87" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Cherry Blossom Flower Petal -->
-	<Item ItemCat="14" ItemIndex="88" MaxStack="10" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- White Cherry Blossom Branch -->
-	<Item ItemCat="14" ItemIndex="89" MaxStack="30" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Red Cherry Blossom Branch -->
-	<Item ItemCat="14" ItemIndex="90" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Golden Cherry Blossom Branch -->
+	<Item ItemCat="14" ItemIndex="78" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Elixir of Strength -->
+	<Item ItemCat="14" ItemIndex="79" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Elixir of Agility -->
+	<Item ItemCat="14" ItemIndex="80" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Elixir of Health -->
+	<Item ItemCat="14" ItemIndex="81" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Elixir of Energy -->
+	<Item ItemCat="14" ItemIndex="82" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Elixir of Control -->
+	<Item ItemCat="14" ItemIndex="85" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Cherry Blossom Wine -->
+	<Item ItemCat="14" ItemIndex="86" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Cherry Blossom Rice Cake -->
+	<Item ItemCat="14" ItemIndex="87" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Cherry Blossom Flower Petal -->
+	<Item ItemCat="14" ItemIndex="88" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- White Cherry Blossom Branch -->
+	<Item ItemCat="14" ItemIndex="89" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Red Cherry Blossom Branch -->
+	<Item ItemCat="14" ItemIndex="90" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Golden Cherry Blossom Branch -->
 	<Item ItemCat="14" ItemIndex="94" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Medium Elite Healing Potion -->
 	<Item ItemCat="14" ItemIndex="100" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Lucky Coin -->
-	<Item ItemCat="14" ItemIndex="101" MaxStack="5" StackOnLoot="0" StackConvertType="14" StackConvertIndex="102"/> <!-- Suspicious Scrap of Paper -->
+	<Item ItemCat="14" ItemIndex="101" MaxStack="5" StackOnLoot="1" StackConvertType="14" StackConvertIndex="102"/> <!-- Suspicious Scrap of Paper -->
 	<Item ItemCat="14" ItemIndex="102" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Gaion's Order -->
-	<Item ItemCat="14" ItemIndex="110" MaxStack="5" StackOnLoot="0" StackConvertType="14" StackConvertIndex="111"/> <!-- Sign of Dimensions -->
+	<Item ItemCat="14" ItemIndex="110" MaxStack="5" StackOnLoot="1" StackConvertType="14" StackConvertIndex="111"/> <!-- Sign of Dimensions -->
 	<Item ItemCat="14" ItemIndex="133" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Elite SD Potion -->
-	<Item ItemCat="14" ItemIndex="153" MaxStack="20" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Stardust -->
-	<Item ItemCat="14" ItemIndex="154" MaxStack="10" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Kalt Stone -->
+	<Item ItemCat="14" ItemIndex="153" MaxStack="20" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Stardust -->
+	<Item ItemCat="14" ItemIndex="154" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Kalt Stone -->
 	<Item ItemCat="14" ItemIndex="155" MaxStack="20" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Tantalos's Armor -->
 	<Item ItemCat="14" ItemIndex="156" MaxStack="10" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Burnt Murderer's Club -->
 	<Item ItemCat="14" ItemIndex="160" MaxStack="10" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jewel of Extension -->
-	<Item ItemCat="14" ItemIndex="189" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Elemental Talisman of Luck -->
-	<Item ItemCat="14" ItemIndex="215" MaxStack="24" StackOnLoot="0" StackConvertType="14" StackConvertIndex="216"/> <!-- Card Piece -->
+	<Item ItemCat="14" ItemIndex="215" MaxStack="24" StackOnLoot="1" StackConvertType="14" StackConvertIndex="216"/> <!-- Card Piece -->
 	<Item ItemCat="14" ItemIndex="224" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Bless of Light (Greater) -->
 	<Item ItemCat="14" ItemIndex="263" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Bless of Light (Low Grade) -->
 	<Item ItemCat="14" ItemIndex="264" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Bless of Light (Middle Grade) -->
-	<Item ItemCat="14" ItemIndex="277" MaxStack="100" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Special Card -->
-	<Item ItemCat="14" ItemIndex="278" MaxStack="25" StackOnLoot="0" StackConvertType="14" StackConvertIndex="244"/> <!-- Piece of Summoning Scroll -->
-	<Item ItemCat="14" ItemIndex="290" MaxStack="50" StackOnLoot="0" StackConvertType="14" StackConvertIndex="293"/> <!-- Elemental Powder -->
+	<Item ItemCat="14" ItemIndex="277" MaxStack="100" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Special Card -->
+	<Item ItemCat="14" ItemIndex="278" MaxStack="24" StackOnLoot="1" StackConvertType="14" StackConvertIndex="244"/> <!-- Piece of Summoning Scroll -->
+	<Item ItemCat="14" ItemIndex="290" MaxStack="50" StackOnLoot="1" StackConvertType="14" StackConvertIndex="293"/> <!-- Elemental Powder -->
 	<Item ItemCat="14" ItemIndex="293" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Elemental Capsule(Normal) -->
 	<Item ItemCat="14" ItemIndex="296" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Capsule (Fire) -->
 	<Item ItemCat="14" ItemIndex="320" MaxStack="30" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Blessing of Spirit -->
@@ -128,8 +125,8 @@
 	<Item ItemCat="14" ItemIndex="383" MaxStack="30" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Seed Capsule (Earth) -->
 	<Item ItemCat="14" ItemIndex="384" MaxStack="30" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Sphere Upgrade Rune Capsule -->
 	<Item ItemCat="14" ItemIndex="390" MaxStack="5" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Nixie's spirit fragment -->
-	<Item ItemCat="14" ItemIndex="413" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Miracle Coin -->
-	<Item ItemCat="14" ItemIndex="430" MaxStack="10" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Elena's Letter -->
+	<Item ItemCat="14" ItemIndex="413" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Miracle Coin -->
+	<Item ItemCat="14" ItemIndex="430" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Elena's Letter -->
 	<Item ItemCat="14" ItemIndex="432" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Life Medicine -->
 	<Item ItemCat="14" ItemIndex="433" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Mana Medicine -->
 	<Item ItemCat="14" ItemIndex="434" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Speed Medicine -->
@@ -143,16 +140,16 @@
 	<Item ItemCat="14" ItemIndex="443" MaxStack="30" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Shiny Earring Box (Right) -->
 	<Item ItemCat="14" ItemIndex="444" MaxStack="100" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Power Chicken Drink -->
 	<Item ItemCat="14" ItemIndex="465" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Guardian Capsule -->
-	<Item ItemCat="14" ItemIndex="466" MaxStack="10" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Sculpture -->
-	<Item ItemCat="14" ItemIndex="467" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Guardian Enhanced Stone -->
-	<Item ItemCat="14" ItemIndex="468" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Elite Guardian Enhanced -->
-	<Item ItemCat="14" ItemIndex="469" MaxStack="50" StackOnLoot="0" StackConvertType="14" StackConvertIndex="470"/> <!-- Guardian Elite Opt Change Pcs -->
+	<Item ItemCat="14" ItemIndex="466" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Sculpture -->
+	<Item ItemCat="14" ItemIndex="467" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Guardian Enhanced Stone -->
+	<Item ItemCat="14" ItemIndex="468" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Elite Guardian Enhanced -->
+	<Item ItemCat="14" ItemIndex="469" MaxStack="50" StackOnLoot="1" StackConvertType="14" StackConvertIndex="470"/> <!-- Guardian Elite Opt Change Pcs -->
 	<Item ItemCat="14" ItemIndex="470" MaxStack="10" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Guardian Elite Opt Change Seal -->
-	<Item ItemCat="14" ItemIndex="471" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Sealed Armor Sculpture -->
+	<Item ItemCat="14" ItemIndex="471" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Sealed Armor Sculpture -->
 	<Item ItemCat="14" ItemIndex="477" MaxStack="30" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Seal of Ghost Horses -->
 	<Item ItemCat="14" ItemIndex="478" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Morse Treasure Chest -->
 	<Item ItemCat="14" ItemIndex="498" MaxStack="30" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Ice Dragon Seal -->
-	<Item ItemCat="14" ItemIndex="504" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Maple Leaf -->
+	<Item ItemCat="14" ItemIndex="504" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Maple Leaf -->
 	<Item ItemCat="14" ItemIndex="505" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Luminous Errtel Capsule (Fire) -->
 	<Item ItemCat="14" ItemIndex="506" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Luminous Errtel Capsule (Water) -->
 	<Item ItemCat="14" ItemIndex="507" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Luminous Errtel Capsule (Earth) -->
@@ -173,7 +170,7 @@
 	<Item ItemCat="20" ItemIndex="94" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Artifact Enchantment Stone -->
 	<Item ItemCat="20" ItemIndex="95" MaxStack="30" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Spider Artifact Fragment -->
 	<Item ItemCat="20" ItemIndex="103" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Spider Artifact Box -->
-	<Item ItemCat="20" ItemIndex="106" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Spider Artifact 6, 7&quot; Box -->
+	<Item ItemCat="20" ItemIndex="106" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Spider Artifact 6 -->
 	<Item ItemCat="20" ItemIndex="107" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Artifact Enchantment Stone Box -->
 	<Item ItemCat="20" ItemIndex="108" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Varka Entrance Ticket -->
 	<Item ItemCat="20" ItemIndex="109" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Boss Battle Ticket -->
@@ -193,20 +190,20 @@
 	<Item ItemCat="20" ItemIndex="154" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- [Bound] 2nd Wing (Cloak) Chaos Combination Amulet -->
 	<Item ItemCat="20" ItemIndex="155" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- [Bound] 3rd Wing (Cloak) Chaos Combination Amulet -->
 	<Item ItemCat="20" ItemIndex="156" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- [Bound] Monster Wings (Cloak) Chaos Combination Amulet -->
-	<Item ItemCat="20" ItemIndex="157" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- [Bound] Chaos Combination Amulet -->
+	<Item ItemCat="20" ItemIndex="157" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- [Bound] Chaos Combination Amulet -->
 	<Item ItemCat="20" ItemIndex="158" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Uriel's Feather -->
 	<Item ItemCat="20" ItemIndex="161" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Wing Core Reinforcement Stone -->
-	<Item ItemCat="20" ItemIndex="164" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Ability Crystal -->
-	<Item ItemCat="20" ItemIndex="238" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- [Bound] Ability Crystal -->
+	<Item ItemCat="20" ItemIndex="164" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Ability Crystal -->
+	<Item ItemCat="20" ItemIndex="238" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- [Bound] Ability Crystal -->
 	<Item ItemCat="20" ItemIndex="239" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Ability Enhancement Stone -->
 	<Item ItemCat="20" ItemIndex="253" MaxStack="30" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Leviathan's Seal -->
-	<Item ItemCat="20" ItemIndex="500" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jewel of Dark Bless -->
-	<Item ItemCat="20" ItemIndex="501" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jewel of Dark Soul -->
-	<Item ItemCat="20" ItemIndex="502" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jewel of Dark Life -->
-	<Item ItemCat="20" ItemIndex="503" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jewel of Excess -->
-	<Item ItemCat="20" ItemIndex="504" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jewel of Luck -->
-	<Item ItemCat="20" ItemIndex="505" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jewel of Science -->
-	<Item ItemCat="20" ItemIndex="506" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jewel of Kundun -->
-	<Item ItemCat="20" ItemIndex="507" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jewel of Kondar -->
-	<Item ItemCat="20" ItemIndex="508" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jewel of Wisdom -->
+	<Item ItemCat="20" ItemIndex="500" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jewel of Dark Bless -->
+	<Item ItemCat="20" ItemIndex="501" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jewel of Dark Soul -->
+	<Item ItemCat="20" ItemIndex="502" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jewel of Dark Life -->
+	<Item ItemCat="20" ItemIndex="503" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jewel of Excess -->
+	<Item ItemCat="20" ItemIndex="504" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jewel of Luck -->
+	<Item ItemCat="20" ItemIndex="505" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jewel of Science -->
+	<Item ItemCat="20" ItemIndex="506" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jewel of Kundun -->
+	<Item ItemCat="20" ItemIndex="507" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jewel of Kondar -->
+	<Item ItemCat="20" ItemIndex="508" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Jewel of Wisdom -->
 </ItemStack>

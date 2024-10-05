@@ -8,99 +8,96 @@
 -->
 
 <ItemStack>
-	<Item ItemCat="4" ItemIndex="7" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 弩箭 -->
-	<Item ItemCat="4" ItemIndex="15" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 弓箭 -->
-	<Item ItemCat="12" ItemIndex="15" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 玛雅之石 -->
+	<Item ItemCat="4" ItemIndex="7" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 弩箭 --> 
+	<Item ItemCat="4" ItemIndex="15" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 弓箭 --> 
+	<Item ItemCat="12" ItemIndex="15" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 玛雅之石 -->
 	<Item ItemCat="12" ItemIndex="77" MaxStack="30" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- rummy奖励箱子(低级) -->
 	<Item ItemCat="12" ItemIndex="78" MaxStack="30" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- rummy奖励箱子(中级) -->
 	<Item ItemCat="12" ItemIndex="79" MaxStack="30" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- rummy奖励箱子(高级) -->
 	<Item ItemCat="12" ItemIndex="80" MaxStack="30" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- rummy奖励箱子(特殊 ) -->
 	<Item ItemCat="12" ItemIndex="99" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 顶级魔晶石 -->
 	<Item ItemCat="12" ItemIndex="144" MaxStack="5" StackOnLoot="1" StackConvertType="12" StackConvertIndex="145"/> <!-- 元素之心碎片 -->
-	<Item ItemCat="12" ItemIndex="146" MaxStack="5" StackOnLoot="0" StackConvertType="12" StackConvertIndex="147"/> <!-- 艾丽亚之环碎片 -->
+	<Item ItemCat="12" ItemIndex="146" MaxStack="5" StackOnLoot="1" StackConvertType="12" StackConvertIndex="147"/> <!-- 艾丽亚之环碎片 -->
 	<Item ItemCat="12" ItemIndex="150" MaxStack="30" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 宝石组合工具 -->
 	<Item ItemCat="12" ItemIndex="151" MaxStack="30" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 精灵粉末 -->
 	<Item ItemCat="12" ItemIndex="288" MaxStack="30" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 元素符文 -->
-	<Item ItemCat="12" ItemIndex="401" MaxStack="30" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 光之石强化符文 -->
+	<Item ItemCat="12" ItemIndex="401" MaxStack="30" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 光之石强化符文 -->
 	<Item ItemCat="12" ItemIndex="404" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 低级魔晶石 -->
 	<Item ItemCat="12" ItemIndex="405" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 中级魔晶石 -->
 	<Item ItemCat="12" ItemIndex="406" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 高级魔晶石 -->
 	<Item ItemCat="12" ItemIndex="446" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 洛克魔法珠子 -->
 	<Item ItemCat="12" ItemIndex="447" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 神鹰魔法珠子 -->
-	<Item ItemCat="12" ItemIndex="448" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- Garuda Magical Bell -->
+	<Item ItemCat="12" ItemIndex="448" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 加鲁达魔法珠子 -->
 	<Item ItemCat="13" ItemIndex="32" MaxStack="20" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 破烂的铠甲片 -->
 	<Item ItemCat="13" ItemIndex="33" MaxStack="20" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 女神的灵智 -->
 	<Item ItemCat="13" ItemIndex="34" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 猛兽的脚甲 -->
 	<Item ItemCat="13" ItemIndex="145" MaxStack="5" StackOnLoot="1" StackConvertType="13" StackConvertIndex="146"/> <!-- 精灵地图碎片 -->
-	<Item ItemCat="13" ItemIndex="147" MaxStack="10" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 战场战利品 -->
+	<Item ItemCat="13" ItemIndex="147" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 战场战利品 -->
 	<Item ItemCat="13" ItemIndex="148" MaxStack="20" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 绿色墨水 -->
 	<Item ItemCat="13" ItemIndex="149" MaxStack="20" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 蓝色墨水 -->
 	<Item ItemCat="13" ItemIndex="150" MaxStack="20" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 红色墨水 -->
 	<Item ItemCat="13" ItemIndex="151" MaxStack="20" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 精神的 羊皮纸 -->
 	<Item ItemCat="13" ItemIndex="239" MaxStack="120" StackOnLoot="0" StackConvertType="13" StackConvertIndex="240"/> <!-- 宠物智力变换器 -->
-	<Item ItemCat="13" ItemIndex="468" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 黄金文章 -->
+	<Item ItemCat="13" ItemIndex="468" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 黄金文章 -->
 	<Item ItemCat="13" ItemIndex="510" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 时空石 -->
-	<Item ItemCat="14" ItemIndex="0" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 苹果 -->
-	<Item ItemCat="14" ItemIndex="1" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 小瓶治疗药水 -->
-	<Item ItemCat="14" ItemIndex="2" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 中瓶治疗药水 -->
-	<Item ItemCat="14" ItemIndex="3" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 大瓶治疗药水 -->
-	<Item ItemCat="14" ItemIndex="4" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 小瓶魔力药水 -->
-	<Item ItemCat="14" ItemIndex="5" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 中瓶魔力药水 -->
-	<Item ItemCat="14" ItemIndex="6" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 大瓶魔力药水 -->
-	<Item ItemCat="14" ItemIndex="7" MaxStack="250" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 攻城药水 -->
-	<Item ItemCat="14" ItemIndex="8" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 解毒剂 -->
-	<Item ItemCat="14" ItemIndex="13" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 祝福宝石 -->
-	<Item ItemCat="14" ItemIndex="14" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 灵魂宝石 -->
-	<Item ItemCat="14" ItemIndex="16" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 生命宝石 -->
-	<Item ItemCat="14" ItemIndex="21" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 奇迹通宝 -->
-	<Item ItemCat="14" ItemIndex="22" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 创造宝石 -->
+	<Item ItemCat="14" ItemIndex="0" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 苹果 -->
+	<Item ItemCat="14" ItemIndex="1" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 小瓶治疗药水 -->
+	<Item ItemCat="14" ItemIndex="2" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 中瓶治疗药水 -->
+	<Item ItemCat="14" ItemIndex="3" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 大瓶治疗药水 -->
+	<Item ItemCat="14" ItemIndex="4" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 小瓶魔力药水 -->
+	<Item ItemCat="14" ItemIndex="5" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 中瓶魔力药水 -->
+	<Item ItemCat="14" ItemIndex="6" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 大瓶魔力药水 -->
+	<Item ItemCat="14" ItemIndex="7" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 攻城药水 -->
+	<Item ItemCat="14" ItemIndex="8" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 解毒剂 -->
+	<Item ItemCat="14" ItemIndex="13" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 祝福宝石 -->
+	<Item ItemCat="14" ItemIndex="14" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 灵魂宝石 -->
+	<Item ItemCat="14" ItemIndex="16" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 生命宝石 -->
+	<Item ItemCat="14" ItemIndex="22" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 创造宝石 -->
 	<Item ItemCat="14" ItemIndex="29" MaxStack="5" StackOnLoot="1" StackConvertType="14" StackConvertIndex="28"/> <!-- 昆顿印记 -->
-	<Item ItemCat="14" ItemIndex="31" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 守护宝石 -->
-	<Item ItemCat="14" ItemIndex="38" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 小生命圣水 -->
-	<Item ItemCat="14" ItemIndex="39" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 中生命圣水 -->
-	<Item ItemCat="14" ItemIndex="40" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 大生命圣水 -->
-	<Item ItemCat="14" ItemIndex="41" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 再生原石 -->
-	<Item ItemCat="14" ItemIndex="42" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 再生宝石 -->
-	<Item ItemCat="14" ItemIndex="43" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 初级进化宝石 -->
-	<Item ItemCat="14" ItemIndex="44" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 高级进化宝石 -->
-	<Item ItemCat="14" ItemIndex="46" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- [增加]南瓜灯的祝福 -->
-	<Item ItemCat="14" ItemIndex="47" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- [强化]南瓜灯的愤怒 -->
-	<Item ItemCat="14" ItemIndex="48" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- [强化]南瓜灯的呐喊 -->
-	<Item ItemCat="14" ItemIndex="49" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- [增加]南瓜灯的食物 -->
-	<Item ItemCat="14" ItemIndex="50" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- [增加]南瓜灯的饮料 -->
-	<Item ItemCat="14" ItemIndex="53" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 幸运符咒 -->
+	<Item ItemCat="14" ItemIndex="31" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 守护宝石 -->
+	<Item ItemCat="14" ItemIndex="38" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 小生命圣水 -->
+	<Item ItemCat="14" ItemIndex="39" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 中生命圣水 -->
+	<Item ItemCat="14" ItemIndex="40" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 大生命圣水 -->
+	<Item ItemCat="14" ItemIndex="41" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 再生原石 -->
+	<Item ItemCat="14" ItemIndex="42" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 再生宝石 -->
+	<Item ItemCat="14" ItemIndex="43" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 初级进化宝石 -->
+	<Item ItemCat="14" ItemIndex="44" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 高级进化宝石 -->
+	<Item ItemCat="14" ItemIndex="46" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- [增加]南瓜灯的祝福 -->
+	<Item ItemCat="14" ItemIndex="47" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- [强化]南瓜灯的愤怒 -->
+	<Item ItemCat="14" ItemIndex="48" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- [强化]南瓜灯的呐喊 -->
+	<Item ItemCat="14" ItemIndex="49" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- [增加]南瓜灯的食物 -->
+	<Item ItemCat="14" ItemIndex="50" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- [增加]南瓜灯的饮料 -->
 	<Item ItemCat="14" ItemIndex="70" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 精华治疗药水 -->
 	<Item ItemCat="14" ItemIndex="71" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 精华魔力药水 -->
-	<Item ItemCat="14" ItemIndex="78" MaxStack="3" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 力量圣水 -->
-	<Item ItemCat="14" ItemIndex="79" MaxStack="3" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 敏捷圣水 -->
-	<Item ItemCat="14" ItemIndex="80" MaxStack="3" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 体力圣水 -->
-	<Item ItemCat="14" ItemIndex="81" MaxStack="3" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 智力圣水 -->
-	<Item ItemCat="14" ItemIndex="82" MaxStack="3" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 统率圣水 -->
-	<Item ItemCat="14" ItemIndex="85" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- [增加]樱花酒 -->
-	<Item ItemCat="14" ItemIndex="86" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- [增加]樱花饼 -->
-	<Item ItemCat="14" ItemIndex="87" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- [强化]樱花花瓣 -->
-	<Item ItemCat="14" ItemIndex="88" MaxStack="10" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 白色樱花树枝 -->
-	<Item ItemCat="14" ItemIndex="89" MaxStack="30" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 红色樱花树枝 -->
-	<Item ItemCat="14" ItemIndex="90" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 黄色樱花树枝 -->
+	<Item ItemCat="14" ItemIndex="78" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 力量圣水 -->
+	<Item ItemCat="14" ItemIndex="79" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 敏捷圣水 -->
+	<Item ItemCat="14" ItemIndex="80" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 体力圣水 -->
+	<Item ItemCat="14" ItemIndex="81" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 智力圣水 -->
+	<Item ItemCat="14" ItemIndex="82" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 统率圣水 -->
+	<Item ItemCat="14" ItemIndex="85" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- [增加]樱花酒 -->
+	<Item ItemCat="14" ItemIndex="86" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- [增加]樱花饼 -->
+	<Item ItemCat="14" ItemIndex="87" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- [强化]樱花花瓣 -->
+	<Item ItemCat="14" ItemIndex="88" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 白色樱花树枝 -->
+	<Item ItemCat="14" ItemIndex="89" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 红色樱花树枝 -->
+	<Item ItemCat="14" ItemIndex="90" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 黄色樱花树枝 -->
 	<Item ItemCat="14" ItemIndex="94" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 中型精华治疗药水 -->
 	<Item ItemCat="14" ItemIndex="100" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 幸运铜币 -->
-	<Item ItemCat="14" ItemIndex="101" MaxStack="5" StackOnLoot="0" StackConvertType="14" StackConvertIndex="102"/> <!-- 奇怪的纸条 -->
+	<Item ItemCat="14" ItemIndex="101" MaxStack="5" StackOnLoot="1" StackConvertType="14" StackConvertIndex="102"/> <!-- 奇怪的纸条 -->
 	<Item ItemCat="14" ItemIndex="102" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 凯文的指令 -->
-	<Item ItemCat="14" ItemIndex="110" MaxStack="5" StackOnLoot="0" StackConvertType="14" StackConvertIndex="111"/> <!-- 次元标识 -->
+	<Item ItemCat="14" ItemIndex="110" MaxStack="5" StackOnLoot="1" StackConvertType="14" StackConvertIndex="111"/> <!-- 次元标识 -->
 	<Item ItemCat="14" ItemIndex="133" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 精华防护值药水 -->
-	<Item ItemCat="14" ItemIndex="153" MaxStack="20" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 星尘 -->
-	<Item ItemCat="14" ItemIndex="154" MaxStack="10" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 卡特石 -->
+	<Item ItemCat="14" ItemIndex="153" MaxStack="20" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 星尘 -->
+	<Item ItemCat="14" ItemIndex="154" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 卡特石 -->
 	<Item ItemCat="14" ItemIndex="155" MaxStack="20" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 破坏骑士的盔甲 -->
 	<Item ItemCat="14" ItemIndex="156" MaxStack="10" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 灰色屠杀者的棍棒 -->
 	<Item ItemCat="14" ItemIndex="160" MaxStack="10" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 延长宝石 -->
-	<Item ItemCat="14" ItemIndex="189" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 属性 幸运符咒 -->
-	<Item ItemCat="14" ItemIndex="215" MaxStack="24" StackOnLoot="0" StackConvertType="14" StackConvertIndex="216"/> <!-- 碎片 -->
+	<Item ItemCat="14" ItemIndex="215" MaxStack="24" StackOnLoot="1" StackConvertType="14" StackConvertIndex="216"/> <!-- 碎片 -->
 	<Item ItemCat="14" ItemIndex="224" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 光之祝福（高级） -->
 	<Item ItemCat="14" ItemIndex="263" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 光之祝福（低级） -->
 	<Item ItemCat="14" ItemIndex="264" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 光之祝福（中级） -->
-	<Item ItemCat="14" ItemIndex="277" MaxStack="100" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 特殊卡片 -->
-	<Item ItemCat="14" ItemIndex="278" MaxStack="25" StackOnLoot="0" StackConvertType="14" StackConvertIndex="244"/> <!-- 召唤书卡片 -->
-	<Item ItemCat="14" ItemIndex="290" MaxStack="50" StackOnLoot="0" StackConvertType="14" StackConvertIndex="293"/> <!-- 属性粉末 -->
+	<Item ItemCat="14" ItemIndex="277" MaxStack="100" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 特殊卡片 -->
+	<Item ItemCat="14" ItemIndex="278" MaxStack="24" StackOnLoot="1" StackConvertType="14" StackConvertIndex="244"/> <!-- 召唤书卡片 -->
+	<Item ItemCat="14" ItemIndex="290" MaxStack="50" StackOnLoot="1" StackConvertType="14" StackConvertIndex="293"/> <!-- 属性粉末 -->
 	<Item ItemCat="14" ItemIndex="293" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 属性胶囊(一般) -->
 	<Item ItemCat="14" ItemIndex="296" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 胶囊(火) -->
 	<Item ItemCat="14" ItemIndex="320" MaxStack="30" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 精灵的庇护 -->
@@ -128,8 +125,8 @@
 	<Item ItemCat="14" ItemIndex="383" MaxStack="30" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 荧之石胶囊(土) -->
 	<Item ItemCat="14" ItemIndex="384" MaxStack="30" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 光之石强化符文胶囊 -->
 	<Item ItemCat="14" ItemIndex="390" MaxStack="5" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!--  精灵尼克斯的碎片 -->
-	<Item ItemCat="14" ItemIndex="413" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 奇迹的铜币 -->
-	<Item ItemCat="14" ItemIndex="430" MaxStack="10" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 艾琳娜的书信 -->
+	<Item ItemCat="14" ItemIndex="413" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 奇迹的铜币 -->
+	<Item ItemCat="14" ItemIndex="430" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 艾琳娜的书信 -->
 	<Item ItemCat="14" ItemIndex="432" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- [增加]生命之灵药 -->
 	<Item ItemCat="14" ItemIndex="433" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- [增加]魔法值之灵药 -->
 	<Item ItemCat="14" ItemIndex="434" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- [增加]迅速之灵药 -->
@@ -143,16 +140,16 @@
 	<Item ItemCat="14" ItemIndex="443" MaxStack="30" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 闪耀的耳环箱子（右） -->
 	<Item ItemCat="14" ItemIndex="444" MaxStack="100" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 力量小鸡饮料 -->
 	<Item ItemCat="14" ItemIndex="465" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 护卫胶囊 -->
-	<Item ItemCat="14" ItemIndex="466" MaxStack="10" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 复活碎片 -->
-	<Item ItemCat="14" ItemIndex="467" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 护卫强化石 -->
-	<Item ItemCat="14" ItemIndex="468" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 精英护卫强化石 -->
-	<Item ItemCat="14" ItemIndex="469" MaxStack="50" StackOnLoot="0" StackConvertType="14" StackConvertIndex="470"/> <!-- 护卫精英属性变更碎片 -->
+	<Item ItemCat="14" ItemIndex="466" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 复活碎片 -->
+	<Item ItemCat="14" ItemIndex="467" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 护卫强化石 -->
+	<Item ItemCat="14" ItemIndex="468" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 精英护卫强化石 -->
+	<Item ItemCat="14" ItemIndex="469" MaxStack="50" StackOnLoot="1" StackConvertType="14" StackConvertIndex="470"/> <!-- 护卫精英属性变更碎片 -->
 	<Item ItemCat="14" ItemIndex="470" MaxStack="10" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 护卫精英属性变更石 -->
-	<Item ItemCat="14" ItemIndex="471" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 封印的防具碎片 -->
+	<Item ItemCat="14" ItemIndex="471" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 封印的防具碎片 -->
 	<Item ItemCat="14" ItemIndex="477" MaxStack="30" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 幽灵战马印章 -->
 	<Item ItemCat="14" ItemIndex="478" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 摩斯的宝物箱子 -->
 	<Item ItemCat="14" ItemIndex="498" MaxStack="30" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 龙魂之印 -->
-	<Item ItemCat="14" ItemIndex="504" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 枫叶 -->
+	<Item ItemCat="14" ItemIndex="504" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 枫叶 -->
 	<Item ItemCat="14" ItemIndex="505" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 闪耀的元素之魂胶囊(火) -->
 	<Item ItemCat="14" ItemIndex="506" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 闪耀的元素之魂胶囊(水) -->
 	<Item ItemCat="14" ItemIndex="507" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 闪耀的元素之魂胶囊(土) -->
@@ -193,20 +190,20 @@
 	<Item ItemCat="20" ItemIndex="154" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- [绑定]2代翅膀(披风)合成保护符咒(绑定) -->
 	<Item ItemCat="20" ItemIndex="155" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- [绑定]3代翅膀(披风)合成保护符咒(绑定) -->
 	<Item ItemCat="20" ItemIndex="156" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- [绑定]2.5代翅膀(披风)合成保护符咒(绑定) -->
-	<Item ItemCat="20" ItemIndex="157" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- [绑定]合成保护符咒 -->
+	<Item ItemCat="20" ItemIndex="157" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- [绑定]合成保护符咒 -->
 	<Item ItemCat="20" ItemIndex="158" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 乌列尔之羽 -->
 	<Item ItemCat="20" ItemIndex="161" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 翼芯强化石 -->
-	<Item ItemCat="20" ItemIndex="164" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 能力水晶 -->
-	<Item ItemCat="20" ItemIndex="238" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 能力决策(绑定) -->
+	<Item ItemCat="20" ItemIndex="164" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 能力水晶 -->
+	<Item ItemCat="20" ItemIndex="238" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 能力水晶(绑定) -->
 	<Item ItemCat="20" ItemIndex="239" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 能力提升石 -->
 	<Item ItemCat="20" ItemIndex="253" MaxStack="30" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 利维坦的印记 -->
-	<Item ItemCat="20" ItemIndex="500" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 黑暗祝福宝石 -->
-	<Item ItemCat="20" ItemIndex="501" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 黑暗灵魂宝石 -->
-	<Item ItemCat="20" ItemIndex="502" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 黑暗生命宝石 -->
-	<Item ItemCat="20" ItemIndex="503" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 卓越宝石 -->
-	<Item ItemCat="20" ItemIndex="504" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 幸运宝石 -->
-	<Item ItemCat="20" ItemIndex="505" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 技能宝石 -->
-	<Item ItemCat="20" ItemIndex="506" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 等级宝石 -->
-	<Item ItemCat="20" ItemIndex="507" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 全属宝石 -->
-	<Item ItemCat="20" ItemIndex="508" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 镶嵌宝石 -->
+	<Item ItemCat="20" ItemIndex="500" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 黑暗祝福宝石 -->
+	<Item ItemCat="20" ItemIndex="501" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 黑暗灵魂宝石 -->
+	<Item ItemCat="20" ItemIndex="502" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 黑暗生命宝石 -->
+	<Item ItemCat="20" ItemIndex="503" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 卓越宝石 -->
+	<Item ItemCat="20" ItemIndex="504" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 幸运宝石 -->
+	<Item ItemCat="20" ItemIndex="505" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 技能宝石 -->
+	<Item ItemCat="20" ItemIndex="506" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 等级宝石 -->
+	<Item ItemCat="20" ItemIndex="507" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 全属宝石 -->
+	<Item ItemCat="20" ItemIndex="508" MaxStack="255" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!-- 镶嵌宝石 -->
 </ItemStack>
