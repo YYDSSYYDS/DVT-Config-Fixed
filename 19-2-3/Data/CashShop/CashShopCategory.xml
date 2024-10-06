@@ -1,5 +1,5 @@
 <CashShopCategory>
-  <Cat ID="1" Name="Goblin Shop" Parent="200" Main="0" Disable="0" />
+  <Cat ID="1" Name="WCoin Shop" Parent="200" Main="0" Disable="0" />
   <Cat ID="2" Name="Exp Buff" Parent="200" Main="1" Disable="0" />
   <Cat ID="3" Name="Buff Scroll" Parent="200" Main="1" Disable="0" />
   <Cat ID="4" Name="Elixir" Parent="200" Main="1" Disable="0" />

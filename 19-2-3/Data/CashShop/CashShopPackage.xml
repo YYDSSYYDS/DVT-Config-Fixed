@@ -1,95 +1,95 @@
 <CashShopPackage>
 	<Category ID="2">
-		<Package ID="1" Position="0" Name="Bless of Light (Greater)" Description="" DisPlayItem="7392" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="2" Position="1" Name="Talisman of Ascension III" Description="" DisPlayItem="6835" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="3" Position="2" Name="Seal of Wealth" Description="" DisPlayItem="6700" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="4" Position="3" Name="Seal of Healing" Description="" DisPlayItem="6718" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="5" Position="4" Name="Seal of Divinity" Description="" DisPlayItem="6719" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="6" Position="5" Name="Master Seal of Wealth" Description="" DisPlayItem="6750" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="7" Position="6" Name="Party EXP Bonus Item" Description="" DisPlayItem="6759" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="8" Position="7" Name="Max AG Boost Aura" Description="" DisPlayItem="6760" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="9" Position="8" Name="Max SD Boost Aura" Description="" DisPlayItem="6761" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="10" Position="9" Name="Seal of Ascension II" Description="" DisPlayItem="6836" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="11" Position="10" Name="Seal of Ascension II" Description="" DisPlayItem="6837" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="1" Position="0" Name="Bless of Light (Greater)" Description="" DisPlayItem="7392" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="2" Position="1" Name="Talisman of Ascension III" Description="" DisPlayItem="6835" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="3" Position="2" Name="Seal of Wealth" Description="" DisPlayItem="6700" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="4" Position="3" Name="Seal of Healing" Description="" DisPlayItem="6718" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="5" Position="4" Name="Seal of Divinity" Description="" DisPlayItem="6719" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="6" Position="5" Name="Master Seal of Wealth" Description="" DisPlayItem="6750" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="7" Position="6" Name="Party EXP Bonus Item" Description="" DisPlayItem="6759" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="8" Position="7" Name="Max AG Boost Aura" Description="" DisPlayItem="6760" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="9" Position="8" Name="Max SD Boost Aura" Description="" DisPlayItem="6761" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="10" Position="9" Name="Seal of Ascension II" Description="" DisPlayItem="6836" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="11" Position="10" Name="Seal of Ascension II" Description="" DisPlayItem="6837" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000"/>
 	</Category>
 	<Category ID="3">
-		<Package ID="12" Position="0" Name="Scroll of Quickness" Description="" DisPlayItem="7240" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="13" Position="1" Name="Scroll of Defense" Description="" DisPlayItem="7241" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="14" Position="2" Name="Scroll of Wrath" Description="" DisPlayItem="7242" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="15" Position="3" Name="Scroll of Wizardry" Description="" DisPlayItem="7243" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="16" Position="4" Name="Scroll of Health" Description="" DisPlayItem="7244" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="17" Position="5" Name="Scroll of Mana" Description="" DisPlayItem="7245" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="18" Position="6" Name="Scroll of Battle" Description="" DisPlayItem="7265" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="19" Position="7" Name="Scroll of Strength" Description="" DisPlayItem="7266" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="20" Position="8" Name="Scroll of Healing" Description="" DisPlayItem="7308" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="12" Position="0" Name="Scroll of Quickness" Description="" DisPlayItem="7240" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="13" Position="1" Name="Scroll of Defense" Description="" DisPlayItem="7241" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="14" Position="2" Name="Scroll of Wrath" Description="" DisPlayItem="7242" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="15" Position="3" Name="Scroll of Wizardry" Description="" DisPlayItem="7243" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="16" Position="4" Name="Scroll of Health" Description="" DisPlayItem="7244" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="17" Position="5" Name="Scroll of Mana" Description="" DisPlayItem="7245" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="18" Position="6" Name="Scroll of Battle" Description="" DisPlayItem="7265" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="19" Position="7" Name="Scroll of Strength" Description="" DisPlayItem="7266" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="20" Position="8" Name="Scroll of Healing" Description="" DisPlayItem="7308" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000"/>
 	</Category>
 	<Category ID="4">
-		<Package ID="21" Position="0" Name="Elite Healing Potion" Description="" DisPlayItem="7238" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Elixir" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="22" Position="1" Name="Elite Mana Potion" Description="" DisPlayItem="7239" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Elixir" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="23" Position="2" Name="Elite SD Potion" Description="" DisPlayItem="7301" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Elixir" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="21" Position="0" Name="Elite Healing Potion" Description="" DisPlayItem="7238" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Elixir" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="22" Position="1" Name="Elite Mana Potion" Description="" DisPlayItem="7239" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Elixir" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="23" Position="2" Name="Elite SD Potion" Description="" DisPlayItem="7301" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Elixir" StartDate="20100526194000" EndDate="20190531124000"/>
 	</Category>
 	<Category ID="5">
-		<Package ID="24" Position="0" Name="Jewel of Bless" Description="" DisPlayItem="7181" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Jewel" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="25" Position="1" Name="Jewel of Soul" Description="" DisPlayItem="7182" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Jewel" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="26" Position="2" Name="Jewel of Life" Description="" DisPlayItem="7184" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Jewel" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="27" Position="3" Name="Jewel of Chaos" Description="" DisPlayItem="6159" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Jewel" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="28" Position="4" Name="Jewel of Creation" Description="" DisPlayItem="7190" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Jewel" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="24" Position="0" Name="Jewel of Bless" Description="" DisPlayItem="7181" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Jewel" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="25" Position="1" Name="Jewel of Soul" Description="" DisPlayItem="7182" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Jewel" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="26" Position="2" Name="Jewel of Life" Description="" DisPlayItem="7184" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Jewel" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="27" Position="3" Name="Jewel of Chaos" Description="" DisPlayItem="6159" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Jewel" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="28" Position="4" Name="Jewel of Creation" Description="" DisPlayItem="7190" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Jewel" StartDate="20100526194000" EndDate="20190531124000"/>
 	</Category>
 	<Category ID="6">
-		<Package ID="29" Position="0" Name="Conqueror's Badge" Description="" DisPlayItem="6932" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="30" Position="1" Name="Garuda's Feather" Description="" DisPlayItem="7123" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="31" Position="2" Name="Intermediate Spirit Stone" Description="" DisPlayItem="6549" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="32" Position="3" Name="Greater Spirit Stone" Description="" DisPlayItem="6550" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="33" Position="4" Name="Top Grade Spirit Stone" Description="" DisPlayItem="6243" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="34" Position="5" Name="Golden Sentence" Description="" DisPlayItem="7124" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="35" Position="6" Name="Talisman of Luck" Description="" DisPlayItem="7221" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="36" Position="7" Name="Talisman of Chaos Assembly" Description="" DisPlayItem="7264" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="37" Position="8" Name="Elemental Talisman of Luck" Description="" DisPlayItem="7357" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="38" Position="9" Name="Elemental Talisman of Chaos" Description="" DisPlayItem="7358" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="39" Position="10" Name="Pentagram Emblem" Description="" DisPlayItem="6653" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="40" Position="11" Name="Expansion Scroll Radiance Slo" Description="" DisPlayItem="7484" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="41" Position="12" Name="Blessing of Spirit" Description="" DisPlayItem="7488" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="29" Position="0" Name="Conqueror's Badge" Description="" DisPlayItem="6932" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="30" Position="1" Name="Garuda's Feather" Description="" DisPlayItem="7123" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="31" Position="2" Name="Intermediate Spirit Stone" Description="" DisPlayItem="6549" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="32" Position="3" Name="Greater Spirit Stone" Description="" DisPlayItem="6550" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="33" Position="4" Name="Top Grade Spirit Stone" Description="" DisPlayItem="6243" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="34" Position="5" Name="Golden Sentence" Description="" DisPlayItem="7124" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="35" Position="6" Name="Talisman of Luck" Description="" DisPlayItem="7221" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="36" Position="7" Name="Talisman of Chaos Assembly" Description="" DisPlayItem="7264" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="37" Position="8" Name="Elemental Talisman of Luck" Description="" DisPlayItem="7357" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="38" Position="9" Name="Elemental Talisman of Chaos" Description="" DisPlayItem="7358" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="39" Position="10" Name="Pentagram Emblem" Description="" DisPlayItem="6653" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="40" Position="11" Name="Expansion Scroll Radiance Slo" Description="" DisPlayItem="7484" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="41" Position="12" Name="Blessing of Spirit" Description="" DisPlayItem="7488" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
 	</Category>
 	<Category ID="7">
-		<Package ID="42" Position="0" Name="Varka Entrance Ticket" Description="" DisPlayItem="10348" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Pass Ticket" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="43" Position="1" Name="Nixie's spirit fragment" Description="" DisPlayItem="7558" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Pass Ticket" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="44" Position="2" Name="Boss Battle Ticket" Description="" DisPlayItem="10349" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Pass Ticket" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="45" Position="3" Name="Pass Ticket" Description="" DisPlayItem="10362" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Pass Ticket" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="46" Position="4" Name="Gold Pass Voucher" Description="" DisPlayItem="10363" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Pass Ticket" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="47" Position="5" Name="Premium Pass Voucher" Description="" DisPlayItem="10364" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Pass Ticket" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="42" Position="0" Name="Varka Entrance Ticket" Description="" DisPlayItem="10348" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Pass Ticket" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="43" Position="1" Name="Nixie's spirit fragment" Description="" DisPlayItem="7558" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Pass Ticket" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="44" Position="2" Name="Boss Battle Ticket" Description="" DisPlayItem="10349" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Pass Ticket" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="45" Position="3" Name="Pass Ticket" Description="" DisPlayItem="10362" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Pass Ticket" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="46" Position="4" Name="Gold Pass Voucher" Description="" DisPlayItem="10363" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Pass Ticket" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="47" Position="5" Name="Premium Pass Voucher" Description="" DisPlayItem="10364" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Pass Ticket" StartDate="20100526194000" EndDate="20190531124000"/>
 	</Category>
 	<Category ID="8">
-		<Package ID="48" Position="0" Name="Uriel's Feather" Description="" DisPlayItem="10398" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="5th Items" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="49" Position="1" Name="Pure Wing Core (Type 1) Pattern" Description="" DisPlayItem="10399" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="5th Items" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="50" Position="2" Name="Wing Core Reinforcement Stone" Description="" DisPlayItem="10401" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="5th Items" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="51" Position="3" Name="Ability Crystal" Description="" DisPlayItem="10404" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="5th Items" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="52" Position="4" Name="Ability Enhancement Stone" Description="" DisPlayItem="10479" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="5th Items" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="48" Position="0" Name="Uriel's Feather" Description="" DisPlayItem="10398" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="5th Items" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="49" Position="1" Name="Pure Wing Core (Type 1) Pattern" Description="" DisPlayItem="10399" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="5th Items" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="50" Position="2" Name="Wing Core Reinforcement Stone" Description="" DisPlayItem="10401" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="5th Items" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="51" Position="3" Name="Ability Crystal" Description="" DisPlayItem="10404" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="5th Items" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="52" Position="4" Name="Ability Enhancement Stone" Description="" DisPlayItem="10479" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="5th Items" StartDate="20100526194000" EndDate="20190531124000"/>
 	</Category>
 	<Category ID="9">
-		<Package ID="53" Position="0" Name="Pink Panda Ring" Description="" DisPlayItem="6734" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Ring And Guardian" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="54" Position="1" Name="Brown Panda Ring" Description="" DisPlayItem="6822" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Ring And Guardian" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="55" Position="2" Name="Dark Transformation Ring" Description="" DisPlayItem="6924" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Ring And Guardian" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="56" Position="3" Name="Demon" Description="" DisPlayItem="6720" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Ring And Guardian" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="57" Position="4" Name="Spirit of Guardian" Description="" DisPlayItem="6721" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Ring And Guardian" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="58" Position="5" Name="Pet Panda" Description="" DisPlayItem="6736" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Ring And Guardian" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="59" Position="6" Name="Pet Skeleton" Description="" DisPlayItem="6779" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Ring And Guardian" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="53" Position="0" Name="Pink Panda Ring" Description="" DisPlayItem="6734" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Ring And Guardian" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="54" Position="1" Name="Brown Panda Ring" Description="" DisPlayItem="6822" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Ring And Guardian" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="55" Position="2" Name="Dark Transformation Ring" Description="" DisPlayItem="6924" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Ring And Guardian" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="56" Position="3" Name="Demon" Description="" DisPlayItem="6720" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Ring And Guardian" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="57" Position="4" Name="Spirit of Guardian" Description="" DisPlayItem="6721" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Ring And Guardian" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="58" Position="5" Name="Pet Panda" Description="" DisPlayItem="6736" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Ring And Guardian" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="59" Position="6" Name="Pet Skeleton" Description="" DisPlayItem="6779" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Ring And Guardian" StartDate="20100526194000" EndDate="20190531124000"/>
 	</Category>
 	<Category ID="10">
-		<Package ID="60" Position="0" Name="Premium Box" Description="" DisPlayItem="9731" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Pet And Fenrir" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="61" Position="1" Name="Horn of Fenrir" Description="" DisPlayItem="6693" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Pet And Fenrir" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="62" Position="2" Name="Horn of Fenrir (Destroy)" Description="" DisPlayItem="6693" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Pet And Fenrir" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="63" Position="3" Name="Horn of Fenrir (Protect)" Description="" DisPlayItem="6693" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Pet And Fenrir" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="64" Position="4" Name="Horn of Fenrir (IIIusion)" Description="" DisPlayItem="6693" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Pet And Fenrir" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="60" Position="0" Name="Premium Box" Description="" DisPlayItem="9731" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Pet And Fenrir" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="61" Position="1" Name="Horn of Fenrir" Description="" DisPlayItem="6693" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Pet And Fenrir" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="62" Position="2" Name="Horn of Fenrir (Destroy)" Description="" DisPlayItem="6693" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Pet And Fenrir" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="63" Position="3" Name="Horn of Fenrir (Protect)" Description="" DisPlayItem="6693" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Pet And Fenrir" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="64" Position="4" Name="Horn of Fenrir (IIIusion)" Description="" DisPlayItem="6693" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Pet And Fenrir" StartDate="20100526194000" EndDate="20190531124000"/>
 	</Category>
 	<Category ID="11">
-		<Package ID="65" Position="0" Name="Jewel of Dark Bless" Description="" DisPlayItem="10740" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Custom Jewelry" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="66" Position="1" Name="Jewel of Dark Soul" Description="" DisPlayItem="10741" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Custom Jewelry" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="67" Position="2" Name="Jewel of Dark Life" Description="" DisPlayItem="10742" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Custom Jewelry" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="68" Position="3" Name="Jewel of Excess" Description="" DisPlayItem="10743" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Custom Jewelry" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="69" Position="4" Name="Jewel of Luck" Description="" DisPlayItem="10744" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Custom Jewelry" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="70" Position="5" Name="Jewel of Science" Description="" DisPlayItem="10745" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Custom Jewelry" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="71" Position="6" Name="Jewel of Kundun" Description="" DisPlayItem="10746" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Custom Jewelry" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="72" Position="7" Name="Jewel of Kondar" Description="" DisPlayItem="10747" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Custom Jewelry" StartDate="20100526194000" EndDate="20190531124000"/>
-		<Package ID="73" Position="8" Name="Jewel of Wisdom" Description="" DisPlayItem="10748" Flags="0" PriceType="2" PriceName="Goblin Points" CategoryName="Custom Jewelry" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="65" Position="0" Name="Jewel of Dark Bless" Description="" DisPlayItem="10740" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Custom Jewelry" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="66" Position="1" Name="Jewel of Dark Soul" Description="" DisPlayItem="10741" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Custom Jewelry" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="67" Position="2" Name="Jewel of Dark Life" Description="" DisPlayItem="10742" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Custom Jewelry" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="68" Position="3" Name="Jewel of Excess" Description="" DisPlayItem="10743" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Custom Jewelry" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="69" Position="4" Name="Jewel of Luck" Description="" DisPlayItem="10744" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Custom Jewelry" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="70" Position="5" Name="Jewel of Science" Description="" DisPlayItem="10745" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Custom Jewelry" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="71" Position="6" Name="Jewel of Kundun" Description="" DisPlayItem="10746" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Custom Jewelry" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="72" Position="7" Name="Jewel of Kondar" Description="" DisPlayItem="10747" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Custom Jewelry" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="73" Position="8" Name="Jewel of Wisdom" Description="" DisPlayItem="10748" Flags="0" PriceType="0" PriceName="WCion Points" CategoryName="Custom Jewelry" StartDate="20100526194000" EndDate="20190531124000"/>
 	</Category>
 </CashShopPackage>
