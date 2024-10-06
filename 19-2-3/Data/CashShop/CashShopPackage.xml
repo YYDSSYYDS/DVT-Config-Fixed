@@ -1,95 +1,95 @@
 <CashShopPackage>
-  <Category ID="2">
-    <Package ID="1" Position="0" Name="光之祝福（高级）" Description="使用道具可以在短时间内增加基本经验值的 200%。" DisPlayItem="7392" Flags="0" PriceType="0" PriceName="积分" CategoryName="经验buff" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="2" Position="1" Name="提高符咒 III" Description="增加基本经验值的200%。" DisPlayItem="6835" Flags="0" PriceType="0" PriceName="积分" CategoryName="经验buff" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="3" Position="2" Name="神圣印章" Description="提高经验值与道具获得量的效果。" DisPlayItem="6700" Flags="0" PriceType="0" PriceName="积分" CategoryName="经验buff" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="4" Position="3" Name="大师经验印章" Description="经验值获得量和生命自动恢复量提高。" DisPlayItem="6718" Flags="0" PriceType="0" PriceName="积分" CategoryName="经验buff" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="5" Position="4" Name="大师神圣印章" Description="道具获得量和魔力自动恢复量提高。" DisPlayItem="6719" Flags="0" PriceType="0" PriceName="积分" CategoryName="经验buff" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="6" Position="5" Name="大师等级神圣印章" Description="提高经验值与道具获得量。" DisPlayItem="6750" Flags="0" PriceType="0" PriceName="积分" CategoryName="经验buff" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="7" Position="6" Name="组队经验值符咒" Description="经验值获得量提高30%，每加一个组队员，追加10%%的经验值。" DisPlayItem="6759" Flags="0" PriceType="0" PriceName="积分" CategoryName="经验buff" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="8" Position="7" Name="最大AG提升光环" Description="最大 AG增加 +等级。" DisPlayItem="6760" Flags="0" PriceType="0" PriceName="积分" CategoryName="经验buff" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="9" Position="8" Name="最大SD提升光环" Description="最大 SD增加 + 等级x10。" DisPlayItem="6761" Flags="0" PriceType="0" PriceName="积分" CategoryName="经验buff" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="10" Position="9" Name="经验印章II" Description="提高经验值获得量的效果。" DisPlayItem="6836" Flags="0" PriceType="0" PriceName="积分" CategoryName="经验buff" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="11" Position="10" Name="大师等级经验印章II" Description="提高经验值获得量的效果。" DisPlayItem="6837" Flags="0" PriceType="0" PriceName="积分" CategoryName="经验buff" StartDate="20100526194000" EndDate="20190531124000" />
-  </Category>
-  <Category ID="3">
-    <Package ID="12" Position="0" Name="加速卷轴" Description="攻击速度增加。" DisPlayItem="7240" Flags="0" PriceType="0" PriceName="积分" CategoryName="buff卷轴" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="13" Position="1" Name="防御卷轴" Description="防御力增加。" DisPlayItem="7241" Flags="0" PriceType="0" PriceName="积分" CategoryName="buff卷轴" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="14" Position="2" Name="愤怒卷轴" Description="攻击力增加。" DisPlayItem="7242" Flags="0" PriceType="0" PriceName="积分" CategoryName="buff卷轴" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="15" Position="3" Name="魔力卷轴" Description="魔法攻击力/诅咒力增加。" DisPlayItem="7243" Flags="0" PriceType="0" PriceName="积分" CategoryName="buff卷轴" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="16" Position="4" Name="体力卷轴" Description="HP 增加。" DisPlayItem="7244" Flags="0" PriceType="0" PriceName="积分" CategoryName="buff卷轴" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="17" Position="5" Name="魔法卷轴" Description="MP 增加。" DisPlayItem="7245" Flags="0" PriceType="0" PriceName="积分" CategoryName="buff卷轴" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="18" Position="6" Name="幸运一击卷轴" Description="幸运一击伤害增加 +20%。" DisPlayItem="7265" Flags="0" PriceType="0" PriceName="积分" CategoryName="buff卷轴" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="19" Position="7" Name="卓越一击卷轴" Description="卓越一击伤害增加 +20%。" DisPlayItem="7266" Flags="0" PriceType="0" PriceName="积分" CategoryName="buff卷轴" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="20" Position="8" Name="恢复卷轴" Description="生命自动恢复3%，最大HP增加 +100。" DisPlayItem="7308" Flags="0" PriceType="0" PriceName="积分" CategoryName="buff卷轴" StartDate="20100526194000" EndDate="20190531124000" />
-  </Category>
-  <Category ID="4">
-    <Package ID="21" Position="0" Name="精华治疗药水" Description="体力恢复100%，100瓶。" DisPlayItem="7238" Flags="0" PriceType="0" PriceName="积分" CategoryName="精华药水" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="22" Position="1" Name="精华魔力药水" Description="魔力恢复100%%，100瓶。" DisPlayItem="7239" Flags="0" PriceType="0" PriceName="积分" CategoryName="精华药水" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="23" Position="2" Name="精华防护值药水" Description="恢复SD 65%，100瓶。" DisPlayItem="7301" Flags="0" PriceType="0" PriceName="积分" CategoryName="精华药水" StartDate="20100526194000" EndDate="20190531124000" />
-  </Category>
-  <Category ID="5">
-    <Package ID="24" Position="0" Name="祝福宝石" Description="提高道具等级+6或合成时使用。" DisPlayItem="7181" Flags="0" PriceType="0" PriceName="积分" CategoryName="各类宝石" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="25" Position="1" Name="灵魂宝石" Description="提高道具等级 +7，8，9或合成时使用。" DisPlayItem="7182" Flags="0" PriceType="0" PriceName="积分" CategoryName="各类宝石" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="26" Position="2" Name="生命宝石" Description="道具追加属性提高一个阶段或合成时使用。" DisPlayItem="7184" Flags="0" PriceType="0" PriceName="积分" CategoryName="各类宝石" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="27" Position="3" Name="玛雅之石" Description="玛雅合成时使用。" DisPlayItem="6159" Flags="0" PriceType="0" PriceName="积分" CategoryName="各类宝石" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="28" Position="4" Name="创造宝石" Description="玛雅合成时使用。" DisPlayItem="7190" Flags="0" PriceType="0" PriceName="积分" CategoryName="各类宝石" StartDate="20100526194000" EndDate="20190531124000" />
-  </Category>
-  <Category ID="6">
-    <Package ID="29" Position="0" Name="征服者的信物" Description="制作征服者翅膀的合成材料。" DisPlayItem="6932" Flags="0" PriceType="0" PriceName="积分" CategoryName="合成材料" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="30" Position="1" Name="加鲁达之羽" Description="合成4代翅膀的材料。" DisPlayItem="7123" Flags="0" PriceType="0" PriceName="积分" CategoryName="合成材料" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="31" Position="2" Name="中级魔晶石" Description="合成材料。" DisPlayItem="6549" Flags="0" PriceType="0" PriceName="积分" CategoryName="合成材料" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="32" Position="3" Name="高级魔晶石" Description="合成材料" DisPlayItem="6550" Flags="0" PriceType="0" PriceName="积分" CategoryName="合成材料" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="33" Position="4" Name="顶级魔晶石" Description="合成材料。" DisPlayItem="6243" Flags="0" PriceType="0" PriceName="积分" CategoryName="合成材料" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="34" Position="5" Name="黄金文章" Description="合成材料。" DisPlayItem="7124" Flags="0" PriceType="0" PriceName="积分" CategoryName="合成材料" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="35" Position="6" Name="幸运符咒" Description="提高合成成功几率10%。" DisPlayItem="7221" Flags="0" PriceType="0" PriceName="积分" CategoryName="合成材料" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="36" Position="7" Name="合成保护符咒" Description="升级+9等级以上的道具时防止道具消失。" DisPlayItem="7264" Flags="0" PriceType="0" PriceName="积分" CategoryName="合成材料" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="37" Position="8" Name="属性 幸运符咒" Description="升级元素属性道具或艾尔特时，升级成功几率提高10%。" DisPlayItem="7357" Flags="0" PriceType="0" PriceName="积分" CategoryName="合成材料" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="38" Position="9" Name="属性 混沌合成符咒" Description="元素道具或元素之魂升级失败时，防止元素道具或元素之魂消失的合成符咒。" DisPlayItem="7358" Flags="0" PriceType="0" PriceName="积分" CategoryName="合成材料" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="39" Position="10" Name="元素属性徽章" Description="升级元素属性时所需的合成材料。" DisPlayItem="6653" Flags="0" PriceType="0" PriceName="积分" CategoryName="合成材料" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="40" Position="11" Name="狂喜的插槽扩展书" Description="可以扩展狂喜的插槽。" DisPlayItem="7484" Flags="0" PriceType="0" PriceName="积分" CategoryName="合成材料" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="41" Position="12" Name="精灵的庇护" Description="解除元素属性道具中所装备的艾尔特装备时，将无视消失概率。" DisPlayItem="7488" Flags="0" PriceType="0" PriceName="积分" CategoryName="合成材料" StartDate="20100526194000" EndDate="20190531124000" />
-  </Category>
-  <Category ID="7">
-    <Package ID="42" Position="0" Name="帝国要塞入场券" Description="进入帝国要塞的入场券。" DisPlayItem="10348" Flags="0" PriceType="0" PriceName="积分" CategoryName="通行证" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="43" Position="1" Name="精灵尼克斯的碎片" Description="进入boss尼克斯的休息处时使用。" DisPlayItem="7558" Flags="0" PriceType="0" PriceName="积分" CategoryName="通行证" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="44" Position="2" Name="boss战入场券" Description="进入boss战时需要的入场券。" DisPlayItem="10349" Flags="0" PriceType="0" PriceName="积分" CategoryName="通行证" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="45" Position="3" Name="通行证" Description="提升季票等级，最高20级。" DisPlayItem="10362" Flags="0" PriceType="0" PriceName="积分" CategoryName="通行证" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="46" Position="4" Name="黄金通行证" Description="升级季票为黄金季票，使用一次即可，多买无用。" DisPlayItem="10363" Flags="0" PriceType="0" PriceName="积分" CategoryName="通行证" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="47" Position="5" Name="高级通行证" Description="升级季票为高级季票，使用一次即可，多买无用。" DisPlayItem="10364" Flags="0" PriceType="0" PriceName="积分" CategoryName="通行证" StartDate="20100526194000" EndDate="20190531124000" />
-  </Category>
-  <Category ID="8">
-    <Package ID="48" Position="0" Name="乌列尔之羽" Description="五代翅膀合成材料。" DisPlayItem="10398" Flags="0" PriceType="0" PriceName="积分" CategoryName="五转材料" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="49" Position="1" Name="纯翼核心设计图" Description="翼芯合成材料。" DisPlayItem="10399" Flags="0" PriceType="0" PriceName="积分" CategoryName="五转材料" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="50" Position="2" Name="翼芯强化石" Description="提升翼芯等级使用的材料。" DisPlayItem="10401" Flags="0" PriceType="0" PriceName="积分" CategoryName="五转材料" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="51" Position="3" Name="能力水晶" Description="合成五转技能卡时使用。" DisPlayItem="10404" Flags="0" PriceType="0" PriceName="积分" CategoryName="五转材料" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="52" Position="4" Name="能力提升石" Description="可以对能量核芯卡进行强化以及反还的道具。" DisPlayItem="10479" Flags="0" PriceType="0" PriceName="积分" CategoryName="五转材料" StartDate="20100526194000" EndDate="20190531124000" />
-  </Category>
-  <Category ID="9">
-    <Package ID="53" Position="0" Name="粉红色熊变身指环" Description="增加属性、金币获取量、经验值的戒指。" DisPlayItem="6734" Flags="0" PriceType="0" PriceName="积分" CategoryName="戒指、守护" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="54" Position="1" Name="棕色熊猫变身指环" Description="增加属性、金币获取量、经验值的戒指。" DisPlayItem="6822" Flags="0" PriceType="0" PriceName="积分" CategoryName="戒指、守护" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="55" Position="2" Name="暗黑变身指环" Description="增加属性、金币获取量、经验值的戒指。" DisPlayItem="6924" Flags="0" PriceType="0" PriceName="积分" CategoryName="戒指、守护" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="56" Position="3" Name="强化恶魔" Description="攻击力， 魔力， 诅咒提高40%，攻击速度提高 +10。" DisPlayItem="6720" Flags="0" PriceType="0" PriceName="积分" CategoryName="戒指、守护" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="57" Position="4" Name="强化天使" Description="怪物伤害吸收30%，最大生命力 +50。" DisPlayItem="6721" Flags="0" PriceType="0" PriceName="积分" CategoryName="戒指、守护" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="58" Position="5" Name="熊猫" Description="自动拾取周围的金币，经验值提高50%，防御力 +50。" DisPlayItem="6736" Flags="0" PriceType="0" PriceName="积分" CategoryName="戒指、守护" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="59" Position="6" Name="幼龙骨架" Description="自动拾取周围的金币，攻击力/魔力/诅咒提高 20%，攻击速度提高 +10，经验值提高30%。" DisPlayItem="6779" Flags="0" PriceType="0" PriceName="积分" CategoryName="戒指、守护" StartDate="20100526194000" EndDate="20190531124000" />
-  </Category>
-  <Category ID="10">
-    <Package ID="60" Position="0" Name="收费宠物箱" Description="可获得能力翻倍1个月的随机宠物、勇者宠物。" DisPlayItem="9731" Flags="0" PriceType="0" PriceName="积分" CategoryName="宠物、炎狼兽" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="61" Position="1" Name="炎狼兽之角（红狼）" Description="炎狼兽之角（红狼）。" DisPlayItem="6693" Flags="0" PriceType="0" PriceName="积分" CategoryName="宠物、炎狼兽" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="62" Position="2" Name="炎狼兽之角（黑狼）" Description="炎狼兽之角（黑狼）。" DisPlayItem="6693" Flags="0" PriceType="0" PriceName="积分" CategoryName="宠物、炎狼兽" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="63" Position="3" Name="炎狼兽之角（蓝狼）" Description="炎狼兽之角（蓝狼）。" DisPlayItem="6693" Flags="0" PriceType="0" PriceName="积分" CategoryName="宠物、炎狼兽" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="64" Position="4" Name="炎狼兽之角（金狼）" Description="炎狼兽之角（金狼）。" DisPlayItem="6693" Flags="0" PriceType="0" PriceName="积分" CategoryName="宠物、炎狼兽" StartDate="20100526194000" EndDate="20190531124000" />
-  </Category>
-  <Category ID="11">
-    <Package ID="65" Position="0" Name="黑暗祝福宝石" Description="立即将物品等级提升至+6。" DisPlayItem="10740" Flags="0" PriceType="0" PriceName="积分" CategoryName="多彩宝石" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="66" Position="1" Name="黑暗灵魂宝石" Description="立即将物品等级提升至+9。" DisPlayItem="10741" Flags="0" PriceType="0" PriceName="积分" CategoryName="多彩宝石" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="67" Position="2" Name="黑暗生命宝石" Description="将物品追加属性提升至追28。" DisPlayItem="10742" Flags="0" PriceType="0" PriceName="积分" CategoryName="多彩宝石" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="68" Position="3" Name="卓越宝石" Description="将普通物品添加随机卓越属性。" DisPlayItem="10743" Flags="0" PriceType="0" PriceName="积分" CategoryName="多彩宝石" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="69" Position="4" Name="幸运宝石" Description="为物品添加幸运属性。" DisPlayItem="10744" Flags="0" PriceType="0" PriceName="积分" CategoryName="多彩宝石" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="70" Position="5" Name="技能宝石" Description="为武器、盾牌添加技能。" DisPlayItem="10745" Flags="0" PriceType="0" PriceName="积分" CategoryName="多彩宝石" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="71" Position="6" Name="等级宝石" Description="立即将物品等级提升至+15。" DisPlayItem="10746" Flags="0" PriceType="0" PriceName="积分" CategoryName="多彩宝石" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="72" Position="7" Name="全属宝石" Description="使物品拥有卓越满属性。" DisPlayItem="10747" Flags="0" PriceType="0" PriceName="积分" CategoryName="多彩宝石" StartDate="20100526194000" EndDate="20190531124000" />
-    <Package ID="73" Position="8" Name="镶嵌宝石" Description="为镶嵌物品添加额外的镶嵌插槽。" DisPlayItem="10748" Flags="0" PriceType="0" PriceName="积分" CategoryName="多彩宝石" StartDate="20100526194000" EndDate="20190531124000" />
-  </Category>
+	<Category ID="2">
+		<Package ID="1" Position="0" Name="Bless of Light (Greater)" Description="" DisPlayItem="7392" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="2" Position="1" Name="Talisman of Ascension III" Description="" DisPlayItem="6835" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="3" Position="2" Name="Seal of Wealth" Description="" DisPlayItem="6700" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="4" Position="3" Name="Seal of Healing" Description="" DisPlayItem="6718" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="5" Position="4" Name="Seal of Divinity" Description="" DisPlayItem="6719" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="6" Position="5" Name="Master Seal of Wealth" Description="" DisPlayItem="6750" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="7" Position="6" Name="Party EXP Bonus Item" Description="" DisPlayItem="6759" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="8" Position="7" Name="Max AG Boost Aura" Description="" DisPlayItem="6760" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="9" Position="8" Name="Max SD Boost Aura" Description="" DisPlayItem="6761" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="10" Position="9" Name="Seal of Ascension II" Description="" DisPlayItem="6836" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="11" Position="10" Name="Seal of Ascension II" Description="" DisPlayItem="6837" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000"/>
+	</Category>
+	<Category ID="3">
+		<Package ID="12" Position="0" Name="Scroll of Quickness" Description="" DisPlayItem="7240" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="13" Position="1" Name="Scroll of Defense" Description="" DisPlayItem="7241" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="14" Position="2" Name="Scroll of Wrath" Description="" DisPlayItem="7242" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="15" Position="3" Name="Scroll of Wizardry" Description="" DisPlayItem="7243" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="16" Position="4" Name="Scroll of Health" Description="" DisPlayItem="7244" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="17" Position="5" Name="Scroll of Mana" Description="" DisPlayItem="7245" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="18" Position="6" Name="Scroll of Battle" Description="" DisPlayItem="7265" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="19" Position="7" Name="Scroll of Strength" Description="" DisPlayItem="7266" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="20" Position="8" Name="Scroll of Healing" Description="" DisPlayItem="7308" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000"/>
+	</Category>
+	<Category ID="4">
+		<Package ID="21" Position="0" Name="Elite Healing Potion" Description="" DisPlayItem="7238" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Elixir" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="22" Position="1" Name="Elite Mana Potion" Description="" DisPlayItem="7239" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Elixir" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="23" Position="2" Name="Elite SD Potion" Description="" DisPlayItem="7301" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Elixir" StartDate="20100526194000" EndDate="20190531124000"/>
+	</Category>
+	<Category ID="5">
+		<Package ID="24" Position="0" Name="Jewel of Bless" Description="" DisPlayItem="7181" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Jewel" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="25" Position="1" Name="Jewel of Soul" Description="" DisPlayItem="7182" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Jewel" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="26" Position="2" Name="Jewel of Life" Description="" DisPlayItem="7184" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Jewel" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="27" Position="3" Name="Jewel of Chaos" Description="" DisPlayItem="6159" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Jewel" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="28" Position="4" Name="Jewel of Creation" Description="" DisPlayItem="7190" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Jewel" StartDate="20100526194000" EndDate="20190531124000"/>
+	</Category>
+	<Category ID="6">
+		<Package ID="29" Position="0" Name="Conqueror's Badge" Description="" DisPlayItem="6932" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="30" Position="1" Name="Garuda's Feather" Description="" DisPlayItem="7123" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="31" Position="2" Name="Intermediate Spirit Stone" Description="" DisPlayItem="6549" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="32" Position="3" Name="Greater Spirit Stone" Description="" DisPlayItem="6550" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="33" Position="4" Name="Top Grade Spirit Stone" Description="" DisPlayItem="6243" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="34" Position="5" Name="Golden Sentence" Description="" DisPlayItem="7124" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="35" Position="6" Name="Talisman of Luck" Description="" DisPlayItem="7221" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="36" Position="7" Name="Talisman of Chaos Assembly" Description="" DisPlayItem="7264" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="37" Position="8" Name="Elemental Talisman of Luck" Description="" DisPlayItem="7357" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="38" Position="9" Name="Elemental Talisman of Chaos" Description="" DisPlayItem="7358" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="39" Position="10" Name="Pentagram Emblem" Description="" DisPlayItem="6653" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="40" Position="11" Name="Expansion Scroll Radiance Slo" Description="" DisPlayItem="7484" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="41" Position="12" Name="Blessing of Spirit" Description="" DisPlayItem="7488" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000"/>
+	</Category>
+	<Category ID="7">
+		<Package ID="42" Position="0" Name="Varka Entrance Ticket" Description="" DisPlayItem="10348" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Pass Ticket" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="43" Position="1" Name="Nixie's spirit fragment" Description="" DisPlayItem="7558" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Pass Ticket" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="44" Position="2" Name="Boss Battle Ticket" Description="" DisPlayItem="10349" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Pass Ticket" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="45" Position="3" Name="Pass Ticket" Description="" DisPlayItem="10362" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Pass Ticket" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="46" Position="4" Name="Gold Pass Voucher" Description="" DisPlayItem="10363" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Pass Ticket" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="47" Position="5" Name="Premium Pass Voucher" Description="" DisPlayItem="10364" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Pass Ticket" StartDate="20100526194000" EndDate="20190531124000"/>
+	</Category>
+	<Category ID="8">
+		<Package ID="48" Position="0" Name="Uriel's Feather" Description="" DisPlayItem="10398" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="5th Items" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="49" Position="1" Name="Pure Wing Core (Type 1) Pattern" Description="" DisPlayItem="10399" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="5th Items" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="50" Position="2" Name="Wing Core Reinforcement Stone" Description="" DisPlayItem="10401" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="5th Items" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="51" Position="3" Name="Ability Crystal" Description="" DisPlayItem="10404" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="5th Items" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="52" Position="4" Name="Ability Enhancement Stone" Description="" DisPlayItem="10479" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="5th Items" StartDate="20100526194000" EndDate="20190531124000"/>
+	</Category>
+	<Category ID="9">
+		<Package ID="53" Position="0" Name="Pink Panda Ring" Description="" DisPlayItem="6734" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Ring And Guardian" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="54" Position="1" Name="Brown Panda Ring" Description="" DisPlayItem="6822" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Ring And Guardian" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="55" Position="2" Name="Dark Transformation Ring" Description="" DisPlayItem="6924" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Ring And Guardian" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="56" Position="3" Name="Demon" Description="" DisPlayItem="6720" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Ring And Guardian" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="57" Position="4" Name="Spirit of Guardian" Description="" DisPlayItem="6721" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Ring And Guardian" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="58" Position="5" Name="Pet Panda" Description="" DisPlayItem="6736" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Ring And Guardian" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="59" Position="6" Name="Pet Skeleton" Description="" DisPlayItem="6779" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Ring And Guardian" StartDate="20100526194000" EndDate="20190531124000"/>
+	</Category>
+	<Category ID="10">
+		<Package ID="60" Position="0" Name="Premium Box" Description="" DisPlayItem="9731" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Pet And Fenrir" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="61" Position="1" Name="Horn of Fenrir" Description="" DisPlayItem="6693" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Pet And Fenrir" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="62" Position="2" Name="Horn of Fenrir (Destroy)" Description="" DisPlayItem="6693" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Pet And Fenrir" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="63" Position="3" Name="Horn of Fenrir (Protect)" Description="" DisPlayItem="6693" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Pet And Fenrir" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="64" Position="4" Name="Horn of Fenrir (IIIusion)" Description="" DisPlayItem="6693" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Pet And Fenrir" StartDate="20100526194000" EndDate="20190531124000"/>
+	</Category>
+	<Category ID="11">
+		<Package ID="65" Position="0" Name="Jewel of Dark Bless" Description="" DisPlayItem="10740" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Custom Jewelry" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="66" Position="1" Name="Jewel of Dark Soul" Description="" DisPlayItem="10741" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Custom Jewelry" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="67" Position="2" Name="Jewel of Dark Life" Description="" DisPlayItem="10742" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Custom Jewelry" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="68" Position="3" Name="Jewel of Excess" Description="" DisPlayItem="10743" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Custom Jewelry" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="69" Position="4" Name="Jewel of Luck" Description="" DisPlayItem="10744" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Custom Jewelry" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="70" Position="5" Name="Jewel of Science" Description="" DisPlayItem="10745" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Custom Jewelry" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="71" Position="6" Name="Jewel of Kundun" Description="" DisPlayItem="10746" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Custom Jewelry" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="72" Position="7" Name="Jewel of Kondar" Description="" DisPlayItem="10747" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Custom Jewelry" StartDate="20100526194000" EndDate="20190531124000"/>
+		<Package ID="73" Position="8" Name="Jewel of Wisdom" Description="" DisPlayItem="10748" Flags="0" PriceType="0" PriceName="Goblin Points" CategoryName="Custom Jewelry" StartDate="20100526194000" EndDate="20190531124000"/>
+	</Category>
 </CashShopPackage>

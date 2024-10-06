@@ -1,5 +1,0 @@
-1@Kris@Quantity@20@EA@1@0@142@145@1@144@673@518@0@7@138@680
-2@Dragon Lance@Quantity@34@EA@1@0@142@145@1@144@673@518@1538@7@138@680
-3@Bronze Helm@Quantity@255@EA@1@0@142@145@1@144@673@518@3584@7@138@680
-4@Bronze Armor@Quantity@34@EA@300@0@142@145@1@144@673@518@4096@7@138@680
-5@Lightning Illusion Knight Armor@Quantity@100@EA@500@0@142@145@1@144@673@518@4430@7@138@680

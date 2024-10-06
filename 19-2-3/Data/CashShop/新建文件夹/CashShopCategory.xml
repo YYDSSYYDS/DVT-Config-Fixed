@@ -1,5 +1,0 @@
-<CashShopCategory>
-  <Cat ID="1" Name="积分" Parent="200" Main="0" Disable="0" />
-  <Cat ID="2" Name="元宝" Parent="200" Main="0" Disable="0" />
-  <Cat ID="3" Name="各种道具" Parent="200" Main="1" Disable="0" />
-</CashShopCategory>

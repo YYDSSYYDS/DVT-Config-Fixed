@@ -1,13 +1,13 @@
 <CashShopCategory>
-  <Cat ID="1" Name="积分商城" Parent="200" Main="0" Disable="0" />
-  <Cat ID="2" Name="经验buff" Parent="200" Main="1" Disable="0" />
-  <Cat ID="3" Name="buff卷轴" Parent="200" Main="1" Disable="0" />
-  <Cat ID="4" Name="精华药水" Parent="200" Main="1" Disable="0" />
-  <Cat ID="5" Name="各类宝石" Parent="200" Main="1" Disable="0" />
-  <Cat ID="6" Name="合成材料" Parent="200" Main="1" Disable="0" />
-  <Cat ID="7" Name="通行证" Parent="200" Main="1" Disable="0" />
-  <Cat ID="8" Name="五转材料" Parent="200" Main="1" Disable="0" />
-  <Cat ID="9" Name="戒指、守护" Parent="200" Main="1" Disable="0" />
-  <Cat ID="10" Name="宠物、炎狼兽" Parent="200" Main="1" Disable="0" />
-  <Cat ID="11" Name="多彩宝石" Parent="200" Main="1" Disable="0" />
+  <Cat ID="1" Name="Goblin Shop" Parent="200" Main="0" Disable="0" />
+  <Cat ID="2" Name="Exp Buff" Parent="200" Main="1" Disable="0" />
+  <Cat ID="3" Name="Buff Scroll" Parent="200" Main="1" Disable="0" />
+  <Cat ID="4" Name="Elixir" Parent="200" Main="1" Disable="0" />
+  <Cat ID="5" Name="Jewel" Parent="200" Main="1" Disable="0" />
+  <Cat ID="6" Name="Chaos Items" Parent="200" Main="1" Disable="0" />
+  <Cat ID="7" Name="Pass Ticket" Parent="200" Main="1" Disable="0" />
+  <Cat ID="8" Name="5th Items" Parent="200" Main="1" Disable="0" />
+  <Cat ID="9" Name="Ring And Guardian" Parent="200" Main="1" Disable="0" />
+  <Cat ID="10" Name="Pet And Fenrir" Parent="200" Main="1" Disable="0" />
+  <Cat ID="11" Name="Custom Jewelry" Parent="200" Main="1" Disable="0" />
 </CashShopCategory>
