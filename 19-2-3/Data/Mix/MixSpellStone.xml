@@ -37,4 +37,13 @@
 		<Data Count="40" Rate0="0" Rate1="0" Rate2="0" Rate3="500" Rate4="9000" Rate5="500" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" />
 		<Data Count="50" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="9500" Rate6="500" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" />
     </Mix>
+	
+	<Mix Type="3">
+        <Data Count="0" Rate0="10000" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" />
+        <Data Count="10" Rate0="0" Rate1="9500" Rate2="500" Rate3="0" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" />
+        <Data Count="20" Rate0="0" Rate1="500" Rate2="9000" Rate3="500" Rate4="0" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" />
+        <Data Count="30" Rate0="0" Rate1="0" Rate2="500" Rate3="9000" Rate4="500" Rate5="0" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" />
+        <Data Count="40" Rate0="0" Rate1="0" Rate2="0" Rate3="500" Rate4="9000" Rate5="500" Rate6="0" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" />
+        <Data Count="50" Rate0="0" Rate1="0" Rate2="0" Rate3="0" Rate4="0" Rate5="9500" Rate6="500" Rate7="0" Rate8="0" Rate9="0" Rate10="0" Rate11="0" Rate12="0" Rate13="0" Rate14="0" Rate15="0" />
+    </Mix>	
 </MixSpellStone>
