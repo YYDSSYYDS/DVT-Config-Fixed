@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				  POWERED BY DV-Team				 	 ==
+// ==            File Name: SkillSpecialElement              ==
+// ============================================================
+-->
+
+<SkillSpecialElement>
+	<Skill ID="1" Name="Stern" Type="0" Rate="10" Duration="3" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="3" Name="MP Reduction" Type="3" Rate="50" Duration="10" CalcType="2" CalcValue="50" Magic="-1" />
+	<Skill ID="4" Name="AG Reduce " Type="4" Rate="50" Duration="10" CalcType="2" CalcValue="50" Magic="-1" />
+	<Skill ID="5" Name="Defense " Type="5" Rate="90" Duration="10" CalcType="12" CalcValue="50" Magic="-1" />
+	<Skill ID="6" Name="Damage " Type="6" Rate="90" Duration="10" CalcType="12" CalcValue="50" Magic="-1" />
+	<Skill ID="7" Name="Push" Type="9" Rate="50" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="8" Name="Dock" Type="2" Rate="30" Duration="10" CalcType="112" CalcValue="10" Magic="-1" />
+	<Skill ID="9" Name="Ice" Type="1" Rate="90" Duration="10" CalcType="12" CalcValue="50" Magic="-1" />
+	<Skill ID="11" Name="Duration " Type="7" Rate="90" Duration="10" CalcType="12" CalcValue="7" Magic="-1" />
+	<Skill ID="12" Name="Native " Type="2" Rate="90" Duration="10" CalcType="101" CalcValue="5" Magic="-1" />
+	<Skill ID="13" Name="Treatment " Type="2" Rate="90" Duration="10" CalcType="11" CalcValue="50" Magic="-1" />
+	<Skill ID="14" Name="HP Reduction" Type="2" Rate="90" Duration="10" CalcType="12" CalcValue="100" Magic="-1" />
+	<Skill ID="16" Name="Summon " Type="8" Rate="90" Duration="10" CalcType="0" CalcValue="-1" Magic="-1" />
+	<Skill ID="17" Name="Direction " Type="14" Rate="50" Duration="10" CalcType="0" CalcValue="-1" Magic="27" />
+	<Skill ID="22" Name="Hyangan Ball Jam " Type="16" Rate="90" Duration="10" CalcType="0" CalcValue="-1" Magic="28" />
+	<Skill ID="23" Name="Direct Land Hit " Type="16" Rate="90" Duration="10" CalcType="0" CalcValue="-1" Magic="28" />
+	<Skill ID="24" Name="Kentauros - Multi Shot" Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="25" Name="Persona - Demon " Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="26" Name="Twin Tail - General" Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="27" Name="Twin Tail - Dock " Type="19" Rate="100" Duration="10" CalcType="-1" CalcValue="10" Magic="800" />
+	<Skill ID="28" Name="Dreadfear - Two Hits" Type="18" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="29" Name="NightMare - Dock " Type="19" Rate="50" Duration="10" CalcType="-1" CalcValue="5" Magic="-1" />
+	<Skill ID="30" Name="NightMare - Dog - Shift" Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="31" Name="NightMare - Pot - General" Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="32" Name="NightMare - FireCamp - General" Type="20" Rate="100" Duration="10" CalcType="13" CalcValue="38" Magic="-1" />
+	<Skill ID="33" Name="NightMare - FireCamp - Shift" Type="9" Rate="100" Duration="10" CalcType="-1" CalcValue="3" Magic="-1" />
+	<Skill ID="34" Name="NightMare - Warp " Type="17" Rate="100" Duration="3" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="35" Name="Maya - Pressure - General" Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="36" Name="Maya - Pressure - Pushing" Type="9" Rate="50" Duration="10" CalcType="-1" CalcValue="3" Magic="100" />
+	<Skill ID="37" Name="Maya - Pressure - Duration" Type="7" Rate="20" Duration="10" CalcType="2" CalcValue="10" Magic="-1" />
+	<Skill ID="38" Name="Maya - Power - General" Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="39" Name="Maya - Ice Storm - Shift" Type="9" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="40" Name="Maya - Ice Storm - General" Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="41" Name="Maya - Broken shower - General" Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="42" Name="Maya - Broken shower - Stern" Type="0" Rate="10" Duration="3" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="43" Name="Stern 2 " Type="0" Rate="15" Duration="3" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="44" Name="Shift 2 " Type="9" Rate="30" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="45" Name="General Attack " Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="46" Name="Kulreotin - dokguseul" Type="19" Rate="100" Duration="10" CalcType="-1" CalcValue="10" Magic="-1" />
+	<Skill ID="47" Name="Blow" Type="18" Rate="100" Duration="0" CalcType="0" CalcValue="-1" Magic="-1" />
+	<Skill ID="48" Name="Selupan - Poison Ball" Type="19" Rate="100" Duration="10" CalcType="-1" CalcValue="10" Magic="-1" />
+	<Skill ID="49" Name="Selupan - Frost Storm" Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="50" Name="Selupan - Frost Shock" Type="9" Rate="100" Duration="0" CalcType="-1" CalcValue="10" Magic="-1" />
+	<Skill ID="51" Name="Selupan - fall " Type="9" Rate="100" Duration="0" CalcType="-1" CalcValue="4" Magic="-1" />
+	<Skill ID="52" Name="Selupan - Summons " Type="8" Rate="100" Duration="0" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="53" Name="Selupan - Treatment" Type="2" Rate="100" Duration="0" CalcType="1" CalcValue="5" Magic="-1" />
+	<Skill ID="54" Name="Selupan - Icing " Type="0" Rate="100" Duration="5" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="55" Name="Selupan - Teleportation" Type="17" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="10" />
+	<Skill ID="56" Name="Selupan - Invincible" Type="21" Rate="100" Duration="10" CalcType="11" CalcValue="10000" Magic="10" />
+	<Skill ID="57" Name="Selupan - Berserk" Type="6" Rate="100" Duration="-1" CalcType="11" CalcValue="300" Magic="10" />
+	<Skill ID="58" Name="Medic HP " Type="2" Rate="100" Duration="0" CalcType="1" CalcValue="5" Magic="-1" />
+	<Skill ID="58" Name="Medic HP" Type="5" Rate="100" Duration="5" CalcType="1" CalcValue="50" Magic="-1" />
+	<Skill ID="59" Name="Shield Defense " Type="0" Rate="30" Duration="2" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="59" Name="Shield Defense " Type="5" Rate="90" Duration="2" CalcType="12" CalcValue="50" Magic="-1" />
+	<Skill ID="60" Name="Shield Defense " Type="2" Rate="100" Duration="0" CalcType="1" CalcValue="10" Magic="-1" />
+	<Skill ID="60" Name="Attack General " Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="61" Name="Attack Poison " Type="19" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="61" Name="Attack Poison " Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="62" Name="Stern" Type="0" Rate="10" Duration="5" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="62" Name="Stern " Type="19" Rate="100" Duration="10" CalcType="-1" CalcValue="10" Magic="-1" />
+	<Skill ID="63" Name="Push Attack" Type="9" Rate="100" Duration="0" CalcType="-1" CalcValue="5" Magic="-1" />
+	<Skill ID="63" Name="Push Attack" Type="19" Rate="100" Duration="10" CalcType="-1" CalcValue="5" Magic="-1" />
+	<Skill ID="64" Name="Mounted Director - Earth push" Type="9" Rate="100" Duration="10" CalcType="-1" CalcValue="3" Magic="-1" />
+	<Skill ID="65" Name="Riders GM - bites - dot" Type="19" Rate="100" Duration="10" CalcType="102" CalcValue="50" Magic="-1" />
+	<Skill ID="66" Name="Mounted Director - Head of CEE push" Type="9" Rate="100" Duration="10" CalcType="-1" CalcValue="4" Magic="-1" />
+	<Skill ID="67" Name="Berserk - Damage Rise" Type="6" Rate="100" Duration="-1" CalcType="1" CalcValue="150" Magic="-1" />
+	<Skill ID="68" Name="Berserk - Armor Up" Type="5" Rate="100" Duration="-1" CalcType="1" CalcValue="150" Magic="-1" />
+	<Skill ID="69" Name="Vermont - movement speed reduction" Type="1" Rate="40" Duration="10" CalcType="12" CalcValue="50" Magic="-1" />
+	<Skill ID="70" Name="is the ion - Blood banggam" Type="5" Rate="100" Duration="10" CalcType="2" CalcValue="20" Magic="-1" />
+	<Skill ID="71" Name="is the ion - General Strike" Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="72" Name="is the ion - gigantik" Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="73" Name="is the ion - Flame" Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="74" Name="Stern 2 " Type="0" Rate="20" Duration="3" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="75" Name="Medusa - Curse Poison" Type="2" Rate="80" Duration="20" CalcType="12" CalcValue="100" Magic="-1" />
+	<Skill ID="76" Name="Medusa - Chaotic 1" Type="2" Rate="100" Duration="0" CalcType="12" CalcValue="500" Magic="-1" />
+	<Skill ID="77" Name="Medusa - Chaotic 2" Type="1" Rate="100" Duration="10" CalcType="12" CalcValue="30" Magic="-1" />
+	<Skill ID="78" Name="Salamander - Skill hitting 1" Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="79" Name="Salamander - Skill Strikes 2" Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="80" Name="Salamander - hit " Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="81" Name="Salamander -German" Type="19" Rate="50" Duration="10" CalcType="12" CalcValue="50" Magic="10" />
+	<Skill ID="82" Name="Undine - Skill hitting 1" Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="83" Name="Undine - Skill Strikes 2" Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="84" Name="Undine - hit" Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="85" Name="Undine - Ice" Type="1" Rate="50" Duration="10" CalcType="12" CalcValue="50" Magic="300" />
+	<Skill ID="86" Name="Gnome - skill hit 1" Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="87" Name="Gnome - skill hit 2" Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="88" Name="Gnome - hit" Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="89" Name="Gnome - Stern " Type="0" Rate="50" Duration="3" CalcType="-1" CalcValue="-1" Magic="300" />
+	<Skill ID="90" Name="Silpideu - Skill hitting 1" Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="91" Name="Silpideu - Skill Strikes" Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="92" Name="Silpideu - hit " Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="93" Name="Silpideu - pushing" Type="9" Rate="100" Duration="10" CalcType="-1" CalcValue="5" Magic="300" />
+	<Skill ID="94" Name="Hill Lhasa - hitting skill 1" Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="95" Name="Hill Lhasa - hitting skill 2" Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="96" Name="Hill Lhasa - hitting" Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="97" Name="Hill Lhasa - HP reduced" Type="2" Rate="100" Duration="0" CalcType="12" CalcValue="100" Magic="300" />
+	<Skill ID="98" Name="Lord Silvester - General strike" Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="500" />
+	<Skill ID="99" Name="Lord Silvester - Wind whirlwind" Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="1800" />
+	<Skill ID="100" Name="Lord Silvester - Curse of the wind" Type="22" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="1800" />
+	<Skill ID="101" Name="Lord Silvester - Wind called (summoned)" Type="8" Rate="100" Duration="0" CalcType="-1" CalcValue="-1" Magic="2000" />
+	<Skill ID="102" Name="Lord Silvester - Stun" Type="0" Rate="50" Duration="3" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="103" Name="Lord Silvester - Invincible" Type="21" Rate="100" Duration="10" CalcType="11" CalcValue="10000" Magic="-1" />
+	<Skill ID="104" Name="Lord Silvester - Pushing" Type="9" Rate="100" Duration="10" CalcType="-1" CalcValue="5" Magic="1800" />
+	<Skill ID="105" Name="EvoMon - MultiShot" Type="24" Rate="100" Duration="10" CalcType="-1" CalcValue="0" Magic="300" />
+	<Skill ID="106" Name="EvoMon - Lightning Attack" Type="24" Rate="100" Duration="10" CalcType="-1" CalcValue="20" Magic="300" />
+	<Skill ID="107" Name="EvoMon - Flood" Type="24" Rate="100" Duration="10" CalcType="-1" CalcValue="40" Magic="300" />
+	<Skill ID="108" Name="EvoMon - Ice Dot Damage" Type="23" Rate="100" Duration="10" CalcType="-1" CalcValue="10" Magic="300" />
+	<Skill ID="109" Name="EvoMon - Disappear" Type="1" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="110" Name="Core Magriffy - General Attack" Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="111" Name="Core Magriffy - Twister" Type="25" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="112" Name="Core Magriffy - Shout" Type="28" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="113" Name="Core Magriffy - Fang" Type="8" Rate="100" Duration="0" CalcType="-1" CalcValue="1" Magic="-1" />
+	<Skill ID="114" Name="Core Magriffy - Wide" Type="26" Rate="100" Duration="3600" CalcType="-1" CalcValue="100" Magic="-1" />
+	<Skill ID="115" Name="Core Magriffy - Dock" Type="19" Rate="50" Duration="0" CalcType="-1" CalcValue="5" Magic="-1" />
+	<Skill ID="116" Name="Core Magriffy - Push" Type="9" Rate="100" Duration="10" CalcType="-1" CalcValue="5" Magic="-1" />
+	<Skill ID="117" Name="Ferea Lord - General Attack" Type="29" Rate="100" Duration="10" CalcType="-1" CalcValue="1" Magic="-1" />
+	<Skill ID="118" Name="Ferea Lord - Mine Explosion" Type="30" Rate="100" Duration="10" CalcType="-1" CalcValue="1" Magic="6000" />
+	<Skill ID="119" Name="Ferea Lord - WhirlWind" Type="31" Rate="100" Duration="10" CalcType="-1" CalcValue="1" Magic="-1" />
+	<Skill ID="120" Name="Ferea Lord - Roar" Type="32" Rate="100" Duration="10" CalcType="-1" CalcValue="1" Magic="3000" />
+	<Skill ID="121" Name="Fera Lord - Summon" Type="33" Rate="100" Duration="10" CalcType="-1" CalcValue="1" Magic="-1" />
+	<Skill ID="122" Name="Nix - General Attack" Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="1" Magic="-1" />
+	<Skill ID="123" Name="Nix - Energy Sphere" Type="34" Rate="100" Duration="30" CalcType="-1" CalcValue="1" Magic="1000" />
+	<Skill ID="124" Name="Nix - Ice Lane" Type="35" Rate="100" Duration="10" CalcType="-1" CalcValue="1" Magic="-1" />
+	<Skill ID="125" Name="Nix - Ice Torture" Type="36" Rate="100" Duration="60" CalcType="-1" CalcValue="1" Magic="-1" />
+	<Skill ID="126" Name="Nix - Ice Boom" Type="37" Rate="100" Duration="10" CalcType="-1" CalcValue="1" Magic="1000" />
+	<Skill ID="127" Name="Nix - Devil Ice" Type="38" Rate="100" Duration="10" CalcType="-1" CalcValue="1" Magic="5000" />
+	<Skill ID="128" Name="Cent Fire Slash" Type="25" Rate="100" Duration="0" CalcType="-1" CalcValue="-1" Magic="0" />
+	<Skill ID="129" Name="Cent Twister" Type="20" Rate="100" Duration="0" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="130" Name="Cent Nova Beginning" Type="0" Rate="0" Duration="0" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="131" Name="Cent Nova" Type="20" Rate="100" Duration="0" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="132" Name="Cent Fire Blood" Type="25" Rate="100" Duration="0" CalcType="0" CalcValue="10" Magic="1" />
+	<Skill ID="133" Name="Cent Ice Blood" Type="25" Rate="100" Duration="0" CalcType="0" CalcValue="20" Magic="2" />
+	<Skill ID="134" Name="Swamp Monster Poison" Type="19" Rate="100" Duration="0" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="135" Name="Pet Monster Attack" Type="20" Rate="100" Duration="0" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="136" Name="Water Monster Attack" Type="20" Rate="100" Duration="0" CalcType="-1" CalcValue="-1" Magic="300" />
+	<Skill ID="137" Name="Water Monster Attack" Type="20" Rate="100" Duration="0" CalcType="-1" CalcValue="-1" Magic="300" />
+	<Skill ID="137" Name="Water Monster Attack" Type="20" Rate="100" Duration="0" CalcType="-1" CalcValue="-1" Magic="300" />
+	<Skill ID="138" Name="Bahamutt Monster AOE Attack" Type="20" Rate="100" Duration="0" CalcType="-1" CalcValue="-1" Magic="300" />
+	<Skill ID="148" Name="Multiple Monster AOE Attack" Type="20" Rate="100" Duration="0" CalcType="-1" CalcValue="-1" Magic="300" />
+	<Skill ID="149" Name="Temple Gremlin AOE Attack" Type="20" Rate="100" Duration="0" CalcType="-1" CalcValue="-1" Magic="300" />
+	<Skill ID="150" Name="Ashy Witch Queen Evil Spirit Attack" Type="20" Rate="100" Duration="10" CalcType="-1" CalcValue="-1" Magic="-1" /> 
+	<Skill ID="151" Name="Harpy AOE Attack" Type="20" Rate="100" Duration="0" CalcType="-1" CalcValue="-1" Magic="300" />
+	<Skill ID="155" Name="Magma Shaman AOE Attack" Type="20" Rate="100" Duration="0" CalcType="-1" CalcValue="-1" Magic="300" />
+	<Skill ID="156" Name="Magma Shaman Mana Reduction" Type="3" Rate="100" Duration="0" CalcType="12" CalcValue="200" Magic="300" />
+	<Skill ID="157" Name="Bloody Tantalos AOE Attack" Type="20" Rate="100" Duration="0" CalcType="-1" CalcValue="-1" Magic="300" />
+	<Skill ID="158" Name="Bloody Tantalos Mana Reduction" Type="3" Rate="100" Duration="0" CalcType="12" CalcValue="250" Magic="300" />
+	<Skill ID="159" Name="Bloody Tantalos AG Reduction" Type="4" Rate="100" Duration="0" CalcType="12" CalcValue="10" Magic="300" />
+	<Skill ID="160" Name="Eunice Normal Attack" Type="20" Rate="100" Duration="0" CalcType="-1" CalcValue="-1" Magic="300" />
+	<Skill ID="161" Name="Eunice Twister" Type="20" Rate="100" Duration="0" CalcType="-1" CalcValue="-1" Magic="300" />
+	<Skill ID="162" Name="Eunice Rush" Type="43" Rate="100" Duration="0" CalcType="-1" CalcValue="-1" Magic="300" />
+	<Skill ID="163" Name="Eunice AOE Attack" Type="20" Rate="100" Duration="0" CalcType="-1" CalcValue="-1" Magic="300" />
+	<Skill ID="164" Name="Eunice Anger Blow Attack" Type="20" Rate="100" Duration="0" CalcType="-1" CalcValue="-1" Magic="300" />
+	<Skill ID="165" Name="Eunice - Giant Normal Attack" Type="20" Rate="100" Duration="0" CalcType="-1" CalcValue="-1" Magic="300" />
+	<Skill ID="166" Name="Eunice - Giant Aqua Beam" Type="20" Rate="100" Duration="0" CalcType="-1" CalcValue="-1" Magic="300" />
+	<Skill ID="167" Name="Storm Fiend AOE Attack" Type="20" Rate="100" Duration="0" CalcType="-1" CalcValue="-1" Magic="300" />
+	<Skill ID="168" Name="Storm Fiend Stun" Type="0" Rate="3" Duration="3" CalcType="-1" CalcValue="-1" Magic="-1" />
+	<Skill ID="169" Name="Twisted Condra AOE Attack" Type="20" Rate="100" Duration="0" CalcType="-1" CalcValue="-1" Magic="300" />
+	<Skill ID="170" Name="Twisted Condra Mana Reduction" Type="3" Rate="100" Duration="0" CalcType="12" CalcValue="350" Magic="300" />
+	<Skill ID="171" Name="Twisted Condra AG Reduction" Type="4" Rate="100" Duration="0" CalcType="12" CalcValue="20" Magic="300" />
+</SkillSpecialElement>

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==          File Name: CharacterSpecialization            ==
+// ============================================================
+-->
+<!-- 
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// information about the classes
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Class (0) -> DW 
+// Class (1) -> DK
+// Class (2) -> FE
+// Class (3) -> MG
+// Class (4) -> DL
+// Class (5) -> SU
+// Class (6) -> RF
+// Class (7) -> GL
+// Class (8) -> RW
+// Class (9) -> SL
+// Class (10)-> GC
+// Class (11)-> LW
+// Class (12)-> LM
+// Class (13)-> IK
+// Class (14)-> Alc
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// information about the Stat
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Stat:
+// CHARACTER_SPECIALIZATION_ATTACK_DAMAGE_MIN			= 0		(Spl Atk Pwr Min)
+// CHARACTER_SPECIALIZATION_ATTACK_DAMAGE_MAX		 	= 1		(Spl Atk Pwr Max)
+// CHARACTER_SPECIALIZATION_ATTACK_SUCCESS_RATE 		= 2		(Spl Atk Suc Rate PvM)
+// CHARACTER_SPECIALIZATION_ATTACK_SUCCESS_RATE_PVP		= 3		(Spl Atk Suc Rate PvP)
+// CHARACTER_SPECIALIZATION_DEFENSE		 				= 4		(Spl Def)
+// CHARACTER_SPECIALIZATION_DEFENSE_SUCCESS_RATE 		= 5		(Spl Def Rate PvM)
+// CHARACTER_SPECIALIZATION_DEFENSE_SUCCESS_RATE_PVP 	= 6		(Spl Def Rate PvP)
+// CHARACTER_SPECIALIZATION_MAGIC_DAMAGE_MIN			= 7		(Spl Wiz Dmg Min)	 
+// CHARACTER_SPECIALIZATION_MAGIC_DAMAGE_MAX			= 8		(Spl Wiz Dmg Max)	 
+// CHARACTER_SPECIALIZATION_CURSE_DAMAGE_MIN			= 9		(Spl Curse Dmg Min)
+// CHARACTER_SPECIALIZATION_CURSE_DAMAGE_MAX			= 10	(Spl Curse Dmg Max)
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Information about the ReqStat ( Client StatOption.bmd ID)
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// ReqStat:
+// STATS_SPECIALIZE_BONIFICACION_STRENGTH   = 0
+// STATS_SPECIALIZE_BONIFICACION_DEXTERITY  = 1
+// STATS_SPECIALIZE_BONIFICACION_VITALITY   = 2
+// STATS_SPECIALIZE_BONIFICACION_ENERGY     = 3	
+// STATS_SPECIALIZE_BONIFICACION_LEADERSHIP = 4
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-->
+<CharacterSpecialization>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- 
+	Dark Wizard:
+	Stat							ReqStat					
+	# 7-(Spl Wiz Dmg Min)			3-ENERGY 		
+	# 8-(Spl Wiz Dmg Max)           3-ENERGY 		
+	# 2-(Spl Atk Suc Rate PvM)      1-DEXTERITY 	
+	# 3-(Spl Atk Suc Rate PvP)      1-DEXTERITY 	
+	-->
+	<Option Class="0" Stat="7" ReqStat="3" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="0" Stat="7" ReqStat="3" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="0" Stat="7" ReqStat="3" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="0" Stat="8" ReqStat="3" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="0" Stat="8" ReqStat="3" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="0" Stat="8" ReqStat="3" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="0" Stat="2" ReqStat="1" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="0" Stat="2" ReqStat="1" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="0" Stat="2" ReqStat="1" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="0" Stat="3" ReqStat="1" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="0" Stat="3" ReqStat="1" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="0" Stat="3" ReqStat="1" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- 
+	Dark Knight:
+	Stat							ReqStat					
+	# 0-(Spl Atk Pwr Min)			0-STRENGTH 		
+	# 1-(Spl Atk Pwr Max)           0-STRENGTH 		
+	# 4-(Spl Def)   	   			1-DEXTERITY 	
+	-->
+	<Option Class="1" Stat="0" ReqStat="0" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="1" Stat="0" ReqStat="0" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="1" Stat="0" ReqStat="0" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="1" Stat="1" ReqStat="0" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="1" Stat="1" ReqStat="0" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="1" Stat="1" ReqStat="0" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="1" Stat="4" ReqStat="1" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="1" Stat="4" ReqStat="1" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="1" Stat="4" ReqStat="1" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- 
+	Fairy Elf:
+	Stat							ReqStat					
+	# 0-(Spl Atk Pwr Min)			1-DEXTERITY 		
+	# 1-(Spl Atk Pwr Max)           1-DEXTERITY 		
+	# 5-(Spl Def Rate PvM)      	1-DEXTERITY 	
+	# 6-(Spl Def Rate PvP)      	1-DEXTERITY 	
+	-->
+	<Option Class="2" Stat="0" ReqStat="1" ReqStatMin="1" ReqStatMax="1800" PercentMin="10" PercentMax="30" ReqStatLimit="1800" />
+	<Option Class="2" Stat="0" ReqStat="1" ReqStatMin="1801" ReqStatMax="2100" PercentMin="10" PercentMax="30" ReqStatLimit="2100" />
+	<Option Class="2" Stat="0" ReqStat="1" ReqStatMin="2101" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="2" Stat="1" ReqStat="1" ReqStatMin="1" ReqStatMax="1800" PercentMin="0" PercentMax="10" ReqStatLimit="1800" />
+	<Option Class="2" Stat="1" ReqStat="1" ReqStatMin="1801" ReqStatMax="2100" PercentMin="10" PercentMax="30" ReqStatLimit="2100" />
+	<Option Class="2" Stat="1" ReqStat="1" ReqStatMin="2101" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="2" Stat="5" ReqStat="1" ReqStatMin="1" ReqStatMax="1800" PercentMin="0" PercentMax="10" ReqStatLimit="1800" />
+	<Option Class="2" Stat="5" ReqStat="1" ReqStatMin="1801" ReqStatMax="2100" PercentMin="10" PercentMax="30" ReqStatLimit="2100" />
+	<Option Class="2" Stat="5" ReqStat="1" ReqStatMin="2101" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="2" Stat="6" ReqStat="1" ReqStatMin="1" ReqStatMax="1800" PercentMin="0" PercentMax="10" ReqStatLimit="1800" />
+	<Option Class="2" Stat="6" ReqStat="1" ReqStatMin="1801" ReqStatMax="2100" PercentMin="10" PercentMax="30" ReqStatLimit="2100" />
+	<Option Class="2" Stat="6" ReqStat="1" ReqStatMin="2101" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- 
+	Magic Gladiator:
+	Stat							ReqStat					
+	# 0-(Spl Atk Pwr Min)			0-STRENGTH 		
+	# 1-(Spl Atk Pwr Max)           0-STRENGTH 		
+	# 7-(Spl Wiz Dmg Min)      		3-ENERGY 	
+	# 8-(Spl Wiz Dmg Max)      		3-ENERGY 	
+	-->
+	<Option Class="3" Stat="0" ReqStat="0" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="3" Stat="0" ReqStat="0" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="3" Stat="0" ReqStat="0" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="3" Stat="1" ReqStat="0" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="3" Stat="1" ReqStat="0" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="3" Stat="1" ReqStat="0" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="3" Stat="7" ReqStat="3" ReqStatMin="1" ReqStatMax="1800" PercentMin="0" PercentMax="10" ReqStatLimit="1800" />
+	<Option Class="3" Stat="7" ReqStat="3" ReqStatMin="1801" ReqStatMax="2500" PercentMin="10" PercentMax="30" ReqStatLimit="2500" />
+	<Option Class="3" Stat="7" ReqStat="3" ReqStatMin="2501" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="3" Stat="8" ReqStat="3" ReqStatMin="1" ReqStatMax="1800" PercentMin="0" PercentMax="10" ReqStatLimit="1800" />
+	<Option Class="3" Stat="8" ReqStat="3" ReqStatMin="1801" ReqStatMax="2500" PercentMin="10" PercentMax="30" ReqStatLimit="2500" />
+	<Option Class="3" Stat="8" ReqStat="3" ReqStatMin="2501" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- 
+	Dark Lord:
+	Stat							ReqStat					
+	# 0-(Spl Atk Pwr Min)			0-STRENGTH 		
+	# 1-(Spl Atk Pwr Max)           0-STRENGTH 		
+	# 4-(Spl Def)   	   			1-DEXTERITY 	
+	-->
+	<Option Class="4" Stat="0" ReqStat="0" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="4" Stat="0" ReqStat="0" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="4" Stat="0" ReqStat="0" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="4" Stat="1" ReqStat="0" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="4" Stat="1" ReqStat="0" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="4" Stat="1" ReqStat="0" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="4" Stat="4" ReqStat="1" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="4" Stat="4" ReqStat="1" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="4" Stat="4" ReqStat="1" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- 
+	Summoner:
+	Stat							ReqStat					
+	#  7-(Spl Wiz Dmg Min)     		3-ENERGY 	
+	#  8-(Spl Wiz Dmg Max)     		3-ENERGY 	
+	#  9-(Spl Curse Dmg Min)   		3-ENERGY 	
+	# 10-(Spl Curse Dmg Max)   		3-ENERGY 	
+	-->
+	<Option Class="5" Stat="7" ReqStat="3" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="5" Stat="7" ReqStat="3" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="5" Stat="7" ReqStat="3" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="5" Stat="8" ReqStat="3" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="5" Stat="8" ReqStat="3" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="5" Stat="8" ReqStat="3" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="5" Stat="9" ReqStat="3" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="5" Stat="9" ReqStat="3" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="5" Stat="9" ReqStat="3" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="5" Stat="10" ReqStat="3" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="5" Stat="10" ReqStat="3" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="5" Stat="10" ReqStat="3" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- 
+	Rage Fighter:
+	Stat							ReqStat					
+	# 0-(Spl Atk Pwr Min)			0-STRENGTH 		
+	# 1-(Spl Atk Pwr Max)           0-STRENGTH 		
+	-->
+	<Option Class="6" Stat="0" ReqStat="0" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="6" Stat="0" ReqStat="0" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="6" Stat="0" ReqStat="0" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="6" Stat="1" ReqStat="0" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="6" Stat="1" ReqStat="0" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="6" Stat="1" ReqStat="0" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- 
+	Grow Lancer:
+	Stat							ReqStat					
+	# 0-(Spl Atk Pwr Min)			0-STRENGTH 		
+	# 1-(Spl Atk Pwr Max)           0-STRENGTH 		
+	# 4-(Spl Def)   	   			1-DEXTERITY 	
+	-->
+	<Option Class="7" Stat="0" ReqStat="0" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="7" Stat="0" ReqStat="0" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="7" Stat="0" ReqStat="0" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="7" Stat="1" ReqStat="0" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="7" Stat="1" ReqStat="0" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="7" Stat="1" ReqStat="0" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="7" Stat="4" ReqStat="1" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="7" Stat="4" ReqStat="1" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="7" Stat="4" ReqStat="1" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- 
+	Rune Wizard:
+	Stat							ReqStat					
+	# 7-(Spl Wiz Dmg Min)			3-ENERGY 		
+	# 8-(Spl Wiz Dmg Max)           3-ENERGY 		
+	# 2-(Spl Atk Suc Rate PvM)      1-DEXTERITY 	
+	# 3-(Spl Atk Suc Rate PvP)      1-DEXTERITY 	
+	-->
+	<Option Class="8" Stat="7" ReqStat="3" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="8" Stat="7" ReqStat="3" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="8" Stat="7" ReqStat="3" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="8" Stat="8" ReqStat="3" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="8" Stat="8" ReqStat="3" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="8" Stat="8" ReqStat="3" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="8" Stat="2" ReqStat="1" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="8" Stat="2" ReqStat="1" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="8" Stat="2" ReqStat="1" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="8" Stat="3" ReqStat="1" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="8" Stat="3" ReqStat="1" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="8" Stat="3" ReqStat="1" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- 
+	Slayer:
+	Stat							ReqStat					
+	# 0-(Spl Atk Pwr Min)			1-DEXTERITY 		
+	# 1-(Spl Atk Pwr Max)           1-DEXTERITY 		
+	# 5-(Spl Def Rate PvM)      	1-DEXTERITY 	
+	-->
+	<Option Class="9" Stat="0" ReqStat="0" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="9" Stat="0" ReqStat="0" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="9" Stat="0" ReqStat="0" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="9" Stat="1" ReqStat="0" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="9" Stat="1" ReqStat="0" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="9" Stat="1" ReqStat="0" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="9" Stat="5" ReqStat="1" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="9" Stat="5" ReqStat="1" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="9" Stat="5" ReqStat="1" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- 
+	Gun Crusher:
+	Stat							ReqStat					
+	# 7-(Spl Wiz Dmg Min)			3-ENERGY 		
+	# 8-(Spl Wiz Dmg Max)           3-ENERGY 		
+	# 2-(Spl Atk Suc Rate PvM)      1-DEXTERITY 	
+	# 3-(Spl Atk Suc Rate PvP)      1-DEXTERITY 	
+	-->
+	<Option Class="10" Stat="7" ReqStat="3" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="10" Stat="7" ReqStat="3" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="10" Stat="7" ReqStat="3" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="10" Stat="8" ReqStat="3" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="10" Stat="8" ReqStat="3" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="10" Stat="8" ReqStat="3" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="10" Stat="2" ReqStat="1" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="10" Stat="2" ReqStat="1" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="10" Stat="2" ReqStat="1" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="10" Stat="3" ReqStat="1" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="10" Stat="3" ReqStat="1" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="10" Stat="3" ReqStat="1" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- 
+	Light Wizard:
+	Stat							ReqStat					
+	# 7-(Spl Wiz Dmg Min)			3-ENERGY 		
+	# 8-(Spl Wiz Dmg Max)           3-ENERGY 		
+	# 2-(Spl Atk Suc Rate PvM)      1-DEXTERITY 	
+	# 3-(Spl Atk Suc Rate PvP)      1-DEXTERITY 	
+	-->
+	<Option Class="11" Stat="7" ReqStat="3" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="11" Stat="7" ReqStat="3" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="11" Stat="7" ReqStat="3" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="11" Stat="8" ReqStat="3" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="11" Stat="8" ReqStat="3" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="11" Stat="8" ReqStat="3" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="11" Stat="2" ReqStat="1" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="11" Stat="2" ReqStat="1" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="11" Stat="2" ReqStat="1" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="11" Stat="3" ReqStat="1" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="11" Stat="3" ReqStat="1" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="11" Stat="3" ReqStat="1" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- 
+	Lemuria Mage:
+	Stat							ReqStat					
+	# 7-(Spl Wiz Dmg Min)			3-ENERGY 		
+	# 8-(Spl Wiz Dmg Max)           3-ENERGY 		
+	# 5-(Spl Def Rate PvM)      	1-DEXTERITY 	
+	# 6-(Spl Def Rate PvP)      	1-DEXTERITY 	
+	-->	
+	<Option Class="12" Stat="7" ReqStat="3" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="12" Stat="7" ReqStat="3" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="12" Stat="7" ReqStat="3" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="12" Stat="8" ReqStat="3" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="12" Stat="8" ReqStat="3" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="12" Stat="8" ReqStat="3" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="12" Stat="5" ReqStat="1" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="12" Stat="5" ReqStat="1" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="12" Stat="5" ReqStat="1" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="12" Stat="6" ReqStat="1" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="12" Stat="6" ReqStat="1" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="12" Stat="6" ReqStat="1" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- 
+	Illusion Knight:
+	Stat							ReqStat					
+	# 0-(Spl Atk Pwr Min)			1-DEXTERITY 		
+	# 1-(Spl Atk Pwr Max)           1-DEXTERITY 		
+	# 4-(Spl Def)      			    1-DEXTERITY 	
+	-->
+	<Option Class="13" Stat="0" ReqStat="1" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="13" Stat="0" ReqStat="1" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="13" Stat="0" ReqStat="1" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="13" Stat="1" ReqStat="1" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="13" Stat="1" ReqStat="1" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="13" Stat="1" ReqStat="1" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="13" Stat="4" ReqStat="1" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="13" Stat="4" ReqStat="1" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="13" Stat="4" ReqStat="1" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- 
+	Alchemist:
+	Stat							ReqStat					
+	# 7-(Spl Wiz Dmg Min)			3-ENERGY 		
+	# 8-(Spl Wiz Dmg Max)           3-ENERGY 		
+	# 5-(Spl Def Rate PvM)      	1-DEXTERITY 	
+	# 6-(Spl Def Rate PvP)      	1-DEXTERITY 	
+	-->	
+	<Option Class="14" Stat="7" ReqStat="3" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="14" Stat="7" ReqStat="3" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="14" Stat="7" ReqStat="3" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="14" Stat="8" ReqStat="3" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="14" Stat="8" ReqStat="3" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="14" Stat="8" ReqStat="3" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="14" Stat="5" ReqStat="1" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="14" Stat="5" ReqStat="1" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="14" Stat="5" ReqStat="1" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="14" Stat="6" ReqStat="1" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="14" Stat="6" ReqStat="1" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="14" Stat="6" ReqStat="1" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+</CharacterSpecialization>

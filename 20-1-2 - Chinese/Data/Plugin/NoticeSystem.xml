@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==                File Name: NoticeSystem                 ==
+// ============================================================
+-->
+
+<NoticeSystem Enabled="1"> 
+<PvPNotice Enable="1" />
+	<Tags>
+		<Tag ID="0" Text="" /> <!-- Normal item -->
+		<Tag ID="1" Text="卓越" />
+		<Tag ID="2" Text="套装" />
+	</Tags>
+	
+	<Messages>
+		<Msg ID="0" Text="[%s] 在 %s 获得了 %s [%s]" /> <!-- PlayerName, MapName, Tag, ItemName -->
+		<Msg ID="1" Text="[%s] 击杀了 [%s] 在 %s (%d,%d)" /> <!-- KillerName, VictimName, MapName, X, Y -->
+		<Msg ID="2" Text="%s 已经降临在了 %s (%d,%d)" /> <!-- MonsterName, MapName, X, Y -->
+	</Messages>
+	
+	<ItemGetNotice Enabled="1">
+		<Item Cat="1" Index="0" Level="0" IsExc="0" IsSet="0" />
+		<Item Cat="12" Index="15" Level="0" IsExc="0" IsSet="0" />
+		<Item Cat="13" Index="14" Level="0" IsExc="0" IsSet="0" />
+		<Item Cat="13" Index="466" Level="0" IsExc="0" IsSet="0" />
+		<Item Cat="13" Index="467" Level="0" IsExc="0" IsSet="0" />
+		<Item Cat="14" Index="13" Level="0" IsExc="0" IsSet="0" />
+		<Item Cat="14" Index="14" Level="0" IsExc="0" IsSet="0" />
+		<Item Cat="14" Index="16" Level="0" IsExc="0" IsSet="0" />
+		<Item Cat="14" Index="22" Level="0" IsExc="0" IsSet="0" />
+		<Item Cat="14" Index="42" Level="0" IsExc="0" IsSet="0" />
+		<Item Cat="20" Index="500" Level="0" IsExc="0" IsSet="0" />
+		<Item Cat="20" Index="501" Level="0" IsExc="0" IsSet="0" />
+		<Item Cat="20" Index="502" Level="0" IsExc="0" IsSet="0" />
+		<Item Cat="20" Index="503" Level="0" IsExc="0" IsSet="0" />
+		<Item Cat="20" Index="504" Level="0" IsExc="0" IsSet="0" />
+		<Item Cat="20" Index="505" Level="0" IsExc="0" IsSet="0" />
+		<Item Cat="20" Index="506" Level="0" IsExc="0" IsSet="0" />
+		<Item Cat="20" Index="507" Level="0" IsExc="0" IsSet="0" />
+		<Item Cat="20" Index="508" Level="0" IsExc="0" IsSet="0" />
+	</ItemGetNotice>
+	
+	<MossMerchant Enabled="1">
+		<Item Cat="0" Index="19" IsExc="1" IsSet="1" />
+		<Item Cat="0" Index="60" IsExc="1" IsSet="1" />
+		<Item Cat="0" Index="76" IsExc="1" IsSet="1" />
+		<Item Cat="2" Index="13" IsExc="1" IsSet="1" />
+		<Item Cat="2" Index="34" IsExc="1" IsSet="1" />
+		<Item Cat="3" Index="26" IsExc="1" IsSet="1" />
+		<Item Cat="4" Index="18" IsExc="1" IsSet="1" />
+		<Item Cat="4" Index="46" IsExc="1" IsSet="1" />
+		<Item Cat="5" Index="10" IsExc="1" IsSet="1" />
+		<Item Cat="5" Index="36" IsExc="1" IsSet="1" />
+		<Item Cat="12" Index="457" IsExc="1" IsSet="1" />
+		<Item Cat="12" Index="449" IsExc="1" IsSet="1" />
+		<Item Cat="14" Index="477" IsExc="1" IsSet="1" />
+	</MossMerchant>
+
+	<MonsterKillNotice Enabled="1">
+		<Monster ID="0" MapNum="-1" /> <!-- 黄金火龙王 -->
+		<Monster ID="79" MapNum="-1" /> <!-- 黄金火龙王 -->
+		<Monster ID="80" MapNum="-1" /> <!-- 黄金巫师王 -->
+		<Monster ID="81" MapNum="-1" /> <!-- 黄金美人鱼 -->
+		<Monster ID="82" MapNum="-1" /> <!-- 黄金破坏骑士 -->
+		<Monster ID="83" MapNum="-1" /> <!-- 黄金铁轮战士 -->
+		<Monster ID="493" MapNum="-1" /> <!-- 黄金暗黑骑士 -->
+		<Monster ID="494" MapNum="-1" /> <!-- 黄金恶魔 -->
+		<Monster ID="495" MapNum="-1" /> <!-- 黄金石巨人 -->
+		<Monster ID="496" MapNum="-1" /> <!-- 黄金恶灵 -->
+		<Monster ID="497" MapNum="-1" /> <!-- 黄金半兽人 -->
+		<Monster ID="498" MapNum="-1" /> <!-- 黄金独步妖 -->
+		<Monster ID="499" MapNum="-1" /> <!-- 黄金铁轮战士 -->
+		<Monster ID="500" MapNum="-1" /> <!-- 黄金巨人 -->
+		<Monster ID="501" MapNum="-1" /> <!-- 黄金巨龙 -->
+		<Monster ID="654" MapNum="-1" /> <!-- 黄金破坏骑士 -->
+		<Monster ID="655" MapNum="-1" /> <!-- 黄金炼狱魔王 -->
+		<Monster ID="656" MapNum="-1" /> <!-- 黄金丛林召唤者 -->
+		<Monster ID="657" MapNum="-1" /> <!-- 黄金昆顿 -->
+
+		<Monster ID="275" MapNum="-1" /> <!-- 魔王昆顿 -->
+		<Monster ID="459" MapNum="-1" /> <!-- 冰霜巨蛛 -->
+		<Monster ID="561" MapNum="-1" /> <!-- 美杜莎 -->
+		<Monster ID="673" MapNum="-1" /> <!-- 辛维斯特 -->
+		<Monster ID="716" MapNum="-1" /> <!-- 马格里姆 -->
+		<Monster ID="734" MapNum="-1" /> <!-- 菲利亚君主 -->
+		<Monster ID="746" MapNum="-1" /> <!-- 尼克西斯 -->
+		<Monster ID="794" MapNum="-1" /> <!-- 暗黑之神 -->
+
+		<Monster ID="919" MapNum="-1" /> <!-- 幻影昆顿 -->
+		<Monster ID="921" MapNum="-1" /> <!-- 幻影美杜莎 -->
+		<Monster ID="922" MapNum="-1" /> <!-- 幻影冰霜巨蛛 -->
+		<Monster ID="923" MapNum="-1" /> <!-- 幻影尼克斯 -->
+		<Monster ID="924" MapNum="-1" /> <!-- 幻影暗黑之神 -->
+	</MonsterKillNotice>
+	
+	<MonsterSpawnNotice Enabled="1">
+		<Monster ID="79" MapNum="6" />    <!-- 古战场-黄金火龙王 -->
+		<Monster ID="80" MapNum="6" />    <!-- 古战场-黄金巫师王 -->
+		<Monster ID="81" MapNum="6" />    <!-- 古战场-黄金美人鱼 -->
+		<Monster ID="82" MapNum="6" />    <!-- 古战场-黄金破坏骑士 -->
+		<Monster ID="83" MapNum="6" />    <!-- 古战场-黄金铁轮战士 -->
+		<Monster ID="493" MapNum="6" />   <!-- 古战场-黄金暗黑骑士 -->
+		<Monster ID="494" MapNum="6" />   <!-- 古战场-黄金恶魔 -->
+		<Monster ID="495" MapNum="6" />   <!-- 古战场-黄金石巨人 -->
+		<Monster ID="496" MapNum="6" />   <!-- 古战场-黄金恶灵 -->
+		<Monster ID="497" MapNum="6" />   <!-- 古战场-黄金半兽人 -->
+		<Monster ID="498" MapNum="6" />   <!-- 古战场-黄金独步妖 -->
+		<Monster ID="499" MapNum="6" />   <!-- 古战场-黄金铁轮战士 -->
+		<Monster ID="500" MapNum="6" />   <!-- 古战场-黄金巨人 -->
+		<Monster ID="501" MapNum="6" />   <!-- 古战场-黄金巨龙 -->
+		<Monster ID="654" MapNum="6" />   <!-- 古战场-黄金破坏骑士 -->
+		<Monster ID="655" MapNum="6" />   <!-- 古战场-黄金炼狱魔王 -->
+		<Monster ID="656" MapNum="6" />   <!-- 古战场-黄金丛林召唤者 -->
+		<Monster ID="657" MapNum="6" />   <!-- 古战场-黄金昆顿 -->
+		<Monster ID="275" MapNum="6" />   <!-- 古战场-魔王昆顿 -->
+		<Monster ID="275" MapNum="36" />  <!-- 卡利玛7-魔王昆顿 -->
+		<Monster ID="459" MapNum="58" />  <!-- 孵化魔地-冰霜巨蛛 -->
+		<Monster ID="561" MapNum="6" />   <!-- 古战场-美杜莎 -->
+		<Monster ID="561" MapNum="57" />  <!-- 安宁池-美杜莎 -->		
+		<Monster ID="673" MapNum="6" />   <!-- 古战场-辛维斯特 -->
+		<Monster ID="673" MapNum="101" /> <!-- 乌克尔山-辛维斯特 -->		
+		<Monster ID="716" MapNum="110" /> <!-- 纳尔斯-马格里姆 -->
+		<Monster ID="735" MapNum="112" /> <!-- 菲利亚-水晶球 -->		
+		<Monster ID="746" MapNum="113" /> <!-- 尼克西斯之湖-尼克斯 -->
+		<Monster ID="794" MapNum="122" /> <!-- 黑暗之沼泽-暗黑之神 -->
+	</MonsterSpawnNotice>
+</NoticeSystem>

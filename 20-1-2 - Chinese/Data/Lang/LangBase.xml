@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==                 File Name: LangBase                    ==
+// ============================================================
+-->
+
+<LanguageSystem DefaultLang="0">
+	<Lang ID="0" FileName="English.xml"  />
+	<Lang ID="1" FileName="Spanish.xml" />
+	<Lang ID="2" FileName="Portuguese.xml" />
+	<Lang ID="3" FileName="Korean.xml" />
+	<Lang ID="4" FileName="Chinese.xml" />
+	<Lang ID="5" FileName="Vietnamese.xml" />
+	<Lang ID="6" FileName="Russian.xml" />
+</LanguageSystem>

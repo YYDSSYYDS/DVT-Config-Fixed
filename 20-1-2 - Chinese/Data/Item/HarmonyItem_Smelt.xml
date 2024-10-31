@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==                File Name: HarmonyItem_Smelt            ==
+// ============================================================
+-->
+
+<HarmonySystem>
+	<Section ID="0" Name="剑/刃">
+		<Item Index="0" ReqLevel="4" Name="波刃剑"/>
+		<Item Index="1" ReqLevel="4" Name="短剑"/>
+		<Item Index="2" ReqLevel="4" Name="西洋剑"/>
+		<Item Index="4" ReqLevel="4" Name="暗杀者"/>
+	</Section>
+	<Section ID="1" Name="斧">
+		<Item Index="0" ReqLevel="4" Name="短斧"/>
+		<Item Index="1" ReqLevel="4" Name="手斧"/>
+		<Item Index="2" ReqLevel="4" Name="双刃斧"/>
+	</Section>
+	<Section ID="2" Name="槌/杖/魔棒">
+		<Item Index="0" ReqLevel="4" Name="石槌"/>
+		<Item Index="1" ReqLevel="4" Name="流星槌"/>
+		<Item Index="2" ReqLevel="4" Name="破坏之槌"/>
+	</Section>
+	<Section ID="3" Name="镰刀/长矛">
+		<Item Index="1" ReqLevel="4" Name="鹤嘴矛"/>
+		<Item Index="2" ReqLevel="4" Name="战矛"/>
+		<Item Index="3" ReqLevel="4" Name="双鹤矛"/>
+		<Item Index="5" ReqLevel="4" Name="双刃矛"/>
+		<Item Index="6" ReqLevel="4" Name="斧刃矛"/>
+	</Section>
+	<Section ID="4" Name="弓/弩/魔法枪">
+		<Item Index="0" ReqLevel="4" Name="短弓"/>
+		<Item Index="1" ReqLevel="4" Name="长弓"/>
+		<Item Index="2" ReqLevel="4" Name="精灵之弓"/>
+		<Item Index="3" ReqLevel="4" Name="巴特之弓"/>
+		<Item Index="8" ReqLevel="4" Name="石弩"/>
+		<Item Index="9" ReqLevel="4" Name="黄金石弩"/>
+		<Item Index="10" ReqLevel="4" Name="火神弩"/>
+		<Item Index="11" ReqLevel="4" Name="巨人弩"/>
+	</Section>
+	<Section ID="5" Name="法杖/魔杖/书">
+		<Item Index="0" ReqLevel="4" Name="骷髅杖"/>
+		<Item Index="1" ReqLevel="4" Name="天使杖"/>
+		<Item Index="2" ReqLevel="4" Name="毒蛇杖"/>
+	</Section>
+	<Section ID="6" Name="盾牌">
+		<Item Index="0" ReqLevel="4" Name="圆盾"/>
+		<Item Index="1" ReqLevel="4" Name="战士之盾"/>
+		<Item Index="2" ReqLevel="4" Name="风之盾"/>
+		<Item Index="3" ReqLevel="4" Name="魔法之盾"/>
+		<Item Index="4" ReqLevel="4" Name="钢铁之盾"/>
+		<Item Index="6" ReqLevel="4" Name="骷髅之盾"/>
+		<Item Index="7" ReqLevel="4" Name="尖刺之盾"/>
+		<Item Index="9" ReqLevel="4" Name="远古之盾"/>
+		<Item Index="10" ReqLevel="4" Name="自由之盾"/>
+	</Section>
+	<Section ID="7" Name="头盔">
+		<Item Index="0" ReqLevel="4" Name="青铜盔"/>
+		<Item Index="2" ReqLevel="4" Name="革盔"/>
+		<Item Index="4" ReqLevel="4" Name="骷髅头盔"/>
+		<Item Index="5" ReqLevel="4" Name="皮盔"/>
+		<Item Index="6" ReqLevel="4" Name="翡翠盔"/>
+		<Item Index="7" ReqLevel="4" Name="魔王之盔"/>
+		<Item Index="8" ReqLevel="4" Name="黄金盔"/>
+		<Item Index="10" ReqLevel="4" Name="藤盔"/>
+		<Item Index="11" ReqLevel="4" Name="天蚕之盔"/>
+		<Item Index="12" ReqLevel="4" Name="风之盔"/>
+	</Section>
+	<Section ID="8" Name="铠甲">
+		<Item Index="0" ReqLevel="4" Name="青铜铠"/>
+		<Item Index="2" ReqLevel="4" Name="革铠"/>
+		<Item Index="4" ReqLevel="4" Name="骷髅铠"/>
+		<Item Index="5" ReqLevel="4" Name="皮铠"/>
+		<Item Index="6" ReqLevel="4" Name="翡翠铠"/>
+		<Item Index="7" ReqLevel="4" Name="魔王之铠"/>
+		<Item Index="8" ReqLevel="4" Name="黄金铠"/>
+		<Item Index="10" ReqLevel="4" Name="藤铠"/>
+		<Item Index="11" ReqLevel="4" Name="天蚕之铠"/>
+		<Item Index="12" ReqLevel="4" Name="风之铠"/>
+	</Section>
+	<Section ID="9" Name="护腿">
+		<Item Index="0" ReqLevel="4" Name="青铜护腿"/>
+		<Item Index="2" ReqLevel="4" Name="革护腿"/>
+		<Item Index="4" ReqLevel="4" Name="骷髅护腿"/>
+		<Item Index="5" ReqLevel="4" Name="皮护腿"/>
+		<Item Index="6" ReqLevel="4" Name="翡翠护腿"/>
+		<Item Index="7" ReqLevel="4" Name="魔王之护腿"/>
+		<Item Index="8" ReqLevel="4" Name="黄金护腿"/>
+		<Item Index="10" ReqLevel="4" Name="藤护腿"/>
+		<Item Index="11" ReqLevel="4" Name="天蚕之护腿"/>
+		<Item Index="12" ReqLevel="4" Name="风之护腿"/>
+	</Section>
+	<Section ID="10" Name="护手">
+		<Item Index="0" ReqLevel="4" Name="青铜护手"/>
+		<Item Index="2" ReqLevel="4" Name="革护手"/>
+		<Item Index="4" ReqLevel="4" Name="骷髅护手"/>
+		<Item Index="5" ReqLevel="4" Name="皮护手"/>
+		<Item Index="6" ReqLevel="4" Name="翡翠护手"/>
+		<Item Index="7" ReqLevel="4" Name="魔王之护手"/>
+		<Item Index="8" ReqLevel="4" Name="黄金护手"/>
+		<Item Index="10" ReqLevel="4" Name="藤护手"/>
+		<Item Index="11" ReqLevel="4" Name="天蚕之护手"/>
+		<Item Index="12" ReqLevel="4" Name="风之护手"/>
+	</Section>
+	<Section ID="11" Name="鞋子">
+		<Item Index="0" ReqLevel="4" Name="青铜靴"/>
+		<Item Index="2" ReqLevel="4" Name="革靴"/>
+		<Item Index="4" ReqLevel="4" Name="骷髅靴"/>
+		<Item Index="5" ReqLevel="4" Name="皮靴"/>
+		<Item Index="6" ReqLevel="4" Name="翡翠靴"/>
+		<Item Index="7" ReqLevel="4" Name="魔王之靴"/>
+		<Item Index="8" ReqLevel="4" Name="黄金靴"/>
+		<Item Index="10" ReqLevel="4" Name="藤靴"/>
+		<Item Index="11" ReqLevel="4" Name="天蚕之靴"/>
+		<Item Index="12" ReqLevel="4" Name="风之靴"/>
+	</Section>
+</HarmonySystem>

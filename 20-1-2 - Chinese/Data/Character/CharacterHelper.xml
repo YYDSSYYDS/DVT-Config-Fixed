@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==              File Name: CharacterHelper                ==
+// ============================================================
+-->
+<CharacterHelper>
+	<!-- DarkWizard -->
+	<Option Class="0" Stage="1" Duration="200" Cost="20" CostInterval="5" NextStage="2"/>
+	<Option Class="0" Stage="2" Duration="200" Cost="50" CostInterval="5" NextStage="3"/>
+	<Option Class="0" Stage="3" Duration="200" Cost="80" CostInterval="5" NextStage="4"/>
+	<Option Class="0" Stage="4" Duration="200" Cost="100" CostInterval="5" NextStage="5"/>
+	<Option Class="0" Stage="5" Duration="5760" Cost="120" CostInterval="5" NextStage="-1"/>
+	
+	<!-- DarkKnight -->
+	<Option Class="1" Stage="1" Duration="200" Cost="20" CostInterval="5" NextStage="2"/>
+	<Option Class="1" Stage="2" Duration="200" Cost="50" CostInterval="5" NextStage="3"/>
+	<Option Class="1" Stage="3" Duration="200" Cost="80" CostInterval="5" NextStage="4"/>
+	<Option Class="1" Stage="4" Duration="200" Cost="100" CostInterval="5" NextStage="5"/>
+	
+	<!-- FairyElf -->
+	<Option Class="1" Stage="5" Duration="5760" Cost="120" CostInterval="5" NextStage="-1"/>
+	<Option Class="2" Stage="1" Duration="200" Cost="20" CostInterval="5" NextStage="2"/>
+	<Option Class="2" Stage="2" Duration="200" Cost="50" CostInterval="5" NextStage="3"/>
+	<Option Class="2" Stage="3" Duration="200" Cost="80" CostInterval="5" NextStage="4"/>
+	<Option Class="2" Stage="4" Duration="200" Cost="100" CostInterval="5" NextStage="5"/>
+	<Option Class="2" Stage="5" Duration="5760" Cost="120" CostInterval="5" NextStage="-1"/>
+	
+	<!-- MagicGladiator -->
+	<Option Class="3" Stage="1" Duration="200" Cost="20" CostInterval="5" NextStage="2"/>
+	<Option Class="3" Stage="2" Duration="200" Cost="50" CostInterval="5" NextStage="3"/>
+	<Option Class="3" Stage="3" Duration="200" Cost="80" CostInterval="5" NextStage="4"/>
+	<Option Class="3" Stage="4" Duration="200" Cost="100" CostInterval="5" NextStage="5"/>
+	<Option Class="3" Stage="5" Duration="5760" Cost="120" CostInterval="5" NextStage="-1"/>
+	
+	<!-- DarkLord -->
+	<Option Class="4" Stage="1" Duration="200" Cost="20" CostInterval="5" NextStage="2"/>
+	<Option Class="4" Stage="2" Duration="200" Cost="50" CostInterval="5" NextStage="3"/>
+	<Option Class="4" Stage="3" Duration="200" Cost="80" CostInterval="5" NextStage="4"/>
+	<Option Class="4" Stage="4" Duration="200" Cost="100" CostInterval="5" NextStage="5"/>
+	<Option Class="4" Stage="5" Duration="5760" Cost="120" CostInterval="5" NextStage="-1"/>
+	
+	<!-- Summoner -->
+	<Option Class="5" Stage="1" Duration="200" Cost="20" CostInterval="5" NextStage="2"/>
+	<Option Class="5" Stage="2" Duration="200" Cost="50" CostInterval="5" NextStage="3"/>
+	<Option Class="5" Stage="3" Duration="200" Cost="80" CostInterval="5" NextStage="4"/>
+	<Option Class="5" Stage="4" Duration="200" Cost="100" CostInterval="5" NextStage="5"/>
+	<Option Class="5" Stage="5" Duration="5760" Cost="120" CostInterval="5" NextStage="-1"/>
+	
+	<!-- RageFighter -->
+	<Option Class="6" Stage="1" Duration="200" Cost="20" CostInterval="5" NextStage="2"/>
+	<Option Class="6" Stage="2" Duration="200" Cost="50" CostInterval="5" NextStage="3"/>
+	<Option Class="6" Stage="3" Duration="200" Cost="80" CostInterval="5" NextStage="4"/>
+	<Option Class="6" Stage="4" Duration="200" Cost="100" CostInterval="5" NextStage="5"/>
+	<Option Class="6" Stage="5" Duration="5760" Cost="120" CostInterval="5" NextStage="-1"/>
+	
+	<!-- GrowLancer -->
+	<Option Class="7" Stage="1" Duration="200" Cost="20" CostInterval="5" NextStage="2"/>
+	<Option Class="7" Stage="2" Duration="200" Cost="50" CostInterval="5" NextStage="3"/>
+	<Option Class="7" Stage="3" Duration="200" Cost="80" CostInterval="5" NextStage="4"/>
+	<Option Class="7" Stage="4" Duration="200" Cost="100" CostInterval="5" NextStage="5"/>
+	<Option Class="7" Stage="5" Duration="5760" Cost="120" CostInterval="5" NextStage="-1"/>
+	
+	<!-- RuneWizard -->
+	<Option Class="8" Stage="1" Duration="200" Cost="20" CostInterval="5" NextStage="2"/>
+	<Option Class="8" Stage="2" Duration="200" Cost="50" CostInterval="5" NextStage="3"/>
+	<Option Class="8" Stage="3" Duration="200" Cost="80" CostInterval="5" NextStage="4"/>
+	<Option Class="8" Stage="4" Duration="200" Cost="100" CostInterval="5" NextStage="5"/>
+	<Option Class="8" Stage="5" Duration="5760" Cost="120" CostInterval="5" NextStage="-1"/>
+	
+	<!-- Slayer -->
+	<Option Class="9" Stage="1" Duration="200" Cost="20" CostInterval="5" NextStage="2"/>
+	<Option Class="9" Stage="2" Duration="200" Cost="50" CostInterval="5" NextStage="3"/>
+	<Option Class="9" Stage="3" Duration="200" Cost="80" CostInterval="5" NextStage="4"/>
+	<Option Class="9" Stage="4" Duration="200" Cost="100" CostInterval="5" NextStage="5"/>
+	<Option Class="9" Stage="5" Duration="5760" Cost="120" CostInterval="5" NextStage="-1"/>
+	
+	<!-- GunCrusher -->
+	<Option Class="10" Stage="1" Duration="200" Cost="20" CostInterval="5" NextStage="2"/>
+	<Option Class="10" Stage="2" Duration="200" Cost="50" CostInterval="5" NextStage="3"/>
+	<Option Class="10" Stage="3" Duration="200" Cost="80" CostInterval="5" NextStage="4"/>
+	<Option Class="10" Stage="4" Duration="200" Cost="100" CostInterval="5" NextStage="5"/>
+	<Option Class="10" Stage="5" Duration="5760" Cost="120" CostInterval="5" NextStage="-1"/>
+	
+	<!-- LightWizard -->
+	<Option Class="11" Stage="1" Duration="200" Cost="20" CostInterval="5" NextStage="2"/>
+	<Option Class="11" Stage="2" Duration="200" Cost="50" CostInterval="5" NextStage="3"/>
+	<Option Class="11" Stage="3" Duration="200" Cost="80" CostInterval="5" NextStage="4"/>
+	<Option Class="11" Stage="4" Duration="200" Cost="100" CostInterval="5" NextStage="5"/>
+	<Option Class="11" Stage="5" Duration="5760" Cost="120" CostInterval="5" NextStage="-1"/>
+	
+	<!-- LemuriaMage -->
+	<Option Class="12" Stage="1" Duration="200" Cost="20" CostInterval="5" NextStage="2"/>
+	<Option Class="12" Stage="2" Duration="200" Cost="50" CostInterval="5" NextStage="3"/>
+	<Option Class="12" Stage="3" Duration="200" Cost="80" CostInterval="5" NextStage="4"/>
+	<Option Class="12" Stage="4" Duration="200" Cost="100" CostInterval="5" NextStage="5"/>
+	<Option Class="12" Stage="5" Duration="5760" Cost="120" CostInterval="5" NextStage="-1"/>
+	
+	<!-- IllusionKnight -->
+	<Option Class="13" Stage="1" Duration="200" Cost="20" CostInterval="5" NextStage="2"/>
+	<Option Class="13" Stage="2" Duration="200" Cost="50" CostInterval="5" NextStage="3"/>
+	<Option Class="13" Stage="3" Duration="200" Cost="80" CostInterval="5" NextStage="4"/>
+	<Option Class="13" Stage="4" Duration="200" Cost="100" CostInterval="5" NextStage="5"/>
+	<Option Class="13" Stage="5" Duration="5760" Cost="120" CostInterval="5" NextStage="-1"/>
+	
+	<!-- Alchemist -->
+	<Option Class="14" Stage="1" Duration="200" Cost="20" CostInterval="5" NextStage="2"/>
+	<Option Class="14" Stage="2" Duration="200" Cost="50" CostInterval="5" NextStage="3"/>
+	<Option Class="14" Stage="3" Duration="200" Cost="80" CostInterval="5" NextStage="4"/>
+	<Option Class="14" Stage="4" Duration="200" Cost="100" CostInterval="5" NextStage="5"/>
+	<Option Class="14" Stage="5" Duration="5760" Cost="120" CostInterval="5" NextStage="-1"/>
+</CharacterHelper>

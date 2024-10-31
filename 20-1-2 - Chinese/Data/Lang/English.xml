@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==               File Name: SystemMessage                 ==
+// ============================================================
+-->
+
+<SystemMessage>
+	<Data ID="0" Language="0" Text="【血色城堡】大天使武器掉落!" />
+	<Data ID="1" Language="0" Text="【血色城堡】任务失败!" />
+	<Data ID="2" Language="0" Text="【血色城堡】%s 获得了大天使之杖" />
+	<Data ID="3" Language="0" Text="【血色城堡】%s 获得了大天使之剑" />
+	<Data ID="4" Language="0" Text="【血色城堡】%s 获得了大天使之弩" />
+	<Data ID="5" Language="0" Text="【血色城堡】第 %d 层，活动准备时间 %d 秒" />
+	<Data ID="6" Language="0" Text="【血色城堡】第 %d 层，任务已经开始!" />
+	<Data ID="7" Language="0" Text="【血色城堡】怪物清除成功，请攻破血色城门!" />
+	<Data ID="8" Language="0" Text="【血色城堡】Boss 已被清除!!" />
+	<Data ID="9" Language="0" Text="【血色城堡】血色城门已被击毁!" />
+	<Data ID="10" Language="0" Text="【血色城堡】血色城门被 %s 勇士击毁!" />
+	<Data ID="11" Language="0" Text="【血色城堡】水晶灵柩已被激活!" />
+	<Data ID="12" Language="0" Text="【血色城堡】水晶灵柩已被 %s 击碎!" />
+	<Data ID="13" Language="0" Text="【血色城堡】任务已被 %s 勇士完成!" />
+	<Data ID="14" Language="0" Text="【血色城堡】任务完成!" />
+	<Data ID="15" Language="0" Text="%s 击退了 %s 白色魔法师的进攻" />
+	<Data ID="16" Language="0" Text="%s 击退了炼狱魔王部队的进攻" />
+	<Data ID="17" Language="0" Text="%s 勇士击退了白色魔法师的进攻" />
+	<Data ID="18" Language="0" Text="炼狱魔王部队已击退" />
+	<Data ID="19" Language="0" Text="使用刻印之前，请先摧毁石像" />
+	<Data ID="20" Language="0" Text="%s 被 %s 玩家摧毁" />
+	<Data ID="21" Language="0" Text="%s 被 %d 玩家 %s 击杀" />
+	<Data ID="22" Language="0" Text="当前 MvP 分数 : %d" />
+	<Data ID="23" Language="0" Text="巴卡斯司令官被击杀" />
+	<Data ID="24" Language="0" Text="神狼雕像的防护罩消失了." />
+	<Data ID="25" Language="0" Text="神狼雕像当前状态:%d,血量: %d" />
+	<Data ID="26" Language="0" Text="神狼雕像防护罩已生成." />
+	<Data ID="27" Language="0" Text="神狼雕像状态 %d, 血量: %d" />
+	<Data ID="28" Language="0" Text="建立【%d】神狼雕像的连接."/>
+	<Data ID="29" Language="0" Text="建立【%s】神狼护台的连接【%d】"/>
+	<Data ID="30" Language="0" Text="神狼护台【%d】绑定取消."/>
+	<Data ID="31" Language="0" Text="【%d】弓箭手已绑定神狼护台."/>
+	<Data ID="32" Language="0" Text="【%d】弓箭手已绑定神狼护台."/>
+	<Data ID="33" Language="0" Text="弓箭手绑定第【%d】神狼护台."/>
+	<Data ID="34" Language="0" Text="绑定神狼护台【%d】的活动结束了."/>
+	<Data ID="35" Language="0" Text="弓箭手绑定【%d】神狼护台的位置不正确，请再试一次"/>
+	<Data ID="36" Language="0" Text="%s 试图与第 %d 个祭坛签约!"/>
+	<Data ID="37" Language="0" Text="%d 秒钟后开始绑定神狼护台"/>
+	<Data ID="38" Language="0" Text="在绑定神狼护台时请不要移动."/>
+	<Data ID="39" Language="0" Text="因概率较低，激活失败."/>
+	<Data ID="40" Language="0" Text="怪物觉醒成功，请稍等一会，怪物将被召唤"/>
+	<Data ID="41" Language="0" Text="怪物死亡，关闭等级 %d 卡利玛之门"/>
+	<Data ID="42" Language="0" Text="你的卡利玛之门已消失."/>
+	<Data ID="43" Language="0" Text="因长时间未进入，等级 %d 卡利玛之门已消失 "/>
+	<Data ID="44" Language="0" Text="你的卡利玛之门已消失，时间已过."/>
+	<Data ID="45" Language="0" Text="你已经开启了一个卡利玛之门，请不要重复操作."/>
+	<Data ID="46" Language="0" Text="当前区域不适合开启卡利玛之门."/>
+	<Data ID="47" Language="0" Text="无法使用卡利玛之门."/>
+	<Data ID="48" Language="0" Text="卡利玛之门已经出现."/>
+	<Data ID="49" Language="0" Text="你的个人商店已消失."/>
+	<Data ID="50" Language="0" Text="你的个人仓库已消失."/>
+	<Data ID="51" Language="0" Text="您无权执行此操作."/>
+	<Data ID="52" Language="0" Text="您无权执行此操作."/>
+	<Data ID="53" Language="0" Text="决斗中，不能移动"/>
+	<Data ID="54" Language="0" Text="当前角色正在决斗，暂时不能移动"/>
+	<Data ID="55" Language="0" Text="无法传送."/>
+	<Data ID="56" Language="0" Text="错误的游戏界面。请关闭客户端，然后重试"/>
+	<Data ID="57" Language="0" Text="移动前请先关闭个人商店."/>
+	<Data ID="58" Language="0" Text="服务器人数已满."/>
+	<Data ID="59" Language="0" Text="没开启活动线路，不可使用."/>
+	<Data ID="60" Language="0" Text="与 %s 战斗足球已经开始!!"/>
+	<Data ID="61" Language="0" Text="战斗足球活动未开启."/>
+	<Data ID="62" Language="0" Text="你需要加入战盟后才可以开启战斗足球."/>
+	<Data ID="63" Language="0" Text="你的战盟正在作战"/>
+	<Data ID="64" Language="0" Text="你需要成为盟主才可以开启战斗足球."/>
+	<Data ID="65" Language="0" Text="你需要组队才可以开启战斗足球"/>
+	<Data ID="66" Language="0" Text="组队人数太少，无法开启战斗足球."/>
+	<Data ID="67" Language="0" Text="所有玩家必须移动到竞技场，才可以开启战斗足球."/>
+	<Data ID="68" Language="0" Text="找不到战盟: %s."/>
+	<Data ID="69" Language="0" Text="对方战盟正在游玩战斗足球."/>
+	<Data ID="70" Language="0" Text="你不能与相同类型的战盟发起决斗申请." />
+	<Data ID="71" Language="0" Text="对方战盟盟主无效."/>
+	<Data ID="72" Language="0" Text="对方战盟需要组队才可以加入战斗足球."/>
+	<Data ID="73" Language="0" Text="对方战盟需要5个人组队才可以开始战斗足球."/>
+	<Data ID="74" Language="0" Text="所有队伍必须在竞技场地图且必须是同一个战盟."/>
+	<Data ID="75" Language="0" Text="战斗足球的竞技场正在使用."/>
+	<Data ID="76" Language="0" Text="你需要组队后才可以开始战斗足球活动."/>
+	<Data ID="77" Language="0" Text="你需要组队后才可以开始战斗足球活动."/>
+	<Data ID="78" Language="0" Text="对方战盟组队人数不足，无法开始."/>
+	<Data ID="79" Language="0" Text="所有玩家必须在竞技场地图且在同一个战盟."/>
+	<Data ID="80" Language="0" Text="你需要组队才可以加入当前的活动."/>
+	<Data ID="81" Language="0" Text="所有玩家必须在竞技场地图且在同一个战盟."/>
+	<Data ID="82" Language="0" Text="对方需要一个队伍才可以开始活动."/>
+	<Data ID="83" Language="0" Text="所有玩家必须在竞技场地图且在同一个战盟."/>
+	<Data ID="84" Language="0" Text="需要组队才可以加入战斗足球活动."/>
+	<Data ID="85" Language="0" Text="所有玩家必须在竞技场地图且在同一个战盟."/>
+	<Data ID="86" Language="0" Text="%s 不在队伍里."/>
+	<Data ID="87" Language="0" Text="你进入了血色城堡第 %d 层."/>
+	<Data ID="88" Language="0" Text="在线商城未开放."/>
+	<Data ID="89" Language="0" Text="你是帮助MU大陆摆脱昆顿邪恶势力的英雄。上帝保佑你!"/>
+	<Data ID="90" Language="0" Text="您无权执行此操作."/>
+	<Data ID="91" Language="0" Text="卫兵的灵魂已被净化，任务完成!"/>
+	<Data ID="92" Language="0" Text="赤色要塞生存战活动已经开始"/>
+	<Data ID="93" Language="0" Text="赤色要塞第 %d 层，活动已经开始!"/>
+	<Data ID="94" Language="0" Text="你在活动中挑战失败了，请继续努力."/>
+	<Data ID="95" Language="0" Text="卫兵的灵魂已经得到净化，任务完成."/>
+	<Data ID="96" Language="0" Text="赤色要塞活动挑战失败，请下次继续努力."/>
+	<Data ID="97" Language="0" Text="佩戴变身戒指不能进入赤色要塞."/>
+	<Data ID="98" Language="0" Text="你进入了赤色要塞第 %d 层"/>
+	<Data ID="99" Language="0" Text="当前区域不能进入赤色要塞."/>
+	<Data ID="100" Language="0" Text="请在安全区使用卫兵铠甲右键进入."/>
+	<Data ID="101" Language="0" Text="帮派战斗中无法进入赤色要塞."/>
+	<Data ID="102" Language="0" Text="佩戴变身戒指不能进入赤色要塞."/>
+	<Data ID="103" Language="0" Text="你进入了赤色要塞生存战地图."/>
+	<Data ID="104" Language="0" Text="您没有使用此命令的权限"/>
+	<Data ID="105" Language="0" Text="命令格式不正确."/>
+	<Data ID="106" Language="0" Text="语法错误"/>
+	<Data ID="107" Language="0" Text="禁止使用加点命令."/>
+	<Data ID="108" Language="0" Text="使用加点命令所需 %d 级."/>
+	<Data ID="109" Language="0" Text="使用加点命令所需 %u 金."/>
+	<Data ID="110" Language="0" Text="请求: 开启"/>
+	<Data ID="111" Language="0" Text="请求: 关闭"/>
+	<Data ID="112" Language="0" Text="广告: 开启"/>
+	<Data ID="113" Language="0" Text="广告: 关闭"/>
+	<Data ID="114" Language="0" Text="踢人系统当前关闭."/>
+	<Data ID="115" Language="0" Text="角色 %s 在踢人列表里."/>
+	<Data ID="116" Language="0" Text="角色 %s 添加到踢人列表里."/>
+	<Data ID="117" Language="0" Text="角色 %s 不在踢人列表中."/>
+	<Data ID="118" Language="0" Text="角色 %s 已从踢人列表里删除."/>
+	<Data ID="119" Language="0" Text="角色 %s 不在踢人列表里."/>
+	<Data ID="120" Language="0" Text="玩家 %s 处于离线状态."/>
+	<Data ID="121" Language="0" Text="玩家 %s 已被踢下线."/>
+	<Data ID="122" Language="0" Text="已授权帐户."/>
+	<Data ID="123" Language="0" Text="你必须获得 %d 点数，才能改过自新."/>
+	<Data ID="124" Language="0" Text="你已充值黄金会员服务器的第 %d 天."/>
+	<Data ID="125" Language="0" Text="转生系统未开启"/>
+	<Data ID="126" Language="0" Text="转生成功!"/>
+	<Data ID="127" Language="0" Text="转生失败!"/>
+	<Data ID="128" Language="0" Text="自动转生开启"/>
+	<Data ID="129" Language="0" Text="自动转生禁用"/>
+	<Data ID="130" Language="0" Text="命令格式不正确"/>
+	<Data ID="131" Language="0" Text="Chuc nang lo de hien khong hoat dong"/>
+	<Data ID="132" Language="0" Text="这是一个巨大的挑战"/>
+	<Data ID="133" Language="0" Text="So ghi khong hop le" />
+	<Data ID="134" Language="0" Text="给予100金奖励"/>
+	<Data ID="135" Language="0" Text="给予金"/>
+	<Data ID="136" Language="0" Text="所以我不太确定 200" />
+	<Data ID="137" Language="0" Text="Khong du Chaos"/>
+	<Data ID="138" Language="0" Text="数量无效."/>
+	<Data ID="139" Language="0" Text="获得祝福" />
+	<Data ID="140" Language="0" Text="已重新加载所有配置."/>
+	<Data ID="141" Language="0" Text="Khong du Soul"/>
+	<Data ID="142" Language="0" Text="增加 %u 金"/>
+	<Data ID="143" Language="0" Text="增加 du 点体力"/>
+	<Data ID="144" Language="0" Text="增加 %u 瑞币"/>
+	<Data ID="145" Language="0" Text="创造"/>
+	<Data ID="146" Language="0" Text="Sai hinh thuc dat cuoc"/>
+	<Data ID="147" Language="0" Text="Ghi lo thanh cong. Chuc ban phat tai sau 18h30" />
+	<Data ID="148" Language="0" Text="Chuc nang lo de hien khong hoat dong"/>
+	<Data ID="149" Language="0" Text="Da qua thoi gian ghi lo de"/>
+	<Data ID="150" Language="0" Text="So ghi khong hop le"/>
+	<Data ID="151" Language="0" Text="给予金20奖励"/>
+	<Data ID="152" Language="0" Text="设置 %u 金"/>
+	<Data ID="153" Language="0" Text="So luong vat pham dat cuoc khong duoc nhieu hon 50"/>
+	<Data ID="154" Language="0" Text="设置 %u 瑞币"/>
+	<Data ID="155" Language="0" Text="战盟 %s 不存在"/>
+	<Data ID="156" Language="0" Text="玩家 %s 无法获得Buff."/>
+	<Data ID="157" Language="0" Text="ID错误."/>
+	<Data ID="158" Language="0" Text="时间错误."/>
+	<Data ID="159" Language="0" Text="玩家 %s 在 %s 中 %d / %d"/>
+	<Data ID="160" Language="0" Text="服务器已关闭."/>
+	<Data ID="161" Language="0" Text="服务器将在 %d 后开启"/>
+	<Data ID="162" Language="0" Text="你的目标不存在."/>
+	<Data ID="163" Language="0" Text="无效怪物 ID."/>
+	<Data ID="164" Language="0" Text="Ghi de thanh cong. Chuc ban phat tai sau 18h30"/>
+	<Data ID="165" Language="0" Text="你的红名状态已更改."/>
+	<Data ID="166" Language="0" Text="So luong Zen khi nhan qua nhieu."/>
+	<Data ID="167" Language="0" Text="【%s】choi lo de nhan thuong %d Zen"/>
+	<Data ID="168" Language="0" Text="【%s】choi lo de nhan thuong %d【%s】"/>
+	<Data ID="169" Language="0" Text="预言之盒空间不足"/>
+	<Data ID="170" Language="0" Text="季度【%d】【%s】is %s."/>
+	<Data ID="171" Language="0" Text=  "Ban khong co phan thuong de nhan"/>
+	<Data ID="172" Language="0" Text="=========================================="/>
+	<Data ID="173" Language="0" Text="命令信息列表"/>
+	<Data ID="174" Language="0" Text="加点命令:"/>
+	<Data ID="175" Language="0" Text="/加力量 /加敏捷 /加体力 /加智力 /加统率"/>
+	<Data ID="176" Language="0" Text="转生命令: /转生"/>
+	<Data ID="177" Language="0" Text="/自动转生 0/1(0=禁用，1=启用)"/>
+	<Data ID="178" Language="0" Text="离线挂机命令: /离线挂机"/>
+	<Data ID="179" Language="0" Text="=========================================="/>
+	<Data ID="180" Language="0" Text="找不到玩家 %s."/>
+	<Data ID="181" Language="0" Text="%s 被杀."/>
+	<Data ID="182" Language="0" Text="已关闭 %s 个人商店"/>
+	<Data ID="183" Language="0" Text="添加 %d 个技能"/>
+	<Data ID="184" Language="0" Text="已清除 %s 个人商店"/>
+	<Data ID="185" Language="0" Text="删除技能 %d"/>
+	<Data ID="186" Language="0" Text="战盟 %s 不存在."/>
+	<Data ID="187" Language="0" Text="战盟 %s 不能联盟盟主."/>
+	<Data ID="188" Language="0" Text="战盟 %s 报名攻城战."/>
+	<Data ID="189" Language="0" Text="战盟 %s 注册成功."/>
+	<Data ID="190" Language="0" Text="战盟 %s 不存在."/>
+	<Data ID="191" Language="0" Text="战盟 %s 无法报名攻城战."/>
+	<Data ID="192" Language="0" Text="战盟 %s 成功注销."/>
+	<Data ID="193" Language="0" Text="全局静音已启用."/>
+	<Data ID="194" Language="0" Text="全局静音已禁用."/>
+	<Data ID="195" Language="0" Text="战盟 %s 成功注册. 数量 %u."/>
+	<Data ID="196" Language="0" Text="当前 %d 区域错误"/>
+	<Data ID="197" Language="0" Text="当前 %d 区域没有物品."/>
+	<Data ID="198" Language="0" Text="战盟 %s 取消报名. 数量 %u."/>
+	<Data ID="199" Language="0" Text="城门 %d 当前为开放中"/>
+	<Data ID="200" Language="0" Text="物品 %s +%d +%d"/>
+	<Data ID="201" Language="0" Text="战盟 %s 登记."/>
+	<Data ID="202" Language="0" Text="最小伤害:%d / 最高伤害:%d / 防御:%d"/>
+	<Data ID="203" Language="0" Text="玩家 %s 登记."/>
+	<Data ID="204" Language="0" Text="魔法率:%d / 诅咒率:%d / 宠物率:%d"/>
+	<Data ID="205" Language="0" Text="战盟 %s 已注册标识."/>
+	<Data ID="206" Language="0" Text="找不到玩家: %s"/>
+	<Data ID="207" Language="0" Text="玩家 %s 移动到城门 %d"/>
+	<Data ID="208" Language="0" Text="无法将玩家 %s 移动到城门 %d" />
+	<Data ID="209" Language="0" Text="错误的ID %d."/>
+	<Data ID="210" Language="0" Text="传送位置错误."/>
+	<Data ID="211" Language="0" Text="错误的怪物ID：%d"/>
+	<Data ID="212" Language="0" Text="怪物 %d 无法移动"/>
+	<Data ID="213" Language="0" Text="剔除账号ID: %d"/>
+	<Data ID="214" Language="0" Text="删除物品数量: %d"/>
+	<Data ID="215" Language="0" Text="你已被取消比赛资格."/>
+	<Data ID="216" Language="0" Text="至少需要 %d 级弓箭手等级"/>
+	<Data ID="217" Language="0" Text="背包物品已清除!"/>
+	<Data ID="218" Language="0" Text="最大背包容量"/>
+	<Data ID="219" Language="0" Text="添加扩展背包成功"/>
+	<Data ID="220" Language="0" Text="清除预言之盒物品成功!"/>
+	<Data ID="221" Language="0" Text="服务器已激活."/>
+	<Data ID="222" Language="0" Text="服务器已停用."/>
+	<Data ID="223" Language="0" Text="找不到 %s 战盟"/>
+	<Data ID="224" Language="0" Text="隐形状态: %s"/>
+	<Data ID="225" Language="0" Text="攻击状态: %s"/>
+	<Data ID="226" Language="0" Text="被攻击状态: %s"/>
+	<Data ID="227" Language="0" Text="悄悄话状态: %s"/>
+	<Data ID="228" Language="0" Text="跟踪状态 %s"/>
+	<Data ID="229" Language="0" Text="商店数据已读取." />
+	<Data ID="230" Language="0" Text="任务数据已读取."/>
+	<Data ID="231" Language="0" Text="事件数据已读取."/>
+	<Data ID="232" Language="0" Text="血色城堡已读取."/>
+	<Data ID="233" Language="0" Text="恶魔广场已读取."/>
+	<Data ID="234" Language="0" Text="赤色要塞已读取."/>
+	<Data ID="235" Language="0" Text="幻影寺院已读取."/>
+	<Data ID="236" Language="0" Text="狼魂要塞已读取."/>
+	<Data ID="237" Language="0" Text="帝国要塞已读取."/>
+	<Data ID="238" Language="0" Text="冰霜蜘蛛已读取."/>
+	<Data ID="239" Language="0" Text="提炼之塔已读取."/>
+	<Data ID="240" Language="0" Text="事件管理已读取."/>
+	<Data ID="241" Language="0" Text="罗兰攻城已读取."/>
+	<Data ID="242" Language="0" Text="生魂广场已读取."/>
+	<Data ID="243" Language="0" Text="答题数据已读取."/>
+	<Data ID="244" Language="0" Text="地下城竞赛已读取."/>
+	<Data ID="245" Language="0" Text="失落之塔竞赛已读取." />
+	<Data ID="246" Language="0" Text="赤色要塞生存战已读取."/>
+	<Data ID="247" Language="0" Text="阿卡伦活动已读取."/>
+	<Data ID="248" Language="0" Text="磨炼广场活动已读取."/>
+	<Data ID="249" Language="0" Text="阿卡伦战争已读取."/>
+	<Data ID="250" Language="0" Text="梦幻迷宫已读取."/>
+	<Data ID="251" Language="0" Text="磨炼广场生存战已读取."/>
+	<Data ID="252" Language="0" Text="怪物攻城已读取."/>
+	<Data ID="253" Language="0" Text="地牢活动已读取."/>
+	<Data ID="254" Language="0" Text="怪物数据已读取."/>
+	<Data ID="255" Language="0" Text="怪物已读取."/>
+	<Data ID="256" Language="0" Text="怪物刷新已读取."/>
+	<Data ID="257" Language="0" Text="怪物召唤已读取."/>
+	<Data ID="258" Language="0" Text="物品列表已读取."/>
+	<Data ID="259" Language="0" Text="角色数据已读取."/>
+	<Data ID="260" Language="0" Text="技能数据已读取."/>
+	<Data ID="261" Language="0" Text="地图传送已读取."/>
+	<Data ID="262" Language="0" Text="在线商城已读取."/>
+	<Data ID="263" Language="0" Text="合成系统已读取." />
+	<Data ID="264" Language="0" Text="地图数据已读取."/>
+	<Data ID="265" Language="0" Text="元素系统已读取."/>
+	<Data ID="266" Language="0" Text="连接错误 1"/>
+	<Data ID="267" Language="0" Text="连接错误 2"/>
+	<Data ID="268" Language="0" Text="MvP 排名:【%d】"/>
+	<Data ID="269" Language="0" Text="MvP 排名: 经验值【%d】"/>
+	<Data ID="270" Language="0" Text="巴卡斯正在做攻打狼堡的准备."/>
+	<Data ID="271" Language="0" Text="巴卡斯司令官出现，狼堡有危险."/>
+	<Data ID="272" Language="0" Text="巴卡斯司令官未被杀死"/>
+	<Data ID="273" Language="0" Text="防守失败了！神狼雕像已被巴卡斯占领"/>
+	<Data ID="274" Language="0" Text="防守成功了! 神狼雕像获得了保护" />
+	<Data ID="275" Language="0" Text="巴卡斯与魔王昆顿联合，准备攻打狼魂要塞"/>
+	<Data ID="276" Language="0" Text="巴卡斯正在准备攻打狼魂要塞"/>
+	<Data ID="277" Language="0" Text="神狼雕像如果没有得到保护，巴卡斯会将其偷走"/>
+	<Data ID="278" Language="0" Text="神狼雕像如果没有得到保护，巴卡斯会将其偷走"/>
+	<Data ID="279" Language="0" Text="【恶魔广场】大门将在 %d 分钟后关闭"/>
+	<Data ID="280" Language="0" Text="恶魔广场活动挑战失败. 你的分数: %d，请等待下一次开门的机会"/>
+	<Data ID="281" Language="0" Text="【恶魔广场】大门已开启!"/>
+	<Data ID="282" Language="0" Text="玩家进入了生魂战场第 %d 等级"/>
+	<Data ID="283" Language="0" Text="活动未启用."/>
+	<Data ID="284" Language="0" Text="【生魂战场】PVP 战斗将在 %d 分钟后开始"/>
+	<Data ID="285" Language="0" Text="当前战盟正在战斗中，无法使用."/>
+	<Data ID="286" Language="0" Text="仅限 %d 级以上可以使用."/>
+	<Data ID="287" Language="0" Text="当自动防御处于活动状态时，您无法发起决斗请求."/>
+	<Data ID="288" Language="0" Text="对方已激活自动防御."/>
+	<Data ID="289" Language="0" Text="决斗场错误."/>
+	<Data ID="290" Language="0" Text="决斗场房间错误."/>
+	<Data ID="291" Language="0" Text="尝试移动决斗场房间错误" />
+	<Data ID="292" Language="0" Text="两人在 %s 决斗场 %s 区域: %d 结束. %s 离开了决斗场"/>
+	<Data ID="293" Language="0" Text="%s 已经离开"/>
+	<Data ID="294" Language="0" Text="分数: %d"/>
+	<Data ID="295" Language="0" Text="特殊怪物召唤禁用."/>
+	<Data ID="296" Language="0" Text="MAC %s 准备静音."/>
+	<Data ID="297" Language="0" Text="MAC %s 已静音."/>
+	<Data ID="298" Language="0" Text="MAC %s 未静音."/>
+	<Data ID="299" Language="0" Text="MAC %s 已从静音列表中删除."/>
+	<Data ID="300" Language="0" Text="MAC: %s"/>
+	<Data ID="301" Language="0" Text="限制ID错误: %u"/>
+	<Data ID="302" Language="0" Text="MAC %s 已有 %s 限制."/>
+	<Data ID="303" Language="0" Text="MAC %s 限制用于 %s."/>
+	<Data ID="304" Language="0" Text="MAC %s 不受限制 %s."/>
+	<Data ID="305" Language="0" Text="MAC %s 限制中删除."/>
+	<Data ID="306" Language="0" Text="MAC %s 不受限制 %s."/>
+	<Data ID="307" Language="0" Text="MAC: %s 限制用于 %s."/>
+	<Data ID="308" Language="0" Text="您有 %s 限制."/>
+	<Data ID="309" Language="0" Text="玩家 %s 打开了其他窗口，无法操作"/>
+	<Data ID="310" Language="0" Text="错误的物品"/>
+	<Data ID="311" Language="0" Text="玩家 %s 背包物品已满"/>
+	<Data ID="312" Language="0" Text="已制造物品 %s 和 %s"/>
+	<Data ID="313" Language="0" Text="%s 制造物品 %s"/>
+	<Data ID="314" Language="0" Text="找不到玩家"/>
+	<Data ID="315" Language="0" Text="数据包结果: %02X"/>
+	<Data ID="316" Language="0" Text="请关闭所有窗口再试一次."/>
+	<Data ID="317" Language="0" Text="对方正忙，请关闭所有窗口再试一次."/>
+	<Data ID="318" Language="0" Text="决斗场中不允许发起决斗申请."/>
+	<Data ID="319" Language="0" Text="攻城战中不允许发起决斗申请"/>
+	<Data ID="320" Language="0" Text="帮派战争中不允许发起决斗申请."/>
+	<Data ID="321" Language="0" Text="【信息】: 游戏已更新."/>
+	<Data ID="322" Language="0" Text="【信息】: 请重新选择服务器."/>
+	<Data ID="323" Language="0" Text="Has superado el l?mite de post diarios."/>
+	<Data ID="324" Language="0" Text="Post restantes: %d"/>
+	<Data ID="325" Language="0" Text="Se ha restaurado el contador de post."/>
+	<Data ID="326" Language="0" Text="【 AntiSpam 】Muted for %s."/>
+	<Data ID="327" Language="0" Text="Has superado el l?mite de post diarios."/>
+	<Data ID="328" Language="0" Text="服务器将在 %s 秒钟后关闭，请安全退出"/>
+	<Data ID="329" Language="0" Text="服务器已关闭"/>
+	<Data ID="330" Language="0" Text="%s 变更为副盟主."/>
+	<Data ID="331" Language="0" Text="%s 变更为战斗大师."/>
+	<Data ID="332" Language="0" Text="%s 变更为战盟成员."/>
+	<Data ID="333" Language="0" Text="敌对状态结束."/>
+	<Data ID="334" Language="0" Text="针对 %s 敌对状态开始."/>
+	<Data ID="335" Language="0" Text="联盟已结束."/>
+	<Data ID="336" Language="0" Text="已加入 %s 个联盟"/>
+	<Data ID="337" Language="0" Text="请关闭所有的操作再试一次."/>
+	<Data ID="338" Language="0" Text="不允许战盟 %s 之间发起战争."/>
+	<Data ID="339" Language="0" Text="你需要成为战盟盟主才可以发起决斗."/>
+	<Data ID="340" Language="0" Text="对方战盟盟主不在线."/>
+	<Data ID="341" Language="0" Text="帮派战争被禁用."/>
+	<Data ID="342" Language="0" Text="你需要加入战盟才能发起宣战."/>
+	<Data ID="343" Language="0" Text="错误的ID。请与管理员联系."/>
+	<Data ID="344" Language="0" Text="错误的玩家。请联系管理员."/>
+	<Data ID="345" Language="0" Text="禁止移动到下一个区域."/>
+	<Data ID="346" Language="0" Text="错误的传送ID，请联系管理员."/>
+	<Data ID="347" Language="0" Text="请击败咒怨魔王后才能进入提炼之塔的道路."/>
+	<Data ID="348" Language="0" Text="时间耗尽，传送安全区."/>
+	<Data ID="349" Language="0" Text="下一场战役将在 1 分钟后开始"/>
+	<Data ID="350" Language="0" Text="时间已过，传送到安全区."/>
+	<Data ID="351" Language="0" Text="已击败咒怨魔王Boss，通往提炼之塔的道路打开了."/>
+	<Data ID="352" Language="0" Text="1 分钟后将开放坎特鲁活动的大门."/>
+	<Data ID="353" Language="0" Text="由于未知力量入侵，20分钟后将被传送至安全区."/>
+	<Data ID="354" Language="0" Text="提炼之塔道路将在 1 分钟后关闭."/>
+	<Data ID="355" Language="0" Text="ID: %u - 编号1: %u - 编号2: %u"/>
+	<Data ID="356" Language="0" Text="【终极悍将】普通战役"/>
+	<Data ID="357" Language="0" Text="【终极悍将】等级战役"/>
+	<Data ID="358" Language="0" Text="【终极悍将】竞赛战役"/>
+	<Data ID="359" Language="0" Text="【终极悍将】活动将在 %d 秒钟后开始."/>
+	<Data ID="360" Language="0" Text="【终极悍将】活动已关闭."/>
+	<Data ID="361" Language="0" Text="【终极悍将】活动将在 60 秒钟后开始，请准备"/>
+	<Data ID="362" Language="0" Text="【%s】采矿获得最终级别的奖励 %s x%d"/>
+	<Data ID="363" Language="0" Text="【%s】采矿获得奖励 %s x%d"/>
+	<Data ID="364" Language="0" Text="%s 赢了 %d 颗祝福宝石"/>
+	<Data ID="365" Language="0" Text="【%s】挖矿获得金币奖励 %s x%d"/>
+	<Data ID="366" Language="0" Text="%s - 概率:%d, 费用:%d"/>
+	<Data ID="367" Language="0" Text="合成名字: %s"/>
+	<Data ID="368" Language="0" Text="物品合成成功"/>
+	<Data ID="369" Language="0" Text="物品合成失败"/>
+	<Data ID="370" Language="0" Text="380物品合成功能禁用"/>
+	<Data ID="371" Language="0" Text="合成功能禁用."/>
+	<Data ID="372" Language="0" Text="错误的合成物品ID: %u"/>
+	<Data ID="373" Language="0" Text="错误的合成界面，请联系管理员"/>
+	<Data ID="374" Language="0" Text="你的背包物品不足."/>
+	<Data ID="375" Language="0" Text="%s 已被大佬 %s 击杀！"/>
+	<Data ID="376" Language="0" Text="怪物灵魂不可用: 0/%d"/>
+	<Data ID="377" Language="0" Text="创建战盟功能禁用"/>
+	<Data ID="378" Language="0" Text="你已经有一个战盟了，无需创建"/>
+	<Data ID="379" Language="0" Text="你至少需要 %d 级才能创建战盟"/>
+	<Data ID="380" Language="0" Text="你需要加入家族才可以创建战盟"/>
+	<Data ID="381" Language="0" Text="你需要等待 %s 秒钟后才能领取礼物"/>
+	<Data ID="382" Language="0" Text="【幻影寺院】大门已关闭，请等待下一次开门的机会."/>
+	<Data ID="383" Language="0" Text="【幻影寺院】红名无法入场."/>
+	<Data ID="384" Language="0" Text="【幻影寺院】门票不存在."/>
+	<Data ID="385" Language="0" Text="【警告】有人试图连接你的账号!!."/>
+	<Data ID="386" Language="0" Text="角色无法在移动服务器里保存."/>
+	<Data ID="387" Language="0" Text="角色数据保存失败，请联系管理员."/>
+	<Data ID="388" Language="0" Text="角色数据已在移动服务器里保存."/>
+	<Data ID="389" Language="0" Text="距离: %d - 速度: %d 次" />
+	<Data ID="390" Language="0" Text="已售出商品【%s】: %u"/>
+	<Data ID="391" Language="0" Text="坐标X: %d - 坐标Y: %d"/>
+	<Data ID="392" Language="0" Text="已发现重复序列."/>
+	<Data ID="393" Language="0" Text="圣诞老人村不可用."/>
+	<Data ID="394" Language="0" Text="此物品无法扔出."/>
+	<Data ID="395" Language="0" Text="无法扔出的物品."/>
+	<Data ID="396" Language="0" Text="此背包中的物品无法扔出."/>
+	<Data ID="397" Language="0" Text="此商品无法出售."/>
+	<Data ID="398" Language="0" Text="目前还处于正当防卫状态，暂时不能退出."/>
+	<Data ID="399" Language="0" Text="剩余 %d 秒钟退出游戏."/>
+	<Data ID="400" Language="0" Text="你需要等待 %s 秒后才可以使用此物品."/>
+	<Data ID="401" Language="0" Text="当前角色无法加入这个服务器."/>
+	<Data ID="402" Language="0" Text="仅限于角色等级高于 %d 级"/>
+	<Data ID="403" Language="0" Text="你无法再获取更多 %s"/>
+	<Data ID="404" Language="0" Text="剩余限制时间 %s."/>
+	<Data ID="405" Language="0" Text="收到商城的礼品"/>
+	<Data ID="406" Language="0" Text="商城物品已满，无法收取礼物了."/>
+	<Data ID="407" Language="0" Text="再生宝石强化成功."/>
+	<Data ID="408" Language="0" Text="需要 %s: %d"/>
+	<Data ID="409" Language="0" Text="增加 +%d PVE 点数"/>
+	<Data ID="410" Language="0" Text="增加 +%d PVP 点数"/>
+	<Data ID="411" Language="0" Text="攻击伤害: %d - %d"/>
+	<Data ID="412" Language="0" Text="魔法伤害: %d - %d"/>
+	<Data ID="413" Language="0" Text="诅咒伤害: %d - %d"/>
+	<Data ID="414" Language="0" Text="攻击率: %d"/>
+	<Data ID="415" Language="0" Text="攻击概率 PvP: %d"/>
+	<Data ID="416" Language="0" Text="防御: %d"/>
+	<Data ID="417" Language="0" Text="防御概率: %d"/>
+	<Data ID="418" Language="0" Text="防御概率 PvP: %d"/>
+	<Data ID="419" Language="0" Text="没有空闲的位置开启宝箱." />
+	<Data ID="420" Language="0" Text="宝箱没有上锁."/>
+	<Data ID="421" Language="0" Text="所需等级: %d"/>
+	<Data ID="422" Language="0" Text="伤害: %u - %u"/>
+	<Data ID="423" Language="0" Text="魔法攻击: %u"/>
+	<Data ID="424" Language="0" Text="诅咒攻击: %u"/>
+	<Data ID="425" Language="0" Text="宠物攻击: %u"/>
+	<Data ID="426" Language="0" Text="防御: %u"/>
+	<Data ID="427" Language="0" Text="防御成功率: %u"/>
+	<Data ID="428" Language="0" Text="属性 %u - %u"/>
+	<Data ID="429" Language="0" Text="活动进入次数已重新设置."/>
+	<Data ID="430" Language="0" Text="骑乘黑王马无法得到经验值"/>
+	<Data ID="431" Language="0" Text="卡利玛之门已创建"/>
+	<Data ID="432" Language="0" Text="生命之石召唤成功!" />
+	<Data ID="433" Language="0" Text="个人商店创建成功."/>
+	<Data ID="434" Language="0" Text="个人仓库创建成功."/>
+	<Data ID="435" Language="0" Text="修理所需费用: %d"/>
+	<Data ID="436" Language="0" Text="技能: %u - 速度: %d - 时间: %I64d"/>
+	<Data ID="437" Language="0" Text="技能: %u - 速度: %d - 数量: %d - 差异: %I64d"/>
+	<Data ID="438" Language="0" Text="士兵召唤成功!."/>
+	<Data ID="439" Language="0" Text="已变更."/>
+	<Data ID="440" Language="0" Text="Walking Path :: X: %d - Y: %d"/>
+	<Data ID="441" Language="0" Text="%d 秒后将被召唤"/>
+	<Data ID="442" Language="0" Text="设置世界Boss击杀点数."/>
+	<Data ID="443" Language="0" Text="%s 无法交易."/>
+	<Data ID="444" Language="0" Text="%s 打开这个盒子需要钥匙."/>
+	<Data ID="445" Language="0" Text="【转生】: 你需要关闭所有窗口."/>
+	<Data ID="446" Language="0" Text="仅限于在罗兰攻城地图中使用"/>
+	<Data ID="447" Language="0" Text="攻城开始后，不能使用召唤石"/>
+	<Data ID="448" Language="0" Text="只有盟主才可以使用召唤石"/>
+	<Data ID="449" Language="0" Text="仅限于联盟盟主可以使用" />
+	<Data ID="450" Language="0" Text="召唤石已被使用" />
+	<Data ID="451" Language="0" Text="你不能在龙塔里召唤"/>
+	<Data ID="452" Language="0" Text="召唤石使用失败!" />
+	<Data ID="453" Language="0" Text="您已经超过了双手可以佩戴的最大装备栏。(最多6个栏位)"/>
+	<Data ID="454" Language="0" Text="带有变身戒指的不能装备."/>
+	<Data ID="455" Language="0" Text="无法开启个人商店."/>
+	<Data ID="456" Language="0" Text="无法开启个人仓库"/>
+	<Data ID="457" Language="0" Text="错误的角色职业代码."/>
+	<Data ID="458" Language="0" Text="此区域仅限于普通家族成员"/>
+	<Data ID="459" Language="0" Text="如果不骑狼或者不装备翅膀，无法移动到天空之城."/>
+	<Data ID="460" Language="0" Text="佩戴变身戒指时无法移动到天空之城."/>
+	<Data ID="461" Language="0" Text="孵化魔地的大门已关闭，你无法进入."/>
+	<Data ID="462" Language="0" Text="这里不允许进入."/>
+	<Data ID="463" Language="0" Text="当服务器关闭时，你不能与npc或玩家互动."/>
+	<Data ID="464" Language="0" Text="服务器关闭或处于活动状态时，无法执行某些操作."/>
+	<Data ID="465" Language="0" Text="需要 %d %s."/>
+	<Data ID="466" Language="0" Text="需要 %d 级."/>
+	<Data ID="467" Language="0" Text="需要 %d 智力."/>
+	<Data ID="468" Language="0" Text="需要 %d 统率."/>
+	<Data ID="469" Language="0" Text="至少需要 %d 级."/>
+	<Data ID="470" Language="0" Text="此物品无法交易."/>
+	<Data ID="471" Language="0" Text="你可以需要 %s 物品进行交易"/>
+	<Data ID="472" Language="0" Text="无法存储此项目." />
+	<Data ID="473" Language="0" Text="无法升级此物品."/>
+	<Data ID="474" Language="0" Text="你至少需要 %u 金来操作."/>
+	<Data ID="475" Language="0" Text="你至少需要 %u 金来操作."/>
+	<Data ID="476" Language="0" Text="追踪玩家已断开连接"/>
+	<Data ID="477" Language="0" Text="追踪玩家已移动到服务器 %u"/>
+	<Data ID="478" Language="0" Text="红名等级过高，无法使用 "/>
+	<Data ID="479" Language="0" Text="禁止使用物品恢复功能."/>
+	<Data ID="480" Language="0" Text="找不到物品."/>
+	<Data ID="481" Language="0" Text="你至少需要 %d 商城积分来恢复你的物品."/>
+	<Data ID="482" Language="0" Text="你的背包空间不足了."/>
+	<Data ID="483" Language="0" Text="延迟传送取消."/>
+	<Data ID="484" Language="0" Text="您无权使用此帐户."/>
+	<Data ID="485" Language="0" Text="使用 /授权 <安全代码>进行授权."/>
+	<Data ID="486" Language="0" Text="示例 /授权 012345678912"/>
+	<Data ID="487" Language="0" Text="当前地图无法移动"/>
+	<Data ID="488" Language="0" Text="需要 %d 级才可以移动当前地图"/>
+	<Data ID="489" Language="0" Text="需要 %u 金才可以移动 %s."/>
+	<Data ID="490" Language="0" Text="目前处于正当防卫状态无法进行移动."/>
+	<Data ID="491" Language="0" Text="传送所需的最低等级: %d 级"/>
+	<Data ID="492" Language="0" Text="仅限于圣导师职业"/>
+	<Data ID="493" Language="0" Text="士兵只能在罗兰攻城中被召唤."/>
+	<Data ID="494" Language="0" Text="只有罗兰攻城开始后才能召唤士兵."/>
+	<Data ID="495" Language="0" Text="只有联盟后才可以召唤士兵."/>
+	<Data ID="496" Language="0" Text="只有盟主或副盟主才能召唤士兵."/>
+	<Data ID="497" Language="0" Text="已超过士兵人数上限."/>
+	<Data ID="498" Language="0" Text="士兵召唤失败!."/>
+	<Data ID="499" Language="0" Text="禁止交易."/>
+	<Data ID="500" Language="0" Text="此地图里不允许交易."/>
+	<Data ID="501" Language="0" Text="你正在与 %s 交易中."/>
+	<Data ID="502" Language="0" Text="你不能在安全区内召唤卡利玛之门."/>
+	<Data ID="503" Language="0" Text="你的等级太低，不允许使用召唤卡利玛之门."/>
+	<Data ID="504" Language="0" Text="无法传送."/>
+	<Data ID="505" Language="0" Text="请关闭窗口再尝试传送."/>
+	<Data ID="506" Language="0" Text="您无法在此服务器上获得更多经验."/>
+	<Data ID="507" Language="0" Text="你不能在这个区域召唤卡利玛之门."/>
+	<Data ID="508" Language="0" Text="您没有交易的权限."/>
+	<Data ID="509" Language="0" Text="你需要装备翅膀或骑乘炎狼兽才可以去天空之城地图."/>
+	<Data ID="510" Language="0" Text="已经为你加强了，无需再次加强."/>
+	<Data ID="511" Language="0" Text="因为商品排名太低，无法继续加强."/>
+	<Data ID="512" Language="0" Text="强化宝石进化失败."/>
+	<Data ID="513" Language="0" Text="强化宝石进化成功."/>
+	<Data ID="514" Language="0" Text="【%s】套装升级成功 %s"/>
+	<Data ID="515" Language="0" Text="【宝石升级】再生宝石升级成功 (%d/255)."/>
+	<Data ID="516" Language="0" Text="【宝石升级】再生宝石升级失败 (%d)."/>
+	<Data ID="517" Language="0" Text="发广告功能目前禁止使用."/>
+	<Data ID="518" Language="0" Text="发广告至少需要等级: %d."/>
+	<Data ID="519" Language="0" Text="发广告至少需要金币: %u."/>
+	<Data ID="520" Language="0" Text="发广告需要等待 %s 秒钟"/>
+	<Data ID="521" Language="0" Text="悄悄话功能已禁用."/>
+	<Data ID="522" Language="0" Text="你必须等待 %s 秒钟后才能说话."/>
+	<Data ID="523" Language="0" Text="预言之盒物品已满."/>
+	<Data ID="524" Language="0" Text="你请求 %s 决斗"/>
+	<Data ID="525" Language="0" Text="决斗请求失败."/>
+	<Data ID="526" Language="0" Text="好友系统已禁用."/>
+	<Data ID="527" Language="0" Text="邮件系统已禁用."/>
+	<Data ID="528" Language="0" Text="您的收件箱已满。删除一些邮件以接收新邮件."/>
+	<Data ID="529" Language="0" Text="收到的邮件."/>
+	<Data ID="530" Language="0" Text="退出前请解散你的战盟." />
+	<Data ID="531" Language="0" Text="此区域不允许发送加入战盟申请."/>
+	<Data ID="532" Language="0" Text="此区域不允许使用战盟命令."/>
+	<Data ID="533" Language="0" Text="罗兰攻城战中你不能解散战盟."/>
+	<Data ID="534" Language="0" Text="盟会战争中你不能解散战盟."/>
+	<Data ID="535" Language="0" Text="联盟中你不能解散战盟."/>
+	<Data ID="536" Language="0" Text="挂机助手状态已更新."/>
+	<Data ID="537" Language="0" Text="当前地图无法使用挂机助手."/>
+	<Data ID="538" Language="0" Text="发现复制物品，联系管理员。"/>
+	<Data ID="539" Language="0" Text="技能编号: %d - 技能_id: %d"/>
+	<Data ID="540" Language="0" Text="正在召唤，如果你打开窗口，将被终止."/>
+	<Data ID="541" Language="0" Text="你不能传送."/>
+	<Data ID="542" Language="0" Text="%d 玩家已被召唤."/>
+	<Data ID="543" Language="0" Text="%s 已组成队伍了."/>
+	<Data ID="544" Language="0" Text="队伍召唤正在进行中."/>
+	<Data ID="545" Language="0" Text="此区域不能召唤."/>
+	<Data ID="546" Language="0" Text="队伍等级限制为 %d"/>
+	<Data ID="547" Language="0" Text="此地图不允许组队"/>
+	<Data ID="548" Language="0" Text="%s 不能开启个人商店."/>
+	<Data ID="549" Language="0" Text="个人商店功能已禁用."/>
+	<Data ID="550" Language="0" Text="此区域不能使用个人商店."/>
+	<Data ID="551" Language="0" Text="对 %s 自当防卫能力减弱."/>
+	<Data ID="552" Language="0" Text="%s 自当防卫防护已消失."/>
+	<Data ID="553" Language="0" Text="%s 玩家正在试图攻击你!"/>
+	<Data ID="554" Language="0" Text="金币已上限"/>
+	<Data ID="555" Language="0" Text="获得 %d 个贡献点数"/>
+	<Data ID="556" Language="0" Text="损失 %d 个贡献点数"/>
+	<Data ID="557" Language="0" Text="你的家族等级已降低."/>
+	<Data ID="558" Language="0" Text="祝贺你，你的家族等级已提升."/>
+	<Data ID="559" Language="0" Text="【警告】如果你再次犯下谋杀罪，你将被打上亡命之徒的烙印."/>
+	<Data ID="560" Language="0" Text="信息错误，你将被传送安全区."/>
+	<Data ID="561" Language="0" Text="你的队伍状态已变更，即将传送至安全区域."/>
+	<Data ID="562" Language="0" Text="%s 检测到错误的攻击距离:【%d / %d】"/>
+	<Data ID="563" Language="0" Text="使用此技能需要 %d 点技能点数."/>
+	<Data ID="564" Language="0" Text="你不允许使用此技能."/>
+	<Data ID="565" Language="0" Text="目标编号: %d"/>
+	<Data ID="566" Language="0" Text="【会员】: 结束."/>
+	<Data ID="567" Language="0" Text="你将在 %d 秒内攻击"/>
+	<Data ID="568" Language="0" Text="方尖碑已被摧毁."/>
+	<Data ID="569" Language="0" Text="方尖碑还没有被摧毁."/>
+	<Data ID="570" Language="0" Text="孵化之地大门已关闭."/>
+	<Data ID="571" Language="0" Text="自动转生已禁用"/>
+	<Data ID="572" Language="0" Text="超过最大限制的转生次数"/>
+	<Data ID="573" Language="0" Text="没有转生数据"/>
+	<Data ID="574" Language="0" Text="角色等级太低，无法使用转生命令"/>
+	<Data ID="575" Language="0" Text="所需金币不足"/>
+	<Data ID="576" Language="0" Text="所需玛雅之石数量不足"/>
+	<Data ID="577" Language="0" Text="所需创造宝石数量不足"/>
+	<Data ID="578" Language="0" Text="所需洛克之羽数量不足"/>
+	<Data ID="579" Language="0" Text="【眼疾手快】请迅速输入以下字母: %s"/>
+	<Data ID="580" Language="0" Text="%s 已申请限制 %s"/>
+	<Data ID="581" Language="0" Text="已将 %s 限制应用于 %s"/>
+	<Data ID="582" Language="0" Text="%s 为静音 %s"/>
+	<Data ID="583" Language="0" Text="玩家 %s 禁止."/>
+	<Data ID="584" Language="0" Text="你不能使用悄悄话功能."/>
+	<Data ID="585" Language="0" Text="战盟已满."/>
+	<Data ID="586" Language="0" Text="不允许在这个地图中使用召唤功能."/>
+	<Data ID="587" Language="0" Text="魔法技能施放将持续 %d 分钟."/>
+	<Data ID="588" Language="0" Text="你不能在此地图上使用召唤技能."/>
+	<Data ID="589" Language="0" Text="请关闭当前打开的窗口或个人商店."/>
+	<Data ID="590" Language="0" Text="当前有一个队伍成员正在使用此技能."/>
+	<Data ID="591" Language="0" Text="【磨炼广场】已关闭."/>
+	<Data ID="592" Language="0" Text="【磨炼广场生存战】已关闭."/>
+	<Data ID="593" Language="0" Text="会员: %s."/>
+	<Data ID="594" Language="0" Text="你至少需要 %u 金才能使用仓库"/>
+	<Data ID="595" Language="0" Text="仓库已锁定"/>
+	<Data ID="596" Language="0" Text="达到世界Boss击杀点数最高值."/>
+	<Data ID="597" Language="0" Text="世界Boss技能点: %d"/>
+	<Data ID="598" Language="0" Text="世界Boss头目出现了"/>
+	<Data ID="599" Language="0" Text="世界Boss出现在: %s"/>
+	<Data ID="600" Language="0" Text="世界Boss出现在 %s 的 %d / %d"/>
+	<Data ID="601" Language="0" Text="这个物品 %s 不是你打的"/>
+	<Data ID="602" Language="0" Text="此区域不能扔出这个物品."/>
+	<Data ID="603" Language="0" Text="罗兰怪物已抵达城区."/>
+	<Data ID="604" Language="0" Text="怪物攻城将在 %d 分钟后开始"/>
+	<Data ID="605" Language="0" Text="%s 战盟成功守护了城堡."/>
+	<Data ID="606" Language="0" Text="%s 战盟成为了城堡领主."/>
+	<Data ID="607" Language="0" Text="城堡领主尚未分配."/>
+	<Data ID="608" Language="0" Text="巴卡斯军团将在 %d 分钟后发起进攻"/>
+	<Data ID="609" Language="0" Text="%d 分钟后精灵弓箭手可以绑定神狼祭坛"/>
+	<Data ID="610" Language="0" Text="巴卡斯军团准备攻打狼魂要塞"/>
+	<Data ID="611" Language="0" Text="【%s】从【怪物灵魂】获得 Lvl 1】"/>
+	<Data ID="612" Language="0" Text="【%s】从【怪物灵魂】获得 Lvl 2】"/>
+	<Data ID="613" Language="0" Text="【%s】从【怪物灵魂】获得 Lvl 3】"/>
+	<Data ID="614" Language="0" Text="【%s】从【怪物灵魂】获得 Lvl 4】"/>
+	<Data ID="615" Language="0" Text="【%s】从【怪物灵魂】获得 Lvl 5】"/>
+	<Data ID="616" Language="0" Text="【终极悍将】%s 是等级 %d-%d 获胜者."/>
+	<Data ID="617" Language="0" Text="【终极悍将】%s 是 %s 的职业获胜者."/>
+	<Data ID="618" Language="0" Text="最低等级 %d"/>
+	<Data ID="619" Language="0" Text="每台电脑最大角色限制 %d"/>
+	<Data ID="620" Language="0" Text="【终极悍将】%s 获胜."/>
+	<Data ID="621" Language="0" Text="【终极悍将】活动已开放!"/>
+	<Data ID="622" Language="0" Text="<FONT size='13'>玩家 %s成功合成：%s ！</FONT><BR>"/>
+	<Data ID="623" Language="0" Text="<FONT size='13'>玩家 %s 成功合成：神鹰之羽！ </FONT><BR>"/>
+	<Data ID="624" Language="0" Text="<FONT size='13'>玩家 %s 成功合成：加鲁达之羽！</FONT><BR>"/>
+	<Data ID="625" Language="0" Text="<FONT size='13'>玩家 %s 成功合成：炎狼兽之角！</FONT><BR>"/>
+	<Data ID="626" Language="0" Text="<FONT size='13'>玩家 %s 成功升级：%s！</FONT><BR>"/>
+	<Data ID="627" Language="0" Text="<FONT size='13'>玩家 %s 成功升级：炎狼兽之角 +破坏！</FONT><BR>"/>
+	<Data ID="628" Language="0" Text="<FONT size='13'>玩家 %s 成功升级：炎狼兽之角 +守护！</FONT><BR>"/>
+	<Data ID="629" Language="0" Text="<FONT size='13'>玩家 %s 开启莫斯宝箱获得：%s %s！</FONT><BR>"/>
+	<Data ID="630" Language="0" Text="<FONT size='13'>玩家 %s 开启莫斯宝箱获得：%s！</FONT><BR>"/>
+	<Data ID="631" Language="0" Text="阿卡伦活动开始启动."/>
+	<Data ID="632" Language="0" Text="已达到最高等级"/>
+	<Data ID="633" Language="0" Text="清除再生属性"/>
+	<Data ID="634" Language="0" Text="【阿卡伦守护】已结束"/>
+	<Data ID="635" Language="0" Text="元素物品升级失败"/>
+	<Data ID="636" Language="0" Text="%d 级才可以使用内挂助手"/>
+	<Data ID="637" Language="0" Text="你需要Boss战入场券才可以入场!"/>
+	<Data ID="638" Language="0" Text="【Boss战】活动已完成"/>
+	<Data ID="639" Language="0" Text="【Boss战】活动将在 %d 分钟后开始" />
+	<Data ID="640" Language="0" Text="【Boss战】离进场结束还剩下 %d 分钟"/>
+	<Data ID="641" Language="0" Text="【Boss战】活动将在 %d 分钟后结束"/>
+	<Data ID="642" Language="0" Text="所有报名的城主，请累积城主标识"/>
+	<Data ID="643" Language="0" Text="请选择战盟攻城时间"/>
+	<Data ID="644" Language="0" Text="已选择参与攻城战的战盟"/>
+	<Data ID="645" Language="0" Text="攻城战马上开始，请做好准备"/>
+	<Data ID="646" Language="0" Text="罗兰攻城战活动将在 %d 分钟后开始"/>
+	<Data ID="647" Language="0" Text="攻城战活动正在进行中"/>
+	<Data ID="648" Language="0" Text="攻城战活动已结束"/>
+	<Data ID="649" Language="0" Text="现在是攻城战活动报名时间"/>
+	<Data ID="650" Language="0" Text="你已经骑乘了坐骑，请先解除当前坐骑的骑乘状态"/>
+	<Data ID="651" Language="0" Text="【幻影寺院】离进场结束还剩下 %d 分钟"/>
+	<Data ID="652" Language="0" Text="【幻影寺院】活动已经开始，进行时间 %d 分钟"/>
+	<Data ID="653" Language="0" Text="【幻影寺院】活动将在 %d 分钟后关闭"/>
+	<Data ID="654" Language="0" Text="【幻影寺院】活动将在 %d 分钟后开始"/>
+	<Data ID="655" Language="0" Text="卡牌不足"/>
+	<Data ID="656" Language="0" Text="【幻影寺院】活动将在 %d 分钟后开始"/>
+	<Data ID="657" Language="0" Text="幻影寺院大门已关闭，无法进入"/>
+	<Data ID="658" Language="0" Text="能量原石不足"/>
+	<Data ID="659" Language="0" Text="【血色城堡】区域已解锁"/>
+	<Data ID="660" Language="0" Text="【血色城堡】攻破了血色城门获得分数奖励: %d"/>
+	<Data ID="661" Language="0" Text="【血色城堡】水晶灵柩已打开"/>
+	<Data ID="662" Language="0" Text="【血色城堡】打开了水晶灵柩获得分数: %d"/>
+	<Data ID="663" Language="0" Text="【血色城堡】剩余时间获得分数奖励:%d"/>
+	<Data ID="664" Language="0" Text="【恶魔广场】大门将在 %d 分钟后打开"/>
+	<Data ID="665" Language="0" Text="【恶魔广场】离进场结束还剩下 %d 分钟"/>
+	<Data ID="666" Language="0" Text="【血色城堡】离进场结束还剩下 %d 分钟"/>
+	<Data ID="667" Language="0" Text="【赤色要塞】离进场结束还剩下 %d 分钟"/>
+	<Data ID="668" Language="0" Text="【赤色要塞】离进场结束还剩下 %d 分钟"/>
+	<Data ID="669" Language="0" Text="剩余: %d 分钟,"/>
+	<Data ID="670" Language="0" Text="【竞赛活动】已经开始"/>
+	<Data ID="671" Language="0" Text="【竞赛活动】活动结束"/>
+	<Data ID="672" Language="0" Text="%s 竞赛活动开始了"/>
+	<Data ID="673" Language="0" Text="%s 竞赛活动结束了"/>
+	<Data ID="674" Language="0" Text="【%s 竞赛】活动已结束，获胜玩家：%s"/>
+	<Data ID="675" Language="0" Text="【%s 竞赛】%s 到达传送门入口 %d"/>
+	<Data ID="676" Language="0" Text="【两人对决】%s和%s之间的决斗开始了。房间编号:%d"/>
+	<Data ID="677" Language="0" Text="【两人对决】%s与%s的决斗: %d 秒后结束. 时间已结束"/>
+	<Data ID="678" Language="0" Text="【两人对决】%d与%s的决斗: %d 秒后结束. 决斗得分:%d - %d"/>
+	<Data ID="679" Language="0" Text="决斗房间编号：%d 已结束。 获胜玩家：%s"/>
+	<Data ID="680" Language="0" Text="%s 和 %s 在 %d 的决斗已结束。 %s取消了决斗"/>
+	<Data ID="681" Language="0" Text="【欢乐时光】活动开始"/>
+	<Data ID="682" Language="0" Text="【欢乐时光】活动将于 %d 分钟后开始"/>
+	<Data ID="683" Language="0" Text="【欢乐时光】活动结束" />
+	<Data ID="684" Language="0" Text="孵化魔地大门已打开"/>
+	<Data ID="685" Language="0" Text="孵化魔地大门已打开,请于 %d 分钟内击杀巨蛛蛋"/>
+	<Data ID="686" Language="0" Text="冰霜巨蛛已经登场.%d 分钟后孵化魔地入口将被关闭"/>
+	<Data ID="687" Language="0" Text="孵化魔地大门已开放"/>
+	<Data ID="688" Language="0" Text="孵化魔地大门已打开,请于 %d 分钟内击杀巨蛛蛋"/>
+	<Data ID="689" Language="0" Text="【眼疾手快】任务完成"/>
+	<Data ID="690" Language="0" Text="【眼疾手快】活动已经开始"/>
+	<Data ID="691" Language="0" Text="【眼疾手快】玩家:%s，获胜，在 %s 地图里"/>
+	<Data ID="692" Language="0" Text="【终极悍将】活动将在 %d 分钟后开启"/>
+	<Data ID="693" Language="0" Text="【生魂战场】离进场结束还剩下 %d 分钟"/>
+	<Data ID="694" Language="0" Text="【终极悍将】活动将在 %d 分钟后关闭"/>
+	<Data ID="695" Language="0" Text="【磨炼广场】离大门关闭还剩下 %d 分钟"/>
+	<Data ID="696" Language="0" Text="【磨炼广场】离进场结束还剩下 %d 分钟"/>
+	<Data ID="697" Language="0" Text="【磨炼广场生存战】离进场结束还剩下 %d 分钟" />
+	<Data ID="698" Language="0" Text="【磨炼广场生存战】活动将在 %d 分钟后关闭"/>
+	<Data ID="699" Language="0" Text="还剩 %d 分钟即可注册为阿尔卡战争战盟盟主"/>
+	<Data ID="700" Language="0" Text="还剩 %d 分钟即可注册为阿尔卡战争战盟成员"/>
+	<Data ID="701" Language="0" Text="距离阿尔卡战争开始还剩 %d 秒。请在安全区域等候"/>
+	<Data ID="702" Language="0" Text="阿尔卡战争已经开始。您可以通过与莱斯纳爵士交谈来进入"/>
+	<Data ID="703" Language="0" Text="赤色要塞强者挑战赛"/>
+	<Data ID="704" Language="0" Text="每台电脑只能使用 %d 个字符"/>
+	<Data ID="705" Language="0" Text="黄金频道"/>
+	<Data ID="706" Language="0" Text="积分不足"/>
+	<Data ID="707" Language="0" Text="地下城迷宫"/>
+	<Data ID="708" Language="0" Text="您只能与%d个角色同时参与"/>
+	<Data ID="709" Language="0" Text="您必须获得 %d 积分才能清除红名身份"/>
+	<Data ID="710" Language="0" Text="特殊活动地图"/>
+	<Data ID="711" Language="0" Text="您无法将更多角色移动到特殊地图"/>
+	<Data ID="712" Language="0" Text="个人商店"/>
+	<Data ID="713" Language="0" Text="关闭选项被禁用" />
+	<Data ID="714" Language="0" Text="关闭选项只能在安全区域使用"/>
+	<Data ID="715" Language="0" Text="关闭选项无法在此地图上使用"/>
+	<Data ID="716" Language="0" Text="错误。联系管理员"/>
+	<Data ID="717" Language="0" Text="您无法在此地图上使用个人商店"/>
+	<Data ID="718" Language="0" Text="需要开设个人商店"/>
+	<Data ID="719" Language="0" Text="您已超出个人商店可设置的金额上限"/>
+	<Data ID="720" Language="0" Text="无法在此服务器上开设更多离线商店"/>
+	<Data ID="721" Language="0" Text="认证"/>
+	<Data ID="722" Language="0" Text="授权码错误"/>
+	<Data ID="723" Language="0" Text="离线挂机"/>
+	<Data ID="724" Language="0" Text="最低需要 %d 级"/>
+	<Data ID="725" Language="0" Text="最高需要 %d 级"/>
+	<Data ID="726" Language="0" Text="您不能在该区域使用"/>
+	<Data ID="727" Language="0" Text="您已超出最大数量"/>
+	<Data ID="728" Language="0" Text="助手必须处于活动状态"/>
+	<Data ID="729" Language="0" Text="开始前请关闭个人商店"/>
+	<Data ID="730" Language="0" Text="启动前关闭界面"/>
+	<Data ID="731" Language="0" Text="不允许在此地图上使用"/>
+	<Data ID="732" Language="0" Text="您需要设置要购买的天数。 \n 每天花费 %d 积分。 \n 示例：/gold 10。这意味着 10 天"/>
+	<Data ID="733" Language="0" Text="艾尔特创建"/>
+	<Data ID="734" Language="0" Text="艾尔特ID错误"/>
+	<Data ID="735" Language="0" Text="艾尔特元素错误"/>
+	<Data ID="736" Language="0" Text="背包空间不足"/>
+	<Data ID="737" Language="0" Text="艾尔特选项错误"/>
+	<Data ID="738" Language="0" Text="错误 \n 无法在此地图上使用离线挂机。 \n 该地图的等级范围是【%d / %d】"/>
+	<Data ID="739" Language="0" Text="地下城迷宫系统被禁用"/>
+	<Data ID="740" Language="0" Text="请等待 %s 秒钟后再次输入"/>
+	<Data ID="741" Language="0" Text="你需要组队才可以"/>
+	<Data ID="742" Language="0" Text="没有适合你的地下城等级"/>
+	<Data ID="743" Language="0" Text="找不到地下城活动数据库信息。"/>
+	<Data ID="744" Language="0" Text="你需要组队才可进行此活动"/>
+	<Data ID="745" Language="0" Text="等级错误"/>
+	<Data ID="746" Language="0" Text="你的等级过低,无法进入此活动"/>
+	<Data ID="747" Language="0" Text="预言之盒"/>
+	<Data ID="748" Language="0" Text="没有可用的空间"/>
+	<Data ID="749" Language="0" Text="帝国要塞"/>
+	<Data ID="750" Language="0" Text="活动被禁用"/>
+	<Data ID="751" Language="0" Text="进入活动请取下变身戒指或关闭个人商店"/>
+	<Data ID="752" Language="0" Text="当前活动正在进行中"/>
+	<Data ID="753" Language="0" Text="你的队伍不在此活动中，无法参与"/>
+	<Data ID="754" Language="0" Text="你不属于这只队伍."/>
+	<Data ID="755" Language="0" Text="没有匹配到你的队伍等级."/>
+	<Data ID="756" Language="0" Text="!!警告!!"/>
+	<Data ID="757" Language="0" Text="此宝箱仅限等级: %d 级后才能打开" />
+	<Data ID="758" Language="0" Text="宝石宾果"/>
+	<Data ID="759" Language="0" Text="活动无法进行. \n 无法在开启个人商店的情况下进行活动"/>
+	<Data ID="760" Language="0" Text="梦幻迷宫"/>
+	<Data ID="761" Language="0" Text="梦幻迷宫进入所需级别：%d"/>
+	<Data ID="762" Language="0" Text="交易过程中无法进入"/>
+	<Data ID="763" Language="0" Text="梦幻迷宫联赛"/>
+	<Data ID="764" Language="0" Text="梦幻迷宫联赛阶段已更改"/>
+	<Data ID="765" Language="0" Text="终极悍将"/>
+	<Data ID="766" Language="0" Text="迷你炸弹"/>
+	<Data ID="767" Language="0" Text="组队"/>
+	<Data ID="768" Language="0" Text="无法进行活动. \n 个人商店开启状态下,无法进行游戏"/>
+	<Data ID="769" Language="0" Text="活动未开启"/>
+	<Data ID="770" Language="0" Text="卡牌游戏"/>
+	<Data ID="771" Language="0" Text="个人商店开启状态下,无法进行游戏"/>
+	<Data ID="772" Language="0" Text="尼克西斯之湖"/>
+	<Data ID="773" Language="0" Text="数字棒球"/>
+	<Data ID="774" Language="0" Text="无法携带更多宝石"/>
+	<Data ID="775" Language="0" Text="你的背包已满"/>
+	<Data ID="776" Language="0" Text="不卖东西给你"/>
+	<Data ID="777" Language="0" Text="你无法使用"/>
+	<Data ID="778" Language="0" Text="只有城主才能使用"/>
+	<Data ID="779" Language="0" Text="信息错误"/>
+	<Data ID="780" Language="0" Text="已添加 %d 属性点，剩余 %d 属性点可添加"/>
+	<Data ID="781" Language="0" Text="请先完成4转任务！"/>
+	<Data ID="782" Language="0" Text="<FONT color='#FFFFFF' size='13'>玩家 [%s] 升级 [%s +%d] 成功！</FONT><BR>"/>
+	<Data ID="783" Language="0" Text="你已经完成了4转任务！"/>
+	<Data ID="784" Language="0" Text="请先完成3转任务！"/>
+	<Data ID="785" Language="0" Text="你已经完成了5转任务！"/>
+	<Data ID="786" Language="0" Text="扩展背包物品已清除！"/>
+	<Data ID="787" Language="0" Text="宠物背包物品已清除！"/>
+	<Data ID="788" Language="0" Text="背包内金币已清除！"/>
+	<Data ID="789" Language="0" Text= "再生宝石提炼失败！"/>
+	<Data ID="790" Language="0" Text= "再生宝石提炼成功！"/>
+	<Data ID="791" Language="0" Text= "广告"/>
+	<Data ID="792" Language="0" Text= "服务器"/>
+</SystemMessage>

@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==                 File Name: BuffTemple                  ==
+// ============================================================
+-->
+
+<BuffTemplate>
+	<Buff ID="1" Group="1" ItemCat="-1" ItemIndex="-1" Name="战神之力" Description="提升攻击力" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="2" Group="2" ItemCat="-1" ItemIndex="-1" Name="守护之光" Description="提升防御力" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="3" Group="3" ItemCat="-1" ItemIndex="-1" Name="幻影导师效果" Description="提升攻击力与防御力" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="7200"/>
+	<Buff ID="4" Group="4" ItemCat="-1" ItemIndex="-1" Name="守护之魂" Description="魔力吸收伤害" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="5" Group="5" ItemCat="-1" ItemIndex="-1" Name="致命圣印" Description="增加幸运一击伤害" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="6" Group="6" ItemCat="-1" ItemIndex="-1" Name="无影箭" Description="不消耗弓箭" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="7" Group="7" ItemCat="-1" ItemIndex="-1" Name="AG恢复速度增加" Description="" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="8" Group="8" ItemCat="-1" ItemIndex="-1" Name="生命之光" Description="提升最大体力" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="9" Group="9" ItemCat="-1" ItemIndex="-1" Name="增益魔法" Description="提升最大魔力" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="10" Group="10" ItemCat="-1" ItemIndex="-1" Name="祝福药水" Description="攻击力提升为 20% " Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="11" Group="11" ItemCat="-1" ItemIndex="-1" Name="灵魂药水" Description="AG恢复速度 +8/雷,冰抵抗力提升 /攻及速度增加+20 " Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="12" Group="12" ItemCat="-1" ItemIndex="-1" Name="解除魔法" Description="" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="13" Group="13" ItemCat="-1" ItemIndex="-1" Name="城门开/关状态" Description="" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="14" Group="14" ItemCat="-1" ItemIndex="-1" Name="守城" Description="目前正在守城" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="15" Group="14" ItemCat="-1" ItemIndex="-1" Name="攻城战盟1" Description="目前正在攻城" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="16" Group="14" ItemCat="-1" ItemIndex="-1" Name="攻城战盟2" Description="目前正在攻城" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="17" Group="14" ItemCat="-1" ItemIndex="-1" Name="攻城战盟3" Description="目前正在攻城" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="18" Group="15" ItemCat="-1" ItemIndex="-1" Name="透明术" Description="隐身状态" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="19" Group="16" ItemCat="-1" ItemIndex="-1" Name="圣导师攻城技能" Description="" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="20" Group="17" ItemCat="-1" ItemIndex="-1" Name="皇冠登录状态" Description="" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="21" Group="18" ItemCat="-1" ItemIndex="-1" Name="可绑定神狼护台" Description="" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="22" Group="18" ItemCat="-1" ItemIndex="-1" Name="无法绑定神狼护台" Description="" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="23" Group="18" ItemCat="-1" ItemIndex="-1" Name="神狼护台绑定状态" Description="" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="24" Group="18" ItemCat="-1" ItemIndex="-1" Name="试图绑定神狼护台" Description="" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="25" Group="18" ItemCat="-1" ItemIndex="-1" Name="已占领神狼护台" Description="" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="26" Group="18" ItemCat="-1" ItemIndex="-1" Name="神狼护台英雄绑定状态" Description="" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="27" Group="19" ItemCat="-1" ItemIndex="-1" Name="狼魂要塞NPC隐身" Description="" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="28" Group="20" ItemCat="-1" ItemIndex="-1" Name="GM" Description="" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="29" Group="60" ItemCat="13" ItemIndex="43" Name="经验印章" Description="经验值获得提升为 50% " Send="1" Debuff="0" Effect1="6" Value1="50" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="30" Group="61" ItemCat="13" ItemIndex="44" Name="神圣印章" Description="经验值获得提升为 100% /物品掉落提升为 150% " Send="1" Debuff="0" Effect1="6" Value1="100" Effect2="7" Value2="50" Duration="1800"/>
+	<Buff ID="31" Group="62" ItemCat="13" ItemIndex="45" Name="贡献印章" Description="无法获得经验值" Send="1" Debuff="0" Effect1="8" Value1="0" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="32" Group="22" ItemCat="-1" ItemIndex="-1" Name="寺院 - 迅速咒语" Description="" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="33" Group="22" ItemCat="-1" ItemIndex="-1" Name="寺院– 升化咒语" Description="" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="34" Group="22" ItemCat="-1" ItemIndex="-1" Name="保护咒语" Description="伤害吸收100% " Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="35" Group="246" ItemCat="14" ItemIndex="46" Name="[增加]南瓜灯的祝福" Description="攻击速度增加 +10" Send="1" Debuff="0" Effect1="1" Value1="10" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="36" Group="247" ItemCat="14" ItemIndex="47" Name="[强化]南瓜灯的愤怒" Description="攻击力，魔法攻击力，诅咒力增加+40" Send="1" Debuff="0" Effect1="2" Value1="40" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="37" Group="247" ItemCat="14" ItemIndex="48" Name="[强化]南瓜灯的呐喊" Description="防御力增加 +100" Send="1" Debuff="0" Effect1="3" Value1="100" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="38" Group="246" ItemCat="14" ItemIndex="49" Name="[增加]南瓜灯的食物" Description="最大生命力增加 +700" Send="1" Debuff="0" Effect1="4" Value1="700" Effect2="0" Value2="10" Duration="1800"/>
+	<Buff ID="39" Group="246" ItemCat="14" ItemIndex="50" Name="[增加]南瓜灯的饮料" Description="最大魔法值增加 +700" Send="1" Debuff="0" Effect1="5" Value1="700" Effect2="0" Value2="10" Duration="1800"/>
+	<Buff ID="40" Group="60" ItemCat="13" ItemIndex="43" Name="经验印章" Description="经验值获得提升为 50% " Send="1" Debuff="0" Effect1="6" Value1="50" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="41" Group="61" ItemCat="13" ItemIndex="44" Name="神圣印章" Description="经验值获得提升为 100% /道具获得提升150% " Send="1" Debuff="0" Effect1="6" Value1="100" Effect2="7" Value2="50" Duration="1800"/>
+	<Buff ID="42" Group="65" ItemCat="13" ItemIndex="45" Name="贡献印章" Description="无法获得经验值" Send="1" Debuff="0" Effect1="8" Value1="0" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="43" Group="57" ItemCat="13" ItemIndex="59" Name="移动印章" Description="可移动" Send="1" Debuff="0" Effect1="16" Value1="0" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="44" Group="67" ItemCat="14" ItemIndex="72" Name="加速卷轴" Description="攻击速度提升 +15" Send="1" Debuff="0" Effect1="1" Value1="15" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="45" Group="68" ItemCat="14" ItemIndex="73" Name="防御卷轴" Description="防御力提升 +60" Send="1" Debuff="0" Effect1="3" Value1="60" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="46" Group="69" ItemCat="14" ItemIndex="74" Name="愤怒卷轴" Description="攻击力提升 +30" Send="1" Debuff="0" Effect1="14" Value1="30" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="47" Group="70" ItemCat="14" ItemIndex="75" Name="魔力卷轴" Description="魔法攻击力，诅咒力增加+30" Send="1" Debuff="0" Effect1="15" Value1="30" Effect2="17" Value2="30" Duration="1800"/>
+	<Buff ID="48" Group="71" ItemCat="14" ItemIndex="76" Name="体力卷轴" Description="体力值增加 +200" Send="1" Debuff="0" Effect1="4" Value1="200" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="49" Group="72" ItemCat="14" ItemIndex="77" Name="魔法卷轴" Description="魔法值增加 +300" Send="1" Debuff="0" Effect1="5" Value1="300" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="50" Group="26" ItemCat="14" ItemIndex="78" Name="力量圣水" Description="力量值 +50" Send="1" Debuff="0" Effect1="9" Value1="50" Effect2="0" Value2="0" Duration="864000"/>
+	<Buff ID="51" Group="26" ItemCat="14" ItemIndex="79" Name="敏捷圣水" Description="敏捷值 +50" Send="1" Debuff="0" Effect1="10" Value1="50" Effect2="0" Value2="0" Duration="864000"/>
+	<Buff ID="52" Group="26" ItemCat="14" ItemIndex="80" Name="体力圣水" Description="体力值 +50" Send="1" Debuff="0" Effect1="11" Value1="50" Effect2="0" Value2="0" Duration="864000"/>
+	<Buff ID="53" Group="26" ItemCat="14" ItemIndex="81" Name="智力圣水" Description="智力值 +50" Send="1" Debuff="0" Effect1="12" Value1="50" Effect2="0" Value2="0" Duration="864000"/>
+	<Buff ID="54" Group="26" ItemCat="14" ItemIndex="82" Name="统率圣水" Description="统率值+50" Send="1" Debuff="0" Effect1="13" Value1="50" Effect2="0" Value2="0" Duration="864000"/>
+	<Buff ID="55" Group="27" ItemCat="-1" ItemIndex="-1" Name="毒" Description="中毒状态" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="56" Group="28" ItemCat="-1" ItemIndex="-1" Name="冰" Description="移动速度变慢" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="57" Group="29" ItemCat="-1" ItemIndex="-1" Name="冰封箭" Description="无法移动" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="58" Group="30" ItemCat="-1" ItemIndex="-1" Name="防御力减少" Description="防御力随机降低10% " Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="59" Group="31" ItemCat="-1" ItemIndex="-1" Name="攻击力减少" Description="" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="60" Group="32" ItemCat="-1" ItemIndex="-1" Name="魔力减少" Description="" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="61" Group="33" ItemCat="-1" ItemIndex="-1" Name="束缚" Description="无法移动" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="62" Group="34" ItemCat="-1" ItemIndex="-1" Name="魔法防御" Description="" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="63" Group="35" ItemCat="-1" ItemIndex="-1" Name="怪物魔法攻击抵抗效果" Description="" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="64" Group="36" ItemCat="-1" ItemIndex="-1" Name="怪物物理攻击抵抗效果" Description="" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="65" Group="37" ItemCat="-1" ItemIndex="-1" Name="束缚咒语" Description="无法移动" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="66" Group="38" ItemCat="-1" ItemIndex="-1" Name="狼魂要塞神座保护状态" Description="狼魂要塞神座保护状态" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="67" Group="38" ItemCat="-1" ItemIndex="-1" Name="狼魂要塞神座保护状态" Description="狼魂要塞神座保护状态" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="68" Group="38" ItemCat="-1" ItemIndex="-1" Name="狼魂要塞神座保护状态" Description="狼魂要塞神座保护状态" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="69" Group="38" ItemCat="-1" ItemIndex="-1" Name="狼魂要塞神座保护状态" Description="狼魂要塞神座保护状态" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="70" Group="38" ItemCat="-1" ItemIndex="-1" Name="狼魂要塞神座保护状态" Description="狼魂要塞神座保护状态" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="71" Group="39" ItemCat="-1" ItemIndex="-1" Name="反射之镜" Description="反射伤害的部份" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="72" Group="40" ItemCat="-1" ItemIndex="-1" Name="催眠术" Description="暂时睡觉" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="73" Group="40" ItemCat="-1" ItemIndex="-1" Name="致盲" Description="视力模糊降低攻击成功率" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="74" Group="41" ItemCat="-1" ItemIndex="-1" Name="刺袭" Description="幻兽异灵的攻击" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="75" Group="42" ItemCat="-1" ItemIndex="-1" Name="爆裂" Description="幻兽火龙兽的攻击" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="76" Group="43" ItemCat="-1" ItemIndex="-1" Name="虚弱术" Description="攻击力降低" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="77" Group="43" ItemCat="-1" ItemIndex="-1" Name="精神术" Description="防御力降低" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="78" Group="246" ItemCat="14" ItemIndex="85" Name="[增加]樱花酒" Description="最大魔法值增加 +700" Send="1" Debuff="0" Effect1="5" Value1="700" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="79" Group="246" ItemCat="14" ItemIndex="86" Name="[增加]樱花饼" Description="最大生命力增加 +700" Send="1" Debuff="0" Effect1="4" Value1="700" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="80" Group="247" ItemCat="14" ItemIndex="87" Name="[强化]樱花花瓣" Description="攻击力, 魔法攻击力, 诅咒力+40" Send="1" Debuff="0" Effect1="2" Value1="40" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="81" Group="288" ItemCat="-1" ItemIndex="-1" Name="狂暴术" Description="魔法攻击力/攻击速度提升，防御力下降，最大生命力下降" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="82" Group="45" ItemCat="-1" ItemIndex="-1" Name="魔力强化" Description="提升最小魔法攻击力" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="83" Group="46" ItemCat="-1" ItemIndex="-1" Name="火剑袭" Description="" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="84" Group="47" ItemCat="-1" ItemIndex="-1" Name="闪电轰顶" Description="" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="85" Group="48" ItemCat="-1" ItemIndex="-1" Name="烈光闪" Description="" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="86" Group="49" ItemCat="-1" ItemIndex="-1" Name="严寒" Description="因残酷的寒冷/移动速度降低" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="87" Group="13" ItemCat="13" ItemIndex="62" Name="大师经验印章" Description="经验值获得提升为 50%/生命值自动恢复提升为 5%" Send="1" Debuff="0" Effect1="6" Value1="50" Effect2="53" Value2="5" Duration="1800"/>
+	<Buff ID="88" Group="13" ItemCat="13" ItemIndex="63" Name="大师神圣印章" Description="物品掉落提升为 150%/魔法值自动恢复提升为 5%" Send="1" Debuff="0" Effect1="7" Value1="50" Effect2="54" Value2="5" Duration="1800"/>
+	<Buff ID="89" Group="14" ItemCat="14" ItemIndex="97" Name="幸运一击卷轴" Description="提升幸运一击攻击力 20% " Send="1" Debuff="0" Effect1="55" Value1="20" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="90" Group="14" ItemCat="14" ItemIndex="98" Name="卓越一击卷轴" Description="提升卓越一击攻击力 20%" Send="1" Debuff="0" Effect1="56" Value1="20" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="91" Group="23" ItemCat="-1" ItemIndex="-1" Name="雪之祝福" Description="提高攻击力，魔法攻击力，诅咒力，防御力" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="92" Group="23" ItemCat="-1" ItemIndex="-1" Name="雪之治疗" Description="提升最大生命值 500" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="93" Group="23" ItemCat="-1" ItemIndex="-1" Name="雪之保护" Description="提升最大魔法值 500" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="94" Group="23" ItemCat="-1" ItemIndex="-1" Name="雪之强化" Description="攻击力，魔法攻击力，诅咒力增加+30" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="95" Group="23" ItemCat="-1" ItemIndex="-1" Name="雪之防御" Description="防御力  +100" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="96" Group="23" ItemCat="-1" ItemIndex="-1" Name="雪之加速" Description="攻击速度  +15" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="97" Group="23" ItemCat="-1" ItemIndex="-1" Name="雪之幸运" Description="提升AG恢复速度 10" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="98" Group="50" ItemCat="-1" ItemIndex="-1" Name="观战" Description="可进入角斗场观战." Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="99" Group="52" ItemCat="13" ItemIndex="81" Name="守护符咒" Description="死亡时没有处罚/恶人状态下无法得到效果" Send="1" Debuff="0" Effect1="8" Value1="0" Effect2="62" Value2="0" Duration="604800"/>
+	<Buff ID="100" Group="53" ItemCat="13" ItemIndex="82" Name="装备保护符咒" Description="维持装备耐久" Send="1" Debuff="0" Effect1="63" Value1="0" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="101" Group="60" ItemCat="13" ItemIndex="93" Name="大师等级经验印章" Description="经验值获得量提升为 50%" Send="1" Debuff="0" Effect1="6" Value1="50" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="102" Group="61" ItemCat="13" ItemIndex="94" Name="大师等级神圣印章" Description="经验值获得量提升为 100%/物品获得概率提升为 150%" Send="1" Debuff="0" Effect1="6" Value1="100" Effect2="7" Value2="50" Duration="1800"/>
+	<Buff ID="103" Group="51" ItemCat="13" ItemIndex="95" Name="角斗士的荣誉" Description="提升经验值 20% /可获得高级装备/只应用于囚禁之岛" Send="1" Debuff="0" Effect1="60" Value1="20" Effect2="61" Value2="1" Duration="3600"/>
+	<Buff ID="104" Group="21" ItemCat="13" ItemIndex="96" Name="强悍印章" Description="提升攻击力与防御力" Send="1" Debuff="0" Effect1="2" Value1="50" Effect2="3" Value2="60" Duration="1800"/>
+	<Buff ID="105" Group="54" ItemCat="-1" ItemIndex="-1" Name="升天" Description="" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="106" Group="55" ItemCat="63" ItemIndex="254" Name="PK惩罚" Description="5分钟内无法使用移动命令窗." Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="107" Group="56" ItemCat="-1" ItemIndex="-1" Name="体能处罚 1阶段" Description="经验值获得量 50% /物品掉落概率 50% " Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="108" Group="56" ItemCat="-1" ItemIndex="-1" Name="体能处罚 2阶段" Description="经验值获得量 50% /物品掉落概率 0% " Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="112" Group="24" ItemCat="13" ItemIndex="103" Name="提升组队经验值物品" Description="根据组队人数最高提升 170% 经验值" Send="1" Debuff="0" Effect1="68" Value1="10" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="113" Group="58" ItemCat="13" ItemIndex="104" Name="最大AG提升 光环" Description="提升最大 AG." Send="1" Debuff="0" Effect1="66" Value1="1" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="114" Group="59" ItemCat="13" ItemIndex="105" Name="最大SD提升 光环" Description="提升最大 SD." Send="1" Debuff="0" Effect1="67" Value1="10" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="115" Group="56" ItemCat="13" ItemIndex="117" Name="最低级活力" Description="经验值获得量 100%/物品掉落概率 100%/一定时间内体能不会减少." Send="1" Debuff="0" Effect1="69" Value1="100" Effect2="0" Value2="0" Duration="21600"/>
+	<Buff ID="116" Group="56" ItemCat="13" ItemIndex="118" Name="低级活力" Description="经验值获得量 100%/物品掉落概率 100%/一定时间内体能不会减少." Send="1" Debuff="0" Effect1="69" Value1="100" Effect2="0" Value2="0" Duration="86400"/>
+	<Buff ID="117" Group="56" ItemCat="13" ItemIndex="119" Name="中级活力" Description="经验值获得量 100%/物品掉落概率 100%/一定时间内体能不会减少." Send="1" Debuff="0" Effect1="69" Value1="100" Effect2="0" Value2="0" Duration="604800"/>
+	<Buff ID="118" Group="56" ItemCat="13" ItemIndex="120" Name="高级活力" Description="经验值获得量 100%/物品掉落概率 100%/一定时间内体能不会减少." Send="1" Debuff="0" Effect1="69" Value1="100" Effect2="0" Value2="0" Duration="2592000"/>
+	<Buff ID="119" Group="61" ItemCat="13" ItemIndex="116" Name="丰收印章" Description="物品掉落概率提升至 150%" Send="1" Debuff="0" Effect1="7" Value1="50" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="120" Group="59" ItemCat="-1" ItemIndex="-1" Name="盗版程序制裁" Description="经验值获得量 50% /物品掉落概率 0% " Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="121" Group="75" ItemCat="14" ItemIndex="140" Name="恢复卷轴" Description="生命自动恢复 +3%/HP +100" Send="1" Debuff="0" Effect1="53" Value1="3" Effect2="4" Value2="100" Duration="1800"/>
+	<Buff ID="122" Group="122" ItemCat="13" ItemIndex="128" Name="神鹰雕像" Description="幸运一击伤害 +10%." Send="0" Debuff="0" Effect1="55" Value1="10" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="123" Group="122" ItemCat="13" ItemIndex="129" Name="山羊雕像" Description="卓越一击伤害 +10%." Send="0" Debuff="0" Effect1="56" Value1="10" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="124" Group="124" ItemCat="13" ItemIndex="130" Name="兽人符文" Description="最大生命值 +50." Send="0" Debuff="0" Effect1="4" Value1="50" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="125" Group="124" ItemCat="13" ItemIndex="131" Name="枫叶符文" Description="最大魔法值 +50." Send="0" Debuff="0" Effect1="5" Value1="50" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="126" Group="124" ItemCat="13" ItemIndex="132" Name="黄金兽人符文" Description="最大生命值 +100 / 最大SD +500." Send="0" Debuff="0" Effect1="4" Value1="100" Effect2="70" Value2="500" Duration="0"/>
+	<Buff ID="127" Group="124" ItemCat="13" ItemIndex="133" Name="黄金枫叶符文" Description="最大魔法值 +150 / 最大AG +50." Send="0" Debuff="0" Effect1="5" Value1="150" Effect2="69" Value2="50" Duration="0"/>
+	<Buff ID="128" Group="128" ItemCat="13" ItemIndex="134" Name="破旧铁蹄" Description="道具追加获得几率提高 +20%." Send="0" Debuff="0" Effect1="7" Value1="20" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="129" Group="79" ItemCat="-1" ItemIndex="-1" Name="无视目标防御" Description="无视目标防御，并提高命中率。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="130" Group="80" ItemCat="-1" ItemIndex="-1" Name="提高体力值" Description="提高体力值" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="131" Group="81" ItemCat="-1" ItemIndex="-1" Name="提高防御成功率" Description="提高防御成功率" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="600"/>
+	<Buff ID="132" Group="82" ItemCat="-1" ItemIndex="-1" Name="降低防御成功率" Description="降低防御成功率" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="133" Group="83" ItemCat="-1" ItemIndex="-1" Name="无敌" Description="无敌状态" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="134" Group="84" ItemCat="-1" ItemIndex="-1" Name="钢铁防御" Description="大幅提高防御和生命值" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="135" Group="8" ItemCat="-1" ItemIndex="-1" Name="情绪高涨" Description="提高最大生命值和魔法值" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="136" Group="8" ItemCat="-1" ItemIndex="-1" Name="情绪高涨" Description="提高最大生命值，魔法值和AG。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="137" Group="85" ItemCat="-1" ItemIndex="-1" Name="出血" Description="持续减少生命力" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="138" Group="45" ItemCat="-1" ItemIndex="-1" Name="魔力增强" Description="提高最小魔力与最大魔力" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="139" Group="45" ItemCat="-1" ItemIndex="-1" Name="魔力增强" Description="提高最小魔力与最大魔力，/提高致命一击几率。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="140" Group="4" ItemCat="-1" ItemIndex="-1" Name="灵魂之盾" Description="以减少魔力为代价吸收伤害，/提高最大魔力值。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="141" Group="86" ItemCat="-1" ItemIndex="-1" Name="破坏一击" Description="降低攻击速度。" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="142" Group="87" ItemCat="-1" ItemIndex="-1" Name="祝福" Description="提高所有属性。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="143" Group="6" ItemCat="-1" ItemIndex="-1" Name="无限之箭" Description="不消耗箭矢，/提高攻击力。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="144" Group="88" ItemCat="-1" ItemIndex="-1" Name="失明" Description="进入失明状态。/降低命中率。" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="145" Group="89" ItemCat="-1" ItemIndex="-1" Name="吸血" Description="每秒减少生命值，并转移到施放目标。" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="146" Group="90" ItemCat="-1" ItemIndex="-1" Name="冻结" Description="进入冰冻状态，无法移动。" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="147" Group="91" ItemCat="-1" ItemIndex="-1" Name="大地束缚" Description="无法移动" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="148" Group="5" ItemCat="-1" ItemIndex="-1" Name="提高致命一击伤害" Description="提高致命一击伤害与几率。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="149" Group="5" ItemCat="-1" ItemIndex="-1" Name="提高致命一击伤害" Description="提高致命一击伤害与几率，/提高卓越一击几率。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="150" Group="288" ItemCat="-1" ItemIndex="-1" Name="狂暴" Description="魔法攻击力/攻击速度提升，防御力下降，最大生命力下降" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="151" Group="288" ItemCat="-1" ItemIndex="-1" Name="狂暴" Description="不使用" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="152" Group="288" ItemCat="-1" ItemIndex="-1" Name="狂暴" Description="魔法攻击力/攻击速度提升" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="153" Group="81" ItemCat="-1" ItemIndex="-1" Name="提高防御成功率" Description="提高最大防御成功率。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="154" Group="81" ItemCat="-1" ItemIndex="-1" Name="提高防御成功率" Description="提高最大防御成功率与防御力。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="155" Group="80" ItemCat="-1" ItemIndex="-1" Name="提高体力" Description="提高体力值。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="156" Group="79" ItemCat="-1" ItemIndex="-1" Name="无视防御" Description="提高无视防御的攻击率，成功攻击到目标后，有一定几率降低目标的防御力与防御成功率。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="157" Group="92" ItemCat="-1" ItemIndex="-1" Name="火焰" Description="火焰伤害，每秒降低生命值。" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="158" Group="93" ItemCat="-1" ItemIndex="-1" Name="寒气" Description="寒冰伤害，每秒降低生命值。" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="159" Group="94" ItemCat="-1" ItemIndex="-1" Name="猛毒" Description="猛毒伤害，每秒降低生命值。" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="160" Group="94" ItemCat="-1" ItemIndex="-1" Name="猛毒" Description="猛毒伤害，每秒降低生命值。" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="161" Group="142" ItemCat="-1" ItemIndex="-1" Name="祝福强化" Description="" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="162" Group="43" ItemCat="-1" ItemIndex="-1" Name="虚弱阵" Description="降低攻击力。" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="163" Group="44" ItemCat="-1" ItemIndex="-1" Name="破御阵" Description="降低防御力。" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="164" Group="30" ItemCat="-1" ItemIndex="-1" Name="鲜血攻击" Description="降低防御力。" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="165" Group="84" ItemCat="-1" ItemIndex="-1" Name="钢铁防御" Description="大幅提高防御力与生命值" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="166" Group="95" ItemCat="-1" ItemIndex="-1" Name="鲜血咆哮" Description="技能成功时，一定几率产生出血效果。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="167" Group="95" ItemCat="-1" ItemIndex="-1" Name="鲜血咆哮" Description="技能成功时，一定几率产生出血效果。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="169" Group="96" ItemCat="-1" ItemIndex="-1" Name="穿刺" Description="降低防御力与防御成功率。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="170" Group="109" ItemCat="14" ItemIndex="172" Name="魔法背包1" Description="魔法背包1" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="171" Group="110" ItemCat="14" ItemIndex="173" Name="魔法背包2" Description="魔法背包2" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="172" Group="111" ItemCat="14" ItemIndex="174" Name="魔法背包3" Description="魔法背包3" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="173" Group="112" ItemCat="14" ItemIndex="175" Name="魔法背包4" Description="魔法背包4" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="174" Group="98" ItemCat="-1" ItemIndex="-1" Name="火焰" Description="降低一半SD。" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="175" Group="99" ItemCat="-1" ItemIndex="-1" Name="寒气" Description="降低一半MP。" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="176" Group="100" ItemCat="-1" ItemIndex="-1" Name="台风" Description="降低一半攻击速度。" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="177" Group="101" ItemCat="-1" ItemIndex="-1" Name="约束" Description="降低一半HP。" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="178" Group="102" ItemCat="-1" ItemIndex="-1" Name="黑暗" Description="眩晕状态，无法进行任何操作。 " Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="179" Group="103" ItemCat="-1" ItemIndex="-1" Name="火之塔" Description="提高技能攻击力+20/ 提高20% 的经验值/ 可掉落套装道具。" Send="1" Debuff="0" Effect1="100" Value1="25" Effect2="6" Value2="20" Duration="0"/>
+	<Buff ID="180" Group="104" ItemCat="-1" ItemIndex="-1" Name="水之塔" Description="提高防御力+30/ 提高20% 的经验值/ 可掉落套装道具。" Send="1" Debuff="0" Effect1="3" Value1="30" Effect2="6" Value2="20" Duration="0"/>
+	<Buff ID="181" Group="105" ItemCat="-1" ItemIndex="-1" Name="土之塔" Description="提高致命一击几率5%/ 提高20% 的经验值/ 可掉落套装道具。" Send="1" Debuff="0" Effect1="55" Value1="5" Effect2="6" Value2="20" Duration="0"/>
+	<Buff ID="182" Group="106" ItemCat="-1" ItemIndex="-1" Name="风之塔" Description="提高攻击力 +20/提高20% 的经验值/ 可掉落套装道具。" Send="1" Debuff="0" Effect1="2" Value1="20" Effect2="6" Value2="20" Duration="0"/>
+	<Buff ID="183" Group="107" ItemCat="-1" ItemIndex="-1" Name="暗之塔" Description="减少10%的伤害/提高20% 的经验值/ 可掉落套装道具。" Send="1" Debuff="0" Effect1="76" Value1="10" Effect2="6" Value2="20" Duration="0"/>
+	<Buff ID="184" Group="108" ItemCat="-1" ItemIndex="-1" Name="复活惩罚" Description="一定时间内，减少移动速度。" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="185" Group="97" ItemCat="14" ItemIndex="163" Name="扩展仓库" Description="扩展仓库" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="186" Group="109" ItemCat="-1" ItemIndex="-1" Name="混乱" Description="受到属性攻击时，一定几率减少移动速度。" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="187" Group="225" ItemCat="-1" ItemIndex="-1" Name="经验奖励" Description="提高20% 的经验值/ 可掉落套装道具。" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="190" Group="115" ItemCat="13" ItemIndex="177" Name="提高符咒 I" Description="增加基本经验值 50%." Send="1" Debuff="0" Effect1="6" Value1="50" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="191" Group="115" ItemCat="13" ItemIndex="178" Name="提高符咒 II" Description="增加基本经验值 100%" Send="1" Debuff="0" Effect1="6" Value1="100" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="192" Group="115" ItemCat="13" ItemIndex="179" Name="提高符咒 III" Description="增加基本经验值 200%" Send="1" Debuff="0" Effect1="6" Value1="200" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="193" Group="60" ItemCat="13" ItemIndex="180" Name="经验印章 II" Description="增加基本经验值 100%" Send="1" Debuff="0" Effect1="6" Value1="100" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="194" Group="60" ItemCat="13" ItemIndex="181" Name="大师等级经验印章 II" Description="增加基本经验值 100% (用于大师等级角色)" Send="1" Debuff="0" Effect1="6" Value1="100" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="195" Group="116" ItemCat="14" ItemIndex="224" Name="光之祝福（高级）" Description="短时间内得到祝福增加基本经验值 200%" Send="1" Debuff="0" Effect1="6" Value1="200" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="196" Group="45" ItemCat="14" ItemIndex="225" Name="大师防御卷轴" Description="" Send="1" Debuff="0" Effect1="3" Value1="120" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="197" Group="47" ItemCat="14" ItemIndex="226" Name="大师魔力卷轴" Description="" Send="1" Debuff="0" Effect1="15" Value1="60" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="198" Group="48" ItemCat="14" ItemIndex="227" Name="大师体力卷轴" Description="" Send="1" Debuff="0" Effect1="4" Value1="400" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="199" Group="49" ItemCat="14" ItemIndex="228" Name="大师魔法卷轴" Description="" Send="1" Debuff="0" Effect1="5" Value1="600" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="200" Group="46" ItemCat="14" ItemIndex="229" Name="大师伤害卷轴" Description="" Send="1" Debuff="0" Effect1="14" Value1="60" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="201" Group="121" ItemCat="14" ItemIndex="230" Name="大师治疗卷轴" Description="" Send="1" Debuff="0" Effect1="24" Value1="4" Effect2="4" Value2="200" Duration="1800"/>
+	<Buff ID="202" Group="89" ItemCat="14" ItemIndex="231" Name="大师战斗卷轴" Description="" Send="1" Debuff="0" Effect1="55" Value1="25" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="203" Group="89" ItemCat="14" ItemIndex="232" Name="大师力量卷轴" Description="" Send="1" Debuff="0" Effect1="56" Value1="25" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="204" Group="44" ItemCat="14" ItemIndex="235" Name="大师移动卷轴" Description="" Send="1" Debuff="0" Effect1="1" Value1="20" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="205" Group="117" ItemCat="13" ItemIndex="2" Name="兽角" Description="召唤兽角后乘骑" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="206" Group="117" ItemCat="13" ItemIndex="3" Name="彩云兽" Description="召唤彩云兽后乘骑" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="207" Group="117" ItemCat="13" ItemIndex="4" Name="黑王马之角" Description="召唤黑王马之角后乘骑" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="208" Group="117" ItemCat="13" ItemIndex="37" Name="炎狼兽之角" Description="召唤炎狼兽后乘骑" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="209" Group="118" ItemCat="-1" ItemIndex="-1" Name="幽冥阵" Description="因大腿麻痹移动速度降至50%" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="210" Group="118" ItemCat="-1" ItemIndex="-1" Name="幽冥阵" Description="因大腿麻痹移动速度降至50%，将持续受害" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="211" Group="119" ItemCat="-1" ItemIndex="-1" Name="网吧" Description="追加获得经验值/在网吧可以进入赤色要塞/卡利玛自由入场/哥布林点数累积" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="212" Group="116" ItemCat="14" ItemIndex="263" Name="光之祝福（低级）" Description="短时间获得祝福/追加获得基本经验值的50%" Send="1" Debuff="0" Effect1="6" Value1="50" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="213" Group="116" ItemCat="14" ItemIndex="264" Name="光之祝福（中级）" Description="短时间获得祝福/追加获得基本经验值的100%" Send="1" Debuff="0" Effect1="6" Value1="100" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="214" Group="120" ItemCat="-1" ItemIndex="-1" Name="闪避" Description="风之气息包住全身提高防御成功率/产生对行动，移动限制的免疫状态" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="215" Group="211" ItemCat="-1" ItemIndex="-1" Name="网吧" Description="" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="216" Group="121" ItemCat="-1" ItemIndex="-1" Name="惩戒之盾" Description="袭击时以一定几率对方的AG每减少10。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="217" Group="122" ItemCat="-1" ItemIndex="-1" Name="黑曜石" Description="技能攻击力提高 %d " Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="218" Group="123" ItemCat="-1" ItemIndex="-1" Name="狂怒" Description="防御力30%下降，攻击力50%提高" Send="600" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="600"/>
+	<Buff ID="219" Group="124" ItemCat="-1" ItemIndex="-1" Name="破御圣言" Description="无视目标防御几率 增加" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="220" Group="122" ItemCat="-1" ItemIndex="-1" Name="黑曜石 强化" Description="技能攻击力提高 %d " Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="221" Group="121" ItemCat="-1" ItemIndex="-1" Name="惩戒之盾强化" Description="袭击时以一定几率使AG减少效果增加%d" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="222" Group="121" ItemCat="-1" ItemIndex="-1" Name="惩戒之盾精通" Description="袭击时以一定几率使AG减少效果增加%d" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="223" Group="123" ItemCat="-1" ItemIndex="-1" Name="狂怒强化" Description="防御力下降 30% , 攻击力提高 50% " Send="600" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="600"/>
+	<Buff ID="224" Group="123" ItemCat="-1" ItemIndex="-1" Name="狂怒 熟练" Description="防御力下降 30% , 攻击力提高 50% " Send="600" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="600"/>
+	<Buff ID="225" Group="123" ItemCat="-1" ItemIndex="-1" Name="狂怒 精通" Description="攻击力提高 50%" Send="600" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="600"/>
+	<Buff ID="226" Group="226" ItemCat="-1" ItemIndex="-1" Name="破御圣言强化" Description="无视目标防御几率 增加" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="227" Group="125" ItemCat="-1" ItemIndex="-1" Name="觉醒成功效果" Description="Evo.mon觉醒成功效果。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="228" Group="126" ItemCat="-1" ItemIndex="-1" Name="觉醒失败效果" Description="Evo.mon觉醒失败效果。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="229" Group="227" ItemCat="-1" ItemIndex="-1" Name="狂暴化" Description="提高攻击力" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="230" Group="228" ItemCat="-1" ItemIndex="-1" Name="分身" Description="召唤分身" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="231" Group="229" ItemCat="-1" ItemIndex="-1" Name="旋转负面效果" Description="旋转目标" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="232" Group="230" ItemCat="13" ItemIndex="5" Name="天鹰之爪" Description="召唤天鹰。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="237" Group="237" ItemCat="13" ItemIndex="476" Name="hyesung" Description=" " Send="1" Debuff="0" Effect1="6" Value1="50" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="238" Group="235" ItemCat="-1" ItemIndex="-1" Name="堡垒" Description="属性伤害减少 90%" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="239" Group="236" ItemCat="-1" ItemIndex="-1" Name="出血" Description="每秒造成出血伤害" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="240" Group="237" ItemCat="-1" ItemIndex="-1" Name="麻痹" Description="移动速度减少，所有恢复能力减少。/（无法自动恢复，药水恢复效果减少）" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="241" Group="238" ItemCat="-1" ItemIndex="-1" Name="束缚" Description="通过大地的力量捆绑大腿使得无法移动" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="242" Group="239" ItemCat="-1" ItemIndex="-1" Name="失明" Description="因无法看到前方，所有攻击成功率降低 %d% " Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="243" Group="240" ItemCat="-1" ItemIndex="-1" Name="免疫l" Description="对属性伤害将变成免疫状态" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="244" Group="240" ItemCat="-1" ItemIndex="-1" Name="免疫ll" Description="对所有状态以上的效果，将变成免疫状态" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="245" Group="241" ItemCat="-1" ItemIndex="-1" Name="狂暴化l" Description="爆发内在的力量，一时大幅增加属性攻击力和属性攻击成功率" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="246" Group="242" ItemCat="-1" ItemIndex="-1" Name="大天使的意志" Description="PK攻击伤害和技能攻击力将提高" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="247" Group="243" ItemCat="-1" ItemIndex="-1" Name="菲利亚组队经验值BUFF" Description="经验值获得量提高10%/每加一个组队员，追加5%的经验值。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="248" Group="244" ItemCat="-1" ItemIndex="-1" Name="鲁内迪的祝福" Description="经验值提高 1阶段: 5%" Send="1" Debuff="0" Effect1="6" Value1="5" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="249" Group="244" ItemCat="-1" ItemIndex="-1" Name="鲁内迪的祝福" Description="经验值提高 2阶段: 10%" Send="1" Debuff="0" Effect1="6" Value1="10" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="250" Group="244" ItemCat="-1" ItemIndex="-1" Name="鲁内迪的祝福" Description="经验值提高 3阶段: 15%" Send="1" Debuff="0" Effect1="6" Value1="15" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="251" Group="244" ItemCat="-1" ItemIndex="-1" Name="鲁内迪的祝福" Description="经验值提高 4阶段: 25%" Send="1" Debuff="0" Effect1="6" Value1="25" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="252" Group="244" ItemCat="-1" ItemIndex="-1" Name="鲁内迪的祝福" Description="经验值提高 5阶段: 35%" Send="1" Debuff="0" Effect1="6" Value1="35" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="253" Group="116" ItemCat="14" ItemIndex="371" Name="光之祝福(高级)" Description="短时间内得到祝福/追加获得基本经验值的200%。" Send="1" Debuff="0" Effect1="6" Value1="200" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="254" Group="116" ItemCat="14" ItemIndex="372" Name="光之祝福(中级)" Description="短时间内得到祝福/追加获得基本经验值的100%。" Send="1" Debuff="0" Effect1="6" Value1="100" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="255" Group="116" ItemCat="14" ItemIndex="373" Name="光之祝福(低级)" Description="短时间内得到祝福/追加获得基本经验值的50%。" Send="1" Debuff="0" Effect1="6" Value1="50" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="256" Group="246" ItemCat="14" ItemIndex="432" Name="[增加]生命之灵药" Description="最大生命力增加 +700" Send="1" Debuff="0" Effect1="4" Value1="700" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="257" Group="246" ItemCat="14" ItemIndex="433" Name="[增加]魔法值之灵药" Description="最大魔法值增加 +700" Send="1" Debuff="0" Effect1="5" Value1="700" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="258" Group="246" ItemCat="14" ItemIndex="434" Name="[增加]迅速之灵药" Description="攻击速度增加 +10" Send="1" Debuff="0" Effect1="1" Value1="10" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="259" Group="247" ItemCat="14" ItemIndex="435" Name="[强化]力量之灵药" Description="攻击力增加 +40" Send="1" Debuff="0" Effect1="14" Value1="40" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="260" Group="247" ItemCat="14" ItemIndex="436" Name="[强化]魔力之灵药" Description="魔法攻击力，诅咒力增加+40" Send="1" Debuff="0" Effect1="15" Value1="40" Effect2="17" Value2="40" Duration="1800"/>
+	<Buff ID="261" Group="247" ItemCat="14" ItemIndex="437" Name="[强化]防御之灵药" Description="防御力增加 +100" Send="1" Debuff="0" Effect1="3" Value1="100" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="262" Group="247" ItemCat="14" ItemIndex="438" Name="[强化]致命之灵药" Description="致命一击伤害增加 +85" Send="1" Debuff="0" Effect1="57" Value1="85" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="263" Group="247" ItemCat="14" ItemIndex="439" Name="[强化]强悍之灵药" Description="卓越一击伤害增加 +85" Send="1" Debuff="0" Effect1="58" Value1="85" Effect2="0" Value2="0" Duration="1800"/>
+	<Buff ID="264" Group="256" ItemCat="-1" ItemIndex="-1" Name="生命之光HP上升效果强化" Description="生命之光HP上升效果强化" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="265" Group="257" ItemCat="-1" ItemIndex="-1" Name="守护之魂伤害减免量增加" Description="守护之魂伤害减免量增加" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="266" Group="258" ItemCat="-1" ItemIndex="-1" Name="狂暴攻击力增加强化" Description="狂暴攻击力增加强化" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="267" Group="259" ItemCat="-1" ItemIndex="-1" Name="去除狂暴防御力减少效果" Description="去除狂暴防御力减少效果" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="268" Group="260" ItemCat="-1" ItemIndex="-1" Name="体力提升技能效果强化" Description="体力提升技能效果强化" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="269" Group="261" ItemCat="-1" ItemIndex="-1" Name="狂怒强化" Description="狂怒强化" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="270" Group="262" ItemCat="-1" ItemIndex="-1" Name="狂怒防御力下降效果减少" Description="狂怒防御力下降效果减少" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="271" Group="263" ItemCat="-1" ItemIndex="-1" Name="SD比率减少" Description="SD比率减少" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="272" Group="264" ItemCat="-1" ItemIndex="-1" Name="SD上升" Description="SD上升" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="273" Group="265" ItemCat="-1" ItemIndex="-1" Name="中毒" Description="中毒" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="274" Group="266" ItemCat="-1" ItemIndex="-1" Name="结冰" Description="结冰" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="275" Group="267" ItemCat="-1" ItemIndex="-1" Name="出血" Description="出血" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="276" Group="268" ItemCat="-1" ItemIndex="-1" Name="冲击" Description="冲击" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="277" Group="269" ItemCat="-1" ItemIndex="-1" Name="猛毒" Description="猛毒" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="278" Group="270" ItemCat="-1" ItemIndex="-1" Name="冻结" Description="冻结" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="279" Group="271" ItemCat="-1" ItemIndex="-1" Name="失血过多" Description="失血过多" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="280" Group="272" ItemCat="-1" ItemIndex="-1" Name="束缚" Description="束缚" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="281" Group="273" ItemCat="-1" ItemIndex="-1" Name="SD减免量增加" Description="SD减免量增加" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="282" Group="274" ItemCat="-1" ItemIndex="-1" Name="增加最大生命力" Description="增加最大生命力" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="283" Group="275" ItemCat="-1" ItemIndex="-1" Name="4代属性" Description="4代属性" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="284" Group="276" ItemCat="-1" ItemIndex="-1" Name="增加基本防御力" Description="增加基本防御力" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="285" Group="277" ItemCat="-1" ItemIndex="-1" Name="增加4代翅膀攻击力" Description="增加4代翅膀攻击力" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="286" Group="278" ItemCat="-1" ItemIndex="-1" Name="增加攻击力" Description="增加攻击力" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="287" Group="279" ItemCat="-1" ItemIndex="-1" Name="增加魔力" Description="增加魔力" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="288" Group="280" ItemCat="-1" ItemIndex="-1" Name="4代属性" Description="4代属性" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="289" Group="281" ItemCat="-1" ItemIndex="-1" Name="增加技能伤害" Description="增加技能伤害" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="290" Group="282" ItemCat="-1" ItemIndex="-1" Name="增加4代翅膀攻击力" Description="增加4代翅膀攻击力" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="291" Group="283" ItemCat="-1" ItemIndex="-1" Name="增加攻击力/魔力" Description="增加攻击力/魔力" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="292" Group="284" ItemCat="14" ItemIndex="453" Name="switch卷轴" Description="switch模式时可使用CTRL+F 键" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="999999999"/>
+	<Buff ID="293" Group="285" ItemCat="-1" ItemIndex="-1" Name="魔能灌注" Description="增加技能 MP消耗量，提升伤害" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="294" Group="286" ItemCat="-1" ItemIndex="-1" Name="极速之光" Description="增加技能 AG消耗量，提升攻击速度" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="295" Group="285" ItemCat="-1" ItemIndex="-1" Name="魔能灌注强化" Description="增加技能 MP消耗量，提升伤害" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="296" Group="285" ItemCat="-1" ItemIndex="-1" Name="魔能灌注精通" Description="增加技能 MP消耗量，提升伤害" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="298" Group="286" ItemCat="-1" ItemIndex="-1" Name="极速之光强化" Description="增加技能 AG消耗量，提升攻击速度" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="299" Group="286" ItemCat="-1" ItemIndex="-1" Name="极速之光精通" Description="增加技能 AG消耗量，提升攻击速度" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="301" Group="288" ItemCat="-1" ItemIndex="-1" Name="黑暗镇魂曲" Description="诅咒力/防御力提升，最大生命力下降" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="302" Group="288" ItemCat="-1" ItemIndex="-1" Name="黑暗镇魂曲" Description="诅咒力/防御力提升，最大生命力下降" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="303" Group="288" ItemCat="-1" ItemIndex="-1" Name="黑暗镇魂曲" Description="诅咒力/防御力提升" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="304" Group="43" ItemCat="-1" ItemIndex="-1" Name="虚弱阵精通" Description="虚弱阵效果影响对方的属性攻击力。" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="305" Group="43" ItemCat="-1" ItemIndex="-1" Name="破御阵精通" Description="虚弱阵效果影响对方的属性防御力。" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="306" Group="289" ItemCat="-1" ItemIndex="-1" Name="恶灵召唤" Description="恶灵召唤跟角色一起攻击敌人。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="307" Group="290" ItemCat="12" ItemIndex="471" Name="护卫莱昂" Description="护卫骑乘道具" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="308" Group="291" ItemCat="-1" ItemIndex="-1" Name="移动速度增加" Description="护卫骑乘专用技能" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="309" Group="292" ItemCat="-1" ItemIndex="-1" Name="精英怪物 - 出血" Description="精英怪物 - 出血" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="310" Group="293" ItemCat="-1" ItemIndex="-1" Name="精英怪物 - 中毒" Description="精英怪物 - 中毒" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="311" Group="294" ItemCat="-1" ItemIndex="-1" Name="精英怪物 - 攻击力减少" Description="精英怪物 - 攻击力减少" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="312" Group="295" ItemCat="-1" ItemIndex="-1" Name="精英怪物 - 攻击速度减少" Description="精英怪物 - 攻击速度减少" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="313" Group="296" ItemCat="-1" ItemIndex="-1" Name="精英怪物 - 防御力减少" Description="精英怪物 - 防御力减少" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="314" Group="283" ItemCat="-1" ItemIndex="-1" Name="诅咒力，魔法攻击力增加" Description="诅咒力，魔法攻击力增加" Send="0" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="315" Group="297" ItemCat="-1" ItemIndex="-1" Name="绯红吟唱" Description="每秒受到蝙蝠群的伤害" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="316" Group="298" ItemCat="-1" ItemIndex="-1" Name="鹰眼" Description="暂时探测周围的生命体位置(探测结果会在迷你地图中显示。持续时间：1分钟)该技能无法在特殊地图中使用" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="317" Group="299" ItemCat="-1" ItemIndex="-1" Name="战神附体" Description="攻击时无视敌人的%d防御力" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="318" Group="298" ItemCat="-1" ItemIndex="-1" Name="鹰眼强化" Description="暂时探测周围的生命体位置(探测结果会在迷你地图中显示。持续时间：1分钟)该技能无法在特殊地图中使用" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="319" Group="299" ItemCat="-1" ItemIndex="-1" Name="战神附体强化" Description="攻击时无视敌人的%d防御力" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="320" Group="299" ItemCat="-1" ItemIndex="-1" Name="战神附体精通" Description="攻击时无视敌人的%d防御力" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="321" Group="300" ItemCat="-1" ItemIndex="-1" Name="战神附体 - 减少技能攻击力" Description="" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="322" Group="290" ItemCat="12" ItemIndex="483" Name="装备龙魂(冰晶)" Description="护卫骑乘道具" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="323" Group="290" ItemCat="12" ItemIndex="484" Name="装备圣迹龙魂(赤耀)" Description="护卫骑乘道具" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="324" Group="301" ItemCat="-1" ItemIndex="-1" Name="剑之愤怒" Description="转换为愤怒剑士。增加袭风刺系攻击技能的使用距离及伤害范围" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="325" Group="302" ItemCat="-1" ItemIndex="-1" Name="坚强的信念" Description="转换为信念剑士。属性效率变更后可使用坚固的庇护技能" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="326" Group="303" ItemCat="-1" ItemIndex="-1" Name="坚固的庇护" Description="增加队友的攻击力和魔法攻击力, 吸收队友的HP后代替承受一部分的伤害" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="327" Group="301" ItemCat="-1" ItemIndex="-1" Name="剑之愤怒强化" Description="转换为愤怒剑士。增加袭风刺系攻击技能的使用距离及伤害范围" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="328" Group="301" ItemCat="-1" ItemIndex="-1" Name="剑之愤怒精通" Description="转换为愤怒剑士。增加袭风刺系攻击技能的使用距离及伤害范围" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="329" Group="303" ItemCat="-1" ItemIndex="-1" Name="坚固的庇护强化" Description="增加队友的攻击力和魔法攻击力, 吸收队友的HP后代替承受一部分的伤害" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="330" Group="303" ItemCat="-1" ItemIndex="-1" Name="坚固的庇护熟练" Description="增加队友的攻击力和魔法攻击力, 吸收队友的HP后代替承受一部分的伤害" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="331" Group="303" ItemCat="-1" ItemIndex="-1" Name="坚固的庇护精通" Description="增加队友的攻击力和魔法攻击力, 吸收队友的HP后代替承受一部分的伤害" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="332" Group="303" ItemCat="-1" ItemIndex="-1" Name="坚固的庇护精通" Description="增加队友的攻击力和魔法攻击力, 吸收队友的HP后代替承受一部分的伤害" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="333" Group="304" ItemCat="-1" ItemIndex="-1" Name="坚固的庇护效果" Description="剑士的庇护效果" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="334" Group="302" ItemCat="-1" ItemIndex="-1" Name="坚强的信念技能强化" Description="转换为信念剑士。属性效率变更后可使用坚固的庇护技能" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="335" Group="303" ItemCat="-1" ItemIndex="-1" Name="坚固的庇护技能强化" Description="增加队友的攻击力和魔法攻击力, 吸收队友的HP后代替承受一部分的伤害" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="336" Group="302" ItemCat="-1" ItemIndex="-1" Name="坚强的信念强化" Description="转换为信念剑士。属性效率变更后可使用坚固的庇护技能" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="339" Group="310" ItemCat="-1" ItemIndex="-1" Name="援护 - 未激活" Description="援护Buff未激活状态/光明法师和圣光学者组队时激活援护Buff。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="340" Group="310" ItemCat="-1" ItemIndex="-1" Name="援护" Description="由于光明法师和圣光学者的援护关系增加伤害。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="341" Group="310" ItemCat="-1" ItemIndex="-1" Name="援护 - 队友" Description="由于光明法师和圣光学者的援护关系增加伤害。/(光明法师和圣光学者之外其他队友增加的伤害不相同)" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="342" Group="311" ItemCat="-1" ItemIndex="-1" Name="圣光戒线" Description="由于光明法师和圣光学者的援护关系生成相互连接的圣光戒线。/(怪物触碰到该Buff时受到伤害)" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="343" Group="39" ItemCat="-1" ItemIndex="-1" Name="惩戒屏障" Description="对自身或我方目标生成反射屏障受到冲击伤害时以50%概率阻止伤害并反射一部分伤害。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="345" Group="39" ItemCat="-1" ItemIndex="-1" Name="惩戒屏障" Description="对自身或我方目标生成反射屏障，受到冲击伤害时以50%概率阻止伤害并反射一部分伤害。/增加最大魔法值。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="346" Group="1" ItemCat="-1" ItemIndex="-1" Name="圣力灌注" Description="增加攻击力" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="347" Group="2" ItemCat="-1" ItemIndex="-1" Name="圣盾术" Description="增加防御力" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="348" Group="87" ItemCat="-1" ItemIndex="-1" Name="圣佑术" Description="增加所有属性" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="349" Group="306" ItemCat="-1" ItemIndex="-1" Name="20周年活动0等级" Description="经验值增加5%" Send="1" Debuff="0" Effect1="6" Value1="5" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="350" Group="306" ItemCat="-1" ItemIndex="-1" Name="20周年活动1等级" Description="经验值增加5%" Send="1" Debuff="0" Effect1="6" Value1="5" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="351" Group="306" ItemCat="-1" ItemIndex="-1" Name="20周年活动2等级" Description="经验值增加5%" Send="1" Debuff="0" Effect1="6" Value1="5" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="352" Group="306" ItemCat="-1" ItemIndex="-1" Name="20周年活动3等级" Description="经验值增加10%" Send="1" Debuff="0" Effect1="6" Value1="10" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="353" Group="306" ItemCat="-1" ItemIndex="-1" Name="20周年活动4等级" Description="经验值增加10%" Send="1" Debuff="0" Effect1="6" Value1="10" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="354" Group="306" ItemCat="-1" ItemIndex="-1" Name="20周年活动5等级" Description="经验值增加10%" Send="1" Debuff="0" Effect1="6" Value1="10" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="355" Group="306" ItemCat="-1" ItemIndex="-1" Name="20周年活动6等级" Description="经验值增加15%" Send="1" Debuff="0" Effect1="6" Value1="15" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="356" Group="306" ItemCat="-1" ItemIndex="-1" Name="20周年活动7等级" Description="经验值增加15%" Send="1" Debuff="0" Effect1="6" Value1="15" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="357" Group="306" ItemCat="-1" ItemIndex="-1" Name="20周年活动8等级" Description="经验值增加15%" Send="1" Debuff="0" Effect1="6" Value1="15" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="358" Group="306" ItemCat="-1" ItemIndex="-1" Name="20周年活动9等级" Description="经验值增加20%" Send="1" Debuff="0" Effect1="6" Value1="20" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="359" Group="306" ItemCat="-1" ItemIndex="-1" Name="20周年活动10等级" Description="经验值增加20%" Send="1" Debuff="0" Effect1="6" Value1="20" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="360" Group="306" ItemCat="-1" ItemIndex="-1" Name="20周年活动11等级" Description="经验值增加20%" Send="1" Debuff="0" Effect1="6" Value1="20" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="361" Group="306" ItemCat="-1" ItemIndex="-1" Name="20周年活动12等级" Description="经验值增加20%" Send="1" Debuff="0" Effect1="6" Value1="20" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="362" Group="306" ItemCat="-1" ItemIndex="-1" Name="20周年活动13等级" Description="经验值增加20%" Send="1" Debuff="0" Effect1="6" Value1="20" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="363" Group="306" ItemCat="-1" ItemIndex="-1" Name="20周年活动14等级" Description="经验值增加20%" Send="1" Debuff="0" Effect1="6" Value1="20" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="364" Group="306" ItemCat="-1" ItemIndex="-1" Name="20周年活动15等级" Description="经验值增加20%" Send="1" Debuff="0" Effect1="6" Value1="20" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="365" Group="307" ItemCat="-1" ItemIndex="-1" Name="火焰领域" Description="转换为双手剑魔剑士/增加攻击力和防御力/增加黯月斩和火血技能使用距离，每3次攻击时爆发强烈的剑气。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="366" Group="307" ItemCat="-1" ItemIndex="-1" Name="冰封领域" Description="转换为单手剑魔剑士/增加攻击速度和防御力/增加黯月斩和冰封血技能使用距离，每3次攻击时爆发强烈的剑气。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="367" Group="307" ItemCat="-1" ItemIndex="-1" Name="魔法领域" Description="转换为法师型魔剑士/增加魔法攻击力和防御力/增加坠星技能使用距离，每3次攻击时爆发强烈的新星。" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="368" Group="307" ItemCat="-1" ItemIndex="-1" Name="火焰领域强化" Description="转换为双手剑魔剑士/增加攻击力和防御力/增加黯月斩和火血技能使用距离，每3次攻击时爆发强烈的剑气。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="120"/>
+	<Buff ID="369" Group="307" ItemCat="-1" ItemIndex="-1" Name="火焰领域精通" Description="转换为双手剑魔剑士/增加攻击力和防御力/增加黯月斩和火血技能使用距离，每3次攻击时爆发强烈的剑气。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="120"/>
+	<Buff ID="370" Group="307" ItemCat="-1" ItemIndex="-1" Name="冰封领域强化" Description="转换为单手剑魔剑士/增加攻击速度和防御力/增加黯月斩和冰封血技能使用距离，每3次攻击时爆发强烈的剑气。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="371" Group="307" ItemCat="-1" ItemIndex="-1" Name="冰封领域精通" Description="转换为单手剑魔剑士/增加攻击速度和防御力/增加黯月斩和冰封血技能使用距离，每3次攻击时爆发强烈的剑气。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="372" Group="307" ItemCat="-1" ItemIndex="-1" Name="魔法领域强化" Description="转换为法师型魔剑士/增加魔法攻击力和防御力/增加坠星技能使用距离，每3次攻击时爆发强烈的新星。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="373" Group="307" ItemCat="-1" ItemIndex="-1" Name="魔法领域精通" Description="转换为法师型魔剑士/增加魔法攻击力和防御力/增加坠星技能使用距离，每3次攻击时爆发强烈的新星。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="374" Group="290" ItemCat="12" ItemIndex="75" Name="装备勇士莫仑" Description="护卫骑乘道具" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="375" Group="290" ItemCat="12" ItemIndex="76" Name="装备狮王阿斯兰" Description="护卫骑乘道具" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="376" Group="313" ItemCat="-1" ItemIndex="-1" Name="元素之力" Description="穿戴专用装备可加强装备能力" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="377" Group="316" ItemCat="-1" ItemIndex="-1" Name="经验之祝福" Description="获得经验之祝福/追加获取基本经验值的35%" Send="1" Debuff="0" Effect1="6" Value1="35" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="378" Group="308" ItemCat="-1" ItemIndex="-1" Name="黯月斩" Description="" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="379" Group="308" ItemCat="-1" ItemIndex="-1" Name="坠星" Description="" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="380" Group="309" ItemCat="-1" ItemIndex="-1" Name="火力爆发" Description="变更魔法攻击力，攻击速度和防御力的属性效果 (鼠标点击右键解除buff)" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="381" Group="309" ItemCat="-1" ItemIndex="-1" Name="火力爆发强化" Description="变更魔法攻击力，攻击速度和防御力的属性效果 (鼠标点击右键解除buff)" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="382" Group="309" ItemCat="-1" ItemIndex="-1" Name="火力爆发精通" Description="变更魔法攻击力，攻击速度和防御力的属性效果 (鼠标点击右键解除buff)" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="383" Group="317" ItemCat="-1" ItemIndex="-1" Name="惩戒屏障(反射屏障)" Description="惩戒屏障反射屏障效果" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="384" Group="318" ItemCat="-1" ItemIndex="-1" Name="专用装备追加效果-武器" Description="佩戴角色的专用装备加强装备能力" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="385" Group="306" ItemCat="-1" ItemIndex="-1" Name="20周年活动16等级" Description="经验值增加20%" Send="1" Debuff="0" Effect1="6" Value1="20" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="386" Group="306" ItemCat="-1" ItemIndex="-1" Name="20周年活动17等级" Description="经验值增加20%" Send="1" Debuff="0" Effect1="6" Value1="20" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="387" Group="306" ItemCat="-1" ItemIndex="-1" Name="20周年活动18等级" Description="经验值增加20%" Send="1" Debuff="0" Effect1="6" Value1="20" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="388" Group="306" ItemCat="-1" ItemIndex="-1" Name="20周年活动19等级" Description="经验值增加20%" Send="1" Debuff="0" Effect1="6" Value1="20" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="389" Group="306" ItemCat="-1" ItemIndex="-1" Name="20周年活动20等级" Description="经验值增加20%" Send="1" Debuff="0" Effect1="6" Value1="20" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="390" Group="306" ItemCat="-1" ItemIndex="-1" Name="20周年活动21等级" Description="经验值增加20%" Send="1" Debuff="0" Effect1="6" Value1="20" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="391" Group="306" ItemCat="-1" ItemIndex="-1" Name="20周年活动22等级" Description="经验值增加20%" Send="1" Debuff="0" Effect1="6" Value1="20" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="392" Group="306" ItemCat="-1" ItemIndex="-1" Name="20周年活动23等级" Description="经验值增加20%" Send="1" Debuff="0" Effect1="6" Value1="20" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="393" Group="306" ItemCat="-1" ItemIndex="-1" Name="20周年活动24等级" Description="经验值增加20%" Send="1" Debuff="0" Effect1="6" Value1="20" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="394" Group="306" ItemCat="-1" ItemIndex="-1" Name="20周年活动25等级" Description="经验值增加20%" Send="1" Debuff="0" Effect1="6" Value1="20" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="395" Group="319" ItemCat="-1" ItemIndex="-1" Name="迅捷之光" Description="增加移动速度, 攻击速度, 攻击成功率。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="396" Group="320" ItemCat="-1" ItemIndex="-1" Name="属性攻击力提升" Description="增加属性攻击力/(装备元素属性时效果生效)" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="397" Group="321" ItemCat="-1" ItemIndex="-1" Name="属性防御力提升" Description="增加属性防御力/(装备元素属性时效果生效)" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="398" Group="320" ItemCat="-1" ItemIndex="-1" Name="强化属性攻击力提升" Description="增加属性攻击力/(装备元素属性时效果生效)" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="399" Group="321" ItemCat="-1" ItemIndex="-1" Name="强化属性防御力提升" Description="增加属性防御力/(装备元素属性时效果生效)" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="400" Group="1" ItemCat="-1" ItemIndex="-1" Name="强化攻击力提升" Description="增加攻击力" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="401" Group="2" ItemCat="-1" ItemIndex="-1" Name="强化防御力提升" Description="增加防御力" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="402" Group="87" ItemCat="-1" ItemIndex="-1" Name="强化祝福" Description="增加所有属性" Send="1" Debuff="0" Effect1="0" Value1="2" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="403" Group="322" ItemCat="12" ItemIndex="83" Name="装备黯狐守卫" Description="护卫骑乘道具" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="404" Group="322" ItemCat="12" ItemIndex="84" Name="装备赤红魅影" Description="护卫骑乘道具" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="405" Group="323" ItemCat="-1" ItemIndex="-1" Name="血刃" Description="召唤血刃，增加角色的攻击力。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="406" Group="323" ItemCat="-1" ItemIndex="-1" Name="强化血刃" Description="召唤血刃，增加角色的攻击力和技能攻击力。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="407" Group="323" ItemCat="-1" ItemIndex="-1" Name="熟练血刃" Description="召唤血刃，增加角色的攻击力, 技能攻击力, 攻击速度。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="408" Group="323" ItemCat="-1" ItemIndex="-1" Name="精通血刃" Description="召唤血刃，增加角色的攻击力, 技能攻击力, 攻击速度。 /攻击敌人时，敌人受到的伤害增加5%。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="409" Group="324" ItemCat="-1" ItemIndex="-1" Name="赤色迷影" Description="召唤赤色战士的幻影攻击周围怪物。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="410" Group="325" ItemCat="-1" ItemIndex="-1" Name="增加伤害" Description="赤色战士攻击怪物时，怪物受到的所有伤害增加5%。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="411" Group="326" ItemCat="-1" ItemIndex="-1" Name="冒险者通行证 - 增加最大HP" Description="最大HP增加%d。" Send="1" Debuff="1" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="412" Group="327" ItemCat="-1" ItemIndex="-1" Name="英雄通行证 - 增加基本经验值" Description="基本经验值增加%0.1f%%。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="413" Group="328" ItemCat="-1" ItemIndex="-1" Name="英雄通行证 - 增加神佑宠物倍数" Description="神佑宠物倍数效果额外增加%d倍。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="414" Group="329" ItemCat="-1" ItemIndex="-1" Name="勇士通行证 - 精通之魂的结晶" Description="击杀怪物时以%0.3f%%概率获得精通之魂的结晶。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="415" Group="330" ItemCat="-1" ItemIndex="-1" Name="英雄通行证 - 精通之魂的结晶" Description="击杀怪物时以%0.3f%%概率获得精通之魂的结晶。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="418" Group="331" ItemCat="12" ItemIndex="93" Name="装备巴萨卡" Description="护卫道具" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="419" Group="332" ItemCat="12" ItemIndex="94" Name="装备阿尔提奥" Description="护卫道具" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="420" Group="333" ItemCat="14" ItemIndex="366" Name="一片披萨" Description="额外获得基础经验值的50%/攻击速度增加10。" Send="1" Debuff="0" Effect1="6" Value1="50" Effect2="1" Value2="10" Duration="1800"/>
+	<Buff ID="421" Group="334" ItemCat="-1" ItemIndex="-1" Name="追击重点爆破伤害" Description="攻击时造成追击重点爆破伤害。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="422" Group="335" ItemCat="-1" ItemIndex="-1" Name="追击多点突袭伤害" Description="攻击时造成追击多点突袭伤害。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="423" Group="336" ItemCat="-1" ItemIndex="-1" Name="追击区域轰炸伤害" Description="攻击时造成追击区域轰炸伤害。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="424" Group="123" ItemCat="-1" ItemIndex="-1" Name="狂怒" Description="增加自身的攻击力和战斗威力。降低防御力。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="425" Group="123" ItemCat="-1" ItemIndex="-1" Name="狂怒强化" Description="增加自身的攻击力和战斗威力。降低防御力。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="426" Group="116" ItemCat="14" ItemIndex="69" Name="[网吧]光之祝福（高级）" Description="在短时间内获得祝福/额外获得基本经验值的200%。" Send="1" Debuff="0" Effect1="0" Value1="6" Effect2="200" Value2="0" Duration="1800"/>
+	<Buff ID="427" Group="87" ItemCat="-1" ItemIndex="-1" Name="皇冠之力" Description="提高所有属性。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="428" Group="337" ItemCat="-1" ItemIndex="-1" Name="神圣之力" Description="增加角色自身以及队友的攻击力/魔法力/诅咒力，持续3秒。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="429" Group="337" ItemCat="-1" ItemIndex="-1" Name="神圣光环" Description="增加角色自身以及队友的防御力，持续3秒。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="430" Group="117" ItemCat="20" ItemIndex="247" Name="神马" Description="召唤神马。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="431" Group="230" ItemCat="20" ItemIndex="248" Name="火神灵" Description="召唤火神灵。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="432" Group="230" ItemCat="20" ItemIndex="249" Name="冰神灵" Description="召唤冰神灵。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="433" Group="230" ItemCat="20" ItemIndex="250" Name="神圣的神灵" Description="召唤神圣的神灵。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="434" Group="338" ItemCat="12" ItemIndex="51" Name="装备利维坦" Description="护卫骑乘道具。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="435" Group="338" ItemCat="12" ItemIndex="52" Name="装备利维坦(稀有)" Description="护卫骑乘道具。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="436" Group="337" ItemCat="-1" ItemIndex="-1" Name="战斗荣耀" Description="增加攻击力/战斗力(%)。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="437" Group="337" ItemCat="-1" ItemIndex="-1" Name="战斗荣耀增强" Description="增加攻击力/战斗力(%)。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<Buff ID="442" Group="230" ItemCat="20" ItemIndex="256" Name="[绑定]神灵" Description="召唤[绑定]神灵。" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+	<!-- S20.1 -->
+	<Buff ID="443" Group="339" ItemCat="-1" ItemIndex="-1" Name="迷惑石" Description="" Send="1" Debuff="0" Effect1="0" Value1="0" Effect2="0" Value2="0" Duration="0"/>
+</BuffTemplate>

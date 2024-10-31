@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==                 File Name: LuaCommands                 ==
+// ============================================================
+-->
+
+<CommandList>
+	<CommandSystem Type="16" Description="Custom Lua Commands">
+</CommandSystem>
+</CommandList>

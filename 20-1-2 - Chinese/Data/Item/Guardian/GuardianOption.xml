@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==               File Name: GuardianOption                ==
+// ============================================================
+-->
+
+<GuardianOptionData>
+	<GuardianOption>
+		<Option ID="0" Name="Increases Elemental Damage +%d"/>
+		<Option ID="1" Name="Increases Elemental Defense +%d"/>
+		<Option ID="2" Name="(Up to level %d)Increases Defense by %0.1f per level/20"/>
+		<Option ID="3" Name="(Up to level %d)Increases Attack Power/Wizardry/Curse by %0.1f per level/20"/>
+		<Option ID="4" Name="3%% chance to recover %d life when attack is successful"/>
+	</GuardianOption>
+	
+	<GuardianOptionValue>
+		<!-- Ghost Horse -->
+		<Value Type="1" ID="0" Formula="0" ValueType="0" Condition="-1"/>
+		<Value Type="1" ID="1" Formula="1" ValueType="0" Condition="-1"/>
+		<Value Type="1" ID="2" Formula="2" ValueType="0" Condition="1100"/>
+		<Value Type="1" ID="3" Formula="3" ValueType="0" Condition="1100"/>
+		<Value Type="1" ID="4" Formula="4" ValueType="0" Condition="-1"/>
+		<!-- Ice Dragon -->
+		<Value Type="2" ID="0" Formula="10" ValueType="0" Condition="-1"/>
+		<Value Type="2" ID="1" Formula="11" ValueType="0" Condition="-1"/>
+		<Value Type="2" ID="2" Formula="12" ValueType="0" Condition="1100"/>
+		<Value Type="2" ID="3" Formula="13" ValueType="0" Condition="1100"/>
+		<Value Type="2" ID="4" Formula="14" ValueType="0" Condition="-1"/>
+		<!-- Pierce Lion -->
+		<Value Type="3" ID="0" Formula="20" ValueType="0" Condition="-1"/>
+		<Value Type="3" ID="1" Formula="21" ValueType="0" Condition="-1"/>
+		<Value Type="3" ID="2" Formula="22" ValueType="0" Condition="1100"/>
+		<Value Type="3" ID="3" Formula="23" ValueType="0" Condition="1100"/>
+		<Value Type="3" ID="4" Formula="24" ValueType="0" Condition="-1"/>
+		<!-- Shining Tail -->
+		<Value Type="4" ID="0" Formula="31" ValueType="0" Condition="-1"/>
+		<Value Type="4" ID="1" Formula="32" ValueType="0" Condition="-1"/>
+		<Value Type="4" ID="2" Formula="33" ValueType="0" Condition="1100"/>
+		<Value Type="4" ID="3" Formula="34" ValueType="0" Condition="1100"/>
+		<Value Type="4" ID="4" Formula="35" ValueType="0" Condition="-1"/>
+		<!-- Ur -->
+		<Value Type="5" ID="0" Formula="41" ValueType="0" Condition="-1"/>
+		<Value Type="5" ID="1" Formula="42" ValueType="0" Condition="-1"/>
+		<Value Type="5" ID="2" Formula="43" ValueType="0" Condition="1100"/>
+		<Value Type="5" ID="3" Formula="44" ValueType="0" Condition="1100"/>
+		<Value Type="5" ID="4" Formula="45" ValueType="0" Condition="-1"/>
+		<!-- Leviathan -->
+		<Value Type="6" ID="0" Formula="51" ValueType="0" Condition="-1"/>
+		<Value Type="6" ID="1" Formula="52" ValueType="0" Condition="-1"/>
+		<Value Type="6" ID="2" Formula="53" ValueType="0" Condition="1100"/>
+		<Value Type="6" ID="3" Formula="54" ValueType="0" Condition="1100"/>
+		<Value Type="6" ID="4" Formula="55" ValueType="0" Condition="-1"/>
+	</GuardianOptionValue>
+	
+	<GuardianEliteOption>
+		<Option ID="0" Name="Bleeding Resistance +%d"/>
+		<Option ID="1" Name="Poison Resistance +%d"/>
+		<Option ID="2" Name="Damage Reduction Resistance +%d"/>
+		<Option ID="3" Name="Attack Speed Reduction Resistance +%d"/>
+		<Option ID="4" Name="Defense Reduction Resistance +%d"/>
+	</GuardianEliteOption>
+	
+	<GuardianEliteOptionValue>
+		<!-- Ghost Horse -->
+		<Value Type="1" Group="0" ID="0" Formula1="5" ValueType="0" ID2="2" Formula2="7" ValueType2="0"/>
+		<Value Type="1" Group="1" ID="1" Formula1="6" ValueType="0" ID2="2" Formula2="7" ValueType2="0"/>
+		<Value Type="1" Group="2" ID="0" Formula1="5" ValueType="0" ID2="3" Formula2="8" ValueType2="0"/>
+		<Value Type="1" Group="3" ID="1" Formula1="6" ValueType="0" ID2="4" Formula2="9" ValueType2="0"/>
+		<Value Type="1" Group="4" ID="0" Formula1="5" ValueType="0" ID2="4" Formula2="9" ValueType2="0"/>
+		<!-- Ice Dragon -->
+		<Value Type="2" Group="0" ID="0" Formula1="15" ValueType="0" ID2="2" Formula2="17" ValueType2="0"/>
+		<Value Type="2" Group="1" ID="1" Formula1="16" ValueType="0" ID2="2" Formula2="17" ValueType2="0"/>
+		<Value Type="2" Group="2" ID="0" Formula1="15" ValueType="0" ID2="3" Formula2="18" ValueType2="0"/>
+		<Value Type="2" Group="3" ID="1" Formula1="16" ValueType="0" ID2="4" Formula2="19" ValueType2="0"/>
+		<Value Type="2" Group="4" ID="0" Formula1="15" ValueType="0" ID2="4" Formula2="19" ValueType2="0"/>
+		<!-- Pierce Lion -->
+		<Value Type="3" Group="0" ID="0" Formula1="25" ValueType="0" ID2="2" Formula2="27" ValueType2="0"/>
+		<Value Type="3" Group="1" ID="1" Formula1="26" ValueType="0" ID2="2" Formula2="27" ValueType2="0"/>
+		<Value Type="3" Group="2" ID="0" Formula1="25" ValueType="0" ID2="3" Formula2="28" ValueType2="0"/>
+		<Value Type="3" Group="3" ID="1" Formula1="26" ValueType="0" ID2="4" Formula2="29" ValueType2="0"/>
+		<Value Type="3" Group="4" ID="0" Formula1="25" ValueType="0" ID2="4" Formula2="29" ValueType2="0"/>
+		<!-- Shining Tail -->
+		<Value Type="4" Group="0" ID="0" Formula1="36" ValueType="0" ID2="2" Formula2="38" ValueType2="0"/>
+		<Value Type="4" Group="1" ID="1" Formula1="37" ValueType="0" ID2="2" Formula2="38" ValueType2="0"/>
+		<Value Type="4" Group="2" ID="0" Formula1="36" ValueType="0" ID2="3" Formula2="39" ValueType2="0"/>
+		<Value Type="4" Group="3" ID="1" Formula1="37" ValueType="0" ID2="4" Formula2="40" ValueType2="0"/>
+		<Value Type="4" Group="4" ID="0" Formula1="36" ValueType="0" ID2="4" Formula2="40" ValueType2="0"/>
+		<!-- Ur -->
+		<Value Type="5" Group="0" ID="0" Formula1="46" ValueType="0" ID2="2" Formula2="48" ValueType2="0"/>
+		<Value Type="5" Group="1" ID="1" Formula1="47" ValueType="0" ID2="2" Formula2="48" ValueType2="0"/>
+		<Value Type="5" Group="2" ID="0" Formula1="46" ValueType="0" ID2="3" Formula2="49" ValueType2="0"/>
+		<Value Type="5" Group="3" ID="1" Formula1="47" ValueType="0" ID2="4" Formula2="50" ValueType2="0"/>
+		<Value Type="5" Group="4" ID="0" Formula1="46" ValueType="0" ID2="4" Formula2="50" ValueType2="0"/>
+		<!--Leviathan -->
+		<Value Type="6" Group="0" ID="0" Formula1="56" ValueType="0" ID2="2" Formula2="58" ValueType2="0"/>
+		<Value Type="6" Group="1" ID="1" Formula1="57" ValueType="0" ID2="2" Formula2="58" ValueType2="0"/>
+		<Value Type="6" Group="2" ID="0" Formula1="56" ValueType="0" ID2="3" Formula2="59" ValueType2="0"/>
+		<Value Type="6" Group="3" ID="1" Formula1="57" ValueType="0" ID2="4" Formula2="60" ValueType2="0"/>
+		<Value Type="6" Group="4" ID="0" Formula1="56" ValueType="0" ID2="4" Formula2="60" ValueType2="0"/>
+	</GuardianEliteOptionValue>
+</GuardianOptionData>

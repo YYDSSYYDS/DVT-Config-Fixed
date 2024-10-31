@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// == 				   File Name: 商店列表					 ==
+// ============================================================
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//	Type determines currency type to buy items from Shop 
+//	0: is zen
+//	1: and 4 is Ruud
+//	2: is WCoin
+//	3: is Goblin Points
+//	5: is Rare Ticket
+//	6: is Jewel of Bless
+//	7: is Jewel of Soul
+//	8: is Jewel of Chaos
+-->
+
+<ShopList>
+   	<Shop ID="0" Name="hanzo_the_blacksmith" MaxPkLevel="4" Message="不卖东西给恶人。" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(0)_Hanzo_the_Blacksmith.xml" /> <!-- 噪音 汉斯 -->
+	<Shop ID="1" Name="lumen_the_barmaid" MaxPkLevel="4" Message="不卖东西给恶人。" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(1)_Lumen_the_Barmaid.xml" /> <!-- 风骚入骨 莉雅 -->
+	<Shop ID="2" Name="pasi_the_mage" MaxPkLevel="4" Message="不卖东西给恶人。" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(2)_Pasi_the_Mage.xml" /> <!-- 职业法师 帕西 -->
+	<Shop ID="3" Name="wandering_merchant" MaxPkLevel="4" Message="不卖东西给恶人。" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(3)_Wandering_Merchant.xml" /> <!-- 流浪商人 海罗德 -->
+	<Shop ID="4" Name="wandering_merchant_alex" MaxPkLevel="4" Message="不卖东西给恶人。" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(4)_Wandering_Merchant_Alex.xml" /> <!-- 流浪商人 阿莱斯 -->
+	<Shop ID="5" Name="lotion_girl_amy" MaxPkLevel="4" Message="不卖东西给恶人。" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(5)_Lotion_Girl_Amy.xml" /> <!-- 迷途少女 安娜 -->
+	<Shop ID="6" Name="caren_the_barmaid" MaxPkLevel="4" Message="不卖东西给恶人。" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(6)_Caren_the_Barmaid.xml" /> <!-- 春情洋溢 莉娜 -->
+	<Shop ID="7" Name="wizard_izabel" MaxPkLevel="4" Message="不卖东西给恶人。" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(7)_Wizard_Izabel.xml" /> <!-- 相亲狂魔 露西 -->
+	<Shop ID="8" Name="weapons_merchant_zienna" MaxPkLevel="4" Message="不卖东西给恶人。" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(8)_Weapons_Merchant_Zienna.xml" /> <!-- 武器商人 苏菲 -->
+	<Shop ID="9" Name="eo_the_craftsman" MaxPkLevel="4" Message="不卖东西给恶人。" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(9)_Eo_the_Craftsman.xml" /> <!-- 原力大师 尤达 -->
+	<Shop ID="10" Name="elf_lala" MaxPkLevel="4" Message="不卖东西给恶人。" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(10)_Elf_Lala.xml" /> <!-- 精灵族长 安吉拉 -->
+	<Shop ID="11" Name="wandering_merchant_herald" MaxPkLevel="4" Message="不卖东西给恶人。" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(11)_Wandering_Merchant_Martin.xml" /> <!-- 流浪商人 马丁 -->
+	<Shop ID="12" Name="thompson_kenel" MaxPkLevel="4" Message="不卖东西给恶人。" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(12)_Thompson_Kenel.xml" /> <!-- 武器商人 托姆绅 -->
+	<Shop ID="13" Name="natasha_firecracker_merchant" MaxPkLevel="4" Message="不卖东西给恶人。" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(13)_Natasha_Firecracker_Merchant.xml" /> <!-- 物资管理 帕糜拉 -->
+	<Shop ID="14" Name="oracle_layla" MaxPkLevel="4" Message="不卖东西给恶人。" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(14)_Oracle_Layla.xml" /> <!-- 物资管理 安吉拉 -->
+	<Shop ID="15" Name="siege_supplier" MaxPkLevel="4" Message="不卖东西给恶人。" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(15)_Siege_Supplier.xml" /> <!-- 爆竹商人 罗嗒莎 -->
+	<Shop ID="16" Name="arena_guard" MaxPkLevel="4" Message="不卖东西给恶人。" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(16)_Arena_Guard.xml" /> <!-- 竞技场_守卫 -->
+	<Shop ID="17" Name="silvia" MaxPkLevel="4" Message="不卖东西给恶人。" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(17)_Silvia.xml" /> <!-- 青春靓丽 塞尔维亚 -->
+	<Shop ID="18" Name="leah" MaxPkLevel="4" Message="不卖东西给恶人。" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(18)_Leah.xml" /> <!-- 街头卖艺 雷亚 -->
+	<Shop ID="19" Name="marseille" MaxPkLevel="4" Message="不卖东西给恶人。" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(19)_Marseille.xml" /> <!-- 大魔术师 摩尔塞 -->
+	<Shop ID="20" Name="christine_the_merchant" MaxPkLevel="4" Message="不卖东西给恶人。" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(20)_christine_the_merchant.xml" /> <!-- 杂货商人 克里斯丁 -->
+	<Shop ID="21" Name="leina_the_merchant" MaxPkLevel="4" Message="不卖东西给恶人。" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(21)_Leina_the_Merchant.xml" /> <!-- 蕾娜 -->
+	<Shop ID="22" Name="weapons_merchant_bolo" MaxPkLevel="4" Message="不卖东西给恶人。" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(22)_Weapons_Merchant_Bolo.xml" /> <!-- 贝莱 -->
+	<Shop ID="23" Name="jin" MaxPkLevel="4" Message="不卖东西给恶人。" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(23)_Jin.xml" /> <!-- 真 -->
+	<Shop ID="24" Name="wizard_gillard" MaxPkLevel="4" Message="不卖东西给恶人。" Flags="1" Type="0" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(24)_Wizard_Gillard.xml" /> <!-- 魔法师吉拉德 -->
+	<Shop ID="50" Name="ruud_shop" MaxPkLevel="10" Message="" Flags="0" Type="1" MaxBuyCount="0" MaxBuyType="0" FileScriptsName="Shop(50)_Ruud_Shop.xml" /> <!-- 瑞币商人 戴彼得 -->
+</ShopList>
