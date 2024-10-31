@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==           File Name: EventLabyrinthMission             ==
+// ============================================================
+-->
+
+<EventLabyrinthMission>
+    <Area Type="0">
+		<Data Index="0" MissionType1="-1" MissionValue1="-1" MissionType2="-1" MissionValue2="-1" MissionType3="-1" MissionValue3="-1" MissionType4="-1" MissionValue4="-1" MissionType5="-1" MissionValue5="-1" MissionType6="-1" MissionValue6="-1" Monster1="-1" Count1="-1" Monster2="-1" Count2="-1" Monster3="-1" Count3="-1" />
+    </Area>
+
+    <Area Type="1">
+		<Data Index="0" MissionType1="-1" MissionValue1="-1" MissionType2="-1" MissionValue2="-1" MissionType3="-1" MissionValue3="-1" MissionType4="-1" MissionValue4="-1" MissionType5="-1" MissionValue5="-1" MissionType6="-1" MissionValue6="-1" Monster1="-1" Count1="-1" Monster2="-1" Count2="-1" Monster3="-1" Count3="-1" />
+    </Area>
+
+    <Area Type="2">
+		<Data Index="0" MissionType1="-1" MissionValue1="-1" MissionType2="-1" MissionValue2="-1" MissionType3="-1" MissionValue3="-1" MissionType4="-1" MissionValue4="-1" MissionType5="-1" MissionValue5="-1" MissionType6="-1" MissionValue6="-1" Monster1="-1" Count1="-1" Monster2="-1" Count2="-1" Monster3="-1" Count3="-1" />
+    </Area>
+
+    <Area Type="3">
+		<Data Index="0" MissionType1="1" MissionValue1="15" MissionType2="-1" MissionValue2="-1" MissionType3="-1" MissionValue3="-1" MissionType4="-1" MissionValue4="-1" MissionType5="-1" MissionValue5="-1" MissionType6="-1" MissionValue6="-1" Monster1="754" Count1="2" Monster2="755" Count2="3" Monster3="756" Count3="3" />
+		<Data Index="1" MissionType1="2" MissionValue1="15" MissionType2="-1" MissionValue2="-1" MissionType3="-1" MissionValue3="-1" MissionType4="-1" MissionValue4="-1" MissionType5="-1" MissionValue5="-1" MissionType6="-1" MissionValue6="-1" Monster1="754" Count1="2" Monster2="755" Count2="3" Monster3="756" Count3="3" />
+		<Data Index="2" MissionType1="3" MissionValue1="1500000" MissionType2="-1" MissionValue2="-1" MissionType3="-1" MissionValue3="-1" MissionType4="-1" MissionValue4="-1" MissionType5="-1" MissionValue5="-1" MissionType6="-1" MissionValue6="-1" Monster1="754" Count1="2" Monster2="755" Count2="3" Monster3="756" Count3="3" />
+		<Data Index="3" MissionType1="4" MissionValue1="60" MissionType2="-1" MissionValue2="-1" MissionType3="-1" MissionValue3="-1" MissionType4="-1" MissionValue4="-1" MissionType5="-1" MissionValue5="-1" MissionType6="-1" MissionValue6="-1" Monster1="754" Count1="2" Monster2="755" Count2="3" Monster3="756" Count3="3" />
+		<Data Index="4" MissionType1="5" MissionValue1="15" MissionType2="-1" MissionValue2="-1" MissionType3="-1" MissionValue3="-1" MissionType4="-1" MissionValue4="-1" MissionType5="-1" MissionValue5="-1" MissionType6="-1" MissionValue6="-1" Monster1="754" Count1="2" Monster2="755" Count2="3" Monster3="756" Count3="3" />
+		<Data Index="5" MissionType1="6" MissionValue1="15" MissionType2="-1" MissionValue2="-1" MissionType3="-1" MissionValue3="-1" MissionType4="-1" MissionValue4="-1" MissionType5="-1" MissionValue5="-1" MissionType6="-1" MissionValue6="-1" Monster1="754" Count1="2" Monster2="755" Count2="3" Monster3="756" Count3="3" />
+		<Data Index="6" MissionType1="7" MissionValue1="150000" MissionType2="-1" MissionValue2="-1" MissionType3="-1" MissionValue3="-1" MissionType4="-1" MissionValue4="-1" MissionType5="-1" MissionValue5="-1" MissionType6="-1" MissionValue6="-1" Monster1="754" Count1="2" Monster2="755" Count2="2" Monster3="756" Count3="2" />
+    </Area>
+
+    <Area Type="4">
+		<Data Index="0" MissionType1="1" MissionValue1="15" MissionType2="1" MissionValue2="15" MissionType3="3" MissionValue3="1500000" MissionType4="3" MissionValue4="1500000" MissionType5="4" MissionValue5="60" MissionType6="4" MissionValue6="60" Monster1="754" Count1="4" Monster2="755" Count2="3" Monster3="756" Count3="3" />
+    </Area>
+</EventLabyrinthMission>

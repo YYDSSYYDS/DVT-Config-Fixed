@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==             File Name: OfflineAttackZone               ==
+// ============================================================
+-->
+
+<OfflineZone>
+	<Zone WorldID="0" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="1" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="2" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="3" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="4" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="5" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="6" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="7" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="8" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="10" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="24" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="25" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="26" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="27" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="28" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="29" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="30" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="31" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="33" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="34" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="35" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="36" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="37" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="38" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="41" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="42" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="51" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="56" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="57" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="63" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="80" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="81" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="91" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="95" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="100" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="110" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="112" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="113" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="116" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="117" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="118" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="119" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="120" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="122" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="123" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="124" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="125" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="126" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="127" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="128" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="129" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="130" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="131" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="132" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="133" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="134" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="135" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="136" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="137" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="138" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="139" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="140" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="141" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="142" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+	<Zone WorldID="143" X1="1" Y1="1" X2="255" Y2="255" Enable="1" />
+</OfflineZone>

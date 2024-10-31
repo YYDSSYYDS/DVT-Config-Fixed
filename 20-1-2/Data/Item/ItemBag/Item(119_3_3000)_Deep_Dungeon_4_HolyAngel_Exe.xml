@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf - 8"?>
+<!--
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==   File Name: Item(119_3_3000)_Deep_Dungeon_4_HolyAngel_Exe.xml           ==
+// ============================================================
+-->
+
+<ItemBag>
+<AddCoin Enable="0" CoinType="0" CoinValue="0" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+<Ruud GainRate="0" MinValue="1" MaxValue="10" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+
+<DropAllow DW="1" DK="1" ELF="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SLA="1" GC="1" LW="1" LM="1" IK="1" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" MapNumber="-1">
+	<Item Sort="1" ItemCat="163" ItemIndex="0" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="100" OptionMin="0" OptionMax="3" ExlMin="1" ExlMax="2" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+	<Item Sort="1" ItemCat="160" ItemIndex="0" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="100" OptionMin="0" OptionMax="3" ExlMin="1" ExlMax="2" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+	<Item Sort="1" ItemCat="157" ItemIndex="0" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="100" OptionMin="0" OptionMax="3" ExlMin="1" ExlMax="2" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+	<Item Sort="1" ItemCat="156" ItemIndex="0" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="100" OptionMin="0" OptionMax="3" ExlMin="1" ExlMax="2" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+	<Item Sort="1" ItemCat="155" ItemIndex="0" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="100" OptionMin="0" OptionMax="3" ExlMin="1" ExlMax="2" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+	<Item Sort="1" ItemCat="154" ItemIndex="0" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="100" OptionMin="0" OptionMax="3" ExlMin="1" ExlMax="2" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+	<Item Sort="1" ItemCat="153" ItemIndex="0" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="100" OptionMin="0" OptionMax="3" ExlMin="1" ExlMax="2" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+	<Item Sort="1" ItemCat="152" ItemIndex="0" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="100" OptionMin="0" OptionMax="3" ExlMin="1" ExlMax="2" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+	<Item Sort="1" ItemCat="151" ItemIndex="0" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="100" OptionMin="0" OptionMax="3" ExlMin="1" ExlMax="2" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+	<Item Sort="1" ItemCat="150" ItemIndex="0" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="100" OptionMin="0" OptionMax="3" ExlMin="1" ExlMax="2" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+	<Item Sort="1" ItemCat="127" ItemIndex="0" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="100" OptionMin="0" OptionMax="3" ExlMin="1" ExlMax="2" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+	<Item Sort="1" ItemCat="182" ItemIndex="0" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="100" OptionMin="0" OptionMax="3" ExlMin="1" ExlMax="2" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="10000" FireWork="0" Group="0" Duration="0" />
+	<Item Sort="0" ItemCat="14" ItemIndex="471" ItemLevelMin="0" ItemLevelMax="0" Dur="1" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="0" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="100" FireWork="0" Group="0" Duration="0" />
+	<Item Sort="0" ItemCat="20" ItemIndex="39" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="3" ExlMin="1" ExlMax="2" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="1400" Socket2Rate="1400" Socket3Rate="1400" Socket4Rate="0" Socket5Rate="0" Rate="1000" FireWork="0" Group="0" Duration="0" />
+	<Item Sort="0" ItemCat="20" ItemIndex="40" ItemLevelMin="0" ItemLevelMax="0" Dur="0" SkillRate="0" LuckRate="0" OptionMin="0" OptionMax="3" ExlMin="1" ExlMax="2" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="1400" Socket2Rate="1400" Socket3Rate="1400" Socket4Rate="0" Socket5Rate="0" Rate="1000" FireWork="0" Group="0" Duration="0" />
+</DropAllow>
+</ItemBag>

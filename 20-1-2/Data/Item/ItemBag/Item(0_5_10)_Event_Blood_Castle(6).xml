@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf - 8"?>
+<!--
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==   File Name: Item(0_5_10)_Event_Blood_Castle(6).xml           ==
+// ============================================================
+-->
+
+<ItemBag>
+<AddCoin Enable="0" CoinType="0" CoinValue="0" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+<Ruud GainRate="0" MinValue="1" MaxValue="10" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+
+<DropAllow DW="1" DK="1" ELF="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SLA="1" GC="1" LW="1" LM="1" IK="1" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" MapNumber="-1">
+	<Item Sort="0" ItemCat="0" ItemIndex="19" ItemLevelMin="2" ItemLevelMax="3" Dur="0" SkillRate="1000" LuckRate="2500" OptionMin="0" OptionMax="3" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="50" FireWork="0" Group="0" Duration="0" />
+	<Item Sort="0" ItemCat="2" ItemIndex="13" ItemLevelMin="2" ItemLevelMax="3" Dur="0" SkillRate="1000" LuckRate="2500" OptionMin="0" OptionMax="3" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="50" FireWork="0" Group="0" Duration="0" />
+	<Item Sort="0" ItemCat="4" ItemIndex="18" ItemLevelMin="2" ItemLevelMax="3" Dur="0" SkillRate="1000" LuckRate="2500" OptionMin="0" OptionMax="3" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="50" FireWork="0" Group="0" Duration="0" />
+	<Item Sort="0" ItemCat="5" ItemIndex="10" ItemLevelMin="2" ItemLevelMax="3" Dur="0" SkillRate="0" LuckRate="2500" OptionMin="0" OptionMax="3" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="50" FireWork="0" Group="0" Duration="0" />
+	<Item Sort="0" ItemCat="5" ItemIndex="36" ItemLevelMin="2" ItemLevelMax="3" Dur="0" SkillRate="0" LuckRate="2500" OptionMin="0" OptionMax="3" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="50" FireWork="0" Group="0" Duration="0" />
+	<Item Sort="0" ItemCat="0" ItemIndex="60" ItemLevelMin="2" ItemLevelMax="3" Dur="0" SkillRate="1000" LuckRate="2500" OptionMin="0" OptionMax="3" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="50" FireWork="0" Group="0" Duration="0" />
+	<Item Sort="0" ItemCat="3" ItemIndex="26" ItemLevelMin="2" ItemLevelMax="3" Dur="0" SkillRate="1000" LuckRate="2500" OptionMin="0" OptionMax="3" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="50" FireWork="0" Group="0" Duration="0" />
+	<Item Sort="0" ItemCat="2" ItemIndex="34" ItemLevelMin="2" ItemLevelMax="3" Dur="0" SkillRate="1000" LuckRate="2500" OptionMin="0" OptionMax="3" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="50" FireWork="0" Group="0" Duration="0" />
+	<Item Sort="0" ItemCat="0" ItemIndex="76" ItemLevelMin="2" ItemLevelMax="3" Dur="0" SkillRate="1000" LuckRate="2500" OptionMin="0" OptionMax="3" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="50" FireWork="0" Group="0" Duration="0" />
+	<Item Sort="0" ItemCat="4" ItemIndex="46" ItemLevelMin="2" ItemLevelMax="3" Dur="0" SkillRate="1000" LuckRate="2500" OptionMin="0" OptionMax="3" ExlMin="0" ExlMax="0" Ancient="0" AncientOptionMin="0" AncientOptionMax="0" Socket1Rate="0" Socket2Rate="0" Socket3Rate="0" Socket4Rate="0" Socket5Rate="0" Rate="50" FireWork="0" Group="0" Duration="0" />
+</DropAllow>
+</ItemBag>

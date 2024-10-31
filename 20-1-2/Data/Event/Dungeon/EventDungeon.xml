@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==                File Name: EventDungeon                 ==
+// ============================================================
+-->
+
+<EventDungeon>
+    <Event ID="0" WorldID="300" Flags="0" Gate="10000" MainChestX="244" MainChestY="173" ChestX1="244" ChestY1="177" ChestX2="240" ChestY2="173" ChestX3="248" ChestY3="173" ChestX4="244" ChestY4="169" />
+</EventDungeon>

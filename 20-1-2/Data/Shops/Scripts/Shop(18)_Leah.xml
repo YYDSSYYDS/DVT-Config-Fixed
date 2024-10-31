@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==               File Name: 街头卖艺 雷亚                   ==
+// ============================================================
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//	ItemExel:
+//	ItemExel="-1":No excellence
+//	ItemExel="x;x;x;x;x;x;x;x;x":
+//	Fill in the excellent option number, Up to 9 excellent options, please refer to the ID in the ItemExcellentOptions.xml file.
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//	Price:If it is 0, then the price is automatically calculated by main, otherwise please fill in the specific price value.
+-->
+
+<ShopItem>
+	<Tab Id="1">
+		<Item ItemCat="07" ItemIndex="039" ItemLevel="03" ItemDur="0" ItemSkill="0" ItemLuck="1" ItemOption="1" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="1" />
+		<Item ItemCat="07" ItemIndex="040" ItemLevel="03" ItemDur="0" ItemSkill="0" ItemLuck="1" ItemOption="1" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="2" />
+		<Item ItemCat="07" ItemIndex="041" ItemLevel="03" ItemDur="0" ItemSkill="0" ItemLuck="1" ItemOption="1" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="3" />
+		<Item ItemCat="07" ItemIndex="042" ItemLevel="03" ItemDur="0" ItemSkill="0" ItemLuck="1" ItemOption="1" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="4" />
+		<Item ItemCat="08" ItemIndex="039" ItemLevel="03" ItemDur="0" ItemSkill="0" ItemLuck="1" ItemOption="1" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="5" />
+		<Item ItemCat="08" ItemIndex="040" ItemLevel="03" ItemDur="0" ItemSkill="0" ItemLuck="1" ItemOption="1" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="6" />
+		<Item ItemCat="08" ItemIndex="041" ItemLevel="03" ItemDur="0" ItemSkill="0" ItemLuck="1" ItemOption="1" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="7" />
+		<Item ItemCat="08" ItemIndex="042" ItemLevel="03" ItemDur="0" ItemSkill="0" ItemLuck="1" ItemOption="1" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="8" />
+		<Item ItemCat="09" ItemIndex="039" ItemLevel="03" ItemDur="0" ItemSkill="0" ItemLuck="1" ItemOption="1" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="9" />
+		<Item ItemCat="09" ItemIndex="040" ItemLevel="03" ItemDur="0" ItemSkill="0" ItemLuck="1" ItemOption="1" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="10" />
+		<Item ItemCat="09" ItemIndex="041" ItemLevel="03" ItemDur="0" ItemSkill="0" ItemLuck="1" ItemOption="1" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="11" />
+		<Item ItemCat="09" ItemIndex="042" ItemLevel="03" ItemDur="0" ItemSkill="0" ItemLuck="1" ItemOption="1" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="12" />
+		<Item ItemCat="10" ItemIndex="039" ItemLevel="03" ItemDur="0" ItemSkill="0" ItemLuck="1" ItemOption="1" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="13" />
+		<Item ItemCat="10" ItemIndex="040" ItemLevel="03" ItemDur="0" ItemSkill="0" ItemLuck="1" ItemOption="1" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="14" />
+		<Item ItemCat="10" ItemIndex="041" ItemLevel="03" ItemDur="0" ItemSkill="0" ItemLuck="1" ItemOption="1" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="15" />
+		<Item ItemCat="10" ItemIndex="042" ItemLevel="03" ItemDur="0" ItemSkill="0" ItemLuck="1" ItemOption="1" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="16" />
+		<Item ItemCat="11" ItemIndex="039" ItemLevel="03" ItemDur="0" ItemSkill="0" ItemLuck="1" ItemOption="1" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="17" />
+		<Item ItemCat="11" ItemIndex="040" ItemLevel="03" ItemDur="0" ItemSkill="0" ItemLuck="1" ItemOption="1" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="18" />
+		<Item ItemCat="11" ItemIndex="041" ItemLevel="03" ItemDur="0" ItemSkill="0" ItemLuck="1" ItemOption="1" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="19" />
+		<Item ItemCat="11" ItemIndex="042" ItemLevel="03" ItemDur="0" ItemSkill="0" ItemLuck="1" ItemOption="1" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="19" />
+		<Item ItemCat="05" ItemIndex="015" ItemLevel="03" ItemDur="0" ItemSkill="1" ItemLuck="1" ItemOption="1" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="19" />
+		<Item ItemCat="05" ItemIndex="016" ItemLevel="03" ItemDur="0" ItemSkill="1" ItemLuck="1" ItemOption="1" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="19" />
+		<Item ItemCat="05" ItemIndex="017" ItemLevel="03" ItemDur="0" ItemSkill="1" ItemLuck="1" ItemOption="1" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="19" />
+		<Item ItemCat="05" ItemIndex="021" ItemLevel="03" ItemDur="0" ItemSkill="1" ItemLuck="1" ItemOption="1" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="19" />
+	</Tab>
+	<Tab Id="2">
+		<Item ItemCat="15" ItemIndex="019" ItemLevel="00" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="1" />
+		<Item ItemCat="15" ItemIndex="020" ItemLevel="00" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="2" />
+		<Item ItemCat="15" ItemIndex="021" ItemLevel="00" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="3" />
+		<Item ItemCat="15" ItemIndex="022" ItemLevel="00" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="4" />
+		<Item ItemCat="15" ItemIndex="023" ItemLevel="00" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="5" />
+		<Item ItemCat="15" ItemIndex="024" ItemLevel="00" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="6" />
+		<Item ItemCat="15" ItemIndex="026" ItemLevel="00" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="7" />
+		<Item ItemCat="15" ItemIndex="027" ItemLevel="00" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="8" />
+		<Item ItemCat="15" ItemIndex="042" ItemLevel="00" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="9" />
+		<Item ItemCat="15" ItemIndex="043" ItemLevel="00" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="10" />
+		<Item ItemCat="15" ItemIndex="042" ItemLevel="00" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="11" />
+		<Item ItemCat="15" ItemIndex="043" ItemLevel="00" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="12" />
+		<Item ItemCat="15" ItemIndex="044" ItemLevel="00" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="13" />
+		<Item ItemCat="15" ItemIndex="046" ItemLevel="00" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="14" />
+		<Item ItemCat="15" ItemIndex="044" ItemLevel="00" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="15" />
+		<Item ItemCat="15" ItemIndex="046" ItemLevel="00" ItemDur="0" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="16" />
+	</Tab>
+	<Tab Id="3">
+		<!-- Insert shop data here -->
+	</Tab>
+	<Tab Id="4">
+		<!-- Insert shop data here -->
+	</Tab>
+	<Tab Id="5">
+		<!-- Insert shop data here -->
+	</Tab>
+</ShopItem>

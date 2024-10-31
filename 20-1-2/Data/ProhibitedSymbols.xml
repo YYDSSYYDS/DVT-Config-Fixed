@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==              File Name: ProhibitedSymbols              ==
+// ============================================================
+-->
+
+<ProhibitedSymbols Mode="0" AllowSpace="0" CodePage="1252">
+		<Symbols> <!-- This section works in DISALLOW mode -->
+		<Restrict Symbol="%" Chat="1" CharName="1" GuildName="1" />
+		<Restrict Symbol="'" Chat="0" CharName="1" GuildName="1" />
+		<Restrict Symbol="." Chat="0" CharName="1" GuildName="1" />
+		<Restrict Symbol=";" Chat="0" CharName="1" GuildName="1" />
+		<Restrict Symbol=":" Chat="0" CharName="1" GuildName="1" />
+		<Restrict Symbol="." Chat="0" CharName="1" GuildName="1" />
+		<Restrict Symbol="`" Chat="0" CharName="1" GuildName="1" />
+		<Restrict Symbol="@" Chat="0" CharName="1" GuildName="1" />
+		<Restrict Symbol="#" Chat="0" CharName="1" GuildName="1" />
+		<Restrict Symbol="(" Chat="0" CharName="1" GuildName="1" />
+		<Restrict Symbol=")" Chat="0" CharName="1" GuildName="1" />
+		<Restrict Symbol="*" Chat="0" CharName="1" GuildName="1" />
+		<Restrict Symbol="^" Chat="0" CharName="1" GuildName="1" />
+		<Restrict Symbol="=" Chat="0" CharName="1" GuildName="1" />
+		<Restrict Symbol="_" Chat="0" CharName="1" GuildName="1" />
+		<Restrict Symbol="-" Chat="0" CharName="1" GuildName="1" />
+		<Restrict Symbol="~" Chat="0" CharName="1" GuildName="1" />
+		<Restrict Symbol="!" Chat="0" CharName="1" GuildName="1" />
+		<Restrict Symbol="?" Chat="0" CharName="1" GuildName="1" />
+		<Restrict Symbol="|" Chat="0" CharName="1" GuildName="1" />
+		<Restrict Symbol="\" Chat="0" CharName="1" GuildName="1" />
+		<Restrict Symbol="/" Chat="0" CharName="1" GuildName="1" />
+		<Restrict Symbol="[" Chat="0" CharName="1" GuildName="1" />
+		<Restrict Symbol="]" Chat="0" CharName="1" GuildName="1" />
+		<Restrict Symbol="=" Chat="0" CharName="1" GuildName="1" />
+		<Restrict Symbol=">" Chat="0" CharName="1" GuildName="1" />
+		<Restrict Symbol="<" Chat="0" CharName="1" GuildName="1" />
+		<Restrict Symbol=">" Chat="0" CharName="1" GuildName="1" />
+	</Symbols>
+	<!-- Examples ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	~~ Russian: ^[\w\d\s\Sа-яА-Я]+$
+	~~ Viernamese: ^[\w\d\s\SÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠàáâãèéêìíòóôõùúăđĩũơƯĂẠẢẤẦẨẪẬẮẰẲẴẶẸẺẼỀỀỂ µưăạảấầẩẫậắằẳẵặẹẻẽềềểỄỆỈỊỌỎỐỒỔỖỘỚỜỞỠỢỤỦỨỪễệỉịọỏốồổỗộớờởỡợụủứừỬỮỰỲỴÝỶỸửữựỳỵỷỹ]+$
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<Regex> <!-- Regex works in ALLOW mode -->
+		<Type System="0" Regex="^[\w\d\s\S]+$" /> <!-- In-Game Chat -->
+		<Type System="1" Regex="^[A-Za-z0-9]+$" /> <!-- Character Name --> <!-- Temporary working only if game client is being run on machine with Operating System of same culture as input language, e.g. Korean locale and Korean input -->
+		<Type System="2" Regex="^[A-Za-z0-9]+$" /> <!-- Guild Names -->
+	</Regex>
+</ProhibitedSymbols>
