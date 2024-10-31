@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==                File Name: ItemEarning                  ==
+// ============================================================
+-->
+
+<ItemEarning>
+	<!-- Left -->
+	<Item ItemCat="12" ItemIndex="449" Group="1" Link="1" Option1="19" Value1="1" Option2="23" Value2="4" Option3="18" Value3="6" Option4="16" Value4="6" Option5="11" Value5="0" Rate1="100" Rate2="30" Rate3="5" Rate4="0" Rate5="0"/>
+	<Item ItemCat="12" ItemIndex="450" Group="2" Link="2" Option1="19" Value1="1" Option2="28" Value2="4" Option3="29" Value3="6" Option4="30" Value4="6" Option5="11" Value5="0" Rate1="100" Rate2="30" Rate3="5" Rate4="0" Rate5="0"/>
+	<Item ItemCat="12" ItemIndex="451" Group="3" Link="3" Option1="19" Value1="1" Option2="28" Value2="4" Option3="29" Value3="6" Option4="30" Value4="6" Option5="11" Value5="0" Rate1="100" Rate2="30" Rate3="5" Rate4="0" Rate5="0"/>
+	<Item ItemCat="12" ItemIndex="452" Group="4" Link="4" Option1="19" Value1="1" Option2="28" Value2="4" Option3="29" Value3="6" Option4="30" Value4="6" Option5="11" Value5="0" Rate1="100" Rate2="30" Rate3="5" Rate4="0" Rate5="0"/>
+	<Item ItemCat="12" ItemIndex="453" Group="5" Link="5" Option1="19" Value1="1" Option2="28" Value2="4" Option3="29" Value3="6" Option4="30" Value4="6" Option5="11" Value5="0" Rate1="100" Rate2="30" Rate3="5" Rate4="0" Rate5="0"/>
+	<Item ItemCat="12" ItemIndex="454" Group="6" Link="6" Option1="19" Value1="1" Option2="28" Value2="4" Option3="29" Value3="6" Option4="30" Value4="6" Option5="11" Value5="0" Rate1="100" Rate2="30" Rate3="5" Rate4="0" Rate5="0"/>
+	<!-- S19.2 -->
+	<Item ItemCat="12" ItemIndex="455" Group="7" Link="7" Option1="19" Value1="1" Option2="28" Value2="4" Option3="29" Value3="6" Option4="30" Value4="6" Option5="11" Value5="0" Rate1="100" Rate2="30" Rate3="5" Rate4="0" Rate5="0"/>
+	<!-- Right -->
+	<Item ItemCat="12" ItemIndex="457" Group="9" Link="1" Option1="9" Value1="5" Option2="17" Value2="2" Option3="15" Value3="2" Option4="14" Value4="3" Option5="12" Value5="0" Rate1="100" Rate2="30" Rate3="5" Rate4="0" Rate5="0"/>
+	<Item ItemCat="12" ItemIndex="458" Group="10" Link="2" Option1="9" Value1="5" Option2="17" Value2="2" Option3="15" Value3="2" Option4="14" Value4="3" Option5="12" Value5="0" Rate1="100" Rate2="30" Rate3="5" Rate4="0" Rate5="0"/>
+	<Item ItemCat="12" ItemIndex="459" Group="11" Link="3" Option1="9" Value1="5" Option2="17" Value2="2" Option3="15" Value3="2" Option4="14" Value4="3" Option5="12" Value5="0" Rate1="100" Rate2="30" Rate3="5" Rate4="0" Rate5="0"/>
+	<Item ItemCat="12" ItemIndex="460" Group="12" Link="4" Option1="9" Value1="5" Option2="17" Value2="2" Option3="15" Value3="2" Option4="14" Value4="3" Option5="12" Value5="0" Rate1="100" Rate2="30" Rate3="5" Rate4="0" Rate5="0"/>
+	<Item ItemCat="12" ItemIndex="461" Group="13" Link="5" Option1="9" Value1="5" Option2="17" Value2="2" Option3="15" Value3="2" Option4="14" Value4="3" Option5="12" Value5="0" Rate1="100" Rate2="30" Rate3="5" Rate4="0" Rate5="0"/>
+	<Item ItemCat="12" ItemIndex="462" Group="14" Link="6" Option1="9" Value1="5" Option2="17" Value2="2" Option3="15" Value3="2" Option4="14" Value4="3" Option5="12" Value5="0" Rate1="100" Rate2="30" Rate3="5" Rate4="0" Rate5="0"/>
+	<!-- S19.2 -->
+	<Item ItemCat="12" ItemIndex="463" Group="15" Link="7" Option1="9" Value1="5" Option2="17" Value2="2" Option3="15" Value3="2" Option4="14" Value4="3" Option5="12" Value5="0" Rate1="100" Rate2="30" Rate3="5" Rate4="0" Rate5="0"/>
+</ItemEarning>
