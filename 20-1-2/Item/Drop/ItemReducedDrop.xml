@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==              File Name: ItemReducedDrop                ==
+// ============================================================
+-->
+
+<ItemReducedDrop>
+	<Data ItemCat="12" ItemIndex="15" ItemLevel="0" Rate="3000" />
+	<Data ItemCat="13" ItemIndex="466" ItemLevel="0" Rate="3000" />
+	<Data ItemCat="13" ItemIndex="468" ItemLevel="0" Rate="3000" />
+	<Data ItemCat="14" ItemIndex="13" ItemLevel="0" Rate="3000" />
+	<Data ItemCat="14" ItemIndex="14" ItemLevel="0" Rate="3000" />
+	<Data ItemCat="14" ItemIndex="16" ItemLevel="0" Rate="3000" />
+	<Data ItemCat="14" ItemIndex="22" ItemLevel="0" Rate="3000" />
+	<Data ItemCat="14" ItemIndex="41" ItemLevel="0" Rate="5000" />
+	<Data ItemCat="14" ItemIndex="42" ItemLevel="0" Rate="3000" />
+	<Data ItemCat="14" ItemIndex="101" ItemLevel="0" Rate="3000" />
+	<Data ItemCat="14" ItemIndex="210" ItemLevel="0" Rate="4000" />
+	<Data ItemCat="14" ItemIndex="211" ItemLevel="0" Rate="4000" />
+	<Data ItemCat="14" ItemIndex="212" ItemLevel="0" Rate="4000" />
+	<Data ItemCat="14" ItemIndex="213" ItemLevel="0" Rate="4000" />
+	<Data ItemCat="14" ItemIndex="215" ItemLevel="0" Rate="5000" />
+	<Data ItemCat="14" ItemIndex="277" ItemLevel="0" Rate="1" />
+	<Data ItemCat="14" ItemIndex="278" ItemLevel="0" Rate="3000" />
+	<Data ItemCat="14" ItemIndex="346" ItemLevel="0" Rate="3000" />
+	<Data ItemCat="14" ItemIndex="347" ItemLevel="0" Rate="3000" />
+	<Data ItemCat="14" ItemIndex="348" ItemLevel="0" Rate="3000" />
+	<Data ItemCat="14" ItemIndex="349" ItemLevel="0" Rate="3000" />
+	<Data ItemCat="14" ItemIndex="350" ItemLevel="0" Rate="3000" />
+</ItemReducedDrop>

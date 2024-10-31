@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==          File Name: MonsterSoulTranformation           ==
+// ============================================================
+-->
+
+<MonsterSoulTranformation>
+	<MonsterSoul Type="1">
+		<Data ID="0" World="91" Monster="586" ReqSoul="500" DropRate="450000" Location="Acheron"/>
+		<Data ID="1" World="91" Monster="589" ReqSoul="500" DropRate="450000" Location="Acheron"/>
+		<Data ID="2" World="63" Monster="480" ReqSoul="500" DropRate="450000" Location="Vulcanus"/>
+		<Data ID="3" World="29" Monster="271" ReqSoul="500" DropRate="450000" Location="Kalima"/>
+		<Data ID="4" World="36" Monster="331" ReqSoul="500" DropRate="450000" Location="Kalima"/>
+		<Data ID="5" World="33" Monster="308" ReqSoul="500" DropRate="450000" Location="Aida"/>
+	</MonsterSoul>
+	
+	<MonsterSoul Type="2">
+		<Data ID="0" World="37" Monster="553" ReqSoul="500" DropRate="450000" Location="Kanturu"/>
+		<Data ID="1" World="81" Monster="575" ReqSoul="500" DropRate="450000" Location="Karutan 2"/>
+		<Data ID="2" World="57" Monster="562" ReqSoul="500" DropRate="450000" Location="Raklion"/>
+		<Data ID="3" World="56" Monster="557" ReqSoul="500" DropRate="450000" Location="Swamp Of Peace"/>
+		<Data ID="4" World="112" Monster="730" ReqSoul="500" DropRate="450000" Location="Ferea"/>
+	</MonsterSoul>
+	
+	<MonsterSoul Type="3">
+		<Data ID="0" World="113" Monster="743" ReqSoul="500" DropRate="450000" Location="Nixies Lake"/>
+		<Data ID="1" World="116" Monster="767" ReqSoul="500" DropRate="450000" Location="DeepDungeon1"/>
+		<Data ID="2" World="117" Monster="771" ReqSoul="500" DropRate="450000" Location="DeepDungeon2"/>
+		<Data ID="3" World="118" Monster="768" ReqSoul="500" DropRate="450000" Location="DeepDungeon3"/>
+		<Data ID="4" World="119" Monster="769" ReqSoul="500" DropRate="450000" Location="DeepDungeon4"/>
+		<Data ID="5" World="120" Monster="775" ReqSoul="500" DropRate="450000" Location="DeepDungeon5"/>
+		<Data ID="6" World="122" Monster="786" ReqSoul="500" DropRate="450000" Location="Swamp of Darkness"/>
+		<Data ID="7" World="123" Monster="810" ReqSoul="500" DropRate="450000" Location="Kubera Mine"/>
+		<Data ID="8" World="128" Monster="832" ReqSoul="500" DropRate="450000" Location="Abyss of Atlans 1"/>
+	</MonsterSoul>
+	
+	<MonsterSoul Type="4">
+		<Data ID="0" World="131" Monster="845" ReqSoul="500" DropRate="450000" Location="Scorched Canyon"/>
+		<Data ID="1" World="132" Monster="859" ReqSoul="500" DropRate="450000" Location="Red Smoke Icarus"/>
+		<Data ID="2" World="133" Monster="867" ReqSoul="500" DropRate="450000" Location="Arenil Temple"/>
+		<Data ID="3" World="134" Monster="875" ReqSoul="500" DropRate="450000" Location="Ashen Aida"/>
+		<Data ID="4" World="136" Monster="895" ReqSoul="500" DropRate="450000" Location="Blaze Kethotum"/>
+	</MonsterSoul>
+	
+	<MonsterSoul Type="5">
+		<Data ID="0" World="137" Monster="905" ReqSoul="500" DropRate="450000" Location="Kanturu Undergrounds"/>
+		<Data ID="1" World="138" Monster="911" ReqSoul="500" DropRate="450000" Location="Ignis Volcano"/>
+		<Data ID="2" World="140" Monster="926" ReqSoul="500" DropRate="450000" Location="Bloody Tarkan"/>
+		<Data ID="3" World="141" Monster="942" ReqSoul="500" DropRate="450000" Location="Tormenta Island"/>
+		<Data ID="4" World="142" Monster="955" ReqSoul="500" DropRate="450000" Location="Twisted Karutan"/>
+	</MonsterSoul>
+</MonsterSoulTranformation>

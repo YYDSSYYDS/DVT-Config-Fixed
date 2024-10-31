@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==            File Name: EventLabyrinthArea               ==
+// ============================================================
+-->
+
+<EventLabyrinthArea>
+	<Data Index="1" Stage="1" RowCount="10" ColumnCount="10" />
+	<Data Index="2" Stage="1" RowCount="10" ColumnCount="10" />
+	<Data Index="3" Stage="1" RowCount="10" ColumnCount="10" />
+	<Data Index="4" Stage="1" RowCount="10" ColumnCount="10" />
+	<Data Index="5" Stage="1" RowCount="10" ColumnCount="10" />
+	<Data Index="6" Stage="1" RowCount="10" ColumnCount="10" />
+	<Data Index="7" Stage="1" RowCount="10" ColumnCount="10" />
+	<Data Index="8" Stage="1" RowCount="10" ColumnCount="10" />
+	<Data Index="9" Stage="1" RowCount="10" ColumnCount="10" />
+	<Data Index="10" Stage="1" RowCount="10" ColumnCount="10" />
+	<Data Index="11" Stage="1" RowCount="10" ColumnCount="10" />
+	<Data Index="12" Stage="1" RowCount="10" ColumnCount="10" />
+	<Data Index="13" Stage="1" RowCount="10" ColumnCount="10" />
+	<Data Index="14" Stage="1" RowCount="10" ColumnCount="10" />
+	<Data Index="15" Stage="1" RowCount="10" ColumnCount="10" />
+	<Data Index="16" Stage="1" RowCount="10" ColumnCount="10" />
+	<Data Index="17" Stage="1" RowCount="10" ColumnCount="10" />
+	<Data Index="18" Stage="1" RowCount="10" ColumnCount="10" />
+	<Data Index="19" Stage="1" RowCount="10" ColumnCount="10" />
+	<Data Index="20" Stage="1" RowCount="10" ColumnCount="10" />
+	<Data Index="21" Stage="1" RowCount="10" ColumnCount="10" />
+	<Data Index="22" Stage="1" RowCount="10" ColumnCount="10" />
+	<Data Index="23" Stage="1" RowCount="10" ColumnCount="10" />
+	<Data Index="24" Stage="1" RowCount="10" ColumnCount="10" />
+	<Data Index="25" Stage="1" RowCount="10" ColumnCount="10" />
+	<Data Index="26" Stage="1" RowCount="10" ColumnCount="10" />
+	<Data Index="27" Stage="1" RowCount="10" ColumnCount="10" />
+	<Data Index="28" Stage="1" RowCount="10" ColumnCount="10" />
+	<Data Index="29" Stage="1" RowCount="10" ColumnCount="10" />
+	<Data Index="30" Stage="1" RowCount="10" ColumnCount="10" />
+</EventLabyrinthArea>

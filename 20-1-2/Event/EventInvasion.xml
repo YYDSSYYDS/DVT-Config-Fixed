@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==               File Name: EventInvasion                 ==
+// ============================================================
+-->
+
+<EventInvasion>
+	<Info ID="0" Name="White Wizard" OnNotify="" OnStart="White Wizard and his orcs has invaded us" OnEnd="" OnTimeOut="" OnKillBoss="$name has been killed by $tname in $map" />
+	<Info ID="1" Name="Blue Event" OnNotify="" OnStart="" OnEnd="" OnTimeOut="" OnKillBoss="" />
+	<Info ID="2" Name="Underground" OnNotify="" OnStart="Death King has spawn" OnEnd="" OnTimeOut="" OnKillBoss="$name has been killed by $tname in $map" />
+	<Info ID="3" Name="New Year Day" OnNotify="" OnStart="" OnEnd="" OnTimeOut="" OnKillBoss="" />
+	<Info ID="4" Name="Red Dragon" OnNotify="" OnStart="" OnEnd="" OnTimeOut="" OnKillBoss="" />
+	<Info ID="5" Name="Summer" OnNotify="" OnStart="" OnEnd="" OnTimeOut="" OnKillBoss="" />
+	<Info ID="6" Name="Santa Event" OnNotify="" OnStart="Cursed Santa and his goblins has invaded us" OnEnd="" OnTimeOut="" OnKillBoss="$name has been killed by $tname in $map" />
+	<Info ID="7" Name="Moss Merchant" OnNotify="" OnStart="" OnEnd="" OnTimeOut="" OnKillBoss="" />
+	<Info ID="8" Name="Golden Invasion" OnNotify="" OnStart="Golden Invasion Started" OnEnd="Golden Invasion Has End" OnTimeOut="Golden Invasion Has End" OnKillBoss="$name has been killed by $tname in $map" />
+	<Info ID="9" Name="Lucky Coin" OnNotify="" OnStart="" OnEnd="" OnTimeOut="" OnKillBoss="" />
+	<Info ID="10" Name="Muun Invasion" OnNotify="" OnStart="" OnEnd="" OnTimeOut="" OnKillBoss="" />
+	<Info ID="11" Name="Sign of Elemental" OnNotify="" OnStart="" OnEnd="" OnTimeOut="" OnKillBoss="" />
+	<Info ID="12" Name="Summon the Demons" OnNotify="" OnStart="" OnEnd="" OnTimeOut="" OnKillBoss="" />
+	<Info ID="13" Name="Exiled from Exile" OnNotify="" OnStart="Exile troops are invading us" OnEnd="" OnTimeOut="" OnKillBoss="$name has been killed by $tname in $map" />
+	<Info ID="15" Name="Skeleton Sorcerer Invasion" OnNotify="" OnStart="" OnEnd="" OnTimeOut="" OnKillBoss="$name has been killed by $tname in $map" />
+</EventInvasion>

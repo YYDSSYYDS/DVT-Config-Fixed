@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==          File Name: CharacterMaxLevelReward            ==
+// ============================================================
+-->
+
+<CharacterMaxLevelReward>
+    <!-- Example: <Reward Class="" MaxLevel="" ItemCat="" ItemIndex="" ItemLevel="" Dur="" Skill="" Luck="" Option="" Exl="" Ancient="" Harmony="" Option380="" Socket1="" Socket2="" Socket3="" Socket4="" Socket5="" SocketBonus="" Flags="" /> -->
+</CharacterMaxLevelReward>

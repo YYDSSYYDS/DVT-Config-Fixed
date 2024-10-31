@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==            File Name: EventLabyrinthReward             ==
+// ============================================================
+-->
+
+<EventLabyrinthReward>
+    <Category Index="1">
+        <Rank Index="0">
+			<Data Class="0" Type="14" Index="405" Level="0" Dur="10" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="1" Type="14" Index="405" Level="0" Dur="10" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="2" Type="14" Index="405" Level="0" Dur="10" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="3" Type="14" Index="405" Level="0" Dur="10" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="4" Type="14" Index="405" Level="0" Dur="10" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="5" Type="14" Index="405" Level="0" Dur="10" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="6" Type="14" Index="405" Level="0" Dur="10" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="7" Type="14" Index="405" Level="0" Dur="10" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="8" Type="14" Index="405" Level="0" Dur="10" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="9" Type="14" Index="405" Level="0" Dur="10" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="10" Type="14" Index="405" Level="0" Dur="10" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+        </Rank>
+
+        <Rank Index="1">
+			<Data Class="0" Type="14" Index="405" Level="0" Dur="7" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="1" Type="14" Index="405" Level="0" Dur="7" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="2" Type="14" Index="405" Level="0" Dur="7" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="3" Type="14" Index="405" Level="0" Dur="7" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="4" Type="14" Index="405" Level="0" Dur="7" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="5" Type="14" Index="405" Level="0" Dur="7" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="6" Type="14" Index="405" Level="0" Dur="7" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="7" Type="14" Index="405" Level="0" Dur="7" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="8" Type="14" Index="405" Level="0" Dur="7" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="9" Type="14" Index="405" Level="0" Dur="7" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="10" Type="14" Index="405" Level="0" Dur="7" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+        </Rank>
+
+        <Rank Index="2">
+			<Data Class="0" Type="14" Index="405" Level="0" Dur="5" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="1" Type="14" Index="405" Level="0" Dur="5" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="2" Type="14" Index="405" Level="0" Dur="5" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="3" Type="14" Index="405" Level="0" Dur="5" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="4" Type="14" Index="405" Level="0" Dur="5" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="5" Type="14" Index="405" Level="0" Dur="5" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="6" Type="14" Index="405" Level="0" Dur="5" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="7" Type="14" Index="405" Level="0" Dur="5" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="8" Type="14" Index="405" Level="0" Dur="5" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="9" Type="14" Index="405" Level="0" Dur="5" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="10" Type="14" Index="405" Level="0" Dur="5" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+        </Rank>
+
+        <Rank Index="3">
+			<Data Class="0" Type="14" Index="405" Level="0" Dur="3" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="1" Type="14" Index="405" Level="0" Dur="3" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="2" Type="14" Index="405" Level="0" Dur="3" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="3" Type="14" Index="405" Level="0" Dur="3" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="4" Type="14" Index="405" Level="0" Dur="3" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="5" Type="14" Index="405" Level="0" Dur="3" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="6" Type="14" Index="405" Level="0" Dur="3" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="7" Type="14" Index="405" Level="0" Dur="3" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="8" Type="14" Index="405" Level="0" Dur="3" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="9" Type="14" Index="405" Level="0" Dur="3" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="10" Type="14" Index="405" Level="0" Dur="3" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+        </Rank>
+
+        <Rank Index="4">
+			<Data Class="0" Type="14" Index="405" Level="0" Dur="1" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="1" Type="14" Index="405" Level="0" Dur="1" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="2" Type="14" Index="405" Level="0" Dur="1" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="3" Type="14" Index="405" Level="0" Dur="1" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="4" Type="14" Index="405" Level="0" Dur="1" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="5" Type="14" Index="405" Level="0" Dur="1" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="6" Type="14" Index="405" Level="0" Dur="1" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="7" Type="14" Index="405" Level="0" Dur="1" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="8" Type="14" Index="405" Level="0" Dur="1" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="9" Type="14" Index="405" Level="0" Dur="1" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="10" Type="14" Index="405" Level="0" Dur="1" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+        </Rank>
+    </Category>
+
+    <Category Index="2">
+        <Rank Index="0">
+			<Data Class="0" Type="14" Index="405" Level="0" Dur="10" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="1" Type="14" Index="405" Level="0" Dur="10" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="2" Type="14" Index="405" Level="0" Dur="10" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="3" Type="14" Index="405" Level="0" Dur="10" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="4" Type="14" Index="405" Level="0" Dur="10" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="5" Type="14" Index="405" Level="0" Dur="10" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="6" Type="14" Index="405" Level="0" Dur="10" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="7" Type="14" Index="405" Level="0" Dur="10" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="8" Type="14" Index="405" Level="0" Dur="10" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="9" Type="14" Index="405" Level="0" Dur="10" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="10" Type="14" Index="405" Level="0" Dur="10" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+        </Rank>
+
+        <Rank Index="1">
+			<Data Class="0" Type="14" Index="405" Level="0" Dur="7" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="1" Type="14" Index="405" Level="0" Dur="7" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="2" Type="14" Index="405" Level="0" Dur="7" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="3" Type="14" Index="405" Level="0" Dur="7" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="4" Type="14" Index="405" Level="0" Dur="7" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="5" Type="14" Index="405" Level="0" Dur="7" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="6" Type="14" Index="405" Level="0" Dur="7" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="7" Type="14" Index="405" Level="0" Dur="7" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="8" Type="14" Index="405" Level="0" Dur="7" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="9" Type="14" Index="405" Level="0" Dur="7" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="10" Type="14" Index="405" Level="0" Dur="7" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+        </Rank>
+
+        <Rank Index="2">
+			<Data Class="0" Type="14" Index="405" Level="0" Dur="5" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="1" Type="14" Index="405" Level="0" Dur="5" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="2" Type="14" Index="405" Level="0" Dur="5" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="3" Type="14" Index="405" Level="0" Dur="5" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="4" Type="14" Index="405" Level="0" Dur="5" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="5" Type="14" Index="405" Level="0" Dur="5" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="6" Type="14" Index="405" Level="0" Dur="5" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="7" Type="14" Index="405" Level="0" Dur="5" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="8" Type="14" Index="405" Level="0" Dur="5" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="9" Type="14" Index="405" Level="0" Dur="5" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="10" Type="14" Index="405" Level="0" Dur="5" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+        </Rank>
+
+        <Rank Index="3">
+			<Data Class="0" Type="14" Index="405" Level="0" Dur="3" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="1" Type="14" Index="405" Level="0" Dur="3" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="2" Type="14" Index="405" Level="0" Dur="3" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="3" Type="14" Index="405" Level="0" Dur="3" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="4" Type="14" Index="405" Level="0" Dur="3" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="5" Type="14" Index="405" Level="0" Dur="3" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="6" Type="14" Index="405" Level="0" Dur="3" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="7" Type="14" Index="405" Level="0" Dur="3" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="8" Type="14" Index="405" Level="0" Dur="3" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="9" Type="14" Index="405" Level="0" Dur="3" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="10" Type="14" Index="405" Level="0" Dur="3" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+        </Rank>
+
+        <Rank Index="4">
+			<Data Class="0" Type="14" Index="405" Level="0" Dur="1" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="1" Type="14" Index="405" Level="0" Dur="1" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="2" Type="14" Index="405" Level="0" Dur="1" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="3" Type="14" Index="405" Level="0" Dur="1" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="4" Type="14" Index="405" Level="0" Dur="1" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="5" Type="14" Index="405" Level="0" Dur="1" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="6" Type="14" Index="405" Level="0" Dur="1" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="7" Type="14" Index="405" Level="0" Dur="1" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="8" Type="14" Index="405" Level="0" Dur="1" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="9" Type="14" Index="405" Level="0" Dur="1" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="10" Type="14" Index="405" Level="0" Dur="1" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+        </Rank>
+    </Category>
+
+    <Category Index="3">
+        <Rank Index="0">
+			<Data Class="0" Type="14" Index="405" Level="0" Dur="10" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="1" Type="14" Index="405" Level="0" Dur="10" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="2" Type="14" Index="405" Level="0" Dur="10" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="3" Type="14" Index="405" Level="0" Dur="10" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="4" Type="14" Index="405" Level="0" Dur="10" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="5" Type="14" Index="405" Level="0" Dur="10" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="6" Type="14" Index="405" Level="0" Dur="10" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="7" Type="14" Index="405" Level="0" Dur="10" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="8" Type="14" Index="405" Level="0" Dur="10" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="9" Type="14" Index="405" Level="0" Dur="10" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="10" Type="14" Index="405" Level="0" Dur="10" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+        </Rank>
+
+        <Rank Index="1">
+			<Data Class="0" Type="14" Index="405" Level="0" Dur="7" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="1" Type="14" Index="405" Level="0" Dur="7" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="2" Type="14" Index="405" Level="0" Dur="7" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="3" Type="14" Index="405" Level="0" Dur="7" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="4" Type="14" Index="405" Level="0" Dur="7" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="5" Type="14" Index="405" Level="0" Dur="7" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="6" Type="14" Index="405" Level="0" Dur="7" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="7" Type="14" Index="405" Level="0" Dur="7" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="8" Type="14" Index="405" Level="0" Dur="7" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="9" Type="14" Index="405" Level="0" Dur="7" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="10" Type="14" Index="405" Level="0" Dur="7" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+        </Rank>
+
+        <Rank Index="2">
+			<Data Class="0" Type="14" Index="405" Level="0" Dur="5" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="1" Type="14" Index="405" Level="0" Dur="5" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="2" Type="14" Index="405" Level="0" Dur="5" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="3" Type="14" Index="405" Level="0" Dur="5" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="4" Type="14" Index="405" Level="0" Dur="5" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="5" Type="14" Index="405" Level="0" Dur="5" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="6" Type="14" Index="405" Level="0" Dur="5" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="7" Type="14" Index="405" Level="0" Dur="5" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="8" Type="14" Index="405" Level="0" Dur="5" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="9" Type="14" Index="405" Level="0" Dur="5" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="10" Type="14" Index="405" Level="0" Dur="5" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+        </Rank>
+
+        <Rank Index="3">
+			<Data Class="0" Type="14" Index="405" Level="0" Dur="3" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="1" Type="14" Index="405" Level="0" Dur="3" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="2" Type="14" Index="405" Level="0" Dur="3" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="3" Type="14" Index="405" Level="0" Dur="3" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="4" Type="14" Index="405" Level="0" Dur="3" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="5" Type="14" Index="405" Level="0" Dur="3" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="6" Type="14" Index="405" Level="0" Dur="3" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="7" Type="14" Index="405" Level="0" Dur="3" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="8" Type="14" Index="405" Level="0" Dur="3" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="9" Type="14" Index="405" Level="0" Dur="3" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="10" Type="14" Index="405" Level="0" Dur="3" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+        </Rank>
+
+        <Rank Index="4">
+			<Data Class="0" Type="14" Index="405" Level="0" Dur="1" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="1" Type="14" Index="405" Level="0" Dur="1" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="2" Type="14" Index="405" Level="0" Dur="1" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="3" Type="14" Index="405" Level="0" Dur="1" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="4" Type="14" Index="405" Level="0" Dur="1" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="5" Type="14" Index="405" Level="0" Dur="1" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="6" Type="14" Index="405" Level="0" Dur="1" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="7" Type="14" Index="405" Level="0" Dur="1" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="8" Type="14" Index="405" Level="0" Dur="1" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="9" Type="14" Index="405" Level="0" Dur="1" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="10" Type="14" Index="405" Level="0" Dur="1" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+        </Rank>
+    </Category>
+
+    <Category Index="255">
+        <Rank Index="0">
+			<Data Class="0" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="1" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="2" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="3" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="4" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="5" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="6" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="7" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="8" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="9" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="10" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+        </Rank>
+
+        <Rank Index="1">
+			<Data Class="0" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="1" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="2" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="3" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="4" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="5" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="6" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="7" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="8" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="9" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="10" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+        </Rank>
+
+        <Rank Index="2">
+			<Data Class="0" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="1" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="2" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="3" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="4" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="5" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="6" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="7" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="8" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="9" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="10" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+        </Rank>
+
+        <Rank Index="3">
+			<Data Class="0" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="1" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="2" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="3" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="4" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="5" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="6" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="7" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="8" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="9" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="10" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+        </Rank>
+
+        <Rank Index="4">
+			<Data Class="0" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="1" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="2" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="3" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="4" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="5" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="6" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="7" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="8" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="9" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+			<Data Class="10" Type="14" Index="405" Level="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" />
+        </Rank>
+    </Category>
+</EventLabyrinthReward>

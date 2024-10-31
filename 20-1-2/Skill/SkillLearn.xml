@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// ==        MUONLINE SERVER EMULATOR     					 ==
+// ==        POWERED BY DV-Team       						 ==
+// ==        File Name: SkillLearn                   		 ==
+// ============================================================
+-->
+<SkillLearn>
+	<!-- DarkWizard -->
+	<Item ItemCat="15" ItemIndex="3" ItemLevel="0" SkillID="4"/>
+	<Item ItemCat="15" ItemIndex="10" ItemLevel="0" SkillID="11"/>
+	<Item ItemCat="15" ItemIndex="2" ItemLevel="0" SkillID="3"/>
+	<Item ItemCat="15" ItemIndex="5" ItemLevel="0" SkillID="6"/>
+	<Item ItemCat="15" ItemIndex="1" ItemLevel="0" SkillID="2"/>
+	<Item ItemCat="15" ItemIndex="6" ItemLevel="0" SkillID="7"/>
+	<Item ItemCat="15" ItemIndex="0" ItemLevel="0" SkillID="1"/>
+	<Item ItemCat="15" ItemIndex="4" ItemLevel="0" SkillID="5"/>
+	<Item ItemCat="15" ItemIndex="7" ItemLevel="0" SkillID="8"/>
+	<Item ItemCat="15" ItemIndex="8" ItemLevel="0" SkillID="9"/>
+	<Item ItemCat="15" ItemIndex="9" ItemLevel="0" SkillID="10"/>
+	<Item ItemCat="15" ItemIndex="11" ItemLevel="0" SkillID="12"/>
+	<Item ItemCat="15" ItemIndex="15" ItemLevel="0" SkillID="16"/>
+	<Item ItemCat="15" ItemIndex="12" ItemLevel="0" SkillID="13"/>
+	<Item ItemCat="15" ItemIndex="14" ItemLevel="0" SkillID="15"/>
+	<Item ItemCat="15" ItemIndex="13" ItemLevel="0" SkillID="14"/>
+	<Item ItemCat="15" ItemIndex="17" ItemLevel="0" SkillID="39"/>
+	<Item ItemCat="15" ItemIndex="16" ItemLevel="0" SkillID="38"/>
+	<Item ItemCat="15" ItemIndex="18" ItemLevel="0" SkillID="40"/>
+	<Item ItemCat="15" ItemIndex="28" ItemLevel="0" SkillID="233"/>
+	<Item ItemCat="12" ItemIndex="290" ItemLevel="0" SkillID="724"/>
+	<Item ItemCat="12" ItemIndex="292" ItemLevel="0" SkillID="726"/>
+	<Item ItemCat="12" ItemIndex="291" ItemLevel="0" SkillID="725"/>
+	
+	<!-- DarkKnight -->
+	<Item ItemCat="12" ItemIndex="7" ItemLevel="0" SkillID="41"/>
+	<Item ItemCat="12" ItemIndex="14" ItemLevel="0" SkillID="48"/>
+	<Item ItemCat="12" ItemIndex="19" ItemLevel="0" SkillID="43"/>
+	<Item ItemCat="12" ItemIndex="12" ItemLevel="0" SkillID="42"/>
+	<Item ItemCat="12" ItemIndex="44" ItemLevel="0" SkillID="232"/>
+	<Item ItemCat="12" ItemIndex="485" ItemLevel="0" SkillID="1500"/>
+	<Item ItemCat="12" ItemIndex="487" ItemLevel="0" SkillID="1502"/>
+	<Item ItemCat="12" ItemIndex="488" ItemLevel="0" SkillID="1503"/>
+	<Item ItemCat="12" ItemIndex="289" ItemLevel="0" SkillID="723"/>
+	<Item ItemCat="12" ItemIndex="486" ItemLevel="0" SkillID="1501"/>
+	
+	<!-- FairyElf -->
+	<Item ItemCat="12" ItemIndex="8" ItemLevel="0" SkillID="26"/>
+	<Item ItemCat="12" ItemIndex="9" ItemLevel="0" SkillID="27"/>
+	<Item ItemCat="12" ItemIndex="10" ItemLevel="0" SkillID="28"/>
+	<Item ItemCat="12" ItemIndex="17" ItemLevel="0" SkillID="52"/>
+	<Item ItemCat="12" ItemIndex="18" ItemLevel="0" SkillID="51"/>
+	<Item ItemCat="12" ItemIndex="45" ItemLevel="0" SkillID="235"/>
+	<Item ItemCat="12" ItemIndex="46" ItemLevel="0" SkillID="234"/>
+	<Item ItemCat="12" ItemIndex="167" ItemLevel="0" SkillID="2023"/>
+	<Item ItemCat="12" ItemIndex="168" ItemLevel="0" SkillID="2024"/>
+	<Item ItemCat="12" ItemIndex="169" ItemLevel="0" SkillID="2025"/>
+	<Item ItemCat="12" ItemIndex="170" ItemLevel="0" SkillID="2026"/>
+	<Item ItemCat="12" ItemIndex="171" ItemLevel="0" SkillID="2027"/>
+	<Item ItemCat="12" ItemIndex="293" ItemLevel="0" SkillID="727"/>
+	<Item ItemCat="12" ItemIndex="11" ItemLevel="0" SkillID="30"/>
+	<Item ItemCat="12" ItemIndex="11" ItemLevel="1" SkillID="31"/>
+	<Item ItemCat="12" ItemIndex="11" ItemLevel="2" SkillID="32"/>
+	<Item ItemCat="12" ItemIndex="11" ItemLevel="3" SkillID="33"/>
+	<Item ItemCat="12" ItemIndex="11" ItemLevel="4" SkillID="34"/>
+	<Item ItemCat="12" ItemIndex="11" ItemLevel="5" SkillID="35"/>
+	<Item ItemCat="12" ItemIndex="11" ItemLevel="6" SkillID="36"/>
+	
+	<!-- MagicGladiator -->
+	<Item ItemCat="12" ItemIndex="47" ItemLevel="0" SkillID="236"/>
+	<Item ItemCat="12" ItemIndex="164" ItemLevel="0" SkillID="2014"/>
+	<Item ItemCat="12" ItemIndex="165" ItemLevel="0" SkillID="2015"/>
+	<Item ItemCat="12" ItemIndex="297" ItemLevel="0" SkillID="731"/>
+	<Item ItemCat="12" ItemIndex="298" ItemLevel="0" SkillID="732"/>
+	<Item ItemCat="12" ItemIndex="299" ItemLevel="0" SkillID="733"/>
+	<Item ItemCat="12" ItemIndex="300" ItemLevel="0" SkillID="734"/>
+	<Item ItemCat="12" ItemIndex="166" ItemLevel="0" SkillID="2016"/>
+	<Item ItemCat="15" ItemIndex="29" ItemLevel="0" SkillID="237"/>
+	<Item ItemCat="12" ItemIndex="163" ItemLevel="0" SkillID="2013"/>
+	<Item ItemCat="12" ItemIndex="16" ItemLevel="0" SkillID="55"/>
+	<Item ItemCat="12" ItemIndex="162" ItemLevel="0" SkillID="2012"/>
+	<Item ItemCat="12" ItemIndex="164" ItemLevel="0" SkillID="2014"/>
+	<Item ItemCat="12" ItemIndex="165" ItemLevel="0" SkillID="2015"/>
+	<Item ItemCat="12" ItemIndex="166" ItemLevel="0" SkillID="2016"/>
+	
+	<!-- DarkLord -->
+	<Item ItemCat="12" ItemIndex="21" ItemLevel="0" SkillID="61"/>
+	<Item ItemCat="12" ItemIndex="23" ItemLevel="0" SkillID="64"/>
+	<Item ItemCat="12" ItemIndex="24" ItemLevel="0" SkillID="65"/>
+	<Item ItemCat="12" ItemIndex="35" ItemLevel="0" SkillID="78"/>
+	<Item ItemCat="12" ItemIndex="22" ItemLevel="0" SkillID="63"/>
+	<Item ItemCat="12" ItemIndex="48" ItemLevel="0" SkillID="238"/>
+	<Item ItemCat="12" ItemIndex="303" ItemLevel="0" SkillID="737"/>
+	<!-- S19.2 -->
+	<Item ItemCat="15" ItemIndex="67" ItemLevel="0" SkillID="2095"/>
+	<Item ItemCat="15" ItemIndex="68" ItemLevel="0" SkillID="2097"/>
+	<Item ItemCat="15" ItemIndex="69" ItemLevel="0" SkillID="2100"/>
+	
+	<!-- Summoner -->
+	<Item ItemCat="15" ItemIndex="20" ItemLevel="0" SkillID="214"/>
+	<Item ItemCat="15" ItemIndex="24" ItemLevel="0" SkillID="219"/>
+	<Item ItemCat="15" ItemIndex="19" ItemLevel="0" SkillID="215"/>
+	<Item ItemCat="15" ItemIndex="23" ItemLevel="0" SkillID="218"/>
+	<Item ItemCat="15" ItemIndex="46" ItemLevel="0" SkillID="289"/>
+	<Item ItemCat="15" ItemIndex="42" ItemLevel="0" SkillID="223"/>
+	<Item ItemCat="15" ItemIndex="22" ItemLevel="0" SkillID="217"/>
+	<Item ItemCat="15" ItemIndex="43" ItemLevel="0" SkillID="224"/>
+	<Item ItemCat="15" ItemIndex="44" ItemLevel="0" SkillID="225"/>
+	<Item ItemCat="15" ItemIndex="26" ItemLevel="0" SkillID="221"/>
+	<Item ItemCat="15" ItemIndex="21" ItemLevel="0" SkillID="230"/>
+	<Item ItemCat="15" ItemIndex="27" ItemLevel="0" SkillID="222"/>
+	<Item ItemCat="15" ItemIndex="45" ItemLevel="0" SkillID="288"/>
+	<Item ItemCat="12" ItemIndex="295" ItemLevel="0" SkillID="729"/>
+	<Item ItemCat="12" ItemIndex="296" ItemLevel="0" SkillID="730"/>
+	
+	<!-- RageFighter -->
+	<Item ItemCat="15" ItemIndex="36" ItemLevel="0" SkillID="268"/>
+	<Item ItemCat="15" ItemIndex="35" ItemLevel="0" SkillID="267"/>
+	<Item ItemCat="15" ItemIndex="34" ItemLevel="0" SkillID="266"/>
+	<Item ItemCat="15" ItemIndex="30" ItemLevel="0" SkillID="262"/>
+	<Item ItemCat="15" ItemIndex="32" ItemLevel="0" SkillID="264"/>
+	<Item ItemCat="15" ItemIndex="31" ItemLevel="0" SkillID="263"/>
+	<Item ItemCat="15" ItemIndex="33" ItemLevel="0" SkillID="265"/>
+	<Item ItemCat="12" ItemIndex="305" ItemLevel="0" SkillID="739"/>
+	<Item ItemCat="12" ItemIndex="413" ItemLevel="0" SkillID="282"/>
+	
+	<!-- GrowLancer -->
+	<Item ItemCat="12" ItemIndex="274" ItemLevel="0" SkillID="276"/>
+	<Item ItemCat="12" ItemIndex="271" ItemLevel="0" SkillID="271"/>
+	<Item ItemCat="12" ItemIndex="272" ItemLevel="0" SkillID="273"/>
+	<Item ItemCat="12" ItemIndex="276" ItemLevel="0" SkillID="278"/>
+	<Item ItemCat="12" ItemIndex="273" ItemLevel="0" SkillID="274"/>
+	<Item ItemCat="12" ItemIndex="275" ItemLevel="0" SkillID="277"/>
+	<Item ItemCat="12" ItemIndex="277" ItemLevel="0" SkillID="279"/>
+	<Item ItemCat="12" ItemIndex="95" ItemLevel="0" SkillID="2036"/>
+	<Item ItemCat="12" ItemIndex="98" ItemLevel="0" SkillID="2085"/>
+	
+	<!-- RuneWizard -->
+	<Item ItemCat="15" ItemIndex="37" ItemLevel="0" SkillID="283"/>
+	<Item ItemCat="15" ItemIndex="38" ItemLevel="0" SkillID="284"/>
+	<Item ItemCat="15" ItemIndex="40" ItemLevel="0" SkillID="286"/>
+	<Item ItemCat="15" ItemIndex="41" ItemLevel="0" SkillID="287"/>
+	<Item ItemCat="15" ItemIndex="39" ItemLevel="0" SkillID="285"/>
+	
+	<!-- Slayer -->
+	<Item ItemCat="12" ItemIndex="476" ItemLevel="0" SkillID="292"/>
+	<Item ItemCat="12" ItemIndex="477" ItemLevel="0" SkillID="293"/>
+	<Item ItemCat="12" ItemIndex="478" ItemLevel="0" SkillID="295"/>
+	<Item ItemCat="12" ItemIndex="482" ItemLevel="0" SkillID="297"/>
+	<Item ItemCat="12" ItemIndex="479" ItemLevel="0" SkillID="294"/>
+	
+	<!-- GunCrusher -->
+	<Item ItemCat="12" ItemIndex="494" ItemLevel="0" SkillID="2004"/>
+	<Item ItemCat="12" ItemIndex="498" ItemLevel="0" SkillID="2006"/>
+	<Item ItemCat="12" ItemIndex="492" ItemLevel="0" SkillID="2002"/>
+	<Item ItemCat="15" ItemIndex="59" ItemLevel="0" SkillID="2005"/>
+	<Item ItemCat="12" ItemIndex="491" ItemLevel="0" SkillID="2001"/>
+	<Item ItemCat="12" ItemIndex="495" ItemLevel="0" SkillID="2005"/>
+	<Item ItemCat="12" ItemIndex="493" ItemLevel="0" SkillID="2003"/>
+	<Item ItemCat="15" ItemIndex="59" ItemLevel="0" SkillID="2021"/>
+	
+	<!-- LightWizard -->
+	<Item ItemCat="15" ItemIndex="47" ItemLevel="0" SkillID="241"/>
+	<Item ItemCat="15" ItemIndex="50" ItemLevel="0" SkillID="244"/>
+	<Item ItemCat="15" ItemIndex="48" ItemLevel="0" SkillID="242"/>
+	<Item ItemCat="15" ItemIndex="49" ItemLevel="0" SkillID="243"/>
+	
+	<!-- LemuriaMage -->
+	<Item ItemCat="15" ItemIndex="51" ItemLevel="0" SkillID="245"/>
+	<Item ItemCat="15" ItemIndex="52" ItemLevel="0" SkillID="246"/>
+	<Item ItemCat="15" ItemIndex="53" ItemLevel="0" SkillID="247"/>
+	<Item ItemCat="15" ItemIndex="54" ItemLevel="0" SkillID="2007"/>
+	<Item ItemCat="15" ItemIndex="55" ItemLevel="0" SkillID="2009"/>
+	<Item ItemCat="15" ItemIndex="56" ItemLevel="0" SkillID="2010"/>
+	<Item ItemCat="15" ItemIndex="57" ItemLevel="0" SkillID="2008"/>
+	<Item ItemCat="15" ItemIndex="58" ItemLevel="0" SkillID="2011"/>
+	
+	<!-- IllusionKnight -->
+	<Item ItemCat="12" ItemIndex="87" ItemLevel="0" SkillID="2032"/>
+	<Item ItemCat="12" ItemIndex="88" ItemLevel="0" SkillID="2031"/>
+	<Item ItemCat="12" ItemIndex="89" ItemLevel="0" SkillID="2028"/>
+	<Item ItemCat="12" ItemIndex="90" ItemLevel="0" SkillID="2029"/>
+	<Item ItemCat="12" ItemIndex="91" ItemLevel="0" SkillID="2030"/>
+	
+	<!-- Alchemist S20.1-->
+	<Item ItemCat="15" ItemIndex="63" ItemLevel="0" SkillID="2090"/>
+	<Item ItemCat="15" ItemIndex="64" ItemLevel="0" SkillID="2091"/>
+	<Item ItemCat="15" ItemIndex="65" ItemLevel="0" SkillID="2092"/>
+	<Item ItemCat="15" ItemIndex="66" ItemLevel="0" SkillID="2093"/>
+</SkillLearn>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==             File Name: EventSeasonManager              ==
+// ============================================================
+-->
+
+<EventSeasonManager>
+	<Event ID="0" Name="Christmas" StartDate="2017-12-08 05:00:00" StartEnd="2030-01-01 05:00:00" Ocurrence="525600" Duration="44640" StartMessage="" EndMessage="" />
+	<Event ID="1" Name="New Year" StartDate="2018-01-01 05:00:00" StartEnd="2030-01-01 05:00:00" Ocurrence="525600" Duration="44640" StartMessage="" EndMessage="" />
+	<Event ID="2" Name="Halloween" StartDate="2017-10-01 04:00:00" StartEnd="2030-01-01 05:00:00" Ocurrence="525600" Duration="44640" StartMessage="" EndMessage="" />
+	<Event ID="3" Name="Saint Valentine" StartDate="2018-02-07 05:00:00" StartEnd="2030-01-01 05:00:00" Ocurrence="525600" Duration="10080" StartMessage="" EndMessage="" />
+	<Event ID="4" Name="Summer" StartDate="2016-12-21 05:00:00" StartEnd="2030-01-01 05:00:00" Ocurrence="525600" Duration="129600" StartMessage="" EndMessage="" />
+	<Event ID="5" Name="Spring" StartDate="2017-09-21 04:00:00" StartEnd="2030-01-01 05:00:00" Ocurrence="525600" Duration="129600" StartMessage="" EndMessage="" />
+	<Event ID="6" Name="Winter" StartDate="2017-06-21 04:00:00" StartEnd="2030-01-01 05:00:00" Ocurrence="525600" Duration="129600" StartMessage="" EndMessage="" />
+	<Event ID="7" Name="Autumn" StartDate="2017-03-21 04:00:00" StartEnd="2030-01-01 05:00:00" Ocurrence="525600" Duration="129600" StartMessage="" EndMessage="" />
+</EventSeasonManager>

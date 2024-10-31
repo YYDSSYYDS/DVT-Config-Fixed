@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==         File Name: DoppelgangerMonsterSetting          ==
+// ============================================================
+-->
+
+<DoppelgangerMonsterSetting>
+    <Ground Index="0">
+		<Data Monster="529" Level="73" Life="19250" AttackMin="375" AttackMax="405" AttackRate="405" Def="357" DefRate="357" ItemBag="" />
+		<Data Monster="530" Level="66" Life="15400" AttackMin="330" AttackMax="360" AttackRate="360" Def="314" DefRate="314" ItemBag="" />
+		<Data Monster="531" Level="69" Life="11550" AttackMin="255" AttackMax="270" AttackRate="270" Def="258" DefRate="258" ItemBag="" />
+		<Data Monster="532" Level="58" Life="7700" AttackMin="225" AttackMax="240" AttackRate="240" Def="237" DefRate="237" ItemBag="" />
+		<Data Monster="533" Level="55" Life="4620" AttackMin="240" AttackMax="255" AttackRate="255" Def="194" DefRate="194" ItemBag="" />
+		<Data Monster="534" Level="51" Life="3850" AttackMin="195" AttackMax="210" AttackRate="210" Def="129" DefRate="129" ItemBag="" />
+		<Data Monster="535" Level="51" Life="3850" AttackMin="195" AttackMax="210" AttackRate="210" Def="129" DefRate="129" ItemBag="" />
+		<Data Monster="536" Level="51" Life="3850" AttackMin="195" AttackMax="210" AttackRate="210" Def="129" DefRate="129" ItemBag="" />
+		<Data Monster="537" Level="51" Life="3850" AttackMin="195" AttackMax="210" AttackRate="210" Def="129" DefRate="129" ItemBag="" />
+		<Data Monster="538" Level="62" Life="6930" AttackMin="255" AttackMax="270" AttackRate="270" Def="237" DefRate="237" ItemBag="" />
+		<Data Monster="539" Level="51" Life="3850" AttackMin="195" AttackMax="210" AttackRate="210" Def="129" DefRate="129" ItemBag="" />
+    </Ground>
+
+    <Ground Index="1">
+		<Data Monster="529" Level="82" Life="46750" AttackMin="525" AttackMax="567" AttackRate="567" Def="589" DefRate="589" ItemBag="" />
+		<Data Monster="530" Level="74" Life="37400" AttackMin="462" AttackMax="504" AttackRate="504" Def="518" DefRate="518" ItemBag="" />
+		<Data Monster="531" Level="78" Life="28050" AttackMin="357" AttackMax="378" AttackRate="378" Def="426" DefRate="426" ItemBag="" />
+		<Data Monster="532" Level="65" Life="18700" AttackMin="315" AttackMax="336" AttackRate="336" Def="391" DefRate="391" ItemBag="" />
+		<Data Monster="533" Level="61" Life="11220" AttackMin="336" AttackMax="357" AttackRate="357" Def="320" DefRate="320" ItemBag="" />
+		<Data Monster="534" Level="57" Life="9350" AttackMin="273" AttackMax="294" AttackRate="294" Def="213" DefRate="213" ItemBag="" />
+		<Data Monster="535" Level="57" Life="9350" AttackMin="273" AttackMax="294" AttackRate="294" Def="213" DefRate="213" ItemBag="" />
+		<Data Monster="536" Level="57" Life="9350" AttackMin="273" AttackMax="294" AttackRate="294" Def="213" DefRate="213" ItemBag="" />
+		<Data Monster="537" Level="57" Life="9350" AttackMin="273" AttackMax="294" AttackRate="294" Def="213" DefRate="213" ItemBag="" />
+		<Data Monster="538" Level="70" Life="16830" AttackMin="357" AttackMax="378" AttackRate="378" Def="391" DefRate="391" ItemBag="" />
+		<Data Monster="539" Level="57" Life="9350" AttackMin="273" AttackMax="294" AttackRate="294" Def="213" DefRate="213" ItemBag="" />
+    </Ground>
+
+    <Ground Index="2">
+		<Data Monster="529" Level="89" Life="94250" AttackMin="725" AttackMax="783" AttackRate="783" Def="797" DefRate="797" ItemBag="" />
+		<Data Monster="530" Level="80" Life="75400" AttackMin="638" AttackMax="696" AttackRate="696" Def="701" DefRate="701" ItemBag="" />
+		<Data Monster="531" Level="85" Life="56550" AttackMin="493" AttackMax="522" AttackRate="522" Def="576" DefRate="576" ItemBag="" />
+		<Data Monster="532" Level="71" Life="37700" AttackMin="435" AttackMax="464" AttackRate="464" Def="528" DefRate="528" ItemBag="" />
+		<Data Monster="533" Level="67" Life="22620" AttackMin="464" AttackMax="493" AttackRate="493" Def="432" DefRate="432" ItemBag="" />
+		<Data Monster="534" Level="62" Life="18850" AttackMin="377" AttackMax="406" AttackRate="406" Def="288" DefRate="288" ItemBag="" />
+		<Data Monster="535" Level="62" Life="18850" AttackMin="377" AttackMax="406" AttackRate="406" Def="288" DefRate="288" ItemBag="" />
+		<Data Monster="536" Level="62" Life="18850" AttackMin="377" AttackMax="406" AttackRate="406" Def="288" DefRate="288" ItemBag="" />
+		<Data Monster="537" Level="62" Life="18850" AttackMin="377" AttackMax="406" AttackRate="406" Def="288" DefRate="288" ItemBag="" />
+		<Data Monster="538" Level="76" Life="33930" AttackMin="493" AttackMax="522" AttackRate="522" Def="528" DefRate="528" ItemBag="" />
+		<Data Monster="539" Level="62" Life="18850" AttackMin="377" AttackMax="406" AttackRate="406" Def="288" DefRate="288" ItemBag="" />
+    </Ground>
+
+    <Ground Index="3">
+		<Data Monster="529" Level="94" Life="114250" AttackMin="875" AttackMax="945" AttackRate="945" Def="1121" DefRate="1121" ItemBag="" />
+		<Data Monster="530" Level="84" Life="91400" AttackMin="770" AttackMax="840" AttackRate="840" Def="986" DefRate="986" ItemBag="" />
+		<Data Monster="531" Level="89" Life="68550" AttackMin="595" AttackMax="630" AttackRate="630" Def="810" DefRate="810" ItemBag="" />
+		<Data Monster="532" Level="75" Life="45700" AttackMin="525" AttackMax="560" AttackRate="560" Def="743" DefRate="743" ItemBag="" />
+		<Data Monster="533" Level="70" Life="27420" AttackMin="560" AttackMax="595" AttackRate="595" Def="608" DefRate="608" ItemBag="" />
+		<Data Monster="534" Level="66" Life="22850" AttackMin="455" AttackMax="490" AttackRate="490" Def="405" DefRate="405" ItemBag="" />
+		<Data Monster="535" Level="66" Life="22850" AttackMin="455" AttackMax="490" AttackRate="490" Def="405" DefRate="405" ItemBag="" />
+		<Data Monster="536" Level="66" Life="22850" AttackMin="455" AttackMax="490" AttackRate="490" Def="405" DefRate="405" ItemBag="" />
+		<Data Monster="537" Level="66" Life="22850" AttackMin="455" AttackMax="490" AttackRate="490" Def="405" DefRate="405" ItemBag="" />
+		<Data Monster="538" Level="80" Life="41130" AttackMin="595" AttackMax="630" AttackRate="630" Def="743" DefRate="743" ItemBag="" />
+		<Data Monster="539" Level="66" Life="22850" AttackMin="455" AttackMax="490" AttackRate="490" Def="405" DefRate="405" ItemBag="" />
+    </Ground>
+
+    <Ground Index="4">
+		<Data Monster="529" Level="136" Life="136750" AttackMin="1025" AttackMax="1107" AttackRate="1107" Def="1287" DefRate="1287" ItemBag="" />
+		<Data Monster="530" Level="122" Life="109400" AttackMin="902" AttackMax="984" AttackRate="984" Def="1132" DefRate="1132" ItemBag="" />
+		<Data Monster="531" Level="129" Life="82050" AttackMin="697" AttackMax="738" AttackRate="738" Def="930" DefRate="930" ItemBag="" />
+		<Data Monster="532" Level="109" Life="54700" AttackMin="615" AttackMax="656" AttackRate="656" Def="853" DefRate="853" ItemBag="" />
+		<Data Monster="533" Level="102" Life="32820" AttackMin="656" AttackMax="697" AttackRate="697" Def="698" DefRate="698" ItemBag="" />
+		<Data Monster="534" Level="95" Life="27350" AttackMin="533" AttackMax="574" AttackRate="574" Def="465" DefRate="465" ItemBag="" />
+		<Data Monster="535" Level="95" Life="27350" AttackMin="533" AttackMax="574" AttackRate="574" Def="465" DefRate="465" ItemBag="" />
+		<Data Monster="536" Level="95" Life="27350" AttackMin="533" AttackMax="574" AttackRate="574" Def="465" DefRate="465" ItemBag="" />
+		<Data Monster="537" Level="95" Life="27350" AttackMin="533" AttackMax="574" AttackRate="574" Def="465" DefRate="465" ItemBag="" />
+		<Data Monster="538" Level="115" Life="49230" AttackMin="697" AttackMax="738" AttackRate="738" Def="853" DefRate="853" ItemBag="" />
+		<Data Monster="539" Level="95" Life="27350" AttackMin="533" AttackMax="574" AttackRate="574" Def="465" DefRate="465" ItemBag="" />
+    </Ground>
+
+    <Ground Index="5">
+		<Data Monster="529" Level="136" Life="209250" AttackMin="1375" AttackMax="1485" AttackRate="1485" Def="1602" DefRate="1602" ItemBag="" />
+		<Data Monster="530" Level="122" Life="167400" AttackMin="1210" AttackMax="1320" AttackRate="1320" Def="1409" DefRate="1409" ItemBag="" />
+		<Data Monster="531" Level="129" Life="125550" AttackMin="935" AttackMax="990" AttackRate="990" Def="1158" DefRate="1158" ItemBag="" />
+		<Data Monster="532" Level="109" Life="83700" AttackMin="825" AttackMax="880" AttackRate="880" Def="1062" DefRate="1062" ItemBag="" />
+		<Data Monster="533" Level="102" Life="50220" AttackMin="880" AttackMax="935" AttackRate="935" Def="869" DefRate="869" ItemBag="" />
+		<Data Monster="534" Level="95" Life="41850" AttackMin="715" AttackMax="770" AttackRate="770" Def="579" DefRate="579" ItemBag="" />
+		<Data Monster="535" Level="95" Life="41850" AttackMin="715" AttackMax="770" AttackRate="770" Def="579" DefRate="579" ItemBag="" />
+		<Data Monster="536" Level="95" Life="41850" AttackMin="715" AttackMax="770" AttackRate="770" Def="579" DefRate="579" ItemBag="" />
+		<Data Monster="537" Level="95" Life="41850" AttackMin="715" AttackMax="770" AttackRate="770" Def="579" DefRate="579" ItemBag="" />
+		<Data Monster="538" Level="115" Life="75330" AttackMin="935" AttackMax="990" AttackRate="990" Def="1062" DefRate="1062" ItemBag="" />
+		<Data Monster="539" Level="95" Life="41850" AttackMin="715" AttackMax="770" AttackRate="770" Def="579" DefRate="579" ItemBag="" />
+    </Ground>
+
+    <Ground Index="6">
+		<Data Monster="529" Level="136" Life="291750" AttackMin="1638" AttackMax="1769" AttackRate="1769" Def="1876" DefRate="1876" ItemBag="" />
+		<Data Monster="530" Level="122" Life="233400" AttackMin="1441" AttackMax="1572" AttackRate="1572" Def="1650" DefRate="1650" ItemBag="" />
+		<Data Monster="531" Level="129" Life="175050" AttackMin="1114" AttackMax="1179" AttackRate="1179" Def="1356" DefRate="1356" ItemBag="" />
+		<Data Monster="532" Level="109" Life="116700" AttackMin="983" AttackMax="1048" AttackRate="1048" Def="1243" DefRate="1243" ItemBag="" />
+		<Data Monster="533" Level="102" Life="70020" AttackMin="1048" AttackMax="1114" AttackRate="1114" Def="1017" DefRate="1017" ItemBag="" />
+		<Data Monster="534" Level="95" Life="58350" AttackMin="852" AttackMax="917" AttackRate="917" Def="678" DefRate="678" ItemBag="" />
+		<Data Monster="535" Level="95" Life="58350" AttackMin="852" AttackMax="917" AttackRate="917" Def="678" DefRate="678" ItemBag="" />
+		<Data Monster="536" Level="95" Life="58350" AttackMin="852" AttackMax="917" AttackRate="917" Def="678" DefRate="678" ItemBag="" />
+		<Data Monster="537" Level="95" Life="58350" AttackMin="852" AttackMax="917" AttackRate="917" Def="678" DefRate="678" ItemBag="" />
+		<Data Monster="538" Level="115" Life="105030" AttackMin="1114" AttackMax="1179" AttackRate="1179" Def="1243" DefRate="1243" ItemBag="" />
+		<Data Monster="539" Level="95" Life="58350" AttackMin="852" AttackMax="917" AttackRate="917" Def="678" DefRate="678" ItemBag="" />
+    </Ground>
+</DoppelgangerMonsterSetting>
