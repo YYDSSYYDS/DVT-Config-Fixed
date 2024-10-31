@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==                 File Name: Commands                    ==
+// ============================================================
+-->
+
 <CommandList>
 	<CommandSystem Type="0" Description="Player Commands">
 		<Command ID="0" name="addstrr" Description="/addstr #points" Authority="0"/>

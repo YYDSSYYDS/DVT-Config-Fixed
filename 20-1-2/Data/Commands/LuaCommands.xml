@@ -1,38 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==                 File Name: LuaCommands                 ==
+// ============================================================
+-->
 
 <CommandList>
-<CommandSystem Type="16" Description="Custom Lua Commands">
-	<Command ID="200" name= "ShowRanking"	Description="" Authority="0"/>
-	<Command ID="300" name= "online"	    Description="" Authority="0"/>
-	<Command ID="301" name= "info"	    Description="" Authority="0"/>
-	<Command ID="642" name= "gmdrop"	    Description="TEST" Authority="0"/>
-	<Command ID="303" name= "ware"	    Description="TEST" Authority="0"/>
-	<Command ID="313" name= "setbox"	    Description="TEST" Authority="0"/>
-
-	<Command ID="314" name= "xd"	    Description="洗点" Authority="0"/>
-
-	<Command ID="580" name= "sx"	    Description="TEST" Authority="0"/>
-	<Command ID="581" name= "tp"	    Description="TEST" Authority="0"/>
-	<Command ID="582" name= "cx"	    Description="TEST" Authority="0"/>
-	<Command ID="583" name= "cdy"	    Description="TEST" Authority="0"/>
-
-
-	<Command ID="204" name= "ee"	Description="" Authority="0"/>
-
-
-	<Command ID="2001" name= "ck"	    Description="TEST" Authority="0"/>
-	<Command ID="2002" name= "aa"	    Description="TEST" Authority="0"/>
-		<Command ID="2003" name= "dd"	    Description="TEST" Authority="0"/>
-	<Command ID="2004" name= "qh"	    Description="TEST" Authority="0"/>
-	<Command ID="2005" name= "race"	    Description="TEST" Authority="0"/>
-	<Command ID="2006" name= "ss"	    Description="TEST" Authority="0"/>
-	<Command ID="2007" name= "sss"	    Description="TEST" Authority="0"/>
-	<Command ID="2008" name= "aaa"	    Description="TEST" Authority="0"/>
-
-	<Command ID="3001" name= "dh"	    Description="兑换" Authority="0"/>
-	<Command ID="3002" name= "cxd"	    Description="查询点数" Authority="0"/>
-	<Command ID="3003" name= "gq"	    Description="给钱" Authority="0"/>
-
+	<CommandSystem Type="16" Description="Custom Lua Commands">
 </CommandSystem>
 </CommandList>
