@@ -12,8 +12,8 @@ CLASS_SLAYER									  	  = 9	-- Slayer, Royal Slayer, Master Slayer, Slaughtere
 CLASS_GUNCRUSHER									  = 10	-- Gun Crusher, Gun Breaker, Master Gun Breaker, Heist Gun Crusher
 CLASS_LIGHTWIZARD									  = 11	-- Light Wizard, Shining Wizard, Luminous Wizard
 CLASS_LEMURIAMAGE									  = 12	-- Lemuria Mage, Warmage, Archmage, Mystic Mage
-CLASS_ILLUSIONKNIGHT								  = 13	-- Illusion Knight, Mirage Knight, Illusion Master, Mystic Knight
-
+CLASS_ILLUSIONKNIGHT								  	  = 14	-- Illusion Knight, Mirage Knight, Illusion Master, Mystic Knight
+ClASS_ALCHEMIST										  = 15  -- Alchemist, ALCHEMIC MAGICIAN, ALCHEMIC MASTER, ALCHEMIC FORCE,CREATOR
 
 -- Character Damage - Fist Fighting - (Dark Knight, Blade Knight, Blade Master)
 -- Replace Option StatID="0" Class="1" and Option StatID="1" Class="1" in CharacterFormula.xml
@@ -131,6 +131,9 @@ function CalcAttackSpeed(Class, Dexterity,IsSpecialBuff)
 	elseif(Class == CLASS_ILLUSIONKNIGHT) then
 		AttackSpeed = Dexterity / 10
 		MagicSpeed = Dexterity / 10
+	elseif(Class == ClASS_ALCHEMIST) then
+		AttackSpeed = Dexterity / 20
+		MagicSpeed = Dexterity / 10	
 	end
 	
 	return AttackSpeed, MagicSpeed
@@ -178,6 +181,8 @@ function CalcDefense(Class, Strength, Dexterity, IsSpecialBuff)
 		Defense = Dexterity / 4
 	elseif(Class == CLASS_ILLUSIONKNIGHT) then
 		Defense = Dexterity / 10 + Strength / 5
+	elseif(Class == ClASS_ALCHEMIST) then
+		Defense = Dexterity / 4
 	end
 	
 	return Defense
@@ -220,6 +225,8 @@ function ElementalDefenseCalc(Class, Strength, Dexterity, Vitality, Energy, IsSp
 		Defense = (Energy / 5) + (Dexterity / 9)
 	elseif(Class == CLASS_ILLUSIONKNIGHT) then
 		Defense = (Strength / 6) + (Dexterity / 15)
+	elseif(Class == ClASS_ALCHEMIST) then
+		Defense = (Energy / 5) + (Dexterity / 9)
 	end
 	
 	return Defense
