@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==                File Name: ConfusionStoneMonsterSet     ==
+// ============================================================
+-->
+
+<ConfusionStoneMonsterSet>
+	<MapMonster>
+		<Map ID="0" MomsterID="7" />
+		<Map ID="1" MomsterID="-1" />
+		<Map ID="2" MomsterID="19" />
+		<Map ID="3" MomsterID="32" />
+		<Map ID="4" MomsterID="-1" />
+		<Map ID="7" MomsterID="45" />
+		<Map ID="8" MomsterID="57" />
+		<Map ID="10" MomsterID="70" />
+		<Map ID="24" MomsterID="160" />
+		<Map ID="25" MomsterID="180" />
+		<Map ID="26" MomsterID="188" />
+		<Map ID="27" MomsterID="196" />
+		<Map ID="28" MomsterID="266" />
+		<Map ID="29" MomsterID="274" />
+		<Map ID="36" MomsterID="337" />
+		<Map ID="31" MomsterID="294" />
+		<Map ID="33" MomsterID="306" />
+		<Map ID="37" MomsterID="350" />
+		<Map ID="38" MomsterID="360" />
+		<Map ID="51" MomsterID="425" />
+		<Map ID="56" MomsterID="449" />
+		<Map ID="57" MomsterID="458" />
+		<Map ID="63" MomsterID="490" />
+		<Map ID="80" MomsterID="574" />
+		<Map ID="81" MomsterID="576" />
+		<Map ID="91" MomsterID="586" />
+		<Map ID="95" MomsterID="608" />
+		<Map ID="100" MomsterID="670" />
+		<Map ID="110" MomsterID="713" />
+		<Map ID="112" MomsterID="730" />
+		<Map ID="113" MomsterID="744" />
+		<Map ID="116" MomsterID="767" />
+		<Map ID="117" MomsterID="772" />
+		<Map ID="118" MomsterID="773" />
+		<Map ID="119" MomsterID="769" />
+		<Map ID="120" MomsterID="777" />
+		<Map ID="122" MomsterID="788" />
+		<Map ID="123" MomsterID="810" />
+		<Map ID="124" MomsterID="810" />
+		<Map ID="125" MomsterID="810" />
+		<Map ID="126" MomsterID="810" />
+		<Map ID="127" MomsterID="810" />
+		<Map ID="128" MomsterID="832" />
+		<Map ID="129" MomsterID="834" />
+		<Map ID="130" MomsterID="836" />
+		<Map ID="131" MomsterID="846" />
+		<Map ID="132" MomsterID="861" />
+		<Map ID="133" MomsterID="867" />
+		<Map ID="134" MomsterID="875" />
+		<Map ID="135" MomsterID="893" />
+		<Map ID="136" MomsterID="896" />
+		<Map ID="137" MomsterID="905" />
+		<Map ID="138" MomsterID="911" />
+		<Map ID="140" MomsterID="926" />
+		<Map ID="141" MomsterID="942" />
+		<Map ID="142" MomsterID="955" />
+		<Map ID="143" MomsterID="963" />
+	</MapMonster>
+
+	<Unkonwn>
+		<Unkonwn Index="1" Unkonwn1="0"	Unkonwn2="138"	Unkonwn3="253"	Unkonwn4="253"	Unkonwn5="11" />
+		<Unkonwn Index="1" Unkonwn1="61"	Unkonwn2="0"	Unkonwn3="255"	Unkonwn4="133"	Unkonwn5="13" />
+		<Unkonwn Index="1" Unkonwn1="0"	Unkonwn2="0"	Unkonwn3="61"	Unkonwn4="34"	Unkonwn5="13" />
+		<Unkonwn Index="1" Unkonwn1="0"	Unkonwn2="45"	Unkonwn3="49"	Unkonwn4="130"	Unkonwn5="8" />
+		<Unkonwn Index="4" Unkonwn1="149"	Unkonwn2="0	"	Unkonwn3="253"	Unkonwn4="144"	Unkonwn5="39" />
+		<Unkonwn Index="4" Unkonwn1="161"	Unkonwn2="162"	Unkonwn3="253"	Unkonwn4="253"	Unkonwn5="34" />
+		<Unkonwn Index="4" Unkonwn1="77"	Unkonwn2="162"	Unkonwn3="139"	Unkonwn4="251"	Unkonwn5="41" />
+		<Unkonwn Index="4" Unkonwn1="79"	Unkonwn2="82"	Unkonwn3="139"	Unkonwn4="143"	Unkonwn5="37" />
+		<Unkonwn Index="4" Unkonwn1="80"	Unkonwn2="3"	Unkonwn3="139"	Unkonwn4="62"	Unkonwn5="40" />
+		<Unkonwn Index="4" Unkonwn1="0"	Unkonwn2="0"	Unkonwn3="61"	Unkonwn4="251"	Unkonwn5="35" />
+	</Unkonwn>
+
+</ConfusionStoneMonsterSet>
