@@ -13,6 +13,7 @@ CLASS_GUNCRUSHER									  = 10	-- Gun Crusher, Gun Breaker, Master Gun Breaker,
 CLASS_LIGHTWIZARD									  = 11	-- Light Wizard, Shining Wizard, Luminous Wizard
 CLASS_LEMURIAMAGE									  = 12	-- Lemuria Mage, Warmage, Archmage, Mystic Mage
 CLASS_ILLUSIONKNIGHT								  = 13	-- Illusion Knight, Mirage Knight, Illusion Master, Mystic Knight
+ClASS_ALCHEMIST										  = 14  -- Alchemist, ALCHEMIC MAGICIAN, ALCHEMIC MASTER, ALCHEMIC FORCE,CREATOR
 
 -- SkillID: 385, 487, Evil Spirit Strengthener
 function EvilSpirit_MasterLevel1_Calc(Class, InDamage, Strength, Dexterity, Vitality, Energy)
@@ -1885,4 +1886,32 @@ function GrowLancerWildBreath_MasterLevel1_Calc(InDamage, Strength, Dexterity, V
 	end
 	
 	return OutDamage
+end
+
+-- SkillID: 900, Angel Homunculus Strengthener
+function AlchemistAngel_Homunculus_Strengthener(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
+    local OutDamage = 0
+	OutDamage = InDamage;
+    return OutDamage
+end
+
+-- SkillID: 901, Angel Homunculus Mastery
+function AlchemistAngel_Homunculus_Mastery(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
+    local OutDamage = 0
+	OutDamage = InDamage;
+    return OutDamage
+end
+
+-- SkillID: 903, Ignition Bomber Strengthener
+function AlchemistIgnition_Bomber_Strengthener(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
+    local OutDamage = 0
+	OutDamage = InDamage;
+    return OutDamage
+end
+
+-- SkillID: 904, Ignition Bomber Mastery
+function AlchemistIgnition_Bomber_Mastery(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
+    local OutDamage = 0
+	OutDamage = InDamage;
+    return OutDamage
 end

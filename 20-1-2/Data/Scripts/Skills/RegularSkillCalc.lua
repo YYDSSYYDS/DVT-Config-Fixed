@@ -13,6 +13,7 @@ CLASS_GUNCRUSHER									  = 10	-- Gun Crusher, Gun Breaker, Master Gun Breaker,
 CLASS_LIGHTWIZARD									  = 11	-- Light Wizard, Shining Wizard, Luminous Wizard
 CLASS_LEMURIAMAGE									  = 12	-- Lemuria Mage, Warmage, Archmage, Mystic Mage
 CLASS_ILLUSIONKNIGHT								  = 13	-- Illusion Knight, Mirage Knight, Illusion Master, Mystic Knight
+ClASS_ALCHEMIST										  = 14  -- Alchemist, ALCHEMIC MAGICIAN, ALCHEMIC MASTER, ALCHEMIC FORCE,CREATOR
 
 -- SkillID: 9, Evil Spirit
 function EvilSpiritCalc(Class, InDamage, Strength, Dexterity, Vitality, Energy)
@@ -1539,3 +1540,47 @@ function GladiatorHavokSpearNova(InDamage, Strength, Dexterity, Vitality, Energy
     end
     return OutDamage
 end
+
+-- SkillID: 2090, Confusion Stone
+function AlchemistConfusionStone(Index, TargetIndex, Energy)
+
+	local SummonCoolDown = 30 -- ConfusionStone summon a monster every 30s
+	local SkillTime = 300 -- ConfusionStone duration time and Buff 443 duration time
+
+    return SummonCoolDown, SkillTime
+end
+
+-- SkillID: 2091, Angel Homunculus
+function AlchemistAngelHomunculus(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
+    local OutDamage = 0
+	if (BarrageCount == 1) then
+		OutDamage = InDamage * ( 165 + ( Energy / 65 ) ) / 100;
+	elseif (BarrageCount == 2) then
+		OutDamage = InDamage * ( 165 + ( Energy / 65 ) ) / 100;
+	end
+
+    return OutDamage
+end
+
+-- SkillID: 2092, Ignition Bomber
+function AlchemistIgnitionBomber(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
+    local OutDamage = 0
+	if (BarrageCount == 1) then
+		OutDamage = InDamage * ( 165 + ( Energy / 65 ) ) / 100;
+	elseif (BarrageCount == 2) then
+		OutDamage = InDamage * ( 165 + ( Energy / 65 ) ) / 100;
+	end
+    return OutDamage
+end
+
+-- SkillID: 2093, Countless Weapon
+function AlchemistCountlessWeapon(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
+    local OutDamage = 0
+	if (BarrageCount == 1) then
+		OutDamage = InDamage * ( 165 + ( Energy / 65 ) ) / 100;
+	elseif (BarrageCount == 2) then
+		OutDamage = InDamage * ( 165 + ( Energy / 65 ) ) / 100;
+	end
+    return OutDamage
+end
+

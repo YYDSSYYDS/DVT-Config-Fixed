@@ -13,6 +13,7 @@ CLASS_GUNCRUSHER									  = 10	-- Gun Crusher, Gun Breaker, Master Gun Breaker,
 CLASS_LIGHTWIZARD									  = 11	-- Light Wizard, Shining Wizard, Luminous Wizard
 CLASS_LEMURIAMAGE									  = 12	-- Lemuria Mage, Warmage, Archmage, Mystic Mage
 CLASS_ILLUSIONKNIGHT								  = 13	-- Illusion Knight, Mirage Knight, Illusion Master, Mystic Knight	
+ClASS_ALCHEMIST										  = 14  -- Alchemist, ALCHEMIC MAGICIAN, ALCHEMIC MASTER, ALCHEMIC FORCE,CREATOR
 
 -- SkillID: 1078, 1088, Evil Spirit Enhancement Skill
 function EvilSpiritCalc_4thEnchant(Class, InDamage, Strength, Dexterity, Vitality, Energy)
@@ -770,4 +771,25 @@ function IllusionKnightBladeStorm_4thEnchant_Calc(InDamage, Strength, Dexterity,
 	end
 
 	return OutDamage
+end
+
+-- SkillID: 1237, Angel Homunculus Enhancement Skill
+function AlchemistAngel_Homunculus_Enhancement_Skill(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
+    local OutDamage = 0
+	OutDamage = InDamage;
+    return OutDamage
+end
+
+-- SkillID: 1238, Ignition Bomber Enhancement Skill
+function AlchemistIgnition_Bomber_Enhancement_Skill(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
+    local OutDamage = 0
+	OutDamage = InDamage;
+    return OutDamage
+end
+
+-- SkillID: 1239, Countless Weapon Enhancement Skill
+function AlchemistCountless_Weapon_Enhancement_Skill(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
+    local OutDamage = 0
+	OutDamage = InDamage;
+    return OutDamage
 end
