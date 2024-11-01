@@ -573,7 +573,7 @@
 	<Data Type="7" ID="55" Formula="(%d+%d)*0+10"/> <!-- Battle Glory Combat Power Increase：Strength, Command -->
 	<Data Type="7" ID="56" Formula="(%d+%d)/3"/> <!-- Battle Glory Attack Power Increase：Strength, Command -->
 	<!-- S20.1 -->
-	<Data Type="7" ID="57" Formula="1+((%d-23)/10)"/>
+	<Data Type="7" ID="57" Formula="1+((%d-23)/10)"/> <!-- Confusion Stone Alchemy Rate Increase：Stamina -->
 
 	<!-- GuardianItem -->
 	<Data Type="8" ID="0" Formula="20+((9+%d)/2)^2"/> <!-- ItemLevel -->
