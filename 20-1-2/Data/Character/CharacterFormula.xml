@@ -9,16 +9,16 @@
 // ~ATTACK_DAMAGE_MAX = 1,
 // ~ATTACK_RATE = 2,
 // ~ATTACK_RATE_PVP = 3,
-// ~ATTACK_SPEED = 4,
-// ~MAGIC_SPEED = 5,
-// ~DEFENSE = 6,
+// ~ATTACK_SPEED = 4, replaced by CalcCharacterDamages.lua
+// ~MAGIC_SPEED = 5, replaced by CalcCharacterDamages.lua
+// ~DEFENSE = 6, replaced by CalcCharacterDamages.lua
 // ~DEFENSE_RATE = 7,
 // ~DEFENSE_RATE_PVP = 8,
 // ~MAGIC_DAMAGE_MIN = 9,
 // ~MAGIC_DAMAGE_MAX = 10,
 // ~CURSE_DAMAGE_MIN = 11,
 // ~CURSE_DAMAGE_MAX = 12,
-// ~ELEMENTAL_DEFENSE = 13,
+// ~ELEMENTAL_DEFENSE = 13, replaced by CalcCharacterDamages.lua
 // ~ELEMENTAL_DAMAGE_MIN = 14,
 // ~ELEMENTAL_DAMAGE_MAX = 15,
 // ~ELEMENTAL_ATTACK_SUCCESS_RATE = 16,
@@ -33,16 +33,16 @@
 	<Option StatID="1" Class="0" LevelMul="0" LevelDiv="1" StrengthMul="1" StrengthDiv="4" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="2" Class="0" LevelMul="5" LevelDiv="1" StrengthMul="1" StrengthDiv="4" AgilityMul="1,5" AgilityDiv="2" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="3" Class="0" LevelMul="3" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="4,5" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="4" Class="0" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="5" Class="0" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="6" Class="0" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="4" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
+	<!-- <Option StatID="4" Class="0" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
+	<!-- <Option StatID="5" Class="0" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
+	<!-- <Option StatID="6" Class="0" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="4" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
 	<Option StatID="7" Class="0" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="3" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="8" Class="0" LevelMul="2" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="4" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="9" Class="0" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="9" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="10" Class="0" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="4" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="11" Class="0" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="12" Class="0" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="13" Class="0" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="4" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
+	<!-- <Option StatID="13" Class="0" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="4" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
 	<Option StatID="14" Class="0" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="9" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="15" Class="0" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="6" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="16" Class="0" LevelMul="2,5" LevelDiv="1" StrengthMul="1" StrengthDiv="8" AgilityMul="1" AgilityDiv="6" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
@@ -55,16 +55,16 @@
 	<Option StatID="1" Class="1" LevelMul="0" LevelDiv="1" StrengthMul="1" StrengthDiv="4" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="2" Class="1" LevelMul="5" LevelDiv="1" StrengthMul="1" StrengthDiv="4" AgilityMul="1,5" AgilityDiv="2" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="3" Class="1" LevelMul="3" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="4,5" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="4" Class="1" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="15" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="5" Class="1" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="15" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="6" Class="1" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="3" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
+	<!-- <Option StatID="4" Class="1" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="15" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
+	<!-- <Option StatID="5" Class="1" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="15" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
+	<!-- <Option StatID="6" Class="1" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="3" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
 	<Option StatID="7" Class="1" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="3" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="8" Class="1" LevelMul="2" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="2" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="9" Class="1" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="9" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="10" Class="1" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="11" Class="1" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="12" Class="1" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="13" Class="1" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="3" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
+	<!-- <Option StatID="13" Class="1" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="3" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
 	<Option StatID="14" Class="1" LevelMul="0" LevelDiv="1" StrengthMul="1" StrengthDiv="6" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="15" Class="1" LevelMul="0" LevelDiv="1" StrengthMul="1" StrengthDiv="4" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="16" Class="1" LevelMul="2,5" LevelDiv="1" StrengthMul="1" StrengthDiv="8" AgilityMul="1" AgilityDiv="6" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
@@ -77,16 +77,16 @@
 	<Option StatID="1" Class="2" LevelMul="0" LevelDiv="1" StrengthMul="1" StrengthDiv="4" AgilityMul="1" AgilityDiv="4" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="2" Class="2" LevelMul="5" LevelDiv="1" StrengthMul="1" StrengthDiv="4" AgilityMul="1,5" AgilityDiv="2" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="3" Class="2" LevelMul="3" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0,6" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="4" Class="2" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="22" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="5" Class="2" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="50" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="6" Class="2" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
+	<!-- <Option StatID="4" Class="2" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="22" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
+	<!-- <Option StatID="5" Class="2" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="50" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
+	<!-- <Option StatID="6" Class="2" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
 	<Option StatID="7" Class="2" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="4" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="8" Class="2" LevelMul="2" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="9" Class="2" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="10" Class="2" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="11" Class="2" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="12" Class="2" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="13" Class="2" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
+	<!-- <Option StatID="13" Class="2" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
 	<Option StatID="14" Class="2" LevelMul="0" LevelDiv="1" StrengthMul="1" StrengthDiv="14" AgilityMul="1" AgilityDiv="8" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="15" Class="2" LevelMul="0" LevelDiv="1" StrengthMul="1" StrengthDiv="8" AgilityMul="1" AgilityDiv="4" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="16" Class="2" LevelMul="2,5" LevelDiv="1" StrengthMul="1" StrengthDiv="8" AgilityMul="1" AgilityDiv="6" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
@@ -99,16 +99,16 @@
 	<Option StatID="1" Class="3" LevelMul="0" LevelDiv="1" StrengthMul="1" StrengthDiv="4" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="8" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="2" Class="3" LevelMul="5" LevelDiv="1" StrengthMul="1" StrengthDiv="4" AgilityMul="1,5" AgilityDiv="2" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="3" Class="3" LevelMul="3" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="3,5" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="4" Class="3" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="5" Class="3" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="15" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="6" Class="3" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="4" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
+	<!-- <Option StatID="4" Class="3" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
+	<!-- <Option StatID="5" Class="3" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="15" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
+	<!-- <Option StatID="6" Class="3" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="4" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
 	<Option StatID="7" Class="3" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="3" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="8" Class="3" LevelMul="2" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="4" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="9" Class="3" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="9" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="10" Class="3" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="4" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="11" Class="3" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="12" Class="3" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="13" Class="3" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="5" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
+	<!-- <Option StatID="13" Class="3" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="5" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
 	<Option StatID="14" Class="3" LevelMul="0" LevelDiv="1" StrengthMul="1" StrengthDiv="10" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="14" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="15" Class="3" LevelMul="0" LevelDiv="1" StrengthMul="1" StrengthDiv="6" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="8" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="16" Class="3" LevelMul="2,5" LevelDiv="1" StrengthMul="1" StrengthDiv="8" AgilityMul="1" AgilityDiv="6" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
@@ -121,16 +121,16 @@
 	<Option StatID="1" Class="4" LevelMul="0" LevelDiv="1" StrengthMul="1" StrengthDiv="4" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="10" LeaderShipMul="0" LeaderShipDiv="10"/>
 	<Option StatID="2" Class="4" LevelMul="5" LevelDiv="1" StrengthMul="1" StrengthDiv="4" AgilityMul="1,5" AgilityDiv="2" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="1" LeaderShipDiv="15"/>
 	<Option StatID="3" Class="4" LevelMul="3" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="4" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="4" Class="4" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="5" Class="4" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="6" Class="4" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="7" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
+	<!-- <Option StatID="4" Class="4" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
+	<!-- <Option StatID="5" Class="4" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
+	<!-- <Option StatID="6" Class="4" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="7" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
 	<Option StatID="7" Class="4" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="7" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="8" Class="4" LevelMul="2" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="2" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="9" Class="4" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="10" Class="4" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="11" Class="4" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="12" Class="4" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="13" Class="4" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="7" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
+	<!-- <Option StatID="13" Class="4" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="7" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
 	<Option StatID="14" Class="4" LevelMul="0" LevelDiv="1" StrengthMul="1" StrengthDiv="10" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="14" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="15" Class="4" LevelMul="0" LevelDiv="1" StrengthMul="1" StrengthDiv="6" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="10" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="16" Class="4" LevelMul="2,5" LevelDiv="1" StrengthMul="1" StrengthDiv="8" AgilityMul="1" AgilityDiv="6" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
@@ -143,16 +143,16 @@
 	<Option StatID="1" Class="5" LevelMul="0" LevelDiv="1" StrengthMul="1" StrengthDiv="4" AgilityMul="1" AgilityDiv="4" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="2" Class="5" LevelMul="5" LevelDiv="1" StrengthMul="1" StrengthDiv="4" AgilityMul="1,5" AgilityDiv="2" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="3" Class="5" LevelMul="3" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="3,5" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="4" Class="5" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="20" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="5" Class="5" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="20" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="6" Class="5" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="3" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
+	<!-- <Option StatID="4" Class="5" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="20" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
+	<!-- <Option StatID="5" Class="5" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="20" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
+	<!-- <Option StatID="6" Class="5" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="3" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
 	<Option StatID="7" Class="5" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="4" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="8" Class="5" LevelMul="2" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="2" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="9" Class="5" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="9" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="10" Class="5" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="4" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="11" Class="5" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="9" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="12" Class="5" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="4" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="13" Class="5" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="3" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
+	<!-- <Option StatID="13" Class="5" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="3" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
 	<Option StatID="14" Class="5" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="10" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="15" Class="5" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="6" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="16" Class="5" LevelMul="2,5" LevelDiv="1" StrengthMul="1" StrengthDiv="8" AgilityMul="1" AgilityDiv="6" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
@@ -165,16 +165,16 @@
 	<Option StatID="1" Class="6" LevelMul="0" LevelDiv="1" StrengthMul="1" StrengthDiv="5" AgilityMul="0" AgilityDiv="1" VitalityMul="1" VitalityDiv="12" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="2" Class="6" LevelMul="3" LevelDiv="1" StrengthMul="1" StrengthDiv="6" AgilityMul="1,5" AgilityDiv="4" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="3" Class="6" LevelMul="3" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="3,5" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="5" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="4" Class="6" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="8" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="5" Class="6" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="9" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="6" Class="6" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="8" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
+	<!-- <Option StatID="4" Class="6" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="8" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
+	<!-- <Option StatID="5" Class="6" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="9" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
+	<!-- <Option StatID="6" Class="6" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="8" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
 	<Option StatID="7" Class="6" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="8" Class="6" LevelMul="3" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="9" Class="6" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="10" Class="6" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="11" Class="6" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="12" Class="6" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="13" Class="6" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="8" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
+	<!-- <Option StatID="13" Class="6" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="8" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
 	<Option StatID="14" Class="6" LevelMul="0" LevelDiv="1" StrengthMul="1" StrengthDiv="10" AgilityMul="0" AgilityDiv="1" VitalityMul="1" VitalityDiv="20" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="15" Class="6" LevelMul="0" LevelDiv="1" StrengthMul="1" StrengthDiv="6" AgilityMul="0" AgilityDiv="1" VitalityMul="1" VitalityDiv="15" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="16" Class="6" LevelMul="2,5" LevelDiv="1" StrengthMul="1" StrengthDiv="8" AgilityMul="1" AgilityDiv="6" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
@@ -187,16 +187,16 @@
 	<Option StatID="1" Class="7" LevelMul="0" LevelDiv="1" StrengthMul="1" StrengthDiv="4" AgilityMul="1" AgilityDiv="6" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="2" Class="7" LevelMul="5" LevelDiv="1" StrengthMul="1" StrengthDiv="4" AgilityMul="1,5" AgilityDiv="4" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="3" Class="7" LevelMul="3" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="2" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="4" Class="7" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="20" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="5" Class="7" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="20" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="6" Class="7" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="7" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
+	<!-- <Option StatID="4" Class="7" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="20" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
+	<!-- <Option StatID="5" Class="7" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="20" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
+	<!-- <Option StatID="6" Class="7" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="7" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
 	<Option StatID="7" Class="7" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="4" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="8" Class="7" LevelMul="2" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="5" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="9" Class="7" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="10" Class="7" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="11" Class="7" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="12" Class="7" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="13" Class="7" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="8" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
+	<!-- <Option StatID="13" Class="7" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="8" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
 	<Option StatID="14" Class="7" LevelMul="0" LevelDiv="1" StrengthMul="1" StrengthDiv="5" AgilityMul="1" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="15" Class="7" LevelMul="0" LevelDiv="1" StrengthMul="1" StrengthDiv="3" AgilityMul="1" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="16" Class="7" LevelMul="2,5" LevelDiv="1" StrengthMul="1" StrengthDiv="8" AgilityMul="1" AgilityDiv="6" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
@@ -209,16 +209,16 @@
 	<Option StatID="1" Class="8" LevelMul="0" LevelDiv="1" StrengthMul="1" StrengthDiv="4" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="2" Class="8" LevelMul="5" LevelDiv="1" StrengthMul="1" StrengthDiv="4" AgilityMul="1,5" AgilityDiv="2" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="3" Class="8" LevelMul="3" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="4" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="4" Class="8" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="12" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="5" Class="8" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="12" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="6" Class="8" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="5" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
+	<!-- <Option StatID="4" Class="8" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="12" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
+	<!-- <Option StatID="5" Class="8" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="12" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
+	<!-- <Option StatID="6" Class="8" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="5" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
 	<Option StatID="7" Class="8" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="3" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="8" Class="8" LevelMul="2" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="3" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="9" Class="8" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="9" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="10" Class="8" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="4" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="11" Class="8" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="12" Class="8" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="13" Class="8" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="5" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
+	<!-- <Option StatID="13" Class="8" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="5" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
 	<Option StatID="14" Class="8" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="9" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="15" Class="8" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="6" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="16" Class="8" LevelMul="2,5" LevelDiv="1" StrengthMul="1" StrengthDiv="8" AgilityMul="1" AgilityDiv="6" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
@@ -231,16 +231,16 @@
 	<Option StatID="1" Class="9" LevelMul="0" LevelDiv="1" StrengthMul="1" StrengthDiv="5" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="2" Class="9" LevelMul="5" LevelDiv="1" StrengthMul="1" StrengthDiv="4" AgilityMul="1,5" AgilityDiv="2" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="3" Class="9" LevelMul="3" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="2,5" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="4" Class="9" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="5" Class="9" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="12" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="6" Class="9" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
+	<!-- <Option StatID="4" Class="9" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
+	<!-- <Option StatID="5" Class="9" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="12" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
+	<!-- <Option StatID="6" Class="9" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
 	<Option StatID="7" Class="9" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="3" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="8" Class="9" LevelMul="2" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="3" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="9" Class="9" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="10" Class="9" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="11" Class="9" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="12" Class="9" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="13" Class="9" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="3" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
+	<!-- <Option StatID="13" Class="9" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="3" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
 	<Option StatID="14" Class="9" LevelMul="0" LevelDiv="1" StrengthMul="1" StrengthDiv="6" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="15" Class="9" LevelMul="0" LevelDiv="1" StrengthMul="1" StrengthDiv="4" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="16" Class="9" LevelMul="2,5" LevelDiv="1" StrengthMul="1" StrengthDiv="8" AgilityMul="1" AgilityDiv="6" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
@@ -253,16 +253,16 @@
 	<Option StatID="1" Class="10" LevelMul="0" LevelDiv="1" StrengthMul="1" StrengthDiv="4" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="2" Class="10" LevelMul="5" LevelDiv="1" StrengthMul="1" StrengthDiv="4" AgilityMul="1,5" AgilityDiv="2" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="3" Class="10" LevelMul="3" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="3,5" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="4" Class="10" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="20" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="5" Class="10" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="6" Class="10" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="3" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
+	<!-- <Option StatID="4" Class="10" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="20" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
+	<!-- <Option StatID="5" Class="10" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
+	<!-- <Option StatID="6" Class="10" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="3" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
 	<Option StatID="7" Class="10" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="4" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="8" Class="10" LevelMul="2" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="2" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="9" Class="10" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="9" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="10" Class="10" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="4" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="11" Class="10" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="12" Class="10" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="13" Class="10" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="4" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
+	<!-- <Option StatID="13" Class="10" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="4" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
 	<Option StatID="14" Class="10" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="9" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="15" Class="10" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="6" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="16" Class="10" LevelMul="2,5" LevelDiv="1" StrengthMul="1" StrengthDiv="8" AgilityMul="1" AgilityDiv="6" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
@@ -275,16 +275,16 @@
 	<Option StatID="1" Class="11" LevelMul="0" LevelDiv="1" StrengthMul="1" StrengthDiv="4" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="2" Class="11" LevelMul="5" LevelDiv="1" StrengthMul="1" StrengthDiv="4" AgilityMul="1,5" AgilityDiv="2" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="3" Class="11" LevelMul="3" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="4" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="4" Class="11" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="5" Class="11" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="6" Class="11" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="3" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
+	<!-- <Option StatID="4" Class="11" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
+	<!-- <Option StatID="5" Class="11" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
+	<!-- <Option StatID="6" Class="11" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="3" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
 	<Option StatID="7" Class="11" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="3" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="8" Class="11" LevelMul="2" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="4" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="9" Class="11" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="5" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="10" Class="11" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="3" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="11" Class="11" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="12" Class="11" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="13" Class="11" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="4" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
+	<!-- <Option StatID="13" Class="11" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="4" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
 	<Option StatID="14" Class="11" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="9" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="15" Class="11" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="6" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="16" Class="11" LevelMul="2,5" LevelDiv="1" StrengthMul="1" StrengthDiv="8" AgilityMul="1" AgilityDiv="6" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
@@ -297,16 +297,16 @@
 	<Option StatID="1" Class="12" LevelMul="0" LevelDiv="1" StrengthMul="1" StrengthDiv="4" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="2" Class="12" LevelMul="5" LevelDiv="1" StrengthMul="1" StrengthDiv="2" AgilityMul="1,5" AgilityDiv="2" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="3" Class="12" LevelMul="3" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="4" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="4" Class="12" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="5" Class="12" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="6" Class="12" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="3" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
+	<!-- <Option StatID="4" Class="12" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
+	<!-- <Option StatID="5" Class="12" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
+	<!-- <Option StatID="6" Class="12" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="3" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
 	<Option StatID="7" Class="12" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="3" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="8" Class="12" LevelMul="2" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="4" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="9" Class="12" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="5" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="10" Class="12" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="3" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="11" Class="12" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="12" Class="12" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="13" Class="12" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="4" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
+	<!-- <Option StatID="13" Class="12" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="4" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
 	<Option StatID="14" Class="12" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="9" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="15" Class="12" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="6" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="16" Class="12" LevelMul="2,5" LevelDiv="1" StrengthMul="1" StrengthDiv="8" AgilityMul="1" AgilityDiv="6" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
@@ -319,16 +319,16 @@
 	<Option StatID="1" Class="13" LevelMul="0" LevelDiv="1" StrengthMul="1" StrengthDiv="9" AgilityMul="0" AgilityDiv="6" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="2" Class="13" LevelMul="5" LevelDiv="1" StrengthMul="1" StrengthDiv="2" AgilityMul="1,5" AgilityDiv="2" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="3" Class="13" LevelMul="3" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="2,5" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="4" Class="13" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="7" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="5" Class="13" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="6" Class="13" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="7" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
+	<!-- <Option StatID="4" Class="13" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="7" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
+	<!-- <Option StatID="5" Class="13" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
+	<!-- <Option StatID="6" Class="13" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="7" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
 	<Option StatID="7" Class="13" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="3" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="8" Class="13" LevelMul="2" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="4" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="9" Class="13" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="10" Class="13" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="11" Class="13" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="12" Class="13" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="13" Class="13" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="4" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
+	<!-- <Option StatID="13" Class="13" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="4" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
 	<Option StatID="14" Class="13" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="9" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="15" Class="13" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="6" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="16" Class="13" LevelMul="2,5" LevelDiv="1" StrengthMul="1" StrengthDiv="8" AgilityMul="1" AgilityDiv="6" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
@@ -341,16 +341,16 @@
 	<Option StatID="1" Class="14" LevelMul="0" LevelDiv="1" StrengthMul="1" StrengthDiv="4" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="2" Class="14" LevelMul="5" LevelDiv="1" StrengthMul="1" StrengthDiv="2" AgilityMul="1,5" AgilityDiv="2" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="3" Class="14" LevelMul="3" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="4" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="4" Class="14" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="5" Class="14" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="6" Class="14" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="3" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
+	<!-- <Option StatID="4" Class="14" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
+	<!-- <Option StatID="5" Class="14" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="10" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
+	<!-- <Option StatID="6" Class="14" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="3" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
 	<Option StatID="7" Class="14" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="3" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="8" Class="14" LevelMul="2" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="4" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="9" Class="14" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="5" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="10" Class="14" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="3" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="11" Class="14" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="12" Class="14" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
-	<Option StatID="13" Class="14" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="4" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
+	<!-- <Option StatID="13" Class="14" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="1" AgilityDiv="4" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/> -->
 	<Option StatID="14" Class="14" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="9" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="15" Class="14" LevelMul="0" LevelDiv="1" StrengthMul="0" StrengthDiv="1" AgilityMul="0" AgilityDiv="1" VitalityMul="0" VitalityDiv="1" EnergyMul="1" EnergyDiv="6" LeaderShipMul="0" LeaderShipDiv="1"/>
 	<Option StatID="16" Class="14" LevelMul="2,5" LevelDiv="1" StrengthMul="1" StrengthDiv="8" AgilityMul="1" AgilityDiv="6" VitalityMul="0" VitalityDiv="1" EnergyMul="0" EnergyDiv="1" LeaderShipMul="0" LeaderShipDiv="1"/>
