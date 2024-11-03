@@ -2,7 +2,7 @@
 <!-- 
 // ============================================================
 // == 				MUONLINE SERVER EMULATOR				 ==
-// == 				   POWERED BY DV-Team				 	 ==
+// == 				   POWERED BY DevEMU				 	 ==
 // ==               File Name: CharacterSkill                ==
 // ============================================================
 -->
@@ -83,9 +83,42 @@
 	<Option Class="9" Skill="70"/>
 	<Option Class="9" Skill="71"/>
 	<Option Class="9" Skill="72"/>
+	<Option Class="10" Skill="67"/>
+	<Option Class="10" Skill="68"/>
+	<Option Class="10" Skill="69"/>
+	<Option Class="10" Skill="70"/>
+	<Option Class="10" Skill="71"/>
+	<Option Class="10" Skill="72"/>
 	<Option Class="11" Skill="240"/>
 	<Option Class="11" Skill="45"/>
+	<Option Class="11" Skill="67"/>
+	<Option Class="11" Skill="68"/>
+	<Option Class="11" Skill="69"/>
+	<Option Class="11" Skill="70"/>
+	<Option Class="11" Skill="71"/>
+	<Option Class="11" Skill="72"/>
 	<Option Class="12" Skill="240"/>
 	<Option Class="12" Skill="45"/>
+	<Option Class="12" Skill="67"/>
+	<Option Class="12" Skill="68"/>
+	<Option Class="12" Skill="69"/>
+	<Option Class="12" Skill="70"/>
+	<Option Class="12" Skill="71"/>
+	<Option Class="12" Skill="72"/>
 	<Option Class="13" Skill="44"/>
+	<Option Class="13" Skill="67"/>
+	<Option Class="13" Skill="68"/>
+	<Option Class="13" Skill="69"/>
+	<Option Class="13" Skill="70"/>
+	<Option Class="13" Skill="71"/>
+	<Option Class="13" Skill="72"/>
+	<!-- S20.1 ALC -->
+	<Option Class="14" Skill="17"/>
+	<Option Class="14" Skill="45"/>
+	<Option Class="14" Skill="67"/>
+	<Option Class="14" Skill="68"/>
+	<Option Class="14" Skill="69"/>
+	<Option Class="14" Skill="70"/>
+	<Option Class="14" Skill="71"/>
+	<Option Class="14" Skill="72"/>
 </CharacterSkill>
