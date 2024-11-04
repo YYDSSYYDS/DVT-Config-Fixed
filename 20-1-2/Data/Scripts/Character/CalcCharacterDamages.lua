@@ -232,3 +232,42 @@ function ElementalDefenseCalc(Class, Strength, Dexterity, Vitality, Energy, IsSp
 	return Defense
 end
 
+function CalcStamina(Class, Strength, Dexterity, Vitality, Energy, Leadership, NormalLevel, MasterLevel, MajesticLevel)
+	local Stamina = 0
+	local TotalLevel = NormalLevel + MasterLevel + MajesticLevel
+	
+	if(Class == CLASS_WIZARD) then
+		Stamina = (Strength * 0.2) + (Dexterity * 0.4) + (Vitality * 0.3) + (Energy * 0.2)
+	elseif(Class == CLASS_KNIGHT) then
+		Stamina = (Strength * 0.15) + (Dexterity * 0.2) + (Vitality * 0.3) + (Energy * 1.0)
+	elseif(Class == CLASS_ELF) then
+		Stamina = (Strength * 0.3) + (Dexterity * 0.2) + (Vitality * 0.3) + (Energy * 0.2)
+	elseif(Class == CLASS_GLADIATOR) then
+		Stamina = (Strength * 0.2) + (Dexterity * 0.25) + (Vitality * 0.3) + (Energy * 0.15)
+	elseif(Class == CLASS_DARKLORD) then
+		Stamina = (Strength * 0.3) + (Dexterity * 0.2) + (Vitality * 0.1) + (Energy * 0.15) + (Leadership * 0.3)
+	elseif(Class == CLASS_SUMMONER) then
+		Stamina = (Strength * 0.2) + (Dexterity * 0.25) + (Vitality * 0.3) + (Energy * 0.15)
+	elseif(Class == CLASS_RStaminaEFIGHTER) then
+		Stamina = (Strength * 0.15) + (Dexterity * 0.2) + (Vitality * 0.3) + (Energy * 1.0)
+	elseif(Class == CLASS_GROWLANCER) then
+		Stamina = (Strength * 0.15) + (Dexterity * 0.2) + (Vitality * 0.3) + (Energy * 1.0)
+	elseif(Class == CLASS_RUNEWIZARD) then
+		Stamina = (Strength * 0.15) + (Dexterity * 0.2) + (Vitality * 0.3) + (Energy * 1.0)
+	elseif(Class == CLASS_SLAYER) then
+		Stamina = (Strength * 0.15) + (Dexterity * 0.2) + (Vitality * 0.3) + (Energy * 1.0)
+	elseif(Class == CLASS_GUNCRUSHER) then
+		Stamina = (Strength * 0.2) + (Dexterity * 0.25) + (Vitality * 0.3) + (Energy * 0.15)
+	elseif(Class == CLASS_LIGHTWIZARD) then
+		Stamina = (Strength * 0.2) + (Dexterity * 0.24) + (Vitality * 0.2) + (Energy * 0.4)
+	elseif(Class == CLASS_LEMURIAMStaminaE) then
+		Stamina = (Strength * 0.2) + (Dexterity * 0.24) + (Vitality * 0.2) + (Energy * 0.4)
+	elseif(Class == CLASS_ILLUSIONKNIGHT) then
+		Stamina = (Strength * 0.3) + (Dexterity * 0.5) + (Vitality * 0.2) + (Energy * 0.2)
+	elseif(Class == ClASS_ALCHEMIST) then
+		Stamina = (Strength * 0.2) + (Dexterity * 0.24) + (Vitality * 0.2) + (Energy * 0.4)
+	end
+	
+	return Stamina
+end
+
