@@ -326,8 +326,8 @@
 	Stat							ReqStat					
 	# 7-(Spl Wiz Dmg Min)			3-ENERGY 		
 	# 8-(Spl Wiz Dmg Max)           3-ENERGY 		
-	# 5-(Spl Def Rate PvM)      	1-DEXTERITY 	
-	# 6-(Spl Def Rate PvP)      	1-DEXTERITY 	
+	# 2-(Spl Atk Suc Rate PvM)      1-DEXTERITY 	
+	# 3-(Spl Atk Suc Rate PvP)      1-DEXTERITY 	
 	-->	
 	<Option Class="14" Stat="7" ReqStat="3" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
 	<Option Class="14" Stat="7" ReqStat="3" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
@@ -335,10 +335,10 @@
 	<Option Class="14" Stat="8" ReqStat="3" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
 	<Option Class="14" Stat="8" ReqStat="3" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
 	<Option Class="14" Stat="8" ReqStat="3" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
-	<Option Class="14" Stat="5" ReqStat="1" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
-	<Option Class="14" Stat="5" ReqStat="1" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
-	<Option Class="14" Stat="5" ReqStat="1" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
-	<Option Class="14" Stat="6" ReqStat="1" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
-	<Option Class="14" Stat="6" ReqStat="1" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
-	<Option Class="14" Stat="6" ReqStat="1" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="14" Stat="2" ReqStat="1" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="14" Stat="2" ReqStat="1" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="14" Stat="2" ReqStat="1" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
+	<Option Class="14" Stat="3" ReqStat="1" ReqStatMin="1" ReqStatMax="1500" PercentMin="0" PercentMax="10" ReqStatLimit="1500" />
+	<Option Class="14" Stat="3" ReqStat="1" ReqStatMin="1501" ReqStatMax="2000" PercentMin="10" PercentMax="30" ReqStatLimit="2000" />
+	<Option Class="14" Stat="3" ReqStat="1" ReqStatMin="2001" ReqStatMax="-1" PercentMin="30" PercentMax="45" ReqStatLimit="3000" />
 </CharacterSpecialization>
