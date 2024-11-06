@@ -11721,4 +11721,103 @@
 			<Spawn Index="960" Distance="3" StartX="86" StartY="236" Dir="8" Element="5"/> <!-- (Elite) Twisted Condra -->
 		</Spot>
 	</Map>
+	<Map Number="143" Name="Kardamahal UnderGround Temple">
+		<Spot Type="3" Description="Multiple Elemental Monster Spawn">
+			<Spawn Index="963" Distance="5" StartX="147" StartY="55" EndX="156" EndY="64" Dir="-1" Count="3" Element="2" /> <!-- Devil Sword --> 
+			<Spawn Index="964" Distance="5" StartX="147" StartY="55" EndX="156" EndY="64" Dir="-1" Count="3" Element="2" /> <!-- Devil Scythe --> 
+			<Spawn Index="965" Distance="5" StartX="147" StartY="55" EndX="156" EndY="64" Dir="-1" Count="2" Element="2" /> <!-- Devil Sorcerer --> 
+			<Spawn Index="963" Distance="5" StartX="156" StartY="7" EndX="164" EndY="13" Dir="-1" Count="3" Element="2" /> <!-- Devil Sword --> 
+			<Spawn Index="964" Distance="5" StartX="156" StartY="7" EndX="164" EndY="13" Dir="-1" Count="3" Element="2" /> <!-- Devil Scythe --> 
+			<Spawn Index="965" Distance="5" StartX="156" StartY="7" EndX="164" EndY="13" Dir="-1" Count="2" Element="2" /> <!-- Devil Sorcerer --> 
+			<Spawn Index="963" Distance="5" StartX="194" StartY="9" EndX="202" EndY="18" Dir="-1" Count="3" Element="2" /> <!-- Devil Sword --> 
+			<Spawn Index="964" Distance="5" StartX="194" StartY="9" EndX="202" EndY="18" Dir="-1" Count="3" Element="2" /> <!-- Devil Scythe --> 
+			<Spawn Index="965" Distance="5" StartX="194" StartY="9" EndX="202" EndY="18" Dir="-1" Count="2" Element="2" /> <!-- Devil Sorcerer --> 
+			<Spawn Index="963" Distance="5" StartX="226" StartY="10" EndX="234" EndY="19" Dir="-1" Count="3" Element="2" /> <!-- Devil Sword --> 
+			<Spawn Index="964" Distance="5" StartX="226" StartY="10" EndX="234" EndY="19" Dir="-1" Count="3" Element="2" /> <!-- Devil Scythe --> 
+			<Spawn Index="965" Distance="5" StartX="226" StartY="10" EndX="234" EndY="19" Dir="-1" Count="2" Element="2" /> <!-- Devil Sorcerer --> 
+			<Spawn Index="963" Distance="5" StartX="237" StartY="27" EndX="246" EndY="35" Dir="-1" Count="3" Element="2" /> <!-- Devil Sword --> 
+			<Spawn Index="964" Distance="5" StartX="237" StartY="27" EndX="246" EndY="35" Dir="-1" Count="3" Element="2" /> <!-- Devil Scythe --> 
+			<Spawn Index="965" Distance="5" StartX="237" StartY="27" EndX="246" EndY="35" Dir="-1" Count="2" Element="2" /> <!-- Devil Sorcerer --> 
+			<Spawn Index="963" Distance="5" StartX="237" StartY="49" EndX="244" EndY="57" Dir="-1" Count="3" Element="2" /> <!-- Devil Sword --> 
+			<Spawn Index="964" Distance="5" StartX="237" StartY="49" EndX="244" EndY="57" Dir="-1" Count="3" Element="2" /> <!-- Devil Scythe --> 
+			<Spawn Index="965" Distance="5" StartX="237" StartY="49" EndX="244" EndY="57" Dir="-1" Count="2" Element="2" /> <!-- Devil Sorcerer --> 
+			<Spawn Index="963" Distance="5" StartX="237" StartY="85" EndX="245" EndY="93" Dir="-1" Count="3" Element="4" /> <!-- Devil Sword --> 
+			<Spawn Index="964" Distance="5" StartX="237" StartY="85" EndX="245" EndY="93" Dir="-1" Count="3" Element="4" /> <!-- Devil Scythe --> 
+			<Spawn Index="965" Distance="5" StartX="237" StartY="85" EndX="245" EndY="93" Dir="-1" Count="2" Element="4" /> <!-- Devil Sorcerer --> 
+			<Spawn Index="963" Distance="5" StartX="239" StartY="106" EndX="245" EndY="114" Dir="-1" Count="3" Element="4" /> <!-- Devil Sword --> 
+			<Spawn Index="964" Distance="5" StartX="239" StartY="106" EndX="245" EndY="114" Dir="-1" Count="3" Element="4" /> <!-- Devil Scythe --> 
+			<Spawn Index="965" Distance="5" StartX="239" StartY="106" EndX="245" EndY="114" Dir="-1" Count="2" Element="4" /> <!-- Devil Sorcerer --> 
+			<Spawn Index="963" Distance="5" StartX="213" StartY="131" EndX="221" EndY="140" Dir="-1" Count="3" Element="4" /> <!-- Devil Sword --> 
+			<Spawn Index="964" Distance="5" StartX="213" StartY="131" EndX="221" EndY="140" Dir="-1" Count="3" Element="4" /> <!-- Devil Scythe --> 
+			<Spawn Index="965" Distance="5" StartX="213" StartY="131" EndX="221" EndY="140" Dir="-1" Count="2" Element="4" /> <!-- Devil Sorcerer --> 
+			<Spawn Index="963" Distance="5" StartX="187" StartY="125" EndX="195" EndY="133" Dir="-1" Count="3" Element="4" /> <!-- Devil Sword --> 
+			<Spawn Index="964" Distance="5" StartX="187" StartY="125" EndX="195" EndY="133" Dir="-1" Count="3" Element="4" /> <!-- Devil Scythe --> 
+			<Spawn Index="965" Distance="5" StartX="187" StartY="125" EndX="195" EndY="133" Dir="-1" Count="2" Element="4" /> <!-- Devil Sorcerer --> 
+			<Spawn Index="963" Distance="5" StartX="160" StartY="125" EndX="170" EndY="135" Dir="-1" Count="3" Element="4" /> <!-- Devil Sword --> 
+			<Spawn Index="964" Distance="5" StartX="160" StartY="125" EndX="170" EndY="135" Dir="-1" Count="3" Element="4" /> <!-- Devil Scythe --> 
+			<Spawn Index="965" Distance="5" StartX="160" StartY="125" EndX="170" EndY="135" Dir="-1" Count="2" Element="4" /> <!-- Devil Sorcerer --> 
+			<Spawn Index="963" Distance="5" StartX="151" StartY="82" EndX="161" EndY="89" Dir="-1" Count="3" Element="4" /> <!-- Devil Sword --> 
+			<Spawn Index="964" Distance="5" StartX="151" StartY="82" EndX="161" EndY="89" Dir="-1" Count="3" Element="4" /> <!-- Devil Scythe --> 
+			<Spawn Index="965" Distance="5" StartX="151" StartY="82" EndX="161" EndY="89" Dir="-1" Count="2" Element="4" /> <!-- Devil Sorcerer --> 
+			<Spawn Index="963" Distance="5" StartX="100" StartY="77" EndX="111" EndY="86" Dir="-1" Count="3" Element="3" /> <!-- Devil Sword --> 
+			<Spawn Index="964" Distance="5" StartX="100" StartY="77" EndX="111" EndY="86" Dir="-1" Count="3" Element="3" /> <!-- Devil Scythe --> 
+			<Spawn Index="965" Distance="5" StartX="100" StartY="77" EndX="111" EndY="86" Dir="-1" Count="2" Element="3" /> <!-- Devil Sorcerer --> 
+			<Spawn Index="963" Distance="5" StartX="79" StartY="92" EndX="89" EndY="100" Dir="-1" Count="3" Element="3" /> <!-- Devil Sword --> 
+			<Spawn Index="964" Distance="5" StartX="79" StartY="92" EndX="89" EndY="100" Dir="-1" Count="3" Element="3" /> <!-- Devil Scythe --> 
+			<Spawn Index="965" Distance="5" StartX="79" StartY="92" EndX="89" EndY="100" Dir="-1" Count="2" Element="3" /> <!-- Devil Sorcerer --> 
+			<Spawn Index="963" Distance="5" StartX="61" StartY="85" EndX="68" EndY="92" Dir="-1" Count="3" Element="3" /> <!-- Devil Sword --> 
+			<Spawn Index="964" Distance="5" StartX="61" StartY="85" EndX="68" EndY="92" Dir="-1" Count="3" Element="3" /> <!-- Devil Scythe --> 
+			<Spawn Index="965" Distance="5" StartX="61" StartY="85" EndX="68" EndY="92" Dir="-1" Count="2" Element="3" /> <!-- Devil Sorcerer --> 
+			<Spawn Index="963" Distance="5" StartX="46" StartY="53" EndX="52" EndY="61" Dir="-1" Count="3" Element="1" /> <!-- Devil Sword --> 
+			<Spawn Index="964" Distance="5" StartX="46" StartY="53" EndX="52" EndY="61" Dir="-1" Count="3" Element="1" /> <!-- Devil Scythe --> 
+			<Spawn Index="965" Distance="5" StartX="46" StartY="53" EndX="52" EndY="61" Dir="-1" Count="2" Element="1" /> <!-- Devil Sorcerer --> 
+			<Spawn Index="963" Distance="5" StartX="8" StartY="32" EndX="14" EndY="41" Dir="-1" Count="3" Element="1" /> <!-- Devil Sword --> 
+			<Spawn Index="964" Distance="5" StartX="8" StartY="32" EndX="14" EndY="41" Dir="-1" Count="3" Element="1" /> <!-- Devil Scythe --> 
+			<Spawn Index="965" Distance="5" StartX="8" StartY="32" EndX="14" EndY="41" Dir="-1" Count="2" Element="1" /> <!-- Devil Sorcerer --> 
+			<Spawn Index="963" Distance="5" StartX="8" StartY="7" EndX="15" EndY="15" Dir="-1" Count="3" Element="1" /> <!-- Devil Sword --> 
+			<Spawn Index="964" Distance="5" StartX="8" StartY="7" EndX="15" EndY="15" Dir="-1" Count="3" Element="1" /> <!-- Devil Scythe --> 
+			<Spawn Index="965" Distance="5" StartX="8" StartY="7" EndX="15" EndY="15" Dir="-1" Count="2" Element="1" /> <!-- Devil Sorcerer --> 
+			<Spawn Index="963" Distance="5" StartX="44" StartY="9" EndX="52" EndY="15" Dir="-1" Count="3" Element="1" /> <!-- Devil Sword --> 
+			<Spawn Index="964" Distance="5" StartX="44" StartY="9" EndX="52" EndY="15" Dir="-1" Count="3" Element="1" /> <!-- Devil Scythe --> 
+			<Spawn Index="965" Distance="5" StartX="44" StartY="9" EndX="52" EndY="15" Dir="-1" Count="2" Element="1" /> <!-- Devil Sorcerer --> 
+			<Spawn Index="963" Distance="5" StartX="68" StartY="9" EndX="75" EndY="15" Dir="-1" Count="3" Element="1" /> <!-- Devil Sword --> 
+			<Spawn Index="964" Distance="5" StartX="68" StartY="9" EndX="75" EndY="15" Dir="-1" Count="3" Element="1" /> <!-- Devil Scythe --> 
+			<Spawn Index="965" Distance="5" StartX="68" StartY="9" EndX="75" EndY="15" Dir="-1" Count="2" Element="1" /> <!-- Devil Sorcerer --> 
+			<Spawn Index="963" Distance="5" StartX="86" StartY="13" EndX="95" EndY="22" Dir="-1" Count="3" Element="1" /> <!-- Devil Sword --> 
+			<Spawn Index="964" Distance="5" StartX="86" StartY="13" EndX="95" EndY="22" Dir="-1" Count="3" Element="1" /> <!-- Devil Scythe --> 
+			<Spawn Index="965" Distance="5" StartX="86" StartY="13" EndX="95" EndY="22" Dir="-1" Count="2" Element="1" /> <!-- Devil Sorcerer --> 
+			<Spawn Index="963" Distance="5" StartX="80" StartY="58" EndX="85" EndY="67" Dir="-1" Count="3" Element="1" /> <!-- Devil Sword --> 
+			<Spawn Index="964" Distance="5" StartX="80" StartY="58" EndX="85" EndY="67" Dir="-1" Count="3" Element="1" /> <!-- Devil Scythe --> 
+			<Spawn Index="965" Distance="5" StartX="80" StartY="58" EndX="85" EndY="67" Dir="-1" Count="2" Element="1" /> <!-- Devil Sorcerer --> 
+			<Spawn Index="963" Distance="5" StartX="31" StartY="191" EndX="38" EndY="201" Dir="-1" Count="3" Element="3" /> <!-- Devil Sword --> 
+			<Spawn Index="964" Distance="5" StartX="31" StartY="191" EndX="38" EndY="201" Dir="-1" Count="3" Element="3" /> <!-- Devil Scythe --> 
+			<Spawn Index="965" Distance="5" StartX="31" StartY="191" EndX="38" EndY="201" Dir="-1" Count="2" Element="3" /> <!-- Devil Sorcerer --> 
+			<Spawn Index="963" Distance="5" StartX="88" StartY="199" EndX="92" EndY="207" Dir="-1" Count="3" Element="3" /> <!-- Devil Sword --> 
+			<Spawn Index="964" Distance="5" StartX="88" StartY="199" EndX="92" EndY="207" Dir="-1" Count="3" Element="3" /> <!-- Devil Scythe --> 
+			<Spawn Index="965" Distance="5" StartX="88" StartY="199" EndX="92" EndY="207" Dir="-1" Count="2" Element="3" /> <!-- Devil Sorcerer --> 
+			<Spawn Index="963" Distance="5" StartX="46" StartY="216" EndX="55" EndY="220" Dir="-1" Count="3" Element="3" /> <!-- Devil Sword --> 
+			<Spawn Index="964" Distance="5" StartX="46" StartY="216" EndX="55" EndY="220" Dir="-1" Count="3" Element="3" /> <!-- Devil Scythe --> 
+			<Spawn Index="965" Distance="5" StartX="46" StartY="216" EndX="55" EndY="220" Dir="-1" Count="2" Element="3" /> <!-- Devil Sorcerer --> 
+			<Spawn Index="963" Distance="5" StartX="121" StartY="198" EndX="125" EndY="207" Dir="-1" Count="3" Element="5" /> <!-- Devil Sword --> 
+			<Spawn Index="964" Distance="5" StartX="121" StartY="198" EndX="125" EndY="207" Dir="-1" Count="3" Element="5" /> <!-- Devil Scythe --> 
+			<Spawn Index="965" Distance="5" StartX="121" StartY="198" EndX="125" EndY="207" Dir="-1" Count="2" Element="5" /> <!-- Devil Sorcerer --> 
+			<Spawn Index="963" Distance="5" StartX="171" StartY="230" EndX="181" EndY="229" Dir="-1" Count="3" Element="5" /> <!-- Devil Sword --> 
+			<Spawn Index="964" Distance="5" StartX="171" StartY="230" EndX="181" EndY="229" Dir="-1" Count="3" Element="5" /> <!-- Devil Scythe --> 
+			<Spawn Index="965" Distance="5" StartX="171" StartY="230" EndX="181" EndY="229" Dir="-1" Count="2" Element="5" /> <!-- Devil Sorcerer --> 
+			<Spawn Index="963" Distance="5" StartX="165" StartY="203" EndX="174" EndY="211" Dir="-1" Count="3" Element="5" /> <!-- Devil Sword --> 
+			<Spawn Index="964" Distance="5" StartX="165" StartY="203" EndX="174" EndY="211" Dir="-1" Count="3" Element="5" /> <!-- Devil Scythe --> 
+			<Spawn Index="965" Distance="5" StartX="165" StartY="203" EndX="174" EndY="211" Dir="-1" Count="2" Element="5" /> <!-- Devil Sorcerer --> 
+			<Spawn Index="963" Distance="5" StartX="208" StartY="203" EndX="214" EndY="214" Dir="-1" Count="3" Element="5" /> <!-- Devil Sword --> 
+			<Spawn Index="964" Distance="5" StartX="208" StartY="203" EndX="214" EndY="214" Dir="-1" Count="3" Element="5" /> <!-- Devil Scythe --> 
+			<Spawn Index="965" Distance="5" StartX="208" StartY="203" EndX="214" EndY="214" Dir="-1" Count="2" Element="5" /> <!-- Devil Sorcerer --> 
+			<Spawn Index="963" Distance="5" StartX="227" StartY="174" EndX="236" EndY="183" Dir="-1" Count="3" Element="5" /> <!-- Devil Sword --> 
+			<Spawn Index="964" Distance="5" StartX="227" StartY="174" EndX="236" EndY="183" Dir="-1" Count="3" Element="5" /> <!-- Devil Scythe --> 
+			<Spawn Index="965" Distance="5" StartX="227" StartY="174" EndX="236" EndY="183" Dir="-1" Count="2" Element="5" /> <!-- Devil Sorcerer --> 
+			<Spawn Index="963" Distance="5" StartX="203" StartY="154" EndX="212" EndY="165" Dir="-1" Count="3" Element="5" /> <!-- Devil Sword --> 
+			<Spawn Index="964" Distance="5" StartX="203" StartY="154" EndX="212" EndY="165" Dir="-1" Count="3" Element="5" /> <!-- Devil Scythe --> 
+			<Spawn Index="965" Distance="5" StartX="203" StartY="154" EndX="212" EndY="165" Dir="-1" Count="2" Element="5" /> <!-- Devil Sorcerer --> 
+		</Spot>
+		<Spot Type="4" Description="Single Elemental Monster Spawn">
+		</Spot>
+	</Map>
 </MonsterSpawn>

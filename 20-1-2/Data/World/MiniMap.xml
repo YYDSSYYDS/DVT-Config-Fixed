@@ -640,4 +640,19 @@
 	<Option WorldID="142" Index="8" Group="0" Type="1" X="25" Y="116" Text="Wind Elite Zone"/>
 	<Option WorldID="142" Index="9" Group="0" Type="1" X="88" Y="231" Text="Darkness Elite Zone"/>
 	<Option WorldID="142" Index="10" Group="0" Type="1" X="110" Y="115" Text="Karutan Entrance"/>
+	
+	<!-- Kardamahal UnderGround Temple Gate -->
+	<Option WorldID="143" Index="0" Group="0" Type="1" X="110" Y="21" Text="Fire Element Area"/>
+	<Option WorldID="143" Index="1" Group="0" Type="1" X="35" Y="52" Text="Fire Element Area"/>
+	<Option WorldID="143" Index="2" Group="0" Type="1" X="173" Y="61" Text="Fire Element Area"/>
+	<Option WorldID="143" Index="3" Group="0" Type="1" X="138" Y="20" Text="Water Element Area"/>
+	<Option WorldID="143" Index="4" Group="0" Type="1" X="98" Y="121" Text="Earth Element Area"/>
+	<Option WorldID="143" Index="5" Group="0" Type="1" X="82" Y="175" Text="Earth Element Area"/>
+	<Option WorldID="143" Index="6" Group="0" Type="1" X="127" Y="107" Text="Wind Element Area"/>
+	<Option WorldID="143" Index="7" Group="0" Type="1" X="148" Y="125" Text="Wind Element Area"/>
+	<Option WorldID="143" Index="8" Group="0" Type="1" X="144" Y="181" Text="Darkness Element Area"/>
+	<Option WorldID="143" Index="9" Group="0" Type="1" X="158" Y="159" Text="Darkness Element Area"/>
+	<Option WorldID="143" Index="10" Group="0" Type="1" X="123" Y="43" Text="Portal (A)"/>
+	<Option WorldID="143" Index="11" Group="0" Type="1" X="113" Y="148" Text="Portal (B)"/>
+	<Option WorldID="143" Index="12" Group="0" Type="1" X="107" Y="10" Text="Kalrutan Entrance"/>
 </MiniMap>
