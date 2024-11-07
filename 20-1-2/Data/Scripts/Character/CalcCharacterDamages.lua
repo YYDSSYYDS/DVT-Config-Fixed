@@ -12,8 +12,8 @@ CLASS_SLAYER									  	  = 9	-- Slayer, Royal Slayer, Master Slayer, Slaughtere
 CLASS_GUNCRUSHER									  = 10	-- Gun Crusher, Gun Breaker, Master Gun Breaker, Heist Gun Crusher
 CLASS_LIGHTWIZARD									  = 11	-- Light Wizard, Shining Wizard, Luminous Wizard
 CLASS_LEMURIAMAGE									  = 12	-- Lemuria Mage, Warmage, Archmage, Mystic Mage
-CLASS_ILLUSIONKNIGHT								  	  = 14	-- Illusion Knight, Mirage Knight, Illusion Master, Mystic Knight
-ClASS_ALCHEMIST										  = 15  -- Alchemist, ALCHEMIC MAGICIAN, ALCHEMIC MASTER, ALCHEMIC FORCE,CREATOR
+CLASS_ILLUSIONKNIGHT								  	  = 13	-- Illusion Knight, Mirage Knight, Illusion Master, Mystic Knight
+ClASS_ALCHEMIST										  = 14  -- Alchemist, ALCHEMIC MAGICIAN, ALCHEMIC MASTER, ALCHEMIC FORCE,CREATOR
 
 -- Character Damage - Fist Fighting - (Dark Knight, Blade Knight, Blade Master)
 -- Replace Option StatID="0" Class="1" and Option StatID="1" Class="1" in CharacterFormula.xml
