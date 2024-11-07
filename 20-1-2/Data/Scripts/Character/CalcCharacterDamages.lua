@@ -248,7 +248,7 @@ function CalcStamina(Class, Strength, Dexterity, Vitality, Energy, Leadership, N
 		Stamina = (Strength * 0.3) + (Dexterity * 0.2) + (Vitality * 0.1) + (Energy * 0.15) + (Leadership * 0.3)
 	elseif(Class == CLASS_SUMMONER) then
 		Stamina = (Strength * 0.2) + (Dexterity * 0.25) + (Vitality * 0.3) + (Energy * 0.15)
-	elseif(Class == CLASS_RStaminaEFIGHTER) then
+	elseif(Class == CLASS_RAGEFIGHTER) then
 		Stamina = (Strength * 0.15) + (Dexterity * 0.2) + (Vitality * 0.3) + (Energy * 1.0)
 	elseif(Class == CLASS_GROWLANCER) then
 		Stamina = (Strength * 0.15) + (Dexterity * 0.2) + (Vitality * 0.3) + (Energy * 1.0)
@@ -260,7 +260,7 @@ function CalcStamina(Class, Strength, Dexterity, Vitality, Energy, Leadership, N
 		Stamina = (Strength * 0.2) + (Dexterity * 0.25) + (Vitality * 0.3) + (Energy * 0.15)
 	elseif(Class == CLASS_LIGHTWIZARD) then
 		Stamina = (Strength * 0.2) + (Dexterity * 0.24) + (Vitality * 0.2) + (Energy * 0.4)
-	elseif(Class == CLASS_LEMURIAMStaminaE) then
+	elseif(Class == CLASS_LEMURIAMAGE) then
 		Stamina = (Strength * 0.2) + (Dexterity * 0.24) + (Vitality * 0.2) + (Energy * 0.4)
 	elseif(Class == CLASS_ILLUSIONKNIGHT) then
 		Stamina = (Strength * 0.3) + (Dexterity * 0.5) + (Vitality * 0.2) + (Energy * 0.2)
@@ -270,4 +270,5 @@ function CalcStamina(Class, Strength, Dexterity, Vitality, Energy, Leadership, N
 	
 	return Stamina
 end
+
 
