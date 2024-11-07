@@ -1584,3 +1584,10 @@ function AlchemistCountlessWeapon(InDamage, Strength, Dexterity, Vitality, Energ
     return OutDamage
 end
 
+-- SkillID: 2024, Dex Booster
+function DexBoosterCalcEffect(Index, Energy)
+
+    local SkillTime = 30
+
+    return SkillTime
+end
