@@ -16,6 +16,7 @@
 	<Option Class="0" Skill="70"/>
 	<Option Class="0" Skill="71"/>
 	<Option Class="0" Skill="72"/>
+	<Option Class="0" Skill="76"/>
 	<Option Class="1" Skill="44"/>
 	<Option Class="1" Skill="67"/>
 	<Option Class="1" Skill="68"/>
@@ -23,6 +24,7 @@
 	<Option Class="1" Skill="70"/>
 	<Option Class="1" Skill="71"/>
 	<Option Class="1" Skill="72"/>
+	<Option Class="1" Skill="76"/>
 	<Option Class="2" Skill="46"/>
 	<Option Class="2" Skill="67"/>
 	<Option Class="2" Skill="68"/>
@@ -30,6 +32,7 @@
 	<Option Class="2" Skill="70"/>
 	<Option Class="2" Skill="71"/>
 	<Option Class="2" Skill="72"/>
+	<Option Class="2" Skill="76"/>
 	<Option Class="3" Skill="57"/>
 	<Option Class="3" Skill="67"/>
 	<Option Class="3" Skill="68"/>
@@ -38,6 +41,7 @@
 	<Option Class="3" Skill="71"/>
 	<Option Class="3" Skill="72"/>
 	<Option Class="3" Skill="73"/>
+	<Option Class="3" Skill="76"/>
 	<Option Class="4" Skill="60"/>
 	<Option Class="4" Skill="67"/>
 	<Option Class="4" Skill="68"/>
@@ -48,6 +52,7 @@
 	<Option Class="4" Skill="74"/>
 	<Option Class="4" Skill="2098"/>
 	<Option Class="4" Skill="2099"/>
+	<Option Class="4" Skill="76"/>
 	<Option Class="5" Skill="45"/>
 	<Option Class="5" Skill="67"/>
 	<Option Class="5" Skill="68"/>
@@ -55,6 +60,7 @@
 	<Option Class="5" Skill="70"/>
 	<Option Class="5" Skill="71"/>
 	<Option Class="5" Skill="72"/>
+	<Option Class="5" Skill="76"/>
 	<Option Class="6" Skill="67"/>
 	<Option Class="6" Skill="68"/>
 	<Option Class="6" Skill="69"/>
@@ -62,6 +68,7 @@
 	<Option Class="6" Skill="71"/>
 	<Option Class="6" Skill="72"/>
 	<Option Class="6" Skill="269"/>
+	<Option Class="6" Skill="76"/>
 	<Option Class="7" Skill="67"/>
 	<Option Class="7" Skill="68"/>
 	<Option Class="7" Skill="69"/>
@@ -69,6 +76,7 @@
 	<Option Class="7" Skill="71"/>
 	<Option Class="7" Skill="72"/>
 	<Option Class="7" Skill="275"/>
+	<Option Class="7" Skill="76"/>
 	<Option Class="8" Skill="17"/>
 	<Option Class="8" Skill="45"/>
 	<Option Class="8" Skill="67"/>
@@ -77,18 +85,21 @@
 	<Option Class="8" Skill="70"/>
 	<Option Class="8" Skill="71"/>
 	<Option Class="8" Skill="72"/>
+	<Option Class="8" Skill="76"/>
 	<Option Class="9" Skill="67"/>
 	<Option Class="9" Skill="68"/>
 	<Option Class="9" Skill="69"/>
 	<Option Class="9" Skill="70"/>
 	<Option Class="9" Skill="71"/>
 	<Option Class="9" Skill="72"/>
+	<Option Class="9" Skill="76"/>
 	<Option Class="10" Skill="67"/>
 	<Option Class="10" Skill="68"/>
 	<Option Class="10" Skill="69"/>
 	<Option Class="10" Skill="70"/>
 	<Option Class="10" Skill="71"/>
 	<Option Class="10" Skill="72"/>
+	<Option Class="10" Skill="76"/>
 	<Option Class="11" Skill="240"/>
 	<Option Class="11" Skill="45"/>
 	<Option Class="11" Skill="67"/>
@@ -97,6 +108,7 @@
 	<Option Class="11" Skill="70"/>
 	<Option Class="11" Skill="71"/>
 	<Option Class="11" Skill="72"/>
+	<Option Class="11" Skill="76"/>
 	<Option Class="12" Skill="240"/>
 	<Option Class="12" Skill="45"/>
 	<Option Class="12" Skill="67"/>
@@ -105,6 +117,7 @@
 	<Option Class="12" Skill="70"/>
 	<Option Class="12" Skill="71"/>
 	<Option Class="12" Skill="72"/>
+	<Option Class="12" Skill="76"/>
 	<Option Class="13" Skill="44"/>
 	<Option Class="13" Skill="67"/>
 	<Option Class="13" Skill="68"/>
@@ -112,6 +125,7 @@
 	<Option Class="13" Skill="70"/>
 	<Option Class="13" Skill="71"/>
 	<Option Class="13" Skill="72"/>
+	<Option Class="13" Skill="76"/>
 	<!-- S20.1 ALC -->
 	<Option Class="14" Skill="240"/>
 	<Option Class="14" Skill="45"/>
@@ -121,4 +135,5 @@
 	<Option Class="14" Skill="70"/>
 	<Option Class="14" Skill="71"/>
 	<Option Class="14" Skill="72"/>
+	<Option Class="14" Skill="76"/>
 </CharacterSkill>
