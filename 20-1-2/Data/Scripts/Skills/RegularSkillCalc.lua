@@ -1205,8 +1205,6 @@ function LightWizardMagicShot(Class, InDamage, Strength, Dexterity, Vitality, En
 			OutDamage = (InDamage * 1.0) * (165 + (Energy / 65)) / 100
 		end
 	end
-				LogColor(1,InDamage)
-
 	return OutDamage
 end
 
