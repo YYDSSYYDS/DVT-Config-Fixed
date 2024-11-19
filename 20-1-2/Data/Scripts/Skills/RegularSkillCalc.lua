@@ -1184,17 +1184,32 @@ function GunCrusherDeathIceCalc(InDamage, Strength, Dexterity, Vitality, Energy,
 end
 
 -- SkillID: 240, Magic Shot+
-function LightWizardMagicShot(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
+function LightWizardMagicShot(Class, InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
 	local OutDamage = 0
-	
-	if (BarrageCount == 1) then
-		OutDamage = (InDamage * 1.0) * (140 + (Energy / 100)) / 100
-	elseif (BarrageCount == 2) then
-		OutDamage = (InDamage * 1.0) * (140 + (Energy / 100)) / 100
+	if Class == CLASS_LIGHTWIZARD then
+		if (BarrageCount == 1) then
+			OutDamage = (InDamage * 1.0) * (200 + (Energy / 50)) / 100
+		elseif (BarrageCount == 2) then
+			OutDamage = (InDamage * 1.0) * (200 + (Energy / 50)) / 100
+		end
+	elseif Class == CLASS_LEMURIAMAGE then
+		if (BarrageCount == 1) then
+			OutDamage = (InDamage * 1.0) * (140 + (Energy / 100)) / 100
+		elseif (BarrageCount == 2) then
+			OutDamage = (InDamage * 1.0) * (140 + (Energy / 100)) / 100
+		end
+	elseif Class == ClASS_ALCHEMIST then
+		if (BarrageCount == 1) then
+			OutDamage = (InDamage * 1.0) * (165 + (Energy / 65)) / 100
+		elseif (BarrageCount == 2) then
+			OutDamage = (InDamage * 1.0) * (165 + (Energy / 65)) / 100
+		end
 	end
-	
+				LogColor(1,InDamage)
+
 	return OutDamage
 end
+
 
 -- SkillID: 241, Shining Bird+
 function LightWizardShiningBirdCalc(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
