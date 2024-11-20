@@ -31,6 +31,8 @@
 	<Item ItemCat="13" ItemIndex="32" MaxStack="20" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Splinter of Armor -->
 	<Item ItemCat="13" ItemIndex="33" MaxStack="20" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Bless of Guardian -->
 	<Item ItemCat="13" ItemIndex="34" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Claws of Beast -->
+	<Item ItemCat="13" ItemIndex="52" MaxStack="1" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!--Condor Flame -->
+	<Item ItemCat="13" ItemIndex="53" MaxStack="1" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!--Condor Feather -->
 	<Item ItemCat="13" ItemIndex="145" MaxStack="5" StackOnLoot="1" StackConvertType="13" StackConvertIndex="146"/> <!--Spirit Map Fragment -->
 	<Item ItemCat="13" ItemIndex="147" MaxStack="10" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Trophies of Battle -->
 	<Item ItemCat="13" ItemIndex="148" MaxStack="20" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!--Green Ink -->
@@ -38,6 +40,8 @@
 	<Item ItemCat="13" ItemIndex="150" MaxStack="20" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!--Red Ink -->
 	<Item ItemCat="13" ItemIndex="151" MaxStack="20" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!--Parchment of Soul -->
 	<Item ItemCat="13" ItemIndex="239" MaxStack="120" StackOnLoot="0" StackConvertType="13" StackConvertIndex="240"/> <!--Muun Energy Converter -->
+	<Item ItemCat="13" ItemIndex="466" MaxStack="1" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!--Garuda's Flame -->
+	<Item ItemCat="13" ItemIndex="467" MaxStack="1" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!--Garuda's Feather -->
 	<Item ItemCat="13" ItemIndex="468" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Golden Crest -->
 	<Item ItemCat="13" ItemIndex="510" MaxStack="50" StackOnLoot="0" StackConvertType="-1" StackConvertIndex="-1"/> <!--Lapidary Stone -->
 	<Item ItemCat="14" ItemIndex="0" MaxStack="50" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Apple -->
