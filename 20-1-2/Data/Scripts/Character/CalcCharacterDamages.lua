@@ -116,8 +116,8 @@ function CalcAttackSpeed(Class, Dexterity,IsSpecialBuff)
 		MagicSpeed = Dexterity / 12
 	elseif(Class == CLASS_GUNCRUSHER) then
 		if (IsSpecialBuff == 1) then --  Fixed Fire buff id 380,381,382
-			MagicDamageMin = Energy / 13
-			MagicDamageMax = Energy / 13
+			AttackSpeed = Energy / 13
+			MagicSpeed = Energy / 13
 		else
 			AttackSpeed = Dexterity / 20
 			MagicSpeed = Dexterity / 20
