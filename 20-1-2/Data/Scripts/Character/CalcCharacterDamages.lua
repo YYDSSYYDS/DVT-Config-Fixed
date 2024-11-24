@@ -91,7 +91,7 @@ function CalcAttackSpeed(Class, Dexterity,IsSpecialBuff)
 		AttackSpeed = Dexterity / 15
 		MagicSpeed = Dexterity / 20
 	elseif(Class == CLASS_ELF) then 
-		AttackSpeed = Dexterity / 50
+		AttackSpeed = Dexterity / 22
 		MagicSpeed = Dexterity / 50
 	elseif(Class == CLASS_GLADIATOR) then
 		AttackSpeed = Dexterity / 10
