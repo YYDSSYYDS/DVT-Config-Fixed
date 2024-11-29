@@ -804,4 +804,20 @@
 	<Data ID="790" Language="0" Text= "Jewel Of Harmony Craft Succeeded"/>
 	<Data ID="791" Language="0" Text= "POST"/>
 	<Data ID="792" Language="0" Text= "Sub"/>
+	<Data ID="793" Language="0" Text= "Not enough jewels"/>
+	<Data ID="794" Language="0" Text= "Can't move. Party member. Is Offline"/>
+	<Data ID="795" Language="0" Text= "Can't move. Wrong party member."/>
+	<Data ID="796" Language="0" Text= "Can't move. You are not in Party."/>
+	<Data ID="797" Language="0" Text= "Can't move. Wrong dest world."/>
+	<Data ID="798" Language="0" Text= "Can't move. Dest world does not allow party move."/>
+	<Data ID="799" Language="0" Text= "Can't move. You require %u zen."/>
+	<Data ID="800" Language="0" Text= "Cash Shop"/>
+	<Data ID="801" Language="0" Text= "Can't use Cash Shop on this zone."/>
+	<Data ID="802" Language="0" Text= "Trade"/>
+	<Data ID="803" Language="0" Text= "Chaos Box"/>
+	<Data ID="804" Language="0" Text= "Unauthorized access"/>
+	<Data ID="805" Language="0" Text= "Mix Item Recovery"/>
+	<Data ID="806" Language="0" Text= "Error"/>
+	<Data ID="807" Language="0" Text= "Reached maximum day buy count."/>
 </SystemMessage>
+
