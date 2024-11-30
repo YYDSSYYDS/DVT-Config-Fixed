@@ -13,7 +13,6 @@
 	<World WorldID="2" LevelMin="1" LevelMax="1700" />
 	<World WorldID="3" LevelMin="1" LevelMax="1700" />
 	<World WorldID="4" LevelMin="1" LevelMax="1700" />
-	<World WorldID="5" LevelMin="1" LevelMax="1700" />
 	<World WorldID="6" LevelMin="1" LevelMax="1700" />
 	<World WorldID="7" LevelMin="1" LevelMax="1700" />
 	<World WorldID="8" LevelMin="1" LevelMax="1700" />
@@ -60,8 +59,6 @@
 	<World WorldID="128" LevelMin="1" LevelMax="1700" />
 	<World WorldID="129" LevelMin="1" LevelMax="1700" />
 	<World WorldID="130" LevelMin="1" LevelMax="1700" />
-	<World WorldID="131" LevelMin="1" LevelMax="1700" />
-	<World WorldID="132" LevelMin="1" LevelMax="1700" />
 	<World WorldID="131" LevelMin="1" LevelMax="1700" />
 	<World WorldID="132" LevelMin="1" LevelMax="1700" />
 	<World WorldID="133" LevelMin="1" LevelMax="1700" />
