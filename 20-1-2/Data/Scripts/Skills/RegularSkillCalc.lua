@@ -15,6 +15,37 @@ CLASS_LEMURIAMAGE									  = 12	-- Lemuria Mage, Warmage, Archmage, Mystic Mage
 CLASS_ILLUSIONKNIGHT								  = 13	-- Illusion Knight, Mirage Knight, Illusion Master, Mystic Knight
 ClASS_ALCHEMIST										  = 14  -- Alchemist, ALCHEMIC MAGICIAN, ALCHEMIC MASTER, ALCHEMIC FORCE,CREATOR
 
+function ShadowPhantomUsedLimit(Class, NormalLevel, MasterLevel, MajesticLevel)
+	local TotalLevel = NormalLevel + MasterLevel + MajesticLevel
+
+	if TotalLevel < 350 then
+
+	return 1
+
+	end
+
+return 0
+
+end
+
+function ShadowPhantomBuffCalc(Class, NormalLevel, MasterLevel, MajesticLevel)
+
+	local IncDamage = 0
+	local IncDefense = 0
+	local TotalLevel = NormalLevel + MasterLevel + MajesticLevel
+	local BuffTime = (TotalLevel / 6 + 30) * 60
+
+	if (TotalLevel <= 180) then
+		IncDamage = TotalLevel / 3 + 45
+		IncDefense = TotalLevel / 5 + 50
+	else
+		IncDamage = 105
+		IncDefense = 86
+	end
+	
+	return IncDamage, IncDefense, BuffTime
+end
+
 -- SkillID: 9, Evil Spirit
 function EvilSpiritCalc(Class, InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)---add
  local OutDamage = 0
