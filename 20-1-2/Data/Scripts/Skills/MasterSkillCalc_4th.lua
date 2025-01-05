@@ -723,8 +723,9 @@ end
 -- SkillID: 1230, Bless Enhancement Skill
 function Bless_4thEnchant_Elf(Energy)
 	local SkillEffect = Energy / 100
-	
-	return SkillEffect
+	local SkillTime = 300
+
+	return SkillEffect,SkillTime
 end
 
 -- SkillID: 1231, Charge Slash Enhancement Skill

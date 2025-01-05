@@ -458,15 +458,17 @@ end
 -- SkillID: 430, Bless - (High ELf)
 function ElfBless_Level1(Energy)
 	local SkillEffect = Energy / 100
-	
-	return SkillEffect
+	local SkillTime = 300
+
+	return SkillEffect,SkillTime
 end
 
 -- SkillID: 433, Bless Strengthener - (High Elf)
 function ElfBless_Level2(Energy)
 	local SkillEffect = Energy / 100
-	
-	return SkillEffect
+	local SkillTime = 300
+
+	return SkillEffect,SkillTime
 end
 
 -- SkillID: 876, Holy Bolt Strengthener - (High Elf)
@@ -588,7 +590,7 @@ end
 
 -- SkillID: 511, Critical DMG Increase PowUp - (Lord Emperor)
 function DarkLordCriticalDamage_Level1(Index, TargetIndex, TargetClass, Command, Energy)
-	local SkillEffect = Command / 25 + Energy / 30
+	local SkillEffect = 5
 	local SkillTime = Energy / 10 + 60
 	
 	return SkillEffect, SkillTime
@@ -790,34 +792,44 @@ function SummonerDrainLife_PvP_Level1(Energy, Damage)
 end
 
 -- SkillID: 469, Berserker Strengthener - (Dimension Master)
-function SummonerBerserker_Level1(Energy)
-	local SkillEffectUP = (Energy / 30)
-	local SkillEffectDOWN = (Energy / 60)
-	
-	return SkillEffectUP, SkillEffectDOWN
+function SummonerBerserker_Level1(Energy,InEffect1,InEffect2,InEffect3,InEffect4)
+	local SkillEffectUP1 = InEffect1 -- Attack magic damage,decrease curse
+	local SkillEffectUP2 = InEffect2 -- Attack Speed Increase
+	local SkillEffectDOWN1 = InEffect3 -- Life Decrease	
+	local SkillEffectDOWN2 = InEffect4 -- defense Decrease	
+
+	return SkillEffectUP1, SkillEffectUP2, SkillEffectDOWN1, SkillEffectDOWN2
 end
 
 -- SkillID: 470, Berserker Proficiency - (Dimension Master)
-function SummonerBerserker_Level2(Energy)
-	local SkillEffectUP = (Energy / 30)
-	
-	return SkillEffectUP
+function SummonerBerserker_Level2(Energy,InEffect1,InEffect2,InEffect3,InEffect4)
+	local SkillEffectUP1 = InEffect1 -- Attack magic damage,decrease curse
+	local SkillEffectUP2 = InEffect2 -- Attack Speed Increase
+	local SkillEffectDOWN1 = 0 -- Life Decrease	
+	local SkillEffectDOWN2 = 0 -- defense Decrease	
+
+	return SkillEffectUP1, SkillEffectUP2, SkillEffectDOWN1, SkillEffectDOWN2
 end
 
 -- SkillID: 770, Darkness Strengthener - (Dimension Master)
-function SummonerDarkness_Level1(Energy)
-	local SkillEffectUP = (Energy / 30)
-	local SkillEffectDOWN = (Energy / 60)
+function SummonerDarkness_Level1(Energy,InEffect1,InEffect2,InEffect3)
+	local SkillEffectUP1 = InEffect1 -- curse damage Increase
+	local SkillEffectUP2 = InEffect2 -- Defense Increase
+	local SkillEffectDOWN = InEffect3 -- Life Decrease
 	
-	return SkillEffectUP, SkillEffectDOWN
+	return SkillEffectUP1, SkillEffectUP2, SkillEffectDOWN
 end
 
+
 -- SkillID: 771, Darkness Proficiency - (Dimension Master)
-function SummonerDarkness_Level2(Energy)
-	local SkillEffectUP = (Energy / 30)
+function SummonerDarkness_Level2(Energy,InEffect1,InEffect2,InEffect3)
+	local SkillEffectUP1 = InEffect1 -- curse damage Increase
+	local SkillEffectUP2 = InEffect2 -- Defense Increase
+	local SkillEffectDOWN = 0 -- Life Decrease
 	
-	return SkillEffectUP
+	return SkillEffectUP1, SkillEffectUP2, SkillEffectDOWN
 end
+
 
 -- SkillID: 554, Killing Blow Mastery - (Fist Master)
 function KillingBlow_Master(InDamage, Vitality)
@@ -930,7 +942,7 @@ end
 
 -- SkillID: 569, Def SuccessRate Increase PowUp - (Fist Master)
 function FighterIncDefRateCalcEffect_Level1(Index, TargetIndex, TargetClass, Energy)
-	local SkillEffect = (Energy - 80) / 10.0 + 10.0;
+	local SkillEffect = (Energy - 80) / 10.0 + 10.0;--defense success rate
 	local SkillTime = Energy / 5 + 60
 	
 	if (SkillEffect > 100) then
@@ -942,7 +954,7 @@ end
 
 -- SkillID: 572, DefSuccessRate Increase Mastery - (Fist Master)
 function FighterIncDefRateCalcEffect_Level2(Index, TargetIndex, TargetClass, Energy)
-	local SkillEffect = (Energy - 80) / 10.0 + 10.0;
+	local SkillEffect = 0;--defense
 	local SkillTime = Energy / 5 + 60
 	
 	if (SkillEffect > 100) then
@@ -1069,32 +1081,16 @@ function GrowLancerShiningPeak_Level1(InDamage, Strength, Dexterity, SkillTreeBo
 	return OutDamage
 end
 
--- SkillID: 708, Wrath PowUp - (Mirage Lancer)
-function GrowLancerWrath_Level1(Strength, Dexterity, Energy)
-	local SkillIncDamage = 50
-	local SkillDecDefense = 30
-	local SkillTime = 15
+-- SkillID: 895, Wrath Mastery - (Mirage Lancer)--drop
+function GrowLancerWrath_Level3(Strength, Dexterity, Energy)--need fix
+	local SkillIncDamage = (Strength + Dexterity) / 3
+	local SkillDecDefense = 5
+	local CombatPower = 10
+	local SkillTime = 300
 
-	return SkillIncDamage, SkillDecDefense, SkillTime
+	return SkillIncDamage, SkillDecDefense, SkillTime,CombatPower
 end
 
--- SkillID: 709, Wrath Proficiency - (Mirage Lancer)
-function GrowLancerWrath_Level2(Strength, Dexterity, Energy)
-	local SkillIncDamage = 50
-	local SkillDecDefense = 30
-	local SkillTime = 15
-
-	return SkillIncDamage, SkillDecDefense, SkillTime
-end
-
--- SkillID: 710, Wrath Mastery - (Mirage Lancer)
-function GrowLancerWrath_Level3(Strength, Dexterity, Energy)
-	local SkillIncDamage = 50
-	local SkillDecDefense = 30
-	local SkillTime = 15
-
-	return SkillIncDamage, SkillDecDefense, SkillTime
-end
 
 -- SkillID: 693, Obsidian PowUp - (Mirage Lancer)+
 function GrowLancerObsidian_Level1(Index, TargetIndex, TargetClass, Strength, Dexterity, Energy)
@@ -1120,8 +1116,8 @@ end
 
 -- SkillID: 765, Burst Strengthener - (Grand Rune Master)
 function RuneWizardBurstCalc_Level1(Energy)
-	local SkillEffect1 = Energy / 10000
-	local SkillEffect2 = Energy / 10000
+	local SkillEffect1 = Energy / 30
+	local SkillEffect2 = Energy / 100
 	local SkillTime = Energy / 20 + 30
 	
 	return SkillEffect1, SkillEffect2, SkillTime
@@ -1198,12 +1194,13 @@ function ExpansionWizardryCalc_Level1(Class, Energy, MagicDamageMax, SkillTreeVa
 		SkillEffect1 = Energy / 9 * 0.20
 		SkillEffect2 = MagicDamageMax / 100.0 * SkillTreeValue
 	end
+	--LogColor(1,SkillTreeValue)
 
 	return SkillEffect1, SkillEffect2, SkillTime
 end
 
 -- SkillID: 383: Expansion of Wizardry Mastery+
-function ExpansionWizardryCalc_Level2(Class, Energy, MagicDamageMax, SkillTreeValue)
+function ExpansionWizardryCalc_Level2(Class, Energy, MagicDamageMax, SkillTreeValue1,SkillTreeValue2)
 	local SkillEffect1 = 0
 	local SkillEffect2 = 0
 	local SkillEffect3 = 0
@@ -1211,18 +1208,18 @@ function ExpansionWizardryCalc_Level2(Class, Energy, MagicDamageMax, SkillTreeVa
 	
 	if (Class == CLASS_WIZARD) then
 		SkillEffect1 = Energy / 9 * 0.20
-		SkillEffect2 = MagicDamageMax / 100.0 * SkillTreeValue
-		SkillEffect3 = SkillTreeValue
+		SkillEffect2 = MagicDamageMax / 100.0 * SkillTreeValue1
+		SkillEffect3 = SkillTreeValue2
 	elseif (Class == CLASS_LIGHTWIZARD) then
 		SkillEffect1 = Energy / 9 * 0.20
-		SkillEffect2 = MagicDamageMax / 100.0 * SkillTreeValue
-		SkillEffect3 = SkillTreeValue
+		SkillEffect2 = MagicDamageMax / 100.0 * SkillTreeValue1
+		SkillEffect3 = SkillTreeValue2
 	elseif (Class == CLASS_LEMURIAMAGE) then
 		SkillEffect1 = Energy / 9 * 0.20
-		SkillEffect2 = MagicDamageMax / 100.0 * SkillTreeValue
-		SkillEffect3 = SkillTreeValue
+		SkillEffect2 = MagicDamageMax / 100.0 * SkillTreeValue1
+		SkillEffect3 = SkillTreeValue2
 	end
-
+	--LogColor(1,SkillTime)
 	return SkillEffect1, SkillEffect2, SkillEffect3, SkillTime
 end
 
@@ -1277,26 +1274,26 @@ end
 
 -- SkillID: 787, Demolish Strengthener - (Slayer, Royal Slayer, Master Slayer, Slaughterer)
 function SlayerDemolish_MasterLevel1_Calc(Strength, Dexterity, Vitality, Energy, SkillTreeValue)
-	local SkillEffect = ((Strength / 8) + (Dexterity / 28) + 120)
+	local SkillEffect1 = ((Strength / 8) + (Dexterity / 28) + 120) * 0.03---BUFF_OPTION_IGNORE_BASE_DEFENSE
+	local SkillEffect2 = ((Strength / 8) + (Dexterity / 28) + 120) * 0.03---BUFF_OPTION_DEMOLISH_DAMAGE_DECREASE
 	local SkillTime = 60
-	SkillEffect = SkillEffect * 0.03 + SkillTreeValue
 	
-	return SkillEffect, SkillTime
+	return SkillEffect1, SkillEffect2, SkillTime
 end
 
 -- SkillID: 788, Demolish Mastery - (Slayer, Royal Slayer, Master Slayer, Slaughterer)
 function SlayerDemolish_MasterLevel2_Calc(Strength, Dexterity, Vitality, Energy, SkillTreeValue)
-	local SkillEffect = ((Strength / 8) + (Dexterity / 28) + 120)
+	local SkillEffect1 = ((Strength / 8) + (Dexterity / 28) + 120) * 0.03 + SkillTreeValue---BUFF_OPTION_IGNORE_BASE_DEFENSE
+	local SkillEffect2 = ((Strength / 8) + (Dexterity / 28) + 120) * 0.03---BUFF_OPTION_DEMOLISH_DAMAGE_DECREASE
 	local SkillTime = 60
-	SkillEffect = SkillEffect * 0.03 + SkillTreeValue
 	
-	return SkillEffect, SkillTime
+	return SkillEffect1, SkillEffect2, SkillTime
 end
 
 -- SkillID: 803, Solid Protection Strengthener (1)
 function KnightSolidProtection_MasterLevel1 (NormalLevel, MasterLevel, MajesticLevel, Strength, Dexterity, Vitality, Energy)
 	local AbsorbHP = 5
-	local ConvertDamage = 2.21
+	local ConvertDamage = Energy / 250
 	local IncAtkPower = (NormalLevel + MasterLevel + MajesticLevel) / 3
 	local Duration = 600
 	
@@ -1306,7 +1303,7 @@ end
 -- SkillID: 804, Solid Protection Strengthener (2)
 function KnightSolidProtection_MasterLevel2 (NormalLevel, MasterLevel, MajesticLevel, Strength, Dexterity, Vitality, Energy)
 	local AbsorbHP = 5
-	local ConvertDamage = 2.21
+	local ConvertDamage = Energy / 250
 	local IncAtkPower = (NormalLevel + MasterLevel + MajesticLevel) / 3
 	local Duration = 600
 	
@@ -1316,7 +1313,7 @@ end
 -- SkillID: 806, Solid Protection Mastery
 function KnightSolidProtection_MasterLevel3 (NormalLevel, MasterLevel, MajesticLevel, Strength, Dexterity, Vitality, Energy)
 	local AbsorbHP = 5
-	local ConvertDamage = 2.21
+	local ConvertDamage = Energy / 250
 	local IncAtkPower = (NormalLevel + MasterLevel + MajesticLevel) / 3
 	local Duration = 600
 	
@@ -1742,8 +1739,9 @@ end
 -- SkillID: 857, Beginner Bless Strenghtener
 function LemuriaMageBless_Level1(Energy)
 	local SkillEffect = Energy / 150
-	
-	return SkillEffect
+	local SkillTime = 300
+
+	return SkillEffect, SkillTime
 end
 
 -- SkillID: 858, Intensive Care Strengthener+
@@ -1919,4 +1917,46 @@ function Lord_Spirit_Blast_Strengthener(InDamage, Strength, Dexterity, Vitality,
     local OutDamage = 0
 	OutDamage = InDamage;
     return OutDamage
+end
+
+--SkillID: 912
+function LordCrownForcStrengthener(Index, TargetIndex, TargetClass, Energy, Command)
+
+	local SkillEffect = 0
+	local SkillTime = 500
+
+		SkillEffect = Command / 100
+		
+	return SkillEffect,SkillTime
+
+end
+
+--SkillID: 913
+function LordDivineForceStrengthener(Index, TargetIndex, TargetClass, Energy, Command)
+
+	local SkillEffect = 400
+	local SkillTime = 3
+		
+    return SkillEffect,SkillTime
+
+end
+
+--SkillID: 914
+function LordDivineAuraStrengthener(Index, TargetIndex, TargetClass, Energy, Command)
+
+	local SkillEffect = 300
+	local SkillTime = 3
+		
+    return SkillEffect,SkillTime
+
+end
+
+--SkillID: 915
+function LordBattleGloryStrengthener(Strength, Dexterity, Vitality, Energy, Command)
+
+	local SkillEffect1 = (Strength + Command) / 3--Attack Power
+	local SkillEffect2 = 10--Combat Power
+		
+    return SkillEffect1, SkillEffect2
+
 end

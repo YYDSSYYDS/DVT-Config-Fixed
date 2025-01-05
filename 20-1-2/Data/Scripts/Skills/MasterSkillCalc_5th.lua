@@ -37,7 +37,7 @@ function SwordBlow_5thEnchant_Knight(InDamage, Strength, Dexterity, Vitality, En
 	elseif (BarrageCount == 5) then
 		OutDamage = (InDamage * 1.6) * (Energy / 10 + 200) / 100
 	end
-
+	--LogColor(1,BarrageCount)--Sword Blow of Saturation
 	return OutDamage
 end
 
@@ -295,6 +295,7 @@ end
 -- SkillID: 2089, Wild Breath of Gale
 function WildBreath_5thEnchant_Lancer(InDamage, Strength, SkillTreeBonus)
 	local OutDamage = (InDamage * 0.5) * (Strength / 10 + 97 + SkillTreeBonus) / 100.0
+    --LogColor(1,InDamage)
 
 	return OutDamage
 end
@@ -306,6 +307,17 @@ function AlchemistCountless_Weapon_of_Saturation(InDamage, Strength, Dexterity, 
 		OutDamage = InDamage * ( 165 + ( Energy / 65 ) ) / 100;
 	elseif (BarrageCount == 2) then
 		OutDamage = InDamage * ( 165 + ( Energy / 65 ) ) / 100;
+	end
+    return OutDamage
+end
+
+-- SkillID: 2096, Spirit Blast of Fire----miss
+function Lord_Spirit_Blast_of_Fire(InDamage, Strength, Dexterity, Vitality, Energy, Command, BarrageCount)
+    local OutDamage = 0
+	if (BarrageCount == 1) then
+		OutDamage = InDamage * ( 250 + ( Energy / 20 ) + ( Command / 20 ) ) / 100;
+	elseif (BarrageCount == 2) then
+		OutDamage = InDamage * ( 250 + ( Energy / 20 ) + ( Command / 20 ) ) / 100;
 	end
     return OutDamage
 end
