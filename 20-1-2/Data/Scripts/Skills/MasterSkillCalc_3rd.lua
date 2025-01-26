@@ -808,6 +808,7 @@ function SummonerBerserker_Level2(Energy,InEffect1,InEffect2,InEffect3,InEffect4
 	local SkillEffectDOWN1 = 0 -- Life Decrease	
 	local SkillEffectDOWN2 = 0 -- defense Decrease	
 
+
 	return SkillEffectUP1, SkillEffectUP2, SkillEffectDOWN1, SkillEffectDOWN2
 end
 
@@ -1194,7 +1195,7 @@ function ExpansionWizardryCalc_Level1(Class, Energy, MagicDamageMax, SkillTreeVa
 		SkillEffect1 = Energy / 9 * 0.20
 		SkillEffect2 = MagicDamageMax / 100.0 * SkillTreeValue
 	end
-	--LogColor(1,SkillTreeValue)
+
 
 	return SkillEffect1, SkillEffect2, SkillTime
 end
@@ -1219,7 +1220,7 @@ function ExpansionWizardryCalc_Level2(Class, Energy, MagicDamageMax, SkillTreeVa
 		SkillEffect2 = MagicDamageMax / 100.0 * SkillTreeValue1
 		SkillEffect3 = SkillTreeValue2
 	end
-	--LogColor(1,SkillTime)
+
 	return SkillEffect1, SkillEffect2, SkillEffect3, SkillTime
 end
 

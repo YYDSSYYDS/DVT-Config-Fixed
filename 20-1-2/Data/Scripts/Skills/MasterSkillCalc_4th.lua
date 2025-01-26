@@ -58,7 +58,7 @@ function FireBlood_4thEnchant_Gladiator(InDamage, Strength, Energy)
 	local SuccessRate = 6
 	local DebuffDamage = Strength / 10
 	local DebuffTime = 10
-	
+
 	return OutDamage, SuccessRate, DebuffDamage, DebuffTime
 end
 
@@ -349,7 +349,7 @@ function SwordBlow_4thEnchant_Knight(InDamage, Strength, Dexterity, Vitality, En
 	--end
 
 	local OutDamage = InDamage / 1.5
-	--LogColor(1,InDamage)
+
 	return OutDamage
 end
 

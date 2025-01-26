@@ -57,7 +57,7 @@ function EvilSpiritCalc(Class, InDamage, Strength, Dexterity, Vitality, Energy, 
 	elseif (Class == CLASS_RUNEWIZARD) then
 		OutDamage = InDamage
 	end
- 				--LogColor(1,BarrageCount)--9, Evil Spirit
+
 
  return OutDamage
 end
@@ -92,7 +92,7 @@ function AngerBlow_Calc(Class, InDamage, Strength, Dexterity, Vitality, Energy, 
 	elseif (Class == CLASS_SLAYER) then
 		OutDamage = InDamage * (Energy / 10 + 200) / 100
 	end
- 	--LogColor(1,BarrageCount)--42, Anger Blow+
+
 
  return OutDamage
 end
@@ -107,7 +107,7 @@ function WizardMeteorStrikeCalcDamage(InDamage, Energy, BarrageCount)---3 hits
 	elseif (BarrageCount == 3) then
 		OutDamage = InDamage
 	end
-					--LogColor(1,InDamage)--Meteor Strike+
+
 
 	return OutDamage
 end
@@ -142,7 +142,7 @@ function Knight_Gladiator_CalcSkillBonus(SkillID, Class, InDamage, Strength, Ene
 	else
 		OutDamage = (InDamage * ( 200 + ( Energy / 10 ) ) ) / 100;
 	end
-			--LogColor(1,BarrageCount)--Knight_Gladiator_CalcSkillBonus
+
 
 	return OutDamage
 end
@@ -153,7 +153,7 @@ function KnightSkillAddLife(Index, TargetIndex, TargetClass, Vitality, Energy, P
 
 	local SkillEffect = Vitality / 100 + 12 + Energy / 20 + PartyBonus
 	local SkillTime = Energy / 10 + 60
-		--LogColor(1,SkillEffect)--Swell Life+
+
 
 	return SkillEffect, SkillTime
 end
@@ -177,7 +177,7 @@ function KnightFireBlowCalcDamage(InDamage, Strength, Dexterity, Vitality, Energ
 	elseif (BarrageCount == 3) then
 		OutDamage = (InDamage * ( 200 + ( Energy / 10 ) ) ) / 100;
 	end
-	--LogColor(1,BarrageCount)--Fireblow+
+
 
 	return OutDamage
 end
@@ -202,7 +202,7 @@ function GladiatorIceBloodCalcDamageAndDot(InDamage, Strength, Energy, BarrageCo
 	elseif (BarrageCount == 3) then
 		OutDamage = InDamage * 2
 	end
-	--LogColor(1,BarrageCount)--731 Ice Blood+
+
 	return OutDamage, SuccessRate, DebuffTime
 end
 
@@ -221,7 +221,7 @@ function GladiatorFireBloodCalcDamageAndDot(InDamage, Strength, Energy, BarrageC
 		OutDamage = InDamage * 2
 	end
 
-	--LogColor(1,BarrageCount)--732, Fire Blood+
+
 	return OutDamage, SuccessRate, DebuffDamage, DebuffTime
 end
 
@@ -549,7 +549,7 @@ function GladiatorFireSlash(InDamage, Strength, Energy, BarrageCount)--4 hits
     elseif (BarrageCount == 5) then
         OutDamage = InDamage * 2
     end
-	--LogColor(1,BarrageCount)--Fire Slash
+
     return OutDamage
 end
 
@@ -589,7 +589,7 @@ function GladiatorMeteorStrikeCalcDamage(InDamage, Energy, BarrageCount)--3 hits
     elseif (BarrageCount == 3) then
         OutDamage = InDamage
     end
-	--LogColor(1,OutDamage)--Meteor Strike+
+
 	return OutDamage
 end
 
@@ -604,8 +604,8 @@ function GladiatorChaosBlade(InDamage, Strength, Dexterity, Vitality, Energy, Ba
     elseif (BarrageCount == 3) then
         OutDamage = InDamage * 2--4th
     end
-	--LogColor(1,BarrageCount)--Chaos Blade
-	--LogColor(1,"hah")--Chaos Blade
+
+
     return OutDamage
 end
 
@@ -620,15 +620,15 @@ function GladiatorHavokSpear(InDamage, Strength, Dexterity, Vitality, Energy, Ba
     elseif (BarrageCount == 3) then
         OutDamage = InDamage--4th
     end
-    --LogColor(1,BarrageCount)--Havok Spear
+
 	return OutDamage
 end
 
 -- SkillID: 60 ,61, 62, 65, 74, 78, Force, Fire Burst, Earthshake, Electric Spike, Fire Blast, Fire Scream +
 function Lord_CalcSkillBonus(SkillID, InDamage, Strength, Energy, Command, BarrageCount)---need add Command---add 61
 	local OutDamage = ( InDamage *  (Energy / 20 + Command / 20 + 250) ) / 100
-	--LogColor(1,Command)
- 				--LogColor(1,InDamage)
+
+
 	return OutDamage
 end
 
@@ -644,7 +644,7 @@ end
 function ChaoticDiseierCalc(InDamage, Energy, Command, BarrageCount)--1 hit--need add Command
 	local OutDamage = InDamage * (Energy / 20 + Command / 20 + 250) / 100
 
-	--LogColor(1,Command2)--Chaotic Diseier+
+
 
 	return OutDamage
 end
@@ -659,7 +659,7 @@ function LordWindSoulCalcDamage(InDamage, Strength, Dexterity, Vitality, Energy,
 	elseif (BarrageCount == 3) then
 		OutDamage = OutDamage * 1.1
 	end
-	--LogColor(1,OutDamage)
+
 
 	return OutDamage
 end
@@ -693,7 +693,7 @@ function ChainLightningCalc(InDamage, TargetNumber)----need fix,bonus by some ot
 	end
 		
 	local OutDamage = InDamage / 4--InDamage * DamagePercent / 100
-	--LogColor(1,InDamage)--Chain Lighting+链雷咒
+
 	return OutDamage
 end
 
@@ -715,7 +715,7 @@ function SummonerBerserker(Energy,InEffect1,InEffect2,InEffect3,InEffect4)
 	local SkillEffectUP2 = InEffect2 -- Attack Speed Increase
 	local SkillEffectDOWN1 = InEffect3 -- Life Decrease	
 	local SkillEffectDOWN2 = InEffect4 -- defense Decrease	
-	--LogColor(1,SkillEffectUP1)--
+
 
 	return SkillEffectUP1, SkillEffectUP2, SkillEffectDOWN1, SkillEffectDOWN2
 end
@@ -734,6 +734,7 @@ function DeadScythe_Summoner(InDamage, Strength, Dexterity, Vitality, Energy, Ba
 		OutDamage = InDamage * 1.2
 	end
 
+
 	return OutDamage
 end
 
@@ -742,7 +743,8 @@ function SummonerDarkness(Energy,InEffect1,InEffect2,InEffect3)
 	local SkillEffectUP1 = InEffect1 -- curse damage Increase
 	local SkillEffectUP2 = InEffect2 -- Defense Increase
 	local SkillEffectDOWN = InEffect3 -- Life Decrease
-	
+
+
 	return SkillEffectUP1, SkillEffectUP2, SkillEffectDOWN
 end
 
@@ -821,22 +823,24 @@ end
 -- SkillID: 230, Lightning Shock+
 function SummonerLightningShock(InDamage, Energy, BarrageCount)--1 hit--add
 	local OutDamage = InDamage
-	--LogColor(1,InDamage)--烈光闪
+
 
 	return OutDamage
 end
 
 -- SkillID: 729, Fire Beast - (Dimension Master)+
-function SummonerFireBeastCalcDamage(InDamage, Energy, BarrageCount)--3 hits
-	local OutDamage = 0
+function SummonerFireBeastCalcDamage(InDamage, Energy, BarrageCount)--3 hits miss BarrageCount need fix
+	local OutDamage = 10000
 	if (BarrageCount == 1) then
-		OutDamage = InDamage
+		OutDamage = 1
 	elseif (BarrageCount == 2) then
-		OutDamage = InDamage
+		OutDamage = 1
 	elseif (BarrageCount == 3) then
-		OutDamage = InDamage
+		OutDamage = 1
+	elseif (BarrageCount == 4) then
+		OutDamage = 1
 	end
-	
+
 	return OutDamage
 end
 
@@ -918,6 +922,7 @@ function RageFighterDarkSideIncDamage(InDamage, Dexterity, Energy, BarrageCount)
 	elseif (BarrageCount == 2) then
 		OutDamage = InDamage * (Dexterity / 8 + Energy / 10 + 101) / 100.0
 	end
+
 
  return OutDamage
 end
@@ -1051,7 +1056,7 @@ function FenrirSkillCalc(InDamage, PlayerLevel, PlayerMasterLevel)
 end
 
 -- SkillID: 271, Spin Step+
-function GrowLancerSpinStep(InDamage, Dexterity, SkillTreeBonus)
+function GrowLancerSpinStep(InDamage, Dexterity, SkillTreeBonus)--SkillTreeBonus 712
 	local OutDamage = (InDamage * 1.1) * (Dexterity / 10 + 97 + SkillTreeBonus) / 100.0----give center 1 target 1 hit
 	local ExplosionDamage = (InDamage * 0.7) * (Dexterity / 10 + 97 + SkillTreeBonus) / 100.0----give other target hit
 
@@ -1060,7 +1065,7 @@ end
 
 
 -- SkillID: 274, Magic Pin+
-function GrowLancerMagicPin(InDamage, Dexterity, SkillTreeBonus, BarrageCount)--3 hits
+function GrowLancerMagicPin(InDamage, Dexterity, SkillTreeBonus, BarrageCount)--3 hits--SkillTreeBonus 712
 	local OutDamage = 0
 	
 	if (BarrageCount == 1) then
@@ -1075,7 +1080,7 @@ function GrowLancerMagicPin(InDamage, Dexterity, SkillTreeBonus, BarrageCount)--
 end
 
 -- SkillID: 276, Harsh Strike+
-function GrowLancerHarshStrike(InDamage, Strength, SkillTreeBonus, BarrageCount)--2 hits
+function GrowLancerHarshStrike(InDamage, Strength, SkillTreeBonus, BarrageCount)--2 hits--SkillTreeBonus 711
 	local OutDamage = 0
 	
 	if (BarrageCount == 1) then
@@ -1089,7 +1094,7 @@ end
 
 
 -- SkillID: 277, Shining Peak+
-function GrowLancerShiningPeak(InDamage, Strength, Dexterity, SkillTreeBonus_Retailation, SkillTreeBonus_Rage, BarrageCount)--3 hits
+function GrowLancerShiningPeak(InDamage, Strength, Dexterity, SkillTreeBonus_Retailation, SkillTreeBonus_Rage, BarrageCount)--3 hits--SkillTreeBonus 711 and 712
 	local OutDamage = InDamage * (((Strength / 10 + 97 + SkillTreeBonus_Retailation) + (Dexterity / 10 + 97 + SkillTreeBonus_Rage)) * 0.8) / 100.0
 
 	if (BarrageCount == 1) then
@@ -1104,7 +1109,7 @@ function GrowLancerShiningPeak(InDamage, Strength, Dexterity, SkillTreeBonus_Ret
 end
 
 -- SkillID: 279, Breche+
-function GrowLancerBreche(InDamage, Strength, SkillTreeBonus, BarrageCount)--2 hits
+function GrowLancerBreche(InDamage, Strength, SkillTreeBonus, BarrageCount)--2 hits--SkillTreeBonus 711
 	local OutDamage = 0
 
 	if (BarrageCount == 1) then
@@ -1117,12 +1122,12 @@ function GrowLancerBreche(InDamage, Strength, SkillTreeBonus, BarrageCount)--2 h
 end
 
 -- SkillID: 278, Wrath+
-function GrowLancerWrath(Strength, Dexterity, Energy)----fixed
+function GrowLancerWrath(Strength, Dexterity, Energy)
 	local SkillIncDamage = (Strength + Dexterity) / 3
 	local SkillDecDefense = 5
 	local CombatPower = 10
 	local SkillTime = 300
- 	--LogColor(1,SkillIncDamage)--278, Wrath+
+
 
 	return SkillIncDamage, SkillDecDefense, SkillTime,CombatPower
 end
@@ -1228,6 +1233,7 @@ function RuneWizardLightningStormCalcDamage(InDamage, Strength, Dexterity, Vital
 	elseif (BarrageCount == 4) then
 		OutDamage = InDamage
 	end
+
 	return OutDamage
 	
 end
@@ -1303,6 +1309,8 @@ function SlayerPierceAttackCalc(InDamage, Strength, Dexterity, BarrageCount)--2h
 	elseif (BarrageCount == 2) then
 		OutDamage = InDamage * ((Strength / 8) + (Dexterity / 28) + 120) / 100
 	end
+	OutDamage = InDamage * ((Strength / 8) + (Dexterity / 28) + 120) / 100
+
 	return OutDamage
 end
 
@@ -1329,7 +1337,7 @@ function SwordBlow_Knight(InDamage, Strength, Dexterity, Vitality, Energy, Barra
 	elseif (BarrageCount == 4) then----4th
 		OutDamage = (InDamage * 1.0) * (Energy / 10 + 200) / 100
 	end
-	--LogColor(1,InDamage)--Sword Blow+
+
 	return OutDamage
 end
 
@@ -1353,7 +1361,7 @@ end
 function GunCrusherDarkPlasmaCalc(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)--1hit--add--need move
 	local OutDamage = 0
 	OutDamage = InDamage
-	--LogColor(1,InDamage)
+
 
 	return OutDamage
 end
@@ -1369,7 +1377,7 @@ function GunCrusherIceBreakCalc(InDamage, Strength, Dexterity, Vitality, Energy,
 	elseif (BarrageCount == 3) then
 		OutDamage = InDamage
 	end
-		--LogColor(1,InDamage)
+
 
 	return OutDamage
 end
@@ -1379,7 +1387,7 @@ function GunCrusherDeathFireCalc(InDamage, Strength, Dexterity, Vitality, Energy
 	local OutDamage = 0
 	
 		OutDamage = InDamage
-	--LogColor(1,InDamage)
+
 	return OutDamage
 end
 
@@ -1413,7 +1421,7 @@ function GunCrusherDeathIceCalc(InDamage, Strength, Dexterity, Vitality, Energy)
 	local OutDamage = 0
 	
 		OutDamage = InDamage
-	--LogColor(1,InDamage)
+
 	return OutDamage
 end
 
@@ -1439,7 +1447,7 @@ function LightWizardMagicShot(Class, InDamage, Strength, Dexterity, Vitality, En
 			OutDamage = (InDamage * 1.0) * (165 + (Energy / 65)) / 100
 		end
 	end
-				--LogColor(1,InDamage)
+
 
 	return OutDamage
 end
@@ -1449,7 +1457,7 @@ function LightWizardShiningBirdCalc(InDamage, Strength, Dexterity, Vitality, Ene
 	local OutDamage = 0
 	
 	OutDamage = (InDamage * 1.0) * ((Energy / 50) + 200) / 100
-	--LogColor(1,string.format("%d,%d",InDamage,BarrageCount))
+
 
 	return OutDamage
 end
@@ -1463,8 +1471,8 @@ function LightWizardDragonViolentCalc(InDamage, Strength, Dexterity, Vitality, E
 	elseif (BarrageCount == 2) then
 		OutDamage = (InDamage * 1.0) * ((Energy / 50) + 200) / 100
 	end
-		--LogColor(1,InDamage)
-		--LogColor(1,string.format("%d,%d",InDamage,BarrageCount))
+
+
 return OutDamage
 end
 
@@ -1494,7 +1502,7 @@ function LemuriaMageMarvelBurst(InDamage, Strength, Dexterity, Vitality, Energy,
 	local OutDamage = 0
 	
 	OutDamage = InDamage * (140 + (Energy / 100)) / 100
-	
+
 	return OutDamage
 end
 
@@ -1519,8 +1527,11 @@ function LemuriaMageUltimateForce(InDamage, Strength, Dexterity, Vitality, Energ
 		OutDamage = (InDamage * 1.0) * (140 + (Energy / 100)) / 100
 	elseif (BarrageCount == 2) then
 		OutDamage = (InDamage * 1.0) * (140 + (Energy / 100)) / 100
+	elseif (BarrageCount == 3) then--4th
+		OutDamage = (InDamage * 1.0) * (140 + (Energy / 100)) / 100
 	end
-	
+
+
 	return OutDamage
 end
 
@@ -1561,14 +1572,14 @@ function LemuriaMageHeal(TargetClass, Index, TargetIndex, Energy)
 	elseif (Index == TargetIndex) then
 		SkillEffect = Energy / 10 + 5
 	end
-	--LogColor(1,TargetClass)
+
 	return SkillEffect
 end
 
 -- SkillID: 2008, Beginner Shield Recovery+
 function LemuriaMageShieldRecovery(Energy, PlayerLevel)
 	local SkillEffect = Energy / 8 + PlayerLevel
- 	--LogColor(1,PlayerLevel)
+
 
 	return SkillEffect
 end
@@ -1696,7 +1707,7 @@ function IllusionKnightChargeSlash(InDamage, Strength, Dexterity, Vitality, Ener
 	elseif (BarrageCount == 2) then
 		OutDamage = (InDamage * (200 + (Dexterity / 30))) / 100;
 	end
-	--LogColor(1,BarrageCount)
+
 
 	return OutDamage
 end
@@ -1710,7 +1721,7 @@ function IllusionKnightWindGlaive(InDamage, Strength, Dexterity, Vitality, Energ
 	elseif (BarrageCount == 2) then
 		OutDamage = (InDamage * (200 + (Dexterity / 30))) / 100;
 	end
-	--LogColor(1,BarrageCount)
+
 	return OutDamage
 end
 
@@ -1738,29 +1749,39 @@ function IllusionKnightAvatarCalc(InDamageMin, InDamageMax, PlayerLevel, PlayerM
 end
 
 -- SkillID: 2036, OVersting+
-function GrowLancerOVersting(InDamage, Dexterity, Energy, SkillTreeBonus, BarrageCount)-----3 hits
+function GrowLancerOVersting(InDamage, Dexterity, Energy, BarrageCount, SkillTreeBonus)-----3 hits--need fix-- miss SkillTreeBonus 712
+	local OutDamage = InDamage * (97 + Dexterity / 10 + SkillTreeBonus) / 100;
 	if (BarrageCount == 1) then
-		OutDamage = InDamage * (97 + Dexterity / 10 + SkillTreeBonus) / 100;
+		OutDamage = OutDamage * 1;
 	elseif (BarrageCount == 2) then
-		OutDamage = InDamage * (97 + Dexterity / 10 + SkillTreeBonus) / 100;
+		OutDamage = OutDamage * 1;
 	elseif (BarrageCount == 3) then
-		OutDamage = InDamage * (97 + Dexterity / 10 + SkillTreeBonus) / 100;
+		OutDamage = OutDamage * 1;
+	elseif (BarrageCount == 4) then----4th tree hit
+		OutDamage = OutDamage * 1;
+	elseif (BarrageCount == 5) then----4th tree hit
+		OutDamage = OutDamage * 1;
 	end
+
+
 	return OutDamage
 end
 
 -- SkillID: 2085, Wild Breat 
-function GrowLancerWildBreath(InDamage, Strength, Dexterity, Vitality, Energy, SkillTreeBonus, BarrageCount)-----3 hits
-	local OutDamage = 0
+function GrowLancerWildBreath(InDamage, Strength, Dexterity, Vitality, Energy, SkillTreeBonus, BarrageCount)-----3 hits-need fix--miss SkillTreeBonus 711
+	local OutDamage = InDamage * (97 + Strength / 10 + SkillTreeBonus) / 100;
 	
 	if (BarrageCount == 1) then
-		OutDamage = InDamage * (97 + Strength / 10 + SkillTreeBonus) / 100;
+		OutDamage = OutDamage * 1;
 	elseif (BarrageCount == 2) then
-		OutDamage = InDamage * (97 + Strength / 10 + SkillTreeBonus) / 100;
+		OutDamage = OutDamage * 1;
 	elseif (BarrageCount == 3) then
-		OutDamage = InDamage * (97 + Strength / 10 + SkillTreeBonus) / 100;
+		OutDamage = OutDamage * 1;
+	elseif (BarrageCount == 4) then----4th tree hit
+		OutDamage = OutDamage * 1;
 	end
-    --LogColor(1,BarrageCount)
+
+
 
 	return OutDamage
 end
@@ -1768,7 +1789,7 @@ end
 -- SkillID: 2017, Chaos Blade Magic Explosion
 function GladiatorChaosBladeMagicExplosion(InDamage, Strength, Dexterity, Vitality, Energy)
 	local OutDamage = 10000
-    --LogColor(1,InDamage)
+
 
     return OutDamage
 end
@@ -1776,21 +1797,21 @@ end
 -- SkillID: 2018, Fire Blood Magic Explosion
 function GladiatorFireBloodMagicExplosion(InDamage, Strength, Energy)
 	local OutDamage = InDamage * 2 + 10000
-    --LogColor(1,InDamage)
+
 	return OutDamage
 end
 
 -- SkillID: 2019, Ice Blood Magic Explosion
 function GladiatorIceBloodMagicExplosion(InDamage, Strength, Energy)
 	local OutDamage = InDamage * 2 + 10000
-    --LogColor(1,OutDamage)
+
 	return OutDamage
 end
 
 -- SkillID: 2020, Havok Spear Nova
 function GladiatorHavokSpearNova(InDamage, Strength, Dexterity, Vitality, Energy)
     local OutDamage = InDamage * 4 --+ 10000
-    --LogColor(1,InDamage)
+
         return OutDamage
 end
 
@@ -1806,20 +1827,20 @@ end
 -- SkillID: 2091, Angel Homunculus
 function AlchemistAngelHomunculus(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)--1hit--add
     local OutDamage = 0
-	if (BarrageCount == 3) then
-		OutDamage = InDamage * ( 165 + ( Energy / 65 ) ) / 100;
-	elseif (BarrageCount == 4) then
-		OutDamage = InDamage * ( 165 + ( Energy / 65 ) ) / 100;
+	if (BarrageCount == 1) then
+		OutDamage = InDamage * ( 200 + ( Energy / 50 ) ) / 100;
+	elseif (BarrageCount == 2) then
+		OutDamage = InDamage * ( 200 + ( Energy / 50 ) ) / 100;
 	end
-	--LogColor(1,BarrageCount)
+
     return OutDamage
 end
 
 -- SkillID: 2092, Ignition Bomber
 function AlchemistIgnitionBomber(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)--1hit--add
     local OutDamage = 0
-	OutDamage = InDamage * ( 165 + ( Energy / 65 ) ) / 100;
- 		--LogColor(1,BarrageCount)
+		OutDamage = InDamage * ( 200 + ( Energy / 50 ) ) / 100;
+
    return OutDamage
 end
 
@@ -1827,11 +1848,13 @@ end
 function AlchemistCountlessWeapon(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)-----2 hit
     local OutDamage = 0
 	if (BarrageCount == 1) then
-		OutDamage = InDamage * ( 165 + ( Energy / 65 ) ) / 100;
+		OutDamage = InDamage * ( 200 + ( Energy / 50 ) ) / 100;
 	elseif (BarrageCount == 2) then
-		OutDamage = InDamage * ( 165 + ( Energy / 65 ) ) / 100;
+		OutDamage = InDamage * ( 200 + ( Energy / 50 ) ) / 100;
+	elseif (BarrageCount == 3) then
+		OutDamage = InDamage * ( 200 + ( Energy / 50 ) ) / 100;
 	end
- 				--LogColor(1,BarrageCount)
+
     return OutDamage
 end
 
@@ -1852,7 +1875,7 @@ function LordSpiritBlast(InDamage, Strength, Dexterity, Vitality, Energy, Comman
 	elseif (BarrageCount == 2) then
 		OutDamage = InDamage * ( 250 + ( Energy / 20 ) + ( Command / 20 ) ) / 100;
 	end
- 				--LogColor(1,InDamage)
+
     return OutDamage
 
 end
@@ -1864,7 +1887,7 @@ function LordCrownForc(Index, TargetIndex, TargetClass, Energy, Command)
 	local SkillTime = 500
 
 		SkillEffect = Command / 100
-		
+
     return SkillEffect,SkillTime
 
 end
@@ -1873,8 +1896,8 @@ end
 function LordDivineForce(Index, TargetIndex, TargetClass, Energy, Command)
 
 	local SkillEffect = 400
-	local SkillTime = 3
-		
+	local SkillTime = 30
+
     return SkillEffect,SkillTime
 
 end
@@ -1884,7 +1907,7 @@ function LordDivineAura(Index, TargetIndex, TargetClass, Energy, Command)
 
 	local SkillEffect = 300
 	local SkillTime = 3
-		
+
     return SkillEffect,SkillTime
 
 end
@@ -1894,7 +1917,7 @@ function LordBattleGlory(Strength, Dexterity, Vitality, Energy, Command)
 
 	local SkillEffect1 = (Strength + Command) / 3--Attack Power
 	local SkillEffect2 = 10--Combat Power
-		
+
     return SkillEffect1, SkillEffect2
 
 end
