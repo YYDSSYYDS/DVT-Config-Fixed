@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==                 File Name: ItemExpRate                   ==
+// ============================================================
+-->
+<!-- Type:
+		~0:Add Exp Rate
+		~1:Group Add Exp Rate
+ -->
+ <ItemExpRate>
+	<Item ItemCat="13" ItemIndex="76" ItemLevel="0" Type="1" Name="Panda Ring" Value="50" />
+	<Item ItemCat="13" ItemIndex="77" ItemLevel="0" Type="1" Name="Brown Panda Ring" Value="50" />
+	<Item ItemCat="13" ItemIndex="78" ItemLevel="0" Type="1" Name="Pink Panda Ring" Value="50" />
+	<Item ItemCat="13" ItemIndex="166" ItemLevel="0" Type="1" Name="Brown Panda Ring" Value="50" />
+	<Item ItemCat="13" ItemIndex="268" ItemLevel="0" Type="1" Name="Dark Transformation Ring" Value="50" />
+
+	<Item ItemCat="13" ItemIndex="80" ItemLevel="0" Type="0" Name="Pet Panda" Value="50" />
+	<Item ItemCat="13" ItemIndex="123" ItemLevel="0" Type="0" Name="Pet Skeleton" Value="30" />
+</ItemExpRate>
