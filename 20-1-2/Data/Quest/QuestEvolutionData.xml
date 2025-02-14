@@ -5,6 +5,24 @@
 // == 				   POWERED BY DV-Team				 	 ==
 // ==            File Name: QuestEvolutionData               ==
 // ============================================================
+
+RewardType and RewardSubType
+    QUEST_EVOLUTION_COMPENSATION_STAT_UP        = 200,
+    QUEST_EVOLUTION_COMPENSATION_CHANGE_UP      = 201,
+    QUEST_EVOLUTION_COMPENSATION_PLUS_STAT      = 202,
+    QUEST_EVOLUTION_COMPENSATION_COMBO_SKILL    = 203,
+    QUEST_EVOLUTION_COMPENSATION_MASTER_UP      = 204,
+    QUEST_EVOLUTION_COMPENSATION_ALL_STAT_UP    = 205,
+    QUEST_EVOLUTION_COMPENSATION_MAJESTIC_UP    = 206,
+    QUEST_EVOLUTION_NUKE_BOLT_AOE_UP            = 207,
+    QUEST_EVOLUTION_GAINT_FINISH_UP             = 208,
+
+RewardType:no need change
+RewardSubType:only allow 200 and 205,
+QUEST_EVOLUTION_COMPENSATION_STAT_UP        = 200,give normal points
+QUEST_EVOLUTION_COMPENSATION_ALL_STAT_UP    = 205,give str,agi,vit,eng,cmd points
+
+	
 -->
 <QuestEvolutionData>
 	<QuestEvo ID="0">
@@ -74,22 +92,22 @@
 	</QuestEvo>
 	
 	<QuestEvo ID="10">
-		<Data ObjType="2" ItemCat="255" ItemIndex="65535" ItemLevel="0" Count="1" MonsterID="937" MonsterMinLevel="1" MonsterMaxLevel="1200" MonsterSlot="0" DropRate="0" RewardType="0" RewardSubType="200" RewardCount="1" ConditionIndex="1" ContextBeforeReg="227" ContextAfterReg="229" ContextCompleteQuest="230" ContextClearQuest="231" ReqDW="4" ReqDK="4" ReqELF="4" ReqMG="4" ReqDL="4" ReqSUM="4" ReqRF="4" ReqGL="4" ReqRW="4" ReqSL="4" ReqGC="4" ReqLW="4" ReqLM="4" ReqIK="4" ReqALC="4"/>
+		<Data ObjType="2" ItemCat="255" ItemIndex="65535" ItemLevel="0" Count="1" MonsterID="937" MonsterMinLevel="1" MonsterMaxLevel="1200" MonsterSlot="0" DropRate="0" RewardType="0" RewardSubType="0" RewardCount="0" ConditionIndex="1" ContextBeforeReg="227" ContextAfterReg="229" ContextCompleteQuest="230" ContextClearQuest="231" ReqDW="4" ReqDK="4" ReqELF="4" ReqMG="4" ReqDL="4" ReqSUM="4" ReqRF="4" ReqGL="4" ReqRW="4" ReqSL="4" ReqGC="4" ReqLW="4" ReqLM="4" ReqIK="4" ReqALC="4"/>
 	</QuestEvo>
 	
 	<QuestEvo ID="11">
-		<Data ObjType="2" ItemCat="255" ItemIndex="65535" ItemLevel="0" Count="1" MonsterID="937" MonsterMinLevel="1" MonsterMaxLevel="1200" MonsterSlot="0" DropRate="0" RewardType="0" RewardSubType="200" RewardCount="1" ConditionIndex="1" ContextBeforeReg="233" ContextAfterReg="235" ContextCompleteQuest="236" ContextClearQuest="237" ReqDW="4" ReqDK="4" ReqELF="4" ReqMG="4" ReqDL="4" ReqSUM="4" ReqRF="4" ReqGL="4" ReqRW="4" ReqSL="4" ReqGC="4" ReqLW="4" ReqLM="4" ReqIK="4" ReqALC="4"/>
+		<Data ObjType="2" ItemCat="255" ItemIndex="65535" ItemLevel="0" Count="1" MonsterID="937" MonsterMinLevel="1" MonsterMaxLevel="1200" MonsterSlot="0" DropRate="0" RewardType="0" RewardSubType="0" RewardCount="0" ConditionIndex="1" ContextBeforeReg="233" ContextAfterReg="235" ContextCompleteQuest="236" ContextClearQuest="237" ReqDW="4" ReqDK="4" ReqELF="4" ReqMG="4" ReqDL="4" ReqSUM="4" ReqRF="4" ReqGL="4" ReqRW="4" ReqSL="4" ReqGC="4" ReqLW="4" ReqLM="4" ReqIK="4" ReqALC="4"/>
 	</QuestEvo>
 	
-	<QuestEvo ID="12">
+	<QuestEvo ID="12"><!-- 给了100点 -->
 		<Data ObjType="2" ItemCat="255" ItemIndex="65535" ItemLevel="0" Count="1" MonsterID="937" MonsterMinLevel="1" MonsterMaxLevel="1200" MonsterSlot="0" DropRate="0" RewardType="207" RewardSubType="200" RewardCount="50" ConditionIndex="1" ContextBeforeReg="239" ContextAfterReg="241" ContextCompleteQuest="242" ContextClearQuest="243" ReqDW="4" ReqDK="4" ReqELF="4" ReqMG="4" ReqDL="4" ReqSUM="4" ReqRF="4" ReqGL="4" ReqRW="4" ReqSL="4" ReqGC="4" ReqLW="4" ReqLM="4" ReqIK="4" ReqALC="4"/>
 	</QuestEvo>
 	
-	<QuestEvo ID="13">
+	<QuestEvo ID="13"><!-- 给了50点 -->
 		<Data ObjType="1" ItemCat="14" ItemIndex="22" ItemLevel="0" Count="300" MonsterID="937" MonsterMinLevel="1" MonsterMaxLevel="1200" MonsterSlot="0" DropRate="0" RewardType="0" RewardSubType="200" RewardCount="50" ConditionIndex="1" ContextBeforeReg="245" ContextAfterReg="247" ContextCompleteQuest="248" ContextClearQuest="255" ReqDW="4" ReqDK="4" ReqELF="4" ReqMG="4" ReqDL="4" ReqSUM="4" ReqRF="4" ReqGL="4" ReqRW="4" ReqSL="4" ReqGC="4" ReqLW="4" ReqLM="4" ReqIK="4" ReqALC="4"/>
 	</QuestEvo>
 	
-	<QuestEvo ID="14">
+	<QuestEvo ID="14"><!-- 给了50点 -->
 		<Data ObjType="2" ItemCat="255" ItemIndex="65535" ItemLevel="0" Count="1" MonsterID="938" MonsterMinLevel="1" MonsterMaxLevel="1200" MonsterSlot="0" DropRate="0" RewardType="208" RewardSubType="200" RewardCount="50" ConditionIndex="1" ContextBeforeReg="249" ContextAfterReg="250" ContextCompleteQuest="251" ContextClearQuest="252" ReqDW="4" ReqDK="4" ReqELF="4" ReqMG="4" ReqDL="4" ReqSUM="4" ReqRF="4" ReqGL="4" ReqRW="4" ReqSL="4" ReqGC="4" ReqLW="4" ReqLM="4" ReqIK="4" ReqALC="4"/>
 	</QuestEvo>
 	
