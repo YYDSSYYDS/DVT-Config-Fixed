@@ -107,10 +107,15 @@ function BridgeFunctionAttach(BridgeName,FunctionName)
 		if BridgeFunctionTable[20] == nil then BridgeFunctionTable[20] = {} end
 		table.insert(BridgeFunctionTable[20],{Function=FunctionName})
 
+	elseif BridgeName == "OnUserTeleport" then
+
+		if BridgeFunctionTable[21] == nil then BridgeFunctionTable[21] = {} end
+		table.insert(BridgeFunctionTable[21],{Function=FunctionName})
 
 	end
 
 end
+
 
 
 function BridgeFunction_OnReadScript()
@@ -175,6 +180,7 @@ function BridgeFunction_OnCommandManager(aIndex,cmdtype,code,arg)
 	return 0
 
 end
+
 
 
 function BridgeFunction_OnCharacterEntry(aIndex)
@@ -256,6 +262,7 @@ function BridgeFunction_OnUserDie(aIndex,bIndex)
 end
 
 
+
 function BridgeFunction_OnUserRespawn(aIndex,KillerType)
 
 	if BridgeFunctionTable[10] ~= nil then
@@ -322,7 +329,6 @@ function BridgeFunction_OnPacketRecv(aIndex,buff,size)
 
 end
 
-
 function BridgeFunction_OnSQLAsyncResult(label,param,result)
 
 	if BridgeFunctionTable[14] ~= nil then
@@ -343,14 +349,13 @@ function BridgeFunction_OnSQLAsyncResult(label,param,result)
 
 end
 
-
-function BridgeFunction_OnUserItemPick(aIndex,bIndex)
+function BridgeFunction_OnUserItemPick(aIndex,ItemTable)
 
 	if BridgeFunctionTable[15] ~= nil then
 
 		for n=1,#BridgeFunctionTable[15],1 do
 
-			local ret = _G[BridgeFunctionTable[15][n].Function](aIndex,bIndex)
+			local ret = _G[BridgeFunctionTable[15][n].Function](aIndex,ItemTable)
 
 			if ret == 0 then return 0 end
 
@@ -362,14 +367,13 @@ function BridgeFunction_OnUserItemPick(aIndex,bIndex)
 
 end
 
-
-function BridgeFunction_OnUserItemDrop(aIndex, slot, x, y)
+function BridgeFunction_OnUserItemDrop(aIndex, slot, x, y, ItemTable)
 
 	if BridgeFunctionTable[16] ~= nil then
 
 		for n=1,#BridgeFunctionTable[16],1 do
 
-			local ret = _G[BridgeFunctionTable[16][n].Function](aIndex, slot, x, y)
+			local ret = _G[BridgeFunctionTable[16][n].Function](aIndex, slot, x, y, ItemTable)
 
 			if ret == 0 then return 0 end
 
@@ -381,14 +385,13 @@ function BridgeFunction_OnUserItemDrop(aIndex, slot, x, y)
 
 end
 
-
-function BridgeFunction_OnUserItemMove(aIndex, aFlag, aSlot, bFlag, bSlot)
+function BridgeFunction_OnUserItemMove(aIndex, aFlag, aSlot, bFlag, bSlot, state)
 
 	if BridgeFunctionTable[17] ~= nil then
 
 		for n=1,#BridgeFunctionTable[17],1 do
 
-			local ret = _G[BridgeFunctionTable[17][n].Function](aIndex, aFlag, aSlot, bFlag, bSlot)
+			local ret = _G[BridgeFunctionTable[17][n].Function](aIndex, aFlag, aSlot, bFlag, bSlot, state)
 
 			if ret == 0 then return 0 end
 
@@ -400,6 +403,23 @@ function BridgeFunction_OnUserItemMove(aIndex, aFlag, aSlot, bFlag, bSlot)
 
 end
 
+function BridgeFunction_OnUserTeleport(aIndex,Map,Gate)---Gate allow nil
+
+	if BridgeFunctionTable[21] ~= nil then
+
+		for n=1,#BridgeFunctionTable[21],1 do
+
+			local ret = _G[BridgeFunctionTable[21][n].Function](aIndex,Map,Gate)
+
+			if ret == 0 then return 0 end
+
+		end
+
+	end
+
+	return 1
+
+end
 
 function BridgeFunction_OnCommandDone(aIndex, code)
 
@@ -419,7 +439,6 @@ function BridgeFunction_OnCommandDone(aIndex, code)
 
 end
 
-
 function BridgeFunction_OnAdminCommandManager(aIndex,cmdtype,code,arg)
 
 	if BridgeFunctionTable[19] ~= nil then
@@ -438,7 +457,6 @@ function BridgeFunction_OnAdminCommandManager(aIndex,cmdtype,code,arg)
 
 end
 
-
 function BridgeFunction_OnUserGiveExp(aIndex,ExpValue)
 
 	if BridgeFunctionTable[20] ~= nil then
@@ -452,3 +470,4 @@ function BridgeFunction_OnUserGiveExp(aIndex,ExpValue)
 	end
 
 end
+
