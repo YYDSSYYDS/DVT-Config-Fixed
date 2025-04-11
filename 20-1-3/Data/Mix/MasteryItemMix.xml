@@ -1,16 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- 
-// ============================================================
-// == INTERNATIONAL GAMING CENTER NETWORK
-// == www.igcn.mu
-// == (C) 2010-2025 IGC-Network (R)
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-// == File is a part of IGCN Group MuOnline Server files.
-// ============================================================
-//
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //~~ Changes to this file may require modification appropriate mix configuration in Mix.bmd
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
 // ### MasteryItemMix::CombinationMaterials:Material ###
 //	ID: Unique, in-file material ID
