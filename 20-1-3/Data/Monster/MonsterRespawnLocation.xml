@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==           File Name: MonsterRespawnLocation            ==
+// ============================================================
+-->
+
+<MonsterRespawnLocation>
+	<Data Group="1" WorldID="0" X1="50" Y1="50" X2="200" Y2="200" Rate="100" />
+	<Data Group="1" WorldID="2" X1="50" Y1="50" X2="200" Y2="200" Rate="100" />
+	<Data Group="1" WorldID="3" X1="50" Y1="50" X2="200" Y2="200" Rate="100" />
+	<Data Group="1" WorldID="4" X1="50" Y1="50" X2="200" Y2="200" Rate="100" />
+	<Data Group="2" WorldID="38" X1="50" Y1="50" X2="200" Y2="200" Rate="100" />
+	<Data Group="2" WorldID="57" X1="50" Y1="50" X2="200" Y2="200" Rate="100" />
+	<Data Group="3" WorldID="56" X1="178" Y1="114" X2="184" Y2="129" Rate="100" />
+	<Data Group="3" WorldID="56" X1="149" Y1="10" X2="162" Y2="19" Rate="100" />
+	<Data Group="3" WorldID="56" X1="127" Y1="162" X2="136" Y2="171" Rate="100" />
+	<Data Group="3" WorldID="56" X1="50" Y1="103" X2="57" Y2="114" Rate="100" />
+	<Data Group="10" WorldID="0" X1="1" Y1="1" X2="255" Y2="255" Rate="100" />
+	<Data Group="10" WorldID="1" X1="1" Y1="1" X2="255" Y2="255" Rate="100" />
+	<Data Group="10" WorldID="2" X1="1" Y1="1" X2="255" Y2="255" Rate="100" />
+	<Data Group="10" WorldID="3" X1="1" Y1="1" X2="255" Y2="255" Rate="100" />
+	<Data Group="10" WorldID="4" X1="1" Y1="1" X2="255" Y2="255" Rate="100" />
+	<Data Group="10" WorldID="7" X1="1" Y1="1" X2="255" Y2="255" Rate="100" />
+	<Data Group="10" WorldID="8" X1="1" Y1="1" X2="255" Y2="255" Rate="100" />
+	<Data Group="10" WorldID="10" X1="1" Y1="1" X2="255" Y2="255" Rate="100" />
+	<Data Group="10" WorldID="33" X1="1" Y1="1" X2="255" Y2="255" Rate="100" />
+	<Data Group="10" WorldID="37" X1="1" Y1="1" X2="255" Y2="255" Rate="100" />
+	<Data Group="10" WorldID="38" X1="1" Y1="1" X2="255" Y2="255" Rate="100" />
+	<Data Group="10" WorldID="51" X1="1" Y1="1" X2="255" Y2="255" Rate="100" />
+	<Data Group="10" WorldID="56" X1="1" Y1="1" X2="255" Y2="255" Rate="100" />
+	<Data Group="10" WorldID="57" X1="1" Y1="1" X2="255" Y2="255" Rate="100" />
+	<Data Group="10" WorldID="63" X1="1" Y1="1" X2="255" Y2="255" Rate="100" />
+	<Data Group="10" WorldID="80" X1="1" Y1="1" X2="255" Y2="255" Rate="100" />
+	<Data Group="10" WorldID="81" X1="1" Y1="1" X2="255" Y2="255" Rate="100" />
+	<Data Group="10" WorldID="91" X1="1" Y1="1" X2="255" Y2="255" Rate="100" />
+	<Data Group="10" WorldID="95" X1="1" Y1="1" X2="255" Y2="255" Rate="100" />
+	<Data Group="10" WorldID="100" X1="1" Y1="1" X2="255" Y2="255" Rate="100" />
+	<Data Group="10" WorldID="110" X1="1" Y1="1" X2="255" Y2="255" Rate="100" />
+	<Data Group="10" WorldID="112" X1="1" Y1="1" X2="255" Y2="255" Rate="100" />
+	<Data Group="10" WorldID="113" X1="1" Y1="1" X2="255" Y2="255" Rate="100" />
+</MonsterRespawnLocation>

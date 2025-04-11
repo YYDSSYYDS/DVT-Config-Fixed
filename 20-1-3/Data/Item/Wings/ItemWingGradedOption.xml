@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==           File Name: ItemWingGradedOption              ==
+// ============================================================
+-->
+
+<ItemWingGradedOption>
+	<Option ID="0" Value1="3" Value2="5" Value3="6" Value4="7" Value5="0" Value6="0" Value7="0" Value8="0" Value9="0" Value10="0" />
+	<Option ID="1" Value1="3" Value2="5" Value3="6" Value4="7" Value5="0" Value6="0" Value7="0" Value8="0" Value9="0" Value10="0" />
+	<Option ID="2" Value1="3" Value2="5" Value3="6" Value4="7" Value5="0" Value6="0" Value7="0" Value8="0" Value9="0" Value10="0" />
+	<Option ID="3" Value1="3" Value2="5" Value3="6" Value4="7" Value5="0" Value6="0" Value7="0" Value8="0" Value9="0" Value10="0" />
+	<Option ID="4" Value1="5" Value2="7" Value3="9" Value4="12" Value5="0" Value6="0" Value7="0" Value8="0" Value9="0" Value10="0" />
+	<Option ID="5" Value1="3" Value2="5" Value3="7" Value4="10" Value5="0" Value6="0" Value7="0" Value8="0" Value9="0" Value10="0" />
+	<Option ID="6" Value1="3" Value2="5" Value3="6" Value4="7" Value5="0" Value6="0" Value7="0" Value8="0" Value9="0" Value10="0" />
+	<Option ID="7" Value1="10" Value2="25" Value3="40" Value4="65" Value5="0" Value6="0" Value7="0" Value8="0" Value9="0" Value10="0" />
+	<Option ID="8" Value1="10" Value2="25" Value3="40" Value4="65" Value5="0" Value6="0" Value7="0" Value8="0" Value9="0" Value10="0" />
+	<Option ID="9" Value1="10" Value2="25" Value3="40" Value4="65" Value5="0" Value6="0" Value7="0" Value8="0" Value9="0" Value10="0" />
+	<Option ID="10" Value1="10" Value2="25" Value3="40" Value4="65" Value5="0" Value6="0" Value7="0" Value8="0" Value9="0" Value10="0" />
+</ItemWingGradedOption>

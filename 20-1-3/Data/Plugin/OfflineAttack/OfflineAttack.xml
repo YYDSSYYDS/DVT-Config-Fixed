@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==               File Name: OfflineAttack                 ==
+// ============================================================
+-->
+
+<OfflineAttack Enable="1">
+    <Setting MinLevel="1" MaxLevel="1700" AttackTime="86400" SkillTime="1000" AutoMove="0" BuffItem="0" IPCount="6" OfflineCount="6" CountFlag="1" AutoLootZen="0" AutoLootItem="1" GoblinPointsGain="0" MonsterAICheck="0" AttackOnDisconnect="0" CloseWhenWrongLevel="0" DieDisconnectTime="30" DisconnectTime="3600" />
+</OfflineAttack>

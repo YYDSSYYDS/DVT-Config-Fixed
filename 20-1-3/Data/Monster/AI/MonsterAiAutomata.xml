@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==             File Name: MonsterAiAutomata               ==
+// ============================================================
+-->
+
+<MonsterAiAutomata>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~ Crywolf Monster - General -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<Data ID="1"  Priority="0" CurrentState="0" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Never -> Move to" />
+	<Data ID="1"  Priority="1" CurrentState="0" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Enemy only -> Move to" />
+	<Data ID="1"  Priority="2" CurrentState="0" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> in Red -> Attack" />
+	<Data ID="1"  Priority="0" CurrentState="1" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> in Red -> Attack" />	
+	<Data ID="1"  Priority="1" CurrentState="1" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Never -> Move to" />	
+	<Data ID="1"  Priority="2" CurrentState="1" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Enemy only -> Move to" />
+	<Data ID="1"  Priority="0" CurrentState="2" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Never -> Move to" />
+	<Data ID="1"  Priority="1" CurrentState="2" NextState="4" TransitionType="4" TransitionRate="100" TransitionValueType="-1" TransitionValue="10000" Delay="1000" Name="Attack -> HP Decreased -> Evasion" />
+	<Data ID="1"  Priority="2" CurrentState="2" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Ever -> Attack" />	
+	<Data ID="1"  Priority="3" CurrentState="2" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Enemy only -> Move to" />
+	<Data ID="1"  Priority="4" CurrentState="2" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Ever -> Attack" />
+	<Data ID="1"  Priority="0" CurrentState="4" NextState="0" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Avoid -> -> Never -> General 1" />
+	<Data ID="1"  Priority="1" CurrentState="4" NextState="2" TransitionType="7" TransitionRate="70"  TransitionValueType="-1" TransitionValue="3000"  Delay="1000" Name="Avoid -> -> AGRO -> Attack" />
+	<Data ID="1"  Priority="2" CurrentState="4" NextState="1" TransitionType="2" TransitionRate="50"  TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Avoid -> Enemy only -> Move to" />
+	<Data ID="1"  Priority="3" CurrentState="4" NextState="2" TransitionType="1" TransitionRate="50"  TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Avoid -> in Red -> Attack" />	
+	<Data ID="1"  Priority="4" CurrentState="4" NextState="4" TransitionType="1" TransitionRate="80"  TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Avoid -> in Red -> Avoid" />	
+	<Data ID="1"  Priority="5" CurrentState="4" NextState="4" TransitionType="4" TransitionRate="100" TransitionValueType="-1" TransitionValue="2000"  Delay="1000" Name="Avoid -> HP Decreased -> Evasion" />
+	<Data ID="1"  Priority="6" CurrentState="4" NextState="4" TransitionType="4" TransitionRate="80"  TransitionValueType="-1" TransitionValue="10000" Delay="1000" Name="Avoid -> HP Decreased -> Avoid" />
+	<Data ID="1"  Priority="7" CurrentState="4" NextState="0" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Avoid -> Ever -> General 2" />
+	<Data ID="1"  Priority="8" CurrentState="4" NextState="0" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Avoid -> Enemy only -> General 3" />
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~ Dark Elf -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<Data ID="2"  Priority="0" CurrentState="0" NextState="1" TransitionType="0" TransitionRate="50"  TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Never -> Move to" />
+	<Data ID="2"  Priority="1" CurrentState="0" NextState="3" TransitionType="0" TransitionRate="10"  TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Never -> Heal" />	
+	<Data ID="2"  Priority="2" CurrentState="0" NextState="6" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Never -> Summon" />
+	<Data ID="2"  Priority="3" CurrentState="0" NextState="1" TransitionType="2" TransitionRate="80"  TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Enemy only -> Move to" />
+	<Data ID="2"  Priority="4" CurrentState="0" NextState="6" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Enemy only -> Summon" />
+	<Data ID="2"  Priority="5" CurrentState="0" NextState="3" TransitionType="1" TransitionRate="10"  TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Ever -> Heal" />	
+	<Data ID="2"  Priority="6" CurrentState="0" NextState="1" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Ever -> Move to" />
+	<Data ID="2"  Priority="0" CurrentState="1" NextState="3" TransitionType="1" TransitionRate="20"  TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Ever -> Heal" />
+	<Data ID="2"  Priority="1" CurrentState="1" NextState="2" TransitionType="1" TransitionRate="30"  TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Ever -> Attack" />	
+	<Data ID="2"  Priority="2" CurrentState="1" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> in Red -> Move to" />	
+	<Data ID="2"  Priority="3" CurrentState="1" NextState="6" TransitionType="0" TransitionRate="20"  TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Never -> Summon" />	
+	<Data ID="2"  Priority="4" CurrentState="1" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Never -> Move to" />	
+	<Data ID="2"  Priority="5" CurrentState="1" NextState="6" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Enemy only -> Summon" />
+	<Data ID="2"  Priority="6" CurrentState="1" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Enemy only -> Move to" />
+	<Data ID="2"  Priority="0" CurrentState="2" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Never -> Move to" />
+	<Data ID="2"  Priority="1" CurrentState="2" NextState="3" TransitionType="4" TransitionRate="100" TransitionValueType="-1" TransitionValue="10000" Delay="1000" Name="Attack -> HP Decreased -> Heal" />
+	<Data ID="2"  Priority="2" CurrentState="2" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Enemy only -> Move to" />
+	<Data ID="2"  Priority="3" CurrentState="2" NextState="2" TransitionType="1" TransitionRate="50"  TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Ever -> Attack" />	
+	<Data ID="2"  Priority="4" CurrentState="2" NextState="0" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Ever -> General" />	
+	<Data ID="2"  Priority="0" CurrentState="3" NextState="0" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Heal -> Never -> General 1" />
+	<Data ID="2"  Priority="1" CurrentState="3" NextState="0" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Heal -> Enemy only -> General 2" />
+	<Data ID="2"  Priority="2" CurrentState="3" NextState="0" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Heal -> Ever -> General 3" />	
+	<Data ID="2"  Priority="0" CurrentState="6" NextState="0" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Summon -> never ->  General 1" />
+	<Data ID="2"  Priority="1" CurrentState="6" NextState="0" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Summon -> Enemy only -> General 2" />
+	<Data ID="2"  Priority="2" CurrentState="6" NextState="0" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Summon -> Ever -> General 3" />
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~ Tanker -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<Data ID="3"  Priority="0" CurrentState="0" NextState="2" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Never -> Attack" />
+	<Data ID="3"  Priority="1" CurrentState="0" NextState="2" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Enemy only -> Attack" />
+	<Data ID="3"  Priority="2" CurrentState="0" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> in Red -> Attack" />
+	<Data ID="3"  Priority="0" CurrentState="2" NextState="0" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Never -> General 1" />
+	<Data ID="3"  Priority="1" CurrentState="2" NextState="0" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Enemy only -> General 2" />
+	<Data ID="3"  Priority="2" CurrentState="2" NextState="0" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> in Red -> General 3" />
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~ Maya Hand - General Attack -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<Data ID="4"  Priority="0" CurrentState="0" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Never -> Move to" />
+	<Data ID="4"  Priority="1" CurrentState="0" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Enemy only -> Move to" />
+	<Data ID="4"  Priority="2" CurrentState="0" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> in Red -> Attack" />
+	<Data ID="4"  Priority="0" CurrentState="1" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Never -> Move to" />	
+	<Data ID="4"  Priority="1" CurrentState="1" NextState="2" TransitionType="1" TransitionRate="50"  TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Ever -> Attack" />	
+	<Data ID="4"  Priority="2" CurrentState="1" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Enemy only -> Move to" />
+	<Data ID="4"  Priority="0" CurrentState="2" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Never ->  Move to" />
+	<Data ID="4"  Priority="1" CurrentState="2" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Enemy only -> Move to" />
+	<Data ID="4"  Priority="2" CurrentState="2" NextState="2" TransitionType="1" TransitionRate="30"  TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Ever -> Attack" />	
+	<Data ID="4"  Priority="3" CurrentState="2" NextState="0" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Ever -> General" />	
+	<Data ID="4"  Priority="0" CurrentState="6" NextState="0" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Invisible -> Never -> General 1" />
+	<Data ID="4"  Priority="1" CurrentState="6" NextState="0" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Invisible -> Ever -> General 2" />
+	<Data ID="4"  Priority="2" CurrentState="6" NextState="0" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Invisible -> Enemy only -> General 3" />
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~ Maya Hand - fast Attack -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<Data ID="5"  Priority="0" CurrentState="0" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Never -> Move to" />
+	<Data ID="5"  Priority="1" CurrentState="0" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Ever -> Attack" />	
+	<Data ID="5"  Priority="2" CurrentState="0" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Enemy only -> Move to" />
+	<Data ID="5"  Priority="0" CurrentState="1" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Never -> Move to" />	
+	<Data ID="5"  Priority="1" CurrentState="1" NextState="2" TransitionType="1" TransitionRate="80"  TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Ever -> Attack" />	
+	<Data ID="5"  Priority="2" CurrentState="1" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Enemy only -> Move to" />
+	<Data ID="5"  Priority="0" CurrentState="2" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Never -> Move to" />
+	<Data ID="5"  Priority="1" CurrentState="2" NextState="2" TransitionType="1" TransitionRate="80"  TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Ever -> Attack" />	
+	<Data ID="5"  Priority="2" CurrentState="2" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Enemy only -> Move to" />
+	<Data ID="5"  Priority="3" CurrentState="2" NextState="0" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Ever -> General" />	
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~ Maya Hand - Very Fast Attack -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<Data ID="6"  Priority="0" CurrentState="0" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Never -> Move to" />
+	<Data ID="6"  Priority="1" CurrentState="0" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> in Red -> Attack" />
+	<Data ID="6"  Priority="2" CurrentState="0" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Enemy only -> Move to" />
+	<Data ID="6"  Priority="0" CurrentState="1" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Never -> Move" />
+	<Data ID="6"  Priority="1" CurrentState="1" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> in Red -> Attack" />	
+	<Data ID="6"  Priority="2" CurrentState="1" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Enemy only -> Move" />
+	<Data ID="6"  Priority="0" CurrentState="2" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Never -> Move to" />
+	<Data ID="6"  Priority="1" CurrentState="2" NextState="2" TransitionType="7" TransitionRate="50"  TransitionValueType="-1" TransitionValue="3000"  Delay="1000" Name="Attack -> AGRO -> Attack" />	
+	<Data ID="6"  Priority="2" CurrentState="2" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Ever -> Attack" />	
+	<Data ID="6"  Priority="3" CurrentState="2" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Enemy only -> Move to" />
+	<Data ID="6"  Priority="4" CurrentState="2" NextState="4" TransitionType="4" TransitionRate="100" TransitionValueType="-1" TransitionValue="10000" Delay="1000" Name="Attack -> HP decreased -> Avoid" />
+	<Data ID="6"  Priority="0" CurrentState="4" NextState="0" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Avoid -> Never -> General 1" />
+	<Data ID="6"  Priority="1" CurrentState="4" NextState="2" TransitionType="7" TransitionRate="70"  TransitionValueType="-1" TransitionValue="1000"  Delay="1000" Name="Avoid -> AGRO Large -> Attack" />
+	<Data ID="6"  Priority="2" CurrentState="4" NextState="1" TransitionType="2" TransitionRate="50"  TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Avoid -> Enemy only -> Move to" />
+	<Data ID="6"  Priority="3" CurrentState="4" NextState="2" TransitionType="1" TransitionRate="50"  TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Avoid -> Ever -> Attack" />	
+	<Data ID="6"  Priority="4" CurrentState="4" NextState="4" TransitionType="1" TransitionRate="80"  TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Avoid -> in Red -> Avoid" />	
+	<Data ID="6"  Priority="5" CurrentState="4" NextState="4" TransitionType="4" TransitionRate="100" TransitionValueType="-1" TransitionValue="2000"  Delay="1000" Name="Avoid -> HP Decreased -> Avoid" />
+	<Data ID="6"  Priority="6" CurrentState="4" NextState="0" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Avoid -> Ever -> General 2" />
+	<Data ID="6"  Priority="7" CurrentState="4" NextState="0" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Avoid -> Enemy only -> General 3" />
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~ Maya Hand - Invisibility -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<Data ID="7"  Priority="0" CurrentState="0" NextState="6" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Never -> Invisible" />
+	<Data ID="7"  Priority="1" CurrentState="0" NextState="6" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Ever -> Invisible" />
+	<Data ID="7"  Priority="2" CurrentState="0" NextState="6" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Enemy only -> Invisible" />
+	<Data ID="7"  Priority="0" CurrentState="6" NextState="6" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Invisible -> Never -> Invisible" />
+	<Data ID="7"  Priority="1" CurrentState="6" NextState="6" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Invisible -> Ever -> Invisible" />
+	<Data ID="7"  Priority="2" CurrentState="6" NextState="6" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Invisible -> Enemy only -> Invisible" />
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~ Nightmare - State 1 - Unit Number 68 -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<Data ID="8"  Priority="0" CurrentState="0" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Never -> Move to" />
+	<Data ID="8"  Priority="1" CurrentState="0" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Enemy only -> Move to" />
+	<Data ID="8"  Priority="2" CurrentState="0" NextState="6" TransitionType="5" TransitionRate="100" TransitionValueType="-1" TransitionValue="80"    Delay="1000" Name="General -> Fit DD -> Summon" />
+	<Data ID="8"  Priority="3" CurrentState="0" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="500" Name="General -> Ever -> Attack" />	
+	<Data ID="8"  Priority="0" CurrentState="1" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move ->Never -> Move to" />	
+	<Data ID="8"  Priority="1" CurrentState="1" NextState="6" TransitionType="5" TransitionRate="100" TransitionValueType="-1" TransitionValue="80"    Delay="1000" Name="Move -> Fit DD -> Summon" />	
+	<Data ID="8"  Priority="2" CurrentState="1" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="500" Name="Move -> Ever -> Attack" />	
+	<Data ID="8"  Priority="3" CurrentState="1" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Enemy only -> Move to" />
+	<Data ID="8"  Priority="0" CurrentState="2" NextState="0" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Never -> General 1" />
+	<Data ID="8"  Priority="1" CurrentState="2" NextState="0" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Enemy only -> General 2" />
+	<Data ID="8"  Priority="2" CurrentState="2" NextState="6" TransitionType="5" TransitionRate="100" TransitionValueType="-1" TransitionValue="80"    Delay="1000" Name="Attack -> Fit DD -> Summon" />
+	<Data ID="8"  Priority="3" CurrentState="2" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="500" Name="Attack -> Ever -> Attack" />	
+	<Data ID="8"  Priority="0" CurrentState="6" NextState="5" TransitionType="6" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Summon -> Absolutely -> Invisible" />
+	<Data ID="8"  Priority="0" CurrentState="5" NextState="4" TransitionType="6" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Invisible -> Absolutely -> Warp" />
+	<Data ID="8"  Priority="0" CurrentState="4" NextState="7" TransitionType="6" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Warp -> Absolutely -> AI" />	
+	<Data ID="8"  Priority="0" CurrentState="7" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="AI -> Never -> Move to" />	
+	<Data ID="8"  Priority="1" CurrentState="7" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="AI -> Enemy only -> Move" />	
+	<Data ID="8"  Priority="2" CurrentState="7" NextState="1" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="AI -> Ever -> Move" />
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~ Nightmare - State 2 - Unit Number 69 -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<Data ID="9"  Priority="0" CurrentState="0" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Never -> Move to" />
+	<Data ID="9"  Priority="1" CurrentState="0" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Enemy only -> Move to" />
+	<Data ID="9"  Priority="2" CurrentState="0" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="500" Name="General -> Ever -> Attack" />	
+	<Data ID="9"  Priority="0" CurrentState="1" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Never -> Move to" />	
+	<Data ID="9"  Priority="1" CurrentState="1" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="500" Name="Move -> Ever -> Attack" />	
+	<Data ID="9"  Priority="2" CurrentState="1" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Enemy only -> Move to" />
+	<Data ID="9"  Priority="0" CurrentState="2" NextState="0" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Never -> General 1" />
+	<Data ID="9"  Priority="1" CurrentState="2" NextState="0" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Enemy only -> General 2" />
+	<Data ID="9"  Priority="2" CurrentState="2" NextState="6" TransitionType="5" TransitionRate="100" TransitionValueType="-1" TransitionValue="50"    Delay="1000" Name="Attack -> Fit DD -> Summon" />
+	<Data ID="9"  Priority="3" CurrentState="2" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="500" Name="Attack -> Ever -> Attack" />	
+	<Data ID="9"  Priority="0" CurrentState="6" NextState="5" TransitionType="6" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Summon -> Absolutely -> Invisible" />
+	<Data ID="9"  Priority="0" CurrentState="5" NextState="4" TransitionType="6" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Invisible -> Absolutely -> Warp" />
+	<Data ID="9"  Priority="0" CurrentState="4" NextState="7" TransitionType="6" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Warp -> Absolutely -> AI" />	
+	<Data ID="9"  Priority="0" CurrentState="7" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="AI -> Never -> Move to" />	
+	<Data ID="9"  Priority="1" CurrentState="7" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="AI -> Enemy only -> Move to" />
+	<Data ID="9"  Priority="2" CurrentState="7" NextState="1" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="AI -> Ever -> Move to" />
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~ Dummy AI -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<Data ID="10" Priority="0" CurrentState="0" NextState="0" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Never -> General" />
+	<Data ID="10" Priority="1" CurrentState="0" NextState="0" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Enemy only -> General" />
+	<Data ID="10" Priority="2" CurrentState="0" NextState="0" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Ever -> General" />
+	<Data ID="11" Priority="0" CurrentState="0" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Never -> Move to" />
+	<Data ID="11" Priority="1" CurrentState="0" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Enemy only -> Move to" />
+	<Data ID="11" Priority="2" CurrentState="0" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="500" Name="General -> Ever -> Attack" />
+	<Data ID="11" Priority="0" CurrentState="1" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Never -> Move to" />
+	<Data ID="11" Priority="1" CurrentState="1" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="500" Name="Move -> Ever -> Attack" />	
+	<Data ID="11" Priority="2" CurrentState="1" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Enemy only -> Move to" />
+	<Data ID="11" Priority="0" CurrentState="2" NextState="0" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Never -> General 1" />
+	<Data ID="11" Priority="1" CurrentState="2" NextState="0" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Enemy only -> General 2" />
+	<Data ID="11" Priority="2" CurrentState="2" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="500" Name="Attack -> Ever -> Attack" />
+	<Data ID="11" Priority="0" CurrentState="7" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="AI -> Never -> Move to" />	
+	<Data ID="11" Priority="1" CurrentState="7" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="AI -> Enemy only -> Move to" />
+	<Data ID="11" Priority="2" CurrentState="7" NextState="1" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="AI -> Ever -> Move to" />	
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~ Nightmare - State 3 - Unit Number 70 -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<Data ID="12" Priority="0" CurrentState="0" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Never -> Move to" />
+	<Data ID="12" Priority="1" CurrentState="0" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Enemy only -> Move to" />
+	<Data ID="12" Priority="2" CurrentState="0" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="500" Name="General -> Ever -> Attack" />
+	<Data ID="12" Priority="0" CurrentState="1" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Never -> Move to" />
+	<Data ID="12" Priority="1" CurrentState="1" NextState="2" TransitionType="1" TransitionRate="50"  TransitionValueType="-1" TransitionValue="-1"    Delay="500" Name="Move -> in Red -> Attack" />
+	<Data ID="12" Priority="2" CurrentState="1" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Ever -> Move to" />	
+	<Data ID="12" Priority="0" CurrentState="2" NextState="0" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Never -> General 1" />
+	<Data ID="12" Priority="1" CurrentState="2" NextState="0" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Enemy only -> General 2" />
+	<Data ID="12" Priority="2" CurrentState="2" NextState="6" TransitionType="5" TransitionRate="100" TransitionValueType="-1" TransitionValue="20"    Delay="1000" Name="Attack -> Fit DD -> Summon" />
+	<Data ID="12" Priority="3" CurrentState="2" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="500" Name="Attack -> Ever -> Attack" />
+	<Data ID="12" Priority="0" CurrentState="6" NextState="5" TransitionType="6" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Summon -> Absolutely -> Invisible" />
+	<Data ID="12" Priority="0" CurrentState="5" NextState="4" TransitionType="6" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Invisible -> Absolutely -> Warp" />
+	<Data ID="12" Priority="0" CurrentState="4" NextState="7" TransitionType="6" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Warp -> Absolutely -> AI" />
+	<Data ID="12" Priority="0" CurrentState="7" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="AI -> Never -> Move to" />	
+	<Data ID="12" Priority="1" CurrentState="7" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="AI -> Enemy only -> Move to" />
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~ Kanturu Event - General Monsters - State 1 - Unit Number 72 -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<Data ID="12" Priority="2" CurrentState="7" NextState="1" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="AI -> Ever -> Move to" />	
+	<Data ID="13" Priority="0" CurrentState="0" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Never -> Move to" />
+	<Data ID="13" Priority="1" CurrentState="0" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Enemy only -> Move to" />
+	<Data ID="13" Priority="2" CurrentState="0" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General in Red -> Attack" />
+	<Data ID="13" Priority="0" CurrentState="1" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Never -> Move to" />
+	<Data ID="13" Priority="1" CurrentState="1" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Ever -> Attack" />
+	<Data ID="13" Priority="2" CurrentState="1" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Enemy only -> Move to" />
+	<Data ID="13" Priority="0" CurrentState="2" NextState="0" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Never -> General" />
+	<Data ID="13" Priority="1" CurrentState="2" NextState="2" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Enemy only -> Attack" />
+	<Data ID="13" Priority="2" CurrentState="2" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Ever -> Attack" />
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~ Kanturu Event - General Monsters (Healing) - State 2 - Unit Number 73 -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<Data ID="14" Priority="0" CurrentState="0" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Never -> Move to" />
+	<Data ID="14" Priority="1" CurrentState="0" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Enemy only -> Move to" />
+	<Data ID="14" Priority="2" CurrentState="0" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> in Red -> Attack" />
+	<Data ID="14" Priority="3" CurrentState="0" NextState="3" TransitionType="5" TransitionRate="90"  TransitionValueType="-1" TransitionValue="40"    Delay="1000" Name="General -> HP Decreased -> Cure" />
+	<Data ID="14" Priority="4" CurrentState="0" NextState="3" TransitionType="6" TransitionRate="90"  TransitionValueType="-1" TransitionValue="40"    Delay="1000" Name="General-> Group Heal -> Cure" />
+	<Data ID="14" Priority="0" CurrentState="1" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Never -> Move to" />
+	<Data ID="14" Priority="1" CurrentState="1" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Ever -> Attack" />
+	<Data ID="14" Priority="2" CurrentState="1" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Enemy only -> Move to" />
+	<Data ID="14" Priority="3" CurrentState="1" NextState="3" TransitionType="5" TransitionRate="90"  TransitionValueType="-1" TransitionValue="40"    Delay="1000" Name="Move -> HP Decreased -> Heal" />
+	<Data ID="14" Priority="4" CurrentState="1" NextState="3" TransitionType="6" TransitionRate="90"  TransitionValueType="-1" TransitionValue="40"    Delay="1000" Name="Move -> Group Heal -> Heal" />
+	<Data ID="14" Priority="0" CurrentState="2" NextState="0" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Never -> General" />
+	<Data ID="14" Priority="1" CurrentState="2" NextState="2" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Enemy only -> Attack" />
+	<Data ID="14" Priority="2" CurrentState="2" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Ever -> Attack" />
+	<Data ID="14" Priority="3" CurrentState="2" NextState="3" TransitionType="5" TransitionRate="90"  TransitionValueType="-1" TransitionValue="40"    Delay="1000" Name="Attack -> HP Decreased -> Heal" />
+	<Data ID="14" Priority="4" CurrentState="2" NextState="3" TransitionType="6" TransitionRate="90"  TransitionValueType="-1" TransitionValue="40"    Delay="1000" Name="Attack -> Group Heal -> Heal" />
+	<Data ID="14" Priority="0" CurrentState="3" NextState="0" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Heal -> Never -> General" />
+	<Data ID="14" Priority="1" CurrentState="3" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Heal -> Enemy only -> Move to" />
+	<Data ID="14" Priority="2" CurrentState="3" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Heal -> in Red -> Attack" />
+	<Data ID="14" Priority="3" CurrentState="3" NextState="3" TransitionType="6" TransitionRate="90"  TransitionValueType="-1" TransitionValue="40"    Delay="1000" Name="Heal -> Groups Heal -> Cure" />
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~ Swamp of Darkness - Water Boss (100-75% HP) -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<Data ID="15"  Priority="0" CurrentState="0" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Never -> Move to" />
+	<Data ID="15"  Priority="1" CurrentState="0" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Enemy only -> Move to" />	
+	<Data ID="15"  Priority="2" CurrentState="0" NextState="7" TransitionRate="5" TransitionRate="100" TransitionValueType="-1" TransitionValue="75"	Delay="1000" Name="General -> Low HP -> AI" />
+	<Data ID="15"  Priority="3" CurrentState="0" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="500" Name="General -> Ever -> Attack" />	
+	<Data ID="15"  Priority="0" CurrentState="1" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Never -> Move to" />	
+	<Data ID="15"  Priority="1" CurrentState="1" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="500" Name="Move -> Ever -> Attack" />	
+	<Data ID="15"  Priority="2" CurrentState="1" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Enemy only -> Move to" />
+	<Data ID="15"  Priority="0" CurrentState="2" NextState="0" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Never -> General 1" />
+	<Data ID="15"  Priority="1" CurrentState="2" NextState="0" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Enemy only -> General 2" />
+	<Data ID="15"  Priority="2" CurrentState="2" NextState="7" TransitionType="5" TransitionRate="100" TransitionValueType="-1" TransitionValue="75"    Delay="1000" Name="Attack -> Fit DD -> Summon" />
+	<Data ID="15"  Priority="3" CurrentState="2" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="500" Name="Attack -> Ever -> Attack" />
+	<Data ID="15"  Priority="0" CurrentState="3" NextState="0" TransitionType="6" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"	Delay="1000" Name="Heal -> General" />
+	<Data ID="15"  Priority="0" CurrentState="7" NextState="3" TransitionType="12" TransitionRate="100" TransitionValueType="175" TransitionValue="27"  Delay="1700" Name="AI -> Heal" />
+	<Data ID="15"  Priority="1" CurrentState="7" NextState="7" TransitionType="6" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="2000" Name="AI -> AI (Move to Heal Spot)" />	
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~ Swamp of Darkness - Water Boss (75-50% HP) -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<Data ID="16"  Priority="0" CurrentState="0" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Never -> Move to" />
+	<Data ID="16"  Priority="1" CurrentState="0" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Enemy only -> Move to" />	
+	<Data ID="16"  Priority="2" CurrentState="0" NextState="7" TransitionRate="5" TransitionRate="100" TransitionValueType="-1" TransitionValue="50"	Delay="1000" Name="General -> Low HP -> AI" />
+	<Data ID="16"  Priority="3" CurrentState="0" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="500" Name="General -> Ever -> Attack" />	
+	<Data ID="16"  Priority="0" CurrentState="1" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Never -> Move to" />	
+	<Data ID="16"  Priority="1" CurrentState="1" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="500" Name="Move -> Ever -> Attack" />	
+	<Data ID="16"  Priority="2" CurrentState="1" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Enemy only -> Move to" />
+	<Data ID="16"  Priority="0" CurrentState="2" NextState="0" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Never -> General 1" />
+	<Data ID="16"  Priority="1" CurrentState="2" NextState="0" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Enemy only -> General 2" />
+	<Data ID="16"  Priority="2" CurrentState="2" NextState="7" TransitionType="5" TransitionRate="100" TransitionValueType="-1" TransitionValue="50"    Delay="1000" Name="Attack -> Fit DD -> Summon" />
+	<Data ID="16"  Priority="3" CurrentState="2" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="500" Name="Attack -> Ever -> Attack" />
+	<Data ID="16"  Priority="0" CurrentState="3" NextState="0" TransitionType="6" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"	Delay="1000" Name="Heal -> General" />
+	<Data ID="16"  Priority="0" CurrentState="7" NextState="3" TransitionType="12" TransitionRate="100" TransitionValueType="175" TransitionValue="27"  Delay="1700" Name="AI -> Heal" />
+	<Data ID="16"  Priority="1" CurrentState="7" NextState="7" TransitionType="6" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="2000" Name="AI -> AI (Move to Heal Spot)" />	
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~ Swamp of Darkness - Water Boss (50-25% HP) -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<Data ID="17"  Priority="0" CurrentState="0" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Never -> Move to" />
+	<Data ID="17"  Priority="1" CurrentState="0" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Enemy only -> Move to" />	
+	<Data ID="17"  Priority="2" CurrentState="0" NextState="7" TransitionRate="5" TransitionRate="100" TransitionValueType="-1" TransitionValue="25"	Delay="1000" Name="General -> Low HP -> AI" />
+	<Data ID="17"  Priority="3" CurrentState="0" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="500" Name="General -> Ever -> Attack" />	
+	<Data ID="17"  Priority="0" CurrentState="1" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Never -> Move to" />	
+	<Data ID="17"  Priority="1" CurrentState="1" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="500" Name="Move -> Ever -> Attack" />	
+	<Data ID="17"  Priority="2" CurrentState="1" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Enemy only -> Move to" />
+	<Data ID="17"  Priority="0" CurrentState="2" NextState="0" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Never -> General 1" />
+	<Data ID="17"  Priority="1" CurrentState="2" NextState="0" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Enemy only -> General 2" />
+	<Data ID="17"  Priority="2" CurrentState="2" NextState="7" TransitionType="5" TransitionRate="100" TransitionValueType="-1" TransitionValue="25"    Delay="1000" Name="Attack -> Fit DD -> Summon" />
+	<Data ID="17"  Priority="3" CurrentState="2" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="500" Name="Attack -> Ever -> Attack" />
+	<Data ID="17"  Priority="0" CurrentState="3" NextState="0" TransitionType="6" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"	Delay="1000" Name="Heal -> General" />
+	<Data ID="17"  Priority="0" CurrentState="7" NextState="3" TransitionType="12" TransitionRate="100" TransitionValueType="175" TransitionValue="27"  Delay="1700" Name="AI -> Heal" />
+	<Data ID="17"  Priority="1" CurrentState="7" NextState="7" TransitionType="6" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="2000" Name="AI -> AI (Move to Heal Spot)" />	
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~ Swamp of Darkness - Water Boss (25-10% HP) -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<Data ID="18"  Priority="0" CurrentState="0" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Never -> Move to" />
+	<Data ID="18"  Priority="1" CurrentState="0" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Enemy only -> Move to" />	
+	<Data ID="18"  Priority="2" CurrentState="0" NextState="7" TransitionRate="5" TransitionRate="100" TransitionValueType="-1" TransitionValue="10"	Delay="1000" Name="General -> Low HP -> AI" />
+	<Data ID="18"  Priority="3" CurrentState="0" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="500" Name="General -> Ever -> Attack" />	
+	<Data ID="18"  Priority="0" CurrentState="1" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Never -> Move to" />	
+	<Data ID="18"  Priority="1" CurrentState="1" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="500" Name="Move -> Ever -> Attack" />	
+	<Data ID="18"  Priority="2" CurrentState="1" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Enemy only -> Move to" />
+	<Data ID="18"  Priority="0" CurrentState="2" NextState="0" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Never -> General 1" />
+	<Data ID="18"  Priority="1" CurrentState="2" NextState="0" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Attack -> Enemy only -> General 2" />
+	<Data ID="18"  Priority="2" CurrentState="2" NextState="7" TransitionType="5" TransitionRate="100" TransitionValueType="-1" TransitionValue="10"    Delay="1000" Name="Attack -> Fit DD -> Summon" />
+	<Data ID="18"  Priority="3" CurrentState="2" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="500" Name="Attack -> Ever -> Attack" />
+	<Data ID="18"  Priority="0" CurrentState="3" NextState="0" TransitionType="6" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"	Delay="1000" Name="Heal -> General" />
+	<Data ID="18"  Priority="0" CurrentState="7" NextState="3" TransitionType="12" TransitionRate="100" TransitionValueType="175" TransitionValue="27"  Delay="1700" Name="AI -> Heal" />
+	<Data ID="18"  Priority="1" CurrentState="7" NextState="7" TransitionType="6" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="2000" Name="AI -> AI (Move to Heal Spot)" />	
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~ Swamp of Darkness - God of Darkness -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<Data ID="19" Priority="2" CurrentState="7" NextState="1" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="AI -> Ever -> Move to" />	
+	<Data ID="19" Priority="0" CurrentState="0" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Never -> Move to" />
+	<Data ID="19" Priority="1" CurrentState="0" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General -> Enemy only -> Move to" />
+	<Data ID="19" Priority="2" CurrentState="0" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="General in Red -> Attack" />
+	<Data ID="19" Priority="0" CurrentState="1" NextState="1" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Never -> Move to" />
+	<Data ID="19" Priority="1" CurrentState="1" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="1000" Name="Move -> Ever -> Attack" />
+	<Data ID="19" Priority="2" CurrentState="1" NextState="1" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="3000" Name="Move -> Enemy only -> Move to" />
+	<Data ID="19" Priority="0" CurrentState="2" NextState="0" TransitionType="0" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="3000" Name="Attack -> Never -> General" />
+	<Data ID="19" Priority="1" CurrentState="2" NextState="2" TransitionType="2" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="3000" Name="Attack -> Enemy only -> Attack" />
+	<Data ID="19" Priority="2" CurrentState="2" NextState="2" TransitionType="1" TransitionRate="100" TransitionValueType="-1" TransitionValue="-1"    Delay="3000" Name="Attack -> Ever -> Attack" />
+</MonsterAiAutomata>

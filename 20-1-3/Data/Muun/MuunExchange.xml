@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==               File Name: MuunExchange                  ==
+// ============================================================
+-->
+
+<MuunExchange>
+	<Exchange ID="0" Count="2" MuunID="8526" />
+	<Exchange ID="1" Count="2" MuunID="8528" />
+	<Exchange ID="2" Count="3" MuunID="8316" />
+	<Exchange ID="3" Count="2" MuunID="8518" />
+	<Exchange ID="4" Count="2" MuunID="8520" />
+	<Exchange ID="5" Count="2" MuunID="8522" />
+</MuunExchange>

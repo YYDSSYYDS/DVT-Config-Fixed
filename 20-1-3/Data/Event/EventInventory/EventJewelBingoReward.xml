@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==          File Name: EventJewelBingoReward              ==
+// ============================================================
+-->
+
+<EventJewelBingoReward>
+	<Data Type="0" ScoreMin="0" ScoreMax="699" ItemID="7576" Level="0" />
+	<Data Type="1" ScoreMin="700" ScoreMax="899" ItemID="7577" Level="0" />
+	<Data Type="2" ScoreMin="900" ScoreMax="999" ItemID="7578" Level="0" />
+	<Data Type="3" ScoreMin="1000" ScoreMax="999999" ItemID="7579" Level="0" />
+</EventJewelBingoReward>

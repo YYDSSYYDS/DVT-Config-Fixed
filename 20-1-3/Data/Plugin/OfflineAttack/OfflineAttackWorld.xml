@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==            File Name: OfflineAttackWorld               ==
+// ============================================================
+-->
+
+<OfflineWorld>
+	<World WorldID="0" LevelMin="1" LevelMax="1700" />
+	<World WorldID="1" LevelMin="1" LevelMax="1700" />
+	<World WorldID="2" LevelMin="1" LevelMax="1700" />
+	<World WorldID="3" LevelMin="1" LevelMax="1700" />
+	<World WorldID="4" LevelMin="1" LevelMax="1700" />
+	<World WorldID="6" LevelMin="1" LevelMax="1700" />
+	<World WorldID="7" LevelMin="1" LevelMax="1700" />
+	<World WorldID="8" LevelMin="1" LevelMax="1700" />
+	<World WorldID="10" LevelMin="1" LevelMax="1700" />
+	<World WorldID="24" LevelMin="1" LevelMax="1700" />
+	<World WorldID="25" LevelMin="1" LevelMax="1700" />
+	<World WorldID="26" LevelMin="1" LevelMax="1700" />
+	<World WorldID="27" LevelMin="1" LevelMax="1700" />
+	<World WorldID="28" LevelMin="1" LevelMax="1700" />
+	<World WorldID="29" LevelMin="1" LevelMax="1700" />
+	<World WorldID="30" LevelMin="1" LevelMax="1700" />
+	<World WorldID="31" LevelMin="1" LevelMax="1700" />
+	<World WorldID="33" LevelMin="1" LevelMax="1700" />
+	<World WorldID="34" LevelMin="1" LevelMax="1700" />
+	<World WorldID="35" LevelMin="1" LevelMax="1700" />
+	<World WorldID="36" LevelMin="1" LevelMax="1700" />
+	<World WorldID="37" LevelMin="1" LevelMax="1700" />
+	<World WorldID="38" LevelMin="1" LevelMax="1700" />
+	<World WorldID="41" LevelMin="1" LevelMax="1700" />
+	<World WorldID="42" LevelMin="1" LevelMax="1700" />
+	<World WorldID="51" LevelMin="1" LevelMax="1700" />
+	<World WorldID="56" LevelMin="1" LevelMax="1700" />
+	<World WorldID="57" LevelMin="1" LevelMax="1700" />
+	<World WorldID="63" LevelMin="1" LevelMax="1700" />
+	<World WorldID="80" LevelMin="1" LevelMax="1700" />
+	<World WorldID="81" LevelMin="1" LevelMax="1700" />
+	<World WorldID="91" LevelMin="1" LevelMax="1700" />
+	<World WorldID="95" LevelMin="1" LevelMax="1700" />
+	<World WorldID="100" LevelMin="1" LevelMax="1700" />
+	<World WorldID="110" LevelMin="1" LevelMax="1700" />
+	<World WorldID="112" LevelMin="1" LevelMax="1700" />
+	<World WorldID="113" LevelMin="1" LevelMax="1700" />
+	<World WorldID="116" LevelMin="1" LevelMax="1700" />
+	<World WorldID="117" LevelMin="1" LevelMax="1700" />
+	<World WorldID="118" LevelMin="1" LevelMax="1700" />
+	<World WorldID="119" LevelMin="1" LevelMax="1700" />
+	<World WorldID="120" LevelMin="1" LevelMax="1700" />
+	<World WorldID="122" LevelMin="1" LevelMax="1700" />
+	<World WorldID="123" LevelMin="1" LevelMax="1700" />
+	<World WorldID="124" LevelMin="1" LevelMax="1700" />
+	<World WorldID="125" LevelMin="1" LevelMax="1700" />
+	<World WorldID="126" LevelMin="1" LevelMax="1700" />
+	<World WorldID="127" LevelMin="1" LevelMax="1700" />
+	<World WorldID="128" LevelMin="1" LevelMax="1700" />
+	<World WorldID="129" LevelMin="1" LevelMax="1700" />
+	<World WorldID="130" LevelMin="1" LevelMax="1700" />
+	<World WorldID="131" LevelMin="1" LevelMax="1700" />
+	<World WorldID="132" LevelMin="1" LevelMax="1700" />
+	<World WorldID="133" LevelMin="1" LevelMax="1700" />
+	<World WorldID="134" LevelMin="1" LevelMax="1700" />
+	<World WorldID="135" LevelMin="1" LevelMax="1700" />
+	<World WorldID="136" LevelMin="1" LevelMax="1700" />
+	<World WorldID="137" LevelMin="1" LevelMax="1700" />
+	<World WorldID="138" LevelMin="1" LevelMax="1700" />
+	<World WorldID="139" LevelMin="1" LevelMax="1700" />
+	<World WorldID="140" LevelMin="1" LevelMax="1700" />
+	<World WorldID="141" LevelMin="1" LevelMax="1700" />
+	<World WorldID="142" LevelMin="1" LevelMax="1700" />
+	<World WorldID="143" LevelMin="1" LevelMax="1700" />
+</OfflineWorld>

@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==                  File Name: MuunList                   ==
+// ============================================================
+-->
+
+<MuunList>
+	<Muun Item="8192" Grade="0" Rank="4" Option="42" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8193" Duration="30" MuunName="Pinocchio"/>
+	<Muun Item="8193" Grade="0" Rank="4" Option="43" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Pinocchio (Evolved)"/>
+	<Muun Item="8194" Grade="0" Rank="2" Option="38" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8195" Duration="30" MuunName="Geppetoo"/>
+	<Muun Item="8195" Grade="0" Rank="2" Option="38" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Geppetoo (Evolved)"/>
+	<Muun Item="8196" Grade="0" Rank="2" Option="25" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8197" Duration="30" MuunName="Blue Fairy"/>
+	<Muun Item="8197" Grade="0" Rank="2" Option="25" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Blue Fairy (Evolved)"/>
+	<Muun Item="8198" Grade="0" Rank="4" Option="40" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8199" Duration="30" MuunName="Daddy Bear"/>
+	<Muun Item="8199" Grade="0" Rank="4" Option="41" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Daddy Bear (Evolved)"/>
+	<Muun Item="8200" Grade="0" Rank="2" Option="57" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8201" Duration="30" MuunName="Baby Bear"/>
+	<Muun Item="8201" Grade="0" Rank="2" Option="57" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Baby Bear (Evolved)"/>
+	<Muun Item="8202" Grade="0" Rank="2" Option="28" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8203" Duration="30" MuunName="Mommy Bear"/>
+	<Muun Item="8203" Grade="0" Rank="2" Option="28" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Mommy Bear (Evolved)"/>
+	<Muun Item="8204" Grade="0" Rank="4" Option="42" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8205" Duration="30" MuunName="Indio"/>
+	<Muun Item="8205" Grade="0" Rank="4" Option="43" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Indio (Evolved)"/>
+	<Muun Item="8206" Grade="0" Rank="2" Option="38" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8207" Duration="30" MuunName="Treasure"/>
+	<Muun Item="8207" Grade="0" Rank="2" Option="38" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Treasure (Evolved)"/>
+	<Muun Item="8208" Grade="0" Rank="2" Option="28" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8209" Duration="30" MuunName="Treasure Hunter"/>
+	<Muun Item="8209" Grade="0" Rank="2" Option="28" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Treasure Hunter (Evolved)"/>
+	<Muun Item="8210" Grade="0" Rank="4" Option="40" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8211" Duration="30" MuunName="Tree Elf"/>
+	<Muun Item="8211" Grade="0" Rank="4" Option="41" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Tree Elf (Evolved)"/>
+	<Muun Item="8212" Grade="0" Rank="2" Option="23" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8213" Duration="30" MuunName="Grass Fairy"/>
+	<Muun Item="8213" Grade="0" Rank="2" Option="23" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Grass Fairy (Evolved)"/>
+	<Muun Item="8214" Grade="0" Rank="2" Option="54" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8215" Duration="30" MuunName="Leaf Mage"/>
+	<Muun Item="8215" Grade="0" Rank="2" Option="54" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Leaf Mage (Evolved)"/>
+	<Muun Item="8216" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8217" Duration="30" MuunName="Samba Girl"/>
+	<Muun Item="8217" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Samba Girl (Evolved)"/>
+	<Muun Item="8218" Grade="0" Rank="2" Option="48" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8219" Duration="30" MuunName="Rio"/>
+	<Muun Item="8219" Grade="0" Rank="2" Option="48" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Rio (Evolved)"/>
+	<Muun Item="8220" Grade="0" Rank="2" Option="54" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8221" Duration="30" MuunName="Bateria"/>
+	<Muun Item="8221" Grade="0" Rank="2" Option="54" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Bateria (Evolved)"/>
+	<Muun Item="8222" Grade="0" Rank="3" Option="61" SpecialOptionType="1" SpecialOptionValue="10" EvolutionItem="-1" Duration="30" MuunName="Reporter"/>
+	<Muun Item="8223" Grade="0" Rank="4" Option="41" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Dragon Knight"/>
+	<Muun Item="8224" Grade="0" Rank="4" Option="40" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8225" Duration="30" MuunName="Tiger"/>
+	<Muun Item="8225" Grade="0" Rank="4" Option="41" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Tiger(Evolved)"/>
+	<Muun Item="8226" Grade="0" Rank="4" Option="42" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8227" Duration="30" MuunName="Libra"/>
+	<Muun Item="8227" Grade="0" Rank="4" Option="43" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Libra (Evolved)"/>
+	<Muun Item="8228" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8229" Duration="30" MuunName="Scorpio"/>
+	<Muun Item="8229" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Scorpio (Evolved)"/>
+	<Muun Item="8230" Grade="0" Rank="4" Option="42" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8231" Duration="30" MuunName="Astro Rabbit"/>
+	<Muun Item="8231" Grade="0" Rank="4" Option="43" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Astro Rabbit (Evolved)"/>
+	<Muun Item="8232" Grade="0" Rank="3" Option="68" SpecialOptionType="1" SpecialOptionValue="10" EvolutionItem="-1" Duration="30" MuunName="Dotto"/>
+	<Muun Item="8233" Grade="0" Rank="4" Option="40" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8234" Duration="30" MuunName="Chef Chicken"/>
+	<Muun Item="8234" Grade="0" Rank="4" Option="41" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Chef Chicken (Evolved)"/>
+	<Muun Item="8235" Grade="0" Rank="2" Option="38" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8236" Duration="30" MuunName="Chicky"/>
+	<Muun Item="8236" Grade="0" Rank="2" Option="38" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Chicky (Evolved)"/>
+	<Muun Item="8237" Grade="0" Rank="2" Option="25" SpecialOptionType="3" SpecialOptionValue="3" EvolutionItem="8238" Duration="30" MuunName="Angry Rooster"/>
+	<Muun Item="8238" Grade="0" Rank="2" Option="25" SpecialOptionType="3" SpecialOptionValue="3" EvolutionItem="-1" Duration="30" MuunName="Angry Rooster (Evolved)"/>
+	<Muun Item="8239" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8240" Duration="30" MuunName="Lion Mask"/>
+	<Muun Item="8240" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Lion Mask (Evolved)"/>
+	<Muun Item="8241" Grade="0" Rank="4" Option="40" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8242" Duration="30" MuunName="Knight Instructor"/>
+	<Muun Item="8242" Grade="0" Rank="4" Option="41" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Knight Instructor (Evolved)"/>
+	<Muun Item="8243" Grade="0" Rank="4" Option="42" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8244" Duration="30" MuunName="Black Leopard"/>
+	<Muun Item="8244" Grade="0" Rank="4" Option="43" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Black Leopard (Evolved)"/>
+	<Muun Item="8245" Grade="0" Rank="4" Option="40" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8246" Duration="30" MuunName="Toy Robot"/>
+	<Muun Item="8246" Grade="0" Rank="4" Option="41" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Toy Robot (Evolved)"/>
+	<Muun Item="8247" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8248" Duration="30" MuunName="Adventurous Cat"/>
+	<Muun Item="8248" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Adventurous Cat (Evolved)"/>
+	<Muun Item="8249" Grade="0" Rank="4" Option="40" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8250" Duration="30" MuunName="Dike"/>
+	<Muun Item="8250" Grade="0" Rank="4" Option="41" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Dike (Evolved)"/>
+	<Muun Item="8251" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8252" Duration="30" MuunName="Raincoat Girl"/>
+	<Muun Item="8252" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Raincoat Girl (Evolved)"/>
+	<Muun Item="8253" Grade="0" Rank="4" Option="42" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8254" Duration="30" MuunName="Scarecrow"/>
+	<Muun Item="8254" Grade="0" Rank="4" Option="43" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Scarecrow (Evolved)"/>
+	<Muun Item="8255" Grade="0" Rank="4" Option="40" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8256" Duration="30" MuunName="Zombie Knight"/>
+	<Muun Item="8256" Grade="0" Rank="4" Option="41" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Zombie Knight (Evolved)"/>
+	<Muun Item="8257" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8258" Duration="30" MuunName="Mr. Fisherman"/>
+	<Muun Item="8258" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Mr. Fisherman (Evolved)"/>
+	<Muun Item="8259" Grade="0" Rank="4" Option="42" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8260" Duration="30" MuunName="Snowflake Fairy"/>
+	<Muun Item="8260" Grade="0" Rank="4" Option="43" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Snowflake Fairy (Evolved)"/>
+	<Muun Item="8261" Grade="0" Rank="4" Option="69" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Prince"/>
+	<Muun Item="8262" Grade="0" Rank="4" Option="72" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="King Reksmilon"/>
+	<Muun Item="8263" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8264" Duration="30" MuunName="Haughty Poodle"/>
+	<Muun Item="8264" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Haughty Poodle (Evolved)"/>
+	<Muun Item="8265" Grade="0" Rank="2" Option="23" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8266" Duration="30" MuunName="Excited Beagle"/>
+	<Muun Item="8266" Grade="0" Rank="2" Option="23" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Excited Beagle (Evolved)"/>
+	<Muun Item="8267" Grade="0" Rank="2" Option="39" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8268" Duration="30" MuunName="Angry Bulldog"/>
+	<Muun Item="8268" Grade="0" Rank="2" Option="39" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Angry Bulldog (Evolved)"/>
+	<Muun Item="8269" Grade="0" Rank="4" Option="40" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8270" Duration="30" MuunName="Skiing Tiger"/>
+	<Muun Item="8270" Grade="0" Rank="4" Option="41" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Skiing Tiger (Evolved)"/>
+	<Muun Item="8271" Grade="0" Rank="2" Option="70" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8272" Duration="30" MuunName="Figure Skating Queen"/>
+	<Muun Item="8272" Grade="0" Rank="2" Option="70" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Figure Skating Queen (Evolved)"/>
+	<Muun Item="8273" Grade="0" Rank="2" Option="25" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8274" Duration="30" MuunName="Hockey Bear"/>
+	<Muun Item="8274" Grade="0" Rank="2" Option="25" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Hockey Bear (Evolved)"/>
+	<Muun Item="8275" Grade="0" Rank="4" Option="42" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8276" Duration="30" MuunName="Pilot"/>
+	<Muun Item="8276" Grade="0" Rank="4" Option="43" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Pilot (Evolved)"/>
+	<Muun Item="8277" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8278" Duration="30" MuunName="Super Panda"/>
+	<Muun Item="8278" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Super Panda (Evolved)"/>
+	<Muun Item="8279" Grade="0" Rank="4" Option="42" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8280" Duration="30" MuunName="Belly Dancer"/>
+	<Muun Item="8280" Grade="0" Rank="4" Option="43" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Belly Dancer (Evolved)"/>
+	<Muun Item="8281" Grade="0" Rank="4" Option="40" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8282" Duration="30" MuunName="Captain"/>
+	<Muun Item="8282" Grade="0" Rank="4" Option="41" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Captain (Evolved)"/>
+	<Muun Item="8283" Grade="0" Rank="2" Option="71" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8284" Duration="30" MuunName="Goalkeeper"/>
+	<Muun Item="8284" Grade="0" Rank="2" Option="71" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Goalkeeper (Evolved)"/>
+	<Muun Item="8285" Grade="0" Rank="2" Option="25" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8286" Duration="30" MuunName="Referee"/>
+	<Muun Item="8286" Grade="0" Rank="2" Option="25" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Referee (Evolved)"/>
+	<Muun Item="8287" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8288" Duration="30" MuunName="Hooded T-rex"/>
+	<Muun Item="8288" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Hooded T-rex (Evolved)"/>
+	<Muun Item="8289" Grade="0" Rank="4" Option="42" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8290" Duration="30" MuunName="Seaside Beauty"/>
+	<Muun Item="8290" Grade="0" Rank="4" Option="43" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Seaside Beauty (Evolved)"/>
+	<Muun Item="8291" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8292" Duration="30" MuunName="Marble Magician"/>
+	<Muun Item="8292" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Marble Magician (Evolved)"/>
+	<Muun Item="8293" Grade="0" Rank="4" Option="40" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8294" Duration="30" MuunName="King of Hangeul"/>
+	<Muun Item="8294" Grade="0" Rank="4" Option="41" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="King of Hangeul (Evolved)"/>
+	<Muun Item="8295" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8296" Duration="30" MuunName="Apple Magician"/>
+	<Muun Item="8296" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Apple Magician (Evolved)"/>
+	<Muun Item="8297" Grade="0" Rank="4" Option="42" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8298" Duration="30" MuunName="Fish-shaped Bun"/>
+	<Muun Item="8298" Grade="0" Rank="4" Option="43" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Fish-shaped Bun (Evolved)"/>
+	<Muun Item="8299" Grade="0" Rank="4" Option="69" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Great Elf Kara"/>
+	<Muun Item="8300" Grade="0" Rank="4" Option="72" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Great Mage Etramu"/>
+	<Muun Item="8301" Grade="0" Rank="4" Option="43" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Bell"/>
+	<Muun Item="8302" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8303" Duration="30" MuunName="Lafa"/>
+	<Muun Item="8303" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Lafa (Evolved)"/>
+	<Muun Item="8304" Grade="0" Rank="4" Option="40" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8305" Duration="30" MuunName="Nix"/>
+	<Muun Item="8305" Grade="0" Rank="4" Option="41" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Nix (Evolved)"/>
+	<Muun Item="8306" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8307" Duration="30" MuunName="Selupan"/>
+	<Muun Item="8307" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Selupan (Evolved)"/>
+	<Muun Item="8308" Grade="0" Rank="4" Option="42" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8309" Duration="30" MuunName="Medusa"/>
+	<Muun Item="8309" Grade="0" Rank="4" Option="43" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Medusa (Evolved)"/>
+	<Muun Item="8310" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8311" Duration="30" MuunName="Balrog"/>
+	<Muun Item="8311" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Balrog (Evolved)"/>
+	<Muun Item="8312" Grade="0" Rank="4" Option="40" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8313" Duration="30" MuunName="Hell Maine"/>
+	<Muun Item="8313" Grade="0" Rank="4" Option="41" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Hell Maine (Evolved)"/>
+	<Muun Item="8314" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8315" Duration="30" MuunName="Kundun"/>
+	<Muun Item="8315" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Kundun (Evolved)"/>
+	<Muun Item="8316" Grade="0" Rank="4" Option="42" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8317" Duration="30" MuunName="Hydra"/>
+	<Muun Item="8317" Grade="0" Rank="4" Option="43" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Hydra (Evolved)"/>
+	<Muun Item="8318" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8319" Duration="30" MuunName="Lord Silvester"/>
+	<Muun Item="8319" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Lord Silvester(Evolved)"/>
+	<Muun Item="8320" Grade="0" Rank="4" Option="40" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8321" Duration="30" MuunName="Nightmare"/>
+	<Muun Item="8321" Grade="0" Rank="4" Option="41" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Nightmare (Evolved)"/>
+	<Muun Item="8322" Grade="0" Rank="4" Option="42" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8323" Duration="30" MuunName="Phoenix Of Darknes"/>
+	<Muun Item="8323" Grade="0" Rank="4" Option="43" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Phoenix Of Darknes (Evolved)"/>
+	<Muun Item="8324" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8325" Duration="30" MuunName="Kairuku"/>
+	<Muun Item="8325" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Kairuku (Evolved)"/>
+	<Muun Item="8326" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Legendary Dark Wizard"/>
+	<Muun Item="8327" Grade="0" Rank="4" Option="41" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Guardian Elf"/>
+	<Muun Item="8328" Grade="0" Rank="3" Option="73" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8329" Duration="30" MuunName="Deathmodus"/>
+	<Muun Item="8329" Grade="0" Rank="3" Option="73" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Deathmodus(Evolved)"/>
+	<Muun Item="8330" Grade="0" Rank="4" Option="69" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Fairy Queen Runedil"/>
+	<Muun Item="8331" Grade="0" Rank="4" Option="72" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Karein"/>
+	<Muun Item="8332" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8333" Duration="30" MuunName="Mouse in Boots"/>
+	<Muun Item="8333" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Mouse in Boots(Evolved)"/>
+	<Muun Item="8334" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8335" Duration="30" MuunName="Dolled Up Rhea"/>
+	<Muun Item="8335" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Dolled Up Rhea(Evolved)"/>
+	<Muun Item="8336" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8337" Duration="30" MuunName="Shadow Phantom"/>
+	<Muun Item="8337" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Shadow Phantom(Evolved)"/>
+	<Muun Item="8338" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8339" Duration="30" MuunName="Storage Guardian"/>
+	<Muun Item="8339" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Storage Guardian(Evolved)"/>
+	<Muun Item="8340" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8341" Duration="30" MuunName="Elf Lala"/>
+	<Muun Item="8341" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Elf Lala(Evolved)"/>
+	<Muun Item="8342" Grade="0" Rank="4" Option="69" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Purification Elpis"/>
+	<Muun Item="8343" Grade="0" Rank="4" Option="72" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Magic Gladiator Muren Rexmilon"/>
+	<Muun Item="8344" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8345" Duration="30" MuunName="King Huma"/>
+	<Muun Item="8345" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="King Huma (Evolved)"/>
+	<Muun Item="8346" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8347" Duration="30" MuunName="Dandelion Fairy"/>
+	<Muun Item="8347" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Dandelion Fairy (Evolved)"/>
+	<Muun Item="8348" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8349" Duration="30" MuunName="Sea Lifeguard"/>
+	<Muun Item="8349" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Sea Lifeguard (Evolved)"/>
+	<Muun Item="8350" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8351" Duration="30" MuunName="Chestnut Fairy"/>
+	<Muun Item="8351" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Chestnut Fairy (Evolved)"/>
+	<Muun Item="8352" Grade="0" Rank="4" Option="40" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8353" Duration="30" MuunName="Snowboarder"/>
+	<Muun Item="8353" Grade="0" Rank="4" Option="41" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Snowboarder (Evolved)"/>
+	<Muun Item="8354" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Emphasizer"/>
+	<Muun Item="8355" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Gargoyle"/>
+	<Muun Item="8356" Grade="0" Rank="4" Option="69" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Lemuria &amp; Kundun"/>
+	<Muun Item="8357" Grade="0" Rank="4" Option="69" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Panda Tao"/>
+	<Muun Item="8358" Grade="0" Rank="4" Option="72" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Elemental Elf"/>
+	<Muun Item="8359" Grade="0" Rank="4" Option="69" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Illusion Knight Jacquard"/>
+	<Muun Item="8360" Grade="0" Rank="4" Option="72" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Rage Fighter"/>
+	<Muun Item="8361" Grade="0" Rank="4" Option="69" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Grow Lancer"/>
+	<Muun Item="8362" Grade="0" Rank="4" Option="72" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Dark Lord"/>
+	<!-- S20.1 -->
+	<Muun Item="8363" Grade="0" Rank="4" Option="69" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Alchemist"/>
+	<!-- END -->
+	<Muun Item="8404" Grade="0" Rank="3" Option="0" SpecialOptionType="1" SpecialOptionValue="10" EvolutionItem="8405" Duration="30" MuunName="Luki"/>
+	<Muun Item="8405" Grade="0" Rank="3" Option="0" SpecialOptionType="1" SpecialOptionValue="10" EvolutionItem="-1" Duration="30" MuunName="Luki (Evolved)"/>
+	<Muun Item="8406" Grade="0" Rank="3" Option="9" SpecialOptionType="1" SpecialOptionValue="15" EvolutionItem="8407" Duration="30" MuunName="Tony"/>
+	<Muun Item="8407" Grade="0" Rank="3" Option="9" SpecialOptionType="1" SpecialOptionValue="15" EvolutionItem="-1" Duration="30" MuunName="Tony (Evolved)"/>
+	<Muun Item="8408" Grade="0" Rank="2" Option="71" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8409" Duration="30" MuunName="Nymph"/>
+	<Muun Item="8409" Grade="0" Rank="2" Option="71" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Nymph (Evolved)"/>
+	<Muun Item="8410" Grade="0" Rank="1" Option="2" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8411" Duration="30" MuunName="Safi"/>
+	<Muun Item="8411" Grade="0" Rank="1" Option="2" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Safi (Evolved)"/>
+	<Muun Item="8415" Grade="0" Rank="4" Option="3" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8416" Duration="30" MuunName="William"/>
+	<Muun Item="8416" Grade="0" Rank="4" Option="3" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="William (Evolved)"/>
+	<Muun Item="8417" Grade="0" Rank="2" Option="4" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8418" Duration="30" MuunName="Paul"/>
+	<Muun Item="8418" Grade="0" Rank="2" Option="4" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Paul (Evolved)"/>
+	<Muun Item="8419" Grade="0" Rank="2" Option="5" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8420" Duration="30" MuunName="Chiron"/>
+	<Muun Item="8420" Grade="0" Rank="2" Option="5" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Chiron (Evolved)"/>
+	<Muun Item="8421" Grade="0" Rank="4" Option="14" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8422" Duration="30" MuunName="Wooparoo"/>
+	<Muun Item="8422" Grade="0" Rank="4" Option="14" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Wooparoo (Evolved)"/>
+	<Muun Item="8423" Grade="0" Rank="3" Option="11" SpecialOptionType="1" SpecialOptionValue="15" EvolutionItem="8424" Duration="30" MuunName="Tibetton"/>
+	<Muun Item="8424" Grade="0" Rank="3" Option="11" SpecialOptionType="1" SpecialOptionValue="15" EvolutionItem="-1" Duration="30" MuunName="Tibetton (Evolved)"/>
+	<Muun Item="8425" Grade="0" Rank="4" Option="6" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8426" Duration="30" MuunName="Witch"/>
+	<Muun Item="8426" Grade="0" Rank="4" Option="6" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Witch (Evolved)"/>
+	<Muun Item="8427" Grade="0" Rank="2" Option="7" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8428" Duration="30" MuunName="Skull"/>
+	<Muun Item="8428" Grade="0" Rank="2" Option="7" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Skull (Evolved)"/>
+	<Muun Item="8429" Grade="0" Rank="2" Option="8" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8430" Duration="30" MuunName="Pumpi"/>
+	<Muun Item="8430" Grade="0" Rank="2" Option="8" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Pumpi (Evolved)"/>
+	<Muun Item="8433" Grade="0" Rank="4" Option="10" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8434" Duration="30" MuunName="Savath"/>
+	<Muun Item="8434" Grade="0" Rank="4" Option="10" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Savath (Evolved)"/>
+	<Muun Item="8435" Grade="0" Rank="2" Option="54" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8436" Duration="30" MuunName="Lycan"/>
+	<Muun Item="8436" Grade="0" Rank="2" Option="54" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Lycan (Evolved)"/>
+	<Muun Item="8437" Grade="0" Rank="2" Option="12" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8438" Duration="30" MuunName="Toby"/>
+	<Muun Item="8438" Grade="0" Rank="2" Option="12" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Toby (Evolved)"/>
+	<Muun Item="8444" Grade="0" Rank="2" Option="15" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8445" Duration="30" MuunName="Seiren"/>
+	<Muun Item="8445" Grade="0" Rank="2" Option="15" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Seiren (Evolved)"/>
+	<Muun Item="8446" Grade="0" Rank="2" Option="39" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8447" Duration="30" MuunName="Behemoth"/>
+	<Muun Item="8447" Grade="0" Rank="2" Option="39" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Behemoth (Evolved)"/>
+	<Muun Item="8448" Grade="0" Rank="4" Option="40" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8449" Duration="30" MuunName="Loggle"/>
+	<Muun Item="8449" Grade="0" Rank="4" Option="41" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Loggle (Evolved)"/>
+	<Muun Item="8450" Grade="0" Rank="2" Option="23" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8451" Duration="30" MuunName="Mino"/>
+	<Muun Item="8451" Grade="0" Rank="2" Option="23" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Mino (Evolved)"/>
+	<Muun Item="8452" Grade="0" Rank="2" Option="25" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8453" Duration="30" MuunName="Hound"/>
+	<Muun Item="8453" Grade="0" Rank="2" Option="25" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Hound (Evolved)"/>
+	<Muun Item="8454" Grade="0" Rank="4" Option="42" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8455" Duration="30" MuunName="Trive"/>
+	<Muun Item="8455" Grade="0" Rank="4" Option="43" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Trive (Evolved)"/>
+	<Muun Item="8456" Grade="0" Rank="2" Option="19" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8457" Duration="30" MuunName="Vogan"/>
+	<Muun Item="8457" Grade="0" Rank="2" Option="19" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Vogan (Evolved)"/>
+	<Muun Item="8458" Grade="0" Rank="2" Option="25" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8459" Duration="30" MuunName="Cyclop"/>
+	<Muun Item="8459" Grade="0" Rank="2" Option="25" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Cyclop (Evolved)"/>
+	<Muun Item="8462" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8463" Duration="30" MuunName="Bonf"/>
+	<Muun Item="8463" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Bonf (Evolved)"/>
+	<Muun Item="8464" Grade="0" Rank="2" Option="21" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8465" Duration="30" MuunName="Hawk"/>
+	<Muun Item="8465" Grade="0" Rank="2" Option="21" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Hawk (Evolved)"/>
+	<Muun Item="8466" Grade="0" Rank="2" Option="22" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8467" Duration="30" MuunName="Muty"/>
+	<Muun Item="8467" Grade="0" Rank="2" Option="22" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Muty (Evolved)"/>
+	<Muun Item="8470" Grade="0" Rank="4" Option="26" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8471" Duration="30" MuunName="Mantis"/>
+	<Muun Item="8471" Grade="0" Rank="4" Option="26" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Mantis (Evolved)"/>
+	<Muun Item="8472" Grade="0" Rank="2" Option="27" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8473" Duration="30" MuunName="Scolpi"/>
+	<Muun Item="8473" Grade="0" Rank="2" Option="27" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Scolpi (Evolved)"/>
+	<Muun Item="8474" Grade="0" Rank="2" Option="28" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8475" Duration="30" MuunName="Chafer"/>
+	<Muun Item="8475" Grade="0" Rank="2" Option="28" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Chafer (Evolved)"/>
+	<Muun Item="8476" Grade="0" Rank="3" Option="29" SpecialOptionType="1" SpecialOptionValue="10" EvolutionItem="8477" Duration="30" MuunName="Shogun"/>
+	<Muun Item="8477" Grade="0" Rank="3" Option="29" SpecialOptionType="1" SpecialOptionValue="10" EvolutionItem="-1" Duration="30" MuunName="Shogun (Evolved)"/>
+	<Muun Item="8478" Grade="0" Rank="3" Option="30" SpecialOptionType="1" SpecialOptionValue="10" EvolutionItem="8479" Duration="30" MuunName="Ninja"/>
+	<Muun Item="8479" Grade="0" Rank="3" Option="30" SpecialOptionType="1" SpecialOptionValue="10" EvolutionItem="-1" Duration="30" MuunName="Ninja (Evolved)"/>
+	<Muun Item="8480" Grade="0" Rank="3" Option="31" SpecialOptionType="1" SpecialOptionValue="10" EvolutionItem="8481" Duration="30" MuunName="Samurai"/>
+	<Muun Item="8481" Grade="0" Rank="3" Option="31" SpecialOptionType="1" SpecialOptionValue="10" EvolutionItem="-1" Duration="30" MuunName="Samurai (Evolved)"/>
+	<Muun Item="8482" Grade="0" Rank="4" Option="32" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8483" Duration="30" MuunName="Cos Girl"/>
+	<Muun Item="8483" Grade="0" Rank="4" Option="32" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Cos Girl (Evolved)"/>
+	<Muun Item="8484" Grade="0" Rank="2" Option="33" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8485" Duration="30" MuunName="Cheer Girl"/>
+	<Muun Item="8485" Grade="0" Rank="2" Option="33" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Cheer Girl (Evolved)"/>
+	<Muun Item="8486" Grade="0" Rank="2" Option="28" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8487" Duration="30" MuunName="Sporty Girl"/>
+	<Muun Item="8487" Grade="0" Rank="2" Option="28" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Sporty Girl (Evolved)"/>
+	<Muun Item="8488" Grade="0" Rank="4" Option="40" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8489" Duration="30" MuunName="Bael"/>
+	<Muun Item="8489" Grade="0" Rank="4" Option="41" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Bael (Evolved)"/>
+	<Muun Item="8490" Grade="0" Rank="2" Option="35" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8491" Duration="30" MuunName="Gapp"/>
+	<Muun Item="8491" Grade="0" Rank="2" Option="35" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Gapp (Evolved)"/>
+	<Muun Item="8492" Grade="0" Rank="2" Option="25" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8493" Duration="30" MuunName="Taaf"/>
+	<Muun Item="8493" Grade="0" Rank="2" Option="25" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Taaf (Evolved)"/>
+	<Muun Item="8494" Grade="0" Rank="2" Option="28" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8495" Duration="30" MuunName="Frozen"/>
+	<Muun Item="8495" Grade="0" Rank="2" Option="28" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Frozen (Evolved)"/>
+	<Muun Item="8496" Grade="0" Rank="2" Option="36" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8497" Duration="30" MuunName="Lure"/>
+	<Muun Item="8497" Grade="0" Rank="2" Option="36" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Lure (Evolved)"/>
+	<Muun Item="8498" Grade="0" Rank="4" Option="42" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8499" Duration="30" MuunName="Fur Seal"/>
+	<Muun Item="8499" Grade="0" Rank="4" Option="43" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Fur Seal (Evolved)"/>
+	<Muun Item="8500" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8501" Duration="30" MuunName="Lucky Rabbit"/>
+	<Muun Item="8501" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Lucky Rabbit (Evolved)"/>
+	<Muun Item="8502" Grade="0" Rank="2" Option="37" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8503" Duration="30" MuunName="Mooncake Rabbit"/>
+	<Muun Item="8503" Grade="0" Rank="2" Option="37" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Mooncake Rabbit (Evolved)"/>
+	<Muun Item="8504" Grade="0" Rank="2" Option="28" SpecialOptionType="3" SpecialOptionValue="3" EvolutionItem="8505" Duration="30" MuunName="Mortar Rabbit"/>
+	<Muun Item="8505" Grade="0" Rank="2" Option="28" SpecialOptionType="3" SpecialOptionValue="3" EvolutionItem="-1" Duration="30" MuunName="Mortar Rabbit (Evolved)"/>
+	<Muun Item="8506" Grade="0" Rank="4" Option="40" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8507" Duration="30" MuunName="Tarius"/>
+	<Muun Item="8507" Grade="0" Rank="4" Option="41" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Tarius (Evolved)"/>
+	<Muun Item="8508" Grade="0" Rank="2" Option="38" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8509" Duration="30" MuunName="Reyner"/>
+	<Muun Item="8509" Grade="0" Rank="2" Option="38" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Reyner (Evolved)"/>
+	<Muun Item="8510" Grade="0" Rank="2" Option="39" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8511" Duration="30" MuunName="Alcamo"/>
+	<Muun Item="8511" Grade="0" Rank="2" Option="39" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Alcamo (Evolved)"/>
+	<Muun Item="8512" Grade="0" Rank="4" Option="42" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8513" Duration="30" MuunName="Gracchus"/>
+	<Muun Item="8513" Grade="0" Rank="4" Option="43" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Gracchus (Evolved)"/>
+	<Muun Item="8514" Grade="0" Rank="2" Option="44" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8515" Duration="30" MuunName="Kenturion"/>
+	<Muun Item="8515" Grade="0" Rank="2" Option="44" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Kenturion (Evolved)"/>
+	<Muun Item="8516" Grade="0" Rank="2" Option="34" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8517" Duration="30" MuunName="Rocka"/>
+	<Muun Item="8517" Grade="0" Rank="2" Option="34" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Rocka (Evolved)"/>
+	<Muun Item="8518" Grade="0" Rank="3" Option="45" SpecialOptionType="1" SpecialOptionValue="15" EvolutionItem="8519" Duration="30" MuunName="Repen"/>
+	<Muun Item="8519" Grade="0" Rank="3" Option="45" SpecialOptionType="1" SpecialOptionValue="15" EvolutionItem="-1" Duration="30" MuunName="Repen (Evolved)"/>
+	<Muun Item="8520" Grade="0" Rank="3" Option="46" SpecialOptionType="1" SpecialOptionValue="15" EvolutionItem="8521" Duration="30" MuunName="Pon"/>
+	<Muun Item="8521" Grade="0" Rank="3" Option="46" SpecialOptionType="1" SpecialOptionValue="15" EvolutionItem="-1" Duration="30" MuunName="Pon (Evolved)"/>
+	<Muun Item="8522" Grade="0" Rank="3" Option="47" SpecialOptionType="1" SpecialOptionValue="15" EvolutionItem="8523" Duration="30" MuunName="Griffs"/>
+	<Muun Item="8523" Grade="0" Rank="3" Option="47" SpecialOptionType="1" SpecialOptionValue="15" EvolutionItem="-1" Duration="30" MuunName="Griffs (Evolved)"/>
+	<Muun Item="8524" Grade="0" Rank="4" Option="40" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8525" Duration="30" MuunName="Polar Bear"/>
+	<Muun Item="8525" Grade="0" Rank="4" Option="41" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Polar Bear (Evolved)"/>
+	<Muun Item="8526" Grade="0" Rank="2" Option="48" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8527" Duration="30" MuunName="Present"/>
+	<Muun Item="8527" Grade="0" Rank="2" Option="48" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Present (Evolved)"/>
+	<Muun Item="8528" Grade="0" Rank="2" Option="25" SpecialOptionType="3" SpecialOptionValue="3" EvolutionItem="8529" Duration="30" MuunName="Rocking Horse"/>
+	<Muun Item="8529" Grade="0" Rank="2" Option="25" SpecialOptionType="3" SpecialOptionValue="3" EvolutionItem="-1" Duration="30" MuunName="Rocking Horse (Evolved)"/>
+	<Muun Item="8530" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8531" Duration="30" MuunName="Orris"/>
+	<Muun Item="8531" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Orris (Evolved)"/>
+	<Muun Item="8532" Grade="0" Rank="2" Option="49" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8533" Duration="30" MuunName="Leicester"/>
+	<Muun Item="8533" Grade="0" Rank="2" Option="49" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Leicester (Evolved)"/>
+	<Muun Item="8534" Grade="0" Rank="2" Option="39" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8535" Duration="30" MuunName="Merino"/>
+	<Muun Item="8535" Grade="0" Rank="2" Option="39" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Merino (Evolved)"/>
+	<Muun Item="8536" Grade="0" Rank="4" Option="40" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8537" Duration="30" MuunName="Splinter"/>
+	<Muun Item="8537" Grade="0" Rank="4" Option="41" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Splinter (Evolved)"/>
+	<Muun Item="8538" Grade="0" Rank="2" Option="52" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8539" Duration="30" MuunName="Mutation"/>
+	<Muun Item="8539" Grade="0" Rank="2" Option="52" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Mutation (Evolved)"/>
+	<Muun Item="8540" Grade="0" Rank="2" Option="28" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8541" Duration="30" MuunName="Fighter"/>
+	<Muun Item="8541" Grade="0" Rank="2" Option="28" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Fighter (Evolved)"/>
+	<Muun Item="8601" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8602" Duration="30" MuunName="Heywood"/>
+	<Muun Item="8602" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Heywood (Evolved)"/>
+	<Muun Item="8603" Grade="0" Rank="2" Option="53" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8604" Duration="30" MuunName="Branch"/>
+	<Muun Item="8604" Grade="0" Rank="2" Option="53" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Branch (Evolved)"/>
+	<Muun Item="8605" Grade="0" Rank="2" Option="54" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8606" Duration="30" MuunName="Hook"/>
+	<Muun Item="8606" Grade="0" Rank="2" Option="54" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Hook (Evolved)"/>
+	<Muun Item="8607" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8608" Duration="30" MuunName="Carnifle"/>
+	<Muun Item="8608" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Carnifle (Evolved)"/>
+	<Muun Item="8609" Grade="0" Rank="2" Option="55" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8610" Duration="30" MuunName="Mandora"/>
+	<Muun Item="8610" Grade="0" Rank="2" Option="55" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Mandora (Evolved)"/>
+	<Muun Item="8611" Grade="0" Rank="2" Option="25" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8612" Duration="30" MuunName="Treat"/>
+	<Muun Item="8612" Grade="0" Rank="2" Option="25" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Treat (Evolved)"/>
+	<Muun Item="8613" Grade="0" Rank="4" Option="42" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8614" Duration="30" MuunName="Rose Spirit"/>
+	<Muun Item="8614" Grade="0" Rank="4" Option="43" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Rose Spirit (Evolved)"/>
+	<Muun Item="8615" Grade="0" Rank="2" Option="57" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8616" Duration="30" MuunName="Freesia Spirit"/>
+	<Muun Item="8616" Grade="0" Rank="2" Option="57" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Freesia Spirit (Evolved)"/>
+	<Muun Item="8617" Grade="0" Rank="2" Option="39" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8618" Duration="30" MuunName="Cherry Blossom Spirit"/>
+	<Muun Item="8618" Grade="0" Rank="2" Option="39" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Cherry Blossom Spirit (Evolved)"/>
+	<Muun Item="8619" Grade="0" Rank="4" Option="40" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8620" Duration="30" MuunName="Gigantes"/>
+	<Muun Item="8620" Grade="0" Rank="4" Option="41" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Gigantes (Evolved)"/>
+	<Muun Item="8621" Grade="0" Rank="2" Option="48" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8622" Duration="30" MuunName="Mammoth"/>
+	<Muun Item="8622" Grade="0" Rank="2" Option="48" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Mammoth (Evolved)"/>
+	<Muun Item="8623" Grade="0" Rank="2" Option="25" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8624" Duration="30" MuunName="Walker"/>
+	<Muun Item="8624" Grade="0" Rank="2" Option="25" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Walker (Evolved)"/>
+	<Muun Item="8625" Grade="0" Rank="4" Option="42" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8626" Duration="30" MuunName="Surfing Girl"/>
+	<Muun Item="8626" Grade="0" Rank="4" Option="43" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Surfing Girl (Evolved)"/>
+	<Muun Item="8627" Grade="0" Rank="2" Option="44" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8628" Duration="30" MuunName="Swim Tube Girl"/>
+	<Muun Item="8628" Grade="0" Rank="2" Option="44" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Swim Tube Girl (Evolved)"/>
+	<Muun Item="8629" Grade="0" Rank="2" Option="34" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8630" Duration="30" MuunName="Snorkeling Girl"/>
+	<Muun Item="8630" Grade="0" Rank="2" Option="34" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Snorkeling Girl (Evolved)"/>
+	<Muun Item="8631" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8632" Duration="30" MuunName="Commander"/>
+	<Muun Item="8632" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Commander (Evolved)"/>
+	<Muun Item="8633" Grade="0" Rank="2" Option="36" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8634" Duration="30" MuunName="Lance Soldier"/>
+	<Muun Item="8634" Grade="0" Rank="2" Option="36" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Lance Soldier (Evolved)"/>
+	<Muun Item="8635" Grade="0" Rank="2" Option="28" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8636" Duration="30" MuunName="Bow Soldier"/>
+	<Muun Item="8636" Grade="0" Rank="2" Option="28" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Bow Soldier (Evolved)"/>
+	<Muun Item="8637" Grade="0" Rank="4" Option="42" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8638" Duration="30" MuunName="Hammer"/>
+	<Muun Item="8638" Grade="0" Rank="4" Option="43" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Hammer (Evolved)"/>
+	<Muun Item="8639" Grade="0" Rank="2" Option="23" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8640" Duration="30" MuunName="Ripieo"/>
+	<Muun Item="8640" Grade="0" Rank="2" Option="23" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Ripieo (Evolved)"/>
+	<Muun Item="8641" Grade="0" Rank="2" Option="25" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8642" Duration="30" MuunName="Axer"/>
+	<Muun Item="8642" Grade="0" Rank="2" Option="25" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Axer (Evolved)"/>
+	<Muun Item="8643" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8644" Duration="30" MuunName="Pumpkin Girl"/>
+	<Muun Item="8644" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Pumpkin Girl (Evolved)"/>
+	<Muun Item="8645" Grade="0" Rank="2" Option="7" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8646" Duration="30" MuunName="Ghost"/>
+	<Muun Item="8646" Grade="0" Rank="2" Option="7" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Ghost (Evolved)"/>
+	<Muun Item="8647" Grade="0" Rank="2" Option="54" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8648" Duration="30" MuunName="Mummy Boy"/>
+	<Muun Item="8648" Grade="0" Rank="2" Option="54" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Mummy Boy (Evolved)"/>
+	<Muun Item="8649" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8650" Duration="30" MuunName="Chrysanthemum"/>
+	<Muun Item="8650" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Chrysanthemum (Evolved)"/>
+	<Muun Item="8651" Grade="0" Rank="2" Option="23" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8652" Duration="30" MuunName="Maple"/>
+	<Muun Item="8652" Grade="0" Rank="2" Option="23" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Maple (Evolved)"/>
+	<Muun Item="8653" Grade="0" Rank="2" Option="39" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8654" Duration="30" MuunName="Ginkgo"/>
+	<Muun Item="8654" Grade="0" Rank="2" Option="39" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Ginkgo (Evolved)"/>
+	<Muun Item="8655" Grade="0" Rank="2" Option="7" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Ghost (Evolved)"/>
+	<Muun Item="8656" Grade="0" Rank="2" Option="54" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Mummy Boy (Evolved)"/>
+	<Muun Item="8657" Grade="0" Rank="4" Option="60" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="NoName"/>
+	<Muun Item="8669" Grade="0" Rank="4" Option="56" SpecialOptionType="2" SpecialOptionValue="250" EvolutionItem="-1" Duration="30" MuunName="[PC Cafe] Aries"/>
+	<Muun Item="8672" Grade="0" Rank="4" Option="42" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8673" Duration="30" MuunName="Toy Soldier"/>
+	<Muun Item="8673" Grade="0" Rank="4" Option="43" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Toy Soldier (Evolved)"/>
+	<Muun Item="8674" Grade="0" Rank="2" Option="59" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8675" Duration="30" MuunName="Christmas Tree"/>
+	<Muun Item="8675" Grade="0" Rank="2" Option="59" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Christmas Tree (Evolved)"/>
+	<Muun Item="8676" Grade="0" Rank="2" Option="54" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8677" Duration="30" MuunName="Snowman"/>
+	<Muun Item="8677" Grade="0" Rank="2" Option="54" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Snowman (Evolved)"/>
+	<Muun Item="8678" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8679" Duration="30" MuunName="Busker Monkey"/>
+	<Muun Item="8679" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Busker Monkey (Evolved)"/>
+	<Muun Item="8680" Grade="0" Rank="2" Option="38" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8681" Duration="30" MuunName="DJ Monkey"/>
+	<Muun Item="8681" Grade="0" Rank="2" Option="38" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="DJ Monkey (Evolved)"/>
+	<Muun Item="8682" Grade="0" Rank="2" Option="25" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8683" Duration="30" MuunName="Space Monkey"/>
+	<Muun Item="8683" Grade="0" Rank="2" Option="25" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Space Monkey (Evolved)"/>
+	<Muun Item="8684" Grade="0" Rank="4" Option="40" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8685" Duration="30" MuunName="Little Cupid"/>
+	<Muun Item="8685" Grade="0" Rank="4" Option="41" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Little Cupid (Evolved)"/>
+	<Muun Item="8686" Grade="0" Rank="2" Option="49" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8687" Duration="30" MuunName="Chocolate Cookie"/>
+	<Muun Item="8687" Grade="0" Rank="2" Option="49" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Chocolate Cookie (Evolved)"/>
+	<Muun Item="8688" Grade="0" Rank="2" Option="34" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8689" Duration="30" MuunName="Heart Girl"/>
+	<Muun Item="8689" Grade="0" Rank="2" Option="34" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Heart Girl (Evolved)"/>
+	<Muun Item="8690" Grade="0" Rank="4" Option="50" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="8691" Duration="30" MuunName="Candy Girl"/>
+	<Muun Item="8691" Grade="0" Rank="4" Option="51" SpecialOptionType="1" SpecialOptionValue="20" EvolutionItem="-1" Duration="30" MuunName="Candy Girl (Evolved)"/>
+	<Muun Item="8692" Grade="0" Rank="2" Option="57" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="8693" Duration="30" MuunName="Lollipop Mama"/>
+	<Muun Item="8693" Grade="0" Rank="2" Option="57" SpecialOptionType="1" SpecialOptionValue="5" EvolutionItem="-1" Duration="30" MuunName="Lollipop Mama (Evolved)"/>
+	<Muun Item="8694" Grade="0" Rank="2" Option="28" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="8695" Duration="30" MuunName="Sweet Muscle Man"/>
+	<Muun Item="8695" Grade="0" Rank="2" Option="28" SpecialOptionType="3" SpecialOptionValue="2" EvolutionItem="-1" Duration="30" MuunName="Sweet Muscle Man (Evolved)"/>
+	<Muun Item="8696" Grade="2" Rank="4" Option="100" SpecialOptionType="1" SpecialOptionValue="20" SpecialOptionValue1="5" SpecialOptionValue2="7" SpecialOptionValue3="9" SpecialOptionValue4="11" SpecialOptionValue5="13" EvolutionItem="8697" Duration="30" MuunName="Lion Mask"/>
+	<Muun Item="8697" Grade="2" Rank="4" Option="101" SpecialOptionType="1" SpecialOptionValue="20" SpecialOptionValue1="5" SpecialOptionValue2="7" SpecialOptionValue3="9" SpecialOptionValue4="11" SpecialOptionValue5="13" EvolutionItem="-1" Duration="30" MuunName="Lion Mask (Evolved)"/>
+	<Muun Item="8698" Grade="2" Rank="4" Option="104" SpecialOptionType="1" SpecialOptionValue="20" SpecialOptionValue1="5" SpecialOptionValue2="7" SpecialOptionValue3="9" SpecialOptionValue4="11" SpecialOptionValue5="13" EvolutionItem="8699" Duration="30" MuunName="Bael"/>
+	<Muun Item="8699" Grade="2" Rank="4" Option="105" SpecialOptionType="1" SpecialOptionValue="20" SpecialOptionValue1="5" SpecialOptionValue2="7" SpecialOptionValue3="9" SpecialOptionValue4="11" SpecialOptionValue5="13" EvolutionItem="-1" Duration="30" MuunName="Bael (Evolved)"/>
+	<Muun Item="8700" Grade="2" Rank="4" Option="102" SpecialOptionType="1" SpecialOptionValue="20" SpecialOptionValue1="5" SpecialOptionValue2="7" SpecialOptionValue3="9" SpecialOptionValue4="11" SpecialOptionValue5="13" EvolutionItem="8701" Duration="30" MuunName="Snowflake Fairy"/>
+	<Muun Item="8701" Grade="2" Rank="4" Option="103" SpecialOptionType="1" SpecialOptionValue="20" SpecialOptionValue1="5" SpecialOptionValue2="7" SpecialOptionValue3="9" SpecialOptionValue4="11" SpecialOptionValue5="13" EvolutionItem="-1" Duration="30" MuunName="Snowflake Fairy (Evolved)"/>
+</MuunList>

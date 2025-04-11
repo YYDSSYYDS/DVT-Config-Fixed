@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==          File Name: LegendaryItemBonusOption           ==
+// ============================================================
+-->
+<!-- 
+// Only for LegendaryItem
+// OptionX is optionId in OptionList
+// ValueX is Formula Id in FormulaData.xml(Type="1")
+// Type relate 
+-->
+
+<LegendaryItemBonus>
+	<OptionList>
+		<Option Index="1" Type="1" Name="Defense Increase +%d" />
+		<Option Index="2" Type="2" Name="Extra Defense Increase +%d" />
+		<Option Index="3" Type="3" Name="All Stat Increase +%d" />
+		<Option Index="4" Type="4" Name="Nuke Attack Power +%d" />
+		<Option Index="5" Type="4" Name="Bolt Attack Power +%d" />
+		<Option Index="6" Type="4" Name="Aoe Attack Power %d" />
+	</OptionList>
+
+	<Armors>
+		<Data Index="1" Option1="1" Value1="33" Option2="2" Value2="34" Option3="-1" Value3="-1" Option4="-1" Value4="-1" />
+		<Data Index="2" Option1="1" Value1="39" Option2="2" Value2="40" Option3="-1" Value3="-1" Option4="-1" Value4="-1" />
+		<Data Index="3" Option1="1" Value1="45" Option2="2" Value2="46" Option3="-1" Value3="-1" Option4="-1" Value4="-1" />
+	</Armors>
+
+	<Weapons>
+		<Data Index="1" Option1="3" Value1="35" Option2="4" Value2="36" Option3="5" Value3="37" Option4="6" Value4="38" />
+		<Data Index="2" Option1="3" Value1="41" Option2="4" Value2="42" Option3="5" Value3="43" Option4="6" Value4="44" />
+		<Data Index="3" Option1="3" Value1="47" Option2="4" Value2="48" Option3="5" Value3="49" Option4="6" Value4="50" />
+	</Weapons>
+
+	<SetOptionRate><!-- Sum = 10000 -->
+		<Armors>
+			<Option SetValue="1" Rate="7000" />
+			<Option SetValue="2" Rate="3000" />
+		</Armors>
+		<Shields>
+			<Option SetValue="1" Rate="7000" />
+			<Option SetValue="2" Rate="3000" />
+		</Shields>
+		<ElfShields>
+			<Option SetValue="1" Rate="7000" />
+			<Option SetValue="2" Rate="3000" />
+		</ElfShields>
+		<GlShields>
+			<Option SetValue="1" Rate="7000" />
+			<Option SetValue="2" Rate="3000" />
+		</GlShields>
+		<Weapons>
+			<Option SetValue="1" Rate="7000" />
+			<Option SetValue="2" Rate="3000" />
+		</Weapons>
+	</SetOptionRate>
+
+	<BonusOptionRate>
+		<Armors><!-- Sum = 100000 -->
+			<Option Index="-1" Rate="62500" />
+			<Option Index="1" Rate="18750" />
+			<Option Index="2" Rate="12500" />
+			<Option Index="3" Rate="6250" />
+		</Armors>
+		<Shields><!-- Sum = 100000 -->
+			<Option Index="-1" Rate="62500" />
+			<Option Index="1" Rate="18750" />
+			<Option Index="2" Rate="12500" />
+			<Option Index="3" Rate="6250" />		
+		</Shields>
+		<ElfShields><!-- Sum = 100000 -->
+			<Option Index="-1" Rate="62500" />
+			<Option Index="1" Rate="18750" />
+			<Option Index="2" Rate="12500" />
+			<Option Index="3" Rate="6250" />	
+		</ElfShields>
+		<GlShields><!-- Sum = 100000 -->
+			<Option Index="-1" Rate="62500" />
+			<Option Index="1" Rate="18750" />
+			<Option Index="2" Rate="12500" />
+			<Option Index="3" Rate="6250" />	
+		</GlShields>
+		<Weapons><!-- Sum = 100000 -->
+			<Option Index="-1" Rate="87500" />
+			<Option Index="1" Rate="6250" />
+			<Option Index="2" Rate="4150" />
+			<Option Index="3" Rate="2100" />
+		</Weapons>
+	</BonusOptionRate>
+
+</LegendaryItemBonus>

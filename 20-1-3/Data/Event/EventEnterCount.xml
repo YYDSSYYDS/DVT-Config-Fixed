@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==              File Name: EventEnterCount                ==
+// ============================================================
+-->
+
+<EventEnterCount>
+    <Event ID="0" Count="40" />
+    <Event ID="1" Count="40" />
+    <Event ID="2" Count="40" />
+    <Event ID="3" Count="40" />
+    <Event ID="5" Count="40" />
+	<Event ID="30" Count="40" />
+    <Event ID="14" Count="40" />
+</EventEnterCount>

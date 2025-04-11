@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==          File Name: LegendaryItemSetType           ==
+// ============================================================
+-->
+<!-- 
+// Only for LegendaryItem
+// Legendary Weapons SetType
+-->
+
+<LegendaryItemSetType>
+	<Data SetIndex="326" ItemCat1="0" ItemIndex1="128" ItemCat2="0" ItemIndex2="128" ItemCat3="-1" ItemIndex3="-1" ItemCat4="-1" ItemIndex4="-1" />
+	<Data SetIndex="327" ItemCat1="5" ItemIndex1="151" ItemCat2="-1" ItemIndex2="-1" ItemCat3="-1" ItemIndex3="-1" ItemCat4="-1" ItemIndex4="-1" />
+	<Data SetIndex="328" ItemCat1="4" ItemIndex1="70" ItemCat2="4" ItemIndex2="71" ItemCat3="-1" ItemIndex3="-1" ItemCat4="-1" ItemIndex4="-1" />
+	<Data SetIndex="329" ItemCat1="5" ItemIndex1="152" ItemCat2="5" ItemIndex2="153" ItemCat3="-1" ItemIndex3="-1" ItemCat4="-1" ItemIndex4="-1" />
+	<Data SetIndex="330" ItemCat1="0" ItemIndex1="129" ItemCat2="0" ItemIndex2="129" ItemCat3="0" ItemIndex3="132" ItemCat4="-1" ItemIndex4="-1" />
+	<Data SetIndex="331" ItemCat1="2" ItemIndex1="52" ItemCat2="6" ItemIndex2="86" ItemCat3="-1" ItemIndex3="-1" ItemCat4="-1" ItemIndex4="-1" />
+	<Data SetIndex="332" ItemCat1="0" ItemIndex1="130" ItemCat2="0" ItemIndex2="130" ItemCat3="-1" ItemIndex3="-1" ItemCat4="-1" ItemIndex4="-1" />
+	<Data SetIndex="333" ItemCat1="3" ItemIndex1="35" ItemCat2="6" ItemIndex2="85" ItemCat3="-1" ItemIndex3="-1" ItemCat4="-1" ItemIndex4="-1" />
+	<Data SetIndex="334" ItemCat1="6" ItemIndex1="84" ItemCat2="-1" ItemIndex2="-1" ItemCat3="-1" ItemIndex3="-1" ItemCat4="-1" ItemIndex4="-1" />
+	<Data SetIndex="335" ItemCat1="5" ItemIndex1="156" ItemCat2="5" ItemIndex2="156" ItemCat3="-1" ItemIndex3="-1" ItemCat4="-1" ItemIndex4="-1" />
+	<Data SetIndex="336" ItemCat1="2" ItemIndex1="53" ItemCat2="-1" ItemIndex2="-1" ItemCat3="-1" ItemIndex3="-1" ItemCat4="-1" ItemIndex4="-1" />
+	<Data SetIndex="337" ItemCat1="0" ItemIndex1="131" ItemCat2="0" ItemIndex2="131" ItemCat3="-1" ItemIndex3="-1" ItemCat4="-1" ItemIndex4="-1" />
+	<Data SetIndex="338" ItemCat1="0" ItemIndex1="134" ItemCat2="6" ItemIndex2="83" ItemCat3="-1" ItemIndex3="-1" ItemCat4="-1" ItemIndex4="-1" />
+	<Data SetIndex="339" ItemCat1="4" ItemIndex1="69" ItemCat2="4" ItemIndex2="69" ItemCat3="-1" ItemIndex3="-1" ItemCat4="-1" ItemIndex4="-1" />
+	<Data SetIndex="340" ItemCat1="5" ItemIndex1="157" ItemCat2="5" ItemIndex2="154" ItemCat3="-1" ItemIndex3="-1" ItemCat4="-1" ItemIndex4="-1" />
+	<Data SetIndex="341" ItemCat1="5" ItemIndex1="155" ItemCat2="-1" ItemIndex2="-1" ItemCat3="-1" ItemIndex3="-1" ItemCat4="-1" ItemIndex4="-1" />
+	<Data SetIndex="342" ItemCat1="0" ItemIndex1="133" ItemCat2="-1" ItemIndex2="-1" ItemCat3="-1" ItemIndex3="-1" ItemCat4="-1" ItemIndex4="-1" />
+</LegendaryItemSetType>
