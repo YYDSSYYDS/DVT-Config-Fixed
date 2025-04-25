@@ -3,7 +3,7 @@
 // ============================================================
 // == 				MUONLINE SERVER EMULATOR				 ==
 // == 				   POWERED BY DV-Team				 	 ==
-// ==                    File Name: Mix                      ==
+// ==             File Name: Mix                        ==
 // ============================================================
 
 ItemType 
@@ -90,6 +90,8 @@ ItemType
 		<Group Index ="3" ><!-- increase rate or protect item -->
 			<Data ItemMin="7221" ItemMax="7221"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="10" ItemType="0" />
 			<Data ItemMin="7264" ItemMax="7264"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="1" ItemType="0" />
+			<Data ItemMin="7357" ItemMax="7357"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="10" ItemType="0" />
+			<Data ItemMin="7358" ItemMax="7358"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="1" ItemType="0" />
 		</Group>
 	</Mix>
 <!-- item upgrade 10 to 11 -->
@@ -113,6 +115,8 @@ ItemType
 		<Group Index ="3" ><!-- increase rate or protect item -->
 			<Data ItemMin="7221" ItemMax="7221"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="10" ItemType="0" />
 			<Data ItemMin="7264" ItemMax="7264"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="1" ItemType="0" />
+			<Data ItemMin="7357" ItemMax="7357"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="10" ItemType="0" />
+			<Data ItemMin="7358" ItemMax="7358"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="1" ItemType="0" />
 		</Group>
 	</Mix>
 <!-- item upgrade 11 to 12 -->
@@ -136,6 +140,8 @@ ItemType
 		<Group Index ="3" ><!-- increase rate or protect item -->
 			<Data ItemMin="7221" ItemMax="7221"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="10" ItemType="0" />
 			<Data ItemMin="7264" ItemMax="7264"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="1" ItemType="0" />
+			<Data ItemMin="7357" ItemMax="7357"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="10" ItemType="0" />
+			<Data ItemMin="7358" ItemMax="7358"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="1" ItemType="0" />
 		</Group>
 	</Mix>
 <!-- item upgrade 12 to 13 -->
@@ -159,6 +165,8 @@ ItemType
 		<Group Index ="3" ><!-- increase rate or protect item -->
 			<Data ItemMin="7221" ItemMax="7221"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="10" ItemType="0" />
 			<Data ItemMin="7264" ItemMax="7264"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="1" ItemType="0" />
+			<Data ItemMin="7357" ItemMax="7357"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="10" ItemType="0" />
+			<Data ItemMin="7358" ItemMax="7358"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="1" ItemType="0" />
 		</Group>
 	</Mix>
 <!-- item upgrade 13 to 14 -->
@@ -182,6 +190,8 @@ ItemType
 		<Group Index ="3" ><!-- increase rate or protect item -->
 			<Data ItemMin="7221" ItemMax="7221"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="10" ItemType="0" />
 			<Data ItemMin="7264" ItemMax="7264"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="1" ItemType="0" />
+			<Data ItemMin="7357" ItemMax="7357"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="10" ItemType="0" />
+			<Data ItemMin="7358" ItemMax="7358"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="1" ItemType="0" />
 		</Group>
 	</Mix>
 <!-- item upgrade 14 to 15 -->
@@ -205,6 +215,8 @@ ItemType
 		<Group Index ="3" ><!-- increase rate or protect item -->
 			<Data ItemMin="7221" ItemMax="7221"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="10" ItemType="0" />
 			<Data ItemMin="7264" ItemMax="7264"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="1" ItemType="0" />
+			<Data ItemMin="7357" ItemMax="7357"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="10" ItemType="0" />
+			<Data ItemMin="7358" ItemMax="7358"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="1" ItemType="0" />
 		</Group>
 	</Mix>
 <!-- wings core upgrade --><!-- add kina -->
@@ -328,6 +340,7 @@ ItemType
 			<Data ItemMin="10401" ItemMax="10401" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="5" CountMax="5" ItemType="0" />
 		</Group>
 	</Mix>
+
 <!-- chaos weapons -->
 	<Mix ID="1" ReqMoney = "10000" MaxRate = "100">
 		<Group Index ="1" ><!-- mian meterial -->
@@ -341,6 +354,7 @@ ItemType
 			<Data ItemMin="7182" ItemMax="7182" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="255" ItemType="0" />
 		</Group>
 	</Mix>
+
 <!-- 1st relic -->
 	<Mix ID="2004" ReqMoney = "10000" MaxRate = "100">
 		<Group Index ="1" ><!-- mian meterial -->
@@ -421,7 +435,7 @@ ItemType
 			<Data ItemMin="7190" ItemMax="7190"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="30" CountMax="30" ItemType="0" />
 		</Group>
 		<Group Index ="3" >
-			<Data ItemMin="6550" ItemMax="6550"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="5" ItemType="0" />
+			<Data ItemMin="6550" ItemMax="6550"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="7" ItemType="0" />
 			<Data ItemMin="7221" ItemMax="7221"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="10" ItemType="0" />
 		</Group>
 	</Mix>
@@ -474,7 +488,7 @@ ItemType
 			<Data ItemMin="7190" ItemMax="7190" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="30" CountMax="30" ItemType="0" />
 		</Group>
 		<Group Index ="3" >
-			<Data ItemMin="6550" ItemMax="6550" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="5" ItemType="0" />
+			<Data ItemMin="6550" ItemMax="6550" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="7" ItemType="0" />
 			<Data ItemMin="7221" ItemMax="7221"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="10" ItemType="0" />
 		</Group>
 	</Mix>
@@ -492,14 +506,14 @@ ItemType
 <!-- 5th relic -->
 	<Mix ID="2011" ReqMoney = "15000000" MaxRate = "100">
 		<Group Index ="1" >
-			<Data ItemMin="6558"  ItemMax="6565"  LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
-			<Data ItemMin="6613"  ItemMax="6613"  LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
-			<Data ItemMin="6618"  ItemMax="6618"  LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
-			<Data ItemMin="6634"  ItemMax="6634"  LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
-			<Data ItemMin="6304"  ItemMax="6304"  LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
-			<Data ItemMin="6296"  ItemMax="6296"  LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
-			<Data ItemMin="6322"  ItemMax="6322"  LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
-			<Data ItemMin="6340"  ItemMax="6340"  LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6558"  ItemMax="6565"  LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1"   CountMax="1"   ItemType="0" />
+			<Data ItemMin="6613"  ItemMax="6613"  LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1"   CountMax="1"   ItemType="0" />
+			<Data ItemMin="6618"  ItemMax="6618"  LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1"   CountMax="1"   ItemType="0" />
+			<Data ItemMin="6634"  ItemMax="6634"  LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1"   CountMax="1"   ItemType="0" />
+			<Data ItemMin="6304"  ItemMax="6304"  LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1"   CountMax="1"   ItemType="0" />
+			<Data ItemMin="6296"  ItemMax="6296"  LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1"   CountMax="1"   ItemType="0" />
+			<Data ItemMin="6322"  ItemMax="6322"  LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1"   CountMax="1"   ItemType="0" />
+			<Data ItemMin="6340"  ItemMax="6340"  LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1"   CountMax="1"   ItemType="0" />
 		</Group>
 		<Group Index ="2" >
 			<Data ItemMin="7181"  ItemMax="7181"  LevelMin="0"  LevelMax="255" OptMin="0" OptMax="255" CountMin="100" CountMax="100" ItemType="0" />
@@ -580,7 +594,7 @@ ItemType
 			<Data ItemMin="6413" ItemMax="6413" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
 			<Data ItemMin="6300" ItemMax="6300" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
 			<Data ItemMin="6318" ItemMax="6318" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
-			<!-- 2nd bounds wings -->
+			<!-- 2nd bounds wings -->				
 			<Data ItemMin="6566" ItemMax="6566" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
 			<Data ItemMin="6301" ItemMax="6301" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
 			<Data ItemMin="6319" ItemMax="6319" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
@@ -588,7 +602,7 @@ ItemType
 			<Data ItemMin="6567" ItemMax="6571" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
 		</Group>
 		<Group Index ="2" >
-			<Data ItemMin="6301" ItemMax="6301" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6554" ItemMax="6554" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
 		</Group>
 	</Mix>
 	
@@ -698,4 +712,5 @@ ItemType
 			<Data ItemMin="7181"  ItemMax="7181" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
 		</Group>
 	</Mix>
+
 </Mixes>
