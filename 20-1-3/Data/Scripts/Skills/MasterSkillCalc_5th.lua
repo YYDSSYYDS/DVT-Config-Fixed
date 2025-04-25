@@ -374,3 +374,17 @@ function Lord_Spirit_Blast_of_Fire(InDamage, Strength, Dexterity, Vitality, Ener
 
     return OutDamage
 end
+
+function ExtraDamageCalc(InDamage, ExtraDamage, ExtraDamageType)
+    --InDamage:skill damage
+    --ExtraDamage:ExtraDamage value for all 5th card        
+        local OutDamage = 0    
+        if (ExtraDamageType == 0) then
+            OutDamage = InDamage * 0.1 + ExtraDamage * 1.3--Nuke
+        elseif (ExtraDamageType == 1) then
+            OutDamage = InDamage * 0.1 + ExtraDamage * 1.2--Bolt
+        elseif (ExtraDamageType == 2) then
+            OutDamage = InDamage * 0.1 + ExtraDamage * 1.1--Aoe        
+        end
+        return OutDamage
+end
