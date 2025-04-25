@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==                    File Name: Mix                      ==
+// ============================================================
+
+ItemType 
+	~0 no limit
+	~1 exc item
+	~2 380 item
+	~4 set item
+	~16 socket item?
+	~32 pentagram
+	~64 erring
+	~128 other item?wings?
+-->
+
+<Mixes>
+<!-- item upgrade 0 to 6 -->
+	<Mix ID="2001" ReqMoney = "0" MaxRate = "100">
+		<Group Index ="1" ><!-- mian meterial -->
+			<Data ItemMin="6344" ItemMax="6344" LevelMin="0" LevelMax="5" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="6361" ItemMax="6361" LevelMin="0" LevelMax="5" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="6450" ItemMax="6454" LevelMin="0" LevelMax="5" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="6643" ItemMax="6648" LevelMin="0" LevelMax="5" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="0" LevelMax="5" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="1" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="0" LevelMax="5" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="4" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="0" LevelMax="5" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="2" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="0" LevelMax="5" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="16" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="0" LevelMax="5" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="128" />
+		</Group>
+		<Group Index ="2" ><!-- addtional meterial -->
+			<Data ItemMin="7181" ItemMax="7181" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+	</Mix>
+	
+	<Mix ID="2002" ReqMoney = "0" MaxRate1 = "60" MaxRate2 = "50" MaxRate3 = "40" MaxRate4 = "60"><!-- 1 for normale,2 for exc and set,3 for socket,4 for pentagram -->
+		<Group Index ="1" ><!-- mian meterial -->
+			<Data ItemMin="6344" ItemMax="6358" LevelMin="0" LevelMax="5" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="6361" ItemMax="6361" LevelMin="0" LevelMax="5" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="6450" ItemMax="6454" LevelMin="0" LevelMax="5" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="6643" ItemMax="6648" LevelMin="0" LevelMax="5" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="0" LevelMax="5" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="1" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="0" LevelMax="5" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="4" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="0" LevelMax="5" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="2" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="0" LevelMax="5" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="16" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="0" LevelMax="5" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="128" />
+		</Group>
+		<Group Index ="2" ><!-- addtional meterial -->
+			<Data ItemMin="7182"  ItemMax="7182" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+	</Mix>
+<!-- item upgrade 6 to 7,7 to 8,8 to 9 -->
+	<Mix ID="2003" ReqMoney = "0" MaxRate1 = "60" MaxRate2 = "50" MaxRate3 = "40" MaxRate4 = "60"><!-- 1 for normale,2 for exc and set,3 for socket,4 for pentagram -->
+		<Group Index ="1" ><!-- mian meterial -->
+			<Data ItemMin="6344" ItemMax="6358" LevelMin="6" LevelMax="8" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="6361" ItemMax="6361" LevelMin="6" LevelMax="8" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="6450" ItemMax="6454" LevelMin="6" LevelMax="8" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="6643" ItemMax="6648" LevelMin="6" LevelMax="8" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="6" LevelMax="8" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="1" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="6" LevelMax="8" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="4" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="6" LevelMax="8" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="2" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="6" LevelMax="8" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="16" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="6" LevelMax="8" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="128" />
+		</Group>
+		<Group Index ="2" ><!-- addtional meterial -->
+			<Data ItemMin="7182"  ItemMax="7182" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+	</Mix>
+<!-- item upgrade 9 to 10 -->
+	<Mix ID="3" ReqMoney = "2000000" MaxRate1 = "60" MaxRate2 = "50" MaxRate3 = "40" MaxRate4 = "60"><!-- 1 for normale,2 for exc and set,3 for socket,4 for pentagram -->
+		<Group Index ="1" ><!-- mian meterial -->
+			<Data ItemMin="6344" ItemMax="6358" LevelMin="9" LevelMax="9" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="6361" ItemMax="6361" LevelMin="9" LevelMax="9" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="6450" ItemMax="6454" LevelMin="9" LevelMax="9" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="6643" ItemMax="6648" LevelMin="9" LevelMax="9" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="9" LevelMax="9" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="1" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="9" LevelMax="9" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="4" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="9" LevelMax="9" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="2" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="9" LevelMax="9" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="16" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="9" LevelMax="9" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="128" />
+		</Group>
+		<Group Index ="2" ><!-- addtional meterial -->
+			<Data ItemMin="6159"  ItemMax="6159" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="7181"  ItemMax="7181" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="7182"  ItemMax="7182" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+		<Group Index ="3" ><!-- increase rate or protect item -->
+			<Data ItemMin="7221" ItemMax="7221"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="10" ItemType="0" />
+			<Data ItemMin="7264" ItemMax="7264"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="1" ItemType="0" />
+		</Group>
+	</Mix>
+<!-- item upgrade 10 to 11 -->
+	<Mix ID="4" ReqMoney = "4000000" MaxRate1 = "55" MaxRate2 = "40" MaxRate3 = "40" MaxRate4 = "55"><!-- 1 for normale,2 for exc and set,3 for socket,4 for pentagram -->
+		<Group Index ="1" ><!-- mian meterial -->
+			<Data ItemMin="6344" ItemMax="6358" LevelMin="10" LevelMax="10" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="6361" ItemMax="6361" LevelMin="10" LevelMax="10" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="6450" ItemMax="6454" LevelMin="10" LevelMax="10" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="6643" ItemMax="6648" LevelMin="10" LevelMax="10" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="10" LevelMax="10" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="1" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="10" LevelMax="10" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="4" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="10" LevelMax="10" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="2" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="10" LevelMax="10" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="16" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="10" LevelMax="10" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="128" />
+		</Group>
+		<Group Index ="2" ><!-- addtional meterial -->
+			<Data ItemMin="6159" ItemMax="6159" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="7181" ItemMax="7181" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="2" CountMax="2" ItemType="0" />
+			<Data ItemMin="7182" ItemMax="7182" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="2" CountMax="2" ItemType="0" />
+		</Group>
+		<Group Index ="3" ><!-- increase rate or protect item -->
+			<Data ItemMin="7221" ItemMax="7221"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="10" ItemType="0" />
+			<Data ItemMin="7264" ItemMax="7264"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="1" ItemType="0" />
+		</Group>
+	</Mix>
+<!-- item upgrade 11 to 12 -->
+	<Mix ID="22" ReqMoney = "6000000" MaxRate1 = "50" MaxRate2 = "40" MaxRate3 = "40" MaxRate4 = "50"><!-- 1 for normale,2 for exc and set,3 for socket,4 for pentagram -->
+		<Group Index ="1" ><!-- mian meterial -->
+			<Data ItemMin="6344" ItemMax="6358" LevelMin="11" LevelMax="11" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="6361" ItemMax="6361" LevelMin="11" LevelMax="11" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="6450" ItemMax="6454" LevelMin="11" LevelMax="11" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="6643" ItemMax="6648" LevelMin="11" LevelMax="11" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="11" LevelMax="11" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="1" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="11" LevelMax="11" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="4" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="11" LevelMax="11" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="16" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="11" LevelMax="11" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="2" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="11" LevelMax="11" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="128" />
+		</Group>
+		<Group Index ="2" ><!-- addtional meterial -->
+			<Data ItemMin="6159" ItemMax="6159" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="7181" ItemMax="7181" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="3" CountMax="3" ItemType="0" />
+			<Data ItemMin="7182" ItemMax="7182" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="3" CountMax="3" ItemType="0" />
+		</Group>
+		<Group Index ="3" ><!-- increase rate or protect item -->
+			<Data ItemMin="7221" ItemMax="7221"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="10" ItemType="0" />
+			<Data ItemMin="7264" ItemMax="7264"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="1" ItemType="0" />
+		</Group>
+	</Mix>
+<!-- item upgrade 12 to 13 -->
+	<Mix ID="23" ReqMoney = "8000000" MaxRate1 = "45" MaxRate2 = "40" MaxRate3 = "40" MaxRate4 = "45"><!-- 1 for normale,2 for exc and set,3 for socket,4 for pentagram -->
+		<Group Index ="1" ><!-- mian meterial -->
+			<Data ItemMin="6344" ItemMax="6358" LevelMin="12" LevelMax="12" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="6361" ItemMax="6361" LevelMin="12" LevelMax="12" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="6450" ItemMax="6454" LevelMin="12" LevelMax="12" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="6643" ItemMax="6648" LevelMin="12" LevelMax="12" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="12" LevelMax="12" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="1" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="12" LevelMax="12" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="4" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="12" LevelMax="12" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="2" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="12" LevelMax="12" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="16" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="12" LevelMax="12" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="128" />
+		</Group>
+		<Group Index ="2" ><!-- addtional meterial -->
+			<Data ItemMin="6159" ItemMax="6159" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="7181" ItemMax="7181" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="4" CountMax="4" ItemType="0" />
+			<Data ItemMin="7182" ItemMax="7182" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="4" CountMax="4" ItemType="0" />
+		</Group>
+		<Group Index ="3" ><!-- increase rate or protect item -->
+			<Data ItemMin="7221" ItemMax="7221"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="10" ItemType="0" />
+			<Data ItemMin="7264" ItemMax="7264"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="1" ItemType="0" />
+		</Group>
+	</Mix>
+<!-- item upgrade 13 to 14 -->
+	<Mix ID="49" ReqMoney = "10000000" MaxRate1 = "40" MaxRate2 = "40" MaxRate3 = "40" MaxRate4 = "40"><!-- 1 for normale,2 for exc and set,3 for socket,4 for pentagram -->
+		<Group Index ="1" ><!-- mian meterial -->
+			<Data ItemMin="6344" ItemMax="6358" LevelMin="13" LevelMax="13" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="6361" ItemMax="6361" LevelMin="13" LevelMax="13" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="6450" ItemMax="6454" LevelMin="13" LevelMax="13" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="6643" ItemMax="6648" LevelMin="13" LevelMax="13" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="13" LevelMax="13" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="1" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="13" LevelMax="13" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="4" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="13" LevelMax="13" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="2" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="13" LevelMax="13" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="16" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="13" LevelMax="13" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="128" />
+		</Group>
+		<Group Index ="2" ><!-- addtional meterial -->
+			<Data ItemMin="6159" ItemMax="6159" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="7181" ItemMax="7181" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="5" CountMax="5" ItemType="0" />
+			<Data ItemMin="7182" ItemMax="7182" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="5" CountMax="5" ItemType="0" />
+		</Group>
+		<Group Index ="3" ><!-- increase rate or protect item -->
+			<Data ItemMin="7221" ItemMax="7221"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="10" ItemType="0" />
+			<Data ItemMin="7264" ItemMax="7264"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="1" ItemType="0" />
+		</Group>
+	</Mix>
+<!-- item upgrade 14 to 15 -->
+	<Mix ID="50" ReqMoney = "12000000" MaxRate1 = "30" MaxRate2 = "30" MaxRate3 = "30" MaxRate4 = "30"><!-- 1 for normale,2 for exc and set,3 for socket,4 for pentagram -->
+		<Group Index ="1" ><!-- mian meterial -->
+			<Data ItemMin="6344" ItemMax="6358" LevelMin="14" LevelMax="14" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="6361" ItemMax="6361" LevelMin="14" LevelMax="14" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="6450" ItemMax="6454" LevelMin="14" LevelMax="14" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="6643" ItemMax="6648" LevelMin="14" LevelMax="14" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="14" LevelMax="14" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="1" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="14" LevelMax="14" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="4" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="14" LevelMax="14" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="2" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="14" LevelMax="14" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="16" />
+			<Data ItemMin="0" ItemMax="7167" LevelMin="14" LevelMax="14" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="128" />
+		</Group>
+		<Group Index ="2" ><!-- addtional meterial -->
+			<Data ItemMin="6159" ItemMax="6159" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="7181" ItemMax="7181" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="6" CountMax="6" ItemType="0" />
+			<Data ItemMin="7182" ItemMax="7182" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="6" CountMax="6" ItemType="0" />
+		</Group>
+		<Group Index ="3" ><!-- increase rate or protect item -->
+			<Data ItemMin="7221" ItemMax="7221"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="10" ItemType="0" />
+			<Data ItemMin="7264" ItemMax="7264"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="1" ItemType="0" />
+		</Group>
+	</Mix>
+<!-- wings core upgrade --><!-- add kina -->
+	<Mix ID="618" ReqMoney = "1000000" MaxRate = "90">
+		<Group Index ="1" ><!-- mian meterial -->
+			<Data ItemMin="6838" ItemMax="6847"  KindA="34" LevelMin="0" LevelMax="0" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+		<Group Index ="2" ><!-- addtional meterial -->
+			<Data ItemMin="10401" ItemMax="10401" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+	</Mix>
+	<Mix ID="619" ReqMoney = "1500000" MaxRate = "90">
+		<Group Index ="1" ><!-- mian meterial -->
+			<Data ItemMin="6838" ItemMax="6847"  KindA="34" LevelMin="1" LevelMax="1" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+		<Group Index ="2" ><!-- addtional meterial -->
+			<Data ItemMin="10401" ItemMax="10401" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="2" CountMax="2" ItemType="0" />
+		</Group>
+	</Mix>
+	<Mix ID="620" ReqMoney = "2000000" MaxRate = "90">
+		<Group Index ="1" ><!-- mian meterial -->
+			<Data ItemMin="6838" ItemMax="6847"  KindA="34" LevelMin="2" LevelMax="2" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+		<Group Index ="2" ><!-- addtional meterial -->
+			<Data ItemMin="10401" ItemMax="10401" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="2" CountMax="2" ItemType="0" />
+		</Group>
+	</Mix>
+	<Mix ID="621" ReqMoney = "2500000" MaxRate = "90">
+		<Group Index ="1" ><!-- mian meterial -->
+			<Data ItemMin="6838" ItemMax="6847"  KindA="34" LevelMin="3" LevelMax="3" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+		<Group Index ="2" ><!-- addtional meterial -->
+			<Data ItemMin="10401" ItemMax="10401" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="2" CountMax="2" ItemType="0" />
+		</Group>
+	</Mix>
+	<Mix ID="622" ReqMoney = "3000000" MaxRate = "90">
+		<Group Index ="1" ><!-- mian meterial -->
+			<Data ItemMin="6838" ItemMax="6847"  KindA="34" LevelMin="4" LevelMax="4" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+		<Group Index ="2" ><!-- addtional meterial -->
+			<Data ItemMin="10401" ItemMax="10401" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="3" CountMax="3" ItemType="0" />
+		</Group>
+	</Mix>
+	<Mix ID="623" ReqMoney = "3500000" MaxRate = "90">
+		<Group Index ="1" ><!-- mian meterial -->
+			<Data ItemMin="6838" ItemMax="6847"  KindA="34" LevelMin="5" LevelMax="5" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+		<Group Index ="2" ><!-- addtional meterial -->
+			<Data ItemMin="10401" ItemMax="10401" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="3" CountMax="3" ItemType="0" />
+		</Group>
+	</Mix>
+	<Mix ID="624" ReqMoney = "4000000" MaxRate = "90">
+		<Group Index ="1" ><!-- mian meterial -->
+			<Data ItemMin="6838" ItemMax="6847"  KindA="34" LevelMin="6" LevelMax="6" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+		<Group Index ="2" ><!-- addtional meterial -->
+			<Data ItemMin="10401" ItemMax="10401" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="4" CountMax="4" ItemType="0" />
+		</Group>
+	</Mix>
+	<Mix ID="625" ReqMoney = "4500000" MaxRate = "80">
+		<Group Index ="1" ><!-- mian meterial -->
+			<Data ItemMin="6838" ItemMax="6847"  KindA="34" LevelMin="7" LevelMax="7" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+		<Group Index ="2" ><!-- addtional meterial -->
+			<Data ItemMin="10401" ItemMax="10401" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="4" CountMax="4" ItemType="0" />
+		</Group>
+	</Mix>
+	<Mix ID="626" ReqMoney = "5000000" MaxRate = "80">
+		<Group Index ="1" ><!-- mian meterial -->
+			<Data ItemMin="6838" ItemMax="6847"  KindA="34" LevelMin="8" LevelMax="8" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+		<Group Index ="2" ><!-- addtional meterial -->
+			<Data ItemMin="10401" ItemMax="10401" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="4" CountMax="4" ItemType="0" />
+		</Group>
+	</Mix>
+	<Mix ID="627" ReqMoney = "5500000" MaxRate = "75">
+		<Group Index ="1" ><!-- mian meterial -->
+			<Data ItemMin="6838" ItemMax="6847"  KindA="34" LevelMin="9" LevelMax="9" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+		<Group Index ="2" ><!-- addtional meterial -->
+			<Data ItemMin="10401" ItemMax="10401" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="5" CountMax="5" ItemType="0" />
+		</Group>
+	</Mix>
+	<Mix ID="628" ReqMoney = "6000000" MaxRate = "75">
+		<Group Index ="1" ><!-- mian meterial -->
+			<Data ItemMin="6838" ItemMax="6847"  KindA="34" LevelMin="10" LevelMax="10" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+		<Group Index ="2" ><!-- addtional meterial -->
+			<Data ItemMin="10401" ItemMax="10401" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="5" CountMax="5" ItemType="0" />
+		</Group>
+	</Mix>
+	<Mix ID="629" ReqMoney = "6500000" MaxRate = "70">
+		<Group Index ="1" ><!-- mian meterial -->
+			<Data ItemMin="6838" ItemMax="6847"  KindA="34" LevelMin="11" LevelMax="11" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+		<Group Index ="2" ><!-- addtional meterial -->
+			<Data ItemMin="10401" ItemMax="10401" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="5" CountMax="5" ItemType="0" />
+		</Group>
+	</Mix>
+	<Mix ID="630" ReqMoney = "7000000" MaxRate = "70">
+		<Group Index ="1" ><!-- mian meterial -->
+			<Data ItemMin="6838" ItemMax="6847"  KindA="34" LevelMin="12" LevelMax="12" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+		<Group Index ="2" ><!-- addtional meterial -->
+			<Data ItemMin="10401" ItemMax="10401" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="5" CountMax="5" ItemType="0" />
+		</Group>
+	</Mix>
+	<Mix ID="631" ReqMoney = "7500000" MaxRate = "65">
+		<Group Index ="1" ><!-- mian meterial -->
+			<Data ItemMin="6838" ItemMax="6847"  KindA="34" LevelMin="13" LevelMax="13" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+		<Group Index ="2" ><!-- addtional meterial -->
+			<Data ItemMin="10401" ItemMax="10401" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="5" CountMax="5" ItemType="0" />
+		</Group>
+	</Mix>
+	<Mix ID="632" ReqMoney = "8000000" MaxRate = "65">
+		<Group Index ="1" ><!-- mian meterial -->
+			<Data ItemMin="6838" ItemMax="6847"  KindA="34" LevelMin="14" LevelMax="14" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+		<Group Index ="2" ><!-- addtional meterial -->
+			<Data ItemMin="10401" ItemMax="10401" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="5" CountMax="5" ItemType="0" />
+		</Group>
+	</Mix>
+<!-- chaos weapons -->
+	<Mix ID="1" ReqMoney = "10000" MaxRate = "100">
+		<Group Index ="1" ><!-- mian meterial -->
+			<Data ItemMin="0"    ItemMax="6143" LevelMin="4" LevelMax="255" OptMin="4"   OptMax="255" CountMin="1" CountMax="255" ItemType="0" />
+		</Group>
+		<Group Index ="2" ><!-- addtional meterial -->
+			<Data ItemMin="6159" ItemMax="6159" LevelMin="0" LevelMax="255" OptMin="255" OptMax="255" CountMin="1" CountMax="255" ItemType="0" />
+		</Group>
+		<Group Index ="3" ><!-- increase rate -->
+			<Data ItemMin="7181" ItemMax="7181" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="255" ItemType="0" />
+			<Data ItemMin="7182" ItemMax="7182" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="255" ItemType="0" />
+		</Group>
+	</Mix>
+<!-- 1st relic -->
+	<Mix ID="2004" ReqMoney = "10000" MaxRate = "100">
+		<Group Index ="1" ><!-- mian meterial -->
+			<Data ItemMin="1030" ItemMax="1030" LevelMin="4" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="2054" ItemMax="2054" LevelMin="4" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="2567" ItemMax="2567" LevelMin="4" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+		<Group Index ="2" ><!-- addtional meterial -->
+			<Data ItemMin="6159" ItemMax="6159" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="7181" ItemMax="7181" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="7182" ItemMax="7182" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+	</Mix>
+<!-- 1st wings -->
+	<Mix ID="11" ReqMoney = "1000000" MaxRate = "100">
+		<Group Index ="1" >
+			<Data ItemMin="10354" ItemMax="10354" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+		<Group Index ="3" >
+			<Data ItemMin="6548"  ItemMax="6548"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="16" ItemType="0" />
+			<Data ItemMin="7221" ItemMax="7221"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="10" ItemType="0" />
+		</Group>
+	</Mix>
+<!-- 2nd relic -->
+	<Mix ID="2005" ReqMoney = "5000000" MaxRate = "100">
+		<Group Index ="1" ><!-- mian meterial -->
+			<Data ItemMin="6144" ItemMax="6146"  LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6185" ItemMax="6185"  LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6299" ItemMax="6299"  LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6317" ItemMax="6317"  LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+
+		<Group Index ="2" ><!-- addtional meterial -->
+			<Data ItemMin="6670" ItemMax="6670"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6159" ItemMax="6159"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+	</Mix>
+<!-- 2nd Wings -->
+	<Mix ID="2006" ReqMoney = "10000000" MaxRate = "100">
+		<Group Index ="1" >
+			<Data ItemMin="10355" ItemMax="10355" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+		<Group Index ="3" >
+			<Data ItemMin="6549"  ItemMax="6549"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="8" ItemType="0" />
+			<Data ItemMin="7221" ItemMax="7221"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="10" ItemType="0" />
+		</Group>
+	</Mix>
+
+<!-- 3th relic -->
+	<Mix ID="2007" ReqMoney = "10000000" MaxRate = "100">
+		<Group Index ="1" >
+			<Data ItemMin="6147" ItemMax="6150"  LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6686" ItemMax="6686"  LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6186" ItemMax="6186"  LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6193" ItemMax="6193"  LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6413" ItemMax="6413"  LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6300" ItemMax="6300"  LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6318" ItemMax="6318"  LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+		<Group Index ="2" >
+			<Data ItemMin="6708" ItemMax="6708"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="7181" ItemMax="7181"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="50" CountMax="50" ItemType="0" />
+			<Data ItemMin="7182" ItemMax="7182"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="50" CountMax="50" ItemType="0" />
+			<Data ItemMin="7190" ItemMax="7190"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="50" CountMax="50" ItemType="0" />
+			<Data ItemMin="6159" ItemMax="6159"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="50" CountMax="50" ItemType="0" />
+		</Group>
+	</Mix>
+<!-- 3th Wings -->
+	<Mix ID="39" ReqMoney = "15000000" MaxRate = "50">
+		<Group Index ="1" >
+			<Data ItemMin="6709" ItemMax="6709"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+		<Group Index ="2" >
+			<Data ItemMin="6708" ItemMax="6708"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6159" ItemMax="6159"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="30" CountMax="30" ItemType="0" />
+			<Data ItemMin="7181" ItemMax="7181"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="30" CountMax="30" ItemType="0" />
+			<Data ItemMin="7182" ItemMax="7182"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="30" CountMax="30" ItemType="0" />
+			<Data ItemMin="7190" ItemMax="7190"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="30" CountMax="30" ItemType="0" />
+		</Group>
+		<Group Index ="3" >
+			<Data ItemMin="6550" ItemMax="6550"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="5" ItemType="0" />
+			<Data ItemMin="7221" ItemMax="7221"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="10" ItemType="0" />
+		</Group>
+	</Mix>
+	<Mix ID="2008" ReqMoney = "15000000" MaxRate = "34">
+		<Group Index ="1" >
+			<Data ItemMin="10356" ItemMax="10356" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+		<Group Index ="2" >
+			<Data ItemMin="6550"  ItemMax="6550"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="5" ItemType="0" />
+		</Group>
+		<Group Index ="3" >
+			<Data ItemMin="7221" ItemMax="7221"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="10" ItemType="0" />
+		</Group>
+	</Mix>
+<!-- 4th relic -->
+	<Mix ID="2009" ReqMoney = "15000000" MaxRate = "100">
+		<Group Index ="1" >
+			<Data ItemMin="6180" ItemMax="6184" LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6187" ItemMax="6187" LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6194" ItemMax="6194" LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6414" ItemMax="6414" LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6611" ItemMax="6611" LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6616" ItemMax="6616" LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6633" ItemMax="6633" LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6302" ItemMax="6302" LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6171" ItemMax="6171" LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6320" ItemMax="6320" LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6338" ItemMax="6338" LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+		<Group Index ="2" >
+			<Data ItemMin="7122" ItemMax="7122" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="7124" ItemMax="7124" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="50" CountMax="50" ItemType="0" />
+			<Data ItemMin="7181" ItemMax="7181" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="60" CountMax="60" ItemType="0" />
+			<Data ItemMin="7182" ItemMax="7182" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="60" CountMax="60" ItemType="0" />
+			<Data ItemMin="7190" ItemMax="7190" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="60" CountMax="60" ItemType="0" />
+			<Data ItemMin="6159" ItemMax="6159" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="60" CountMax="60" ItemType="0" />
+		</Group>
+	</Mix>
+<!-- 4th Wings -->
+	<Mix ID="507" ReqMoney = "20000000" MaxRate = "50">
+		<Group Index ="1" >
+			<Data ItemMin="7123" ItemMax="7123" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+		<Group Index ="2" >
+			<Data ItemMin="7122" ItemMax="7122" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="7124" ItemMax="7124" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="50" CountMax="50" ItemType="0" />
+			<Data ItemMin="7181" ItemMax="7181" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="30" CountMax="30" ItemType="0" />
+			<Data ItemMin="7182" ItemMax="7182" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="30" CountMax="30" ItemType="0" />
+			<Data ItemMin="6159" ItemMax="6159" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="30" CountMax="30" ItemType="0" />
+			<Data ItemMin="7190" ItemMax="7190" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="30" CountMax="30" ItemType="0" />
+		</Group>
+		<Group Index ="3" >
+			<Data ItemMin="6550" ItemMax="6550" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="5" ItemType="0" />
+			<Data ItemMin="7221" ItemMax="7221"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="10" ItemType="0" />
+		</Group>
+	</Mix>
+	<Mix ID="2010" ReqMoney = "20000000" MaxRate = "34">
+		<Group Index ="1" >
+			<Data ItemMin="10357" ItemMax="10357" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+		<Group Index ="2" >
+			<Data ItemMin="6550"  ItemMax="6550"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="5" ItemType="0" />
+		</Group>
+		<Group Index ="3" >
+			<Data ItemMin="7221" ItemMax="7221"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="10" ItemType="0" />
+		</Group>
+	</Mix>
+<!-- 5th relic -->
+	<Mix ID="2011" ReqMoney = "15000000" MaxRate = "100">
+		<Group Index ="1" >
+			<Data ItemMin="6558"  ItemMax="6565"  LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6613"  ItemMax="6613"  LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6618"  ItemMax="6618"  LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6634"  ItemMax="6634"  LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6304"  ItemMax="6304"  LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6296"  ItemMax="6296"  LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6322"  ItemMax="6322"  LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6340"  ItemMax="6340"  LevelMin="13" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+		<Group Index ="2" >
+			<Data ItemMin="7181"  ItemMax="7181"  LevelMin="0"  LevelMax="255" OptMin="0" OptMax="255" CountMin="100" CountMax="100" ItemType="0" />
+			<Data ItemMin="7182"  ItemMax="7182"  LevelMin="0"  LevelMax="255" OptMin="0" OptMax="255" CountMin="100" CountMax="100" ItemType="0" />
+			<Data ItemMin="7190"  ItemMax="7190"  LevelMin="0"  LevelMax="255" OptMin="0" OptMax="255" CountMin="100" CountMax="100" ItemType="0" />
+			<Data ItemMin="6159"  ItemMax="6159"  LevelMin="0"  LevelMax="255" OptMin="0" OptMax="255" CountMin="100" CountMax="100" ItemType="0" />
+			<Data ItemMin="7124"  ItemMax="7124"  LevelMin="0"  LevelMax="255" OptMin="0" OptMax="255" CountMin="100" CountMax="100" ItemType="0" />
+			<Data ItemMin="10398" ItemMax="10398" LevelMin="0"  LevelMax="255" OptMin="0" OptMax="255" CountMin="100" CountMax="100" ItemType="0" />
+		</Group>
+	</Mix>
+<!-- 5th Wings -->
+	<Mix ID="2012" ReqMoney = "20000000" MaxRate = "34">
+		<Group Index ="1" >
+			<Data ItemMin="10358" ItemMax="10358" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+		<Group Index ="2" >
+			<Data ItemMin="6243"  ItemMax="6243"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="5" ItemType="0" />
+		</Group>
+		<Group Index ="3" >
+			<Data ItemMin="7221" ItemMax="7221"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="10" ItemType="0" />
+		</Group>
+	</Mix>
+<!-- 5th Wings core -->
+	<Mix ID="616" ReqMoney = "20000000" MaxRate = "70">
+		<Group Index ="1" >
+			<Data ItemMin="10399" ItemMax="10399" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+		<Group Index ="2" >
+			<Data ItemMin="7181"  ItemMax="7181"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="100" CountMax="100" ItemType="0" />
+			<Data ItemMin="7182"  ItemMax="7182"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="100" CountMax="100" ItemType="0" />
+			<Data ItemMin="7190"  ItemMax="7190"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="100" CountMax="100" ItemType="0" />
+			<Data ItemMin="6159"  ItemMax="6159"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="100" CountMax="100" ItemType="0" />
+			<Data ItemMin="10398" ItemMax="10398" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="50" CountMax="50" ItemType="0" />
+		</Group>
+	</Mix>
+
+	<!-- 2.5th wings -->
+	<Mix ID="56" ReqMoney = "100000" MaxRate = "70">
+		<Group Index ="1" >
+			<Data ItemMin="6147" ItemMax="6150" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6186" ItemMax="6186" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6193" ItemMax="6193" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6686" ItemMax="6686" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6413" ItemMax="6413" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6300" ItemMax="6300" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6318" ItemMax="6318" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+		<Group Index ="2" >
+			<Data ItemMin="7344" ItemMax="7347" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="7190" ItemMax="7190" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6159" ItemMax="6159" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+		<Group Index ="3" >
+			<Data ItemMin="7221" ItemMax="7221"  LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="0" CountMax="10" ItemType="0" />
+		</Group>
+	</Mix>
+
+<!-- 2nd bounds wings -->
+	<Mix ID="503" ReqMoney = "100000" MaxRate = "100">
+		<Group Index ="1" >
+			<Data ItemMin="6144" ItemMax="6146" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6185" ItemMax="6185" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6299" ItemMax="6299" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6317" ItemMax="6317" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+		<Group Index ="2" >
+			<Data ItemMin="6552" ItemMax="6552" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+	</Mix>
+
+<!-- 3th bounds wings -->
+	<Mix ID="504" ReqMoney = "250000" MaxRate = "100">
+		<Group Index ="1" >
+			<Data ItemMin="6147" ItemMax="6150" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6686" ItemMax="6686" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6186" ItemMax="6186" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6193" ItemMax="6193" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6413" ItemMax="6413" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6300" ItemMax="6300" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6318" ItemMax="6318" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<!-- 2nd bounds wings -->
+			<Data ItemMin="6566" ItemMax="6566" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6301" ItemMax="6301" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6319" ItemMax="6319" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6567" ItemMax="6567" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6567" ItemMax="6571" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+		<Group Index ="2" >
+			<Data ItemMin="6301" ItemMax="6301" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+	</Mix>
+	
+<!-- Event wings -->
+	<Mix ID="75" ReqMoney = "100000" MaxRate = "100">
+		<Group Index ="1" >
+			<Data ItemMin="6932" ItemMax="6932" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+		<Group Index ="2" >
+			<Data ItemMin="7181" ItemMax="7181" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="10" CountMax="10" ItemType="0" />
+			<Data ItemMin="7182" ItemMax="7182" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="10" CountMax="10" ItemType="0" />
+			<Data ItemMin="7184" ItemMax="7184" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="10" CountMax="10" ItemType="0" />
+			<Data ItemMin="6159" ItemMax="6159" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+	</Mix>
+<!-- Mix AbilityCard -->
+	<Mix ID="3001" ReqMoney = "10000000" MaxRate = "100">
+		<Group Index ="1" >
+			<Data ItemMin="10404" ItemMax="10404" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="5" CountMax="5" ItemType="0" />
+			<Data ItemMin="10478" ItemMax="10478" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="5" CountMax="5" ItemType="0" />
+		</Group>
+		<Group Index ="2" >
+			<Data ItemMin="7181"  ItemMax="7181" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+	</Mix>
+	<Mix ID="3002" ReqMoney = "10000000" MaxRate = "100">
+		<Group Index ="1" >
+			<Data ItemMin="10404" ItemMax="10404" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="5" CountMax="5" ItemType="0" />
+			<Data ItemMin="10478" ItemMax="10478" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="5" CountMax="5" ItemType="0" />
+		</Group>
+		<Group Index ="2" >
+			<Data ItemMin="7181"  ItemMax="7181" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+	</Mix>
+	<Mix ID="3003" ReqMoney = "10000000" MaxRate = "100">
+		<Group Index ="1" >
+			<Data ItemMin="10404" ItemMax="10404" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="5" CountMax="5" ItemType="0" />
+		</Group>
+		<Group Index ="2" >
+			<Data ItemMin="7181"  ItemMax="7181" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+	</Mix>
+	
+	<Mix ID="3004" ReqMoney = "10000000" MaxRate = "100">
+		<Group Index ="1" >
+			<Data ItemMin="10404" ItemMax="10404" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="5" CountMax="5" ItemType="0" />
+			<Data ItemMin="10478" ItemMax="10478" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="5" CountMax="5" ItemType="0" />
+		</Group>
+		<Group Index ="2" >
+			<Data ItemMin="7181"  ItemMax="7181" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+	</Mix>
+	
+	<Mix ID="3005" ReqMoney = "10000000" MaxRate = "100">
+		<Group Index ="1" >
+			<Data ItemMin="10404" ItemMax="10404" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="5" CountMax="5" ItemType="0" />
+			<Data ItemMin="10478" ItemMax="10478" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="5" CountMax="5" ItemType="0" />
+		</Group>
+		<Group Index ="2" >
+			<Data ItemMin="7181"  ItemMax="7181" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+	</Mix>
+	
+	<Mix ID="3006" ReqMoney = "50000000" MaxRate = "100">
+		<Group Index ="1" >
+			<Data ItemMin="10404" ItemMax="10404" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="25" CountMax="25" ItemType="0" />
+			<Data ItemMin="10478" ItemMax="10478" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="5" CountMax="5" ItemType="0" />
+		</Group>
+		<Group Index ="2" >
+			<Data ItemMin="7181"  ItemMax="7181" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="5" CountMax="5" ItemType="0" />
+		</Group>
+	</Mix>
+	<Mix ID="3007" ReqMoney = "50000000" MaxRate = "100">
+		<Group Index ="1" >
+			<Data ItemMin="10404" ItemMax="10404" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="25" CountMax="25" ItemType="0" />
+			<Data ItemMin="10478" ItemMax="10478" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="5" CountMax="5" ItemType="0" />
+		</Group>
+		<Group Index ="2" >
+			<Data ItemMin="7181"  ItemMax="7181" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="5" CountMax="5" ItemType="0" />
+		</Group>
+	</Mix>
+	<Mix ID="3008" ReqMoney = "50000000" MaxRate = "100">
+		<Group Index ="1" >
+			<Data ItemMin="10404" ItemMax="10404" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="25" CountMax="25" ItemType="0" />
+			<Data ItemMin="10478" ItemMax="10478" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="5" CountMax="5" ItemType="0" />
+		</Group>
+		<Group Index ="2" >
+			<Data ItemMin="7181"  ItemMax="7181" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="5" CountMax="5" ItemType="0" />
+		</Group>
+	</Mix>
+	
+	<Mix ID="3009" ReqMoney = "100000000" MaxRate = "100">
+		<Group Index ="1" >
+			<Data ItemMin="10404" ItemMax="10404" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="50" CountMax="50" ItemType="0" />
+			<Data ItemMin="10478" ItemMax="10478" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="5" CountMax="5" ItemType="0" />
+		</Group>
+		<Group Index ="2" >
+			<Data ItemMin="7181"  ItemMax="7181" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="10" CountMax="10" ItemType="0" />
+		</Group>
+	</Mix>
+	
+	<Mix ID="3010" ReqMoney = "10000000" MaxRate = "100">
+		<Group Index ="1" >
+			<Data ItemMin="10404" ItemMax="10404" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="5" CountMax="5" ItemType="0" />
+		</Group>
+		<Group Index ="2" >
+			<Data ItemMin="7181"  ItemMax="7181" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+		</Group>
+	</Mix>
+</Mixes>
