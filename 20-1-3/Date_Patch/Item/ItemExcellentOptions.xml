@@ -2,36 +2,144 @@
 <!-- 
 // ============================================================
 // == 				MUONLINE SERVER EMULATOR				 ==
-// == 				   POWERED BY DV-Team				 	 ==
-// ==             File Name: ItemExcellentOptions            ==
+// == 				  POWERED BY DV-Team				 	 ==
+// ==            File Name: ItemExcellentOptions             ==
 // ============================================================
+//
+// ### ItemExcellentOptions::Common::Option ###
+//	ID: Unique ID of the Excellent option
+//	Number: Number of the option
+//	Operator: Operator of option effect behavior
+//		1: Addition (+)
+//		2: Multiplication (*) by Percentage (%) 
+//		3: Division (/) by Level/20
+//		4: Division (/) by Life
+//		5: Division by Mana
+//		6: Increase per Level
+//		100: Use of formula, see FormulaID description for details
+//
+//	Value: Value of the option
+//	FormulaID: ID of formula from FormulaData.xml (ExcellentOption section)
+//	ItemKindA_1: Item KindA the option applies to (ItemList.xml), -1 if not applies
+//	ItemKindA_2: Item KindA the option applies to (ItemList.xml), -1 if not applies
+//	ItemKindA_3: Item KindA the option applies to (ItemList.xml), -1 if not applies
+//	ItemKindA_4: Item KindA the option applies to (ItemList.xml), -1 if not applies
+//	ItemKindA_5: Item KindA the option applies to (ItemList.xml), -1 if not applies
+//	ItemKindA_6: Item KindA the option applies to (ItemList.xml), -1 if not applies
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ Special values:
+//~~ 100: Blessed Archangel weapons
+//
+//~~ Specific Item Kind cannot be configure to options of same value of Number attribute. 
+//~~ If same ItemKind will be configured to more options of same value of Number attribute
+//~~ then only first option will be assigned and second will be ignored.
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//	Rate: Chance of getting specified option, n/10000
+//	Name: Name of the option (used for in-file description purpose only)
+//
+// ### ItemExcellentOptions::Wings::Option ###
+//	ID: Unique ID of the Excellent option
+//	Number: Number of the option
+//	Operator:
+//	Operator: Operator of option effect behavior
+//		1: Addition (+)
+//		2: Multiplication (*) by Percentage (%) 
+//		3: Division (/) by Level/20
+//		4: Division (/) by Life
+//		5: Division by Mana
+//		6: Increase per Level
+//		100: Use of formula, see FormulaID description for details
+//
+//	Value: Value of the option
+//	FormulaID: ID of formula from FormulaData.xml (ExcellentOption section)
+//	ItemKindA: ItemKindA the option applies to (ItemList.xml), -1 if not applies
+//	ItemKindB: ItemKindB the option applies to (ItemList.xml), -1 if not applies
+//	Rate: Chance of getting specified option, n/10000
+//	Name: Name of the option (used for in-file description purpose only)
+//
+// ### ItemExcellentOptions::OptionDropRate::Common ### - drop rate control of common excellent options
+//	One: Chance to drop item with one excellent option
+//	Two: Chance to drop item with two excellent options
+//	Three: Chance to drop item with three excellent options
+//	Four: Chance to drop item with four excellent options
+//	Five: Chance to drop item with five excellent options
+//	Six: Chance to drop item with six excellent options
+//	Seven: Chance to drop item with seven excellent options
+//	Eight: Chance to drop item with eight excellent options
+//	Nine: Chance to drop item with nine excellent options
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ Sum of all drop rate attributes must be equal to 10000 per row
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+// ### ItemExcellentOptions::OptionDropRate::Wing::Kind ### - drop rate control of common excellent options
+//	A: The 'A' kind of the item - refer to itemList.xml
+//	B: The 'B' kind of the item - refer to itemList.xml
+//	Zero: Chance to drop item with zero excellent options
+//	One: Chance to drop item with one excellent option
+//	Two: Chance to drop item with two excellent options
+//	Three: Chance to drop item with three excellent options
+//	Four: Chance to drop item with four excellent options
+//	Five: Chance to drop item with five excellent options
+//	Six: Chance to drop item with six excellent options
+//	Seven: Chance to drop item with seven excellent options
+//	Eight: Chance to drop item with eight excellent options
+//	Nine: Chance to drop item with nine excellent options
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ Sum of all drop rate attributes must be equal to 10000 per row
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// 
+// STRICTLY NO COMMENTS INSIDE TAGS 
 -->
 
 <ExcellentOptions>
 	
 	<Common> <!-- Common excellent options -->
-		<Option ID="0" Number="0" Operator="2" Value="10" FormulaID="-1" ItemKindA_1="1" ItemKindA_2="2" ItemKindA_3="14" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" ItemKindA_7="-1" Rate="5000" Name="Increase Excellent Damage Chance by %d%%" />
-		<Option ID="1" Number="1" Operator="3" Value="1" FormulaID="-1" ItemKindA_1="1" ItemKindA_2="2" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" ItemKindA_7="-1" Rate="5000" Name="%s increases by %d every 20Lv" />
-		<Option ID="2" Number="2" Operator="2" Value="2" FormulaID="-1" ItemKindA_1="1" ItemKindA_2="2" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" ItemKindA_7="-1" Rate="5000" Name="%s increases by %d%%" />
-		<Option ID="3" Number="3" Operator="1" Value="7" FormulaID="-1" ItemKindA_1="1" ItemKindA_2="2" ItemKindA_3="14" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" ItemKindA_7="-1" Rate="5000" Name="Increase %d Attack (Wizardry) speed" />
-		<Option ID="4" Number="4" Operator="4" Value="8" FormulaID="-1" ItemKindA_1="1" ItemKindA_2="2" ItemKindA_3="14" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" ItemKindA_7="-1" Rate="5000" Name="Obtains (Life/%d) when monster is killed" />
-		<Option ID="5" Number="5" Operator="5" Value="8" FormulaID="-1" ItemKindA_1="1" ItemKindA_2="2" ItemKindA_3="14" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" ItemKindA_7="-1" Rate="5000" Name="Obtains (Mana/%d) when monster is killed" />
-		<Option ID="6" Number="6" Operator="100" Value="2" FormulaID="0" ItemKindA_1="14" ItemKindA_2="100" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" ItemKindA_7="-1" Rate="5000" Name="%s increases by %.1f every 20Lv" />
-		<Option ID="7" Number="7" Operator="100" Value="1" FormulaID="1" ItemKindA_1="14" ItemKindA_2="100" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" ItemKindA_7="-1" Rate="5000" Name="Increased by %s %d" />
-		<Option ID="8" Number="0" Operator="2" Value="4" FormulaID="-1" ItemKindA_1="3" ItemKindA_2="4" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" ItemKindA_7="-1" Rate="5000" Name="Increase Maximum Life by %d%%" />
-		<Option ID="9" Number="1" Operator="2" Value="4" FormulaID="-1" ItemKindA_1="3" ItemKindA_2="4" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" ItemKindA_7="-1" Rate="5000" Name="Increase Maximum Mana by %d%%" />
-		<Option ID="10" Number="2" Operator="2" Value="4" FormulaID="-1" ItemKindA_1="3" ItemKindA_2="4" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" ItemKindA_7="-1" Rate="5000" Name="Decreases Damage by %d%%" />
-		<Option ID="11" Number="3" Operator="2" Value="5" FormulaID="-1" ItemKindA_1="3" ItemKindA_2="4" ItemKindA_3="15" ItemKindA_4="18" ItemKindA_5="27" ItemKindA_6="33" ItemKindA_7="46" Rate="5000" Name="Reflect Damage increase by %d%%" />
-		<Option ID="12" Number="4" Operator="2" Value="10" FormulaID="-1" ItemKindA_1="3" ItemKindA_2="4" ItemKindA_3="15" ItemKindA_4="18" ItemKindA_5="27" ItemKindA_6="33" ItemKindA_7="46" Rate="5000" Name="Increases Defense Success Rate by %d%%" />
-		<Option ID="13" Number="5" Operator="1" Value="30" FormulaID="-1" ItemKindA_1="3" ItemKindA_2="4" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" ItemKindA_7="-1" Rate="5000" Name="Increases the amount of Zen acquired for hunting monsters by %d%%" />
-		<Option ID="14" Number="6" Operator="100" Value="2" FormulaID="2" ItemKindA_1="15" ItemKindA_2="18" ItemKindA_3="27" ItemKindA_4="33" ItemKindA_5="46" ItemKindA_6="-1" ItemKindA_7="-1" Rate="5000" Name="Increase Maximum Life by %d" />
-		<Option ID="15" Number="7" Operator="100" Value="3" FormulaID="3" ItemKindA_1="15" ItemKindA_2="18" ItemKindA_3="27" ItemKindA_4="33" ItemKindA_5="46" ItemKindA_6="-1" ItemKindA_7="-1" Rate="5000" Name="Increase Maximum Mana by %d" />
-		<Option ID="16" Number="8" Operator="100" Value="4" FormulaID="4" ItemKindA_1="15" ItemKindA_2="18" ItemKindA_3="27" ItemKindA_4="46" ItemKindA_5="-1" ItemKindA_6="-1" ItemKindA_7="-1" Rate="5000" Name="Decreases Damage by %d" />
-		<Option ID="17" Number="9" Operator="100" Value="5" FormulaID="5" ItemKindA_1="15" ItemKindA_2="-1" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" ItemKindA_7="-1" Rate="5000" Name="Increases the amount of Zen acquired for hunting monsters by %d%%" />
-		<Option ID="18" Number="10" Operator="100" Value="6" FormulaID="6" ItemKindA_1="18" ItemKindA_2="33" ItemKindA_3="46" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" ItemKindA_7="-1" Rate="5000" Name="%s increases by %.1f every 20Lv" />
-		<Option ID="19" Number="11" Operator="100" Value="9" FormulaID="9" ItemKindA_1="27" ItemKindA_2="-1" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" ItemKindA_7="-1" Rate="5000" Name="Elemental Defense Enhancement %d%%" />
-		<Option ID="20" Number="12" Operator="100" Value="10" FormulaID="10" ItemKindA_1="33" ItemKindA_2="-1" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" ItemKindA_7="-1" Rate="5000" Name="Increases Obsidian effect by %d" />
-	</Common>	
+		<Option ID="0" Number="0" Operator="2" Value="10" FormulaID="-1" ItemKindA_1="1" ItemKindA_2="2" ItemKindA_3="14" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="Increase Excellent Damage Chance by %d%%" />
+		<Option ID="1" Number="1" Operator="3" Value="1" FormulaID="-1" ItemKindA_1="1" ItemKindA_2="2" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="%s increases by %d every 20Lv" />
+		<Option ID="2" Number="2" Operator="2" Value="2" FormulaID="-1" ItemKindA_1="1" ItemKindA_2="2" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="%s increases by %d%%" />
+		<Option ID="3" Number="3" Operator="1" Value="7" FormulaID="-1" ItemKindA_1="1" ItemKindA_2="2" ItemKindA_3="14" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="Increase %d Attack (Wizardry) speed" />
+		<Option ID="4" Number="4" Operator="4" Value="8" FormulaID="-1" ItemKindA_1="1" ItemKindA_2="2" ItemKindA_3="14" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="Obtains (Life/%d) when monster is killed" />
+		<Option ID="5" Number="5" Operator="5" Value="8" FormulaID="-1" ItemKindA_1="1" ItemKindA_2="2" ItemKindA_3="14" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="Obtains (Mana/%d) when monster is killed" />
+		<Option ID="6" Number="6" Operator="100" Value="2" FormulaID="0" ItemKindA_1="14" ItemKindA_2="-1" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="%s increases by %.1f every 20Lv" />	
+		<Option ID="7" Number="7" Operator="100" Value="1" FormulaID="1" ItemKindA_1="14" ItemKindA_2="-1" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="Increased by %s %d" />
+		<Option ID="8" Number="0" Operator="2" Value="4" FormulaID="-1" ItemKindA_1="3" ItemKindA_2="4" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="Increase Maximum Life by %d%%" />		
+		<Option ID="9" Number="1" Operator="2" Value="4" FormulaID="-1" ItemKindA_1="3" ItemKindA_2="4" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="Increase Maximum Mana by %d%%" />
+		<Option ID="10" Number="2" Operator="2" Value="4" FormulaID="-1" ItemKindA_1="3" ItemKindA_2="4" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="Decreases Damage by %d%%" />
+		<Option ID="11" Number="3" Operator="2" Value="5" FormulaID="-1" ItemKindA_1="3" ItemKindA_2="4" ItemKindA_3="15" ItemKindA_4="18" ItemKindA_5="27" ItemKindA_6="33" Rate="5000" Name="Reflect Damage increase by %d%%" />
+		<Option ID="12" Number="4" Operator="2" Value="10" FormulaID="-1" ItemKindA_1="3" ItemKindA_2="4" ItemKindA_3="15" ItemKindA_4="18" ItemKindA_5="27" ItemKindA_6="33" Rate="5000" Name="Increases Defense Success Rate by %d%%" />
+		<Option ID="13" Number="5" Operator="1" Value="30" FormulaID="-1" ItemKindA_1="3" ItemKindA_2="4" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="Increases the amount of Zen acquired for hunting monsters by %d%%" />
+		<Option ID="14" Number="6" Operator="100" Value="2" FormulaID="2" ItemKindA_1="15" ItemKindA_2="18" ItemKindA_3="27" ItemKindA_4="33" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="Increase Maximum Life by %d" />
+		<Option ID="15" Number="7" Operator="100" Value="3" FormulaID="3" ItemKindA_1="15" ItemKindA_2="18" ItemKindA_3="27" ItemKindA_4="33" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="Increase Maximum Mana by %d" />
+		<Option ID="16" Number="8" Operator="100" Value="4" FormulaID="4" ItemKindA_1="15" ItemKindA_2="18" ItemKindA_3="27" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="Decreases Damage by %d" />
+		<Option ID="17" Number="9" Operator="100" Value="5" FormulaID="5" ItemKindA_1="15" ItemKindA_2="-1" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="Increases the amount of Zen acquired for hunting monsters by %d%%" />
+		<Option ID="18" Number="10" Operator="100" Value="6" FormulaID="6" ItemKindA_1="18" ItemKindA_2="33" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="%s increases by %.1f every 20Lv" />
+		<Option ID="19" Number="11" Operator="100" Value="9" FormulaID="9" ItemKindA_1="27" ItemKindA_2="-1" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="Elemental Defense Enhancement %d%%" />
+		<Option ID="20" Number="12" Operator="100" Value="10" FormulaID="10" ItemKindA_1="33" ItemKindA_2="-1" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="Increases Obsidian effect by %d" />
+	</Common>
+	
+	<Legendary> <!-- Legendary excellent options -->
+		<Option ID="0" Number="0" Operator="100" Value="10" FormulaID="11" ItemKindA_1="45" ItemKindA_2="-1" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="Increase Excellent Damage Chance by %d%%" />
+		<Option ID="1" Number="1" Operator="3" Value="1" FormulaID="-1" ItemKindA_1="-1" ItemKindA_2="-1" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="%s increases by %d every 20Lv" />
+		<Option ID="2" Number="2" Operator="2" Value="2" FormulaID="-1" ItemKindA_1="-1" ItemKindA_2="-1" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="%s increases by %d%%" />
+		<Option ID="3" Number="3" Operator="100" Value="7" FormulaID="12" ItemKindA_1="45" ItemKindA_2="-1" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="Increase %d Attack (Wizardry) speed" />
+		<Option ID="4" Number="4" Operator="100" Value="8" FormulaID="13" ItemKindA_1="45" ItemKindA_2="-1" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="Obtains (Life/%d) when monster is killed" />
+		<Option ID="5" Number="5" Operator="100" Value="8" FormulaID="14" ItemKindA_1="45" ItemKindA_2="-1" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="Obtains (Mana/%d) when monster is killed" />
+		<Option ID="6" Number="6" Operator="100" Value="2" FormulaID="15" ItemKindA_1="45" ItemKindA_2="-1" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="%s increases by %.1f every 20Lv" />	
+		<Option ID="7" Number="7" Operator="100" Value="1" FormulaID="16" ItemKindA_1="45" ItemKindA_2="-1" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="Increased by %s %d" />
+		<Option ID="8" Number="0" Operator="2" Value="4" FormulaID="-1" ItemKindA_1="-1" ItemKindA_2="-1" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="Increase Maximum Life by %d%%" />		
+		<Option ID="9" Number="1" Operator="2" Value="4" FormulaID="-1" ItemKindA_1="-1" ItemKindA_2="-1" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="Increase Maximum Mana by %d%%" />
+		<Option ID="10" Number="2" Operator="2" Value="4" FormulaID="-1" ItemKindA_1="-1" ItemKindA_2="-1" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="Decreases Damage by %d%%" />
+		<Option ID="11" Number="3" Operator="100" Value="5" FormulaID="18" ItemKindA_1="46" ItemKindA_2="47" ItemKindA_3="48" ItemKindA_4="49" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="Reflect Damage increase by %d%%" />
+		<Option ID="12" Number="4" Operator="100" Value="10" FormulaID="19" ItemKindA_1="46" ItemKindA_2="47" ItemKindA_3="48" ItemKindA_4="49" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="Increases Defense Success Rate by %d%%" />
+		<Option ID="13" Number="5" Operator="1" Value="30" FormulaID="-1" ItemKindA_1="-1" ItemKindA_2="-1" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="Increases the amount of Zen acquired for hunting monsters by %d%%" />
+		<Option ID="14" Number="6" Operator="100" Value="2" FormulaID="20" ItemKindA_1="46" ItemKindA_2="47" ItemKindA_3="48" ItemKindA_4="49" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="Increase Maximum Life by %d" />
+		<Option ID="15" Number="7" Operator="100" Value="3" FormulaID="21" ItemKindA_1="46" ItemKindA_2="47" ItemKindA_3="48" ItemKindA_4="49" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="Increase Maximum Mana by %d" />
+		<Option ID="16" Number="8" Operator="100" Value="4" FormulaID="22" ItemKindA_1="46" ItemKindA_2="47" ItemKindA_3="48" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="Decreases Damage by %d" />
+		<Option ID="17" Number="9" Operator="100" Value="5" FormulaID="5" ItemKindA_1="-1" ItemKindA_2="-1" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="Increases the amount of Zen acquired for hunting monsters by %d%%" />
+		<Option ID="18" Number="10" Operator="100" Value="6" FormulaID="17" ItemKindA_1="46" ItemKindA_2="49" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="%s increases by %.1f every 20Lv" />
+		<Option ID="19" Number="11" Operator="100" Value="9" FormulaID="23" ItemKindA_1="48" ItemKindA_2="-1" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="Elemental Defense Enhancement %d%%" />
+		<Option ID="20" Number="12" Operator="100" Value="10" FormulaID="24" ItemKindA_1="49" ItemKindA_2="-1" ItemKindA_3="-1" ItemKindA_4="-1" ItemKindA_5="-1" ItemKindA_6="-1" Rate="5000" Name="Increases Obsidian effect by %d" />
+	</Legendary>
 	
 	<Wings>
 		<!-- The 2nd Wings options -->
@@ -102,4 +210,14 @@
 		<Kind KindA="6" KindB="60" Zero="0" One="0" Two="0" Three="0" Four="10000" Five="0" Six="0" Seven="0" Eight="0" Nine="0"/>
 		<Kind KindA="6" KindB="62" Zero="0" One="0" Two="0" Three="10000" Four="0" Five="0" Six="0" Seven="0" Eight="0" Nine="0"/>
 	</WingOptionDropRate>
+	
+	<LegendaryOptionDropRate>
+		<!-- Sum of the values must be equal to 10000 per row -->
+		<Kind KindA="45" One="7500" Two="2500" Three="0" Four="0" Five="0" Six="0" Seven="0" Eight="0" Nine="0"/>
+		<Kind KindA="46" One="7500" Two="2500" Three="0" Four="0" Five="0" Six="0" Seven="0" Eight="0" Nine="0"/>
+		<Kind KindA="47" One="7500" Two="2500" Three="0" Four="0" Five="0" Six="0" Seven="0" Eight="0" Nine="0"/>
+		<Kind KindA="48" One="7500" Two="2500" Three="0" Four="0" Five="0" Six="0" Seven="0" Eight="0" Nine="0"/>
+		<Kind KindA="49" One="7500" Two="2500" Three="0" Four="0" Five="0" Six="0" Seven="0" Eight="0" Nine="0"/>
+	</LegendaryOptionDropRate>
+	
 </ExcellentOptions>

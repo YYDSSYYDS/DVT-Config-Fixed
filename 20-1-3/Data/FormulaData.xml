@@ -84,8 +84,8 @@
 	<Data Type="1" ID="54" Formula="500"/><!-- Set +13 Defense bonus value-->
 	<Data Type="1" ID="55" Formula="550"/><!-- Set +14 Defense bonus value-->
 	<Data Type="1" ID="56" Formula="600"/><!-- Set +15 Defense bonus value-->
-	<Data Type="1" ID="57" Formula="(%d*10+(%d*0))"/><!--ItemLevel +1~+15 weapon attack success rate-->
-	<Data Type="1" ID="58" Formula="((((%d-9)*(%d-8))/2)*3)"/><!--ItemLevel +10~+15 weapon attack success rate-->
+	<Data Type="1" ID="57" Formula="(%d*10+(%d*0))"/><!--ItemLevel +1~+15 legendary weapon attack success rate-->
+	<Data Type="1" ID="58" Formula="((((%d-9)*(%d-8))/2)*3)"/><!--ItemLevel +10~+15 legendary weapon attack success rate-->
 	<Data Type="1" ID="59" Formula="(%d*2+(%d*0))"/><!-- Legendary weapon min/max damage increase for items of level below level 10 -->
 	<Data Type="1" ID="60" Formula="(((%d-9)*(%d-8))/2)+((%d+%d)*0)"/><!-- Legendary weapon min/max damage increase for items equal or above level 10 -->
 	<Data Type="1" ID="61" Formula="((%d*2+(%d*0))*2)"/><!-- Legendary Curse/Wizardry damage increase for items of level below level 10 -->
