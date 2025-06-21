@@ -1,0 +1,7 @@
+
+<EventLabyrinthSettings Enabled="1" RequiredLevel="400" RequiredMaster="0" GoblinStage="0" MissionTime="90"  StateDuration="604800">
+	<Score TimeScore="90" DayFirstScore="0" GoblinScore="0" />
+	<Move MoveBronze="1" MoveSilver="1" MoveGold="1" MoveLegend="0" MoveOnFail="1"/>
+</EventLabyrinthSettings>
+
+  

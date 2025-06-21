@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				POWERED BY DV-Team				 	 ==
+// ==File Name: DoppelgangerMonsterSetting ==
+// ============================================================
+-->
+
+<DoppelgangerMonsterList>
+	<Ground Index="0" WorldID="82">			
+		<BossMonsters>
+			<Monster ID="531" StartX="117" StartY="126" Dir="-1" SpawnDelay="360" Distance="0" Zone="0" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="531" StartX="128" StartY="116" Dir="-1" SpawnDelay="360" Distance="0" Zone="3" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="531" StartX="128" StartY="137" Dir="-1" SpawnDelay="360" Distance="0" Zone="1" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="531" StartX="138" StartY="126" Dir="-1" SpawnDelay="360" Distance="0" Zone="2" DespawnTime="180" ItemBag="" Count="1" />
+		</BossMonsters>
+		
+		<FinalBossMonsters>
+			<Monster ID="529" StartX="128" StartY="137" Dir="-1" SpawnDelay="60"  Distance="0" Zone="1" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="530" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="529" StartX="117" StartY="126" Dir="-1" SpawnDelay="60"  Distance="0" Zone="0" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="530" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="180" ItemBag="" Count="1" />	
+			<Monster ID="529" StartX="138" StartY="126" Dir="-1" SpawnDelay="60"  Distance="0" Zone="2" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="530" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="529" StartX="128" StartY="116" Dir="-1" SpawnDelay="60"  Distance="0" Zone="3" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="530" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="180" ItemBag="" Count="1" />
+		</FinalBossMonsters>
+		
+		<CommonMonsters>
+			<Monster ID="539" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="538" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="537" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="536" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="535" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="534" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="533" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="539" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="538" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="537" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="536" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="535" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="534" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="533" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="539" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0"  ItemBag="" Count="3" />
+			<Monster ID="538" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0"  ItemBag="" Count="3" />
+			<Monster ID="537" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0"  ItemBag="" Count="3" />
+			<Monster ID="536" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0"  ItemBag="" Count="3" />
+			<Monster ID="535" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0"  ItemBag="" Count="3" />
+			<Monster ID="534" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0"  ItemBag="" Count="3" />
+			<Monster ID="533" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0"  ItemBag="" Count="3" />
+			<Monster ID="539" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="538" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="537" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="536" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="535" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="534" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="533" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="539" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="538" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="537" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="536" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="535" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="534" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="533" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="539" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"	  Distance="0" Zone="2" DespawnTime="0"  ItemBag="" Count="3" />
+			<Monster ID="538" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"	  Distance="0" Zone="2" DespawnTime="0"  ItemBag="" Count="3" />
+			<Monster ID="537" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"	  Distance="0" Zone="2" DespawnTime="0"  ItemBag="" Count="3" />
+			<Monster ID="536" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"	  Distance="0" Zone="2" DespawnTime="0"  ItemBag="" Count="3" />
+			<Monster ID="535" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"	  Distance="0" Zone="2" DespawnTime="0"  ItemBag="" Count="3" />
+			<Monster ID="534" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"	  Distance="0" Zone="2" DespawnTime="0"  ItemBag="" Count="3" />
+			<Monster ID="533" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"	  Distance="0" Zone="2" DespawnTime="0"  ItemBag="" Count="3" />
+			<Monster ID="539" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="538" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="537" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="536" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="535" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="534" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="533" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="539" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="538" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="537" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="536" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="535" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="534" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="533" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="539" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0"  ItemBag="" Count="3" />
+			<Monster ID="538" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"	  Distance="0" Zone="1" DespawnTime="0"  ItemBag="" Count="3" />
+			<Monster ID="537" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0"  ItemBag="" Count="3" />
+			<Monster ID="536" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0"  ItemBag="" Count="3" />
+			<Monster ID="535" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0"  ItemBag="" Count="3" />
+			<Monster ID="534" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0"  ItemBag="" Count="3" />
+			<Monster ID="533" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0"  ItemBag="" Count="3" />
+			<Monster ID="539" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="538" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="537" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="536" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="535" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="534" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="533" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="539" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="538" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="537" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="536" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="535" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="534" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="533" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0"  ItemBag="" Count="1" />
+			<Monster ID="539" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0"  ItemBag="" Count="3" />
+			<Monster ID="538" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0"  ItemBag="" Count="3" />
+			<Monster ID="537" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0"  ItemBag="" Count="3" />
+			<Monster ID="536" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0"  ItemBag="" Count="3" />
+			<Monster ID="535" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0"  ItemBag="" Count="3" />
+			<Monster ID="534" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0"  ItemBag="" Count="3" />
+			<Monster ID="533" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0"  ItemBag="" Count="3" />
+		</CommonMonsters>																								  
+ </Ground>
+
+ <Ground Index="1" WorldID="83">	
+	
+		<BossMonsters>
+			<Monster ID="529" StartX="117" StartY="126" Dir="-1" SpawnDelay="60"  Distance="0" Zone="0" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="530" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="529" StartX="128" StartY="137" Dir="-1" SpawnDelay="60"  Distance="0" Zone="1" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="530" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="529" StartX="138" StartY="126" Dir="-1" SpawnDelay="60"  Distance="0" Zone="2" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="530" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="529" StartX="128" StartY="116" Dir="-1" SpawnDelay="60"  Distance="0" Zone="3" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="530" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="180" ItemBag="" Count="1" />
+		</BossMonsters>
+		
+		<FinalBossMonsters>
+			<Monster ID="531" StartX="117" StartY="126" Dir="-1" SpawnDelay="360" Distance="0" Zone="0" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="531" StartX="128" StartY="137" Dir="-1" SpawnDelay="360" Distance="0" Zone="1" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="531" StartX="138" StartY="126" Dir="-1" SpawnDelay="360" Distance="0" Zone="2" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="531" StartX="128" StartY="116" Dir="-1" SpawnDelay="360" Distance="0" Zone="3" DespawnTime="180" ItemBag="" Count="1" />
+		</FinalBossMonsters>
+		
+		<CommonMonsters>	
+			<Monster ID="537" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />			
+			<Monster ID="538" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="537" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="536" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="535" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="534" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />			
+			<Monster ID="533" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="539" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />			
+			<Monster ID="535" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />			
+			<Monster ID="538" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="538" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="537" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="536" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="535" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="534" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="533" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="539" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="538" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="537" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="536" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="535" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="534" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="533" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="539" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="538" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="537" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="536" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="535" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="534" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="533" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="539" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+		</CommonMonsters>	
+			
+ </Ground>
+
+ <Ground Index="2" WorldID="84">
+	
+		<BossMonsters>
+			<Monster ID="529" StartX="117" StartY="126" Dir="-1" SpawnDelay="60"  Distance="0" Zone="0" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="530" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="180" ItemBag="" Count="1" />			
+			<Monster ID="529" StartX="128" StartY="137" Dir="-1" SpawnDelay="60"  Distance="0" Zone="1" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="530" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="180" ItemBag="" Count="1" />			
+			<Monster ID="529" StartX="138" StartY="126" Dir="-1" SpawnDelay="60"  Distance="0" Zone="2" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="530" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="180" ItemBag="" Count="1" />			
+			<Monster ID="529" StartX="128" StartY="116" Dir="-1" SpawnDelay="60"  Distance="0" Zone="3" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="530" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="180" ItemBag="" Count="1" />
+		</BossMonsters>
+		
+		<FinalBossMonsters>
+			<Monster ID="531" StartX="128" StartY="137" Dir="-1" SpawnDelay="360" Distance="0" Zone="1" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="531" StartX="138" StartY="126" Dir="-1" SpawnDelay="360" Distance="0" Zone="2" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="531" StartX="117" StartY="126" Dir="-1" SpawnDelay="360" Distance="0" Zone="0" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="531" StartX="128" StartY="116" Dir="-1" SpawnDelay="360" Distance="0" Zone="3" DespawnTime="180" ItemBag="" Count="1" />
+		</FinalBossMonsters>
+			
+		<CommonMonsters>
+			<Monster ID="533" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="538" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="537" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="536" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="535" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="534" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="533" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="534" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="534" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="535" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="536" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="537" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="538" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="539" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="533" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="534" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="535" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="536" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="537" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="538" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="539" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="533" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="534" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="535" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="536" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="537" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="538" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="539" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="533" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+		</CommonMonsters>
+ </Ground>
+
+ <Ground Index="3" WorldID="85">
+	
+		<BossMonsters>
+			<Monster ID="529" StartX="117" StartY="126" Dir="-1" SpawnDelay="60"  Distance="0" Zone="0" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="530" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="180" ItemBag="" Count="1" />			
+			<Monster ID="529" StartX="128" StartY="137" Dir="-1" SpawnDelay="60"  Distance="0" Zone="1" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="530" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="180" ItemBag="" Count="1" />			
+			<Monster ID="529" StartX="138" StartY="126" Dir="-1" SpawnDelay="60"  Distance="0" Zone="2" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="530" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="180" ItemBag="" Count="1" />			
+			<Monster ID="529" StartX="128" StartY="116" Dir="-1" SpawnDelay="60"  Distance="0" Zone="3" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="530" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="180" ItemBag="" Count="1" />
+		</BossMonsters>
+		
+		<FinalBossMonsters>
+			<Monster ID="531" StartX="128" StartY="137" Dir="-1" SpawnDelay="360" Distance="0" Zone="1" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="531" StartX="138" StartY="126" Dir="-1" SpawnDelay="360" Distance="0" Zone="2" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="531" StartX="128" StartY="116" Dir="-1" SpawnDelay="360" Distance="0" Zone="3" DespawnTime="180" ItemBag="" Count="1" />			
+			<Monster ID="531" StartX="117" StartY="126" Dir="-1" SpawnDelay="360" Distance="0" Zone="0" DespawnTime="180" ItemBag="" Count="1" />
+		</FinalBossMonsters>
+		
+		<CommonMonsters>
+			<Monster ID="533" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="534" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="535" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="536" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="537" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="538" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="539" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="533" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="534" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="535" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="536" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="537" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="538" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="539" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="533" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="534" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="535" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="536" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="537" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="538" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="539" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="533" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="534" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="535" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="536" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="537" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="538" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="539" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="533" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+		</CommonMonsters>
+ </Ground>
+
+ <Ground Index="4" WorldID="86">
+	
+		<BossMonsters>
+			<Monster ID="529" StartX="117" StartY="126" Dir="-1" SpawnDelay="60"  Distance="0" Zone="0" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="530" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="180" ItemBag="" Count="1" />			
+			<Monster ID="529" StartX="128" StartY="137" Dir="-1" SpawnDelay="60"  Distance="0" Zone="1" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="530" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="180" ItemBag="" Count="1" />			
+			<Monster ID="529" StartX="138" StartY="126" Dir="-1" SpawnDelay="60"  Distance="0" Zone="2" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="530" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="180" ItemBag="" Count="1" />			
+			<Monster ID="529" StartX="128" StartY="116" Dir="-1" SpawnDelay="60"  Distance="0" Zone="3" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="530" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="180" ItemBag="" Count="1" />
+		</BossMonsters>
+		
+		<FinalBossMonsters>
+			<Monster ID="531" StartX="128" StartY="137" Dir="-1" SpawnDelay="360" Distance="0" Zone="1" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="531" StartX="138" StartY="126" Dir="-1" SpawnDelay="360" Distance="0" Zone="2" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="531" StartX="117" StartY="126" Dir="-1" SpawnDelay="360" Distance="0" Zone="0" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="531" StartX="128" StartY="116" Dir="-1" SpawnDelay="360" Distance="0" Zone="3" DespawnTime="180" ItemBag="" Count="1" />
+		</FinalBossMonsters>
+		
+		<CommonMonsters>
+			<Monster ID="533" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="534" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="535" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="536" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="537" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="538" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="539" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="533" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="534" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="535" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="536" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="537" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="538" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="539" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="533" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="534" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="535" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="536" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="537" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="538" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="539" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="533" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="534" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="535" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="536" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="537" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="538" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="539" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="533" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+		</CommonMonsters>
+ </Ground>
+
+ <Ground Index="5" WorldID="87">
+	
+		<BossMonsters>
+			<Monster ID="529" StartX="117" StartY="126" Dir="-1" SpawnDelay="60"  Distance="0" Zone="0" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="530" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="180" ItemBag="" Count="1" />			
+			<Monster ID="529" StartX="128" StartY="137" Dir="-1" SpawnDelay="60"  Distance="0" Zone="1" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="530" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="180" ItemBag="" Count="1" />			
+			<Monster ID="529" StartX="138" StartY="126" Dir="-1" SpawnDelay="60"  Distance="0" Zone="2" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="530" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="180" ItemBag="" Count="1" />			
+			<Monster ID="529" StartX="128" StartY="116" Dir="-1" SpawnDelay="60"  Distance="0" Zone="3" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="530" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="180" ItemBag="" Count="1" />
+		</BossMonsters>
+		
+		<FinalBossMonsters>
+			<Monster ID="531" StartX="138" StartY="126" Dir="-1" SpawnDelay="360" Distance="0" Zone="2" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="531" StartX="117" StartY="126" Dir="-1" SpawnDelay="360" Distance="0" Zone="0" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="531" StartX="128" StartY="137" Dir="-1" SpawnDelay="360" Distance="0" Zone="1" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="531" StartX="128" StartY="116" Dir="-1" SpawnDelay="360" Distance="0" Zone="3" DespawnTime="180" ItemBag="" Count="1" />
+		</FinalBossMonsters>
+		
+		<CommonMonsters>
+			<Monster ID="533" StartX="117" StartY="126" EndX="117" EndY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="534" StartX="117" StartY="126" EndX="117" EndY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="535" StartX="117" StartY="126" EndX="117" EndY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="536" StartX="117" StartY="126" EndX="117" EndY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="537" StartX="117" StartY="126" EndX="117" EndY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="538" StartX="117" StartY="126" EndX="117" EndY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="539" StartX="117" StartY="126" EndX="117" EndY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="533" StartX="117" StartY="126" EndX="117" EndY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="117" StartY="126" EndX="117" EndY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="117" StartY="126" EndX="117" EndY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="117" StartY="126" EndX="117" EndY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="117" StartY="126" EndX="117" EndY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="117" StartY="126" EndX="117" EndY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="117" StartY="126" EndX="117" EndY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="117" StartY="126" EndX="117" EndY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="117" StartY="126" EndX="117" EndY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="117" StartY="126" EndX="117" EndY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="117" StartY="126" EndX="117" EndY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="117" StartY="126" EndX="117" EndY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="117" StartY="126" EndX="117" EndY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="117" StartY="126" EndX="117" EndY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="128" StartY="137" EndX="128" EndY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="534" StartX="128" StartY="137" EndX="128" EndY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="535" StartX="128" StartY="137" EndX="128" EndY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="536" StartX="128" StartY="137" EndX="128" EndY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="537" StartX="128" StartY="137" EndX="128" EndY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="538" StartX="128" StartY="137" EndX="128" EndY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="539" StartX="128" StartY="137" EndX="128" EndY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="533" StartX="128" StartY="137" EndX="128" EndY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="128" StartY="137" EndX="128" EndY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="128" StartY="137" EndX="128" EndY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="128" StartY="137" EndX="128" EndY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="128" StartY="137" EndX="128" EndY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="128" StartY="137" EndX="128" EndY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="128" StartY="137" EndX="128" EndY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="128" StartY="137" EndX="128" EndY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="128" StartY="137" EndX="128" EndY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="128" StartY="137" EndX="128" EndY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="128" StartY="137" EndX="128" EndY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="128" StartY="137" EndX="128" EndY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="128" StartY="137" EndX="128" EndY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="128" StartY="137" EndX="128" EndY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="138" StartY="126" EndX="138" EndY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="534" StartX="138" StartY="126" EndX="138" EndY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="535" StartX="138" StartY="126" EndX="138" EndY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="536" StartX="138" StartY="126" EndX="138" EndY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="537" StartX="138" StartY="126" EndX="138" EndY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="538" StartX="138" StartY="126" EndX="138" EndY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="539" StartX="138" StartY="126" EndX="138" EndY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="533" StartX="138" StartY="126" EndX="138" EndY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="138" StartY="126" EndX="138" EndY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="138" StartY="126" EndX="138" EndY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="138" StartY="126" EndX="138" EndY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="138" StartY="126" EndX="138" EndY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="138" StartY="126" EndX="138" EndY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="138" StartY="126" EndX="138" EndY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="138" StartY="126" EndX="138" EndY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="138" StartY="126" EndX="138" EndY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="138" StartY="126" EndX="138" EndY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="138" StartY="126" EndX="138" EndY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="138" StartY="126" EndX="138" EndY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="138" StartY="126" EndX="138" EndY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="138" StartY="126" EndX="138" EndY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="128" StartY="116" EndX="128" EndY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="534" StartX="128" StartY="116" EndX="128" EndY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="535" StartX="128" StartY="116" EndX="128" EndY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="536" StartX="128" StartY="116" EndX="128" EndY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="537" StartX="128" StartY="116" EndX="128" EndY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="538" StartX="128" StartY="116" EndX="128" EndY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="539" StartX="128" StartY="116" EndX="128" EndY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="533" StartX="128" StartY="116" EndX="128" EndY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="128" StartY="116" EndX="128" EndY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="128" StartY="116" EndX="128" EndY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="128" StartY="116" EndX="128" EndY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="128" StartY="116" EndX="128" EndY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="128" StartY="116" EndX="128" EndY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="128" StartY="116" EndX="128" EndY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="128" StartY="116" EndX="128" EndY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="128" StartY="116" EndX="128" EndY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="128" StartY="116" EndX="128" EndY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="128" StartY="116" EndX="128" EndY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="128" StartY="116" EndX="128" EndY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="128" StartY="116" EndX="128" EndY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="128" StartY="116" EndX="128" EndY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+		</CommonMonsters>
+ </Ground>
+
+ <Ground Index="6" WorldID="88">
+	
+		<BossMonsters>
+			<Monster ID="529" StartX="117" StartY="126" Dir="-1" SpawnDelay="60"  Distance="0" Zone="0" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="530" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="180" ItemBag="" Count="1" />			
+			<Monster ID="529" StartX="128" StartY="137" Dir="-1" SpawnDelay="60"  Distance="0" Zone="1" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="530" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="180" ItemBag="" Count="1" />			
+			<Monster ID="529" StartX="138" StartY="126" Dir="-1" SpawnDelay="60"  Distance="0" Zone="2" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="530" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="180" ItemBag="" Count="1" />			
+			<Monster ID="529" StartX="128" StartY="116" Dir="-1" SpawnDelay="60"  Distance="0" Zone="3" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="530" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="180" ItemBag="" Count="1" />
+		</BossMonsters>
+			
+		<FinalBossMonsters>
+			<Monster ID="531" StartX="128" StartY="137" Dir="-1" SpawnDelay="360" Distance="0" Zone="1" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="531" StartX="138" StartY="126" Dir="-1" SpawnDelay="360" Distance="0" Zone="2" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="531" StartX="117" StartY="126" Dir="-1" SpawnDelay="360" Distance="0" Zone="0" DespawnTime="180" ItemBag="" Count="1" />
+			<Monster ID="531" StartX="128" StartY="116" Dir="-1" SpawnDelay="360" Distance="0" Zone="3" DespawnTime="180" ItemBag="" Count="1" />
+		</FinalBossMonsters>
+		
+		<CommonMonsters>
+			<Monster ID="533" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="534" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="535" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="536" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="537" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="538" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="539" StartX="117" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="533" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="117" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="117" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="0" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="534" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="535" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="536" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="537" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="538" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="539" StartX="128" StartY="137" Dir="-1" SpawnDelay="0"   Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="533" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="128" StartY="137" Dir="-1" SpawnDelay="180" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="128" StartY="137" Dir="-1" SpawnDelay="480" Distance="0" Zone="1" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="534" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="535" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="536" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="537" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="538" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="539" StartX="138" StartY="126" Dir="-1" SpawnDelay="0"   Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="533" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="138" StartY="126" Dir="-1" SpawnDelay="180" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="138" StartY="126" Dir="-1" SpawnDelay="480" Distance="0" Zone="2" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="534" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="535" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="536" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="537" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="538" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="539" StartX="128" StartY="116" Dir="-1" SpawnDelay="0"   Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="3" />
+			<Monster ID="533" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="128" StartY="116" Dir="-1" SpawnDelay="180" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="533" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="534" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="535" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="536" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="537" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="538" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+			<Monster ID="539" StartX="128" StartY="116" Dir="-1" SpawnDelay="480" Distance="0" Zone="3" DespawnTime="0" ItemBag="" Count="1" />
+		</CommonMonsters>
+ </Ground>
+</DoppelgangerMonsterList>

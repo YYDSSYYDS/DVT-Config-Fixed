@@ -1,0 +1,79 @@
+
+<CastleDeep Enabled="1">
+
+	<Schedule>
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="13" Minute="0" Second="-1" NotifyTime="10" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="23" Minute="0" Second="-1" NotifyTime="10" />		
+	</Schedule>
+	
+	<CastleDeepStage>
+		<Stage Index="0" Rate="5000"/>
+		<Stage Index="1" Rate="5000"/>	
+	</CastleDeepStage>
+	
+	<MonsterList WorldID="30">
+		<Monster ID="39"  StartX="60" StartY="28" EndX="132" EndY="73"  Dir="-1" SpawnDelay="0"    Distance="30" Stage="0" Type="0" DespawnTime="600" ItemBag="" Count="40" />
+		<Monster ID="34"  StartX="60" StartY="28" EndX="132" EndY="73"  Dir="-1" SpawnDelay="0"    Distance="30" Stage="0" Type="0" DespawnTime="600" ItemBag="" Count="40" />
+		<Monster ID="41"  StartX="60" StartY="28" EndX="132" EndY="73"  Dir="-1" SpawnDelay="0"    Distance="30" Stage="0" Type="0" DespawnTime="600" ItemBag="" Count="40" />
+		<Monster ID="37"  StartX="60" StartY="28" EndX="132" EndY="73"  Dir="-1" SpawnDelay="0"    Distance="30" Stage="0" Type="0" DespawnTime="600" ItemBag="" Count="40" />
+		<Monster ID="40"  StartX="60" StartY="28" EndX="132" EndY="73"  Dir="-1" SpawnDelay="0"    Distance="30" Stage="0" Type="0" DespawnTime="600" ItemBag="" Count="40" />
+		<Monster ID="35"  StartX="60" StartY="28" EndX="132" EndY="73"  Dir="-1" SpawnDelay="0"    Distance="30" Stage="0" Type="0" DespawnTime="600" ItemBag="" Count="40" />
+		<Monster ID="48"  StartX="60" StartY="28" EndX="132" EndY="73"  Dir="-1" SpawnDelay="0"    Distance="30" Stage="0" Type="0" DespawnTime="600" ItemBag="" Count="40" />
+		<Monster ID="62"  StartX="60" StartY="28" EndX="132" EndY="73"  Dir="-1" SpawnDelay="0"    Distance="30" Stage="0" Type="0" DespawnTime="600" ItemBag="" Count="40" />
+		<Monster ID="300" StartX="60" StartY="28" EndX="132" EndY="73"  Dir="-1" SpawnDelay="0"    Distance="30" Stage="0" Type="1" DespawnTime="600" ItemBag="" Count="1" />
+		<Monster ID="69"  StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="600"  Distance="30" Stage="0" Type="0" DespawnTime="600" ItemBag="" Count="40" />
+		<Monster ID="60"  StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="600"  Distance="30" Stage="0" Type="0" DespawnTime="600" ItemBag="" Count="40" />
+		<Monster ID="71"  StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="600"  Distance="30" Stage="0" Type="0" DespawnTime="600" ItemBag="" Count="40" />
+		<Monster ID="57"  StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="600"  Distance="30" Stage="0" Type="0" DespawnTime="600" ItemBag="" Count="40" />
+		<Monster ID="70"  StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="600"  Distance="30" Stage="0" Type="0" DespawnTime="600" ItemBag="" Count="40" />
+		<Monster ID="58"  StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="600"  Distance="30" Stage="0" Type="0" DespawnTime="600" ItemBag="" Count="40" />
+		<Monster ID="61"  StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="600"  Distance="30" Stage="0" Type="0" DespawnTime="600" ItemBag="" Count="40" />
+		<Monster ID="73"  StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="600"  Distance="30" Stage="0" Type="0" DespawnTime="600" ItemBag="" Count="40" />
+		<Monster ID="74"  StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="600"  Distance="30" Stage="0" Type="0" DespawnTime="600" ItemBag="" Count="40" />
+		<Monster ID="72"  StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="600"  Distance="30" Stage="0" Type="0" DespawnTime="600" ItemBag="" Count="40" />
+		<Monster ID="301" StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="600"  Distance="30" Stage="0" Type="1" DespawnTime="600" ItemBag="" Count="1" />
+		<Monster ID="49"  StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="1200" Distance="30" Stage="0" Type="0" DespawnTime="600" ItemBag="" Count="30" />
+		<Monster ID="139" StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="1200" Distance="30" Stage="0" Type="0" DespawnTime="600" ItemBag="" Count="30" />
+		<Monster ID="123" StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="1200" Distance="30" Stage="0" Type="0" DespawnTime="600" ItemBag="" Count="30" />
+		<Monster ID="59"  StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="1200" Distance="30" Stage="0" Type="0" DespawnTime="600" ItemBag="" Count="30" />
+		<Monster ID="74"  StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="1200" Distance="30" Stage="0" Type="0" DespawnTime="600" ItemBag="" Count="30" />
+		<Monster ID="63"  StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="1200" Distance="30" Stage="0" Type="0" DespawnTime="600" ItemBag="" Count="30" />
+		<Monster ID="293" StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="1200" Distance="30" Stage="0" Type="0" DespawnTime="600" ItemBag="" Count="50" />
+		<Monster ID="292" StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="1200" Distance="30" Stage="0" Type="0" DespawnTime="600" ItemBag="" Count="50" />
+		<Monster ID="291" StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="1200" Distance="30" Stage="0" Type="0" DespawnTime="600" ItemBag="" Count="50" />
+		<Monster ID="303" StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="1200" Distance="30" Stage="0" Type="1" DespawnTime="600" ItemBag="" Count="1" />
+		<Monster ID="39"  StartX="60" StartY="28" EndX="132" EndY="73"  Dir="-1" SpawnDelay="0"    Distance="30" Stage="1" Type="0" DespawnTime="600" ItemBag="" Count="30" />
+		<Monster ID="34"  StartX="60" StartY="28" EndX="132" EndY="73"  Dir="-1" SpawnDelay="0"    Distance="30" Stage="1" Type="0" DespawnTime="600" ItemBag="" Count="30" />
+		<Monster ID="41"  StartX="60" StartY="28" EndX="132" EndY="73"  Dir="-1" SpawnDelay="0"    Distance="30" Stage="1" Type="0" DespawnTime="600" ItemBag="" Count="30" />
+		<Monster ID="37"  StartX="60" StartY="28" EndX="132" EndY="73"  Dir="-1" SpawnDelay="0"    Distance="30" Stage="1" Type="0" DespawnTime="600" ItemBag="" Count="30" />
+		<Monster ID="40"  StartX="60" StartY="28" EndX="132" EndY="73"  Dir="-1" SpawnDelay="0"    Distance="30" Stage="1" Type="0" DespawnTime="600" ItemBag="" Count="30" />
+		<Monster ID="35"  StartX="60" StartY="28" EndX="132" EndY="73"  Dir="-1" SpawnDelay="0"    Distance="30" Stage="1" Type="0" DespawnTime="600" ItemBag="" Count="30" />
+		<Monster ID="48"  StartX="60" StartY="28" EndX="132" EndY="73"  Dir="-1" SpawnDelay="0"    Distance="30" Stage="1" Type="0" DespawnTime="600" ItemBag="" Count="30" />
+		<Monster ID="62"  StartX="60" StartY="28" EndX="132" EndY="73"  Dir="-1" SpawnDelay="0"    Distance="30" Stage="1" Type="0" DespawnTime="600" ItemBag="" Count="30" />
+		<Monster ID="300" StartX="60" StartY="28" EndX="132" EndY="73"  Dir="-1" SpawnDelay="0"    Distance="30" Stage="1" Type="1" DespawnTime="600" ItemBag="" Count="1" />
+		<Monster ID="294" StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="600"  Distance="30" Stage="1" Type="0" DespawnTime="600" ItemBag="" Count="30" />
+		<Monster ID="290" StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="600"  Distance="30" Stage="1" Type="0" DespawnTime="600" ItemBag="" Count="30" />
+		<Monster ID="193" StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="600"  Distance="30" Stage="1" Type="0" DespawnTime="600" ItemBag="" Count="30" />
+		<Monster ID="194" StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="600"  Distance="30" Stage="1" Type="0" DespawnTime="600" ItemBag="" Count="30" />
+		<Monster ID="192" StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="600"  Distance="30" Stage="1" Type="0" DespawnTime="600" ItemBag="" Count="30" />
+		<Monster ID="190" StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="600"  Distance="30" Stage="1" Type="0" DespawnTime="600" ItemBag="" Count="30" />
+		<Monster ID="195" StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="600"  Distance="30" Stage="1" Type="0" DespawnTime="600" ItemBag="" Count="30" />
+		<Monster ID="61"  StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="600"  Distance="30" Stage="1" Type="0" DespawnTime="600" ItemBag="" Count="30" />
+		<Monster ID="73"  StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="600"  Distance="30" Stage="1" Type="0" DespawnTime="600" ItemBag="" Count="30" />
+		<Monster ID="127" StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="600"  Distance="30" Stage="1" Type="0" DespawnTime="600" ItemBag="" Count="30" />
+		<Monster ID="302" StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="600"  Distance="30" Stage="1" Type="1" DespawnTime="600" ItemBag="" Count="1" />
+		<Monster ID="49"  StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="1200" Distance="30" Stage="1" Type="0" DespawnTime="600" ItemBag="" Count="30" />
+		<Monster ID="139" StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="1200" Distance="30" Stage="1" Type="0" DespawnTime="600" ItemBag="" Count="30" />
+		<Monster ID="123" StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="1200" Distance="30" Stage="1" Type="0" DespawnTime="600" ItemBag="" Count="30" />
+		<Monster ID="59"  StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="1200" Distance="30" Stage="1" Type="0" DespawnTime="600" ItemBag="" Count="30" />
+		<Monster ID="74"  StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="1200" Distance="30" Stage="1" Type="0" DespawnTime="600" ItemBag="" Count="30" />
+		<Monster ID="63"  StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="1200" Distance="30" Stage="1" Type="0" DespawnTime="600" ItemBag="" Count="30" />
+		<Monster ID="293" StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="1200" Distance="30" Stage="1" Type="0" DespawnTime="600" ItemBag="" Count="50" />
+		<Monster ID="292" StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="1200" Distance="30" Stage="1" Type="0" DespawnTime="600" ItemBag="" Count="50" />
+		<Monster ID="291" StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="1200" Distance="30" Stage="1" Type="0" DespawnTime="600" ItemBag="" Count="50" />
+		<Monster ID="303" StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="1200" Distance="30" Stage="1" Type="1" DespawnTime="600" ItemBag="" Count="1" />
+		<Monster ID="295" StartX="60" StartY="58" EndX="132" EndY="101" Dir="-1" SpawnDelay="1200" Distance="30" Stage="1" Type="2" DespawnTime="600" ItemBag="" Count="1" />        
+    </MonsterList>   
+	
+</CastleDeep>
+

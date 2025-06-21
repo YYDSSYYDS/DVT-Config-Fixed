@@ -1,0 +1,202 @@
+
+
+<Kanturu Enabled="1" MaxPlayers="100" MayaIceStormRate="20" MayaSkillTime="15" >
+
+	<GeneralStates>
+		<Event State="0" SwitchType="0" Time="0" /> <!-- None -->
+		<Event State="1" SwitchType="0" Time="0" /> <!-- Battle Standby -->
+		<Event State="2" SwitchType="0" Time="0" /> <!-- Battle of Maya -->
+		<Event State="3" SwitchType="0" Time="0" /> <!-- Battle of NightMare -->
+		<Event State="4" SwitchType="0" Time="0" /> <!-- Tower of Refinement -->
+		<Event State="5" SwitchType="1" Time="0" /> <!-- End -->
+	</GeneralStates>
+	
+	<BattleStandBy>
+		<Cycle State="0" SwitchType="0" Time="0" /> <!-- None -->
+		<Cycle State="1" SwitchType="1" Time="1140" /> <!-- Start -->
+		<Cycle State="2" SwitchType="1" Time="60" /> <!-- Notify -->
+		<Cycle State="3" SwitchType="0" Time="0" /> <!-- End -->		
+	</BattleStandBy>
+	
+	<BattleOfMaya>
+	
+		<BattleTimes>
+			<Battle Type="0" SwitchType="1" Time="900" /> <!-- First Battle, one hand -->
+			<Battle Type="1" SwitchType="1" Time="900" /> <!-- Second Battle, second hand-->
+			<Battle Type="2" SwitchType="1" Time="1200" /> <!-- Third Battle, both hands -->
+		</BattleTimes>
+		
+		<State>
+			<Cycle State="0"  SwitchType="0" Time="0" /> <!-- None -->
+			<Cycle State="1"  SwitchType="1" Time="120" /> <!-- Stanby1 -->
+			<Cycle State="2"  SwitchType="1" Time="15" /> <!-- Notify -->
+			<Cycle State="3"  SwitchType="0" Time="0" /> <!-- Start1 -->
+			<Cycle State="4"  SwitchType="0" Time="0" /> <!-- Maya1 -->
+			<Cycle State="5"  SwitchType="1" Time="5" /> <!-- End Maya1 -->
+			<Cycle State="6"  SwitchType="1" Time="3" /> <!-- End-cycle -->
+			<Cycle State="7"  SwitchType="1" Time="60" /> <!-- Stanby2 -->
+			<Cycle State="8"  SwitchType="0" Time="0" /> <!-- Start2 -->
+			<Cycle State="9"  SwitchType="0" Time="0" /> <!-- Maya2 -->
+			<Cycle State="10" SwitchType="1" Time="5" /> <!-- End Maya2 -->
+			<Cycle State="11" SwitchType="1" Time="3" /> <!-- End-cycle -->
+			<Cycle State="12" SwitchType="1" Time="120" /> <!-- Stanby3 -->
+			<Cycle State="13" SwitchType="0" Time="0" /> <!-- Start3 -->
+			<Cycle State="14" SwitchType="0" Time="0" /> <!-- Maya3 -->
+			<Cycle State="15" SwitchType="1" Time="5" /> <!-- End Maya3 -->
+			<Cycle State="16" SwitchType="1" Time="10" /> <!-- End-cycle -->
+			<Cycle State="17" SwitchType="1" Time="3" /> <!-- End -->
+			<Cycle State="18" SwitchType="0" Time="0" /> <!-- End-cycle -->
+		</State>		
+		
+	</BattleOfMaya>
+	
+	<BattleOfNightMare>
+		<Cycle State="0" SwitchType="0" Time="0" /> <!-- None -->
+		<Cycle State="1" SwitchType="1" Time="5" /> <!-- Idle -->
+		<Cycle State="2" SwitchType="1" Time="10" /> <!-- Notify -->
+		<Cycle State="3" SwitchType="1" Time="1200" /> <!-- Start -->
+		<Cycle State="4" SwitchType="1" Time="5" /> <!-- End -->
+		<Cycle State="5" SwitchType="0" Time="0" /> <!-- End-Cycle -->		
+	</BattleOfNightMare>
+	
+	<TowerOfRefinement>
+		<Cycle State="0" SwitchType="0" Time="0" /> <!-- None -->
+		<Cycle State="1" SwitchType="1" Time="82500" />	<!-- Revitalization -->
+		<Cycle State="2" SwitchType="1" Time="300" /> <!-- Notify -->
+		<Cycle State="3" SwitchType="1" Time="2220" /> <!-- Close -->
+		<Cycle State="4" SwitchType="1" Time="180" /> <!-- Notify -->
+		<Cycle State="5" SwitchType="1" Time="5" /> <!-- End -->		
+	</TowerOfRefinement>
+	
+	<MonsterList WorldID="39">		
+		<Monster ID="354" StartX="191" StartY="67"  EndX="191" EndY="67"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="186" StartY="60"  EndX="186" EndY="60"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="196" StartY="60"  EndX="196" EndY="60"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="196" StartY="79"  EndX="196" EndY="79"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="202" StartY="81"  EndX="202" EndY="81"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="199" StartY="81"  EndX="199" EndY="81"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="185" StartY="79"  EndX="185" EndY="79"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="182" StartY="79"  EndX="182" EndY="79"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="179" StartY="79"  EndX="179" EndY="79"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="191" StartY="60"  EndX="191" EndY="60"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="184" StartY="81"  EndX="184" EndY="81"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="181" StartY="81"  EndX="181" EndY="81"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="206" StartY="83"  EndX="206" EndY="83"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="200" StartY="84"  EndX="200" EndY="84"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="203" StartY="68"  EndX="203" EndY="68"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="187" StartY="72"  EndX="187" EndY="72"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="190" StartY="72"  EndX="190" EndY="72"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="202" StartY="73"  EndX="202" EndY="73"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="199" StartY="73"  EndX="199" EndY="73"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="196" StartY="73"  EndX="196" EndY="73"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="213" StartY="70"  EndX="213" EndY="70"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="213" StartY="67"  EndX="213" EndY="67"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="211" StartY="71"  EndX="211" EndY="71"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="211" StartY="68"  EndX="211" EndY="68"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="211" StartY="65"  EndX="211" EndY="65"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="179" StartY="71"  EndX="179" EndY="71"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="179" StartY="67"  EndX="179" EndY="67"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="176" StartY="72"  EndX="176" EndY="72"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="176" StartY="69"  EndX="176" EndY="69"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="176" StartY="66"  EndX="176" EndY="66"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="191" StartY="67"  EndX="191" EndY="67"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="186" StartY="60"  EndX="186" EndY="60"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="196" StartY="60"  EndX="196" EndY="60"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="196" StartY="79"  EndX="196" EndY="79"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="202" StartY="81"  EndX="202" EndY="81"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="199" StartY="81"  EndX="199" EndY="81"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="185" StartY="79"  EndX="185" EndY="79"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="182" StartY="79"  EndX="182" EndY="79"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="179" StartY="79"  EndX="179" EndY="79"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="191" StartY="60"  EndX="191" EndY="60"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="184" StartY="81"  EndX="184" EndY="81"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="181" StartY="81"  EndX="181" EndY="81"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="206" StartY="83"  EndX="206" EndY="83"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="200" StartY="84"  EndX="200" EndY="84"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="203" StartY="68"  EndX="203" EndY="68"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="187" StartY="72"  EndX="187" EndY="72"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="190" StartY="72"  EndX="190" EndY="72"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="202" StartY="73"  EndX="202" EndY="73"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="199" StartY="73"  EndX="199" EndY="73"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="196" StartY="73"  EndX="196" EndY="73"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="213" StartY="70"  EndX="213" EndY="70"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="213" StartY="67"  EndX="213" EndY="67"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="211" StartY="71"  EndX="211" EndY="71"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="211" StartY="68"  EndX="211" EndY="68"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="211" StartY="65"  EndX="211" EndY="65"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="179" StartY="71"  EndX="179" EndY="71"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="179" StartY="67"  EndX="179" EndY="67"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="176" StartY="72"  EndX="176" EndY="72"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="176" StartY="69"  EndX="176" EndY="69"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="354" StartX="176" StartY="66"  EndX="176" EndY="66"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="357" StartX="78"  StartY="98"  EndX="78"  EndY="98"  Dir="-1" SpawnDelay="0" Distance="30" State="3" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="357" StartX="84"  StartY="99"  EndX="84"  EndY="99"  Dir="-1" SpawnDelay="0" Distance="30" State="3" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="357" StartX="75"  StartY="111" EndX="75"  EndY="111" Dir="-1" SpawnDelay="0" Distance="30" State="3" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="357" StartX="78"  StartY="111" EndX="78"  EndY="111" Dir="-1" SpawnDelay="0" Distance="30" State="3" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="357" StartX="81"  StartY="111" EndX="81"  EndY="111" Dir="-1" SpawnDelay="0" Distance="30" State="3" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="357" StartX="84"  StartY="111" EndX="84"  EndY="111" Dir="-1" SpawnDelay="0" Distance="30" State="3" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="357" StartX="79"  StartY="122" EndX="79"  EndY="122" Dir="-1" SpawnDelay="0" Distance="30" State="3" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="358" StartX="76"  StartY="136" EndX="76"  EndY="136" Dir="-1" SpawnDelay="0" Distance="30" State="3" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="358" StartX="80"  StartY="136" EndX="80"  EndY="136" Dir="-1" SpawnDelay="0" Distance="30" State="3" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="358" StartX="86"  StartY="127" EndX="86"  EndY="127" Dir="-1" SpawnDelay="0" Distance="30" State="3" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="358" StartX="87"  StartY="114" EndX="87"  EndY="114" Dir="-1" SpawnDelay="0" Distance="30" State="3" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="359" StartX="195" StartY="72"  EndX="195" EndY="72"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="13" ItemBag="" 			Count="1" />
+		<Monster ID="359" StartX="187" StartY="72"  EndX="187" EndY="72"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="13" ItemBag="" 			Count="1" />
+		<Monster ID="359" StartX="210" StartY="62"  EndX="210" EndY="62"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="13" ItemBag="" 			Count="1" />
+		<Monster ID="359" StartX="213" StartY="65"  EndX="213" EndY="65"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="13" ItemBag="" 			Count="1" />
+		<Monster ID="359" StartX="214" StartY="75"  EndX="214" EndY="75"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="13" ItemBag="" 			Count="1" />
+		<Monster ID="359" StartX="214" StartY="78"  EndX="214" EndY="78"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="13" ItemBag="" 			Count="1" />
+		<Monster ID="359" StartX="179" StartY="77"  EndX="179" EndY="77"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="13" ItemBag="" 			Count="1" />
+		<Monster ID="359" StartX="179" StartY="77"  EndX="179" EndY="77"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="13" ItemBag="" 			Count="1" />
+		<Monster ID="359" StartX="179" StartY="77"  EndX="179" EndY="77"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="13" ItemBag="" 			Count="1" />
+		<Monster ID="359" StartX="177" StartY="80"  EndX="177" EndY="80"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="13" ItemBag="" 			Count="1" />
+		<Monster ID="359" StartX="178" StartY="64"  EndX="178" EndY="64"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="13" ItemBag="" 			Count="1" />
+		<Monster ID="359" StartX="178" StartY="60"  EndX="178" EndY="60"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="13" ItemBag="" 			Count="1" />
+		<Monster ID="360" StartX="213" StartY="70"  EndX="213" EndY="70"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="13" ItemBag="" 			Count="1" />
+		<Monster ID="360" StartX="192" StartY="81"  EndX="192" EndY="81"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="13" ItemBag="" 			Count="1" />
+		<Monster ID="360" StartX="197" StartY="84"  EndX="197" EndY="84"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="13" ItemBag="" 			Count="1" />
+		<Monster ID="360" StartX="189" StartY="79"  EndX="189" EndY="79"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="13" ItemBag="" 			Count="1" />
+		<Monster ID="360" StartX="176" StartY="72"  EndX="176" EndY="72"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="13" ItemBag="" 			Count="1" />
+		<Monster ID="360" StartX="189" StartY="79"  EndX="189" EndY="79"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="360" StartX="189" StartY="67"  EndX="189" EndY="67"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="360" StartX="193" StartY="67"  EndX="193" EndY="67"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="360" StartX="209" StartY="59"  EndX="209" EndY="59"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="360" StartX="214" StartY="78"  EndX="214" EndY="78"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="360" StartX="205" StartY="83"  EndX="205" EndY="83"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="360" StartX="191" StartY="79"  EndX="191" EndY="79"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="360" StartX="193" StartY="79"  EndX="193" EndY="79"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="360" StartX="177" StartY="60"  EndX="177" EndY="60"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="360" StartX="177" StartY="60"  EndX="177" EndY="60"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="8"  ItemBag="" 			Count="1" />
+		<Monster ID="360" StartX="189" StartY="79"  EndX="189" EndY="79"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="360" StartX="189" StartY="67"  EndX="189" EndY="67"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="360" StartX="193" StartY="67"  EndX="193" EndY="67"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="360" StartX="209" StartY="59"  EndX="209" EndY="59"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="360" StartX="214" StartY="78"  EndX="214" EndY="78"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="360" StartX="205" StartY="83"  EndX="205" EndY="83"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="360" StartX="191" StartY="79"  EndX="191" EndY="79"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="360" StartX="193" StartY="79"  EndX="193" EndY="79"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="360" StartX="177" StartY="60"  EndX="177" EndY="60"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="360" StartX="177" StartY="60"  EndX="177" EndY="60"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="360" StartX="203" StartY="72"  EndX="203" EndY="72"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="13" ItemBag="" 			Count="1" />
+		<Monster ID="360" StartX="192" StartY="58"  EndX="192" EndY="58"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="13" ItemBag="" 			Count="1" />
+		<Monster ID="360" StartX="200" StartY="58"  EndX="200" EndY="58"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="13" ItemBag="" 			Count="1" />
+		<Monster ID="360" StartX="78" StartY="115"  EndX="78"  EndY="115" Dir="-1" SpawnDelay="0" Distance="30" State="3" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="360" StartX="80" StartY="100"  EndX="80"  EndY="100" Dir="-1" SpawnDelay="0" Distance="30" State="3" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="360" StartX="79" StartY="127"  EndX="79"  EndY="127" Dir="-1" SpawnDelay="0" Distance="30" State="3" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="360" StartX="81" StartY="127"  EndX="81"  EndY="127" Dir="-1" SpawnDelay="0" Distance="30" State="3" SubState="3"  ItemBag="" 			Count="1" />
+		<Monster ID="361" StartX="78" StartY="141"  EndX="78"  EndY="141" Dir="-1" SpawnDelay="0" Distance="30" State="3" SubState="3"  ItemBag="Nightmare" Count="1" />
+		<Monster ID="362" StartX="202" StartY="83"  EndX="202" EndY="83"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="4"  ItemBag="Maya Hand" Count="1" />
+		<Monster ID="362" StartX="202" StartY="83"  EndX="202" EndY="83"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="14" ItemBag="Maya Hand" Count="1" />
+		<Monster ID="363" StartX="189" StartY="79"  EndX="189" EndY="79"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="9"  ItemBag="Maya Hand" Count="1" />
+		<Monster ID="363" StartX="189" StartY="79"  EndX="189" EndY="79"  Dir="-1" SpawnDelay="0" Distance="30" State="2" SubState="14" ItemBag="Maya Hand" Count="1" />
+		<Monster ID="364" StartX="188" StartY="110" EndX="188" EndY="110" Dir="-1" SpawnDelay="0" Distance="0"  State="2" SubState="13" ItemBag="" 			Count="1" />
+		<Monster ID="364" StartX="188" StartY="110" EndX="188" EndY="110" Dir="-1" SpawnDelay="0" Distance="0"  State="2" SubState="9"  ItemBag=""  		Count="1" />
+		<Monster ID="364" StartX="188" StartY="110" EndX="188" EndY="110" Dir="-1" SpawnDelay="0" Distance="0"  State="2" SubState="8"  ItemBag=""  		Count="1" />
+		<Monster ID="364" StartX="188" StartY="110" EndX="188" EndY="110" Dir="-1" SpawnDelay="0" Distance="0"  State="2" SubState="4"  ItemBag=""  		Count="1" />
+		<Monster ID="364" StartX="188" StartY="110" EndX="188" EndY="110" Dir="-1" SpawnDelay="0" Distance="0"  State="2" SubState="3"  ItemBag=""  		Count="1" />
+		<Monster ID="364" StartX="188" StartY="110" EndX="188" EndY="110" Dir="-1" SpawnDelay="0" Distance="0"  State="2" SubState="14" ItemBag="" 			Count="1" />        
+	</MonsterList>
+
+</Kanturu>
+
+	

@@ -1,0 +1,79 @@
+
+<TormentedSquare Enabled="1" >
+
+	<Schedule>
+		<Start Duration="20" Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="23" Minute="0" Second="-1" />
+		<Start Duration="20" Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="10" Minute="0" Second="-1" />
+	</Schedule>	
+	
+	<MonsterList>
+		<Ground Index="0" WorldID="103">
+			<Monster ID="354" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="0" Boss="0" ItemBag="" Count="200" />
+			<Monster ID="652" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="0" Boss="1" ItemBag="" Count="10" />
+			<Monster ID="66"  StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="1" Boss="0" ItemBag="" Count="200" />
+			<Monster ID="652" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="1" Boss="1" ItemBag="" Count="10" />
+			<Monster ID="573" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="2" Boss="0" ItemBag="" Count="200" />
+			<Monster ID="652" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="2" Boss="1" ItemBag="" Count="10" />
+			<Monster ID="574" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="3" Boss="0" ItemBag="" Count="200" />
+			<Monster ID="652" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="3" Boss="1" ItemBag="" Count="10" />
+			<Monster ID="444" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="4" Boss="0" ItemBag="" Count="20" />
+			<Monster ID="652" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="4" Boss="1" ItemBag="" Count="10" />
+			<Monster ID="569" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="5" Boss="0" ItemBag="" Count="200" />
+			<Monster ID="652" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="5" Boss="1" ItemBag="" Count="10" />
+			<Monster ID="709" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="2" Boss="0" ItemBag="" Count="1" />
+			<Monster ID="709" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="5" Boss="0" ItemBag="" Count="1" />
+        </Ground>
+
+        <Ground Index="1" WorldID="104">
+			<Monster ID="445" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="0" Boss="0" ItemBag="" Count="200" />
+			<Monster ID="653" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="0" Boss="1" ItemBag="" Count="10" />
+			<Monster ID="570" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="1" Boss="0" ItemBag="" Count="200" />
+			<Monster ID="653" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="1" Boss="1" ItemBag="" Count="10" />
+			<Monster ID="443" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="2" Boss="0" ItemBag="" Count="200" />
+			<Monster ID="653" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="2" Boss="1" ItemBag="" Count="10" />
+			<Monster ID="571" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="3" Boss="0" ItemBag="" Count="200" />
+			<Monster ID="653" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="3" Boss="1" ItemBag="" Count="10" />
+			<Monster ID="572" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="4" Boss="0" ItemBag="" Count="20" />
+			<Monster ID="653" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="4" Boss="1" ItemBag="" Count="10" />
+			<Monster ID="573" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="5" Boss="0" ItemBag="" Count="200" />
+			<Monster ID="653" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="5" Boss="1" ItemBag="" Count="10" />
+			<Monster ID="710" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="2" Boss="0" ItemBag="" Count="1" />
+			<Monster ID="710" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="5" Boss="0" ItemBag="" Count="1" />
+        </Ground>
+
+        <Ground Index="2" WorldID="105">
+			<Monster ID="574" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="0" Boss="0" ItemBag="" Count="200" />
+			<Monster ID="654" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="0" Boss="1" ItemBag="" Count="10" />
+			<Monster ID="575" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="1" Boss="0" ItemBag="" Count="200" />
+			<Monster ID="654" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="1" Boss="1" ItemBag="" Count="10" />
+			<Monster ID="576" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="2" Boss="0" ItemBag="" Count="200" />
+			<Monster ID="654" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="2" Boss="1" ItemBag="" Count="10" />
+			<Monster ID="550" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="3" Boss="0" ItemBag="" Count="200" />
+			<Monster ID="654" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="3" Boss="1" ItemBag="" Count="10" />
+			<Monster ID="359" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="4" Boss="0" ItemBag="" Count="20" />
+			<Monster ID="654" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="4" Boss="1" ItemBag="" Count="10" />
+			<Monster ID="552" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="5" Boss="0" ItemBag="" Count="200" />
+			<Monster ID="654" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="5" Boss="1" ItemBag="" Count="10" />
+			<Monster ID="711" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="2" Boss="0" ItemBag="" Count="1" />
+			<Monster ID="711" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="5" Boss="0" ItemBag="" Count="1" />
+        </Ground>
+
+        <Ground Index="3" WorldID="106">
+			<Monster ID="439" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="0" Boss="0" ItemBag="" Count="200" />
+			<Monster ID="655" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="0" Boss="1" ItemBag="" Count="10" />
+			<Monster ID="553" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="1" Boss="0" ItemBag="" Count="200" />
+			<Monster ID="655" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="1" Boss="1" ItemBag="" Count="10" />
+			<Monster ID="554" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="2" Boss="0" ItemBag="" Count="200" />
+			<Monster ID="655" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="2" Boss="1" ItemBag="" Count="10" />
+			<Monster ID="555" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="3" Boss="0" ItemBag="" Count="200" />
+			<Monster ID="655" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="3" Boss="1" ItemBag="" Count="10" />
+			<Monster ID="436" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="4" Boss="0" ItemBag="" Count="20" />
+			<Monster ID="655" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="4" Boss="1" ItemBag="" Count="10" />
+			<Monster ID="437" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="5" Boss="0" ItemBag="" Count="200" />
+			<Monster ID="655" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="5" Boss="1" ItemBag="" Count="10" />
+			<Monster ID="712" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="2" Boss="0" ItemBag="" Count="1" />
+			<Monster ID="712" StartX="90" StartY="97" EndX="150" EndY="157" Dir="-1" SpawnDelay="0" Distance="0"  Stage="5" Boss="0" ItemBag="" Count="1" />
+        </Ground>
+	</MonsterList>
+	
+</TormentedSquare>

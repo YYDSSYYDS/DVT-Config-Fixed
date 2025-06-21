@@ -1,0 +1,200 @@
+
+<InvasionMonsters>
+	<Invasion Index="0">
+		<Monster ID="135" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="100" ItemBag="Invasion - White Wizard" 		Count="1" />
+		<Monster ID="136" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="100" ItemBag="Invasion - White Wizard: Orc" 	Count="15" />
+		<Monster ID="137" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="100" ItemBag="Invasion - White Wizard: Orc" 	Count="15" />
+		<Monster ID="135" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="1" Boss="1" AttackPercent="100" ItemBag="Invasion - White Wizard" 		Count="1" />
+		<Monster ID="136" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="1" Boss="0" AttackPercent="100" ItemBag="Invasion - White Wizard: Orc" 	Count="15" />
+		<Monster ID="137" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="1" Boss="0" AttackPercent="100" ItemBag="Invasion - White Wizard: Orc" 	Count="15" />
+		<Monster ID="135" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="2" Boss="1" AttackPercent="100" ItemBag="Invasion - White Wizard" 		Count="1" />
+		<Monster ID="136" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="2" Boss="0" AttackPercent="100" ItemBag="Invasion - White Wizard: Orc" 	Count="15" />
+		<Monster ID="137" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="2" Boss="0" AttackPercent="100" ItemBag="Invasion - White Wizard: Orc" 	Count="15" />
+	</Invasion>
+	<Invasion Index="1">		
+		<Monster ID="413" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="1" Boss="0" AttackPercent="0" ItemBag="Blue Event - Lunar Rabbit" 	Count="10" />
+		<Monster ID="413" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="2" Boss="0" AttackPercent="0" ItemBag="Blue Event - Lunar Rabbit" 	Count="10" />
+		<Monster ID="413" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="0" ItemBag="Blue Event - Lunar Rabbit" 	Count="10" />		
+		<Monster ID="413" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="3" Boss="0" AttackPercent="0" ItemBag="Blue Event - Lunar Rabbit" 	Count="10" />
+		<Monster ID="413" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="4"  Boss="0" AttackPercent="0" ItemBag="Blue Event - Lunar Rabbit" 	Count="10" />
+    </Invasion>
+
+	<Invasion Index="2">	
+		<Monster ID="55"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="2" Boss="1" AttackPercent="100" ItemBag="Underground - Skeleton King" 	Count="3" />
+		<Monster ID="56"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="2" Boss="0" AttackPercent="100" ItemBag="" 								Count="9" />
+		<Monster ID="55"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="100" ItemBag="Underground - Skeleton King" 	Count="3" />
+		<Monster ID="56"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="100" ItemBag="" 							 	Count="9" />
+		<Monster ID="55"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="1" Boss="1" AttackPercent="100" ItemBag="Underground - Skeleton King" 	Count="3" />
+		<Monster ID="56"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="1" Boss="0" AttackPercent="100" ItemBag="" 								Count="9" />	
+	 </Invasion>
+
+	<Invasion Index="3">	
+		<Monster ID="365" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="1" Boss="0" AttackPercent="0" ItemBag="New Year Event" Count="3" />		
+		<Monster ID="365" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="0" ItemBag="New Year Event" Count="3" />
+		<Monster ID="365" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="2" Boss="0" AttackPercent="0" ItemBag="New Year Event" Count="3" />
+		<Monster ID="365" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="3" Boss="0" AttackPercent="0" ItemBag="New Year Event" Count="3" />
+		<Monster ID="365" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="4" Boss="0" AttackPercent="0" ItemBag="New Year Event" Count="3" />
+		<Monster ID="365" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="5" Boss="0" AttackPercent="0" ItemBag="New Year Event" Count="3" />
+	 </Invasion>
+
+	<Invasion Index="4">	
+		<Monster ID="42"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="1" Boss="0" AttackPercent="0" ItemBag="Red Dragon" Count="1" />
+		<Monster ID="44"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="1" Boss="0" AttackPercent="0" ItemBag="Red Dragon" Count="3" />
+		<Monster ID="42"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="0" ItemBag="Red Dragon" Count="1" />
+		<Monster ID="44"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="0" ItemBag="Red Dragon" Count="3" />		
+		<Monster ID="42"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="2" Boss="0" AttackPercent="0" ItemBag="Red Dragon" Count="1" />
+		<Monster ID="44"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="2" Boss="0" AttackPercent="0" ItemBag="Red Dragon" Count="3" />
+	 </Invasion>
+
+	<Invasion Index="5">				
+		<Monster ID="463" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="0" ItemBag="Summer Event" Count="3" />
+		<Monster ID="463" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="1" Boss="0" AttackPercent="0" ItemBag="Summer Event" Count="3" />
+		<Monster ID="463" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="2" Boss="0" AttackPercent="0" ItemBag="Summer Event" Count="3" />
+		<Monster ID="463" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="3" Boss="0" AttackPercent="0" ItemBag="Summer Event" Count="3" />		
+		<Monster ID="463" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="4" Boss="0" AttackPercent="0" ItemBag="Summer Event" Count="3" />
+		<Monster ID="463" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="5" Boss="0" AttackPercent="0" ItemBag="Summer Event" Count="3" />	
+	</Invasion>
+
+	<Invasion Index="6">
+		<Monster ID="466" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="1" Boss="0" AttackPercent="100" ItemBag="Invasion - Evil Santa: Goblin" Count="9" />
+		<Monster ID="476" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="1" Boss="1" AttackPercent="100" ItemBag="Evil Santa" 					Count="1" />
+		<Monster ID="466" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="100" ItemBag="Invasion - Evil Santa: Goblin"	Count="9" />
+		<Monster ID="476" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="100" ItemBag="Evil Santa" 					Count="1" />		
+		<Monster ID="466" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="2" Boss="0" AttackPercent="100" ItemBag="Invasion - Evil Santa: Goblin" Count="9" />
+		<Monster ID="476" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="2" Boss="1" AttackPercent="100" ItemBag="Evil Santa" 					Count="1" />	
+	</Invasion>
+
+	<Invasion Index="7">
+		
+	</Invasion>
+
+	<Invasion Index="8">	
+		<Monster ID="43"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Budge Dragon" Count="1" />
+		<Monster ID="78"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Goblin" 	  Count="1" />
+		<Monster ID="494" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Devil" 		  Count="1" />		
+		<Monster ID="43"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Budge Dragon" Count="30" />
+		<Monster ID="79"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Dragon" 	  Count="30" />
+		<Monster ID="493" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Knight" 	  Count="1" />
+		<Monster ID="496" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Crust" 	 	  Count="1" />
+		<Monster ID="498" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Twin Tail" 	  Count="1" />
+		<Monster ID="501" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Great Dragon" Count="1" />
+		<Monster ID="502" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Rabbit"   	  Count="1" />
+		<Monster ID="500" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Napin" 		  Count="1" />
+		<Monster ID="499" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Iron Knight"  Count="1" />	
+		<Monster ID="495" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Stone Golem"  Count="1" />	
+		<Monster ID="82"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Tantalo" 	  Count="1" />
+		<Monster ID="83"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Wheel" 		  Count="1" />	
+		<Monster ID="497" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Satyros" 	  Count="1" />
+		<Monster ID="80"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Lizard King"  Count="1" />
+		<Monster ID="81"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Vepar" 		  Count="1" />
+		<Monster ID="43"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Budge Dragon" Count="1" />
+		<Monster ID="53"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Titan" 		  Count="1" />
+		<Monster ID="54"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Soldier" 	  Count="1" />
+	</Invasion>
+
+	<Invasion Index="9">
+		
+	 </Invasion>
+
+	<Invasion Index="10">
+		<Monster ID="675" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="4"  Boss="0" AttackPercent="0" ItemBag="" Count="4" />
+		<Monster ID="674" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="2"  Boss="0" AttackPercent="0" ItemBag="" Count="4" />
+		<Monster ID="674" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0"  Boss="0" AttackPercent="0" ItemBag="" Count="4" />
+		<Monster ID="677" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0"  Boss="0" AttackPercent="0" ItemBag="" Count="1" />
+		<Monster ID="677" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="2"  Boss="0" AttackPercent="0" ItemBag="" Count="1" />
+		<Monster ID="674" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="3"  Boss="0" AttackPercent="0" ItemBag="" Count="4" />
+		<Monster ID="677" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="3"  Boss="0" AttackPercent="0" ItemBag="" Count="1" />
+		<Monster ID="677" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="4"  Boss="0" AttackPercent="0" ItemBag="" Count="1" />
+		<Monster ID="675" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="6"  Boss="0" AttackPercent="0" ItemBag="" Count="4" />
+		<Monster ID="675" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="7"  Boss="0" AttackPercent="0" ItemBag="" Count="4" />		
+		<Monster ID="677" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="7"  Boss="0" AttackPercent="0" ItemBag="" Count="1" />
+		<Monster ID="677" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="6"  Boss="0" AttackPercent="0" ItemBag="" Count="1" />
+		<Monster ID="676" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="10" Boss="0" AttackPercent="0" ItemBag="" Count="4" />
+		<Monster ID="674" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="1"  Boss="0" AttackPercent="0" ItemBag="" Count="4" />
+		<Monster ID="675" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="5"  Boss="0" AttackPercent="0" ItemBag="" Count="4" />		
+		<Monster ID="677" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="5"  Boss="0" AttackPercent="0" ItemBag="" Count="1" />
+		<Monster ID="676" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="11" Boss="0" AttackPercent="0" ItemBag="" Count="4" />		
+		<Monster ID="677" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="11" Boss="0" AttackPercent="0" ItemBag="" Count="1" />
+		<Monster ID="677" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="10" Boss="0" AttackPercent="0" ItemBag="" Count="1" />
+		<Monster ID="677" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="1"  Boss="0" AttackPercent="0" ItemBag="" Count="1" />
+		<Monster ID="676" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="9"  Boss="0" AttackPercent="0" ItemBag="" Count="4" />		
+		<Monster ID="677" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="9"  Boss="0" AttackPercent="0" ItemBag="" Count="1" />
+		<Monster ID="676" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="8"  Boss="0" AttackPercent="0" ItemBag="" Count="4" />		
+		<Monster ID="677" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="8"  Boss="0" AttackPercent="0" ItemBag="" Count="1" />
+	 </Invasion>
+
+	<Invasion Index="11">
+	
+	 </Invasion>
+
+	<Invasion Index="12">
+		<Monster ID="652" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="0" ItemBag="" Count="3" />
+		<Monster ID="652" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="0" ItemBag="" Count="3" />
+		<Monster ID="652" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="0" ItemBag="" Count="3" />
+		<Monster ID="652" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="0" ItemBag="" Count="3" />		
+		<Monster ID="652" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="0" ItemBag="" Count="3" />
+		<Monster ID="652" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="0" ItemBag="" Count="3" />		
+		<Monster ID="652" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="0" ItemBag="" Count="3" />		
+		<Monster ID="652" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="0" ItemBag="" Count="3" />	
+		<Monster ID="652" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="0" ItemBag="" Count="3" />
+			
+	</Invasion>
+
+	<Invasion Index="13">			
+		<Monster ID="50"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="0" ItemBag="ExileTroops" Count="3" />
+		<Monster ID="150" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="0" ItemBag="ExileTroops" Count="3" />
+		<Monster ID="151" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="0" ItemBag="ExileTroops" Count="3" />
+		<Monster ID="50"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="3" Boss="0" AttackPercent="0" ItemBag="ExileTroops" Count="3" />
+		<Monster ID="150" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="3" Boss="0" AttackPercent="0" ItemBag="ExileTroops" Count="3" />
+		<Monster ID="151" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="3" Boss="0" AttackPercent="0" ItemBag="ExileTroops" Count="3" />
+		<Monster ID="50"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="6" Boss="0" AttackPercent="0" ItemBag="ExileTroops" Count="3" />
+		<Monster ID="150" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="6" Boss="0" AttackPercent="0" ItemBag="ExileTroops" Count="3" />
+		<Monster ID="151" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="6" Boss="0" AttackPercent="0" ItemBag="ExileTroops" Count="3" />		
+		<Monster ID="50"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="5" Boss="0" AttackPercent="0" ItemBag="ExileTroops" Count="3" />
+		<Monster ID="150" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="5" Boss="0" AttackPercent="0" ItemBag="ExileTroops" Count="3" />
+		<Monster ID="151" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="5" Boss="0" AttackPercent="0" ItemBag="ExileTroops" Count="3" />	
+		<Monster ID="50"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="4" Boss="0" AttackPercent="0" ItemBag="ExileTroops" Count="3" />
+		<Monster ID="150" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="4" Boss="0" AttackPercent="0" ItemBag="ExileTroops" Count="3" />
+		<Monster ID="151" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="4" Boss="0" AttackPercent="0" ItemBag="ExileTroops" Count="3" />
+		<Monster ID="50"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="2" Boss="0" AttackPercent="0" ItemBag="ExileTroops" Count="3" />
+		<Monster ID="150" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="2" Boss="0" AttackPercent="0" ItemBag="ExileTroops" Count="3" />
+		<Monster ID="151" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="2" Boss="0" AttackPercent="0" ItemBag="ExileTroops" Count="3" />
+	 </Invasion>
+
+	<Invasion Index="14">
+		
+	</Invasion>
+
+	<Invasion Index="15">
+		<Monster ID="143" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="6"  Boss="0" AttackPercent="0" ItemBag="SkeletonSorcerer" Count="5" />
+		<Monster ID="143" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="7"  Boss="0" AttackPercent="0" ItemBag="SkeletonSorcerer" Count="5" />		
+		<Monster ID="143" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0"  Boss="0" AttackPercent="0" ItemBag="SkeletonSorcerer" Count="5" />
+		<Monster ID="143" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0"  Boss="0" AttackPercent="0" ItemBag="SkeletonSorcerer" Count="5" />
+		<Monster ID="143" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="1"  Boss="0" AttackPercent="0" ItemBag="SkeletonSorcerer" Count="5" />	
+		<Monster ID="143" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="2"  Boss="0" AttackPercent="0" ItemBag="SkeletonSorcerer" Count="5" />
+		<Monster ID="143" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="3"  Boss="0" AttackPercent="0" ItemBag="SkeletonSorcerer" Count="5" />
+		<Monster ID="143" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="4"  Boss="0" AttackPercent="0" ItemBag="SkeletonSorcerer" Count="5" />
+		<Monster ID="143" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="5"  Boss="0" AttackPercent="0" ItemBag="SkeletonSorcerer" Count="5" />
+		<Monster ID="143" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="8"  Boss="0" AttackPercent="0" ItemBag="SkeletonSorcerer" Count="5" />
+		<Monster ID="143" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="9"  Boss="0" AttackPercent="0" ItemBag="SkeletonSorcerer" Count="5" />
+		<Monster ID="143" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="10" Boss="0" AttackPercent="0" ItemBag="SkeletonSorcerer" Count="5" />
+		<Monster ID="143" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="11" Boss="0" AttackPercent="0" ItemBag="SkeletonSorcerer" Count="5" />
+		<Monster ID="143" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="12" Boss="0" AttackPercent="0" ItemBag="SkeletonSorcerer" Count="5" />
+		<Monster ID="143" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="13" Boss="0" AttackPercent="0" ItemBag="SkeletonSorcerer" Count="5" />
+		<Monster ID="143" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="14" Boss="0" AttackPercent="0" ItemBag="SkeletonSorcerer" Count="5" />
+		<Monster ID="143" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="15" Boss="0" AttackPercent="0" ItemBag="SkeletonSorcerer" Count="5" />
+		<Monster ID="143" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="16" Boss="0" AttackPercent="0" ItemBag="SkeletonSorcerer" Count="5" />
+		<Monster ID="143" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="17" Boss="0" AttackPercent="0" ItemBag="SkeletonSorcerer" Count="5" />
+		<Monster ID="143" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="18" Boss="0" AttackPercent="0" ItemBag="SkeletonSorcerer" Count="5" />
+		<Monster ID="143" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="19" Boss="0" AttackPercent="0" ItemBag="SkeletonSorcerer" Count="5" />
+		<Monster ID="143" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="20" Boss="0" AttackPercent="0" ItemBag="SkeletonSorcerer" Count="5" />
+		<Monster ID="143" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="21" Boss="0" AttackPercent="0" ItemBag="SkeletonSorcerer" Count="5" />
+		<Monster ID="143" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="22" Boss="0" AttackPercent="0" ItemBag="SkeletonSorcerer" Count="5" />
+		<Monster ID="143" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="23" Boss="0" AttackPercent="0" ItemBag="SkeletonSorcerer" Count="5" />
+		<Monster ID="143" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="24" Boss="0" AttackPercent="0" ItemBag="SkeletonSorcerer" Count="5" />
+		<Monster ID="143" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="25" Boss="0" AttackPercent="0" ItemBag="SkeletonSorcerer" Count="5" />
+		<Monster ID="143" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="26" Boss="0" AttackPercent="0" ItemBag="SkeletonSorcerer" Count="5" />
+		<Monster ID="143" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="27" Boss="0" AttackPercent="0" ItemBag="SkeletonSorcerer" Count="5" />
+		<Monster ID="143" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="28" Boss="0" AttackPercent="0" ItemBag="SkeletonSorcerer" Count="5" />		
+	</Invasion>
+</InvasionMonsters>

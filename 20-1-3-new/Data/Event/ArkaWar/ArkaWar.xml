@@ -1,0 +1,179 @@
+
+
+<ArkaWar Enabled="1" DamageReductionAlly="100" DamageReductionEnemy="100" MinGuilds="1" RegisterMinMembers="1" RegisterMaxMembers="80" Duration="30">
+
+	<Schedule>
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="4" Hour="22" Minute="0" Second="-1" />
+	</Schedule>
+	
+	<StateSettings>
+		<State Index="0"  Duration="0" />
+		<State Index="1"  Duration="0" />
+		<State Index="2"  Duration="0" />
+		<State Index="3"  Duration="60" />
+		<State Index="4"  Duration="60" />
+		<State Index="5"  Duration="60" />
+		<State Index="6"  Duration="60" />
+		<State Index="7"  Duration="1800" />
+		<State Index="8"  Duration="30" />
+		<State Index="9"  Duration="30" />
+		<State Index="10" Duration="30" />
+	</StateSettings>
+	
+	<ObeliskSettings>
+		<Obelisk Index="0"	World="92"	PosX="89"	PosY="41"	Life="5000000"	OccupyLife="3000000"/>
+		<Obelisk Index="1"	World="92"	PosX="188"	PosY="101"	Life="5000000"	OccupyLife="3000000"/>
+		<Obelisk Index="2"	World="96"	PosX="162"	PosY="54"	Life="5000000"	OccupyLife="3000000"/>
+		<Obelisk Index="3"	World="-1"	PosX="-1"	PosY="-1"	Life="0"		OccupyLife="0"/>
+		<Obelisk Index="4"	World="-1"	PosX="-1"	PosY="-1"	Life="0"		OccupyLife="0"/>
+	</ObeliskSettings>
+	
+	<AuraSettings>
+		<Aura ObeliskIndex="0"	AuraIndex="0" World="92" PosX="89"  PosY="58" />
+		<Aura ObeliskIndex="0"	AuraIndex="1" World="92" PosX="84"  PosY="30" />
+		<Aura ObeliskIndex="0"	AuraIndex="2" World="92" PosX="104" PosY="36" />
+		
+		<Aura ObeliskIndex="1"	AuraIndex="0" World="92" PosX="175" PosY="102"/>
+		<Aura ObeliskIndex="1"	AuraIndex="1" World="92" PosX="192" PosY="110"/>
+		<Aura ObeliskIndex="1"	AuraIndex="2" World="92" PosX="200" PosY="96" />
+		
+		<Aura ObeliskIndex="2"	AuraIndex="0" World="96" PosX="154" PosY="60" />
+		<Aura ObeliskIndex="2"	AuraIndex="1" World="96" PosX="162" PosY="45" />
+		<Aura ObeliskIndex="2"	AuraIndex="2" World="96" PosX="165" PosY="67" />
+		
+		<Aura ObeliskIndex="3"	AuraIndex="0" World="-1" PosX="-1"  PosY="-1" />
+		<Aura ObeliskIndex="3"	AuraIndex="1" World="-1" PosX="-1"  PosY="-1" />
+		<Aura ObeliskIndex="3"	AuraIndex="2" World="-1" PosX="-1"  PosY="-1" />
+		
+		<Aura ObeliskIndex="4"	AuraIndex="0" World="-1" PosX="-1"  PosY="-1" />
+		<Aura ObeliskIndex="4"	AuraIndex="1" World="-1" PosX="-1"  PosY="-1" />
+		<Aura ObeliskIndex="4"	AuraIndex="2" World="-1" PosX="-1"  PosY="-1" />
+	</AuraSettings>
+	
+	<MonsterSettings>
+		<MonsterInfo Index="0"	World="92"	Count="10"	ResPawnTime="10" />
+		<MonsterInfo Index="1"	World="92"	Count="10"	ResPawnTime="10" />
+		<MonsterInfo Index="2"	World="96"	Count="10"	ResPawnTime="10" />
+		<MonsterInfo Index="3"	World="-1"	Count="0"	ResPawnTime="0" />
+		<MonsterInfo Index="4"	World="-1"	Count="0"	ResPawnTime="0" />
+	</MonsterSettings>
+	
+	<MonsterRespawn>
+		<Respawn AreaIndex="0"	PosX1="77"	PosY1="31"	PosX2="87"	PosY2="38"  />
+		<Respawn AreaIndex="0"	PosX1="84"	PosY1="43"	PosX2="98"	PosY2="45"  />
+		<Respawn AreaIndex="0"	PosX1="90"	PosY1="39"	PosX2="97"	PosY2="45"  />
+		<Respawn AreaIndex="0"	PosX1="87"	PosY1="48"	PosX2="98"	PosY2="55"  />
+		<Respawn AreaIndex="1"	PosX1="178"	PosY1="101"	PosX2="190"	PosY2="100" />
+		<Respawn AreaIndex="1"	PosX1="188"	PosY1="94"	PosX2="201"	PosY2="98"  />
+		<Respawn AreaIndex="1"	PosX1="173"	PosY1="101"	PosX2="188"	PosY2="105" />
+		<Respawn AreaIndex="1"	PosX1="186"	PosY1="89"	PosX2="195"	PosY2="99"  />
+		<Respawn AreaIndex="2"	PosX1="152"	PosY1="58"	PosX2="156"	PosY2="62"  />
+		<Respawn AreaIndex="2"	PosX1="161"	PosY1="43"	PosX2="164"	PosY2="46"  />
+		<Respawn AreaIndex="2"	PosX1="164"	PosY1="65"	PosX2="167"	PosY2="68"  />
+		<Respawn AreaIndex="2"	PosX1="160"	PosY1="52"	PosX2="164"	PosY2="56"  />
+		<Respawn AreaIndex="3"	PosX1="0"	PosY1="0"	PosX2="0"	PosY2="0"   />
+		<Respawn AreaIndex="3"	PosX1="0"	PosY1="0"	PosX2="0"	PosY2="0"   />
+		<Respawn AreaIndex="3"	PosX1="0"	PosY1="0"	PosX2="0"	PosY2="0"   />
+		<Respawn AreaIndex="3"	PosX1="0"	PosY1="0"	PosX2="0"	PosY2="0"   />
+		<Respawn AreaIndex="4"	PosX1="0"	PosY1="0"	PosX2="0"	PosY2="0"   />
+		<Respawn AreaIndex="4"	PosX1="0"	PosY1="0"	PosX2="0"	PosY2="0"   />
+		<Respawn AreaIndex="4"	PosX1="0"	PosY1="0"	PosX2="0"	PosY2="0"   />
+		<Respawn AreaIndex="4"	PosX1="0"	PosY1="0"	PosX2="0"	PosY2="0"   />
+	</MonsterRespawn>
+	
+	<MonsterList>
+		<Monster AreaIndex="0"	MonsterID="592" />
+		<Monster AreaIndex="0"	MonsterID="593" />
+		<Monster AreaIndex="0"	MonsterID="594" />
+		<Monster AreaIndex="0"	MonsterID="595" />
+		<Monster AreaIndex="0"	MonsterID="596" />
+		<Monster AreaIndex="1"	MonsterID="592" />
+		<Monster AreaIndex="1"	MonsterID="593" />
+		<Monster AreaIndex="1"	MonsterID="594" />
+		<Monster AreaIndex="1"	MonsterID="595" />
+		<Monster AreaIndex="1"	MonsterID="596" />
+		<Monster AreaIndex="2"	MonsterID="611" />
+		<Monster AreaIndex="2"	MonsterID="612" />
+		<Monster AreaIndex="2"	MonsterID="613" />
+		<Monster AreaIndex="2"	MonsterID="614" />
+		<Monster AreaIndex="2"	MonsterID="615" />
+		<Monster AreaIndex="3"	MonsterID="0"   />
+		<Monster AreaIndex="3"	MonsterID="0"   />
+		<Monster AreaIndex="3"	MonsterID="0"   />
+		<Monster AreaIndex="3"	MonsterID="0"   />
+		<Monster AreaIndex="3"	MonsterID="0"   />
+		<Monster AreaIndex="4"	MonsterID="0"   />
+		<Monster AreaIndex="4"	MonsterID="0"   />
+		<Monster AreaIndex="4"	MonsterID="0"   />
+		<Monster AreaIndex="4"	MonsterID="0"   />
+		<Monster AreaIndex="4"	MonsterID="0"   />
+	</MonsterList>
+	
+	<PlayerPosition>
+		<Player AreIndex="0" World="92"	StartX="77"	 StartY="118"	EndX="87"	EndY="130" />
+		<Player AreIndex="0" World="92"	StartX="110" StartY="153"	EndX="123"	EndY="163" />
+		<Player AreIndex="0" World="92"	StartX="133" StartY="139"	EndX="145"	EndY="150" />
+		<Player AreIndex="0" World="92"	StartX="169" StartY="37"	EndX="179"	EndY="47"  />
+		<Player AreIndex="0" World="92"	StartX="12"	 StartY="18"	EndX="25"	EndY="34"  />
+		<Player AreIndex="1" World="92"	StartX="237" StartY="42"	EndX="246"	EndY="53"  />
+		<Player AreIndex="1" World="92"	StartX="207" StartY="205"	EndX="218"	EndY="214" />
+		<Player AreIndex="1" World="92"	StartX="167" StartY="199"	EndX="175"	EndY="211" />
+		<Player AreIndex="1" World="92"	StartX="151" StartY="198"	EndX="156"	EndY="200" />
+		<Player AreIndex="1" World="92"	StartX="185" StartY="148"	EndX="194"	EndY="157" />
+		<Player AreIndex="2" World="96"	StartX="57"	 StartY="80"	EndX="77"	EndY="94"  />
+		<Player AreIndex="2" World="96"	StartX="109" StartY="47"	EndX="126"	EndY="64"  />
+		<Player AreIndex="2" World="96"	StartX="60"	 StartY="26"	EndX="84"	EndY="37"  />
+		<Player AreIndex="2" World="96"	StartX="143" StartY="89"	EndX="163"	EndY="104" />
+		<Player AreIndex="2" World="96"	StartX="169" StartY="15"	EndX="187"	EndY="28"  />
+		<Player AreIndex="3" World="-1"	StartX="-1"	 StartY="-1"	EndX="-1"	EndY="-1"  />
+		<Player AreIndex="3" World="-1"	StartX="-1"	 StartY="-1"	EndX="-1"	EndY="-1"  />
+		<Player AreIndex="3" World="-1"	StartX="-1"	 StartY="-1"	EndX="-1"	EndY="-1"  />
+		<Player AreIndex="3" World="-1"	StartX="-1"	 StartY="-1"	EndX="-1"	EndY="-1"  />
+		<Player AreIndex="3" World="-1"	StartX="-1"	 StartY="-1"	EndX="-1"	EndY="-1"  />
+		<Player AreIndex="4" World="-1"	StartX="-1"	 StartY="-1"	EndX="-1"	EndY="-1"  />
+		<Player AreIndex="4" World="-1"	StartX="-1"	 StartY="-1"	EndX="-1"	EndY="-1"  />
+		<Player AreIndex="4" World="-1"	StartX="-1"	 StartY="-1"	EndX="-1"	EndY="-1"  />
+		<Player AreIndex="4" World="-1"	StartX="-1"	 StartY="-1"	EndX="-1"	EndY="-1"  />
+		<Player AreIndex="4" World="-1"	StartX="-1"	 StartY="-1"	EndX="-1"	EndY="-1"  />
+	</PlayerPosition>
+	
+	<RewardExperience>
+		<Experience KillPointsMin="0"	KillPointsMax="10"	Exp="300000" />
+		<Experience KillPointsMin="11"	KillPointsMax="50"	Exp="500000" />
+		<Experience KillPointsMin="51"	KillPointsMax="100"	Exp="700000" />
+		<Experience KillPointsMin="101"	KillPointsMax="300"	Exp="1000000" />
+		<Experience KillPointsMin="301"	KillPointsMax="500"	Exp="2000000" />
+		<Experience KillPointsMin="501"	KillPointsMax="-1"	Exp="3000000" />
+	</RewardExperience>
+	
+	<TrophySettings>
+		<Trophy TrophyMin="1"  TrophyMax="10"  SuccessRate="55" AddSuccessRate="5" ItemBag="ArkaWar Booty (1)"  />
+		<Trophy TrophyMin="11" TrophyMax="20"  SuccessRate="55" AddSuccessRate="5" ItemBag="ArkaWar Booty (2)"  />
+		<Trophy TrophyMin="21" TrophyMax="30"  SuccessRate="55" AddSuccessRate="5" ItemBag="ArkaWar Booty (3)"  />
+		<Trophy TrophyMin="31" TrophyMax="40"  SuccessRate="55" AddSuccessRate="5" ItemBag="ArkaWar Booty (4)"  />
+		<Trophy TrophyMin="41" TrophyMax="50"  SuccessRate="50" AddSuccessRate="5" ItemBag="ArkaWar Booty (5)"  />
+		<Trophy TrophyMin="51" TrophyMax="60"  SuccessRate="50" AddSuccessRate="5" ItemBag="ArkaWar Booty (6)"  />
+		<Trophy TrophyMin="61" TrophyMax="70"  SuccessRate="50" AddSuccessRate="5" ItemBag="ArkaWar Booty (7)"  />
+		<Trophy TrophyMin="71" TrophyMax="80"  SuccessRate="45" AddSuccessRate="5" ItemBag="ArkaWar Booty (8)"  />
+		<Trophy TrophyMin="81" TrophyMax="90"  SuccessRate="45" AddSuccessRate="5" ItemBag="ArkaWar Booty (9)"  />
+		<Trophy TrophyMin="91" TrophyMax="100" SuccessRate="45" AddSuccessRate="5" ItemBag="ArkaWar Booty (10)" />
+	</TrophySettings>
+	
+	<ObeliskData>
+		<Data ID="0" MonsterID="598" Element="1" />
+		<Data ID="1" MonsterID="599" Element="2" />
+		<Data ID="2" MonsterID="600" Element="3" />
+		<Data ID="3" MonsterID="601" Element="4" />
+		<Data ID="4" MonsterID="602" Element="5" />
+	</ObeliskData>
+	
+	<BuffData>
+		<Data ID="0" BuffID="179" Element="1" />
+		<Data ID="1" BuffID="180" Element="2" />
+		<Data ID="2" BuffID="182" Element="3" />
+		<Data ID="3" BuffID="181" Element="4" />
+		<Data ID="4" BuffID="183" Element="5" />
+	</BuffData>
+	
+</ArkaWar>
+

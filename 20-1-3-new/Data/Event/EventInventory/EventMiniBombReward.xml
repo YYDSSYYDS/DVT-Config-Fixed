@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==            File Name: EventMiniBombReward              ==
+// ============================================================
+-->
+
+<EventMiniBombReward>
+	<Data ScoreMin="0" ScoreMax="150" ItemID="7542" Level="0" />
+	<Data ScoreMin="151" ScoreMax="850" ItemID="7543" Level="0" />
+	<Data ScoreMin="851" ScoreMax="1100" ItemID="7544" Level="0" />
+	<Data ScoreMin="1100" ScoreMax="9999" ItemID="7545" Level="0" />
+</EventMiniBombReward>

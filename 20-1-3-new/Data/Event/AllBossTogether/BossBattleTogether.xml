@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==             File Name: BossBattleTogether              ==
+// ============================================================
+-->
+
+<BossBattleTogether Enable="1" MaxUser="100" DamageToSuccess="1000000" EventEnterCount="40">
+	<Time ToOpen="120" ToStart="60" PlayDuration="300" ToClose="30" />
+	
+	<Schedule>
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="1" Minute="56" Second="-1" />
+	</Schedule>
+	
+	<RewardList>
+		<Reward Mission="0" Cat1="20" Index1="78" Count1="1" Cat2="20" Index2="110" Count2="1" Cat3="-1" Index3="-1" Count3="0" /> <!-- Accumulate specific value of damage caused -->
+		<Reward Mission="1" Cat1="20" Index1="110" Count1="1" Cat2="-1" Index2="-1" Count2="0" Cat3="-1" Index3="-1" Count3="0" /> <!-- Highest total damage caused during the event -->
+		<Reward Mission="2" Cat1="20" Index1="110" Count1="1" Cat2="-1" Index2="-1" Count2="0" Cat3="-1" Index3="-1" Count3="0" /> <!-- Last hit caused to final (second) boss monster -->
+	</RewardList>
+</BossBattleTogether>

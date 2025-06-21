@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ============================================================
+//
+// ### ChaosCastleSurvival::Monster ###
+//	Index: Index of Monster
+//	MapNumber: Number of Map to spawn the Monster
+//	Distance: Range to spawn the monster from StartX and StartY coordinates
+//	StartX: Start X coordinate to spawn Monster
+//	StartY: Start Y coordinate to spawn Monster
+//	Dir: Location the Monster looks at after spawn
+//		~ 0: Central
+//		~ 1: South-West
+//		~ 2: South
+//		~ 3: South-East
+//		~ 4: East
+//		~ 5: North-East
+//		~ 6: North
+//		~ 7: North-West
+//		~ 8: West
+//		~ -1: Random
+//
+// STRICTLY NO COMMENTS INSIDE TAGS 
+-->
+
+<BossBattleTogether>		
+	<Monster Index="919" MapNumber="139" Distance="30" StartX="120" StartY="152" Dir="-1" />
+	<Monster Index="921" MapNumber="139" Distance="30" StartX="120" StartY="152" Dir="-1" />
+	<Monster Index="922" MapNumber="139" Distance="30" StartX="120" StartY="152" Dir="-1" />
+	<Monster Index="923" MapNumber="139" Distance="30" StartX="120" StartY="152" Dir="-1" />
+	<Monster Index="924" MapNumber="139" Distance="30" StartX="120" StartY="152" Dir="-1" />	
+</BossBattleTogether>

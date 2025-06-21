@@ -1,0 +1,44 @@
+<!--
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ============================================================
+//
+// ### RaklionEvent ###
+//	Enable: Deactivates or activates the event, 0/1
+//
+// ### RaklionEvent::Time ###
+//	SelupanSkillHitDelay: Delay between Selupan's hit, milliseconds
+//	BossAppearance: Time in which Selupan will appear after killing Eggs, seconds
+//	BossZoneClose: Time in which the event entry will be closed after Selupan's appearance, seconds
+//	EventStartBaseHour: The base number of hours to restart the event after successful completion, minimum value is 1
+//	EventStartAddHour: The add hour is a random number from the set value, minimum value is 0
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ RegenTime = EventStartBaseHour + (RandomValue of EventStartAddHour)
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+// ### RaklionEvent::EggCount ###
+//	Half: 
+//	Max: 
+//
+
+//
+// STRICTLY NO COMMENTS INSIDE TAGS 
+-->
+
+<RaklionEvent Enable="1" FailTimeMin="300" >
+
+	<Time SelupanSkillHitDelay="1500" EventStartBaseHour="18" EventStartAddHour="6" />
+	
+	<EggCount Half="5" Max="15" />	
+	
+	<RaklionStateSettings>
+		<State Index = "1" Duration="300"  EntraceAllowed = "0" PKAllowed="1" /> 
+		<State Index = "2" Duration="600"  EntraceAllowed = "1" PKAllowed="1" /> 
+		<State Index = "3" Duration="300"  EntraceAllowed = "1" PKAllowed="1" />
+		<State Index = "4" Duration="10"   EntraceAllowed = "1" PKAllowed="1" />
+		<State Index = "5" Duration="7200" EntraceAllowed = "1" PKAllowed="1" />
+		<State Index = "6" Duration="120"  EntraceAllowed = "0" PKAllowed="1" />
+	</RaklionStateSettings>
+	
+</RaklionEvent>
