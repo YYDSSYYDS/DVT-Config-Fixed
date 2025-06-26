@@ -111,6 +111,14 @@ function BridgeFunctionAttach(BridgeName,FunctionName)
 
 		if BridgeFunctionTable[21] == nil then BridgeFunctionTable[21] = {} end
 		table.insert(BridgeFunctionTable[21],{Function=FunctionName})
+	elseif BridgeName == "OnUserBuyitem" then
+
+		if BridgeFunctionTable[22] == nil then BridgeFunctionTable[22] = {} end
+		table.insert(BridgeFunctionTable[22],{Function=FunctionName})
+	elseif BridgeName == "OnUserSellitem" then
+
+		if BridgeFunctionTable[23] == nil then BridgeFunctionTable[23] = {} end
+		table.insert(BridgeFunctionTable[23],{Function=FunctionName})
 
 	end
 
@@ -227,7 +235,7 @@ function BridgeFunction_OnNpcTalk(aIndex,bIndex)
 
 	end
 
-	return 1
+	return 0
 
 end
 
@@ -403,24 +411,6 @@ function BridgeFunction_OnUserItemMove(aIndex, aFlag, aSlot, bFlag, bSlot, state
 
 end
 
-function BridgeFunction_OnUserTeleport(aIndex,Map,Gate)---Gate allow nil
-
-	if BridgeFunctionTable[21] ~= nil then
-
-		for n=1,#BridgeFunctionTable[21],1 do
-
-			local ret = _G[BridgeFunctionTable[21][n].Function](aIndex,Map,Gate)
-
-			if ret == 0 then return 0 end
-
-		end
-
-	end
-
-	return 1
-
-end
-
 function BridgeFunction_OnCommandDone(aIndex, code)
 
 	if BridgeFunctionTable[18] ~= nil then
@@ -471,3 +461,56 @@ function BridgeFunction_OnUserGiveExp(aIndex,ExpValue)
 
 end
 
+function BridgeFunction_OnUserTeleport(aIndex,Map,Gate)---Gate allow nil
+
+	if BridgeFunctionTable[21] ~= nil then
+
+		for n=1,#BridgeFunctionTable[21],1 do
+
+			local ret = _G[BridgeFunctionTable[21][n].Function](aIndex,Map,Gate)
+
+			if ret == 0 then return 0 end
+
+		end
+
+	end
+
+	return 1
+
+end
+--developing
+function BridgeFunction_OnUserBuyitem(aIndex,bIndex,ItemTable)--aIndex User,bIndex Shop Npc Index,return 1: Player can buy it, return 0: Player can not buy it.
+
+	if BridgeFunctionTable[22] ~= nil then
+
+		for n=1,#BridgeFunctionTable[22],1 do
+
+			local ret = _G[BridgeFunctionTable[22][n].Function](aIndex,bIndex,ItemTable)
+
+			if ret ~= 0 then return 0 end
+
+		end
+
+	end
+
+	return 1
+
+end
+
+function BridgeFunction_OnUserBuyitem(aIndex,bIndex,ItemTable,ItemSlot)--aIndex User,bIndex Shop Npc Index,return 1: Player can sell it, return 0: Player can not sell it.
+
+	if BridgeFunctionTable[23] ~= nil then
+
+		for n=1,#BridgeFunctionTable[23],1 do
+
+			local ret = _G[BridgeFunctionTable[23][n].Function](aIndex,bIndex,ItemTable,ItemSlot)
+
+			if ret ~= 0 then return 0 end
+
+		end
+
+	end
+
+	return 1
+
+end
