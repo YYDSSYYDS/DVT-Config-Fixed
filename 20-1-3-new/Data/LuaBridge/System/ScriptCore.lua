@@ -487,17 +487,17 @@ function BridgeFunction_OnUserBuyitem(aIndex,bIndex,ItemTable)--aIndex User,bInd
 
 			local ret = _G[BridgeFunctionTable[22][n].Function](aIndex,bIndex,ItemTable)
 
-			if ret ~= 0 then return 0 end
+			if ret ~= 0 then return 1 end
 
 		end
 
 	end
 
-	return 1
+	return 0
 
 end
 
-function BridgeFunction_OnUserBuyitem(aIndex,bIndex,ItemTable,ItemSlot)--aIndex User,bIndex Shop Npc Index,return 1: Player can sell it, return 0: Player can not sell it.
+function BridgeFunction_OnUserSellitem(aIndex,bIndex,ItemTable,ItemSlot)--aIndex User,bIndex Shop Npc Index,return 1: Player can sell it, return 0: Player can not sell it.
 
 	if BridgeFunctionTable[23] ~= nil then
 
@@ -505,12 +505,12 @@ function BridgeFunction_OnUserBuyitem(aIndex,bIndex,ItemTable,ItemSlot)--aIndex 
 
 			local ret = _G[BridgeFunctionTable[23][n].Function](aIndex,bIndex,ItemTable,ItemSlot)
 
-			if ret ~= 0 then return 0 end
+			if ret ~= 0 then return 1 end
 
 		end
 
 	end
 
-	return 1
+	return 0
 
 end
