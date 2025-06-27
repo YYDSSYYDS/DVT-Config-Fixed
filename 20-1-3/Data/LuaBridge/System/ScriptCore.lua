@@ -179,13 +179,13 @@ function BridgeFunction_OnCommandManager(aIndex,cmdtype,code,arg)
 
 			local ret = _G[BridgeFunctionTable[4][n].Function](aIndex,cmdtype,code,arg)
 
-			if ret ~= 0 then return 1 end
+			if ret == 0 then return 0 end
 
 		end
 
 	end
 
-	return 0
+	return 1
 
 end
 
@@ -229,13 +229,13 @@ function BridgeFunction_OnNpcTalk(aIndex,bIndex)
 
 			local ret = _G[BridgeFunctionTable[7][n].Function](aIndex,bIndex)
 
-			if ret ~= 0 then return 1 end
+			if ret == 0 then return 0 end
 
 		end
 
 	end
 
-	return 0
+	return 1
 
 end
 
@@ -437,13 +437,13 @@ function BridgeFunction_OnAdminCommandManager(aIndex,cmdtype,code,arg)
 
 			local ret = _G[BridgeFunctionTable[19][n].Function](aIndex,cmdtype,code,arg)
 
-			if ret ~= 0 then return 1 end
+			if ret == 0 then return 0 end
 
 		end
 
 	end
 
-	return 0
+	return 1
 
 end
 
@@ -487,13 +487,13 @@ function BridgeFunction_OnUserBuyitem(aIndex,bIndex,ItemTable)--aIndex User,bInd
 
 			local ret = _G[BridgeFunctionTable[22][n].Function](aIndex,bIndex,ItemTable)
 
-			if ret ~= 0 then return 1 end
+			if ret == 0 then return 0 end
 
 		end
 
 	end
 
-	return 0
+	return 1
 
 end
 
@@ -505,12 +505,12 @@ function BridgeFunction_OnUserSellitem(aIndex,bIndex,ItemTable,ItemSlot)--aIndex
 
 			local ret = _G[BridgeFunctionTable[23][n].Function](aIndex,bIndex,ItemTable,ItemSlot)
 
-			if ret ~= 0 then return 1 end
+			if ret == 0 then return 1 end
 
 		end
 
 	end
 
-	return 0
+	return 1
 
 end
