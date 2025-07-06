@@ -1,0 +1,133 @@
+
+<CastleSiege Enabled="1" CrownTime="100" LordMixMax="100" MachineEnabled="1" ParticipantRewardMinutes="1" ReduceDamageDifSide="100" ReduceDamageSameSide="1000" >
+
+	<Register RegisterEnabled="1" RegisterSignEnabled="1" RegisterMinLevel="1" RegisterMinMembers="1"  />
+	
+	<StateTimeSettings>
+		<StateTime Index="0" Day="0" Hour="19" Minute="1"  /> <!--StandBy Period-->
+		<StateTime Index="1" Day="0" Hour="19" Minute="4"  /> <!--Registration PeriodTruce-->
+		<StateTime Index="2" Day="0" Hour="19" Minute="6"  /> <!--State of Truce-->
+		<StateTime Index="3" Day="0" Hour="19" Minute="8"  /> <!--Mark of Lord Registration Period-->
+		<StateTime Index="4" Day="0" Hour="19" Minute="9"  /> <!--State of Truce-->
+		<StateTime Index="5" Day="0" Hour="19" Minute="12" /> <!--Attacking Clans Notification Period-->
+		<StateTime Index="6" Day="0" Hour="19" Minute="14" /> <!--Event Preparation Period-->
+		<StateTime Index="7" Day="0" Hour="19" Minute="15" /> <!--Event Start Period-->
+		<StateTime Index="8" Day="0" Hour="19" Minute="40" /> <!--Event Completion Period-->
+		<StateTime Index="9" Day="1" Hour="0"  Minute="0"  /> <!--End of Cycle-->
+	</StateTimeSettings>
+	
+	<NpcSettings>
+		<NPC Monster="283" ID="1" StoreInDB="1" Side="1" PosX="94"	PosY="227"	Dir="1" />	<!--Guardian Statue-->
+		<NPC Monster="283" ID="2" StoreInDB="1" Side="1" PosX="94"	PosY="182"	Dir="1" />	<!--Guardian Statue-->
+		<NPC Monster="283" ID="3" StoreInDB="1" Side="1" PosX="82"	PosY="130"	Dir="1" />	<!--Guardian Statue-->
+		<NPC Monster="283" ID="4" StoreInDB="1" Side="1" PosX="107" PosY="130"	Dir="1" />	<!--Guardian Statue-->
+		<NPC Monster="277" ID="1" StoreInDB="1" Side="1" PosX="93"	PosY="204"	Dir="1" />	<!--Castle Gate-->
+		<NPC Monster="277" ID="2" StoreInDB="1" Side="1" PosX="81"	PosY="161"	Dir="1" />	<!--Castle Gate-->
+		<NPC Monster="277" ID="3" StoreInDB="1" Side="1" PosX="107" PosY="161"	Dir="1" />	<!--Castle Gate-->
+		<NPC Monster="277" ID="4" StoreInDB="1" Side="1" PosX="67"	PosY="114"	Dir="1" />	<!--Castle Gate-->
+		<NPC Monster="277" ID="5" StoreInDB="1" Side="1" PosX="93"	PosY="114"	Dir="1" />	<!--Castle Gate-->
+		<NPC Monster="277" ID="6" StoreInDB="1" Side="1" PosX="119" PosY="114"	Dir="1" />	<!--Castle Gate-->
+		<NPC Monster="219" ID="1" StoreInDB="1" Side="1" PosX="93"	PosY="208"	Dir="1" />	<!--Castle Gate Lever-->
+		<NPC Monster="219" ID="2" StoreInDB="1" Side="1" PosX="81"	PosY="165"	Dir="1" />	<!--Castle Gate Lever-->
+		<NPC Monster="219" ID="3" StoreInDB="1" Side="1" PosX="107" PosY="165"	Dir="1" />	<!--Castle Gate Lever-->
+		<NPC Monster="219" ID="4" StoreInDB="1" Side="1" PosX="67"	PosY="118"	Dir="1" />	<!--Castle Gate Lever-->
+		<NPC Monster="219" ID="5" StoreInDB="1" Side="1" PosX="93"	PosY="118"	Dir="1" />	<!--Castle Gate Lever-->
+		<NPC Monster="219" ID="6" StoreInDB="1" Side="1" PosX="119" PosY="118"	Dir="1" />	<!--Castle Gate Lever-->
+		<NPC Monster="288" ID="1" StoreInDB="0" Side="1" PosX="75"	PosY="130"	Dir="1" />	<!--Canon Tower-->
+		<NPC Monster="288" ID="2" StoreInDB="0" Side="1" PosX="88"	PosY="130"	Dir="1" />	<!--Canon Tower-->
+		<NPC Monster="288" ID="3" StoreInDB="0" Side="1" PosX="99"	PosY="130"	Dir="1" />	<!--Canon Tower-->
+		<NPC Monster="288" ID="4" StoreInDB="0" Side="1" PosX="114" PosY="130"	Dir="1" />	<!--Canon Tower-->
+		<NPC Monster="288" ID="5" StoreInDB="0" Side="1" PosX="94"	PosY="151"	Dir="1" />	<!--Canon Tower-->
+		<NPC Monster="288" ID="6" StoreInDB="0" Side="1" PosX="88"	PosY="182"	Dir="1" />	<!--Canon Tower-->
+		<NPC Monster="288" ID="7" StoreInDB="0" Side="1" PosX="100" PosY="182"	Dir="1" />	<!--Canon Tower-->
+		<NPC Monster="288" ID="8" StoreInDB="0" Side="1" PosX="94"	PosY="221"	Dir="1" />	<!--Canon Tower-->
+		<NPC Monster="288" ID="9" StoreInDB="0" Side="1" PosX="94"	PosY="233"	Dir="1" />	<!--Canon Tower-->
+		<NPC Monster="215" ID="1" StoreInDB="0" Side="1" PosX="94"	PosY="242"	Dir="1" />	<!--Shield-->
+		<NPC Monster="222" ID="1" StoreInDB="0" Side="1" PosX="80"	PosY="188"	Dir="1" />	<!--Slingshot Defense-->
+		<NPC Monster="222" ID="2" StoreInDB="0" Side="1" PosX="105" PosY="188"	Dir="1" />	<!--Slingshot Defense-->
+		<NPC Monster="221" ID="1" StoreInDB="0" Side="2" PosX="63"  PosY="19"	Dir="5" />	<!--Slingshot Attack-->
+		<NPC Monster="221" ID="2" StoreInDB="0" Side="2" PosX="119" PosY="19"	Dir="5" />	<!--Slingshot Attack-->
+		<NPC Monster="216" ID="1" StoreInDB="0" Side="2" PosX="176" PosY="212"	Dir="1" />	<!-- Crown-->
+		<NPC Monster="217" ID="1" StoreInDB="0" Side="2" PosX="167" PosY="194"	Dir="7" />	<!-- Crown Switch 1-->
+		<NPC Monster="218" ID="1" StoreInDB="0" Side="2" PosX="185" PosY="194"	Dir="7" />	<!-- Crown Switch 2-->
+	</NpcSettings>
+	
+	<NpcBuyPriceSettings>
+		<BuyPrice Type="0" Price="9500000" />
+		<BuyPrice Type="1" Price="4500000" />
+	</NpcBuyPriceSettings>
+	
+	<GateDefenseSettings>
+		<Gate Level="0" JewelCount="0"	ReqZen="0"		 Defense="100" />
+		<Gate Level="1" JewelCount="2"	ReqZen="3000000" Defense="180" />
+		<Gate Level="2" JewelCount="3"	ReqZen="3000000" Defense="300" />
+		<Gate Level="3" JewelCount="4"	ReqZen="3000000" Defense="520" />
+	</GateDefenseSettings>
+	
+	<StatueDefenseSettings>
+		<Statue Level="0"	JewelCount="0"	ReqZen="0"		 Defense="80" />
+		<Statue Level="1"	JewelCount="3"	ReqZen="3000000" Defense="180" /> 
+		<Statue Level="2"	JewelCount="5"	ReqZen="3000000" Defense="340" />
+		<Statue Level="3"	JewelCount="7"	ReqZen="3000000" Defense="550" />
+	</StatueDefenseSettings>
+	
+	<GateLifeSettings>
+		<Gate Level="0"	JewelCount="0"	ReqZen="0"			Life="1900000" />
+		<Gate Level="1"	JewelCount="2"	ReqZen="1000000"	Life="2500000" />
+		<Gate Level="2"	JewelCount="3"	ReqZen="1000000"	Life="3500000" />
+		<Gate Level="3"	JewelCount="4"	ReqZen="1000000"	Life="5200000" />
+	</GateLifeSettings>
+	
+	<StatueLifeSettings>
+		<Statue Level="0"	JewelCount="0"	ReqZen="0"			Life="1500000" />
+		<Statue Level="1"	JewelCount="3"	ReqZen="1000000"	Life="2200000" />
+		<Statue Level="2"	JewelCount="5"	ReqZen="1000000"	Life="3400000" />
+		<Statue Level="3"	JewelCount="7"	ReqZen="1000000"	Life="5000000" />
+	</StatueLifeSettings>
+	
+	<StatueLifeRegenSettings>
+		<Statue Level="0"	JewelCount="0"	ReqZen="0"		 />
+		<Statue Level="1"	JewelCount="3"	ReqZen="5000000" />
+		<Statue Level="2"	JewelCount="5"	ReqZen="5000000" />
+		<Statue Level="3"	JewelCount="7"	ReqZen="5000000" />
+	</StatueLifeRegenSettings>
+	
+	<MonsterList WorldID="30">		 
+		<Monster ID="283" StartX="94"  StartY="227" EndX="94"  EndY="227" Dir="1" Id="1" ItemBag="" Count="1" />
+		<Monster ID="283" StartX="94"  StartY="182" EndX="94"  EndY="182" Dir="1" Id="2" ItemBag="" Count="1" />
+		<Monster ID="283" StartX="82"  StartY="130" EndX="82"  EndY="130" Dir="1" Id="3" ItemBag="" Count="1" />
+		<Monster ID="283" StartX="107" StartY="130" EndX="107" EndY="130" Dir="1" Id="4" ItemBag="" Count="1" />
+		<Monster ID="277" StartX="93"  StartY="204" EndX="93"  EndY="204" Dir="1" Id="1" ItemBag="" Count="1" />
+		<Monster ID="277" StartX="81"  StartY="161" EndX="81"  EndY="161" Dir="1" Id="2" ItemBag="" Count="1" />
+		<Monster ID="277" StartX="107" StartY="161" EndX="107" EndY="161" Dir="1" Id="3" ItemBag="" Count="1" />
+		<Monster ID="277" StartX="67"  StartY="114" EndX="67"  EndY="114" Dir="1" Id="4" ItemBag="" Count="1" />
+		<Monster ID="277" StartX="93"  StartY="114" EndX="93"  EndY="114" Dir="1" Id="5" ItemBag="" Count="1" />
+		<Monster ID="277" StartX="119" StartY="114" EndX="119" EndY="114" Dir="1" Id="6" ItemBag="" Count="1" />
+		<Monster ID="219" StartX="93"  StartY="208" EndX="93"  EndY="208" Dir="1" Id="1" ItemBag="" Count="1" />
+		<Monster ID="219" StartX="81"  StartY="165" EndX="81"  EndY="165" Dir="1" Id="2" ItemBag="" Count="1" />
+		<Monster ID="219" StartX="107" StartY="165" EndX="107" EndY="165" Dir="1" Id="3" ItemBag="" Count="1" />
+		<Monster ID="219" StartX="67"  StartY="118" EndX="67"  EndY="118" Dir="1" Id="4" ItemBag="" Count="1" />
+		<Monster ID="219" StartX="93"  StartY="118" EndX="93"  EndY="118" Dir="1" Id="5" ItemBag="" Count="1" />
+		<Monster ID="219" StartX="119" StartY="118" EndX="119" EndY="118" Dir="1" Id="6" ItemBag="" Count="1" />
+		<Monster ID="288" StartX="75"  StartY="130" EndX="75"  EndY="130" Dir="1" Id="1" ItemBag="" Count="1" />
+		<Monster ID="288" StartX="88"  StartY="130" EndX="88"  EndY="130" Dir="1" Id="2" ItemBag="" Count="1" />
+		<Monster ID="288" StartX="99"  StartY="130" EndX="99"  EndY="130" Dir="1" Id="3" ItemBag="" Count="1" />
+		<Monster ID="288" StartX="114" StartY="130" EndX="114" EndY="130" Dir="1" Id="4" ItemBag="" Count="1" />
+		<Monster ID="288" StartX="94"  StartY="151" EndX="94"  EndY="151" Dir="1" Id="5" ItemBag="" Count="1" />
+		<Monster ID="288" StartX="88"  StartY="182" EndX="88"  EndY="182" Dir="1" Id="6" ItemBag="" Count="1" />
+		<Monster ID="288" StartX="100" StartY="182" EndX="100" EndY="182" Dir="1" Id="7" ItemBag="" Count="1" />
+		<Monster ID="288" StartX="94"  StartY="221" EndX="94"  EndY="221" Dir="1" Id="8" ItemBag="" Count="1" />
+		<Monster ID="288" StartX="94"  StartY="233" EndX="94"  EndY="233" Dir="1" Id="9" ItemBag="" Count="1" />
+		<Monster ID="215" StartX="94"  StartY="242" EndX="94"  EndY="242" Dir="1" Id="1" ItemBag="" Count="1" />
+		<Monster ID="222" StartX="80"  StartY="188" EndX="80"  EndY="188" Dir="1" Id="1" ItemBag="" Count="1" />
+		<Monster ID="222" StartX="105" StartY="188" EndX="105" EndY="188" Dir="1" Id="2" ItemBag="" Count="1" />
+		<Monster ID="221" StartX="63"  StartY="19"  EndX="63"  EndY="19"  Dir="5" Id="1" ItemBag="" Count="1" />
+		<Monster ID="221" StartX="119" StartY="19"  EndX="119" EndY="19"  Dir="5" Id="2" ItemBag="" Count="1" />
+		<Monster ID="216" StartX="176" StartY="212" EndX="176" EndY="212" Dir="1" Id="1" ItemBag="" Count="1" />
+		<Monster ID="217" StartX="167" StartY="194" EndX="167" EndY="194" Dir="7" Id="1" ItemBag="" Count="1" />
+		<Monster ID="218" StartX="185" StartY="194" EndX="185" EndY="194" Dir="7" Id="1" ItemBag="" Count="1" />        
+	</MonsterList>
+
+</CastleSiege>
+
+

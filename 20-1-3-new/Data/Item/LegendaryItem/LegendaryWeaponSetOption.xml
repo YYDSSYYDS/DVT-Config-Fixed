@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==          File Name: LegendaryWeaponSetOption           ==
+// ============================================================
+-->
+<!-- 
+// Only for LegendaryItem
+// Legendary Item Exc Option
+-->
+
+<LegendaryWeaponSetOption>
+
+	<WeaponsOptionList>
+		<Option Index="255" FormulaID="11" Rate="0"  	Name="Increases Excellent Damage chance by %d%%" /> 
+		<Option Index="0"   FormulaID="12" Rate="5000" 	Name="Increase Attack (Wizardry) Speed by %d" />    
+		<Option Index="1"   FormulaID="13" Rate="5000" 	Name="Obtains (Life/8) when monster is killed" /> 	 
+		<Option Index="2"   FormulaID="14" Rate="5000" 	Name="Obtains (Mana/8) when monster is killed" />    
+		<Option Index="3"   FormulaID="15" Rate="5000" 	Name="%s increases by %.1f every 20Lv" />  
+		<Option Index="4"   FormulaID="16" Rate="5000" 	Name="Increase %s by %d" />	 
+	</WeaponsOptionList>
+
+	<Shield>
+		<Option Index="255"  FormulaID="17" Rate="0" 	 Name="%s increases by %.1f every 20Lv" /> 
+		<Option Index="0"    FormulaID="18" Rate="5000"  Name="Reflects %d%% of Damage" />
+		<Option Index="1"    FormulaID="19" Rate="5000"  Name="Increases Defense Success Rate by %d%%" /> 
+		<Option Index="2"    FormulaID="20" Rate="5000"  Name="Increases Maximum Life by %d" /> 
+		<Option Index="3"    FormulaID="21" Rate="5000"  Name="Increases Maximum Mana by %d" /> 
+		<Option Index="4"    FormulaID="22" Rate="5000"  Name="Decreases Damage by %d%%" />		
+	</Shield>
+
+	<ElfShieldOptionList>
+		<Option  Index="255" FormulaID="23" Rate="0" 	Name="Elemental Defense increased by %d%%" />
+		<Option  Index="0"   FormulaID="18" Rate="5000" Name="Reflects %d%% of Damage" />
+		<Option  Index="1"   FormulaID="19" Rate="5000" Name="Increases Defense Success Rate by %d%%" />
+		<Option  Index="2"   FormulaID="20" Rate="5000" Name="Increases Maximum Life by %d" />
+		<Option  Index="3"   FormulaID="21" Rate="5000" Name="Increases Maximum Mana by %d" />
+		<Option  Index="4"   FormulaID="22" Rate="5000" Name="Decreases Damage by %d%%" />			
+	</ElfShieldOptionList>
+
+	<GlShieldOptionList>
+		<Option Index="255" FormulaID="17" Rate="0" 	Name="%s increases by %.1f every 20Lv" />
+		<Option Index="0"   FormulaID="18" Rate="5000"	Name="Reflects %d%% of Damage" />
+		<Option Index="1"   FormulaID="19" Rate="5000"	Name="Increases Defense Success Rate by %d%%" />
+		<Option Index="2"   FormulaID="20" Rate="5000"	Name="Increases Maximum Life by %d" />
+		<Option Index="3"   FormulaID="21" Rate="5000"	Name="Increases Maximum Mana by %d" />
+		<Option Index="4"   FormulaID="24" Rate="5000"	Name="Increases Obsidian effect by %d" />	
+	</GlShieldOptionList>
+
+</LegendaryWeaponSetOption>

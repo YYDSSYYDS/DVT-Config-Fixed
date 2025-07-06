@@ -1,0 +1,38 @@
+
+<Doppelganger Enabled="1" MonsterSpeed="1000" PKCheck="0" PKLevelMax="0" EventEnterCount="40">
+		
+	<Schedule>
+		<Start Duration="0"  Hour="23" Minute="30" />
+		<Start Duration="0"  Hour="10" Minute="30" />		
+	</Schedule>
+	
+	<EventContributionReward>						
+		<Ground ID="1">			
+		</Ground>
+
+		<Ground ID="2">
+			<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" />
+		</Ground>
+
+		<Ground ID="3">
+			<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" />
+		</Ground>
+
+		<Ground ID="4">
+			<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" />
+		</Ground>
+
+		<Ground ID="5">
+			<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" />
+		</Ground>
+
+		<Ground ID="6">
+			<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" />
+		</Ground>
+
+		<Ground ID="7">
+			<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" />
+		</Ground>
+	</EventContributionReward>
+
+ </Doppelganger>

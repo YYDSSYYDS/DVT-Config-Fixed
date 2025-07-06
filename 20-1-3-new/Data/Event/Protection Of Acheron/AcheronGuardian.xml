@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ============================================================
+//
+// ### AcheronGuardianEvent ###
+//	Enable: Deactivates or Activates the event, 0/1
+//	Duration: Event duration, minutes
+//	ChannelClose: Time of automated move from event map after event finish, minutes
+//
+// ### AcheronGuardianEvent::Schedule::Start ###
+//	Year: Year to start the event, -1 if not applies
+//	Month: Month number to start the event 1-12, -1 if not applies
+//	Day: Day of a month to start the event, 1-31, -1 if not applies
+//	DayOfWeek: Day of a week to start the event, -1 if not applies
+//		~ 1: Sunday
+//		~ 2: Monday
+//		~ 3: Tuesday
+//		~ 4: Wednesday
+//		~ 5: Thursday
+//		~ 6: Friday
+//		~ 7: Saturday
+//
+//	Hour: Hour to start the event, 0-23
+//	Minute: Minute to start the event: 0-59
+//	Second: Second to start the event, 0-59 or -1 if not applies
+//
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ The event can be scheduled on same day as Arca Battle event but at different time range
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+// ### AcheronGuardianEvent::ObeliskInformation::Obelisk ###
+//	Index: Index of event obelisk, unique in section, starting from 1
+//	MapNumber: Map Number obelisk is placed on
+//	PosX: X coordinate of the obelisk
+//	PosY: Y coordinate of the obelisk
+//	Name: Name of the obelisk, used for in-file description only
+//
+// ### AcheronGuardianEvent::MonsterGroupInformation::Monster ###
+//	Group: Number of a group of monsters bunch, starting from 0
+//	MapNumber: Map Number the monsters group is assigned to
+//	Count: A number of time to spawn the monster group - for better understanding it is MonsterGroupMember * Count
+//	RegenTime: Respawn time for the group of monsters, minutes
+//
+// ### AcheronGuardianEvent::MonsterGroupSpawn::Spawn ###
+//	MonsterGroup: Monsters group number to spawn - refer to MonsterGroupInformation section
+//	StartX: Start X coordinate for the monster group spawn, must be greater than EndX
+//	StartY: Start Y coordinate for the monster group spawn, must be greater than EndY
+//	EndX: End X coordinate for the monster group spawn, must be lower then StartX
+//	EndY: End Y coordinate for the monster group spawn, must be lower than StartY
+//
+// ### AcheronGuardianEvent::MonsterGroupMember::Monster ###
+//	Group: Monster group number - refer to MonsterGroupInformation section
+//	Index: Index of a monster to be defined as a member of a group, see MonsterList.xml
+//	SpawnSeq: Sequence of spawn of the monsters in the group, previously defined RegenTime applies here
+//	Element: Element type for the monster
+//		0: no elemental
+//		1: Fire
+//		2: Water
+//		3: Earth
+//		4: Wind
+//		5: Darkness
+//
+//	Name: Name of a Monster, used for in-file description purpose only
+//
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+// STRICTLY NO COMMENTS INSIDE TAGS 
+-->
+
+<AcheronGuardianEvent Enable="1" Duration="30" ChannelClose="1">
+
+	<Schedule>
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="0" Hour="23" Minute="52" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="1" Hour="17"  Minute="10"  Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="2" Hour="21" Minute="49" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="3" Hour="21" Minute="49" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="4" Hour="21" Minute="49" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="5" Hour="21" Minute="49" Second="-1" />
+	</Schedule>
+	
+	<ObeliskInformation> <!-- Other element types are managed automatically, do not define them -->
+		<Obelisk Index="0" MapNumber="92" PosX="89"  PosY="41"  Name="Cursed Fire Tower" /> <!-- Alkmaar Area -->	
+		<Obelisk Index="1" MapNumber="92" PosX="188" PosY="101" Name="Cursed Fire Tower" /> <!-- Ubaid Area -->	
+		<Obelisk Index="2" MapNumber="96" PosX="162" PosY="54"  Name="Cursed Fire Tower" /> <!-- Debenter Area -->
+	</ObeliskInformation>		
+	
+	<MonsterGroupMember>
+		<!-- Alkmaar Area -->
+		<Group Index="0">
+			<Monster Index="632" StartX="86"  StartY="40"  EndX="87"  EndY="41" Element="2" Count="20" Name="Cursed Undine" /> <!-- Water-->
+			<Monster Index="633" StartX="90"  StartY="41"  EndX="91"  EndY="42" Element="1" Count="20" Name="Cursed Salamander" /> <!-- Fire-->
+			<Monster Index="634" StartX="89"  StartY="39"  EndX="90"  EndY="40" Element="4" Count="20" Name="Cursed Sylphid" /> <!-- Wind -->
+			<Monster Index="635" StartX="88"  StartY="43"  EndX="89"  EndY="44" Element="3" Count="20" Name="Cursed Gnome" /> <!-- Earth -->
+			<Monster Index="636" StartX="86"  StartY="40"  EndX="87"  EndY="41" Element="5" Count="20" Name="Cursed Hellraiser" /> <!-- Darkness -->
+			<Monster Index="637" StartX="90"  StartY="41"  EndX="91"  EndY="42" Element="1" Count="20" Name="Cursed Sellihoden" /> <!-- Fire -->
+			<Monster Index="638" StartX="88"  StartY="43"  EndX="89"  EndY="44" Element="2" Count="20" Name="Cursed Ukanva" /> <!-- Water -->
+			<Monster Index="639" StartX="88"  StartY="43"  EndX="89"  EndY="44" Element="4" Count="20" Name="Cursed Silla" /> <!-- Earth -->
+			<Monster Index="640" StartX="86"  StartY="40"  EndX="87"  EndY="41" Element="3" Count="20" Name="Cursed Normus" /> <!-- Wind -->
+			<Monster Index="641" StartX="90"  StartY="41"  EndX="91"  EndY="42" Element="5" Count="20" Name="Cursed Muff" /> <!-- Darkness -->
+		</Group>
+		<!-- Ubaid Area -->
+		<Group Index="1">
+			<Monster Index="632" StartX="186" StartY="99"  EndX="187" EndY="100" Element="2" Count="20" Name="Cursed Undine" /> <!-- Water -->
+			<Monster Index="633" StartX="186" StartY="102" EndX="187" EndY="103" Element="1" Count="20" Name="Cursed Salamander" /> <!-- Fire -->
+			<Monster Index="634" StartX="189" StartY="102" EndX="190" EndY="103" Element="4" Count="20" Name="Cursed Sylphid" /> <!-- Wind -->
+			<Monster Index="635" StartX="188" StartY="100" EndX="189" EndY="101" Element="3" Count="20" Name="Cursed Gnome" /> <!-- Earth -->
+			<Monster Index="636" StartX="186" StartY="99"  EndX="187" EndY="100" Element="5" Count="20" Name="Cursed Hellraiser" /> <!-- Darkness -->	
+			<Monster Index="637" StartX="186" StartY="102" EndX="187" EndY="103" Element="1" Count="20" Name="Cursed Sellihoden" /> <!-- Fire -->
+			<Monster Index="638" StartX="189" StartY="102" EndX="190" EndY="103" Element="2" Count="20" Name="Cursed Ukanva" /> <!-- Water -->
+			<Monster Index="639" StartX="186" StartY="99"  EndX="187" EndY="100" Element="4" Count="20" Name="Cursed Silla" /> <!-- Earth -->
+			<Monster Index="640" StartX="186" StartY="102" EndX="187" EndY="103" Element="3" Count="20" Name="Cursed Normus" /> <!-- Wind -->
+			<Monster Index="641" StartX="188" StartY="100" EndX="189" EndY="101" Element="5" Count="20" Name="Cursed Muff" /> <!-- Darkness -->
+		</Group>
+		<!-- Debenter Area -->
+		<Group Index="2">
+			<Monster Index="632" StartX="160" StartY="55"  EndX="161" EndY="56" Element="2" Count="20" Name="Cursed Undine" /> <!-- Water -->
+			<Monster Index="633" StartX="160" StartY="58"  EndX="161" EndY="59" Element="1" Count="20" Name="Cursed Salamander" /> <!-- Fire -->
+			<Monster Index="634" StartX="163" StartY="58"  EndX="164" EndY="59" Element="4" Count="20" Name="Cursed Sylphid" /> <!-- Wind -->	
+			<Monster Index="635" StartX="163" StartY="55"  EndX="164" EndY="56" Element="3" Count="20" Name="Cursed Gnome" /> <!-- Earth -->
+			<Monster Index="636" StartX="160" StartY="55"  EndX="161" EndY="56" Element="5" Count="20" Name="Cursed Hellraiser" /> <!-- Darkness -->
+			<Monster Index="637" StartX="160" StartY="58"  EndX="161" EndY="59" Element="1" Count="20" Name="Cursed Sellihoden" /> <!-- Fire -->
+			<Monster Index="638" StartX="163" StartY="58"  EndX="164" EndY="59" Element="2" Count="20" Name="Cursed Ukanva" /> <!-- Water -->
+			<Monster Index="639" StartX="163" StartY="55"  EndX="164" EndY="56" Element="4" Count="20" Name="Cursed Silla" /> <!-- Earth -->
+			<Monster Index="640" StartX="160" StartY="55"  EndX="161" EndY="56" Element="3" Count="20" Name="Cursed Normus" /> <!-- Wind -->	
+			<Monster Index="641" StartX="160" StartY="58"  EndX="161" EndY="59" Element="5" Count="20" Name="Cursed Muff" /> <!-- Darkness -->
+		</Group>
+	</MonsterGroupMember>
+</AcheronGuardianEvent>

@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ============================================================
+//
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ IMPORTANT: The event must have its monsters defined only in DevilSquare_Classic_Monsters.xml
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+// ### DevilSquare_Classic ###
+//	Enable: Allow to activate or disable the event, 0/1
+//	MaxPlayerPerRoom: Maximum players count that can participate each event level in a single cycle, max is 10
+//
+// ### DevilSquare_Classic::Time ###
+//	Close: Time to close the event after notification period, seconds
+//	ToOpen: Time to open the event from notification moment, minutes
+//	PlayDuration: Duration of the event, minutes
+//
+// ### DevilSquare_Classic::Schedule::Start ###
+//	Year: Year to start the event, -1 if not applies
+//	Month: Month number to start the event 1-12, -1 if not applies
+//	Day: Day of a month to start the event, 1-31, -1 if not applies
+//	DayOfWeek: Day of a week to start the event, -1 if not applies
+//		~ 1: Sunday
+//		~ 2: Monday
+//		~ 3: Tuesday
+//		~ 4: Wednesday
+//		~ 5: Thursday
+//		~ 6: Friday
+//		~ 7: Saturday
+//
+//	Hour: Hour to start the event, 0-23
+//	Minute: Minute to start the event: 0-59
+//	Second: Second to start the event, 0-59 or -1 if not applies
+//
+// ### DevilSquare_Classic::EntryLevel::Square ###
+//	Level: Level of the event the the configuration applies to
+//	MinLevel: Minimum level of player to allow entry to specified event level
+//	MaxLevel: Maximum level of player to allow entry to specified event level, max is currently 800
+//
+// ### DevilSquare_Classic::MonsterAppearanceSettings::Square ###
+//	Level: Level of the event the the configuration applies to
+//	MonsterIndex: Index of monster to spawn, see MonsterList.xml
+//	SpawnStartTime: Time of the event (minute) the monster will START spawning at
+//	SpawnEndTime: Time of the event (minute) the monster will STOP spawning at
+//	Name: Name of the monster, used for logging and in-file description purpose
+//
+// ### DevilSquare_Classic::BossAppearanceSettings::Square ###
+//	Level: Level of the event the the configuration applies to
+//	MonsterIndex: Index of monster to spawn, see MonsterList.xml
+//	SpawnTime: Time of the event (minute) the monster will spawn at
+//	StartX: Start X Coordinate the monster will spawn at, must be higher than StartY
+//	StartY: Start Y Coordinate the monster will spawn at, must be lower than StartX
+//	EndX: End X Coordinate the monster will spawn at, must be higher than EndY 
+//	EndY: End Y Coordinate the monster will spawn at, must be lower than EndX
+//	Name: Name of the monster, used for logging and in-file description purpose
+//
+// ### DevilSquare_Classic::RankingBonusSettings::Square ###
+//	Level: Level of the event the the configuration applies to
+//	RankingPlace: Ranking place definition, max 4 per event level, configuration starts from 0
+//	ExpBonus: Exp reward to apply for winning the event at specified place
+//	ZenBonus: Zen reward to apply for winning the event at specified place
+//
+// ### DevilSquare_Classic::RewardExpSettings::Square ###
+//	Level: Level of the event the the configuration applies to
+//	Multiplier: Multiplier of reward exp (received after completing the event)
+//
+// STRICTLY NO COMMENTS INSIDE TAGS 
+-->
+
+<DevilSquare_Classic Enable="1" MaxPlayerPerRoom="10" EventEnterCount="40" >
+	<Time Close="35" ToOpen="1" PlayDuration="20" NotifyTime="15" />
+
+	<Schedule>
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="3" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="3" Minute="50" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="5" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="7" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="9" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="11" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="13" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="15" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="17" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="19" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="21" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="21" Minute="50" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="22" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="22" Minute="50" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="23" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="23" Minute="50" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="0" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="0" Minute="50" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="1" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="1" Minute="50" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="2" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="2" Minute="50" Second="-1" />
+	</Schedule>
+	
+	<EntryLevel>
+		<Square Level="0" MinLevel="50" MaxLevel="399" /> <!-- Devil Square 1 -->
+		<Square Level="1" MinLevel="400" MaxLevel="799" /> <!-- Devil Square 2 -->
+		<Square Level="2" MinLevel="800" MaxLevel="899" /> <!-- Devil Square 3 -->
+		<Square Level="3" MinLevel="900" MaxLevel="1099" /> <!-- Devil Square 4 -->
+		<Square Level="4" MinLevel="1100" MaxLevel="1299" /> <!-- Devil Square 5 -->
+		<Square Level="5" MinLevel="1300" MaxLevel="1499" /> <!-- Devil Square 6 -->
+		<Square Level="6" MinLevel="1500" MaxLevel="MAX" /> <!-- Devil Square 7 -->
+	</EntryLevel>
+	
+	<EventSettings>
+		<Square Level="0" MaxPlayers="15" PKCheck="0" PKLevelMax="7" RemoveElfSoldierBuff="0" Experience="1" /> <!-- Blood Castle 1 -->
+		<Square Level="1" MaxPlayers="15" PKCheck="0" PKLevelMax="7" RemoveElfSoldierBuff="1" Experience="1" /> <!-- Blood Castle 2 -->
+		<Square Level="2" MaxPlayers="15" PKCheck="0" PKLevelMax="7" RemoveElfSoldierBuff="1" Experience="1" /> <!-- Blood Castle 3 -->
+		<Square Level="3" MaxPlayers="15" PKCheck="0" PKLevelMax="7" RemoveElfSoldierBuff="1" Experience="1" /> <!-- Blood Castle 4 -->
+		<Square Level="4" MaxPlayers="15" PKCheck="0" PKLevelMax="7" RemoveElfSoldierBuff="1" Experience="1" /> <!-- Blood Castle 5 -->
+		<Square Level="5" MaxPlayers="15" PKCheck="0" PKLevelMax="7" RemoveElfSoldierBuff="1" Experience="1" /> <!-- Blood Castle 6 -->
+		<Square Level="6" MaxPlayers="15" PKCheck="0" PKLevelMax="7" RemoveElfSoldierBuff="1" Experience="1" /> <!-- Blood Castle 7 -->
+	</EventSettings>
+	
+	<MonsterAppearanceSettings>
+		<Ground Level="0">
+			<Square MonsterIndex="286" SpawnStartTime="0"  SpawnEndTime="7"  Name="Archer" />
+			<Square MonsterIndex="72"  SpawnStartTime="0"  SpawnEndTime="7"  Name="Phantom Knight" />
+			<Square MonsterIndex="118" SpawnStartTime="5"  SpawnEndTime="14" Name="Magic Skeleton 4" />
+			<Square MonsterIndex="123" SpawnStartTime="5"  SpawnEndTime="14" Name="Red Skeleton Knight 5" />
+			<Square MonsterIndex="121" SpawnStartTime="12" SpawnEndTime="20" Name="Dark Skull Soldier 5" />
+		</Ground>
+		<Ground Level="1">
+			<Square MonsterIndex="463" SpawnStartTime="0"  SpawnEndTime="7"  Name="Fire Flame Ghost" />
+			<Square MonsterIndex="348" SpawnStartTime="0"  SpawnEndTime="7"  Name="Tanker" />
+			<Square MonsterIndex="341" SpawnStartTime="5"  SpawnEndTime="14" Name="Soram" />
+			<Square MonsterIndex="439" SpawnStartTime="5"  SpawnEndTime="14" Name="Dreadfear" />
+			<Square MonsterIndex="439" SpawnStartTime="12" SpawnEndTime="20" Name="Dreadfear" />
+		</Ground>
+		<Ground Level="2">
+			<Square MonsterIndex="732" SpawnStartTime="0"  SpawnEndTime="7"  Name="Ferea Fighter" />
+			<Square MonsterIndex="779" SpawnStartTime="0"  SpawnEndTime="7"  Name="Blood Soldier" />
+			<Square MonsterIndex="738" SpawnStartTime="5"  SpawnEndTime="14" Name="Ferea Fighter" />
+			<Square MonsterIndex="780" SpawnStartTime="5"  SpawnEndTime="14" Name="Necron" />
+			<Square MonsterIndex="783" SpawnStartTime="12" SpawnEndTime="20" Name="Sapi Queen" />
+			<Square MonsterIndex="785" SpawnStartTime="12" SpawnEndTime="20" Name="Dark Iron Knight" />
+		</Ground>
+		<Ground Level="3">
+			<Square MonsterIndex="743" SpawnStartTime="0"  SpawnEndTime="7"  Name="Paraca" />
+			<Square MonsterIndex="770" SpawnStartTime="0"  SpawnEndTime="7"  Name="Deep Dungeon Larva" />
+			<Square MonsterIndex="771" SpawnStartTime="5"  SpawnEndTime="14" Name="Deep Dungeon Cyclops" />
+			<Square MonsterIndex="744" SpawnStartTime="5"  SpawnEndTime="14" Name="Vasuki" />
+			<Square MonsterIndex="745" SpawnStartTime="12" SpawnEndTime="20" Name="Bass" />
+			<Square MonsterIndex="773" SpawnStartTime="12" SpawnEndTime="20" Name="Deep Dungeon Hellhound" />
+		</Ground>
+		<Ground Level="4">
+			<Square MonsterIndex="776" SpawnStartTime="0" SpawnEndTime="7" 	 Name="Deep Dungeon Poison Bull Fighter" />
+			<Square MonsterIndex="786" SpawnStartTime="0" SpawnEndTime="7" 	 Name="Swamp Ent" />
+			<Square MonsterIndex="769" SpawnStartTime="5" SpawnEndTime="14"  Name="Deep Dungeon Chief Skeleton" />
+			<Square MonsterIndex="768" SpawnStartTime="5" SpawnEndTime="14"  Name="Deep Dungeon Chief Skeleton Archer" />
+			<Square MonsterIndex="789" SpawnStartTime="12" SpawnEndTime="20" Name="Mutantile" />
+			<Square MonsterIndex="810" SpawnStartTime="12" SpawnEndTime="20" Name="Mine Digger" />
+		</Ground>
+		<Ground Level="5">
+			<Square MonsterIndex="737" SpawnStartTime="0"  SpawnEndTime="7"  Name="Ferea Archer" />
+			<Square MonsterIndex="772" SpawnStartTime="0"  SpawnEndTime="7"  Name="Deep Dungeon Ghost" />
+			<Square MonsterIndex="811" SpawnStartTime="5"  SpawnEndTime="14" Name="Mine Carrier" />
+			<Square MonsterIndex="814" SpawnStartTime="5"  SpawnEndTime="14" Name="Dead Digger" />
+			<Square MonsterIndex="784" SpawnStartTime="12" SpawnEndTime="20" Name="Ice Napin" />
+			<Square MonsterIndex="815" SpawnStartTime="12" SpawnEndTime="20" Name="Dead Shoveler" />
+		</Ground>
+		<Ground Level="6">
+			<Square MonsterIndex="845" SpawnStartTime="0"  SpawnEndTime="7"  Name="Scorched Warrior" />
+			<Square MonsterIndex="771" SpawnStartTime="0"  SpawnEndTime="7"  Name="Deep Dungeon Cyclops" />
+			<Square MonsterIndex="846" SpawnStartTime="5"  SpawnEndTime="14" Name="Scorched Assasin" />
+			<Square MonsterIndex="777" SpawnStartTime="5"  SpawnEndTime="14" Name="Deep Dungeon Dark Knight" />
+			<Square MonsterIndex="779" SpawnStartTime="12" SpawnEndTime="20" Name="Blood Soldier" />
+			<Square MonsterIndex="854" SpawnStartTime="12" SpawnEndTime="20" Name="Scorched Wizard" />
+		</Ground>
+	</MonsterAppearanceSettings>
+
+	<BossAppearanceSettings>
+		<Ground Level="0" MapNumber="9">
+			<Square MonsterIndex="141" SpawnTime="15" StartX="119" StartY="80" EndX="150" EndY="115" Name="Giant Ogre 7" />
+			<Square MonsterIndex="141" SpawnTime="15" StartX="119" StartY="80" EndX="150" EndY="115" Name="Giant Ogre 7" />
+			<Square MonsterIndex="141" SpawnTime="15" StartX="119" StartY="80" EndX="150" EndY="115" Name="Giant Ogre 7" />
+			<Square MonsterIndex="141" SpawnTime="15" StartX="119" StartY="80" EndX="150" EndY="115" Name="Giant Ogre 7" />
+			<Square MonsterIndex="141" SpawnTime="15" StartX="119" StartY="80" EndX="150" EndY="115" Name="Giant Ogre 7" />
+		</Ground>
+		<Ground Level="1" MapNumber="9">
+			<Square MonsterIndex="267" SpawnTime="15" StartX="121" StartY="152" EndX="151" EndY="184" Name="Illusion of Kundun 5" />
+			<Square MonsterIndex="267" SpawnTime="15" StartX="121" StartY="152" EndX="151" EndY="184" Name="Illusion of Kundun 5" />
+			<Square MonsterIndex="267" SpawnTime="15" StartX="121" StartY="152" EndX="151" EndY="184" Name="Illusion of Kundun 5" />
+			<Square MonsterIndex="267" SpawnTime="15" StartX="121" StartY="152" EndX="151" EndY="184" Name="Illusion of Kundun 5" />
+			<Square MonsterIndex="267" SpawnTime="15" StartX="121" StartY="152" EndX="151" EndY="184" Name="Illusion of Kundun 5" />
+		</Ground>
+		<Ground Level="2"  MapNumber="9">
+			<Square MonsterIndex="641" SpawnTime="15" StartX="49" StartY="138" EndX="79" EndY="173" Name="Cursed Muff" />
+			<Square MonsterIndex="641" SpawnTime="15" StartX="49" StartY="138" EndX="79" EndY="173" Name="Cursed Muff" />
+			<Square MonsterIndex="641" SpawnTime="15" StartX="49" StartY="138" EndX="79" EndY="173" Name="Cursed Muff" />
+			<Square MonsterIndex="641" SpawnTime="15" StartX="49" StartY="138" EndX="79" EndY="173" Name="Cursed Muff" />
+			<Square MonsterIndex="641" SpawnTime="15" StartX="49" StartY="138" EndX="79" EndY="173" Name="Cursed Muff" />
+		</Ground>
+		<Ground Level="3" MapNumber="9">
+			<Square MonsterIndex="781" SpawnTime="15" StartX="53" StartY="74" EndX="83" EndY="109" Name="Balram" />
+			<Square MonsterIndex="781" SpawnTime="15" StartX="53" StartY="74" EndX="83" EndY="109" Name="Balram" />
+			<Square MonsterIndex="781" SpawnTime="15" StartX="53" StartY="74" EndX="83" EndY="109" Name="Balram" />
+			<Square MonsterIndex="781" SpawnTime="15" StartX="53" StartY="74" EndX="83" EndY="109" Name="Balram" />
+			<Square MonsterIndex="781" SpawnTime="15" StartX="53" StartY="74" EndX="83" EndY="109" Name="Balram" />
+		</Ground>
+		<Ground Level="4" MapNumber="32">
+			<Square MonsterIndex="790" SpawnTime="15" StartX="120" StartY="80" EndX="150" EndY="115" Name="Swamp Monster" />
+			<Square MonsterIndex="790" SpawnTime="15" StartX="120" StartY="80" EndX="150" EndY="115" Name="Swamp Monster" />
+			<Square MonsterIndex="790" SpawnTime="15" StartX="120" StartY="80" EndX="150" EndY="115" Name="Swamp Monster" />
+			<Square MonsterIndex="790" SpawnTime="15" StartX="120" StartY="80" EndX="150" EndY="115" Name="Swamp Monster" />
+			<Square MonsterIndex="790" SpawnTime="15" StartX="120" StartY="80" EndX="150" EndY="115" Name="Swamp Monster" />
+		</Ground>
+		<Ground Level="5" MapNumber="32">
+			<Square MonsterIndex="778" SpawnTime="15" StartX="122" StartY="152" EndX="151" EndY="184" Name="Deep Dungeon Gorgon" />
+			<Square MonsterIndex="778" SpawnTime="15" StartX="122" StartY="152" EndX="151" EndY="184" Name="Deep Dungeon Gorgon" />
+			<Square MonsterIndex="778" SpawnTime="15" StartX="122" StartY="152" EndX="151" EndY="184" Name="Deep Dungeon Gorgon" />
+			<Square MonsterIndex="778" SpawnTime="15" StartX="122" StartY="152" EndX="151" EndY="184" Name="Deep Dungeon Gorgon" />
+			<Square MonsterIndex="778" SpawnTime="15" StartX="122" StartY="152" EndX="151" EndY="184" Name="Deep Dungeon Gorgon" />
+		</Ground>
+		<Ground Level="6" MapNumber="32">
+			<Square MonsterIndex="816" SpawnTime="15" StartX="50" StartY="138" EndX="79"   EndY="173" Name="Dead Porter" />
+			<Square MonsterIndex="816" SpawnTime="15" StartX="50" StartY="138" EndX="79"   EndY="173" Name="Dead Porter" />
+			<Square MonsterIndex="816" SpawnTime="15" StartX="50" StartY="138" EndX="79"   EndY="173" Name="Dead Porter" />
+			<Square MonsterIndex="816" SpawnTime="15" StartX="50" StartY="138" EndX="79"   EndY="173" Name="Dead Porter" />
+			<Square MonsterIndex="816" SpawnTime="15" StartX="50" StartY="138" EndX="79"   EndY="173" Name="Dead Porter" />
+		</Ground>
+	</BossAppearanceSettings>
+
+	<RankingBonusSettings>
+	 <Ground Index="0">
+    	<Rank Position="0" ExpReward="6000" ZenReward="30000" />
+		<Rank Position="1" ExpReward="4000" ZenReward="25000" />
+		<Rank Position="2" ExpReward="2000" ZenReward="20000" />
+		<Rank Position="3" ExpReward="1000" ZenReward="15000" />
+		<Rank Position="4" ExpReward="1000" ZenReward="15000" />
+		<Rank Position="5" ExpReward="1000" ZenReward="15000" />
+		<Rank Position="6" ExpReward="1000" ZenReward="15000" />
+		<Rank Position="7" ExpReward="1000" ZenReward="15000" />
+		<Rank Position="8" ExpReward="1000" ZenReward="15000" />
+		<Rank Position="9" ExpReward="1000" ZenReward="15000" />
+		<Rank Position="10" ExpReward="1000" ZenReward="15000" />
+		<Rank Position="11" ExpReward="1000" ZenReward="15000" />
+		<Rank Position="12" ExpReward="1000" ZenReward="15000" />
+		<Rank Position="13" ExpReward="1000" ZenReward="15000" />
+		<Rank Position="14" ExpReward="1000" ZenReward="15000" />
+    </Ground>
+
+    <Ground Index="1">
+		<Rank Position="0" ExpReward="8000" ZenReward="40000" />
+		<Rank Position="1" ExpReward="6000" ZenReward="35000" />
+		<Rank Position="2" ExpReward="4000" ZenReward="30000" />
+		<Rank Position="3" ExpReward="2000" ZenReward="25000" />
+		<Rank Position="4" ExpReward="2000" ZenReward="25000" />
+		<Rank Position="5" ExpReward="2000" ZenReward="25000" />
+		<Rank Position="6" ExpReward="2000" ZenReward="25000" />
+		<Rank Position="7" ExpReward="2000" ZenReward="25000" />
+		<Rank Position="8" ExpReward="2000" ZenReward="25000" />
+		<Rank Position="9" ExpReward="2000" ZenReward="25000" />
+		<Rank Position="10" ExpReward="2000" ZenReward="25000" />
+		<Rank Position="11" ExpReward="2000" ZenReward="25000" />
+		<Rank Position="12" ExpReward="2000" ZenReward="25000" />
+		<Rank Position="13" ExpReward="2000" ZenReward="25000" />
+		<Rank Position="14" ExpReward="2000" ZenReward="25000" />
+    </Ground>
+
+    <Ground Index="2">
+		<Rank Position="0" ExpReward="10000" ZenReward="50000" />
+		<Rank Position="1" ExpReward="8000" ZenReward="45000" />
+		<Rank Position="2" ExpReward="6000" ZenReward="40000" />
+		<Rank Position="3" ExpReward="4000" ZenReward="35000" />
+		<Rank Position="4" ExpReward="4000" ZenReward="35000" />
+		<Rank Position="5" ExpReward="4000" ZenReward="35000" />
+		<Rank Position="6" ExpReward="4000" ZenReward="35000" />
+		<Rank Position="7" ExpReward="4000" ZenReward="35000" />
+		<Rank Position="8" ExpReward="4000" ZenReward="35000" />
+		<Rank Position="9" ExpReward="4000" ZenReward="35000" />
+		<Rank Position="10" ExpReward="4000" ZenReward="35000" />
+		<Rank Position="11" ExpReward="4000" ZenReward="35000" />
+		<Rank Position="12" ExpReward="4000" ZenReward="35000" />
+		<Rank Position="13" ExpReward="4000" ZenReward="35000" />
+		<Rank Position="14" ExpReward="4000" ZenReward="35000" />
+    </Ground>
+
+    <Ground Index="3">
+		<Rank Position="0" ExpReward="20000" ZenReward="60000" />
+		<Rank Position="1" ExpReward="10000" ZenReward="55000" />
+		<Rank Position="2" ExpReward="8000" ZenReward="50000" />
+		<Rank Position="3" ExpReward="6000" ZenReward="45000" />
+		<Rank Position="4" ExpReward="6000" ZenReward="45000" />
+		<Rank Position="5" ExpReward="6000" ZenReward="45000" />
+		<Rank Position="6" ExpReward="6000" ZenReward="45000" />
+		<Rank Position="7" ExpReward="6000" ZenReward="45000" />
+		<Rank Position="8" ExpReward="6000" ZenReward="45000" />
+		<Rank Position="9" ExpReward="6000" ZenReward="45000" />
+		<Rank Position="10" ExpReward="6000" ZenReward="45000" />
+		<Rank Position="11" ExpReward="6000" ZenReward="45000" />
+		<Rank Position="12" ExpReward="6000" ZenReward="45000" />
+		<Rank Position="13" ExpReward="6000" ZenReward="45000" />
+		<Rank Position="14" ExpReward="6000" ZenReward="45000" />
+    </Ground>
+
+    <Ground Index="4">
+		<Rank Position="0" ExpReward="22000" ZenReward="70000" />
+		<Rank Position="1" ExpReward="20000" ZenReward="65000" />
+		<Rank Position="2" ExpReward="10000" ZenReward="60000" />
+		<Rank Position="3" ExpReward="8000" ZenReward="55000" />
+		<Rank Position="4" ExpReward="8000" ZenReward="55000" />
+		<Rank Position="5" ExpReward="8000" ZenReward="55000" />
+		<Rank Position="6" ExpReward="8000" ZenReward="55000" />
+		<Rank Position="7" ExpReward="8000" ZenReward="55000" />
+		<Rank Position="8" ExpReward="8000" ZenReward="55000" />
+		<Rank Position="9" ExpReward="8000" ZenReward="55000" />
+		<Rank Position="10" ExpReward="8000" ZenReward="55000" />
+		<Rank Position="11" ExpReward="8000" ZenReward="55000" />
+		<Rank Position="12" ExpReward="8000" ZenReward="55000" />
+		<Rank Position="13" ExpReward="8000" ZenReward="55000" />
+		<Rank Position="14" ExpReward="8000" ZenReward="55000" />
+    </Ground>
+
+    <Ground Index="5">
+		<Rank Position="0" ExpReward="24000" ZenReward="80000" />
+		<Rank Position="1" ExpReward="22000" ZenReward="75000" />
+		<Rank Position="2" ExpReward="20000" ZenReward="70000" />
+		<Rank Position="3" ExpReward="10000" ZenReward="65000" />
+		<Rank Position="4" ExpReward="10000" ZenReward="65000" />
+		<Rank Position="5" ExpReward="10000" ZenReward="65000" />
+		<Rank Position="6" ExpReward="10000" ZenReward="65000" />
+		<Rank Position="7" ExpReward="10000" ZenReward="65000" />
+		<Rank Position="8" ExpReward="10000" ZenReward="65000" />
+		<Rank Position="9" ExpReward="10000" ZenReward="65000" />
+		<Rank Position="10" ExpReward="10000" ZenReward="65000" />
+		<Rank Position="11" ExpReward="10000" ZenReward="65000" />
+		<Rank Position="12" ExpReward="10000" ZenReward="65000" />
+		<Rank Position="13" ExpReward="10000" ZenReward="65000" />
+		<Rank Position="14" ExpReward="10000" ZenReward="65000" />
+    </Ground>
+
+    <Ground Index="6">
+		<Rank Position="0" ExpReward="26000" ZenReward="150000" />
+		<Rank Position="1" ExpReward="24000" ZenReward="140000" />
+		<Rank Position="2" ExpReward="22000" ZenReward="120000" />
+		<Rank Position="3" ExpReward="20000" ZenReward="90000" />
+		<Rank Position="4" ExpReward="20000" ZenReward="90000" />
+		<Rank Position="5" ExpReward="20000" ZenReward="90000" />
+		<Rank Position="6" ExpReward="20000" ZenReward="90000" />
+		<Rank Position="7" ExpReward="20000" ZenReward="90000" />
+		<Rank Position="8" ExpReward="20000" ZenReward="90000" />
+		<Rank Position="9" ExpReward="20000" ZenReward="90000" />
+		<Rank Position="10" ExpReward="20000" ZenReward="90000" />
+		<Rank Position="11" ExpReward="20000" ZenReward="90000" />
+		<Rank Position="12" ExpReward="20000" ZenReward="90000" />
+		<Rank Position="13" ExpReward="20000" ZenReward="90000" />
+		<Rank Position="14" ExpReward="20000" ZenReward="90000" />
+    </Ground>
+	</RankingBonusSettings>
+	
+	<EventContributionReward>
+		<Ground ID="1">
+		</Ground>
+		<Ground ID="2">
+			<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" />
+			<Reward ContributionMin="2" ContributionMax="2" RewardItemID="7452" />
+			<Reward ContributionMin="3" ContributionMax="3" RewardItemID="7451" />
+			<Reward ContributionMin="4" ContributionMax="4" RewardItemID="7451" />
+			<Reward ContributionMin="5" ContributionMax="5" RewardItemID="7451" />
+			<Reward ContributionMin="6" ContributionMax="6" RewardItemID="7450" />
+			<Reward ContributionMin="7" ContributionMax="7" RewardItemID="7450" />
+			<Reward ContributionMin="8" ContributionMax="8" RewardItemID="7450" />
+			<Reward ContributionMin="9" ContributionMax="9" RewardItemID="7450" />
+			<Reward ContributionMin="10" ContributionMax="10" RewardItemID="7450" />
+		</Ground>
+		
+		<Ground ID="3">
+			<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" />
+			<Reward ContributionMin="2" ContributionMax="2" RewardItemID="7452" />
+			<Reward ContributionMin="3" ContributionMax="3" RewardItemID="7451" />
+			<Reward ContributionMin="4" ContributionMax="4" RewardItemID="7451" />
+			<Reward ContributionMin="5" ContributionMax="5" RewardItemID="7451" />
+			<Reward ContributionMin="6" ContributionMax="6" RewardItemID="7450" />
+			<Reward ContributionMin="7" ContributionMax="7" RewardItemID="7450" />
+			<Reward ContributionMin="8" ContributionMax="8" RewardItemID="7450" />
+			<Reward ContributionMin="9" ContributionMax="9" RewardItemID="7450" />
+			<Reward ContributionMin="10" ContributionMax="10" RewardItemID="7450" />
+		</Ground>
+		
+		<Ground ID="4">
+			<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" />
+			<Reward ContributionMin="2" ContributionMax="2" RewardItemID="7452" />
+			<Reward ContributionMin="3" ContributionMax="3" RewardItemID="7451" />
+			<Reward ContributionMin="4" ContributionMax="4" RewardItemID="7451" />
+			<Reward ContributionMin="5" ContributionMax="5" RewardItemID="7451" />
+			<Reward ContributionMin="6" ContributionMax="6" RewardItemID="7450" />
+			<Reward ContributionMin="7" ContributionMax="7" RewardItemID="7450" />
+			<Reward ContributionMin="8" ContributionMax="8" RewardItemID="7450" />
+			<Reward ContributionMin="9" ContributionMax="9" RewardItemID="7450" />
+			<Reward ContributionMin="10" ContributionMax="10" RewardItemID="7450" />
+		</Ground>
+		
+		<Ground ID="5">
+			<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" />
+			<Reward ContributionMin="2" ContributionMax="2" RewardItemID="7452" />
+			<Reward ContributionMin="3" ContributionMax="3" RewardItemID="7451" />
+			<Reward ContributionMin="4" ContributionMax="4" RewardItemID="7451" />
+			<Reward ContributionMin="5" ContributionMax="5" RewardItemID="7451" />
+			<Reward ContributionMin="6" ContributionMax="6" RewardItemID="7450" />
+			<Reward ContributionMin="7" ContributionMax="7" RewardItemID="7450" />
+			<Reward ContributionMin="8" ContributionMax="8" RewardItemID="7450" />
+			<Reward ContributionMin="9" ContributionMax="9" RewardItemID="7450" />
+			<Reward ContributionMin="10" ContributionMax="10" RewardItemID="7450" />
+		</Ground>
+		
+		<Ground ID="6">
+			<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" />
+			<Reward ContributionMin="2" ContributionMax="2" RewardItemID="7452" />
+			<Reward ContributionMin="3" ContributionMax="3" RewardItemID="7451" />
+			<Reward ContributionMin="4" ContributionMax="4" RewardItemID="7451" />
+			<Reward ContributionMin="5" ContributionMax="5" RewardItemID="7451" />
+			<Reward ContributionMin="6" ContributionMax="6" RewardItemID="7450" />
+			<Reward ContributionMin="7" ContributionMax="7" RewardItemID="7450" />
+			<Reward ContributionMin="8" ContributionMax="8" RewardItemID="7450" />
+			<Reward ContributionMin="9" ContributionMax="9" RewardItemID="7450" />
+			<Reward ContributionMin="10" ContributionMax="10" RewardItemID="7450" />
+		</Ground>
+		
+		<Ground ID="7">
+			<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" />
+			<Reward ContributionMin="2" ContributionMax="2" RewardItemID="7452" />
+			<Reward ContributionMin="3" ContributionMax="3" RewardItemID="7451" />
+			<Reward ContributionMin="4" ContributionMax="4" RewardItemID="7451" />
+			<Reward ContributionMin="5" ContributionMax="5" RewardItemID="7451" />
+			<Reward ContributionMin="6" ContributionMax="6" RewardItemID="7450" />
+			<Reward ContributionMin="7" ContributionMax="7" RewardItemID="7450" />
+			<Reward ContributionMin="8" ContributionMax="8" RewardItemID="7450" />
+			<Reward ContributionMin="9" ContributionMax="9" RewardItemID="7450" />
+			<Reward ContributionMin="10" ContributionMax="10" RewardItemID="7450" />
+		</Ground>
+	</EventContributionReward>
+
+	<RewardExpSettings>
+		<Square Level="0" Multiplier="1.0" /> <!-- Devil Square 1 -->
+		<Square Level="1" Multiplier="1.0" /> <!-- Devil Square 2 -->
+		<Square Level="2" Multiplier="1.0" /> <!-- Devil Square 3 -->
+		<Square Level="3" Multiplier="1.0" /> <!-- Devil Square 4 -->
+		<Square Level="4" Multiplier="1.0" /> <!-- Devil Square 5 -->
+		<Square Level="5" Multiplier="1.0" /> <!-- Devil Square 6 -->
+		<Square Level="6" Multiplier="1.0" /> <!-- Devil Square 7 -->
+	</RewardExpSettings>
+</DevilSquare_Classic>

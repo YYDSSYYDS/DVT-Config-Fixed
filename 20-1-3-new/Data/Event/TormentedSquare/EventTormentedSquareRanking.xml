@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==        File Name: EventTormentedSquareRanking          ==
+// ============================================================
+-->
+
+<EventTormentedSquareRanking>
+    <EventTor Ground="0">
+        <Data Rank="0" Reward="1" />
+    </EventTor>
+</EventTormentedSquareRanking>

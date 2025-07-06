@@ -1,0 +1,122 @@
+
+
+<CryWolf Enabled="1"  >
+
+	<AIChange Time="300"/>
+	<Altar ContractValidationTime="3" ContractWaitTime="3" MaxContract="2" MinLevel="260" Score="60000"/>
+	<Balgass StartTime="100" />
+	<Benefit Apply="1" KundunRefill="1" MonsterHp="90" PlusRate="5" />
+	<Penalty Apply="1" JewelDrop="10" ExpGain="100" />
+
+	<Schedule>
+		<Start Month="-1" Day="-1" DayOfWeek="0" Hour="21" Minute="25" />
+		<Start Month="-1" Day="-1" DayOfWeek="1" Hour="20" Minute="44" />
+		<Start Month="-1" Day="-1" DayOfWeek="2" Hour="21" Minute="25" />
+		<Start Month="-1" Day="-1" DayOfWeek="3" Hour="21" Minute="25" />
+		<Start Month="-1" Day="-1" DayOfWeek="4" Hour="21" Minute="25" />
+		<Start Month="-1" Day="-1" DayOfWeek="5" Hour="21" Minute="25" />
+		<Start Month="-1" Day="-1" DayOfWeek="6" Hour="21" Minute="25" />
+	</Schedule>
+	
+	<StateSettings>
+		<State Index="0" Duration="0"   />
+		<State Index="1" Duration="120" />
+		<State Index="2" Duration="120" />
+		<State Index="3" Duration="180" />
+		<State Index="4" Duration="900" />
+		<State Index="5" Duration="15" />
+		<State Index="6" Duration="10" />
+	</StateSettings>
+	
+	<RankSettings>
+		<Rank Index="0"	Score="0"		Experience="0"		 /> 
+		<Rank Index="1"	Score="1001"	Experience="200000"	 />
+		<Rank Index="2"	Score="3001"	Experience="800000"	 />
+		<Rank Index="3"	Score="5001"	Experience="1200000" />
+		<Rank Index="4"	Score="10001"	Experience="1800000" />	
+	</RankSettings>
+	
+	<MonsterList>
+		<Ground WorldID="34">
+			<Monster ID="340" StartX="110" StartY="77" EndX="110" EndY="77" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="3000" ItemBag="" Count="1" AIGroup="1"  AIGroupMember="0"/>
+			<Monster ID="341" StartX="108" StartY="73" EndX="108" EndY="73" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="1"  AIGroupMember="1"/>
+			<Monster ID="341" StartX="110" StartY="73" EndX="110" EndY="73" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="1"  AIGroupMember="2"/>
+			<Monster ID="341" StartX="112" StartY="73" EndX="112" EndY="73" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="1"  AIGroupMember="3"/>
+			<Monster ID="341" StartX="109" StartY="75" EndX="109" EndY="75" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="1"  AIGroupMember="4"/>
+			<Monster ID="341" StartX="111" StartY="75" EndX="111" EndY="75" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="1"  AIGroupMember="5"/>
+			<Monster ID="340" StartX="125" StartY="77" EndX="125" EndY="77" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="3000" ItemBag="" Count="1" AIGroup="2"  AIGroupMember="0"/>
+			<Monster ID="341" StartX="125" StartY="73" EndX="125" EndY="73" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="2"  AIGroupMember="1"/>
+			<Monster ID="341" StartX="123" StartY="73" EndX="123" EndY="73" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="2"  AIGroupMember="2"/>
+			<Monster ID="341" StartX="127" StartY="73" EndX="127" EndY="73" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="2"  AIGroupMember="3"/>
+			<Monster ID="341" StartX="124" StartY="75" EndX="124" EndY="75" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="2"  AIGroupMember="4"/>
+			<Monster ID="341" StartX="126" StartY="75" EndX="126" EndY="75" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="2"  AIGroupMember="5"/>
+			<Monster ID="340" StartX="119" StartY="83" EndX="119" EndY="83" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="3000" ItemBag="" Count="1" AIGroup="3"  AIGroupMember="0"/>
+			<Monster ID="341" StartX="119" StartY="77" EndX="119" EndY="77" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="3"  AIGroupMember="1"/>
+			<Monster ID="341" StartX="117" StartY="77" EndX="117" EndY="77" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="3"  AIGroupMember="2"/>
+			<Monster ID="341" StartX="121" StartY="77" EndX="121" EndY="77" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="3"  AIGroupMember="3"/>
+			<Monster ID="344" StartX="118" StartY="79" EndX="118" EndY="79" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="600"  ItemBag="" Count="1" AIGroup="3"  AIGroupMember="4"/>
+			<Monster ID="344" StartX="120" StartY="79" EndX="120" EndY="79" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="600"  ItemBag="" Count="1" AIGroup="3"  AIGroupMember="5"/>
+			<Monster ID="345" StartX="116" StartY="81" EndX="116" EndY="81" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="600"  ItemBag="" Count="1" AIGroup="3"  AIGroupMember="6"/>
+			<Monster ID="345" StartX="119" StartY="81" EndX="119" EndY="81" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="600"  ItemBag="" Count="1" AIGroup="3"  AIGroupMember="7"/>
+			<Monster ID="345" StartX="122" StartY="81" EndX="122" EndY="81" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="600"  ItemBag="" Count="1" AIGroup="3"  AIGroupMember="8"/>
+			<Monster ID="340" StartX="119" StartY="87" EndX="119" EndY="87" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="3000" ItemBag="" Count="1" AIGroup="4"  AIGroupMember="0"/>
+			<Monster ID="344" StartX="119" StartY="90" EndX="119" EndY="90" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="600"  ItemBag="" Count="1" AIGroup="4"  AIGroupMember="1"/>
+			<Monster ID="348" StartX="122" StartY="90" EndX="122" EndY="90" Dir="-1" SpawnDelay="0"   MoveDistance="0"  Score="1000" ItemBag="" Count="1" AIGroup="4"  AIGroupMember="2"/>
+			<Monster ID="348" StartX="116" StartY="90" EndX="116" EndY="90" Dir="-1" SpawnDelay="0"   MoveDistance="0"  Score="1000" ItemBag="" Count="1" AIGroup="4"  AIGroupMember="3"/>
+			<Monster ID="349" StartX="110" StartY="79" EndX="110" EndY="79" Dir="-1" SpawnDelay="600" MoveDistance="-1" Score="7000" ItemBag="" Count="1" AIGroup="5"  AIGroupMember="0"/>
+			<Monster ID="340" StartX="77"  StartY="28" EndX="77"  EndY="28" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="3000" ItemBag="" Count="1" AIGroup="6"  AIGroupMember="0"/>
+			<Monster ID="341" StartX="81"  StartY="25" EndX="81"  EndY="25" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="6"  AIGroupMember="1"/>
+			<Monster ID="341" StartX="81"  StartY="27" EndX="81"  EndY="27" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="6"  AIGroupMember="2"/>
+			<Monster ID="341" StartX="81"  StartY="29" EndX="81"  EndY="29" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="6"  AIGroupMember="3"/>
+			<Monster ID="341" StartX="79"  StartY="26" EndX="79"  EndY="26" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="6"  AIGroupMember="4"/>
+			<Monster ID="341" StartX="79"  StartY="28" EndX="79"  EndY="28" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="6"  AIGroupMember="5"/>
+			<Monster ID="340" StartX="77"  StartY="42" EndX="77"  EndY="42" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="3000" ItemBag="" Count="1" AIGroup="7"  AIGroupMember="0"/>
+			<Monster ID="341" StartX="79"  StartY="38" EndX="79"  EndY="38" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="7"  AIGroupMember="1"/>
+			<Monster ID="341" StartX="81"  StartY="37" EndX="81"  EndY="37" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="7"  AIGroupMember="2"/>
+			<Monster ID="341" StartX="81"  StartY="39" EndX="81"  EndY="39" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="7"  AIGroupMember="3"/>
+			<Monster ID="341" StartX="81"  StartY="41" EndX="81"  EndY="41" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="7"  AIGroupMember="4"/>
+			<Monster ID="341" StartX="79"  StartY="40" EndX="79"  EndY="40" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="7"  AIGroupMember="5"/>
+			<Monster ID="340" StartX="70"  StartY="34" EndX="70"  EndY="34" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="3000" ItemBag="" Count="1" AIGroup="8"  AIGroupMember="0"/>
+			<Monster ID="341" StartX="77"  StartY="31" EndX="77"  EndY="31" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="8"  AIGroupMember="1"/>
+			<Monster ID="341" StartX="77"  StartY="33" EndX="77"  EndY="33" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="8"  AIGroupMember="2"/>
+			<Monster ID="341" StartX="77"  StartY="35" EndX="77"  EndY="35" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="8"  AIGroupMember="3"/>
+			<Monster ID="344" StartX="75"  StartY="32" EndX="75"  EndY="32" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="600"  ItemBag="" Count="1" AIGroup="8"  AIGroupMember="4"/>
+			<Monster ID="344" StartX="75"  StartY="34" EndX="75"  EndY="34" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="600"  ItemBag="" Count="1" AIGroup="8"  AIGroupMember="5"/>
+			<Monster ID="345" StartX="73"  StartY="33" EndX="73"  EndY="33" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="600"  ItemBag="" Count="1" AIGroup="8"  AIGroupMember="6"/>
+			<Monster ID="345" StartX="73"  StartY="29" EndX="73"  EndY="29" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="600"  ItemBag="" Count="1" AIGroup="8"  AIGroupMember="7"/>
+			<Monster ID="345" StartX="73"  StartY="37" EndX="73"  EndY="37" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="600"  ItemBag="" Count="1" AIGroup="8"  AIGroupMember="8"/>
+			<Monster ID="340" StartX="65"  StartY="34" EndX="65"  EndY="34" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="3000" ItemBag="" Count="1" AIGroup="9"  AIGroupMember="0"/>
+			<Monster ID="344" StartX="62"  StartY="34" EndX="62"  EndY="34" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="600"  ItemBag="" Count="1" AIGroup="9"  AIGroupMember="1"/>
+			<Monster ID="348" StartX="62"  StartY="37" EndX="62"  EndY="37" Dir="-1" SpawnDelay="0"   MoveDistance="0"  Score="1000" ItemBag="" Count="1" AIGroup="9"  AIGroupMember="2"/>
+			<Monster ID="348" StartX="62"  StartY="31" EndX="62"  EndY="31" Dir="-1" SpawnDelay="0"   MoveDistance="0"  Score="1000" ItemBag="" Count="1" AIGroup="9"  AIGroupMember="3"/>
+			<Monster ID="340" StartX="167" StartY="27" EndX="167" EndY="27" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="3000" ItemBag="" Count="1" AIGroup="10" AIGroupMember="0"/>
+			<Monster ID="341" StartX="163" StartY="29" EndX="163" EndY="29" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="10" AIGroupMember="1"/>
+			<Monster ID="341" StartX="163" StartY="27" EndX="163" EndY="27" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="10" AIGroupMember="2"/>
+			<Monster ID="341" StartX="163" StartY="25" EndX="163" EndY="25" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="10" AIGroupMember="3"/>
+			<Monster ID="341" StartX="165" StartY="26" EndX="165" EndY="26" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="10" AIGroupMember="4"/>
+			<Monster ID="341" StartX="165" StartY="28" EndX="165" EndY="28" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="10" AIGroupMember="5"/>
+			<Monster ID="340" StartX="167" StartY="39" EndX="167" EndY="39" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="3000" ItemBag="" Count="1" AIGroup="11" AIGroupMember="0"/>
+			<Monster ID="341" StartX="165" StartY="38" EndX="165" EndY="38" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="11" AIGroupMember="1"/>
+			<Monster ID="341" StartX="163" StartY="37" EndX="163" EndY="37" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="11" AIGroupMember="2"/>
+			<Monster ID="341" StartX="163" StartY="39" EndX="163" EndY="39" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="11" AIGroupMember="3"/>
+			<Monster ID="341" StartX="165" StartY="40" EndX="165" EndY="40" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="11" AIGroupMember="4"/>
+			<Monster ID="341" StartX="163" StartY="41" EndX="163" EndY="41" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="11" AIGroupMember="5"/>
+			<Monster ID="340" StartX="174" StartY="33" EndX="174" EndY="33" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="3000" ItemBag="" Count="1" AIGroup="12" AIGroupMember="0"/>
+			<Monster ID="341" StartX="167" StartY="35" EndX="167" EndY="35" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="12" AIGroupMember="1"/>
+			<Monster ID="341" StartX="167" StartY="33" EndX="167" EndY="33" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="12" AIGroupMember="2"/>
+			<Monster ID="341" StartX="167" StartY="31" EndX="167" EndY="31" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="700"  ItemBag="" Count="1" AIGroup="12" AIGroupMember="3"/>
+			<Monster ID="344" StartX="169" StartY="32" EndX="169" EndY="32" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="600"  ItemBag="" Count="1" AIGroup="12" AIGroupMember="4"/>
+			<Monster ID="344" StartX="169" StartY="34" EndX="169" EndY="34" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="600"  ItemBag="" Count="1" AIGroup="12" AIGroupMember="5"/>
+			<Monster ID="345" StartX="171" StartY="33" EndX="171" EndY="33" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="600"  ItemBag="" Count="1" AIGroup="12" AIGroupMember="6"/>
+			<Monster ID="345" StartX="171" StartY="30" EndX="171" EndY="30" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="600"  ItemBag="" Count="1" AIGroup="12" AIGroupMember="7"/>
+			<Monster ID="345" StartX="171" StartY="36" EndX="171" EndY="36" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="600"  ItemBag="" Count="1" AIGroup="12" AIGroupMember="8"/>
+			<Monster ID="340" StartX="179" StartY="33" EndX="179" EndY="33" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="3000" ItemBag="" Count="1" AIGroup="13" AIGroupMember="0"/>
+			<Monster ID="344" StartX="183" StartY="33" EndX="183" EndY="33" Dir="-1" SpawnDelay="0"   MoveDistance="-1" Score="600"  ItemBag="" Count="1" AIGroup="13" AIGroupMember="1"/>
+			<Monster ID="348" StartX="183" StartY="36" EndX="183" EndY="36" Dir="-1" SpawnDelay="0"   MoveDistance="0"  Score="1000" ItemBag="" Count="1" AIGroup="13" AIGroupMember="2"/>
+			<Monster ID="348" StartX="183" StartY="30" EndX="183" EndY="30" Dir="-1" SpawnDelay="0"   MoveDistance="0"  Score="1000" ItemBag="" Count="1" AIGroup="13" AIGroupMember="3"/>
+        </Ground>
+	</MonsterList>
+
+</CryWolf>
+
+
