@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==            File Name: MossMerchantSection              ==
+// ============================================================
+-->
+
+<MossMerchantSection>
+	<Data ID="0" Name="Moss Sword Box" ReqItem1="-1" ReqCount1="0" ReqItem2="-1" ReqCount2="0" ReqItem3="-1" ReqCount3="0" ReqZen="1000000" ItemBag="200" Enable="1" />
+	<Data ID="1" Name="Moss Staff Box" ReqItem1="-1" ReqCount1="0" ReqItem2="-1" ReqCount2="0" ReqItem3="-1" ReqCount3="0" ReqZen="1000000" ItemBag="201" Enable="1" />
+	<Data ID="3" Name="Moss Scepter Box" ReqItem1="-1" ReqCount1="0" ReqItem2="-1" ReqCount2="0" ReqItem3="-1" ReqCount3="0" ReqZen="1000000" ItemBag="202" Enable="1" />
+	<Data ID="4" Name="Moss Stick Box" ReqItem1="-1" ReqCount1="0" ReqItem2="-1" ReqCount2="0" ReqItem3="-1" ReqCount3="0" ReqZen="1000000" ItemBag="203" Enable="1" />
+	<Data ID="2" Name="Moss Bow Box" ReqItem1="-1" ReqCount1="0" ReqItem2="-1" ReqCount2="0" ReqItem3="-1" ReqCount3="0" ReqZen="1000000" ItemBag="204" Enable="1" />
+	<Data ID="5" Name="Moss Bless Divine" ReqItem1="7181" ReqCount1="1" ReqItem2="-1" ReqCount2="0" ReqItem3="-1" ReqCount3="0" ReqZen="0" ItemBag="205" Enable="1" />
+	<Data ID="6" Name="Soul Jewelry Box" ReqItem1="7182" ReqCount1="1" ReqItem2="-1" ReqCount2="0" ReqItem3="-1" ReqCount3="0" ReqZen="0" ItemBag="206" Enable="1" />
+	<Data ID="7" Name="Miracle Coin Box" ReqItem1="7581" ReqCount1="1" ReqItem2="-1" ReqCount2="0" ReqItem3="-1" ReqCount3="0" ReqZen="0" ItemBag="207" Enable="1" />
+	<Data ID="8" Name="Bless Rage Earring" ReqItem1="7181" ReqCount1="1" ReqItem2="-1" ReqCount2="0" ReqItem3="-1" ReqCount3="0" ReqZen="0" ItemBag="208" Enable="1" />
+	<Data ID="9" Name="Guardian Box" ReqItem1="7181" ReqCount1="1" ReqItem2="-1" ReqCount2="0" ReqItem3="-1" ReqCount3="0" ReqZen="0" ItemBag="209" Enable="1" />
+	<Data ID="10" Name="Horn Of Fenrir" ReqItem1="7581" ReqCount1="3" ReqItem2="7181" ReqCount2="10" ReqItem3="-1" ReqCount3="0" ReqZen="0" ItemBag="210" Enable="1" />
+</MossMerchantSection>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==          File Name: ConfusionStoneMonsterSet           ==
+// ============================================================
+-->
+
+<ConfusionStoneMonsterSet>
+	<MapMonster>
+		<Map ID="0" MonsterID="7"/>
+		<Map ID="1" MonsterID="-1"/>
+		<Map ID="2" MonsterID="19"/>
+		<Map ID="3" MonsterID="32"/>
+		<Map ID="4" MonsterID="-1"/>
+		<Map ID="7" MonsterID="45"/>
+		<Map ID="8" MonsterID="57"/>
+		<Map ID="10" MonsterID="70"/>
+		<Map ID="24" MonsterID="160"/>
+		<Map ID="25" MonsterID="180"/>
+		<Map ID="26" MonsterID="188"/>
+		<Map ID="27" MonsterID="196"/>
+		<Map ID="28" MonsterID="266"/>
+		<Map ID="29" MonsterID="274"/>
+		<Map ID="36" MonsterID="337"/>
+		<Map ID="31" MonsterID="294"/>
+		<Map ID="33" MonsterID="306"/>
+		<Map ID="37" MonsterID="350"/>
+		<Map ID="38" MonsterID="360"/>
+		<Map ID="51" MonsterID="425"/>
+		<Map ID="56" MonsterID="449"/>
+		<Map ID="57" MonsterID="458"/>
+		<Map ID="63" MonsterID="490"/>
+		<Map ID="80" MonsterID="574"/>
+		<Map ID="81" MonsterID="576"/>
+		<Map ID="91" MonsterID="586"/>
+		<Map ID="95" MonsterID="608"/>
+		<Map ID="100" MonsterID="670"/>
+		<Map ID="110" MonsterID="713"/>
+		<Map ID="112" MonsterID="730"/>
+		<Map ID="113" MonsterID="744"/>
+		<Map ID="116" MonsterID="767"/>
+		<Map ID="117" MonsterID="772"/>
+		<Map ID="118" MonsterID="773"/>
+		<Map ID="119" MonsterID="769"/>
+		<Map ID="120" MonsterID="777"/>
+		<Map ID="122" MonsterID="788"/>
+		<Map ID="123" MonsterID="810"/>
+		<Map ID="124" MonsterID="810"/>
+		<Map ID="125" MonsterID="810"/>
+		<Map ID="126" MonsterID="810"/>
+		<Map ID="127" MonsterID="810"/>
+		<Map ID="128" MonsterID="832"/>
+		<Map ID="129" MonsterID="834"/>
+		<Map ID="130" MonsterID="836"/>
+		<Map ID="131" MonsterID="846"/>
+		<Map ID="132" MonsterID="861"/>
+		<Map ID="133" MonsterID="867"/>
+		<Map ID="134" MonsterID="875"/>
+		<Map ID="135" MonsterID="893"/>
+		<Map ID="136" MonsterID="896"/>
+		<Map ID="137" MonsterID="905"/>
+		<Map ID="138" MonsterID="911"/>
+		<Map ID="140" MonsterID="926"/>
+		<Map ID="141" MonsterID="942"/>
+		<Map ID="142" MonsterID="955"/>
+		<Map ID="143" MonsterID="963"/>
+	</MapMonster>
+	
+	<MapMonsterRespawn>
+		<Monster MapID="1" StartX="0" StartY="138" EndX="253" EndY="253" MonsterID="11"/>
+		<Monster MapID="1" StartX="61" StartY="0" EndX="255" EndY="133" MonsterID="13"/>
+		<Monster MapID="1" StartX="0" StartY="0" EndX="61" EndY="34" MonsterID="13"/>
+		<Monster MapID="1" StartX="0" StartY="45" EndX="49" EndY="130" MonsterID="8"/>
+		<Monster MapID="4" StartX="149" StartY="0" EndX="253" EndY="144" MonsterID="39"/>
+		<Monster MapID="4" StartX="161" StartY="162" EndX="253" EndY="253" MonsterID="34"/>
+		<Monster MapID="4" StartX="77" StartY="162" EndX="139" EndY="251" MonsterID="41"/>
+		<Monster MapID="4" StartX="79" StartY="82" EndX="139" EndY="143" MonsterID="37"/>
+		<Monster MapID="4" StartX="80" StartY="3" EndX="139" EndY="62" MonsterID="40"/>
+		<Monster MapID="4" StartX="0" StartY="0" EndX="61" EndY="251" MonsterID="35"/>
+	</MapMonsterRespawn>
+	
+</ConfusionStoneMonsterSet>

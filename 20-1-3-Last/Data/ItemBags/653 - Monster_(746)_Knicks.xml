@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+//=============================================================
+//
+//~~ For detailed explanation of the bags system refer to ### Item Bags System Description ###.txt included in \Data\Item\ItemBag
+-->
+
+<ItemBag>
+	<BagConfig Name="Monster_(746)_Knicks" ItemRate="4000" SetItemRate="0" SetItemCount="1" MasterySetItemInclude="0" MoneyDrop="200000" IsPentagramForBeginnersDrop="0" PartyDropRate="0" PartyOneDropOnly="0" PartyShareType="0" BagUseEffect="-1" BagUseType="0" GCStorageType="0" GCRewardType="0" BagUseRate="10000"/>
+	<SummonBook Enable="0" DropRate="0" ItemCat="0" ItemIndex="0"/>
+	<AddCoin Enable="0" CoinType="0" CoinValue="0" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX"/>
+	<Ruud GainRate="0" MinValue="1" MaxValue="10" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX"/>
+	<DropSection UseMode="-1" DisplayName="Section 1">
+		<DropAllow DW="1" DK="1" ELF="1" MG="1" DL="1" SUM="1" RF="1" GL="1" RW="1" SLA="1" GC="1" LW="1" LM="1" IK="1" ALC="1" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" MapNumber="-1">
+			<Drop Rate="9990" Type="0" Count="1">
+				<Item Cat="7" Index="150" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Knight Helm"/>
+				<Item Cat="7" Index="151" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Wizard Helm"/>
+				<Item Cat="7" Index="152" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Elf Helm (A)"/>
+				<Item Cat="7" Index="153" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Summoner Helm"/>
+				<Item Cat="7" Index="155" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Lord Helm"/>
+				<Item Cat="7" Index="156" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Fighter Helm"/>
+				<Item Cat="7" Index="157" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Lancer Helm"/>
+				<Item Cat="7" Index="160" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Elf Helm (B)"/>
+				<Item Cat="8" Index="150" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Knight Armor"/>
+				<Item Cat="8" Index="151" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Wizard Armor"/>
+				<Item Cat="8" Index="152" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Elf Armor (A)"/>
+				<Item Cat="8" Index="153" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Summoner Armor"/>
+				<Item Cat="8" Index="154" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Magic Armor (A)"/>
+				<Item Cat="8" Index="155" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Lord Armor"/>
+				<Item Cat="8" Index="156" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Fighter Armor"/>
+				<Item Cat="8" Index="157" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Lancer Armor"/>
+				<Item Cat="8" Index="160" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Elf Armor (B)"/>
+				<Item Cat="8" Index="163" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Magic Armor (B)"/>
+				<Item Cat="9" Index="150" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Knight Pants"/>
+				<Item Cat="9" Index="151" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Wizard Pants"/>
+				<Item Cat="9" Index="152" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Elf Pants (A)"/>
+				<Item Cat="9" Index="153" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Summoner Pants"/>
+				<Item Cat="9" Index="154" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Magic Pants (A)"/>
+				<Item Cat="9" Index="155" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Lord Pants"/>
+				<Item Cat="9" Index="156" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Fighter Pants"/>
+				<Item Cat="9" Index="157" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Lancer Pants"/>
+				<Item Cat="8" Index="160" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Elf Armor (B)"/>
+				<Item Cat="8" Index="163" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Magic Armor (B)"/>
+				<Item Cat="10" Index="150" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Knight Gloves"/>
+				<Item Cat="10" Index="151" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Wizard Gloves"/>
+				<Item Cat="10" Index="152" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Elf Gloves (A)"/>
+				<Item Cat="10" Index="153" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Summoner Gloves"/>
+				<Item Cat="10" Index="154" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Magic Gloves (A)"/>
+				<Item Cat="10" Index="155" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Lord Gloves"/>
+				<Item Cat="10" Index="157" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Lancer Gloves"/>
+				<Item Cat="11" Index="160" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Elf Boots (B)"/>
+				<Item Cat="11" Index="163" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Magic Boots (B)"/>
+				<Item Cat="11" Index="150" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Knight Boots"/>
+				<Item Cat="11" Index="151" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Wizard Boots"/>
+				<Item Cat="11" Index="152" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Elf Boots (A)"/>
+				<Item Cat="11" Index="153" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Summoner Boots"/>
+				<Item Cat="11" Index="154" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Magic Boots (A)"/>
+				<Item Cat="11" Index="155" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Lord Boots"/>
+				<Item Cat="11" Index="156" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Fighter Boots"/>
+				<Item Cat="11" Index="157" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Lancer Boots"/>
+				<Item Cat="11" Index="160" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Elf Boots (B)"/>
+				<Item Cat="11" Index="163" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Holyangel Magic Boots (B)"/>
+			</Drop>
+			<Drop Rate="10" Type="0" Count="1">
+				<Item Cat="12" Index="306" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="-2" ElementalItem="-1" Name="Runedil's Goldentune Harp"/>
+				<Item Cat="12" Index="307" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="-2" ElementalItem="-1" Name="Lemuria's Orb"/>
+				<Item Cat="12" Index="308" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="-2" ElementalItem="-1" Name="Norrwen's Bloodstring Lyra"/>
+			</Drop>
+		</DropAllow>
+	</DropSection>
+</ItemBag>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+//=============================================================
+//
+//~~ For detailed explanation of the bags system refer to ### Item Bags System Description ###.txt included in \Data\Item\ItemBag
+-->
+
+<ItemBag>
+	<BagConfig Name="Item_(14,447,0)_Ruud_Box_(2000)" ItemRate="10000" SetItemRate="0" SetItemCount="1" MasterySetItemInclude="0" MoneyDrop="0" IsPentagramForBeginnersDrop="0" PartyDropRate="0" PartyOneDropOnly="0" PartyShareType="0" BagUseEffect="-1" BagUseRate="10000"/>
+	<SummonBook Enable="0" DropRate="0" ItemCat="0" ItemIndex="0"/>
+	<AddCoin Enable="0" CoinType="0" CoinValue="0" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX"/>
+	<Ruud GainRate="10000" MinValue="2000" MaxValue="2000" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX"/>
+	<DropSection UseMode="-1" DisplayName="Section 1"/>
+</ItemBag>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+//=============================================================
+//
+//~~ For detailed explanation of the bags system refer to ### Item Bags System Description ###.txt included in \Data\Item\ItemBag
+-->
+
+<ItemBag>
+	<BagConfig Name="Buff_Gladiators_Drop" ItemRate="50" SetItemRate="0" SetItemCount="1" MasterySetItemInclude="0" MoneyDrop="10000" IsPentagramForBeginnersDrop="0" PartyDropRate="0" PartyOneDropOnly="0" PartyShareType="0" BagUseEffect="-1" BagUseType="0" GCStorageType="0" GCRewardType="0" BagUseRate="50"/>
+	<SummonBook Enable="0" DropRate="0" ItemCat="0" ItemIndex="0"/>
+	<AddCoin Enable="0" CoinType="0" CoinValue="0" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX"/>
+	<Ruud GainRate="0" MinValue="1" MaxValue="10" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX"/>
+	<DropSection UseMode="-1" DisplayName="Section 1">
+		<DropAllow DW="1" DK="1" ELF="1" MG="1" DL="1" SUM="1" RF="1" GL="1" RW="1" SLA="1" GC="1" LW="1" LM="1" IK="1" ALC="1" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" MapNumber="-1">
+			<Drop Rate="10000" Type="0" Count="1">
+				<Item Cat="0" Index="17" ItemMinLevel="0" ItemMaxLevel="0" Skill="1" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Dark Breaker"/>
+				<Item Cat="0" Index="18" ItemMinLevel="0" ItemMaxLevel="0" Skill="1" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Thunder Blade"/>
+				<Item Cat="0" Index="31" ItemMinLevel="0" ItemMaxLevel="0" Skill="1" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Rune Blade"/>
+				<Item Cat="0" Index="20" ItemMinLevel="0" ItemMaxLevel="0" Skill="1" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Knight Blade"/>
+				<Item Cat="0" Index="21" ItemMinLevel="0" ItemMaxLevel="0" Skill="1" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Dark Reign Blade"/>
+				<Item Cat="0" Index="25" ItemMinLevel="0" ItemMaxLevel="0" Skill="1" Luck="0" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Sword Dancer"/>
+				<Item Cat="2" Index="12" ItemMinLevel="0" ItemMaxLevel="0" Skill="1" Luck="0" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Great Lord Scepter"/>
+				<Item Cat="2" Index="15" ItemMinLevel="0" ItemMaxLevel="0" Skill="1" Luck="0" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Shining Scepter"/>
+				<Item Cat="4" Index="19" ItemMinLevel="0" ItemMaxLevel="0" Skill="1" Luck="0" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Great Reign Crossbow"/>
+				<Item Cat="4" Index="20" ItemMinLevel="0" ItemMaxLevel="0" Skill="1" Luck="0" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Arrow Viper Bow"/>
+				<Item Cat="4" Index="22" ItemMinLevel="0" ItemMaxLevel="0" Skill="1" Luck="0" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Albatross Bow"/>
+				<Item Cat="5" Index="9" ItemMinLevel="0" ItemMaxLevel="0" Skill="1" Luck="0" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Dragon Soul Staff"/>
+				<Item Cat="5" Index="11" ItemMinLevel="0" ItemMaxLevel="0" Skill="1" Luck="0" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Staff of Kundun"/>
+				<Item Cat="5" Index="13" ItemMinLevel="0" ItemMaxLevel="0" Skill="1" Luck="0" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Platina Staff"/>
+				<Item Cat="5" Index="18" ItemMinLevel="0" ItemMaxLevel="0" Skill="1" Luck="0" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Demonic Stick"/>
+				<Item Cat="12" Index="15" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Jewel of Chaos"/>
+				<Item Cat="13" Index="1" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Imp"/>
+				<Item Cat="13" Index="0" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Guardian Angel"/>
+				<Item Cat="13" Index="2" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Horn of Uniria"/>
+				<Item Cat="13" Index="3" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Horn of Dinorant"/>
+				<Item Cat="11" Index="5" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Leather Boots"/>
+				<Item Cat="10" Index="5" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Leather Gloves"/>
+				<Item Cat="7" Index="5" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Leather Helm"/>
+				<Item Cat="9" Index="5" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Leather Pants"/>
+				<Item Cat="8" Index="5" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Leather Armor"/>
+				<Item Cat="2" Index="1" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Morning Star"/>
+				<Item Cat="13" Index="25" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Pendant of Ice"/>
+				<Item Cat="0" Index="11" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Legendary Sword"/>
+				<Item Cat="0" Index="9" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Sword of Salamander"/>
+				<Item Cat="0" Index="8" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Serpent Sword"/>
+				<Item Cat="6" Index="9" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Plate Shield"/>
+				<Item Cat="9" Index="6" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Scale Pants"/>
+				<Item Cat="7" Index="6" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Scale Helm"/>
+				<Item Cat="8" Index="6" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Scale Armor"/>
+				<Item Cat="13" Index="12" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Pendant of Lighting"/>
+				<Item Cat="11" Index="8" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Brass Boots"/>
+				<Item Cat="10" Index="8" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Brass Gloves"/>
+				<Item Cat="9" Index="8" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Brass Pants"/>
+				<Item Cat="8" Index="8" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Brass Armor"/>
+				<Item Cat="13" Index="13" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Pendant of Fire"/>
+				<Item Cat="11" Index="9" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Plate Boots"/>
+				<Item Cat="10" Index="9" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Plate Gloves"/>
+				<Item Cat="8" Index="9" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Plate Armor"/>
+				<Item Cat="13" Index="23" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Ring of Wind"/>
+				<Item Cat="13" Index="9" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Ring of Poison"/>
+				<Item Cat="10" Index="2" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Pad Gloves"/>
+				<Item Cat="8" Index="2" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Pad Armor"/>
+				<Item Cat="7" Index="2" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Pad Helm"/>
+				<Item Cat="5" Index="0" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Skull Staff"/>
+				<Item Cat="13" Index="9" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Ring of Poison"/>
+				<Item Cat="9" Index="26" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Adamantine Pants"/>
+				<Item Cat="8" Index="26" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Adamantine Armor"/>
+				<Item Cat="7" Index="26" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Adamantine Mask"/>
+				<Item Cat="13" Index="25" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Pendant of Ice"/>
+				<Item Cat="10" Index="26" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Adamantine Gloves"/>
+				<Item Cat="11" Index="26" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Adamantine Boots"/>
+				<Item Cat="7" Index="40" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Red Wing Helm"/>
+				<Item Cat="13" Index="24" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Ring of Magic"/>
+				<Item Cat="9" Index="40" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Red Wing Pants"/>
+				<Item Cat="10" Index="40" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Red Wing Gloves"/>
+				<Item Cat="11" Index="40" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Red Wing Boots"/>
+				<Item Cat="8" Index="40" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Red Wing Armor"/>
+				<Item Cat="11" Index="14" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Guardian Boots"/>
+				<Item Cat="9" Index="14" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Guardian Pants"/>
+				<Item Cat="8" Index="14" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Guardian Armor"/>
+				<Item Cat="10" Index="40" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Red Wing Gloves"/>
+				<Item Cat="10" Index="14" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Guardian Gloves"/>
+				<Item Cat="4" Index="5" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Silver Bow"/>
+				<Item Cat="13" Index="28" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Pendant of Ability"/>
+				<Item Cat="11" Index="1" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Dragon Boots"/>
+				<Item Cat="10" Index="1" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Dragon Gloves"/>
+				<Item Cat="7" Index="1" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Dragon Helm"/>
+				<Item Cat="0" Index="14" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Lighting Sword"/>
+				<Item Cat="13" Index="22" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Ring of Earth"/>
+				<Item Cat="9" Index="1" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Dragon Pants"/>
+				<Item Cat="8" Index="1" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Dragon Armor"/>
+				<Item Cat="10" Index="3" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Legendary Gloves"/>
+				<Item Cat="8" Index="3" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Legendary Armor"/>
+				<Item Cat="7" Index="3" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Legendary Helm"/>
+				<Item Cat="13" Index="21" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Ring of Fire"/>
+				<Item Cat="11" Index="3" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Legendary Boots"/>
+				<Item Cat="9" Index="3" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Legendary Pants"/>
+				<Item Cat="11" Index="15" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Storm Crow Boots"/>
+				<Item Cat="9" Index="15" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Storm Crow Pants"/>
+				<Item Cat="8" Index="15" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Storm Crow Armor"/>
+				<Item Cat="13" Index="27" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Pendant of Water"/>
+				<Item Cat="13" Index="21" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Ring of Fire"/>
+				<Item Cat="10" Index="15" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="1" SocketCount="0" ElementalItem="0" Name="Storm Crow Gloves"/>
+			</Drop>
+			<Drop Rate="1000" Type="0" Count="1">
+				<Item Cat="7" Index="21" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Great Dragon Helm"/>
+				<Item Cat="8" Index="21" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Great Dragon Armor"/>
+				<Item Cat="9" Index="21" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Great Dragon Pants"/>
+				<Item Cat="10" Index="21" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Great Dragon Gloves"/>
+				<Item Cat="11" Index="21" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Great Dragon Boots"/>
+				<Item Cat="7" Index="22" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Dark Soul Helm"/>
+				<Item Cat="8" Index="22" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Dark Soul Armor"/>
+				<Item Cat="9" Index="22" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Dark Soul Pants"/>
+				<Item Cat="10" Index="22" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Dark Soul Gloves"/>
+				<Item Cat="11" Index="22" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Dark Soul Boots"/>
+				<Item Cat="7" Index="28" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Dark Master Mask"/>
+				<Item Cat="8" Index="28" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Dark Master Armor"/>
+				<Item Cat="9" Index="28" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Dark Master Pants"/>
+				<Item Cat="10" Index="28" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Dark Master Gloves"/>
+				<Item Cat="11" Index="28" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Dark Master Boots"/>
+				<Item Cat="7" Index="24" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Red Spirit Helm"/>
+				<Item Cat="8" Index="24" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Red Spirit Armor"/>
+				<Item Cat="9" Index="24" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Red Spirit Pants"/>
+				<Item Cat="10" Index="24" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Red Spirit Gloves"/>
+				<Item Cat="11" Index="24" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Red Spirit Boots"/>
+				<Item Cat="7" Index="42" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Demonic Helm"/>
+				<Item Cat="8" Index="42" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Demonic Armor"/>
+				<Item Cat="9" Index="42" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Demonic Pants"/>
+				<Item Cat="10" Index="42" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Demonic Gloves"/>
+				<Item Cat="11" Index="42" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Demonic Boots"/>
+				<Item Cat="8" Index="23" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Hurricane Armor"/>
+				<Item Cat="9" Index="23" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Hurricane Pants"/>
+				<Item Cat="10" Index="23" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Hurricane Gloves"/>
+				<Item Cat="11" Index="23" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Hurricane Boots"/>
+				<Item Cat="7" Index="29" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Dragon Knight Helm"/>
+				<Item Cat="8" Index="29" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Dragon Knight Armor"/>
+				<Item Cat="9" Index="29" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Dragon Knight Pants"/>
+				<Item Cat="10" Index="29" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Dragon Knight Gloves"/>
+				<Item Cat="11" Index="29" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Dragon Knight Boots"/>
+				<Item Cat="7" Index="30" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Venom Mist Helm"/>
+				<Item Cat="8" Index="30" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Venom Mist Armor"/>
+				<Item Cat="9" Index="30" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Venom Mist Pants"/>
+				<Item Cat="10" Index="30" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Venom Mist Gloves"/>
+				<Item Cat="11" Index="30" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Venom Mist Boots"/>
+				<Item Cat="7" Index="31" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Sylphid Ray Helm"/>
+				<Item Cat="8" Index="31" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Sylphid Ray Armor"/>
+				<Item Cat="9" Index="31" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Sylphid Ray Pants"/>
+				<Item Cat="10" Index="31" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Sylphid Ray Gloves"/>
+				<Item Cat="11" Index="31" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Sylphid Ray Boots"/>
+				<Item Cat="7" Index="33" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Sunlight Mask"/>
+				<Item Cat="8" Index="33" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Sunlight Armor"/>
+				<Item Cat="9" Index="33" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Sunlight Pants"/>
+				<Item Cat="10" Index="33" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Sunlight Gloves"/>
+				<Item Cat="11" Index="33" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Sunlight Boots"/>
+				<Item Cat="7" Index="43" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Storm Blitz Helm"/>
+				<Item Cat="8" Index="43" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Storm Blitz Armor"/>
+				<Item Cat="9" Index="43" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Storm Blitz Pants"/>
+				<Item Cat="10" Index="43" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Storm Blitz Gloves"/>
+				<Item Cat="11" Index="43" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Storm Blitz Boots"/>
+				<Item Cat="8" Index="32" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Volcano Armor"/>
+				<Item Cat="9" Index="32" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Volcano Pants"/>
+				<Item Cat="10" Index="32" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Volcano Gloves"/>
+				<Item Cat="11" Index="32" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Volcano Boots"/>
+			</Drop>
+		</DropAllow>
+	</DropSection>
+</ItemBag>

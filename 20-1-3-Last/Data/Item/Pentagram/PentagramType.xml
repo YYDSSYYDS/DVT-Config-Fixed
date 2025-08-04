@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==               File Name: PentagramType                 ==
+// ============================================================
+-->
+
+<PentagramType>
+	<Pentagram Item="6344" Name="Muren's Book of Magic" Rate="1" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Option7="0" />
+	<Pentagram Item="6345" Name="Scroll of Etramu" Rate="1" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Option7="0" />
+	<Pentagram Item="6346" Name="Lorencia Knights' Iron Shield" Rate="1" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Option7="0" />
+	<Pentagram Item="6347" Name="Iron Shield of the Magic" Rate="1" Option1="3" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Option7="0" />
+	<Pentagram Item="6348" Name="Hero Elixir" Rate="1" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Option7="0" />
+	<Pentagram Item="6349" Name="Brave Hero Elixir" Rate="1" Option1="4" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Option7="0" />
+	<Pentagram Item="6350" Name="Gladiator's Dagger" Rate="1" Option1="0" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Option7="0" />
+	<Pentagram Item="6351" Name="Merciless Gladiator's Dagger" Rate="1" Option1="2" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Option7="0" />
+	<Pentagram Item="6352" Name="Kundun's Madness Blade" Rate="2" Option1="26" Option2="24" Option3="0" Option4="0" Option5="0" Option6="0" Option7="0" />
+	<Pentagram Item="6353" Name="Kundun's Magic Spell Scroll" Rate="2" Option1="27" Option2="24" Option3="0" Option4="0" Option5="0" Option6="0" Option7="0" />
+	<Pentagram Item="6354" Name="Empire Guardians' Stronghold" Rate="2" Option1="26" Option2="28" Option3="0" Option4="0" Option5="0" Option6="0" Option7="0" />
+	<Pentagram Item="6355" Name="Ancient Icarus Scroll" Rate="2" Option1="27" Option2="28" Option3="0" Option4="0" Option5="0" Option6="0" Option7="0" />
+	<Pentagram Item="6356" Name="Arca's Prophecy" Rate="3" Option1="41" Option2="24" Option3="0" Option4="0" Option5="0" Option6="0" Option7="0" />
+	<Pentagram Item="6357" Name="Antonia's Sword" Rate="3" Option1="41" Option2="42" Option3="0" Option4="0" Option5="0" Option6="0" Option7="0" />
+	<Pentagram Item="6358" Name="Kundun's Seal Scroll" Rate="3" Option1="41" Option2="43" Option3="4" Option4="23" Option5="24" Option6="25" Option7="0" />
+	<Pentagram Item="6359" Name="Pentagram for Beginners" Rate="1" Option1="1" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Option7="0" />
+	<Pentagram Item="6360" Name="Iron Shield (Bound)" Rate="1" Option1="1" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Option7="0" />
+	<Pentagram Item="6361" Name="Bead of Thoughtful Sage" Rate="1" Option1="5" Option2="0" Option3="0" Option4="0" Option5="0" Option6="0" Option7="0" />
+	<Pentagram Item="6362" Name="Magic Scroll (attributable)" Rate="2" Option1="27" Option2="24" Option3="0" Option4="0" Option5="0" Option6="0" Option7="0" />
+	<Pentagram Item="6450" Name="Golden Line Harp of Lunidel" Rate="2" Option1="34" Option2="21" Option3="29" Option4="0" Option5="0" Option6="0" Option7="0" />
+	<Pentagram Item="6451" Name="Precious Bead of Lemuria" Rate="1" Option1="34" Option2="22" Option3="30" Option4="0" Option5="0" Option6="0" Option7="0" />
+	<Pentagram Item="6452" Name="Colorful Lira of Norwein" Rate="2" Option1="23" Option2="24" Option3="25" Option4="0" Option5="0" Option6="0" Option7="0" />
+	<Pentagram Item="6644" Name="Brilliant Orb (I)" Rate="2" Option1="61" Option2="63" Option3="66" Option4="4" Option5="23" Option6="24" Option7="25" />
+	<Pentagram Item="6647" Name="Antonias' Sword (I)" Rate="2" Option1="67" Option2="68" Option3="4" Option4="23" Option5="24" Option6="25" Option7="0" />
+</PentagramType>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+//=============================================================
+//
+//~~ For detailed explanation of the bags system refer to ### Item Bags System Description ###.txt included in \Data\Item\ItemBag
+-->
+
+<ItemBag>
+	<BagConfig Name="Monster_(794)_God_of_Darkness" ItemRate="4000" SetItemRate="0" SetItemCount="1" MasterySetItemInclude="0" MoneyDrop="200000" IsPentagramForBeginnersDrop="0" PartyDropRate="0" PartyOneDropOnly="0" PartyShareType="0" BagUseEffect="-1" BagUseType="0" GCStorageType="0" GCRewardType="0" BagUseRate="10000"/>
+	<SummonBook Enable="0" DropRate="0" ItemCat="0" ItemIndex="0"/>
+	<AddCoin Enable="0" CoinType="0" CoinValue="0" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX"/>
+	<Ruud GainRate="0" MinValue="1" MaxValue="10" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX"/>
+	<DropSection UseMode="-1" DisplayName="Section 1">
+		<DropAllow DW="1" DK="1" ELF="1" MG="1" DL="1" SUM="1" RF="1" GL="1" RW="1" SLA="1" GC="1" LW="1" LM="1" IK="1" ALC="1" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" MapNumber="-1">
+			<Drop Rate="9900" Type="0" Count="1">
+				<Item Cat="7" Index="106" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Knight Helm"/>
+				<Item Cat="7" Index="107" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Wizard Helm"/>
+				<Item Cat="7" Index="108" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Elf Helm (A)"/>
+				<Item Cat="7" Index="109" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Summoner Helm"/>
+				<Item Cat="7" Index="111" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Lord Helm"/>
+				<Item Cat="7" Index="112" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Fighter Helm"/>
+				<Item Cat="7" Index="113" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Lancer Helm"/>
+				<Item Cat="7" Index="114" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Elf Helm (B)"/>
+				<Item Cat="8" Index="106" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Knight Armor"/>
+				<Item Cat="8" Index="107" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Wizard Armor"/>
+				<Item Cat="8" Index="108" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Elf Armor (A)"/>
+				<Item Cat="8" Index="109" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Summoner Armor"/>
+				<Item Cat="8" Index="110" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Magic Arm (A)"/>
+				<Item Cat="8" Index="111" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Lord Armor"/>
+				<Item Cat="8" Index="112" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Fighter Armor"/>
+				<Item Cat="8" Index="113" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Lancer Armor"/>
+				<Item Cat="8" Index="114" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Elf Armor (B)"/>
+				<Item Cat="8" Index="115" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Magic Armor (B)"/>
+				<Item Cat="9" Index="106" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Knight Pants"/>
+				<Item Cat="9" Index="107" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Wizard Pants"/>
+				<Item Cat="9" Index="108" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Elf Pants (A)"/>
+				<Item Cat="9" Index="109" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Summoner Pants"/>
+				<Item Cat="9" Index="110" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Magic Pants (A)"/>
+				<Item Cat="9" Index="111" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Lord Pants"/>
+				<Item Cat="9" Index="112" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Fighter Pants"/>
+				<Item Cat="9" Index="113" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Lancer Pants"/>
+				<Item Cat="9" Index="114" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Elf Pants (B)"/>
+				<Item Cat="9" Index="115" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Magic Pants (B)"/>
+				<Item Cat="10" Index="106" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Knight Gloves"/>
+				<Item Cat="10" Index="107" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Wizard Gloves"/>
+				<Item Cat="10" Index="108" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Elf Gloves (A)"/>
+				<Item Cat="10" Index="109" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Summoner Gloves"/>
+				<Item Cat="10" Index="110" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Magic Gloves (A)"/>
+				<Item Cat="10" Index="111" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Lord Gloves"/>
+				<Item Cat="10" Index="113" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Lancer Gloves"/>
+				<Item Cat="10" Index="114" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Elf Gloves (B)"/>
+				<Item Cat="10" Index="115" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Magic Gloves (B)"/>
+				<Item Cat="11" Index="106" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Knight Boots"/>
+				<Item Cat="11" Index="107" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Wizard Boots"/>
+				<Item Cat="11" Index="108" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Elf Boots (A)"/>
+				<Item Cat="11" Index="109" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Summoner Boots"/>
+				<Item Cat="11" Index="110" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Magic Boots (A)"/>
+				<Item Cat="11" Index="111" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Lord Boots"/>
+				<Item Cat="11" Index="112" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Fighter Boots"/>
+				<Item Cat="11" Index="113" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Lancer Boots"/>
+				<Item Cat="11" Index="114" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Elf Boots (B)"/>
+				<Item Cat="11" Index="115" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="-1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Awakening Soul Magic Boots (B)"/>
+			</Drop>
+			<Drop Rate="90" Type="0" Count="1">
+				<Item Cat="12" Index="306" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="-2" ElementalItem="-1" Name="Runedil's Goldentune Harp"/>
+				<Item Cat="12" Index="307" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="-2" ElementalItem="-1" Name="Lemuria's Orb"/>
+				<Item Cat="12" Index="308" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="-2" ElementalItem="-1" Name="Norrwen's Bloodstring Lyra"/>
+			</Drop>
+			<Drop Rate="10" Type="0" Count="1">
+				<Item Cat="13" Index="468" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="-1" Name="Golden Sentence"/>
+			</Drop>
+		</DropAllow>
+	</DropSection>
+</ItemBag>

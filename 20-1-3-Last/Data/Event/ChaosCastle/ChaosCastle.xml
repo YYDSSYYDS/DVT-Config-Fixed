@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ============================================================
+//
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ IMPORTANT: The event must have its monsters defined only in ChaosCastle_Monster.xml
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+// ### ChaosCastle ###
+//	Enable: Enabled or Disables the event, 0/10
+//	MinPlayer: Minimum player participating the event to start it
+//	AllowDarkLordSpirit: Whether or not, allow entry by Dark Lord while having Spirits equipped, 0/1
+//
+// ### ChaosCastle::Time ###
+//	StartIn: Time to start Chaos Castle from open time, minutes
+//	Duration: Duration of the event, minutes
+//	TownSpawn: Time to move players to town after completing the event, minutes
+//
+// ### ChaosCastle::Schedule:Start ###
+//	Year: Year to start the event, -1 if not applies
+//	Month: Month number to start the event 1-12, -1 if not applies
+//	Day: Day of a month to start the event, 1-31, -1 if not applies
+//	DayOfWeek: Day of a week to start the event, -1 if not applies
+//		~ 1: Sunday
+//		~ 2: Monday
+//		~ 3: Tuesday
+//		~ 4: Wednesday
+//		~ 5: Thursday
+//		~ 6: Friday
+//		~ 7: Saturday
+//
+//	Hour: Hour to start the event, 0-23
+//	Minute: Minute to start the event: 0-59
+//	Second: Second to start the event, 0-59 or -1 if not applies
+//
+// ### ChaosCastle::EntryLevel::Castle ###
+//	Level: Level of the event the the configuration applies to
+//	MinLevel: Minimum level of player to allow entry to specified event level
+//	MaxLevel: Maximum level of player to allow entry to specified event level
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ If MAX is used as value for MaxLevel attribute then the attribute is being set to sum of MaxNormalLevel and MaxMasterLevel from Common.ini
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+// ### ChaosCastle::RewardExpSettings::Castle ###
+//	Level: Level of the event, starts counting from 0
+//	Multiplier: Multiplier of reward exp (received after completing the event)
+//
+// STRICTLY NO COMMENTS INSIDE TAGS
+-->
+
+<ChaosCastle Enable="1" AllowDarkLordSpirit="1" SurvivalOfTheFittestEnabled="1" SurvivalMaxPerPC="1" EventEnterCount="40">
+
+	<Time StartIn="5" Duration="10" StandBy="1" TownSpawn="1" />
+	
+	<Schedule>
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="1" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="15" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="17" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="19" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="21" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="23" Minute="0" Second="-1" />
+	</Schedule>
+	
+	<EntryLevel>
+		<Castle Level="0" MinLevel="50" MaxLevel="399" /> <!-- Chaos Castle 1 -->
+		<Castle Level="1" MinLevel="400" MaxLevel="799" /> <!-- Chaos Castle 2 -->
+		<Castle Level="2" MinLevel="800" MaxLevel="899" /> <!-- Chaos Castle 3 -->
+		<Castle Level="3" MinLevel="900" MaxLevel="1099" /> <!-- Chaos Castle 4 -->
+		<Castle Level="4" MinLevel="1100" MaxLevel="1299" /> <!-- Chaos Castle 5 -->
+		<Castle Level="5" MinLevel="1300" MaxLevel="1499" /> <!-- Chaos Castle 6 -->
+		<Castle Level="6" MinLevel="1500" MaxLevel="MAX" /> <!-- Chaos Castle 7 -->
+	</EntryLevel>
+
+	<EventSettings>
+		<Castle Level="0" MinPlayers="1" MaxPlayers="70" RequiredZen="25000"   PKCheck="0" PKLevelMax="7" ExperienceUser="500"  ExperienceMonster="1000" RemoveElfSoldierBuff="1" /> <!-- Chaos Castle 1 -->
+		<Castle Level="1" MinPlayers="1" MaxPlayers="70" RequiredZen="80000"   PKCheck="0" PKLevelMax="7" ExperienceUser="1000" ExperienceMonster="1500" RemoveElfSoldierBuff="1" /> <!-- Chaos Castle 2 -->
+		<Castle Level="2" MinPlayers="1" MaxPlayers="70" RequiredZen="150000"  PKCheck="0" PKLevelMax="7" ExperienceUser="1500" ExperienceMonster="2000" RemoveElfSoldierBuff="1" /> <!-- Chaos Castle 3 -->
+		<Castle Level="3" MinPlayers="1" MaxPlayers="70" RequiredZen="250000"  PKCheck="0" PKLevelMax="7" ExperienceUser="2000" ExperienceMonster="2500" RemoveElfSoldierBuff="1" /> <!-- Chaos Castle 4 -->
+		<Castle Level="4" MinPlayers="1" MaxPlayers="70" RequiredZen="400000"  PKCheck="0" PKLevelMax="7" ExperienceUser="2500" ExperienceMonster="3000" RemoveElfSoldierBuff="1" /> <!-- Chaos Castle 5 -->
+		<Castle Level="5" MinPlayers="1" MaxPlayers="70" RequiredZen="650000"  PKCheck="0" PKLevelMax="7" ExperienceUser="3000" ExperienceMonster="3500" RemoveElfSoldierBuff="1" /> <!-- Chaos Castle 6 -->
+		<Castle Level="6" MinPlayers="1" MaxPlayers="70" RequiredZen="1000000" PKCheck="0" PKLevelMax="7" ExperienceUser="3500" ExperienceMonster="4000" RemoveElfSoldierBuff="1" /> <!-- Chaos Castle 7 -->
+	</EventSettings>
+
+	<RewardExpSettings>
+		<Castle Level="0" Multiplier="1.0" /> <!-- Chaos Castle 1 -->
+		<Castle Level="1" Multiplier="1.0" /> <!-- Chaos Castle 2 -->
+		<Castle Level="2" Multiplier="1.0" /> <!-- Chaos Castle 3 -->
+		<Castle Level="3" Multiplier="1.0" /> <!-- Chaos Castle 4 -->
+		<Castle Level="4" Multiplier="1.0" /> <!-- Chaos Castle 5 -->
+		<Castle Level="5" Multiplier="1.0" /> <!-- Chaos Castle 6 -->
+		<Castle Level="6" Multiplier="1.0" /> <!-- Chaos Castle 7 -->
+	</RewardExpSettings>
+
+	<EventContributionReward>						
+		<Ground ID="1">			
+		</Ground>
+
+		<Ground ID="2">
+			<Reward ContributionMin="10" ContributionMax="49" RewardItemID="7450" Count="1"/>
+			<Reward ContributionMin="50" ContributionMax="99" RewardItemID="7451" Count="1"/>
+			<Reward ContributionMin="100" ContributionMax="100" RewardItemID="7452" Count="1"/>	
+		</Ground>
+		
+		<Ground ID="3">
+			<Reward ContributionMin="10" ContributionMax="49" RewardItemID="7450" Count="1"/>
+			<Reward ContributionMin="50" ContributionMax="99" RewardItemID="7451" Count="1"/>
+			<Reward ContributionMin="100" ContributionMax="100" RewardItemID="7452" Count="1"/>	
+		</Ground>
+		
+		<Ground ID="4">
+			<Reward ContributionMin="10" ContributionMax="49" RewardItemID="7450" Count="1"/>
+			<Reward ContributionMin="50" ContributionMax="99" RewardItemID="7451" Count="1"/>
+			<Reward ContributionMin="100" ContributionMax="100" RewardItemID="7452" Count="1"/>	
+		</Ground>
+		
+		<Ground ID="5">
+			<Reward ContributionMin="10" ContributionMax="49" RewardItemID="7450" Count="2"/>
+			<Reward ContributionMin="50" ContributionMax="99" RewardItemID="7451" Count="2"/>
+			<Reward ContributionMin="100" ContributionMax="100" RewardItemID="7452" Count="2"/>	
+		</Ground>
+		
+		<Ground ID="6">
+			<Reward ContributionMin="10" ContributionMax="49" RewardItemID="7450" Count="2"/>
+			<Reward ContributionMin="50" ContributionMax="99" RewardItemID="7451" Count="2"/>
+			<Reward ContributionMin="100" ContributionMax="100" RewardItemID="7452" Count="2"/>	
+		</Ground>
+		
+		<Ground ID="7">
+			<Reward ContributionMin="10" ContributionMax="49" RewardItemID="7450" Count="2"/>
+			<Reward ContributionMin="50" ContributionMax="99" RewardItemID="7451" Count="2"/>
+			<Reward ContributionMin="100" ContributionMax="100" RewardItemID="7452" Count="2"/>	
+		</Ground>
+	</EventContributionReward>
+
+</ChaosCastle>

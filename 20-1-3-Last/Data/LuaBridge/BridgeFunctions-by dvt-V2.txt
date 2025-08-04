@@ -1,0 +1,199 @@
+BRIGDE FUNCTION ATTACH
+
+BridgeFunctionAttach(BridgeName,FunctionName)
+
+BridgeName = Name of the bridge function.
+FunctionName = Name of the custom function.
+
+Attach a custom function to the selected bridge function.
+
+BRIGDE FUNCTION LIST
+
+OnReadScript()
+OnShutScript()
+OnTimerThread()
+OnCommandManager()
+OnCharacterEntry()
+OnCharacterClose()
+OnNpcTalk()
+OnMonsterDie()
+OnUserDie()
+OnUserRespawn()
+OnCheckUserTarget()
+OnCheckUserKiller()
+OnUserItemPick()
+OnUserItemDrop()
+OnUserItemMove()
+OnUserGiveExp()
+OnSQLAsyncResult()
+
+BRIGDE FUNCTION DESCRIPTION
+
+OnReadScript()
+
+Called once at GameServer initialization.
+
+--------------------------------------------------------------------------------------------------------
+
+OnShutScript()
+
+Called once before script reload.
+
+--------------------------------------------------------------------------------------------------------
+
+OnTimerThread()
+
+Called every 1 second, can be used as a timer.
+
+--------------------------------------------------------------------------------------------------------
+
+OnCommandManager(aIndex,cmdtype,code,arg)
+
+aIndex = User index.
+code = Command index.
+arg = Command parameters.
+
+Called after a user types a valid command, must return (1) if the command is valid, (0) if not.
+
+--------------------------------------------------------------------------------------------------------
+
+OnCharacterEntry(aIndex)
+
+aIndex = User index.
+
+Called after a user enters the game with a character.
+
+--------------------------------------------------------------------------------------------------------
+ 
+OnCharacterClose(aIndex)
+
+aIndex = User index.
+
+Called after a user leaves the game with a character.
+
+--------------------------------------------------------------------------------------------------------
+ 
+OnNpcTalk(aIndex,bIndex)
+
+aIndex = NPC index.
+bIndex = User index.
+
+Called after a user talks with a NPC, must return (1) if the talk is successful, (0) if not.
+
+--------------------------------------------------------------------------------------------------------
+
+OnMonsterDie(aIndex,bIndex)
+
+aIndex = Monster index (victim).
+bIndex = User index (killer).
+
+Called after a monster dies.
+
+--------------------------------------------------------------------------------------------------------
+
+OnUserDie(aIndex,bIndex)
+
+aIndex = User index (victim).
+bIndex = Object index (killer).
+
+Called after a user dies.
+
+--------------------------------------------------------------------------------------------------------
+
+OnUserRespawn(aIndex,KillerType)
+
+aIndex = User index.
+
+KillerType = Killer type (0=Monster,1=User,2=GuildWar,3=Duel).
+
+Called when a user is going to respawn.
+
+--------------------------------------------------------------------------------------------------------
+
+OnCheckUserTarget(aIndex,bIndex)
+
+aIndex = User index (attacker).
+bIndex = User/Monster index (target).
+
+Called on the attack target verification, must return (1) if the target can be attacked, (0) if not.
+
+--------------------------------------------------------------------------------------------------------
+
+OnCheckUserKiller(aIndex,bIndex)
+
+aIndex = User index (killer).
+bIndex = User index (victim).
+
+Called on the player killer verification, must return (1) if the killer is going to recieve PK status, (0) if not.
+
+--------------------------------------------------------------------------------------------------------
+
+OnUserItemPick(aIndex,ItemTable)
+
+aIndex = User index.
+ItemTable = Item information table.
+
+Called on item pick, must return (1) if the item can be picked, (0) if not.
+
+--------------------------------------------------------------------------------------------------------
+
+OnUserItemDrop(aIndex,index,x,y,ItemTable)
+
+aIndex = User index.
+index = Item slot.
+x = Item drop position x.
+y = Item drop position y.
+ItemTable = Item information table.
+
+Called on item drop, must return (1) if the item can be dropped, (0) if not.
+
+--------------------------------------------------------------------------------------------------------
+
+OnUserItemMove(aIndex,aFlag,aSlot,bFlag,bSlot,state)
+
+aIndex = User index.
+aFlag = Item source flag.
+aSlot= Item source slot.
+bFlag = Item target flag.
+bSlot= Item target slot.
+state = 0 mean item have not move, 1 mean item move done
+
+
+Flag list:
+0 = Inventory.
+1 = Trade.
+2 = Warehouse.
+3 = Chaos Box.
+21 = Event Inventory.
+22 = Muun Inventory.
+
+Called on item move, must return (1) if the item can be moved, (0) if not.
+--------------------------------------------------------------------------------------------------------
+
+OnUserGiveExp(aIndex,ExpValue)
+
+aIndex = User index.
+ExpValue= ExpValue gained by the player this time.
+
+Called after player got exp.
+
+--------------------------------------------------------------------------------------------------------
+
+OnUserTeleport(aIndex,Map,Gate)
+
+aIndex = User index.
+Map =  Map play on.
+Gate = Gate teleport used.
+
+Called on User Teleport, must return (1) if the player can teleport, (0) if not.
+
+
+--------------------------------------------------------------------------------------------------------
+
+OnSQLAsyncResult(label,param,result)
+
+label = Query identification label.
+param = String parameter. use 'CommandGetArgNumber' or 'CommandGetArgString' get multiple parameters by position from here
+result = Query result. If the query was successful and returned data, this will be a table where each element is a row (also a table with column_name=value pairs). If the query failed or returned no rows, this will be 0.
+
+Called after async query execution, must return (1) if a matching label were found, (0) otherwise. Return (2) instead of (1) to fetch the query again.

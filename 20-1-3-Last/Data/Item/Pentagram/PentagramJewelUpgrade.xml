@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==           File Name: PentagramJewelUpgrade             ==
+// ============================================================
+-->
+
+<PentagramJewelUpgrade>
+    <UpgradeRank>
+    	<Upgrade Index="1" MixCost="100000" MixRate="10000" />
+		<Upgrade Index="2" MixCost="100000" MixRate="10000" />
+		<Upgrade Index="3" MixCost="150000" MixRate="10000" />
+		<Upgrade Index="4" MixCost="200000" MixRate="10000" />
+    </UpgradeRank>
+
+    <UpgradeLevel>
+		<Upgrade Index="0" MixCost="100000" MixRate1="100" MixRate2="100" MixRate3="100" MixRate4="100" MixRate5="100" ElementRune1="1" ElementRune2="1" ElementRune3="1" ElementRune4="1" ElementRune5="1" />
+		<Upgrade Index="1" MixCost="100000" MixRate1="100" MixRate2="100" MixRate3="100" MixRate4="100" MixRate5="100" ElementRune1="1" ElementRune2="1" ElementRune3="1" ElementRune4="1" ElementRune5="1" />
+		<Upgrade Index="2" MixCost="150000" MixRate1="100" MixRate2="100" MixRate3="100" MixRate4="100" MixRate5="100" ElementRune1="2" ElementRune2="2" ElementRune3="2" ElementRune4="2" ElementRune5="2" />
+		<Upgrade Index="3" MixCost="200000" MixRate1="100" MixRate2="100" MixRate3="100" MixRate4="100" MixRate5="100" ElementRune1="2" ElementRune2="2" ElementRune3="2" ElementRune4="2" ElementRune5="2" />
+		<Upgrade Index="4" MixCost="250000" MixRate1="100" MixRate2="100" MixRate3="100" MixRate4="100" MixRate5="100" ElementRune1="3" ElementRune2="3" ElementRune3="3" ElementRune4="3" ElementRune5="3" />
+		<Upgrade Index="5" MixCost="300000" MixRate1="100" MixRate2="100" MixRate3="100" MixRate4="100" MixRate5="100" ElementRune1="3" ElementRune2="3" ElementRune3="3" ElementRune4="3" ElementRune5="3" />
+		<Upgrade Index="6" MixCost="350000" MixRate1="100" MixRate2="100" MixRate3="100" MixRate4="100" MixRate5="100" ElementRune1="4" ElementRune2="4" ElementRune3="4" ElementRune4="4" ElementRune5="4" />
+		<Upgrade Index="7" MixCost="400000" MixRate1="100" MixRate2="100" MixRate3="100" MixRate4="100" MixRate5="100" ElementRune1="5" ElementRune2="5" ElementRune3="5" ElementRune4="5" ElementRune5="5" />
+		<Upgrade Index="8" MixCost="450000" MixRate1="100" MixRate2="100" MixRate3="100" MixRate4="100" MixRate5="100" ElementRune1="6" ElementRune2="6" ElementRune3="6" ElementRune4="6" ElementRune5="6" />
+		<Upgrade Index="9" MixCost="500000" MixRate1="100" MixRate2="100" MixRate3="100" MixRate4="100" MixRate5="100" ElementRune1="7" ElementRune2="7" ElementRune3="7" ElementRune4="7" ElementRune5="7" />
+		<Upgrade Index="10" MixCost="500000" MixRate1="100" MixRate2="100" MixRate3="100" MixRate4="100" MixRate5="100" ElementRune1="8" ElementRune2="8" ElementRune3="8" ElementRune4="8" ElementRune5="8" />
+    </UpgradeLevel>
+</PentagramJewelUpgrade>
