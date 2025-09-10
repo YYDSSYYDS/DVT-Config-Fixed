@@ -50,24 +50,25 @@
 	<Option Level="160" WorldID="80" X1="1" Y1="1" X2="255" Y2="255" Disable="0"/>
 	<Option Level="160" WorldID="81" X1="1" Y1="1" X2="255" Y2="255" Disable="0"/>
 	<Option Level="400" WorldID="112" X1="112" Y1="236" X2="152" Y2="237" Disable="0"/>
-	<Option Level="700" WorldID="113" X1="1" Y1="1" X2="255" Y2="255" Disable="0"/>
+	<Option Level="630" WorldID="113" X1="1" Y1="1" X2="255" Y2="255" Disable="0"/>
 	<Option Level="770" WorldID="116" X1="1" Y1="1" X2="255" Y2="255" Disable="0"/>
 	<Option Level="770" WorldID="117" X1="1" Y1="1" X2="255" Y2="255" Disable="0"/>
 	<Option Level="770" WorldID="118" X1="1" Y1="1" X2="255" Y2="255" Disable="0"/>
 	<Option Level="770" WorldID="119" X1="1" Y1="1" X2="255" Y2="255" Disable="0"/>
 	<Option Level="770" WorldID="120" X1="1" Y1="1" X2="255" Y2="255" Disable="0"/>
-	<Option Level="1000" WorldID="128" X1="1" Y1="1" X2="255" Y2="255" Disable="0"/>
-	<Option Level="1020" WorldID="129" X1="1" Y1="1" X2="255" Y2="255" Disable="0"/>
-	<Option Level="1030" WorldID="130" X1="1" Y1="1" X2="255" Y2="255" Disable="0"/>
-	<Option Level="1050" WorldID="131" X1="1" Y1="1" X2="255" Y2="255" Disable="0"/>
-	<Option Level="1070" WorldID="132" X1="1" Y1="1" X2="255" Y2="255" Disable="0"/>
+	<Option Level="900" WorldID="128" X1="1" Y1="1" X2="255" Y2="255" Disable="0"/>
+	<Option Level="925" WorldID="129" X1="1" Y1="1" X2="255" Y2="255" Disable="0"/>
+	<Option Level="950" WorldID="130" X1="1" Y1="1" X2="255" Y2="255" Disable="0"/>
+	<Option Level="1000" WorldID="131" X1="1" Y1="1" X2="255" Y2="255" Disable="0"/>
+	<Option Level="1050" WorldID="132" X1="1" Y1="1" X2="255" Y2="255" Disable="0"/>
 	<Option Level="1100" WorldID="133" X1="1" Y1="1" X2="255" Y2="255" Disable="0"/>
-	<Option Level="1130" WorldID="134" X1="1" Y1="1" X2="255" Y2="255" Disable="0"/>
-	<Option Level="1160" WorldID="136" X1="1" Y1="1" X2="255" Y2="255" Disable="0"/>
-	<Option Level="1190" WorldID="137" X1="1" Y1="1" X2="255" Y2="255" Disable="0"/>
-	<Option Level="1220" WorldID="138" X1="1" Y1="1" X2="255" Y2="255" Disable="0"/>
-	<Option Level="1250" WorldID="140" X1="1" Y1="1" X2="255" Y2="255" Disable="0"/>
-	<Option Level="1280" WorldID="141" X1="1" Y1="1" X2="255" Y2="255" Disable="0"/>
+	<Option Level="1150" WorldID="134" X1="1" Y1="1" X2="255" Y2="255" Disable="0"/>
+
+	<Option Level="1200" WorldID="136" X1="1" Y1="1" X2="255" Y2="255" Disable="0"/>
+	<Option Level="1250" WorldID="137" X1="1" Y1="1" X2="255" Y2="255" Disable="0"/>
+	<Option Level="1300" WorldID="138" X1="1" Y1="1" X2="255" Y2="255" Disable="0"/>
+	<Option Level="1350" WorldID="140" X1="1" Y1="1" X2="255" Y2="255" Disable="0"/>
+	<Option Level="1400" WorldID="141" X1="1" Y1="1" X2="255" Y2="255" Disable="0"/>
 	<Option Level="1450" WorldID="142" X1="1" Y1="1" X2="255" Y2="255" Disable="0"/>
 	<!-- S20.1 -->
 	<Option Level="1500" WorldID="143" X1="1" Y1="1" X2="255" Y2="255" Disable="0"/>

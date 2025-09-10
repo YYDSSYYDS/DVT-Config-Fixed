@@ -3,3 +3,6 @@ CREATE TABLE event_labyrinth_settings (
   monster_element bigint(20) NOT NULL,
   PRIMARY KEY (uid)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+ALTER TABLE accounts 
+ADD COLUMN creation_counter SMALLINT(6) DEFAULT 0;

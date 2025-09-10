@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED DV-TEAM				 	 	 ==
+// ==               File Name: ClientTexts                   ==
+// ============================================================
+-->
+
+<ClientTexts>
+	<!-- class name -->
+	<Data ID="0" Text="Dark Wizard"/>
+	<Data ID="1" Text="Soul Master"/>
+	<Data ID="2" Text="Grand Master"/>
+	<Data ID="3" Text="Soul Wizard"/>
+	<Data ID="4" Text="Darkness Wizard"/>
+	<Data ID="5" Text="Dark Knight"/>
+	<Data ID="6" Text="Blade Knight"/>
+	<Data ID="7" Text="Blade Master"/>
+	<Data ID="8" Text="Dragon Knight"/>
+	<Data ID="9" Text="Ignition Knight"/>
+	<Data ID="10" Text="Fairy Elf"/>
+	<Data ID="11" Text="Muse Elf"/>
+	<Data ID="12" Text="High Elf"/>
+	<Data ID="13" Text="Noble Elf"/>
+	<Data ID="14" Text="Royal Elf"/>
+	<Data ID="15" Text="Magic Gladiator"/>
+	<Data ID="16" Text="Duel Master"/>
+	<Data ID="17" Text="Magic Knight"/>
+	<Data ID="18" Text="Duple Knight"/>
+	<Data ID="19" Text="Dark Lord"/>
+	<Data ID="20" Text="Lord Emperor"/>
+	<Data ID="21" Text="Empire Lord"/>
+	<Data ID="22" Text="Force Empire"/>
+	<Data ID="23" Text="Summoner"/>
+	<Data ID="24" Text="Bloody Summoner"/>
+	<Data ID="25" Text="Dimension Master"/>
+	<Data ID="26" Text="Dimension Summoner"/>
+	<Data ID="27" Text="Endless Summoner"/>
+	<Data ID="28" Text="Rage Fighter"/>
+	<Data ID="29" Text="Fist Master"/>
+	<Data ID="30" Text="Fist Blazer"/>
+	<Data ID="31" Text="Bloody Fighter"/>
+	<Data ID="32" Text="Grow Lancer"/>
+	<Data ID="33" Text="Mirage Lancer"/>
+	<Data ID="34" Text="Shining Lancer"/>
+	<Data ID="35" Text="Arcane Lancer"/>
+	<Data ID="36" Text="Rune Wizard"/>
+	<Data ID="37" Text="Rune Spell Master"/>
+	<Data ID="38" Text="Grand Rune Master"/>
+	<Data ID="39" Text="Majestic Rune Wizard"/>
+	<Data ID="40" Text="Infinity Rune Wizard"/>
+	<Data ID="41" Text="Slayer"/>
+	<Data ID="42" Text="Royal Slayer"/>
+	<Data ID="43" Text="Master Slayer"/>
+	<Data ID="44" Text="Slaughterer"/>
+	<Data ID="45" Text="Rogue Slayer"/>
+	<Data ID="46" Text="Gun Crusher"/>
+	<Data ID="47" Text="Gun Breaker"/>
+	<Data ID="48" Text="Master Gun Breaker"/>
+	<Data ID="49" Text="Heist Gun Crusher"/>
+	<Data ID="50" Text="Magnus Gun Crusher"/>
+	<Data ID="51" Text="White Wizard"/>
+	<Data ID="52" Text="Light Master"/>
+	<Data ID="53" Text="Shine Wizard"/>
+	<Data ID="54" Text="Luminous Wizard"/>
+	<Data ID="55" Text="Glory Wizard"/>
+	<Data ID="56" Text="Lemuria"/>
+	<Data ID="57" Text="Wo Mage"/>
+	<Data ID="58" Text="Arch Mage"/>
+	<Data ID="59" Text="Mystic Mage"/>
+	<Data ID="60" Text="Battle Mage"/>
+	<Data ID="61" Text="Illusion Knight"/>
+	<Data ID="62" Text="Mirage Knight"/>
+	<Data ID="63" Text="Illusion Master"/>
+	<Data ID="64" Text="Mystic Knight"/>
+	<Data ID="65" Text="Phantom Pain Knight"/>
+	<Data ID="66" Text="Alchemist"/>
+	<Data ID="67" Text="Alchemic Magician"/>
+	<Data ID="68" Text="Alchemic Master"/>
+	<Data ID="69" Text="Alchemic Force"/>
+	<Data ID="70" Text="Creator"/>
+	<!-- anti lag -->
+	<Data ID="100" Text="[SHIFT + 1]:Reduce map objects Off"/>
+	<Data ID="101" Text="[SHIFT + 1]:Reduce Map Objects On"/>
+	<Data ID="102" Text="[SHIFT + 2]:Hide wings effect Off"/>
+	<Data ID="103" Text="[SHIFT + 2]:Hide wings effect On"/>
+	<Data ID="104" Text="[SHIFT + 3]:Reduce skill effects"/>
+	<Data ID="105" Text="[SHIFT + 3]:Reduce skill effects Open"/>
+	<Data ID="106" Text="[SHIFT + 4]:Reduce item effects Off"/>
+	<Data ID="107" Text="[SHIFT + 4]:Reduce item effects Open"/>
+	<Data ID="108" Text="[SHIFT + 5]:Hide gold drop Close"/>
+	<Data ID="109" Text="[SHIFT + 5]:Hide gold drop Open"/>
+	<Data ID="110" Text="[SHIFT + 6]:Hide Floor Items Off"/>
+	<Data ID="111" Text="[SHIFT + 6]:Hide Floor Items On"/>
+	<Data ID="112" Text="[SHIFT + 7]:Hide Pet Close"/>
+	<Data ID="113" Text="[SHIFT + 7]:Hide Pets Open"/>
+	<Data ID="114" Text="[SHIFT + 8]:Hide Characters and Shadows Off"/>
+	<Data ID="115" Text="[SHIFT + 8]:Hide Characters and Shadows On"/>
+	<Data ID="116" Text="[SHIFT + 9]:Hide skill effects Close"/>
+	<Data ID="117" Text="[SHIFT + 9]:Hidden Skill Effects Open"/>
+	<Data ID="118" Text="[SHIFT + 0]:One-click optimization Close"/>
+	<Data ID="119" Text="[SHIFT + 0]:One-click optimization Open"/>
+</ClientTexts>
+

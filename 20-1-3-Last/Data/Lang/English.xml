@@ -821,5 +821,6 @@
 	<Data ID="807" Language="0" Text= "Reached maximum day buy count."/>
 	<Data ID="808" Language="0" Text= "%d WcoinC Obtained"/>
     <Data ID="809" Language="0" Text= "%d Goblin Obtained"/>
+	<Data ID="810" Language="0" Text= "%d Gens Contribution Points Obtained"/>
 </SystemMessage>
 

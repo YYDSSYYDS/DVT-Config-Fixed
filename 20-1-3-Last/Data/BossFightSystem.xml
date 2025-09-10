@@ -5,13 +5,21 @@
 // == 				   POWERED BY DV-Team				 	 ==
 // ==               File Name: BossFightSystem               ==
 // ============================================================
+//
+// SaveBossReswapnData:
+// Restart or reload all bosses to respawn immediately, 0/1
+// If the value is 0, the SaveResPawn option will be ignored.
+//
+// SaveResPawn:
+// Does the boss of this option respawn immediately upon restart or reload, 0/1
+// It only works when the SaveBossReswapnData value is 1
 -->
 
-<BossFightSystem>
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-	<FightInfo Index="0" RequiereLevel="" RespawnHour="18" RespawnHourAddRand="6" Name="Kundun" >
+<BossFightSystem SaveBossReswapnData="0">
+	<!-- Kundun -->
+	<FightInfo Index="0" RequiereLevel="" RespawnHour="18" RespawnHourAddRand="6" Name="Kundun" SaveResPawn="1">
 		<Respawn>
-			<Info Group="0" MapNumber="36" MoveGate="116" MoveMapX="26" MoveMapY="76" />
+			<Info Group="0" MapNumber="36" MoveGate="116" MoveMapX="26" MoveMapY="76"/>
 		</Respawn>
 		<BossMonster>
 			<Info Group="0" MonsterClass="275" MapSX="26" MapSY="76" MapTX="-1" MapTY="-1" Distance="30" Element="-1" Name="Kundun"/>
@@ -19,8 +27,9 @@
 		<SummonMonster>
 		</SummonMonster>
 	</FightInfo>
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-	<FightInfo Index="1" RespawnHour="18" RespawnHourAddRand="6" Name="Medusa" >
+	
+	<!-- Medusa -->
+	<FightInfo Index="1" RespawnHour="18" RespawnHourAddRand="6" Name="Medusa" SaveResPawn="1">
 		<Respawn>
 			<Info Group="0" MapNumber="56" MoveGate="280" MoveMapX="50" MoveMapY="103" Name="Ground 3"/>
 			<Info Group="1" MapNumber="56" MoveGate="283" MoveMapX="127" MoveMapY="162" Name="Ground 2"/>
@@ -34,28 +43,29 @@
 			<Info Group="3" MonsterClass="561" MapSX="178" MapSY="114" MapTX="-1" MapTY="-1" Distance="6" Element="-1" Name="Medusa"/>
 		</BossMonster>
 		<SummonMonster>
-			<Info Group="0" MonsterClass="560" Count="7" MapSX="50" MapSY="103" MapTX="-1" MapTY="-1" Distance="6" Element="-1"  RegenTime="0" Name="Sapi Queen"/>
+			<Info Group="0" MonsterClass="560" Count="7" MapSX="50" MapSY="103" MapTX="-1" MapTY="-1" Distance="6" Element="-1" RegenTime="0" Name="Sapi Queen"/>
 			<Info Group="1" MonsterClass="560" Count="7" MapSX="127" MapSY="162" MapTX="-1" MapTY="-1" Distance="6" Element="-1" RegenTime="0" Name="Sapi Queen"/>
-			<Info Group="2" MonsterClass="560" Count="7" MapSX="149" MapSY="10" MapTX="-1" MapTY="-1" Distance="6" Element="-1"  RegenTime="0" Name="Sapi Queen"/>
-			<Info Group="3" MonsterClass="560" Count="7" MapSX="178" MapSY="114" MapTX="-1" MapTY="-1" Distance="6" Element="-1"  RegenTime="0" Name="Sapi Queen"/>
+			<Info Group="2" MonsterClass="560" Count="7" MapSX="149" MapSY="10" MapTX="-1" MapTY="-1" Distance="6" Element="-1" RegenTime="0" Name="Sapi Queen"/>
+			<Info Group="3" MonsterClass="560" Count="7" MapSX="178" MapSY="114" MapTX="-1" MapTY="-1" Distance="6" Element="-1" RegenTime="0" Name="Sapi Queen"/>
 		</SummonMonster>
 	</FightInfo>
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-	<FightInfo Index="2" RequiereLevel=""  Name="Nightmare" >
+	
+	<!-- Nightmare -->
+	<FightInfo Index="2" RequiereLevel="" Name="Nightmare" SaveResPawn="1">
 		<Respawn>
-			<Info Group="0" MapNumber="-1" MoveGate="139" MoveMapX="141" MoveMapY="186" />
+			<Info Group="0" MapNumber="-1" MoveGate="139" MoveMapX="141" MoveMapY="186"/>
+		</Respawn>
+	</FightInfo>
+	<FightInfo Index="3" RequiereLevel="" Name="Selupan" SaveResPawn="1">
+		<Respawn>
+			<Info Group="0" MapNumber="-1" MoveGate="287" MoveMapX="171" MoveMapY="23"/>
 		</Respawn>
 	</FightInfo>
 	
-	<FightInfo Index="3" RequiereLevel=""  Name="Selupan" >
+	<!-- Lord Silvester -->
+	<FightInfo Index="4" RequiereLevel="" RespawnHour="18" RespawnHourAddRand="6" Name="Lord Silvester" SaveResPawn="1">
 		<Respawn>
-			<Info Group="0" MapNumber="-1" MoveGate="287" MoveMapX="171" MoveMapY="23" />
-		</Respawn>
-	</FightInfo>
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-	<FightInfo Index="4" RequiereLevel="" RespawnHour="18" RespawnHourAddRand="6" Name="Lord Silvester" >
-		<Respawn>
-			<Info Group="0" MapNumber="100" MoveGate="450" MoveMapX="126" MoveMapY="108" />
+			<Info Group="0" MapNumber="100" MoveGate="450" MoveMapX="126" MoveMapY="108"/>
 		</Respawn>
 		<BossMonster>
 			<Info Group="0" MonsterClass="673" MapSX="126" MapSY="108" MapTX="-1" MapTY="-1" Distance="30" Element="6" Name="Lord Silvester"/>
@@ -63,10 +73,11 @@
 		<SummonMonster>
 		</SummonMonster>
 	</FightInfo>
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-	<FightInfo Index="5" RequiereLevel="" RespawnHour="18" RespawnHourAddRand="6" Name="Core Magriffy" >
+	
+	<!-- Core Magriffy -->
+	<FightInfo Index="5" RequiereLevel="" RespawnHour="18" RespawnHourAddRand="6" Name="Core Magriffy" SaveResPawn="1">
 		<Respawn>
-			<Info Group="0" MapNumber="110" MoveGate="487" MoveMapX="179" MoveMapY="148" />
+			<Info Group="0" MapNumber="110" MoveGate="487" MoveMapX="179" MoveMapY="148"/>
 		</Respawn>
 		<BossMonster>
 			<Info Group="0" MonsterClass="716" MapSX="147" MapSY="141" MapTX="-1" MapTY="-1" Distance="30" Element="6" Name="Core Magriffy"/>
@@ -74,11 +85,11 @@
 		<SummonMonster>
 		</SummonMonster>
 	</FightInfo>
-	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-	<!-- Remember when the battle fails it will take the schedule from FereaBoss.xml -> #CrystalBallRegenFail -->
-	<FightInfo Index="6" RequiereLevel="" RespawnHour="18" RespawnHourAddRand="6" Name="Ferea" >	
+	
+	<!-- Ferea -->
+	<FightInfo Index="6" RequiereLevel="" RespawnHour="18" RespawnHourAddRand="6" Name="Ferea" SaveResPawn="1">
 		<Respawn>
-			<Info Group="0" MapNumber="112" MoveGate="509" MoveMapX="24" MoveMapY="123" />
+			<Info Group="0" MapNumber="112" MoveGate="509" MoveMapX="24" MoveMapY="123"/>
 		</Respawn>
 		<BossMonster>
 			<Info Group="0" MonsterClass="735" MapSX="24" MapSY="123" MapTX="-1" MapTY="-1" Distance="30" Element="0" Name="Cristal Orb"/>
@@ -86,10 +97,11 @@
 		<SummonMonster>
 		</SummonMonster>
 	</FightInfo>
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-	<FightInfo Index="7" RequiereLevel="" RespawnHour="18" RespawnHourAddRand="6" Name="Nix" >
+	
+	<!-- Nix -->
+	<FightInfo Index="7" RequiereLevel="" RespawnHour="18" RespawnHourAddRand="6" Name="Nix" SaveResPawn="1">
 		<Respawn>
-			<Info Group="0" MapNumber="113" MoveGate="522" MoveMapX="109" MoveMapY="106" />
+			<Info Group="0" MapNumber="113" MoveGate="522" MoveMapX="109" MoveMapY="106"/>
 		</Respawn>
 		<BossMonster>
 			<Info Group="0" MonsterClass="746" MapSX="30" MapSY="218" MapTX="-1" MapTY="-1" Distance="30" Element="6" Name="Nix"/>
@@ -97,10 +109,11 @@
 		<SummonMonster>
 		</SummonMonster>
 	</FightInfo>
-<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
-	<FightInfo Index="8" RequiereLevel="" RespawnHour="18" RespawnHourAddRand="6" Name="God of Darkness" >
+	
+	<!-- God of Darkness -->
+	<FightInfo Index="8" RequiereLevel="" RespawnHour="18" RespawnHourAddRand="6" Name="God of Darkness" SaveResPawn="1">
 		<Respawn>
-			<Info Group="0" MapNumber="122" MoveGate="572" MoveMapX="241" MoveMapY="91" />
+			<Info Group="0" MapNumber="122" MoveGate="572" MoveMapX="241" MoveMapY="91"/>
 		</Respawn>
 		<BossMonster>
 			<Info Group="0" MonsterClass="790" MapSX="184" MapSY="18" MapTX="-1" MapTY="-1" Distance="30" Element="3" Name="Monster of the Swamp"/>

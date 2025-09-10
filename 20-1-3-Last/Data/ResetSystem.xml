@@ -5,11 +5,57 @@
 // == 				   POWERED BY DV-Team				 	 ==
 // ==                File Name: ResetSystem                	 ==
 // ============================================================
+//
+// Configuration Guide
+//
+// General Settings
+// Enable: Enable/Disable reset system (0=Disabled, 1=Enabled)
+//
+// ResetAutoCmd: Enable/Disable auto reset command (0=Disabled, 1=Enabled)
+// ResetLvMasterAndMajestic: Reset master and majestic level (0=Keep, 1=Reset)  
+// MaxReset: Maximum number of resets allowed
+// KeepPoints: Keep stats points after reset (0=No, 1=Yes)
+// MoveChar: Move character to start point after reset (0=No, 1=Yes)
+// Relog: Require relogin after reset (0=No, 1=Yes)
+// ClearBuffs: Clear all buffs after reset (0=Keep, 1=Clear)
+// ClearParty: Leave party after reset (0=Stay, 1=Leave)
+// MaxPointsTotal: Maximum total stats points after reset (0=Unlimited)
+// FruitReset: Reset fruit points (-1=Never, 0=Always, >0=Reset if exceeds value)
+//
+// Reset Configuration
+// Index: Reset configuration index
+// MinLevelReq: Minimum level required for reset  
+// MinRsTime: Minimum reset count for this configuration 
+// MaxRsTime: Maximum reset count for this configuration  
+// PointsPerRs: Points awarded per reset 
+// ZenRq: Zen requirement  
+// ChaosRq: Chaos jewels requirement 
+// CreRq: Creation jewels requirement 
+// FeatherRq: Feather requirement  
+// RewardBagID: Reward item bag index (-1=No reward)  
+// ContributePoints: Gens contribution points reward  
+// WCoinReward: WCoin reward amount 
+// GoblinPoints: Goblin points (GP) reward  
+// RuudPoints: Ruud points reward  
+// SpecialReward: Special reward index (Awarded at max reset of stage, -1=No reward)
 -->
 
-<ResetSystem Enable="0">
-	<Setting ResetAutoCmd="0" ResetReward="1" ResetLvMasterAndMajestic="0" MaxReset="400" KeepPoints="1" MoveChar="1" Relog="0" />
+
+<ResetSystem Enable="1">
+	<Setting ResetAutoCmd="0" ResetLvMasterAndMajestic="0" MaxReset="50" KeepPoints="1" MoveChar="1" Relog="0" ClearBuffs="1" ClearParty="1" ResetReward="1" MaxPointsTotal="10000" FruitReset="-1"/>
 	
-	<Reset Index="0" MinLevelReq="350" MinRsTime="0" MaxRsTime="1" PointsPerRs="400" ZenRq="1000000" ChaosRq="0" CreRq="0" FeatherRq="0" RewardItemType="0" RewardItemIndex="1" />
-	
+	<ResetTable>
+		<Reset Index="0" MinLevelReq="400" MinRsTime="0" MaxRsTime="5" PointsPerRs="400" ZenRq="1000000" ChaosRq="0" CreRq="0" FeatherRq="0" RewardBagID="900" ContributePoints="5" WCoinReward="50" GoblinPoints="100" Ruud="30" SpecialReward="0" />
+		<Reset Index="1" MinLevelReq="400" MinRsTime="6" MaxRsTime="10" PointsPerRs="400" ZenRq="1000000" ChaosRq="0" CreRq="0" FeatherRq="0" RewardBagID="901" ContributePoints="5" WCoinReward="50" GoblinPoints="100" Ruud="30" SpecialReward="1" />
+		<Reset Index="2" MinLevelReq="400" MinRsTime="11" MaxRsTime="15" PointsPerRs="400" ZenRq="1000000" ChaosRq="0" CreRq="0" FeatherRq="0" RewardBagID="902" ContributePoints="5" WCoinReward="50" GoblinPoints="100" Ruud="30" SpecialReward="2" />
+		<Reset Index="3" MinLevelReq="400" MinRsTime="16" MaxRsTime="50" PointsPerRs="400" ZenRq="1000000" ChaosRq="0" CreRq="0" FeatherRq="0" RewardBagID="903" ContributePoints="5" WCoinReward="50" GoblinPoints="100" Ruud="30" SpecialReward="3" />	
+	</ResetTable>
+
+	<SpecialRewardTable>
+		<Reward Index="0" RewardBagID="1000" ContributePoints="5" WCoinReward="50" GoblinPoints="100" Ruud="30"/>
+		<Reward Index="1" RewardBagID="1001" ContributePoints="5" WCoinReward="50" GoblinPoints="100" Ruud="30"/>
+		<Reward Index="2" RewardBagID="1002" ContributePoints="5" WCoinReward="50" GoblinPoints="100" Ruud="30"/>
+		<Reward Index="3" RewardBagID="1003" ContributePoints="5" WCoinReward="50" GoblinPoints="100" Ruud="30"/>
+	</SpecialRewardTable>
+
 </ResetSystem>

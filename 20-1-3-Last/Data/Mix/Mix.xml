@@ -599,7 +599,7 @@ ItemType
 			<Data ItemMin="6301" ItemMax="6301" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
 			<Data ItemMin="6319" ItemMax="6319" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
 			<Data ItemMin="6567" ItemMax="6567" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
-			<Data ItemMin="6567" ItemMax="6571" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
+			<Data ItemMin="6571" ItemMax="6571" LevelMin="9" LevelMax="255" OptMin="4" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
 		</Group>
 		<Group Index ="2" >
 			<Data ItemMin="6554" ItemMax="6554" LevelMin="0" LevelMax="255" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="0" />
